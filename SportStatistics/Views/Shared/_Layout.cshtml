@@ -3,6 +3,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link href="~/images/icon.png" rel="shortcut icon" type="image/png" />
     <link href="~/Content/Style.css" rel="stylesheet" />
     <title>Sport</title>
 </head>
@@ -10,6 +11,30 @@
     <header class="myHeader">
         <h1 class="title">Header</h1>
     </header>
+    <nav>
+        <ul class="nav-bar">
+            <li class="active"><a>Football:</a></li>
+            <li>
+                <a href="#">Spain</a>
+                <ul>
+                    <li>@Html.ActionLink("La Liga", "Table", "Home", routeValues: new { fed = "Spain", tour = "League" }, htmlAttributes: null)</li>
+                    <li><a href="#">Copa del Rey</a></li>
+                    <li><a href="#">Supercopa de Espana</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">English</a>
+                <ul>
+                    <li><a href="#">Premier League</a></li>
+                    <li><a href="#">League Cup</a></li>
+                    <li><a href="#">FA Cup</a></li>
+                    <li><a href="#">Super Cup</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Champions League</a></li>
+            <li><a href="#">Europe League</a></li>
+        </ul>
+    </nav>
     <section class="section">
         <div>
             @RenderBody()

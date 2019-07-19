@@ -119,6 +119,7 @@
   <ItemGroup>
     <Content Include="Content\Style.css" />
     <Content Include="Global.asax" />
+    <Content Include="images\icon.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
