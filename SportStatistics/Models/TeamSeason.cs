@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace WebApplication1.Models
+namespace SportStatistics.Models
 {
     public class TeamSeason
     {

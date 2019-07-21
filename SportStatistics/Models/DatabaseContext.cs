@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.Entity;
-using WebApplication1.Models.Configuration;
+using SportStatistics.Models.Configuration;
 
 
-namespace WebApplication1.Models
+namespace SportStatistics.Models
 {
     public class DatabaseContext : DbContext
     {
@@ -26,6 +26,18 @@ namespace WebApplication1.Models
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            modelBuilder.Configurations.Add(new PlayerConfig());
+            modelBuilder.Entity<Player>();
+            modelBuilder.Configurations.Add(new PlayerSeasonConfig());
+            modelBuilder.Entity<PlayerSeason>();
+            modelBuilder.Configurations.Add(new MatchConfig());
+            modelBuilder.Entity<Match>();
+            modelBuilder.Configurations.Add(new TeamConfig());
+            modelBuilder.Entity<Team>();
+            modelBuilder.Configurations.Add(new TeamSeasonConfig());
+            modelBuilder.Entity<TeamSeason>();
+            modelBuilder.Configurations.Add(new FederationSeasonConfig());
+            modelBuilder.Entity<FederationSeason>();
             base.OnModelCreating(modelBuilder);                        
         }
     }
