@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Mvc;
 using SportStatistics.Models.ViewModels;
 using SportStatistics.Models.ServiceClasses;
+using System.IO;
+using System.Text;
 
 namespace SportStatistics.Controllers
 {
@@ -209,9 +211,18 @@ namespace SportStatistics.Controllers
         }
 
         [HttpPost]
-        public ActionResult AddData(int? id)
+        public ActionResult AddData(List<HttpPostedFileBase> files)
         {
-            return View();
+            try
+            {
+                new ServiceClasses().Add(files);
+                return View();
+            }
+            catch(Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
     }
 }

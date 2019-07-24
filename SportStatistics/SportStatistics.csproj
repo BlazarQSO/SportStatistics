@@ -157,6 +157,7 @@
     <Compile Include="Models\Match.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\PlayerSeason.cs" />
+    <Compile Include="Models\ServiceClasses\ServiceClasses.cs" />
     <Compile Include="Models\ServiceClasses\ServiceDatabase.cs" />
     <Compile Include="Models\Sport.cs" />
     <Compile Include="Models\SportFederation.cs" />
