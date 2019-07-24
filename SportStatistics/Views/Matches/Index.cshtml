@@ -1,0 +1,178 @@
+﻿@model IEnumerable<SportStatistics.Models.Match>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NameSportString)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NameSport)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Country)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.City)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Season)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TournamentString)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tournament)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NameTournament)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tour)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NameStadium)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HomeTeam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AwayTeam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HomeTeamGoal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AwayTeamGoal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HomeTeamResultString)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HomeTeamResult)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AwayTeamResultString)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AwayTeamResult)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HomeTeamPoint)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AwayTeamPoint)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HomePlayers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AwayPlayers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TimeLine)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TimeLineAway)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NameSportString)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NameSport)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Country)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.City)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Season)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TournamentString)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tournament)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NameTournament)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tour)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NameStadium)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HomeTeam)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AwayTeam)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HomeTeamGoal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AwayTeamGoal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HomeTeamResultString)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HomeTeamResult)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AwayTeamResultString)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AwayTeamResult)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HomeTeamPoint)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AwayTeamPoint)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HomePlayers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AwayPlayers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TimeLine)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TimeLineAway)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MatchId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MatchId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MatchId })
+        </td>
+    </tr>
+}
+
+</table>

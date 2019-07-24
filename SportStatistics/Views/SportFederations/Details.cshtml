@@ -1,0 +1,51 @@
+﻿@model SportStatistics.Models.SportFederation
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SportFederation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Sport.NameSportString)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sport.NameSportString)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Country)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FoundationDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FoundationDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NamePresident)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NamePresident)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SportFederationId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

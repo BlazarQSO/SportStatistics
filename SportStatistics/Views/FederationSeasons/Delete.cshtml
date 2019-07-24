@@ -1,0 +1,65 @@
+﻿@model SportStatistics.Models.FederationSeason
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>FederationSeason</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SportFederation.Country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SportFederation.Country)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TournamentString)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TournamentString)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tournament)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tournament)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NameTournament)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameTournament)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Season)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Season)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

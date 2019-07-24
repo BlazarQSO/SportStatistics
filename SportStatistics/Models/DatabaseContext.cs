@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
-using WebApplication1.Models.Configuration;
+using SportStatistics.Models.Configuration;
 
-namespace WebApplication1.Models
+namespace SportStatistics.Models
 {
     public class DatabaseContext : DbContext
     {

@@ -1,0 +1,155 @@
+﻿@model SportStatistics.Models.TeamSeason
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TeamSeason</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FederationSeason.TournamentString)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FederationSeason.TournamentString)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Team.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Team.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TournamentString)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TournamentString)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tournament)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tournament)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Season)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Season)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Point)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Point)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HomePoint)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HomePoint)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Win)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Win)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HomeWin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HomeWin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Draw)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Draw)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HomeDraw)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HomeDraw)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lose)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lose)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HomeLose)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HomeLose)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Goals)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Goals)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HomeGoals)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HomeGoals)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GoalAgainst)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GoalAgainst)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HomeGoalAgainst)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HomeGoalAgainst)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TeamSeasonId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

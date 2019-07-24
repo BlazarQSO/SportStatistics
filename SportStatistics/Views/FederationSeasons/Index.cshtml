@@ -1,0 +1,58 @@
+﻿@model IEnumerable<SportStatistics.Models.FederationSeason>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SportFederation.Country)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TournamentString)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tournament)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NameTournament)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Season)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SportFederation.Country)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TournamentString)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tournament)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NameTournament)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Season)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.FederationSeasonId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.FederationSeasonId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.FederationSeasonId })
+        </td>
+    </tr>
+}
+
+</table>

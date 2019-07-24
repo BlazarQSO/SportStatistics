@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WebApplication1.Models
+namespace SportStatistics.Models
 {
     public class FederationSeason
     {

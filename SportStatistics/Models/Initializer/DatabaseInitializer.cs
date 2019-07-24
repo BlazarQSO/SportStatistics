@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 
-namespace WebApplication1.Models.Initializer
+namespace SportStatistics.Models.Initializer
 {
     public class DatabaseInitializer : DropCreateDatabaseAlways<DatabaseContext>
     {

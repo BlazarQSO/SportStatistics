@@ -1,0 +1,130 @@
+﻿@model IEnumerable<SportStatistics.Models.TeamSeason>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FederationSeason.TournamentString)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Team.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TournamentString)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tournament)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Season)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Point)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HomePoint)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Win)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HomeWin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Draw)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HomeDraw)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lose)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HomeLose)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Goals)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HomeGoals)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GoalAgainst)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HomeGoalAgainst)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FederationSeason.TournamentString)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Team.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TournamentString)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tournament)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Season)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Point)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HomePoint)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Win)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HomeWin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Draw)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HomeDraw)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lose)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HomeLose)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Goals)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HomeGoals)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GoalAgainst)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HomeGoalAgainst)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.TeamSeasonId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.TeamSeasonId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.TeamSeasonId })
+        </td>
+    </tr>
+}
+
+</table>

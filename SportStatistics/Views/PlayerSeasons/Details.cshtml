@@ -1,0 +1,83 @@
+﻿@model SportStatistics.Models.PlayerSeason
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PlayerSeason</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Player.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Player.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamSeason.TournamentString)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamSeason.TournamentString)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TournamentString)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TournamentString)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tournament)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tournament)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Season)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Season)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GamedMatches)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GamedMatches)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Goals)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Goals)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Assists)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Assists)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PlayerSeasonId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
