@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-namespace SportStatistics.Models.Initializer
+
+namespace WebApplication1.Models.Initializer
 {
     public class DatabaseInitializer : DropCreateDatabaseAlways<DatabaseContext>
     {
@@ -103,7 +104,8 @@ namespace SportStatistics.Models.Initializer
             };
             PlayerSeason playerSeason = new PlayerSeason()
             {
-                PlayerSeasonId = 1,                           
+                PlayerSeasonId = 1,                             
+                TeamSeason = teamSeason,              
                 Player = player,                
                 Tournament = Tournament.League,
                 GamedMatches = 1,
@@ -114,12 +116,14 @@ namespace SportStatistics.Models.Initializer
             Match match = new Match()
             {
                 MatchId = 1,
-                //TeamSeasons = new List<TeamSeason>() { teamSeason2, teamSeason },                
-                //PlayerSeason = playerSeason,  
-                //Country = "Spain",
-                //NameSport = NameSport.Football,
+                TeamSeasons = new List<TeamSeason>() { teamSeason2, teamSeason },                
+                PlayerSeasons = new List<PlayerSeason>() { playerSeason },
+                Country = "Spain",
+                City = "Sevilla",
+                NameSport = NameSport.Football,
                 Season = Season.Nineteenth,
                 Tournament = Tournament.League,
+                NameTournament = "La Liga",
                 Tour = "25",
                 Date = new DateTime(2019, 2, 23, 19, 30, 00),
                 NameStadium = "Ramón Sánchez Pizjuán",
@@ -133,7 +137,8 @@ namespace SportStatistics.Models.Initializer
                 AwayTeamResult = Result.Win,
                 ListHomePlayers = new List<string>() { "Tomás Vaclik", "Gabriel Mercado", "Simon Kjaer", "Sergi Gómez", "Maximilian Wöber", "Jesús Navas", "Éver Banega", "Marko Rog", "Quincy Promes", "Pablo Sarabia", "Wissam Ben Yedder", "Franco Vázquez", "Ibrahim Amadou", "Roque Mesa" },
                 ListAwayPlayers = new List<string>() { "Marc-André ter Stegen", "Nélson Semedo","Samuel Umtiti","Gerard Piqué","Jordi Alba","Arturo Vidal","Ivan Rakitic","Sergio Busquets","Lionel Messi","Luis Suárez","Coutinho","Ousmane Dembélé","Sergi Roberto", "Carles Aleñá" },
-                ListTimeLine = new List<string>() { "A:22:Wissam Ben Yedder", "G:22:Jesús Navas", "A:26:Ivan Rakitic", "G:26:Lionel Messi", "A:42:Pablo Sarabia", "G:42:Gabriel Mercado", "A:67:Ousmane Dembélé", "G:67:Lionel Messi", "G:85:Lionel Messi", "A:90+2:Lionel Messi", "G:90+2:Luis Suárez" }
+                ListTimeLineHome = new List<string>() { "A:22:Wissam Ben Yedder", "G:22:Jesús Navas", "A:42:Pablo Sarabia", "G:42:Gabriel Mercado" },
+                ListTimeLineAway = new List<string>() { "A:26:Ivan Rakitic", "G:26:Lionel Messi", "A:67:Ousmane Dembélé", "G:67:Lionel Messi", "G:85:Lionel Messi", "A:90+2:Lionel Messi", "G:90+2:Luis Suárez" }
             };
                         
             context.Sports.Add(sport);

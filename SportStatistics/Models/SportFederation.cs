@@ -4,13 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace SportStatistics.Models
+namespace WebApplication1.Models
 {
     public class SportFederation
     {
-        public int SportFederationId { get; set; }
-        public int SportId { get; set; }
-        public virtual Sport Sport { get; set; }
+        public int SportFederationId { get; set; }        
 
         [MaxLength(50)]
         [Required(ErrorMessage = "Enter the data")]
@@ -24,7 +22,11 @@ namespace SportStatistics.Models
         [MaxLength(50)]
         [Display(Name = "Enter the name of the President")]
         public string NamePresident { get; set; }
-        public virtual ICollection<Team> Teams { get; set; }
+
+
+        public int SportId { get; set; }
+        public virtual Sport Sport { get; set; }
+        //public virtual ICollection<Team> Teams { get; set; }
         public virtual ICollection<FederationSeason> FederationSeasons { get; set; }
     }
 }

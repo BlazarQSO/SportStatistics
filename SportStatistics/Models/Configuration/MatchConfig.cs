@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity.ModelConfiguration;
 
-namespace SportStatistics.Models.Configuration
+namespace WebApplication1.Models.Configuration
 {
     public class MatchConfig : EntityTypeConfiguration<Match>
     {
@@ -13,8 +13,8 @@ namespace SportStatistics.Models.Configuration
             Property(p => p.TournamentString).HasColumnName("AwayTeamResult");
             Ignore(p => p.AwayTeamResult);
             Property(p => p.TournamentString).HasColumnName("NameSport");
-            //Ignore(p => p.NameSport);
-            //Property(p => p.Country).IsRequired().HasMaxLength(50);
+            Ignore(p => p.NameSport);
+            Property(p => p.Country).IsRequired().HasMaxLength(50);
             Property(p => p.Tour).IsRequired().HasMaxLength(30);
             Property(p => p.Date).IsRequired();
             Property(p => p.NameStadium).IsRequired().HasMaxLength(30);

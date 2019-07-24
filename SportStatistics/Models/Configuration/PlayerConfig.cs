@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity.ModelConfiguration;
 
-namespace SportStatistics.Models.Configuration
+namespace WebApplication1.Models.Configuration
 {
     public class PlayerConfig : EntityTypeConfiguration<Player>
     {

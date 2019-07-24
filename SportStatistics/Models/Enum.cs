@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace SportStatistics.Models
+namespace WebApplication1.Models
 {
     public static class StringExtensions
     {

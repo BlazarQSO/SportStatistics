@@ -12,6 +12,20 @@
     border-bottom: 2px solid black;
 }
 
+.nav {
+    background-color: goldenrod;
+    width: 100%;
+    height: 8%;
+}
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    margin: 0;
+    float:left;
+    width: 150px;
+}
+
 .myFooter {
     background-color: darkgoldenrod;
     width: 100%;
@@ -23,9 +37,16 @@
 .section {
     background-color: antiquewhite;
     width: 100%;
-    height: 70%;    
+    height: 65%;    
     margin: 0;
     overflow: auto;
+}
+.section a:hover {
+    text-decoration: underline;    
+}
+.section a:visited {
+    color: blue; 
+    text-decoration: none;
 }
 
 .title {
@@ -36,7 +57,6 @@
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
-
 
 h1, h2, h3 {
     margin: 0;
@@ -231,3 +251,210 @@ h1, h2, h3 {
 * html .nav-bar {
   height: 1%;
 }
+
+.caret {
+  border-top: 0 dotted;
+  border-bottom: 4px solid #000000;
+  content: "";
+}
+/*-------------------MENU END (layout)---------------------*/
+
+/*-------------------myTable----------------------*/
+.myTable {
+    font-family: "Times New Roman", Times, serif;
+    border: 3px solid #A49E85;
+    background-color: #F7F7DF;    
+    width: 96%;
+    margin-left: 2%;
+    margin-bottom: 40px;
+    text-align: center;
+    border-collapse: collapse;
+}
+    .myTable td, th {
+        border: 2px solid #AA991A;
+        padding: 3px 10px;
+    }
+    .myTable tbody td {
+        font-size: 18px;
+        color: #28A666;
+    }
+    .myTable tr:nth-child(even) {
+        background: #A0F5DB;
+    }
+
+    .myTable tbody tr:hover {
+        background-color: gold;
+    }
+.myTableHeader {
+    background: #A4A187;
+    background: -moz-linear-gradient(top, #bbb8a5 0%, #adaa93 66%, #A4A187 100%);
+    background: -webkit-linear-gradient(top, #bbb8a5 0%, #adaa93 66%, #A4A187 100%);
+    background: linear-gradient(to bottom, #bbb8a5 0%, #adaa93 66%, #A4A187 100%);
+    border-bottom: 2px solid #32442D;
+}
+    .myTableHeader th {
+        font-size: 23px;
+        font-weight: bold;
+        color: #FF1EAA;
+        text-align: center;
+        border-left: 2px solid #A40000;
+    }
+        .myTableHeader th:first-child {
+            border-left: none;
+        }
+
+.myTableFooter {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6B5D27;
+    background: #4beff1;
+    border-top: 3px solid #230C44;
+}
+    .myTableFooter td {
+        font-size: 18px;
+        text-align: center;
+    }
+    .myTableFooter > td {
+        padding-top: 4px;
+    }
+        .myTableFooter > td > a {
+            background-color: #28A453;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 3px 8px;
+            color: #161EFF;
+            outline: none;
+        }
+            .myTableFooter > td > a:hover {
+                background-color: crimson;
+                color: black;
+            }
+.myTableImage {
+    background-size: contain;
+    max-height: 250px;
+}
+.myTable a:hover {
+    text-decoration: underline;    
+}
+.myTable a:visited {
+    color: blue; 
+    text-decoration: none;
+}
+
+/*-----------------------Link-----------------------*/
+a{
+   text-decoration: none;
+}
+
+.link-W, .link-D, .link-L {
+    color: black;
+    background-color: green;
+    border: 1px solid #969696;
+    box-shadow: 1px 1px 1px black, -1px 1px 1px black;    
+    text-decoration: none;        
+    display: block;
+    float: left;
+    width: 22px;   
+}
+
+.link-W:visited, .link-D:visited, .link-L:visited{
+    color: black;
+}
+.link-W:hover, .link-D:hover, .link-L:hover{
+    color: black;
+    border: 1px solid black;
+}
+.link-D {
+    background-color: gray;
+}
+.link-L{
+    background-color: crimson;
+}
+
+.count {
+    float: left;
+    width: 25px;
+    text-align:center;
+}
+
+/*-----------------------Match View-------------------*/
+
+.sectionL {
+    width: 50%;
+    float: left;
+    text-align: right;
+    font-size: 16px;
+    color: blueviolet
+}
+.sectionL label {
+    margin-right: 2%;
+}
+
+.sectionR {
+    width: 50%;
+    float: left;
+    text-align: left;
+    font-size: 16px;
+    color: blueviolet
+}
+.sectionR label {
+    margin-left: 2%;
+}
+
+.half {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.half label {
+    font-size: 26px;
+    color: darkblue;
+}
+
+.mTitle {
+    font-size: 35px;
+    text-align: center;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+.mTitle div {
+    float: left;
+}
+.mTitle div:nth-child(1){
+    width: 20%;
+}
+.mTitle div:nth-child(2){
+    width: 60%;
+}
+.mTitle a {
+    color: darkgoldenrod; 
+}
+.mTitle a:visited {
+    color: darkgoldenrod;
+}
+
+.mInfo {
+    clear: left;
+    text-align: center;
+    font-size: 18px;
+}
+.mInfo a{
+    text-decoration: underline; 
+}
+.mInfo a:visited{
+    text-decoration: underline; 
+}
+
+.mInfo label:nth-child(2n + 1) {
+    color: blue;
+}
+.mInfo label:nth-child(2n) {
+    color: darkred;
+}
+
+.mH {
+    text-align: center;
+    color: brown;
+    font-size: 32px;
+}
+/*---------------------End Match View-------------------*/

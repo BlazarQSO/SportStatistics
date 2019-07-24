@@ -1,34 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
-using System.Web;
 
-namespace SportStatistics.Models
+namespace WebApplication1.Models
 {    
     public class Match
     {
-        public int MatchId { get; set; }
-        public int FederationSeasonId { get; set; }
-        public virtual FederationSeason FederationSeason { get; set; }
-        public int TeamSeasonId { get; set; }
-        public virtual TeamSeason TeamSeason { get; set; }
-        public int PlayerSeasonId { get; set; }
-        public virtual PlayerSeason PlayerSeason { get; set; }
-        public Season Season { get; set; }        
+        public int MatchId { get; set; }        
+        public string NameSportString
+        {
+            get { return NameSport.ToString(); }
+            private set { NameSport = value.ParseEnum<NameSport>(); }
+        }
+        public NameSport NameSport { get; set; }
+        public string Country { get; set; }
+        public string City { get; set; }
+        public Season Season { get; set; }
         public string TournamentString
         {
             get { return Tournament.ToString(); }
             private set { Tournament = value.ParseEnum<Tournament>(); }
         }
         public Tournament Tournament { get; set; }
+        public string NameTournament { get; set; }
         public string Tour { get; set; }
+
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd.MM.yyyy HH:mm}")]
         public DateTime Date { get; set; }
         public string NameStadium { get; set; }        
         public string HomeTeam { get; set; }
         public string AwayTeam { get; set; }
-        public byte HomeTeamGoal { get; set; }
-        public byte AwayTeamGoal { get; set; }
+        public int HomeTeamGoal { get; set; }
+        public int AwayTeamGoal { get; set; }
         public string HomeTeamResultString
         {
             get { return HomeTeamResult.ToString(); }
@@ -44,12 +49,87 @@ namespace SportStatistics.Models
         public Point HomeTeamPoint { get; set; }
         public Point AwayTeamPoint { get; set; }        
         public List<string> ListHomePlayers { get; set; }
+        public string HomePlayers
+        {
+            get
+            {
+                return string.Join(",", ListHomePlayers);
+            }
+            set
+            {
+                ListHomePlayers = value.Split(',').ToList();
+            }
+        }
         public List<string> ListAwayPlayers { get; set; }
-        public List<string> ListTimeLine { get; set; }        
+        public string AwayPlayers
+        {
+            get
+            {
+                return string.Join(",", ListAwayPlayers);
+            }
+            set
+            {
+                ListAwayPlayers = value.Split(',').ToList();
+            }
+        }
+        public List<string> ListTimeLineHome { get; set; }        
         public string TimeLine
         {
-            get { return string.Join(",", ListTimeLine); }
-            set { ListTimeLine = value.Split(',').ToList(); }
+            get
+            {
+                if (ListTimeLineHome != null)
+                {
+                    return string.Join(",", ListTimeLineHome);
+                }
+                else
+                {
+                    return "";
+                }
+            }
+            set
+            {
+                if (value != "")
+                {
+                    ListTimeLineHome = value.Split(',').ToList();
+                }
+                else
+                {
+                    ListTimeLineHome = null;
+                }
+            }
         }
+        public List<string> ListTimeLineAway { get; set; }
+        public string TimeLineAway
+        {
+            get
+            {
+                if (ListTimeLineAway != null)
+                {
+                    return string.Join(",", ListTimeLineAway);
+                }
+                else
+                {
+                    return "";
+                }
+            }
+            set
+            {
+                if (value != "")
+                {
+                    ListTimeLineAway = value.Split(',').ToList();
+                }
+                else
+                {
+                    ListTimeLineAway = null;
+                }
+            }
+        }
+        public virtual ICollection<TeamSeason> TeamSeasons { get; set; }
+        //public virtual ICollection<Player> Players { get; set; }
+        //public virtual TeamSeason TeamSeasonHome { get; set; }
+        //public virtual TeamSeason TeamSeasonAway { get; set; }
+        //public int FederationSeasonId { get; set; }
+        //public virtual FederationSeason FederationSeason { get; set; }                
+        public virtual ICollection<PlayerSeason> PlayerSeasons { get; set; }
     }
 }
