@@ -458,3 +458,17 @@ a{
     font-size: 32px;
 }
 /*---------------------End Match View-------------------*/
+
+/*----------------------Add Data View-------------------*/
+
+.add-obj {
+    font-size: 20px;    
+    margin-top: 30px;
+    border-bottom: 2px solid black;
+    width: 60%;
+    margin-left: 20%;
+    border-bottom-color: darkgreen;
+    padding-bottom: 5px;
+}
+
+/*--------------------End Add Data View-------------------*/

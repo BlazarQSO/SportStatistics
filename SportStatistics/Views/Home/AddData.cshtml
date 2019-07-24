@@ -4,5 +4,70 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>AddData</h2>
+<h2>Add Data</h2>
+@using (Html.BeginForm("AddData", "Home", FormMethod.Post))
+{ 
+    <div>
+        <div class="half">
+            <div class="add-obj">
+                @Html.Label("Add a sport")
+                <div>
+                    @Html.ActionLink("Create", "Create", "Sports")
+                    @Html.Label(" | ")
+                    @Html.ActionLink("Show", "Index", "Sports")
+                </div>
+            </div>
+            <div class="add-obj">
+                @Html.Label("Add a sport federation")
+                <div>
+                    @Html.ActionLink("Create", "Create", "SportFederations")
+                    @Html.Label(" | ")
+                    @Html.ActionLink("Show", "Index", "SportFederations")
+                </div>
+                <div>
+                    <input type="file" />
+                    <button>Add</button>
+                </div>
+            </div>
+            <div class="add-obj">
+                @Html.Label("Add a player")
+                <div>
+                    @Html.ActionLink("Create", "Create", "Players")
+                    @Html.Label(" | ")
+                    @Html.ActionLink("Show", "Index", "Players")
+                </div>
+                <div>
+                    <input type="file" />
+                    <button>Add</button>
+                </div>
+            </div>
+        </div>
+        <div class="half">
+            <div class="add-obj">
+                @Html.Label("Add a play season  of the Federation")
+                <div>
+                    @Html.ActionLink("Create", "Create", "FederationSeasons")
+                    @Html.Label(" | ")
+                    @Html.ActionLink("Show", "Index", "FederationSeasons")
+                </div>
+                <div>
+                    <input type="file" />
+                    <button>Add</button>
+                </div>
+            </div>
+            <div class="add-obj">
+                @Html.Label("Add a match")
+                <div>
+                    @Html.ActionLink("Create", "Create", "Matches")
+                    @Html.Label(" | ")
+                    @Html.ActionLink("Show", "Index", "Matches")
+                </div>
+                <div>
+                    <input type="file" />
+                    <button>Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
 

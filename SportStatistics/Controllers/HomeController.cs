@@ -207,5 +207,11 @@ namespace SportStatistics.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult AddData(int? id)
+        {
+            return View();
+        }
     }
 }
