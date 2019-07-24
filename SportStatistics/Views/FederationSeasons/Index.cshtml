@@ -16,6 +16,9 @@
             @Html.DisplayNameFor(model => model.SportFederation.Country)
         </th>
         <th>
+            @Html.DisplayNameFor(model => model.NameSport)
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.TournamentString)
         </th>
         <th>
@@ -34,6 +37,9 @@
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.SportFederation.Country)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NameSport)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.TournamentString)

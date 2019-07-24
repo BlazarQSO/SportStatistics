@@ -46,7 +46,7 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "TeamId,Name,Country,City,NameStadium,FoundationDate")] Team team)
+        public ActionResult Create([Bind(Include = "TeamId,NameSport,Name,Country,City,NameStadium,FoundationDate")] Team team)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "TeamId,Name,Country,City,NameStadium,FoundationDate")] Team team)
+        public ActionResult Edit([Bind(Include = "TeamId,NameSport,Name,Country,City,NameStadium,FoundationDate")] Team team)
         {
             if (ModelState.IsValid)
             {

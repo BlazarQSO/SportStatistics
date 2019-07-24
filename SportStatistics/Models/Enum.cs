@@ -20,16 +20,6 @@ namespace SportStatistics.Models
         Draw,
         Lose
     }
-
-    public enum Point
-    {
-        [Display(Name = "0")]
-        Zero = 0,
-        [Display(Name = "1")]
-        One = 1,
-        [Display(Name = "3")]
-        Tree = 3
-    }
     
     public enum Position
     {

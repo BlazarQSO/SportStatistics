@@ -179,26 +179,11 @@
     </Content>
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Players\Create.cshtml" />
-    <Content Include="Views\Players\Delete.cshtml" />
-    <Content Include="Views\Players\Details.cshtml" />
-    <Content Include="Views\Players\Edit.cshtml" />
-    <Content Include="Views\Players\Index.cshtml" />
     <Content Include="Views\PlayerSeasons\Create.cshtml" />
     <Content Include="Views\PlayerSeasons\Delete.cshtml" />
     <Content Include="Views\PlayerSeasons\Details.cshtml" />
     <Content Include="Views\PlayerSeasons\Edit.cshtml" />
     <Content Include="Views\PlayerSeasons\Index.cshtml" />
-    <Content Include="Views\Matches\Create.cshtml" />
-    <Content Include="Views\Matches\Delete.cshtml" />
-    <Content Include="Views\Matches\Details.cshtml" />
-    <Content Include="Views\Matches\Edit.cshtml" />
-    <Content Include="Views\Matches\Index.cshtml" />
-    <Content Include="Views\Teams\Create.cshtml" />
-    <Content Include="Views\Teams\Delete.cshtml" />
-    <Content Include="Views\Teams\Details.cshtml" />
-    <Content Include="Views\Teams\Edit.cshtml" />
-    <Content Include="Views\Teams\Index.cshtml" />
     <Content Include="Views\TeamSeasons\Create.cshtml" />
     <Content Include="Views\TeamSeasons\Delete.cshtml" />
     <Content Include="Views\TeamSeasons\Details.cshtml" />
@@ -209,11 +194,6 @@
     <Content Include="Views\SportFederations\Details.cshtml" />
     <Content Include="Views\SportFederations\Edit.cshtml" />
     <Content Include="Views\SportFederations\Index.cshtml" />
-    <Content Include="Views\FederationSeasons\Create.cshtml" />
-    <Content Include="Views\FederationSeasons\Delete.cshtml" />
-    <Content Include="Views\FederationSeasons\Details.cshtml" />
-    <Content Include="Views\FederationSeasons\Edit.cshtml" />
-    <Content Include="Views\FederationSeasons\Index.cshtml" />
     <Content Include="Views\Sports\Create.cshtml" />
     <Content Include="Views\Sports\Delete.cshtml" />
     <Content Include="Views\Sports\Details.cshtml" />
@@ -229,6 +209,26 @@
     <Content Include="Views\Home\Standings.cshtml" />
     <Content Include="Views\Home\Team.cshtml" />
     <Content Include="Views\Home\Winners.cshtml" />
+    <Content Include="Views\Teams\Create.cshtml" />
+    <Content Include="Views\Teams\Delete.cshtml" />
+    <Content Include="Views\Teams\Details.cshtml" />
+    <Content Include="Views\Teams\Edit.cshtml" />
+    <Content Include="Views\Teams\Index.cshtml" />
+    <Content Include="Views\Players\Create.cshtml" />
+    <Content Include="Views\Players\Delete.cshtml" />
+    <Content Include="Views\Players\Details.cshtml" />
+    <Content Include="Views\Players\Edit.cshtml" />
+    <Content Include="Views\Players\Index.cshtml" />
+    <Content Include="Views\Matches\Create.cshtml" />
+    <Content Include="Views\Matches\Delete.cshtml" />
+    <Content Include="Views\Matches\Details.cshtml" />
+    <Content Include="Views\Matches\Edit.cshtml" />
+    <Content Include="Views\Matches\Index.cshtml" />
+    <Content Include="Views\FederationSeasons\Create.cshtml" />
+    <Content Include="Views\FederationSeasons\Delete.cshtml" />
+    <Content Include="Views\FederationSeasons\Details.cshtml" />
+    <Content Include="Views\FederationSeasons\Edit.cshtml" />
+    <Content Include="Views\FederationSeasons\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

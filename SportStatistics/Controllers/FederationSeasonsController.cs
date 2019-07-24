@@ -48,7 +48,7 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "FederationSeasonId,TournamentString,Tournament,NameTournament,Season,SportFederationId")] FederationSeason federationSeason)
+        public ActionResult Create([Bind(Include = "FederationSeasonId,NameSport,TournamentString,Tournament,NameTournament,Season,SportFederationId")] FederationSeason federationSeason)
         {
             if (ModelState.IsValid)
             {
@@ -82,7 +82,7 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "FederationSeasonId,TournamentString,Tournament,NameTournament,Season,SportFederationId")] FederationSeason federationSeason)
+        public ActionResult Edit([Bind(Include = "FederationSeasonId,NameSport,TournamentString,Tournament,NameTournament,Season,SportFederationId")] FederationSeason federationSeason)
         {
             if (ModelState.IsValid)
             {

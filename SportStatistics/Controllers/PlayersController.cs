@@ -46,7 +46,7 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "PlayerId,Name,Surname,Birthday,Age,Nationality,Weight,Height,PositionString,Position")] Player player)
+        public ActionResult Create([Bind(Include = "PlayerId,NameSport,Name,Surname,Birthday,Age,Nationality,Weight,Height,PositionString,Position")] Player player)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "PlayerId,Name,Surname,Birthday,Age,Nationality,Weight,Height,PositionString,Position")] Player player)
+        public ActionResult Edit([Bind(Include = "PlayerId,NameSport,Name,Surname,Birthday,Age,Nationality,Weight,Height,PositionString,Position")] Player player)
         {
             if (ModelState.IsValid)
             {

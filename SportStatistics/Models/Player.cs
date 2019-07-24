@@ -5,9 +5,9 @@ using System.ComponentModel.DataAnnotations;
 namespace SportStatistics.Models
 {
     public class Player
-    {
-        // @String.Format("{0:d}", item.Birthday)
+    {        
         public int PlayerId { get; set; }
+        public NameSport NameSport { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
 

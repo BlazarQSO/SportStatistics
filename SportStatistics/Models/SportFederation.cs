@@ -25,8 +25,7 @@ namespace SportStatistics.Models
 
 
         public int SportId { get; set; }
-        public virtual Sport Sport { get; set; }
-        //public virtual ICollection<Team> Teams { get; set; }
+        public virtual Sport Sport { get; set; }        
         public virtual ICollection<FederationSeason> FederationSeasons { get; set; }
     }
 }

@@ -46,8 +46,8 @@ namespace SportStatistics.Models
             private set { AwayTeamResult = value.ParseEnum<Result>(); }
         }
         public Result AwayTeamResult { get; set; }
-        public Point HomeTeamPoint { get; set; }
-        public Point AwayTeamPoint { get; set; }        
+        public int HomeTeamPoint { get; set; }
+        public int AwayTeamPoint { get; set; }        
         public List<string> ListHomePlayers { get; set; }
         public string HomePlayers
         {
@@ -124,12 +124,7 @@ namespace SportStatistics.Models
                 }
             }
         }
-        public virtual ICollection<TeamSeason> TeamSeasons { get; set; }
-        //public virtual ICollection<Player> Players { get; set; }
-        //public virtual TeamSeason TeamSeasonHome { get; set; }
-        //public virtual TeamSeason TeamSeasonAway { get; set; }
-        //public int FederationSeasonId { get; set; }
-        //public virtual FederationSeason FederationSeason { get; set; }                
+        public virtual ICollection<TeamSeason> TeamSeasons { get; set; }                     
         public virtual ICollection<PlayerSeason> PlayerSeasons { get; set; }
     }
 }
