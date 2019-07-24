@@ -1,0 +1,71 @@
+﻿@model List<SportStatistics.Models.ViewModels.Winner>
+@{
+    ViewBag.Title = "Scorers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var grid = new WebGrid(source: Model, defaultSort: "Season", rowsPerPage: 5, ajaxUpdateContainerId: "webGrid");
+    grid.SortDirection = SortDirection.Descending;
+}
+
+<section>
+    <h1>Winners</h1>
+    <div>
+        <div class="form-group">
+            @Html.LabelFor(model => model[0].Season, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EnumDropDownListFor(model => model[0].Season, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model[0].Season, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <button>Ok</button>
+    </div>
+    <div>
+        <label>Standings:</label>
+        @Html.ActionLink("Overall", "Standings", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
+        @Html.ActionLink("Home", "StandingsHome", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
+        @Html.ActionLink("Away", "StandingsAway", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
+    </div>
+    <div>
+        <label>Progress:</label>
+        @Html.ActionLink("Overall", "Progress", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
+        @Html.ActionLink("Home", "ProgressHome", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
+        @Html.ActionLink("Away", "ProgressAway", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
+    </div>
+    <div>
+        <label>This season:</label>
+        @Html.ActionLink("Scorers", "Scorers", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
+        @Html.ActionLink("Result", "Result", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
+    </div>
+    <div>
+        <label>Archive:</label>
+        @Html.ActionLink("Winners", "Winners", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
+        @Html.ActionLink("Scorers", "ArchScorers", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
+    </div>
+    <div id="webGrid">
+        @grid.GetHtml(
+    tableStyle: "myTable",
+    headerStyle: "myTableHeader",
+    footerStyle: "myTableFooter",
+    columns: grid.Columns(
+            grid.Column(header: "Season", format:
+            @<text>
+                @{
+                    string name = (int)Model[0].Season + "/" + (int)(++Model[0].Season);
+                }
+                @name
+            </text>
+            ),
+            grid.Column("Name", format:
+            @<text>
+                @{string name = item.TeamName; }
+                @Html.ActionLink(name, "Team", "Home", routeValues:
+                            new { fedSeason = Model[0].FederationSeasonId, TeamId = item.TeamId },
+                            htmlAttributes: null)
+            </text>)
+        )
+    )
+    </div>
+</section>
+
+
+

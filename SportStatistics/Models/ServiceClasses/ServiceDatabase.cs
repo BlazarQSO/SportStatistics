@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.Entity;
-using WebApplication1.Models.ViewModels;
+using SportStatistics.Models.ViewModels;
 
-namespace WebApplication1.Models.ServiceClasses
+namespace SportStatistics.Models.ServiceClasses
 {
     public class ServiceDatabase
     {

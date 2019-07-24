@@ -1,0 +1,96 @@
+﻿@model SportStatistics.Models.ViewModels.ShowPlayer
+@{
+    ViewBag.Title = "Player";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var grid = new WebGrid(source: Model.Game, defaultSort: "Date", rowsPerPage: 20, ajaxUpdateContainerId: "webGrid");
+    grid.SortDirection = SortDirection.Descending;
+    var grid2 = new WebGrid(source: Model.AllGame, defaultSort: "Total", rowsPerPage: 20, ajaxUpdateContainerId: "webGrid2");
+    int p = 0;
+    int g = 0;
+    int a = 0;
+}
+
+<section>
+    <h2>@Model.Player.Name @Model.Player.Surname</h2>
+    <h3>Nationality: @Model.Player.Nationality</h3>
+    <h3>Brithday: @Model.Player.Birthday</h3>
+    <h3>Age: @Model.Player.Age</h3>
+    <h3>Height: @Model.Player.Height</h3>
+    <h3>Weight: @Model.Player.Weight</h3>
+    <h3>Position: @Model.Player.Position</h3>
+
+            <div id="webGrid">
+                @grid.GetHtml(
+        tableStyle: "myTable",
+        headerStyle: "myTableHeader",
+        footerStyle: "myTableFooter",
+        columns: grid.Columns(
+                grid.Column("Date", format: model => model.Date.ToString("dd-MM-yyyy HH:mm")),
+                grid.Column("Tournament", format:
+                @<text>
+                @{string name = item.Tournament.ToString(); }
+                @Html.ActionLink(name, "Standings", "Home", routeValues:
+                                              new { fedSeason = Model.FederationSeasonId },
+                                              htmlAttributes: null)
+                </text>),
+                grid.Column("Name", format:
+                @<text>
+                @{string name = item.ResultMatch; }
+                @Html.ActionLink(name, "Match", "Home", routeValues:
+                                              new { MatchId = item.MatchId },
+                                              htmlAttributes: null)
+                </text>),
+                grid.Column(header: "Goals", format: model => model.GoalsInGame),
+                grid.Column(header: "Assists", format: model => model.AssistsInGame),
+                grid.Column(header: "G + A", format: model => model.GsummA)
+            )
+        )
+                @{
+                    foreach (var item in Model.Game)
+                    {
+                        p++;
+                        g += item.GoalsInGame;
+                        a += item.AssistsInGame;
+                    }
+                }
+    </div>
+    <label>Total: games - @p, goals - @g, assists - @a</label>
+    <br />
+
+    <div id="webGrid2">
+        @grid2.GetHtml(
+tableStyle: "myTable",
+headerStyle: "myTableHeader",
+footerStyle: "myTableFooter",
+columns: grid.Columns(
+      grid.Column("Tournament", format:
+    @<text>
+        @{string name = item.Tournament.ToString(); }
+        @Html.ActionLink(name, "Standings", "Home", routeValues:
+                                      new { fedSeason = Model.FederationSeasonId },
+                                      htmlAttributes: null)
+    </text>),
+      grid.Column(header: "Total Games", format: model => model.TotalGames),
+      grid.Column(header: "Total Goals", format: model => model.TotalGoals),
+      grid.Column(header: "Total Assists", format: model => model.TotalAssists),
+      grid.Column(header: "G + A", format: model => model.GsummA)
+  )
+)
+        @{
+            a = 0; g = 0; p = 0;
+            foreach (var item in Model.AllGame)
+            {
+                p += item.TotalGames;
+                g += item.TotalGoals;
+                a += item.TotalAssists;
+            }
+        }
+    </div>    
+    <label>Total: games - @p, goals - @g, assists - @a</label>
+</section>
+
+
+
+
+

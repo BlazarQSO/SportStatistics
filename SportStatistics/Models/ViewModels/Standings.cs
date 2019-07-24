@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace WebApplication1.Models.ViewModels
+namespace SportStatistics.Models.ViewModels
 {
     public class Form
     {        

@@ -157,10 +157,18 @@
     <Compile Include="Models\Match.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\PlayerSeason.cs" />
+    <Compile Include="Models\ServiceClasses\ServiceDatabase.cs" />
     <Compile Include="Models\Sport.cs" />
     <Compile Include="Models\SportFederation.cs" />
     <Compile Include="Models\Team.cs" />
     <Compile Include="Models\TeamSeason.cs" />
+    <Compile Include="Models\ViewModels\Progress.cs" />
+    <Compile Include="Models\ViewModels\Scorer.cs" />
+    <Compile Include="Models\ViewModels\ShowMatch.cs" />
+    <Compile Include="Models\ViewModels\ShowPlayer.cs" />
+    <Compile Include="Models\ViewModels\ShowTeam.cs" />
+    <Compile Include="Models\ViewModels\Standings.cs" />
+    <Compile Include="Models\ViewModels\Winner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -211,6 +219,16 @@
     <Content Include="Views\Sports\Details.cshtml" />
     <Content Include="Views\Sports\Edit.cshtml" />
     <Content Include="Views\Sports\Index.cshtml" />
+    <Content Include="Views\Home\AddData.cshtml" />
+    <Content Include="Views\Home\ArchScorers.cshtml" />
+    <Content Include="Views\Home\Match.cshtml" />
+    <Content Include="Views\Home\Player.cshtml" />
+    <Content Include="Views\Home\Progress.cshtml" />
+    <Content Include="Views\Home\Result.cshtml" />
+    <Content Include="Views\Home\Scorers.cshtml" />
+    <Content Include="Views\Home\Standings.cshtml" />
+    <Content Include="Views\Home\Team.cshtml" />
+    <Content Include="Views\Home\Winners.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace WebApplication1.Models.ViewModels
+namespace SportStatistics.Models.ViewModels
 {
     public class Winner
     {
