@@ -22,7 +22,7 @@ namespace SportStatistics.Models.ViewModels
 
     public class PlayedGame
     {
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
         public Tournament Tournament { get; set; }
         public int MatchId { get; set; }
         public string ResultMatch { get; set; }

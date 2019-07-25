@@ -39,8 +39,8 @@ namespace SportStatistics.Controllers
         // GET: TeamSeasons/Create
         public ActionResult Create()
         {
-            ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "TournamentString");
-            ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "Name");
+            ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "NameSportString");
+            ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "NameSportString");
             return View();
         }
 
@@ -49,7 +49,7 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "TeamSeasonId,TournamentString,Tournament,Season,Point,HomePoint,Win,HomeWin,Draw,HomeDraw,Lose,HomeLose,Goals,HomeGoals,GoalAgainst,HomeGoalAgainst,TeamId,FederationSeasonId")] TeamSeason teamSeason)
+        public ActionResult Create([Bind(Include = "TeamSeasonId,NameSportString,TournamentString,Tournament,Season,Point,HomePoint,Win,HomeWin,Draw,HomeDraw,Lose,HomeLose,Goals,HomeGoals,GoalAgainst,HomeGoalAgainst,TeamId,FederationSeasonId")] TeamSeason teamSeason)
         {
             if (ModelState.IsValid)
             {
@@ -58,8 +58,8 @@ namespace SportStatistics.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "TournamentString", teamSeason.FederationSeasonId);
-            ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "Name", teamSeason.TeamId);
+            ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "NameSportString", teamSeason.FederationSeasonId);
+            ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "NameSportString", teamSeason.TeamId);
             return View(teamSeason);
         }
 
@@ -75,8 +75,8 @@ namespace SportStatistics.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "TournamentString", teamSeason.FederationSeasonId);
-            ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "Name", teamSeason.TeamId);
+            ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "NameSportString", teamSeason.FederationSeasonId);
+            ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "NameSportString", teamSeason.TeamId);
             return View(teamSeason);
         }
 
@@ -85,7 +85,7 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "TeamSeasonId,TournamentString,Tournament,Season,Point,HomePoint,Win,HomeWin,Draw,HomeDraw,Lose,HomeLose,Goals,HomeGoals,GoalAgainst,HomeGoalAgainst,TeamId,FederationSeasonId")] TeamSeason teamSeason)
+        public ActionResult Edit([Bind(Include = "TeamSeasonId,NameSportString,TournamentString,Tournament,Season,Point,HomePoint,Win,HomeWin,Draw,HomeDraw,Lose,HomeLose,Goals,HomeGoals,GoalAgainst,HomeGoalAgainst,TeamId,FederationSeasonId")] TeamSeason teamSeason)
         {
             if (ModelState.IsValid)
             {
@@ -93,8 +93,8 @@ namespace SportStatistics.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "TournamentString", teamSeason.FederationSeasonId);
-            ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "Name", teamSeason.TeamId);
+            ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "NameSportString", teamSeason.FederationSeasonId);
+            ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "NameSportString", teamSeason.TeamId);
             return View(teamSeason);
         }
 

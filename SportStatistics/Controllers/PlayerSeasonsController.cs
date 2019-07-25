@@ -39,8 +39,8 @@ namespace SportStatistics.Controllers
         // GET: PlayerSeasons/Create
         public ActionResult Create()
         {
-            ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "Name");
-            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "TournamentString");
+            ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString");
+            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameSportString");
             return View();
         }
 
@@ -58,8 +58,8 @@ namespace SportStatistics.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "Name", playerSeason.PlayerId);
-            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "TournamentString", playerSeason.TeamSeasonId);
+            ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString", playerSeason.PlayerId);
+            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameSportString", playerSeason.TeamSeasonId);
             return View(playerSeason);
         }
 
@@ -75,8 +75,8 @@ namespace SportStatistics.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "Name", playerSeason.PlayerId);
-            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "TournamentString", playerSeason.TeamSeasonId);
+            ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString", playerSeason.PlayerId);
+            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameSportString", playerSeason.TeamSeasonId);
             return View(playerSeason);
         }
 
@@ -93,8 +93,8 @@ namespace SportStatistics.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "Name", playerSeason.PlayerId);
-            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "TournamentString", playerSeason.TeamSeasonId);
+            ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString", playerSeason.PlayerId);
+            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameSportString", playerSeason.TeamSeasonId);
             return View(playerSeason);
         }
 

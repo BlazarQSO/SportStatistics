@@ -1,18 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SportStatistics.Models
 {
     public class Player
     {        
         public int PlayerId { get; set; }
+
+        [Column("NameSport")]
+        public string NameSportString
+        {
+            get { return NameSport.ToString(); }
+            private set { NameSport = value.ParseEnum<NameSport>(); }
+        }
+
+        [NotMapped]        
         public NameSport NameSport { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
-
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd.MM.yyyy}")]
-        public DateTime Birthday { get; set; }
+        public string Birthday { get; set; }
         public int Age { get; set; }
         public string Nationality { get; set; }
         public int Weight { get; set; }

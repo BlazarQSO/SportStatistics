@@ -15,7 +15,7 @@ namespace SportStatistics.Models.ViewModels
         public Tournament Tournament { get; set; }
         public string NameTournament { get; set; }
         public string Tour { get; set; }
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
         public string NameStadium { get; set; }
         public string HomeTeam { get; set; }
         public string AwayTeam { get; set; }

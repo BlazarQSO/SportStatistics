@@ -26,9 +26,7 @@ namespace SportStatistics.Models
         public Tournament Tournament { get; set; }
         public string NameTournament { get; set; }
         public string Tour { get; set; }
-
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd.MM.yyyy HH:mm}")]
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
         public string NameStadium { get; set; }        
         public string HomeTeam { get; set; }
         public string AwayTeam { get; set; }
@@ -73,7 +71,7 @@ namespace SportStatistics.Models
             }
         }
         public List<string> ListTimeLineHome { get; set; }        
-        public string TimeLine
+        public string TimeLineHome
         {
             get
             {

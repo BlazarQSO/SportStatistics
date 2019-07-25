@@ -18,7 +18,7 @@ namespace SportStatistics.Models.Initializer
                 SportFederationId = 1,                
                 Sport = sport,
                 Country = "Spain",
-                FoundationDate = new DateTime(1913, 9, 29),
+                FoundationDate = "29-09-1913",
                 NamePresident = "Luis Manuel Rubiales",
             };
             FederationSeason federationSeason = new FederationSeason()
@@ -37,7 +37,7 @@ namespace SportStatistics.Models.Initializer
                 Country = "Spain",
                 City = "Barcelona",
                 Name = "Barcelona",
-                FoundationDate = new DateTime(1899, 10, 29),
+                FoundationDate = "29-10-1899",
                 NameStadium = "Camp Nou",                
             };
             TeamSeason teamSeason = new TeamSeason()
@@ -67,7 +67,7 @@ namespace SportStatistics.Models.Initializer
                 Country = "Spain",
                 City = "Sevilla",
                 Name = "Sevilla",
-                FoundationDate = new DateTime(1890, 1, 25),
+                FoundationDate = "25-01-1890",
                 NameStadium = "Camp Nou",
             };
             TeamSeason teamSeason2 = new TeamSeason()
@@ -95,7 +95,7 @@ namespace SportStatistics.Models.Initializer
                 PlayerId = 1,
                 Name = "Lionel",
                 Surname = "Messi",
-                Birthday = new DateTime(1987, 6, 24),
+                Birthday = "24-06-1987",
                 Age = 32,
                 Nationality = "Argentina",
                 Position = Position.Forward,
@@ -125,7 +125,7 @@ namespace SportStatistics.Models.Initializer
                 Tournament = Tournament.League,
                 NameTournament = "La Liga",
                 Tour = "25",
-                Date = new DateTime(2019, 2, 23, 19, 30, 00),
+                Date = "23-02-2019 19:30",
                 NameStadium = "Ramón Sánchez Pizjuán",
                 HomeTeam = "Sevilla",
                 HomeTeamGoal = 2,

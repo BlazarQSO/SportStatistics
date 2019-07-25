@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SportStatistics.Models
 {
     public class PlayerSeason
     {
-        public int PlayerSeasonId { get; set; }        
+        public int PlayerSeasonId { get; set; }
         public string TournamentString
         {
             get { return Tournament.ToString(); }
@@ -15,7 +16,7 @@ namespace SportStatistics.Models
         public int GamedMatches { get; set; }
         public int Goals { get; set; }
         public int Assists { get; set; }
-        
+                
         public int PlayerId { get; set; }
         public virtual Player Player { get; set; }
         public int TeamSeasonId { get; set; }

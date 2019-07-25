@@ -46,7 +46,7 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "MatchId,NameSportString,NameSport,Country,City,Season,TournamentString,Tournament,NameTournament,Tour,Date,NameStadium,HomeTeam,AwayTeam,HomeTeamGoal,AwayTeamGoal,HomeTeamResultString,HomeTeamResult,AwayTeamResultString,AwayTeamResult,HomeTeamPoint,AwayTeamPoint,HomePlayers,AwayPlayers,TimeLine,TimeLineAway")] Match match)
+        public ActionResult Create([Bind(Include = "MatchId,NameSportString,NameSport,Country,City,Season,TournamentString,Tournament,NameTournament,Tour,Date,NameStadium,HomeTeam,AwayTeam,HomeTeamGoal,AwayTeamGoal,HomeTeamResultString,HomeTeamResult,AwayTeamResultString,AwayTeamResult,HomeTeamPoint,AwayTeamPoint,HomePlayers,AwayPlayers,TimeLineHome,TimeLineAway")] Match match)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "MatchId,NameSportString,NameSport,Country,City,Season,TournamentString,Tournament,NameTournament,Tour,Date,NameStadium,HomeTeam,AwayTeam,HomeTeamGoal,AwayTeamGoal,HomeTeamResultString,HomeTeamResult,AwayTeamResultString,AwayTeamResult,HomeTeamPoint,AwayTeamPoint,HomePlayers,AwayPlayers,TimeLine,TimeLineAway")] Match match)
+        public ActionResult Edit([Bind(Include = "MatchId,NameSportString,NameSport,Country,City,Season,TournamentString,Tournament,NameTournament,Tour,Date,NameStadium,HomeTeam,AwayTeam,HomeTeamGoal,AwayTeamGoal,HomeTeamResultString,HomeTeamResult,AwayTeamResultString,AwayTeamResult,HomeTeamPoint,AwayTeamPoint,HomePlayers,AwayPlayers,TimeLineHome,TimeLineAway")] Match match)
         {
             if (ModelState.IsValid)
             {
