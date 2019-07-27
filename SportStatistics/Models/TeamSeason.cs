@@ -10,6 +10,7 @@ namespace SportStatistics.Models
     public class TeamSeason
     {
         public int TeamSeasonId { get; set; }
+		public string NameTeam { get; set; }
 
         [Column("NameSport")]
         public string NameSportString
@@ -27,7 +28,9 @@ namespace SportStatistics.Models
         }
         public Tournament Tournament { get; set; }
         public Season Season { get; set; }        
-        public int Point { get; set; }
+		public int Played { get; set; }
+		public int HomePlayed { get; set; }
+        public int Point { get; set; }		
         public int HomePoint { get; set; }
         public int Win { get; set; }
         public int HomeWin { get; set; }

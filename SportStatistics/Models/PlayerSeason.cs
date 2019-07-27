@@ -6,6 +6,16 @@ namespace SportStatistics.Models
     public class PlayerSeason
     {
         public int PlayerSeasonId { get; set; }
+		
+		[Column("NameSport")]
+        public string NameSportString
+        {
+            get { return NameSport.ToString(); }
+            private set { NameSport = value.ParseEnum<NameSport>(); }
+        }
+
+        [NotMapped]        
+        public NameSport NameSport { get; set; }
         public string TournamentString
         {
             get { return Tournament.ToString(); }
