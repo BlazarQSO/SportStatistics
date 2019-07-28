@@ -8,11 +8,13 @@ namespace SportStatistics.Models.Initializer
     {
         protected override void Seed(DatabaseContext context)
         {
+            
             Sport sport = new Sport()
             {
                 SportId = 1,
                 NameSport = NameSport.Football,
             };
+            /*
             SportFederation sportFederation = new SportFederation()
             {
                 SportFederationId = 1,                
@@ -141,7 +143,7 @@ namespace SportStatistics.Models.Initializer
                 ListTimeLineAway = new List<string>() { "A:26:Ivan Rakitic", "G:26:Lionel Messi", "A:67:Ousmane Dembélé", "G:67:Lionel Messi", "G:85:Lionel Messi", "A:90+2:Lionel Messi", "G:90+2:Luis Suárez" }
             };
                         
-            context.Sports.Add(sport);
+            
             context.SportFederation.Add(sportFederation);
             context.FederationSeasons.Add(federationSeason);            
             context.Teams.Add(team);
@@ -151,8 +153,9 @@ namespace SportStatistics.Models.Initializer
             context.Matches.Add(match);
             context.Players.Add(player);
             context.PlayerSeasons.Add(playerSeason);
-
-            base.Seed(context);
+            */
+            context.Sports.Add(sport);
+            base.Seed(context);            
         }
     }
 }

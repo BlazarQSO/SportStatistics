@@ -10,7 +10,7 @@ namespace SportStatistics.Models.ServiceClasses
     public class ServiceDatabase
     {
         private DatabaseContext db = new DatabaseContext();
-        private Season currentSeason = Season.Nineteenth;
+        private Season currentSeason = Season._2018_2019;
 
         public List<Standings> CreateModelStandings(string sport, string federation, string tournament, int? fedSeason)
         {

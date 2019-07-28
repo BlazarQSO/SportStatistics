@@ -27,6 +27,15 @@ namespace SportStatistics.Models
             private set { Tournament = value.ParseEnum<Tournament>(); }
         }
         public Tournament Tournament { get; set; }
+
+        [Column("Season")]
+        public string SeasonString
+        {
+            get { return Season.ToString(); }
+            private set { Season = value.ParseEnum<Season>(); }
+        }
+
+        [NotMapped]
         public Season Season { get; set; }        
 		public int Played { get; set; }
 		public int HomePlayed { get; set; }

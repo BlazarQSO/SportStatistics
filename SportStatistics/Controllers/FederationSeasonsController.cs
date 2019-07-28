@@ -39,7 +39,7 @@ namespace SportStatistics.Controllers
         // GET: FederationSeasons/Create
         public ActionResult Create()
         {
-            ViewBag.SportFederationId = new SelectList(db.SportFederation, "SportFederationId", "NameSportString");
+            ViewBag.SportFederationId = new SelectList(db.SportFederations, "SportFederationId", "NameSportString");
             return View();
         }
 
@@ -57,7 +57,7 @@ namespace SportStatistics.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.SportFederationId = new SelectList(db.SportFederation, "SportFederationId", "NameSportString", federationSeason.SportFederationId);
+            ViewBag.SportFederationId = new SelectList(db.SportFederations, "SportFederationId", "NameSportString", federationSeason.SportFederationId);
             return View(federationSeason);
         }
 
@@ -73,7 +73,7 @@ namespace SportStatistics.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.SportFederationId = new SelectList(db.SportFederation, "SportFederationId", "NameSportString", federationSeason.SportFederationId);
+            ViewBag.SportFederationId = new SelectList(db.SportFederations, "SportFederationId", "NameSportString", federationSeason.SportFederationId);
             return View(federationSeason);
         }
 
@@ -90,7 +90,7 @@ namespace SportStatistics.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.SportFederationId = new SelectList(db.SportFederation, "SportFederationId", "NameSportString", federationSeason.SportFederationId);
+            ViewBag.SportFederationId = new SelectList(db.SportFederations, "SportFederationId", "NameSportString", federationSeason.SportFederationId);
             return View(federationSeason);
         }
 

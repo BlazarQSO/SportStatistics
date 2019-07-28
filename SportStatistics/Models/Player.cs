@@ -25,11 +25,14 @@ namespace SportStatistics.Models
         public string Nationality { get; set; }
         public int Weight { get; set; }
         public int Height { get; set; }
+
+        [Column("Position")]
         public string PositionString
         {
             get { return Position.ToString(); }
             private set { Position = value.ParseEnum<Position>(); }
         }
+        [NotMapped]
         public Position Position { get; set; }        
         public virtual ICollection<PlayerSeason> PlayerSeasons { get; set; }
     }

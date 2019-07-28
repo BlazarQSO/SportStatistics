@@ -17,7 +17,7 @@ namespace SportStatistics.Controllers
         // GET: SportFederations
         public ActionResult Index()
         {
-            var sportFederation = db.SportFederation.Include(s => s.Sport);
+            var sportFederation = db.SportFederations.Include(s => s.Sport);
             return View(sportFederation.ToList());
         }
 
@@ -28,7 +28,7 @@ namespace SportStatistics.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            SportFederation sportFederation = db.SportFederation.Find(id);
+            SportFederation sportFederation = db.SportFederations.Find(id);
             if (sportFederation == null)
             {
                 return HttpNotFound();
@@ -52,7 +52,7 @@ namespace SportStatistics.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.SportFederation.Add(sportFederation);
+                db.SportFederations.Add(sportFederation);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -68,7 +68,7 @@ namespace SportStatistics.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            SportFederation sportFederation = db.SportFederation.Find(id);
+            SportFederation sportFederation = db.SportFederations.Find(id);
             if (sportFederation == null)
             {
                 return HttpNotFound();
@@ -101,7 +101,7 @@ namespace SportStatistics.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            SportFederation sportFederation = db.SportFederation.Find(id);
+            SportFederation sportFederation = db.SportFederations.Find(id);
             if (sportFederation == null)
             {
                 return HttpNotFound();
@@ -114,8 +114,8 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            SportFederation sportFederation = db.SportFederation.Find(id);
-            db.SportFederation.Remove(sportFederation);
+            SportFederation sportFederation = db.SportFederations.Find(id);
+            db.SportFederations.Remove(sportFederation);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

@@ -16,7 +16,7 @@ namespace SportStatistics.Models
         public DbSet<TeamSeason> TeamSeasons { get; set; }
         public DbSet<Team> Teams { get; set; }
         public DbSet<FederationSeason> FederationSeasons { get; set; }
-        public DbSet<SportFederation> SportFederation { get; set; }
+        public DbSet<SportFederation> SportFederations { get; set; }
         public DbSet<Sport> Sports { get; set; }
 
 

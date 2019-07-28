@@ -211,11 +211,11 @@ namespace SportStatistics.Controllers
         }
 
         [HttpPost]
-        public ActionResult AddData(List<HttpPostedFileBase> files)
+        public ActionResult AddData(List<HttpPostedFileBase> files, List<HttpPostedFileBase> files2)
         {
             try
-            {
-                new ServiceClasses().Add(files);
+            {                
+                new ServiceClasses().Add(files);                    
                 return View();
             }
             catch(Exception e)

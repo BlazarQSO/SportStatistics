@@ -9,20 +9,35 @@ namespace SportStatistics.Models
     public class Match
     {
         public int MatchId { get; set; }        
+        [Column("Name Sport")]
         public string NameSportString
         {
             get { return NameSport.ToString(); }
             private set { NameSport = value.ParseEnum<NameSport>(); }
         }
+        [NotMapped]
         public NameSport NameSport { get; set; }
         public string Country { get; set; }
         public string City { get; set; }
+
+        [Column("Season")]
+        public string SeasonString
+        {
+            get { return Season.ToString(); }
+            private set { Season = value.ParseEnum<Season>(); }
+        }
+
+        [NotMapped]
         public Season Season { get; set; }
+
+        [Column("Tournament")]
         public string TournamentString
         {
             get { return Tournament.ToString(); }
             private set { Tournament = value.ParseEnum<Tournament>(); }
         }
+
+        [NotMapped]
         public Tournament Tournament { get; set; }
         public string NameTournament { get; set; }
         public string Tour { get; set; }
@@ -32,17 +47,25 @@ namespace SportStatistics.Models
         public string AwayTeam { get; set; }
         public int HomeTeamGoal { get; set; }
         public int AwayTeamGoal { get; set; }
+
+        [Column("Home Team Result")]
         public string HomeTeamResultString
         {
             get { return HomeTeamResult.ToString(); }
             private set { HomeTeamResult = value.ParseEnum<Result>(); }
         }
+
+        [NotMapped]
         public Result HomeTeamResult { get; set; }        
+
+        [Column("Away Team Result")]
         public string AwayTeamResultString
         {
             get { return AwayTeamResult.ToString(); }
             private set { AwayTeamResult = value.ParseEnum<Result>(); }
         }
+
+        [NotMapped]
         public Result AwayTeamResult { get; set; }
         public int HomeTeamPoint { get; set; }
         public int AwayTeamPoint { get; set; }        

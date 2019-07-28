@@ -22,72 +22,82 @@ namespace SportStatistics.Models.ServiceClasses
                     result = new StreamReader(files[0].InputStream).ReadToEnd();
                     AddSportFederation(result);
                 }
-                if (files[1] != null)
-                {                    
-                    result = new StreamReader(files[1].InputStream).ReadToEnd();
-                    AddFederationSeason(result);
-                }
-                if (files[2] != null)
-                {                    
-                    result = new StreamReader(files[2].InputStream).ReadToEnd();
-                    AddPlayer(result);
-                }
                 if (files[3] != null)
                 {                    
                     result = new StreamReader(files[3].InputStream).ReadToEnd();
-                    AddTeam(result);
+                    AddFederationSeason(result);
                 }
-                if (files[4] != null)
-                {                 
-                    result = new StreamReader(files[4].InputStream).ReadToEnd();
-                    AddMatch(result);
+                if (files[1] != null)
+                {                    
+                    result = new StreamReader(files[1].InputStream).ReadToEnd();
+                    AddPlayer(result);
+                }                
+                if (files[2] != null)
+                {                    
+                    result = new StreamReader(files[2].InputStream).ReadToEnd();
+                    AddTeam(result);
                 }
                 if (files[5] != null)
                 {
                     result = new StreamReader(files[5].InputStream).ReadToEnd();
+                    AddTeamSeason(result);
+                }
+                if (files[4] != null)
+                {
+                    result = new StreamReader(files[4].InputStream).ReadToEnd();
                     AddPlayerSeason(result);
                 }
                 if (files[6] != null)
-                {
+                {                 
                     result = new StreamReader(files[6].InputStream).ReadToEnd();
-                    AddTeamSeason(result);
-                }
+                    AddMatch(result);
+                }                
             }
         }
 
         public void AddTeamSeason(string data)
         {
             data = data.Replace("\n", "&");
+            data = data.Replace("\r", "");
             List<string> dataList = data.Split('&').ToList();
 
             foreach (string item in dataList)
             {
                 TeamSeason teamSeason = new TeamSeason();
                 string[] list = item.Split(',');
+                if (list.Count() < 15)
+                {
+                    continue;
+                }
 
+                string nameSport = list[0];
+                string name = list[4];
                 var search = from c in db.Teams
                              where
-                             c.NameSport == list[0].ParseEnum<NameSport>() &&
-                             c.Name == list[3]
+                             c.NameSportString == nameSport &&
+                             c.Name == name
                              select c;
 
                 Team team = new Team();
                 if (search.Count() < 1)
                 {
-                    break;
-                }else
+                    continue;
+                }
+                else
                 {
                     team = search.First();
                 }
 
-                string season = Enum.Format(typeof(Season), Convert.ToInt32(list[2]), "G");
+                string season = Enum.Format(typeof(Season), Convert.ToInt32(list[3]), "G");
+                string country = list[1];
+                string tournament = list[2];
 
                 var searchFS = from c in db.FederationSeasons
                                where
-                               c.Country == list[1] &&
-                               c.NameSport == list[0].ParseEnum<NameSport>() &&
-                               c.Season == season.ParseEnum<Season>() &&
-                               c.Tournament == list[2].ParseEnum<Tournament>()
+                               c.Country == country &&
+                               c.NameSportString == nameSport &&
+                               c.SeasonString == season &&
+                               c.TournamentString == tournament
                                select c;
 
                 FederationSeason fedSeason = new FederationSeason();
@@ -97,7 +107,7 @@ namespace SportStatistics.Models.ServiceClasses
                 }
                 else
                 {
-                    break;
+                    continue;
                 }
                 
                 teamSeason.Draw = Convert.ToInt32(list[7]);
@@ -116,7 +126,7 @@ namespace SportStatistics.Models.ServiceClasses
                 teamSeason.NameSport = list[0].ParseEnum<NameSport>();
                 teamSeason.NameTeam = team.Name;
                 teamSeason.Played = Convert.ToInt32(list[5]);
-                teamSeason.Point = Convert.ToInt32(list[9]);
+                teamSeason.Point = Convert.ToInt32(list[11]);
                 teamSeason.Season = season.ParseEnum<Season>();
                 teamSeason.Team = team;
                 teamSeason.TeamId = team.TeamId;
@@ -139,6 +149,7 @@ namespace SportStatistics.Models.ServiceClasses
         public void AddPlayerSeason(string data)
         {
             data = data.Replace("\n", "&");
+            data = data.Replace("\r", "");
             List<string> dataList = data.Split('&').ToList();
 
             foreach (string item in dataList)
@@ -146,16 +157,23 @@ namespace SportStatistics.Models.ServiceClasses
                 PlayerSeason playerSeason = new PlayerSeason();
                 string[] list = item.Split(',');
 
+                if (list.Count() < 7)
+                {
+                    continue;
+                }
+
+                string name = list[4] + " " + list[5];
+                string nameSport = list[0];
                 var search = from c in db.Players
                              where
-                             c.Name + " " + c.Surname == list[4] + " " + list[5] &&
-                             c.NameSport == list[0].ParseEnum<NameSport>()
+                             c.Name + " " + c.Surname == name &&
+                             c.NameSportString == nameSport
                              select c;
 
                 Player player = new Player();
                 if (search.Count() < 1)
                 {
-                    break;
+                    continue;
                 }
                 else
                 {
@@ -163,13 +181,15 @@ namespace SportStatistics.Models.ServiceClasses
                 }
 
                 string season = Enum.Format(typeof(Season), Convert.ToInt32(list[2]), "G");
+                string tournament = list[1];
+                string nameTeam = list[3];
 
                 var searchTeamSeason = from c in db.TeamSeasons
                                        where
-                                       c.NameSport == list[0].ParseEnum<NameSport>() &&
-                                       c.Tournament == list[1].ParseEnum<Tournament>() &&
-                                       c.Season == season.ParseEnum<Season>() &&
-                                       c.Team.Name == list[3]
+                                       c.NameSportString == nameSport &&
+                                       c.TournamentString == tournament &&
+                                       c.SeasonString == season &&
+                                       c.Team.Name == nameTeam
                                        select c;
 
                 TeamSeason teamSeason = new TeamSeason();
@@ -208,32 +228,48 @@ namespace SportStatistics.Models.ServiceClasses
         public void AddSportFederation(string data)
         {
             data = data.Replace("\n", "&");
+            data = data.Replace("\r", "");
             List<string> dataList = data.Split('&').ToList();
 
             foreach (string item in dataList)
             {
                 SportFederation sportFederation = new SportFederation();
                 string[] list = item.Split(',');
-
-                var search = from c in db.SportFederation
-                             where c.NameSport == list[0].ParseEnum<NameSport>() &&
-                             c.Country == list[1]
+                if (list.Count() < 2)
+                {
+                    continue;
+                }
+                string nameSport = list[0];
+                string country = list[1];
+                var search = from c in db.SportFederations
+                             where 
+                             c.NameSportString == nameSport && c.Country == country
                              select c;
-
+                
                 if (search.Count() == 0)
                 {
                     sportFederation.NameSport = list[0].ParseEnum<NameSport>();
                     sportFederation.Country = list[1];
                     sportFederation.FoundationDate = list[2];
                     sportFederation.NamePresident = list[3];
+                                        
+                    Sport sport = new Sport();
+                    var searchS = from c in db.Sports
+                                  where c.NameSportString == nameSport
+                                   select c;
+                    if(searchS.Count() > 0)
+                    {
+                        sport = searchS.First();
+                    }
+                    else
+                    {
+                        continue;
+                    }
 
-                    Sport sport = (from c in db.Sports
-                                   where c.NameSport == sportFederation.NameSport
-                                   select c).First();
                     sportFederation.SportId = sport.SportId;
                     sportFederation.Sport = sport;
 
-                    db.SportFederation.Add(sportFederation);
+                    db.SportFederations.Add(sportFederation);
                     db.SaveChanges();
                 }
             }            
@@ -241,18 +277,27 @@ namespace SportStatistics.Models.ServiceClasses
 
         public void AddFederationSeason(string data)
         {
+            data = data.Replace("\n", "&");
+            data = data.Replace("\r", "");
             List<string> dataList = data.Split('&').ToList();
 
             foreach (string item in dataList)
             {
                 FederationSeason federationSeason = new FederationSeason();
                 string[] list = item.Split(',');
-
+                if (list.Count() < 5)
+                {
+                    continue;
+                }
+                string nameSport = list[0];
+                string country = list[1];
+                string season = Enum.Format(typeof(Season), Convert.ToInt32(list[4]), "G");
+                                
                 var search = from c in db.FederationSeasons
                              where
-                             c.NameSport == list[0].ParseEnum<NameSport>() &&
-                             c.Country == list[1] &&
-                             c.Season == list[4].ParseEnum<Season>()
+                             c.NameSportString == nameSport &&
+                             c.Country == country &&
+                             c.SeasonString == season
                              select c;
 
                 if (search.Count() == 0)
@@ -263,11 +308,20 @@ namespace SportStatistics.Models.ServiceClasses
                     federationSeason.NameTournament = list[3];
                     federationSeason.Season = list[4].ParseEnum<Season>();
 
-                    SportFederation sportFed = (from c in db.SportFederation
-                                                where c.Country == federationSeason.Country &&
-                                   c.NameSport == federationSeason.NameSport
-                                                select c).First();
+                    SportFederation sportFed = new SportFederation();
+                    var searchSF = from c in db.SportFederations
+                                   where c.Country == federationSeason.Country &&
+                                   c.NameSportString == federationSeason.NameSport.ToString()
+                                   select c;
 
+                    if (searchSF.Count() > 0)
+                    {
+                        sportFed = searchSF.First();
+                    }
+                    else
+                    {
+                        continue;
+                    }
                     federationSeason.SportFederationId = sportFed.SportFederationId;
                     federationSeason.SportFederation = sportFed;
 
@@ -279,19 +333,28 @@ namespace SportStatistics.Models.ServiceClasses
 
         public void AddPlayer(string data)
         {
+            data = data.Replace("\n", "&");
+            data = data.Replace("\r", "");
             List<string> dataList = data.Split('&').ToList();
 
             foreach (string item in dataList)
             {
                 Player player = new Player();
                 string[] list = item.Split(',');
-
+                if (list.Count() < 5)
+                {
+                    continue;
+                }
+                string nameSport = list[0];
+                string name = list[1];
+                string surname = list[2];
+                int age = Convert.ToInt32(list[4]);
                 var search = from c in db.Players
                              where
-                             c.NameSport == list[0].ParseEnum<NameSport>() &&
-                             c.Name == list[1] &&
-                             c.Surname == list[2] &&
-                             c.Age == Convert.ToInt32(list[4])
+                             c.NameSportString == nameSport &&
+                             c.Name == name &&
+                             c.Surname == surname &&
+                             c.Age == age
                              select c;
 
                 if (search.Count() == 0)
@@ -299,12 +362,11 @@ namespace SportStatistics.Models.ServiceClasses
                     player.NameSport = list[0].ParseEnum<NameSport>();
                     player.Name = list[1];
                     player.Surname = list[2];
-                    player.Birthday = list[3];
-                    player.Age = Convert.ToInt32(list[4]);
-                    player.Nationality = list[5];
-                    player.Weight = Convert.ToInt32(list[6]);
-                    player.Height = Convert.ToInt32(list[7]);
-                    player.Position = list[8].ParseEnum<Position>();
+                    //player.Birthday = list[3];
+                    player.Age = Convert.ToInt32(list[4]);                    
+                    player.Weight = Convert.ToInt32(list[5]);
+                    player.Height = Convert.ToInt32(list[6]);
+                    player.Position = list[3].ParseEnum<Position>();
 
                     db.Players.Add(player);
                     db.SaveChanges();
@@ -314,18 +376,26 @@ namespace SportStatistics.Models.ServiceClasses
 
         public void AddTeam(string data)
         {
+            data = data.Replace("\n", "&");
+            data = data.Replace("\r", "");
             List<string> dataList = data.Split('&').ToList();
 
             foreach (string item in dataList)
             {
                 Team team = new Team();
                 string[] list = item.Split(',');
-
+                if (list.Count() < 4)
+                {
+                    continue;
+                }
+                string nameSport = list[0];
+                string name = list[1];
+                string country = list[2];
                 var search = from c in db.Teams
                              where
-                             c.NameSport == list[0].ParseEnum<NameSport>() &&
-                             c.Name == list[1] &&
-                             c.Country == list[2]
+                             c.NameSportString == nameSport &&
+                             c.Name == name &&
+                             c.Country == country
                              select c;
 
                 if (search.Count() == 0)
@@ -343,8 +413,11 @@ namespace SportStatistics.Models.ServiceClasses
             }            
         }
 
+
         public void AddMatch(string data)
         {
+            data = data.Replace("\n", "&");
+            data = data.Replace("\r", "");
             List<string> dataList = data.Split('&').ToList();
 
             foreach (string item in dataList)
@@ -354,50 +427,83 @@ namespace SportStatistics.Models.ServiceClasses
                 Match match = new Match();
                 string[] list = itemList[0].Split(',');
 
+                string nameSportM = list[0];
+                string homeTeamM = list[5];
+                string awayTeamM = list[6];
+                string dateM = list[4];
                 var search = from c in db.Matches
-                             where c.NameSport == list[0].ParseEnum<NameSport>() &&
-                             c.HomeTeam == list[8] &&
-                             c.AwayTeam == list[9] &&
-                             c.Date == list[6]
+                             where c.NameSportString == nameSportM &&
+                             c.HomeTeam == homeTeamM &&
+                             c.AwayTeam == awayTeamM &&
+                             c.Date == dateM
                              select c;
 
                 if (search.Count() > 0)
                 {
                     continue;
-                }
+                }         
 
                 match.NameSport = list[0].ParseEnum<NameSport>();
                 match.Country = list[1];
-                match.City = list[2];
+                //match.City = list[2];
                 string season = Enum.Format(typeof(Season), Convert.ToInt32(list[3]), "G");
                 match.Season = season.ParseEnum<Season>();
-                match.Tournament = list[4].ParseEnum<Tournament>();
-                match.Tour = list[5];
-                match.Date = list[6];
-                match.NameStadium = list[7];
-                match.HomeTeam = list[8];
-                match.AwayTeam = list[9];
-                match.HomeTeamGoal = Convert.ToInt32(list[10]);
-                match.AwayTeamGoal = Convert.ToInt32(list[11]);
-                match.HomeTeamResult = list[12].ParseEnum<Result>();
-                match.AwayTeamResult = list[13].ParseEnum<Result>();
+                match.Tournament = list[2].ParseEnum<Tournament>();
+                match.Date = list[4];
 
-                List<string> player = itemList[1].Split(',').ToList();                
-                match.ListHomePlayers.AddRange(player);
+                match.HomeTeam = list[5];
+                match.AwayTeam = list[6];
+                match.HomeTeamGoal = Convert.ToInt32(list[7]);
+                match.AwayTeamGoal = Convert.ToInt32(list[8]);
 
-                player = itemList[2].Split(',').ToList();
-                match.ListAwayPlayers.AddRange(player);
+                if (list[9] == "A")
+                {
+                    match.HomeTeamResult = Result.Lose;
+                    match.AwayTeamResult = Result.Win;
+                }
+                else if (list[9] == "D")
+                {
+                    match.HomeTeamResult = Result.Draw;
+                    match.AwayTeamResult = Result.Draw;
+                }
+                else if (list[9] == "H")
+                {
+                    match.HomeTeamResult = Result.Win;
+                    match.AwayTeamResult = Result.Lose;
+                }
 
-                match.ListTimeLineHome = itemList[3].Split(',').ToList();
-                match.ListTimeLineAway = itemList[4].Split(',').ToList();
+                if (list.Count() > 10)
+                {
+                    match.Tour = list[10];
+                }
+
+                List<string> player = new List<string>();
+                if (itemList.Count() > 1)
+                {
+                    player = itemList[1].Split(',').ToList();
+                    match.ListHomePlayers.AddRange(player);
+                }
+                if (itemList.Count() > 2)
+                {
+                    player = itemList[2].Split(',').ToList();
+                    match.ListAwayPlayers.AddRange(player);
+                }
+
+                if (itemList.Count() == 4)
+                {
+                    match.ListTimeLineHome = itemList[3].Split(',').ToList();
+                    match.ListTimeLineAway = itemList[4].Split(',').ToList();
+                }
 
                 // FederationSeason
 
+                string countryFS = match.Country;
+                
                 FederationSeason fedSeason = new FederationSeason();
                 var searchFS = from c in db.FederationSeasons
-                               where c.Country == match.Country &&
-                               c.NameSport == match.NameSport &&
-                               c.Season == match.Season
+                               where c.Country == countryFS &&
+                               c.NameSportString == nameSportM &&
+                               c.SeasonString == season 
                                select c;
 
                 if (searchFS.Count() > 0)
@@ -417,10 +523,12 @@ namespace SportStatistics.Models.ServiceClasses
 
                 TeamSeason homeTeam = new TeamSeason();
 
+                string country = match.Country;
+                string homeTeamN = match.HomeTeam;
                 var searchHT = from c in db.TeamSeasons
                                       where
-                                      c.FederationSeason.NameSport == match.NameSport &&
-                                      c.FederationSeason.Country == match.Country &&
+                                      c.FederationSeason.NameSportString == nameSportM &&
+                                      c.FederationSeason.Country == country &&
                                       c.Team.Name == match.HomeTeam
                                       select c;
 
@@ -469,11 +577,13 @@ namespace SportStatistics.Models.ServiceClasses
 
                 // Team Away
 
+                
                 TeamSeason awayTeam = new TeamSeason();
+                string teamAway = match.AwayTeam;
                 var searchAT = from c in db.TeamSeasons
                                where
-                               c.FederationSeason.NameSport == match.NameSport &&
-                               c.FederationSeason.Country == match.Country &&
+                               c.FederationSeason.NameSportString == nameSportM &&
+                               c.FederationSeason.Country == country &&
                                c.Team.Name == match.AwayTeam
                                select c;
 
@@ -523,9 +633,10 @@ namespace SportStatistics.Models.ServiceClasses
                 foreach (string homeplayer in match.ListHomePlayers)
                 {
                     PlayerSeason playerSeason = new PlayerSeason();
+                    string playerName = homeplayer;
                     var searchPSH = from c in db.PlayerSeasons
                                     where c.TeamSeason == homeTeam &&
-                                                 c.Player.Name + " " + c.Player.Surname == homeplayer
+                                    c.Player.Name + " " + c.Player.Surname == playerName
                                     select c;
 
                     if (searchPSH.Count() > 0)
@@ -566,10 +677,11 @@ namespace SportStatistics.Models.ServiceClasses
                 foreach (string awayplayer in match.ListAwayPlayers)
                 {
                     PlayerSeason playerSeason = new PlayerSeason();
+                    string playerName = awayplayer;
                     var searchPSA = from c in db.PlayerSeasons
                                                  where c.TeamSeason == homeTeam &&
-                                                 c.Player.Name + " " + c.Player.Surname == awayplayer
-                                                 select c;
+                                                 c.Player.Name + " " + c.Player.Surname == playerName
+                                    select c;
 
                     if (searchPSA.Count() > 0)
                     {
@@ -677,16 +789,21 @@ namespace SportStatistics.Models.ServiceClasses
                 nameTeam = match.AwayTeam;
             }
 
+            string nameSport = match.NameSport.ToString();
+            string country = match.Country;
+            string name = nameTeam;
             var search = from c in db.Teams
-                         where c.Country == match.Country &&
-                         c.NameSport == match.NameSport &&
-                         c.Name == nameTeam
+                         where c.Country == country &&
+                         c.NameSportString == nameSport &&
+                         c.Name == name
                          select c;
 
+            string season = match.Season.ToString();
+            string tournament = match.Tournament.ToString();
             var searchFS = from c in db.FederationSeasons
                            where c.Country == match.Country &&
-                           c.NameSport == match.NameSport &&
-                           c.Season == match.Season &&
+                           c.NameSportString == nameSport &&
+                           c.SeasonString == season &&
                            c.Tournament == match.Tournament
                            select c;
 
@@ -738,9 +855,12 @@ namespace SportStatistics.Models.ServiceClasses
         private void CreateFederationSeason(Match match)
         {
             SportFederation spFed = new SportFederation();
-            var searchSF = from c in db.SportFederation
-                           where c.NameSport == match.NameSport &&
-                                   c.Country == match.Country
+
+            string country = match.Country;
+            string nameSport = match.NameSport.ToString();
+            var searchSF = from c in db.SportFederations
+                           where c.NameSportString == nameSport &&
+                                   c.Country == country
                            select c;
 
             if (searchSF.Count() > 0)
