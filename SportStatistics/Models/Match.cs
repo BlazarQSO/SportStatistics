@@ -17,8 +17,7 @@ namespace SportStatistics.Models
         }
         [NotMapped]
         public NameSport NameSport { get; set; }
-        public string Country { get; set; }
-        public string City { get; set; }
+        public string Country { get; set; }       
 
         [Column("Season")]
         public string SeasonString
@@ -36,7 +35,7 @@ namespace SportStatistics.Models
             get { return Tournament.ToString(); }
             private set { Tournament = value.ParseEnum<Tournament>(); }
         }
-
+        
         [NotMapped]
         public Tournament Tournament { get; set; }
         public string NameTournament { get; set; }
@@ -67,8 +66,8 @@ namespace SportStatistics.Models
 
         [NotMapped]
         public Result AwayTeamResult { get; set; }
-        public int HomeTeamPoint { get; set; }
-        public int AwayTeamPoint { get; set; }        
+        //public int HomeTeamPoint { get; set; }
+        //public int AwayTeamPoint { get; set; }        
         public List<string> ListHomePlayers { get; set; }
         public string HomePlayers
         {

@@ -21,10 +21,10 @@ namespace SportStatistics.Models.ServiceClasses
                 string season = currentSeason.ToString();
                 search  = (from c in db.FederationSeasons
                               where
-                          c.SeasonString == season &&
-                          c.TournamentString == tournament &&
-                          c.SportFederation.Country == federation &&
-                          c.SportFederation.Sport.NameSportString == sport
+                              c.SeasonString == season &&
+                              c.TournamentString == tournament &&
+                              c.SportFederation.Country == federation &&
+                              c.SportFederation.Sport.NameSportString == sport
                               select c).ToList();
             } 
             else
@@ -208,7 +208,7 @@ namespace SportStatistics.Models.ServiceClasses
                     stat.Federation = item.FederationSeason.SportFederation.Country;
                     stat.Sport = item.FederationSeason.SportFederation.Sport.NameSport.ToString();
                     stat.FederationSeasonId = item.FederationSeasonId;
-                    stat.Tournament = item.Tournament;                    
+                    stat.Tournament = item.FederationSeason.Tournament;                    
                     stat.Apps = item.Played;
                     stat.Win = item.Win;
                     stat.Draw = item.Draw;
@@ -251,17 +251,7 @@ namespace SportStatistics.Models.ServiceClasses
                         player.Age = item2.Player.Age;
                         player.CM = item2.Player.Height;
                         player.KG = item2.Player.Weight;
-                        player.Pos = item2.Player.Position;
-                        //foreach(var it in item2.TeamSeason.Matches)
-                        //{
-                        //    foreach(var e in it.Players)
-                        //    {
-                        //        if (e.Name + " " + e.Surname == player.Name)
-                        //        {
-                        //            player.Apps++;
-                        //        }
-                        //    }                            
-                        //}
+                        player.Pos = item2.Player.Position;                  
                         player.Apps = item2.GamedMatches;
                         player.Goals = item2.Goals;
                         player.Assists = item2.Assists;
@@ -326,7 +316,7 @@ namespace SportStatistics.Models.ServiceClasses
                 foreach (var game in item.Matches)
                 {
                     PlayedGame playedGame = new PlayedGame();
-                    playedGame.Tournament = item.Tournament;
+                    playedGame.Tournament = item.TeamSeason.FederationSeason.Tournament;
                     playedGame.Date = game.Date;
                     playedGame.MatchId = game.MatchId;
                     playedGame.ResultMatch = game.HomeTeam + " " + game.HomeTeamGoal + "-" +
@@ -369,7 +359,8 @@ namespace SportStatistics.Models.ServiceClasses
                 Total total = new Total();
                 total.Tournament = tour;      
                 var allSeasonTour = from c in db.PlayerSeasons
-                                  where c.PlayerId == PlayerId && c.Tournament == tour
+                                  where c.PlayerId == PlayerId && 
+                                  c.TeamSeason.FederationSeason.Tournament == tour
                                   select c;
                 foreach(var item in allSeasonTour)
                 {
@@ -619,7 +610,7 @@ namespace SportStatistics.Models.ServiceClasses
             match.IdMatch.TeamHomeId = search.TeamSeasons.First().TeamId;
             match.IdMatch.TeamAwayId = search.TeamSeasons.Last().TeamId;
             match.IdMatch.FederationSeasonId = search.TeamSeasons.First().FederationSeasonId;
-            /*
+            
             foreach (var item in match.ListHomePlayers)
             {
                 var temp = from c in db.Players
@@ -640,7 +631,7 @@ namespace SportStatistics.Models.ServiceClasses
                     match.IdMatch.AwayTeamPlayersId.Add(temp.First().PlayerId);
                 }
             }            
-            */
+            
             return match;
         }
     }

@@ -6,8 +6,8 @@ namespace SportStatistics.Models.Configuration
     {
         public TeamSeasonConfig()
         {
-            Property(p => p.TournamentString).HasColumnName("Tournament");
-            Ignore(p => p.Tournament);
+            //Property(p => p.TournamentString).HasColumnName("Tournament");
+            //Ignore(p => p.Tournament);
             Property(p => p.Point).IsRequired();
             Property(p => p.Lose).IsRequired();
             Property(p => p.Win).IsRequired();

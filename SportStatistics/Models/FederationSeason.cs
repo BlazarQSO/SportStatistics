@@ -8,17 +8,6 @@ namespace SportStatistics.Models
     {
         public int FederationSeasonId { get; set; }
 
-        [Column("NameSport")]
-        public string NameSportString
-        {
-            get { return NameSport.ToString(); }
-            private set { NameSport = value.ParseEnum<NameSport>(); }
-        }
-
-        [NotMapped]        
-        public NameSport NameSport { get; set; }
-        public string Country { get; set; }
-
         [Column("Tournament")]
         public string TournamentString
         {

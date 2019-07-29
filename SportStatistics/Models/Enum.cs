@@ -14,30 +14,7 @@ namespace SportStatistics.Models
             return (T)Enum.Parse(typeof(T), value, true);
         }
     }
-
-    public static class LeagueName
-    {
-        public static string Name(string CountryNameSportTournament)
-        {
-            switch (CountryNameSportTournament)
-            {
-                case "EnglandFootballLeague":
-                    {
-                        return "English Premier League";                        
-                    }
-                case "SpainFootballLeague":
-                    {
-                        return "La Liga";
-                    }
-                case "UEFA Champions LeagueFootballUEFA Champions League":
-                    {
-                        return "UEFA Champions League";
-                    }
-            }
-            return "";
-        }
-    }
-
+    
     public enum Result
     {
         Win,
@@ -117,5 +94,40 @@ namespace SportStatistics.Models
         _2019_2020 = 2019,
         [Display(Name = "2020/2021")]
         _2020_2021 = 2020,
+    }
+
+    public static class LeagueName
+    {
+        public static string Name(string CountryNameSportTournament)
+        {
+            switch (CountryNameSportTournament)
+            {
+                case "EnglandFootballLeague":
+                    {
+                        return "English Premier League";
+                    }
+                case "SpainFootballLeague":
+                    {
+                        return "La Liga";
+                    }
+                case "UEFA Champions LeagueFootballUEFA Champions League":
+                    {
+                        return "UEFA Champions League";
+                    }
+                case "GermanyFootballLeague":
+                    {
+                        return "Bundesliga";
+                    }
+                case "ItalyFootballLeague":
+                    {
+                        return "Serie A";
+                    }
+                case "FranceFootballLeague":
+                    {
+                        return "Ligue 1";
+                    }
+            }
+            return "";
+        }
     }
 }

@@ -17,9 +17,9 @@ namespace SportStatistics.Models.Configuration
             Property(p => p.Country).IsRequired().HasMaxLength(50);
             Property(p => p.Tour).IsRequired().HasMaxLength(30);
             Property(p => p.Date).IsRequired();
-            Property(p => p.NameStadium).IsRequired().HasMaxLength(30);
-            Property(p => p.HomeTeam).IsRequired().HasMaxLength(30);
-            Property(p => p.AwayTeam).IsRequired().HasMaxLength(30);
+            Property(p => p.NameStadium).IsRequired().HasMaxLength(50);
+            Property(p => p.HomeTeam).IsRequired().HasMaxLength(50);
+            Property(p => p.AwayTeam).IsRequired().HasMaxLength(50);
             Property(p => p.HomeTeamGoal).IsRequired();
             Property(p => p.AwayTeamGoal).IsRequired();            
         }
