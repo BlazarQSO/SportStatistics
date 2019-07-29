@@ -56,7 +56,13 @@
                             new { fedSeason = Model[0].FederationSeasonId, PlayerId = item.PlayerId },
                             htmlAttributes: null)
             </text>),
-            grid.Column(header: "Team", format: model => model.NameTeam),
+            grid.Column("Name", format:
+            @<text>
+                @{string name = item.NameTeam; }
+                @Html.ActionLink(name, "Team", "Home", routeValues:
+                            new { fedSeason = Model[0].FederationSeasonId, TeamId = item.TeamId },
+                            htmlAttributes: null)
+            </text>),
             grid.Column(header: "Apps", format: model => model.Apps),
             grid.Column("Goals", format: model => model.Goals),
             grid.Column("Assists", format: model => model.Assists)

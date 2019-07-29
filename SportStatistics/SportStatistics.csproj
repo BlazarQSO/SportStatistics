@@ -127,6 +127,7 @@
   <ItemGroup>
     <Content Include="Content\Style.css" />
     <Content Include="Global.asax" />
+    <Content Include="images\404.jpg" />
     <Content Include="images\icon.png" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -230,6 +231,7 @@
     <Content Include="Views\FederationSeasons\Details.cshtml" />
     <Content Include="Views\FederationSeasons\Edit.cshtml" />
     <Content Include="Views\FederationSeasons\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

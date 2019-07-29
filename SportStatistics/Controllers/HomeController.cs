@@ -22,7 +22,7 @@ namespace SportStatistics.Controllers
         public ActionResult Standings(string sport, string fed, string tour, int? fedSeason)
         {
             try
-            {
+            {                
                 List<Standings> standings = new ServiceDatabase().CreateModelStandings(sport, fed, tour, fedSeason);
                 return View(standings.ToList());
             }
@@ -211,11 +211,13 @@ namespace SportStatistics.Controllers
         }
 
         [HttpPost]
-        public ActionResult AddData(List<HttpPostedFileBase> files, List<HttpPostedFileBase> files2)
+        public ActionResult AddData(List<HttpPostedFileBase> filesSF, List<HttpPostedFileBase> filesP,
+            List<HttpPostedFileBase> filesT, List<HttpPostedFileBase> filesFS, List<HttpPostedFileBase> filesTS,
+            List<HttpPostedFileBase> filesPS, List<HttpPostedFileBase> filesM)
         {
             try
             {                
-                new ServiceClasses().Add(files);                    
+                new ServiceClasses().Add(filesSF, filesP, filesT, filesFS, filesTS, filesPS, filesM);                    
                 return View();
             }
             catch(Exception e)

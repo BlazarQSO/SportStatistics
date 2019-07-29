@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Collections;
 
 namespace SportStatistics.Models
 {
@@ -11,6 +12,29 @@ namespace SportStatistics.Models
         public static T ParseEnum<T>(this string value)
         {
             return (T)Enum.Parse(typeof(T), value, true);
+        }
+    }
+
+    public static class LeagueName
+    {
+        public static string Name(string CountryNameSportTournament)
+        {
+            switch (CountryNameSportTournament)
+            {
+                case "EnglandFootballLeague":
+                    {
+                        return "English Premier League";                        
+                    }
+                case "SpainFootballLeague":
+                    {
+                        return "La Liga";
+                    }
+                case "UEFA Champions LeagueFootballUEFA Champions League":
+                    {
+                        return "UEFA Champions League";
+                    }
+            }
+            return "";
         }
     }
 

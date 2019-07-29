@@ -2,11 +2,12 @@
 @{
     ViewBag.Title = "Match";
     Layout = "~/Views/Shared/_Layout.cshtml";
+               
     var gridH = new WebGrid(source: Model.ListHomePlayers, defaultSort: "Season", rowsPerPage: 25, ajaxUpdateContainerId: "webGrid1");
-    gridH.SortDirection = SortDirection.Descending;
-    var gridA = new WebGrid(source: Model.ListAwayPlayers, defaultSort: "Season", rowsPerPage: 25, ajaxUpdateContainerId: "webGrid2");
+    gridH.SortDirection = SortDirection.Descending;      
+    var gridA = new WebGrid(source: Model.ListAwayPlayers, defaultSort: "Season", rowsPerPage: 25, ajaxUpdateContainerId: "webGrid2");   
     gridA.SortDirection = SortDirection.Descending;
-    int rank = 0;    
+    int rank = 0;
 }
 
 <h2 class="mH">Match</h2>
@@ -31,13 +32,13 @@
             @Html.Label("Country: ")
             @Html.Label(@Model.Country + ",")
             @Html.Label(@Model.Tournament + " - ")
-            @Html.ActionLink(@Model.NameTournament, "Standings", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId }, null)
+            @Html.ActionLink(@Model.Tournament.ToString(), "Standings", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId }, null)
         </div>
         <div>
             @Html.Label("Round: ")
             @Html.Label(@Model.Tour + ",")
             @Html.Label("Date: ")
-            @Html.Label(@Model.Date.ToString(("dd-MM-yyyy HH:mm")))
+            @Html.Label(@Model.Date)
         </div>
         <div>
             @Html.Label("City: ")
@@ -118,48 +119,54 @@
 <div>
     <div class="half">
         <label>@Model.HomeTeam</label>
-        <div id="webGrid1">
-            @gridH.GetHtml(
-            tableStyle: "myTable",
-            headerStyle: "myTableHeader",
-            footerStyle: "myTableFooter",
-            columns: gridH.Columns(
-                gridH.Column(header: "№", format: @<text> @{ rank++; } @rank</text>),
-                gridH.Column(header: "Name", format:
-                @<text>
-                    @{ string name = item.ToString();}
-                    @*
-                        @Html.ActionLink(name, "Player", "Home", new { PlayerId = Model.IdMatch.HomeTeamPlayersId[rank - 1] }, null)}
-                    *@  
-                    @name
-                </text>)
+        @if (Model.ListHomePlayers != null)
+        {
+            <div id="webGrid1">
+                @gridH.GetHtml(
+                tableStyle: "myTable",
+                headerStyle: "myTableHeader",
+                footerStyle: "myTableFooter",
+                columns: gridH.Columns(
+                    gridH.Column(header: "№", format: @<text> @{ rank++; } @rank</text>),
+                    gridH.Column(header: "Name", format:
+                    @<text>
+                        @{ string name = item.ToString();}
+                        @*
+                            @Html.ActionLink(name, "Player", "Home", new { PlayerId = Model.IdMatch.HomeTeamPlayersId[rank - 1] }, null)}
+                        *@
+                        @name
+                    </text>)
+                    )
                 )
-            )
-        </div>
+            </div>
+                            }
     </div>
     <div class="half">
         <label>@Model.AwayTeam</label>
-        <div id="webGrid2">
-            @{rank = 0; }
-            @gridA.GetHtml(
-            tableStyle: "myTable",
-            headerStyle: "myTableHeader",
-            footerStyle: "myTableFooter",
-            columns: gridA.Columns(
-                gridA.Column(header: "№", format: @<text> @{ rank++; } @rank</text>),
-                gridA.Column(header: "Name", format:
-                @<text>
-                    @{ string name = item.ToString(); }
-                    @*
-                        @Html.ActionLink(name, "Player", "Home", new { PlayerId = Model.IdMatch.HomeTeamPlayersId[rank - 1] }, null)
-                    *@
-                    @name
-                </text>)
+        @if (Model.ListAwayPlayers != null)
+        {
+            <div id="webGrid2">
+                @{rank = 0; }
+                @gridA.GetHtml(
+                tableStyle: "myTable",
+                headerStyle: "myTableHeader",
+                footerStyle: "myTableFooter",
+                columns: gridA.Columns(
+                    gridA.Column(header: "№", format: @<text> @{ rank++; } @rank</text>),
+                    gridA.Column(header: "Name", format:
+                   @<text>
+                       @{ string name = item.ToString(); }
+                       @*
+                           @Html.ActionLink(name, "Player", "Home", new { PlayerId = Model.IdMatch.HomeTeamPlayersId[rank - 1] }, null)
+                       *@
+                       @name
+                   </text>)
+                    )
                 )
-            )
+            </div>
+            }
         </div>
     </div>
-</div>
 
 
 

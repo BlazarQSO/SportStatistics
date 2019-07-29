@@ -12,6 +12,7 @@ namespace SportStatistics.Models.ViewModels
         public int FederationSeasonId { get; set; }
         public string Name { get; set; }
         public string NameTeam { get; set; }
+        public int TeamId { get; set; }
         public int Apps { get; set; }
         public int Goals { get; set; }
         public int Assists { get; set; }

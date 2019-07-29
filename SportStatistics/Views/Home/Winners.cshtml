@@ -50,7 +50,10 @@
             grid.Column(header: "Season", format:
             @<text>
                 @{
-                    string name = (int)Model[0].Season + "/" + (int)(++Model[0].Season);
+                    string name = (int)item.Season + "";
+                    int seas = Convert.ToInt32(name);
+                    seas++;
+                    name = name + "/" + Convert.ToString(seas);
                 }
                 @name
             </text>
@@ -66,6 +69,10 @@
     )
     </div>
 </section>
+
+
+
+
 
 
 

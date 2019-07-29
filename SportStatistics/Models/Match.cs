@@ -74,11 +74,24 @@ namespace SportStatistics.Models
         {
             get
             {
-                return string.Join(",", ListHomePlayers);
+                if (ListHomePlayers != null)
+                {
+                    return string.Join(",", ListHomePlayers);
+                } else
+                {
+                    return "";
+                }
             }
             set
             {
-                ListHomePlayers = value.Split(',').ToList();
+                if (value != "")
+                {
+                    ListHomePlayers = value.Split(',').ToList();
+                }
+                else
+                {
+                    ListHomePlayers = null;
+                }                
             }
         }
         public List<string> ListAwayPlayers { get; set; }
@@ -86,11 +99,25 @@ namespace SportStatistics.Models
         {
             get
             {
-                return string.Join(",", ListAwayPlayers);
+                if (ListHomePlayers != null)
+                {
+                    return string.Join(",", ListAwayPlayers);
+                }
+                else
+                {
+                    return "";
+                }        
             }
             set
             {
-                ListAwayPlayers = value.Split(',').ToList();
+                if (value != "")
+                {
+                    ListAwayPlayers = value.Split(',').ToList();
+                }
+                else
+                {
+                    ListAwayPlayers = null;
+                }                
             }
         }
         public List<string> ListTimeLineHome { get; set; }        

@@ -25,7 +25,7 @@
                     @Html.ActionLink("Show", "Index", "SportFederations")
                 </div>
                 <div>
-                    <input type="file" name="files"/>
+                    <input type="file" name="filesSF" multiple/>
                     <button>Add</button>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                     @Html.ActionLink("Show", "Index", "Players")
                 </div>
                 <div>
-                    <input type="file" name="files" />
+                    <input type="file" name="filesP" multiple/>
                     <button>Add</button>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                     @Html.ActionLink("Show", "Index", "Matches")
                 </div>
                 <div>
-                    <input type="file" name="files" />
+                    <input type="file" name="filesT" multiple/>
                     <button>Add</button>
                 </div>
             </div>            
@@ -63,19 +63,7 @@
                     @Html.ActionLink("Show", "Index", "FederationSeasons")
                 </div>
                 <div>
-                    <input type="file" name="files" />
-                    <button>Add</button>
-                </div>
-            </div>
-            <div class="add-obj">
-                @Html.Label("Add a Player season")
-                <div>
-                    @Html.ActionLink("Create", "Create", "PlayerSeasons")
-                    @Html.Label(" | ")
-                    @Html.ActionLink("Show", "Index", "PlayerSeasons")
-                </div>
-                <div>
-                    <input type="file" name="files" />
+                    <input type="file" name="filesFS" multiple/>
                     <button>Add</button>
                 </div>
             </div>
@@ -87,10 +75,22 @@
                     @Html.ActionLink("Show", "Index", "TeamSeason")
                 </div>
                 <div>
-                    <input type="file" name="files" />
+                    <input type="file" name="filesTS" multiple/>
                     <button>Add</button>
                 </div>
             </div>
+            <div class="add-obj">
+                @Html.Label("Add a Player season")
+                <div>
+                    @Html.ActionLink("Create", "Create", "PlayerSeasons")
+                    @Html.Label(" | ")
+                    @Html.ActionLink("Show", "Index", "PlayerSeasons")
+                </div>
+                <div>
+                    <input type="file" name="filesPS" multiple />
+                    <button>Add</button>
+                </div>
+            </div>            
             <div class="add-obj">
                 @Html.Label("Add a match")
                 <div>
@@ -99,7 +99,7 @@
                     @Html.ActionLink("Show", "Index", "Matches")
                 </div>
                 <div>
-                    <input type="file" name="files" />
+                    <input type="file" name="filesM" multiple/>
                     <button>Add</button>
                 </div>
             </div>
