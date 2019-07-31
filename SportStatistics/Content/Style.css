@@ -45,7 +45,7 @@
     text-decoration: underline;    
 }
 .section a:visited {
-    color: blue; 
+    color: blue;
     text-decoration: none;
 }
 
@@ -279,11 +279,14 @@ h1, h2, h3 {
         color: #28A666;
     }
     .myTable tr:nth-child(even) {
-        background: #A0F5DB;
+        background: #A0F5DB; 
     }
 
     .myTable tbody tr:hover {
         background-color: gold;
+    }
+    .myTable tbody a:visited{
+        /*color: black;*/
     }
 .myTableHeader {
     background: #A4A187;
@@ -301,7 +304,7 @@ h1, h2, h3 {
     }
         .myTableHeader th:first-child {
             border-left: none;
-        }
+        }        
 
 .myTableFooter {
     font-size: 18px;
@@ -322,13 +325,14 @@ h1, h2, h3 {
             border: 2px solid #ccc;
             border-radius: 10px;
             padding: 3px 8px;
-            color: #161EFF;
+            
             outline: none;
         }
             .myTableFooter > td > a:hover {
                 background-color: crimson;
                 color: black;
             }
+            
 .myTableImage {
     background-size: contain;
     max-height: 250px;
@@ -336,8 +340,16 @@ h1, h2, h3 {
 .myTable a:hover {
     text-decoration: underline;    
 }
-.myTable a:visited {
+.myTable td > a:visited {
     color: blue; 
+    text-decoration: none;
+}
+.myTable td:nth-child(11) > a:visited {
+    color: black; 
+    text-decoration: none;
+}
+.myTable td:nth-child(3) > a:visited {
+    color: black; 
     text-decoration: none;
 }
 

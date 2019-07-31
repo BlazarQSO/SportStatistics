@@ -3,7 +3,7 @@
     ViewBag.Title = "Scorers";
     Layout = "~/Views/Shared/_Layout.cshtml";
 
-    var grid = new WebGrid(source: Model, defaultSort: "Season", rowsPerPage: 5, ajaxUpdateContainerId: "webGrid");
+    var grid = new WebGrid(source: Model, defaultSort: "Season", rowsPerPage: 10, ajaxUpdateContainerId: "webGrid");
     grid.SortDirection = SortDirection.Descending;
 }
 

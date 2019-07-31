@@ -439,13 +439,17 @@ namespace SportStatistics.Models.ServiceClasses
 
 
         public void AddMatch(string data)
-        {
+        {   
             data = data.Replace("\n", "&");
             data = data.Replace("\r", "");
             List<string> dataList = data.Split('&').ToList();
 
             foreach (string item in dataList)
             {
+                if (item == null || item == "")
+                {
+                    return;
+                }
                 string[] itemList = item.Split('|');
 
                 Match match = new Match();
@@ -641,8 +645,7 @@ namespace SportStatistics.Models.ServiceClasses
                 else
                 if (match.AwayTeamResult == Result.Lose)
                 {
-                    awayTeam.Lose++;
-                    awayTeam.HomeLose++;
+                    awayTeam.Lose++;                    
                 }
 
                 awayTeam.Played++;                

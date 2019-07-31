@@ -10,7 +10,7 @@ namespace SportStatistics.Models.ServiceClasses
     public class ServiceDatabase
     {
         private DatabaseContext db = new DatabaseContext();
-        private Season currentSeason = Season._2018_2019;
+        private Season currentSeason = Season._2009_2010;
 
         public List<Standings> CreateModelStandings(string sport, string federation, string tournament, int? fedSeason)
         {
@@ -39,8 +39,7 @@ namespace SportStatistics.Models.ServiceClasses
                 foreach (var item in search.First().TeamSeasons)
                 {
                     Standings standings = new Standings();
-                    standings.Form = new List<Form>();
-                    Form form = new Form();
+                    standings.Form = new List<Form>();                    
                     standings.TeamId = item.TeamId;
                     standings.FederationSeasonId = item.FederationSeasonId;
                     standings.Season = item.Season;
@@ -56,6 +55,7 @@ namespace SportStatistics.Models.ServiceClasses
                     matches.Reverse();
                     foreach(var item2 in matches)
                     {
+                        Form form = new Form();
                         form.MatchId = item2.MatchId;
                         if (item2.HomeTeam == item.Team.Name)
                         {
@@ -93,7 +93,7 @@ namespace SportStatistics.Models.ServiceClasses
                 {
                     Standings standings = new Standings();
                     standings.Form = new List<Form>();
-                    Form form = new Form();
+                    
                     standings.TeamId = item.TeamId;
                     standings.FederationSeasonId = item.FederationSeasonId;
                     standings.Season = item.Season;
@@ -109,6 +109,7 @@ namespace SportStatistics.Models.ServiceClasses
                     matches.Reverse();
                     foreach (var item2 in matches)
                     {
+                        Form form = new Form();
                         if (item2.HomeTeam == item.Team.Name)
                         {
                             form.MatchId = item2.MatchId;
@@ -141,7 +142,7 @@ namespace SportStatistics.Models.ServiceClasses
                 {
                     Standings standings = new Standings();
                     standings.Form = new List<Form>();
-                    Form form = new Form();
+                    
                     standings.TeamId = item.TeamId;
                     standings.FederationSeasonId = item.FederationSeasonId;
                     standings.Season = item.Season;
@@ -157,6 +158,7 @@ namespace SportStatistics.Models.ServiceClasses
                     matches.Reverse();
                     foreach (var item2 in matches)
                     {
+                        Form form = new Form();
                         if (item2.AwayTeam == item.Team.Name)
                         {
                             form.MatchId = item2.MatchId;
@@ -357,10 +359,11 @@ namespace SportStatistics.Models.ServiceClasses
             foreach(Tournament tour in Enum.GetValues(typeof(Tournament)))
             {
                 Total total = new Total();
-                total.Tournament = tour;      
+                total.Tournament = tour;
+                string tourS = tour.ToString();
                 var allSeasonTour = from c in db.PlayerSeasons
                                   where c.PlayerId == PlayerId && 
-                                  c.TeamSeason.FederationSeason.Tournament == tour
+                                  c.TeamSeason.FederationSeason.TournamentString == tourS
                                   select c;
                 foreach(var item in allSeasonTour)
                 {
@@ -457,7 +460,11 @@ namespace SportStatistics.Models.ServiceClasses
             List<Progress> progresses = new List<Progress>();
             var fed = db.FederationSeasons.Find(fedSeason);
 
-            foreach (var item in fed.TeamSeasons)
+            var list = from c in fed.TeamSeasons
+                       orderby c.Point descending
+                       select c;
+
+            foreach (var item in list)
             {
                 Progress progress = new Progress();
                 progress.Form = new List<Form>();
@@ -485,6 +492,7 @@ namespace SportStatistics.Models.ServiceClasses
                 }
                 progresses.Add(progress);
             }
+            
             return progresses;
         }
 
@@ -493,7 +501,11 @@ namespace SportStatistics.Models.ServiceClasses
             List<Progress> progresses = new List<Progress>();
             var fed = db.FederationSeasons.Find(fedSeason);
 
-            foreach (var item in fed.TeamSeasons)
+            var list = from c in fed.TeamSeasons
+                       orderby c.HomePoint descending
+                       select c;
+
+            foreach (var item in list)                
             {
                 Progress progress = new Progress();
                 progress.Form = new List<Form>();
@@ -525,7 +537,11 @@ namespace SportStatistics.Models.ServiceClasses
             List<Progress> progresses = new List<Progress>();
             var fed = db.FederationSeasons.Find(fedSeason);
 
-            foreach (var item in fed.TeamSeasons)
+            var list = from c in fed.TeamSeasons
+                       orderby c.Point - c.HomePoint descending
+                       select c;
+
+            foreach (var item in list)                
             {
                 Progress progress = new Progress();
                 progress.Form = new List<Form>();
@@ -610,28 +626,36 @@ namespace SportStatistics.Models.ServiceClasses
             match.IdMatch.TeamHomeId = search.TeamSeasons.First().TeamId;
             match.IdMatch.TeamAwayId = search.TeamSeasons.Last().TeamId;
             match.IdMatch.FederationSeasonId = search.TeamSeasons.First().FederationSeasonId;
-            
-            foreach (var item in match.ListHomePlayers)
+
+            if (match.ListHomePlayers != null)
             {
-                var temp = from c in db.Players
-                           where c.Name + " " + c.Surname == item
-                           select c;
-                if (temp.Count() > 0)
+                foreach (var item in match.ListHomePlayers)
                 {
-                    match.IdMatch.HomeTeamPlayersId.Add(temp.First().PlayerId);
+                    string nameS = item;
+                    var temp = from c in db.Players
+                               where c.Name + " " + c.Surname == nameS
+                               select c;
+                    if (temp.Count() > 0)
+                    {
+                        match.IdMatch.HomeTeamPlayersId.Add(temp.First().PlayerId);
+                    }
                 }
             }
-            foreach (var item in match.ListAwayPlayers)
+
+            if (match.ListAwayPlayers != null)
             {
-                var temp = from c in db.Players
-                          where c.Name + " " + c.Surname == item
-                          select c;
-                if (temp.Count() > 0)
-                {   
-                    match.IdMatch.AwayTeamPlayersId.Add(temp.First().PlayerId);
+                foreach (var item in match.ListAwayPlayers)
+                {
+                    string nameS = item;
+                    var temp = from c in db.Players
+                               where c.Name + " " + c.Surname == nameS
+                               select c;
+                    if (temp.Count() > 0)
+                    {
+                        match.IdMatch.AwayTeamPlayersId.Add(temp.First().PlayerId);
+                    }
                 }
-            }            
-            
+            }
             return match;
         }
     }

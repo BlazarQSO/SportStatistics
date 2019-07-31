@@ -12,6 +12,7 @@ namespace SportStatistics.Models.ViewModels
         public Season Season { get; set; }
         public string NameTeam { get; set; }        
         public int Count { get; set; }
+        public int Rank { get; set; }
         public List<Form> Form { get; set; }
     }
 }
