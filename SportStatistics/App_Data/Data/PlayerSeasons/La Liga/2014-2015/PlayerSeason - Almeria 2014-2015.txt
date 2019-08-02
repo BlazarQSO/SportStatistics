@@ -1,0 +1,27 @@
+Football,Spain,League,2014,Almeria,Julian,,15,0,0
+Football,Spain,League,2014,Almeria,Sebastian,Dubarbier,32,0,1
+Football,Spain,League,2014,Almeria,Ximo,Navarro,29,0,2
+Football,Spain,League,2014,Almeria,Thomas,Partey,31,4,0
+Football,Spain,League,2014,Almeria,Michel,Macedo,14,2,0
+Football,Spain,League,2014,Almeria,Wellington,Silva,31,0,2
+Football,Spain,League,2014,Almeria,Verza,,33,4,3
+Football,Spain,League,2014,Almeria,Ruben,Martinez,23,0,0
+Football,Spain,League,2014,Almeria,Tomer,Hemed,35,8,4
+Football,Spain,League,2014,Almeria,Mauro,Dos Santos,29,1,0
+Football,Spain,League,2014,Almeria,Fran,Velez,17,0,1
+Football,Spain,League,2014,Almeria,Angel,Trujillo,36,0,1
+Football,Spain,League,2014,Almeria,Edgar,Mendez,30,4,1
+Football,Spain,League,2014,Almeria,Corona,,31,0,0
+Football,Spain,League,2014,Almeria,Jonathan,,27,2,1
+Football,Spain,League,2014,Almeria,Thievy,,29,4,1
+Football,Spain,League,2014,Almeria,Fernando,Soriano,30,3,1
+Football,Spain,League,2014,Almeria,Javier,Espinosa,15,1,0
+Football,Spain,League,2014,Almeria,Mane,,5,0,0
+Football,Spain,League,2014,Almeria,Ramon,Azeez,14,0,1
+Football,Spain,League,2014,Almeria,Casado,,8,0,1
+Football,Spain,League,2014,Almeria,Gaspar,Panadero,1,0,0
+Football,Spain,League,2014,Almeria,Quique,Gonzalez,3,0,0
+Football,Spain,League,2014,Almeria,Carlos,Selfa,1,0,0
+Football,Spain,League,2014,Almeria,Teerasil,Dangda,6,0,0
+Football,Spain,League,2014,Almeria,Dani,Romera,5,0,0
+Football,Spain,League,2014,Almeria,Antonio,Marin,2,0,0

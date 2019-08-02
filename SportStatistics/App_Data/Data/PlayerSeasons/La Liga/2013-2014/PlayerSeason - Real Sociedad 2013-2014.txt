@@ -1,0 +1,26 @@
+Football,Spain,League,2013,Real Sociedad,Carlos,Vela,37,15,12
+Football,Spain,League,2013,Real Sociedad,Joseba,Zaldua,10,0,0
+Football,Spain,League,2013,Real Sociedad,Antoine,Griezmann,35,16,3
+Football,Spain,League,2013,Real Sociedad,Cote,,22,1,5
+Football,Spain,League,2013,Real Sociedad,Liassine,Cadamuro,4,0,0
+Football,Spain,League,2013,Real Sociedad,Markel,Bergara,32,1,2
+Football,Spain,League,2013,Real Sociedad,Carlos,Martinez,24,0,0
+Football,Spain,League,2013,Real Sociedad,Inigo,Martinez,35,2,0
+Football,Spain,League,2013,Real Sociedad,Esteban,Granero,4,0,1
+Football,Spain,League,2013,Real Sociedad,Ion,Ansotegi,24,2,0
+Football,Spain,League,2013,Real Sociedad,Alberto,de la Bella,17,1,2
+Football,Spain,League,2013,Real Sociedad,Mikel,Gonzalez,21,0,0
+Football,Spain,League,2013,Real Sociedad,Sergio,Canales,16,2,0
+Football,Spain,League,2013,Real Sociedad,Xabi,Prieto,30,2,3
+Football,Spain,League,2013,Real Sociedad,David,Zurutuza,27,1,2
+Football,Spain,League,2013,Real Sociedad,Ruben,Pardo,35,3,8
+Football,Spain,League,2013,Real Sociedad,Claudio,Bravo,37,0,0
+Football,Spain,League,2013,Real Sociedad,Gonzalo,Castro,23,2,3
+Football,Spain,League,2013,Real Sociedad,Imanol,Agirretxe,31,8,1
+Football,Spain,League,2013,Real Sociedad,Gorka,Elustondo,20,0,0
+Football,Spain,League,2013,Real Sociedad,Dani,Estrada,3,0,0
+Football,Spain,League,2013,Real Sociedad,Haris,Seferovic,23,2,2
+Football,Spain,League,2013,Real Sociedad,Jon,Gaztanaga,3,0,1
+Football,Spain,League,2013,Real Sociedad,Javi,Ros,9,0,0
+Football,Spain,League,2013,Real Sociedad,Marco,Sangalli,2,0,0
+Football,Spain,League,2013,Real Sociedad,Enaut,Zubikarai,1,0,0

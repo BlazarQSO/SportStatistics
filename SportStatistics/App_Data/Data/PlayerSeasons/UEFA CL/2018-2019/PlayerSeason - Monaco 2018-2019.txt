@@ -1,0 +1,29 @@
+Football,UEFA,League,2018,Monaco,Loic,Badiashile,1,0,0
+Football,UEFA,League,2018,Monaco,Aleksandr,Golovin,3,0,1
+Football,UEFA,League,2018,Monaco,Almamy,Toure,1,0,0
+Football,UEFA,League,2018,Monaco,Youri,Tielemans,6,0,0
+Football,UEFA,League,2018,Monaco,Samuel,Grandsir,3,1,0
+Football,UEFA,League,2018,Monaco,Kevin,N'Doram,1,0,0
+Football,UEFA,League,2018,Monaco,Kamil,Glik,5,0,0
+Football,UEFA,League,2018,Monaco,Jordi,Mboula,1,0,0
+Football,UEFA,League,2018,Monaco,Han-Noah,Massengo,3,0,0
+Football,UEFA,League,2018,Monaco,Danijel,Subasic,1,0,0
+Football,UEFA,League,2018,Monaco,Nacer,Chadli,5,0,0
+Football,UEFA,League,2018,Monaco,Andrea,Raggi,4,0,0
+Football,UEFA,League,2018,Monaco,Youssef,Ait Bennasser,3,0,0
+Football,UEFA,League,2018,Monaco,Djibril,Sidibe,4,0,0
+Football,UEFA,League,2018,Monaco,Benjamin,Henrichs,4,0,0
+Football,UEFA,League,2018,Monaco,Giulian,Biancone,2,0,0
+Football,UEFA,League,2018,Monaco,Diego,Benaglio,5,0,0
+Football,UEFA,League,2018,Monaco,Jemerson,,5,0,0
+Football,UEFA,League,2018,Monaco,Kephren,Thuram,2,0,0
+Football,UEFA,League,2018,Monaco,Benoit,Badiashile Mukinayi,2,0,0
+Football,UEFA,League,2018,Monaco,Radamel,Falcao,5,0,0
+Football,UEFA,League,2018,Monaco,Moussa,Sylla,6,1,0
+Football,UEFA,League,2018,Monaco,Jean,Eudes Aholou,3,0,0
+Football,UEFA,League,2018,Monaco,Gobe,Gouano,1,0,0
+Football,UEFA,League,2018,Monaco,Adama,Traore II,1,0,0
+Football,UEFA,League,2018,Monaco,Stevan,Jovetic,1,0,0
+Football,UEFA,League,2018,Monaco,Julien,Serrano,1,0,0
+Football,UEFA,League,2018,Monaco,Sofiane,Diop,4,0,0
+Football,UEFA,League,2018,Monaco,Antonio,Barreca,1,0,0

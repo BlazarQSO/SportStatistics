@@ -1,0 +1,31 @@
+Football,Spain,League,2010,Espanyol,Carlos,Kameni,33,0,0
+Football,Spain,League,2010,Espanyol,Didac,Vila,13,0,1
+Football,Spain,League,2010,Espanyol,Javi,Marquez,29,2,1
+Football,Spain,League,2010,Espanyol,Pablo,Daniel Osvaldo,24,13,4
+Football,Spain,League,2010,Espanyol,Jose,Callejon,37,6,7
+Football,Spain,League,2010,Espanyol,Luis,Garcia,37,6,6
+Football,Spain,League,2010,Espanyol,Victor,Ruiz,15,0,0
+Football,Spain,League,2010,Espanyol,Javi,Lopez,25,0,0
+Football,Spain,League,2010,Espanyol,Joan,Verdu,37,5,7
+Football,Spain,League,2010,Espanyol,Ernesto,Galan,22,1,0
+Football,Spain,League,2010,Espanyol,David,Garcia,17,0,1
+Football,Spain,League,2010,Espanyol,Javi,Chica,29,0,1
+Football,Spain,League,2010,Espanyol,Juan,Forlin,21,0,0
+Football,Spain,League,2010,Espanyol,Jordi,Amat,26,0,0
+Football,Spain,League,2010,Espanyol,Raul,Baena,15,0,0
+Football,Spain,League,2010,Espanyol,Raul,Rodriguez,10,0,0
+Football,Spain,League,2010,Espanyol,Aldo,Duscher,19,0,0
+Football,Spain,League,2010,Espanyol,Jesus,Datolo,14,2,0
+Football,Spain,League,2010,Espanyol,Sergio,Garcia,21,3,1
+Football,Spain,League,2010,Espanyol,Ivan,Alonso,20,2,0
+Football,Spain,League,2010,Espanyol,Alvaro,Vazquez,30,4,0
+Football,Spain,League,2010,Espanyol,Manuel,Molina,7,0,0
+Football,Spain,League,2010,Espanyol,Cristian,Alvarez,5,0,0
+Football,Spain,League,2010,Espanyol,Rui,Fonte,11,0,1
+Football,Spain,League,2010,Espanyol,Isaias,,4,0,0
+Football,Spain,League,2010,Espanyol,Eric,Lopez,2,0,0
+Football,Spain,League,2010,Espanyol,Ferran,Corominas,1,0,0
+Football,Spain,League,2010,Espanyol,Ivan,De la Pena,2,0,0
+Football,Spain,League,2010,Espanyol,Thievy,,2,0,0
+Football,Spain,League,2010,Espanyol,David,Lopez,3,0,0
+Football,Spain,League,2010,Espanyol,Victor,Alvarez,1,0,0

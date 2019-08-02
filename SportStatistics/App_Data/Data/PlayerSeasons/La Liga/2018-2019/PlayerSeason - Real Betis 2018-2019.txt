@@ -1,0 +1,25 @@
+Football,Spain,League,2018,Real Betis,Giovani,Lo Celso,32,9,4
+Football,Spain,League,2018,Real Betis,Zouhair,Feddal,21,1,1
+Football,Spain,League,2018,Real Betis,Sergio,Canales,32,7,2
+Football,Spain,League,2018,Real Betis,Marc,Bartra,33,1,0
+Football,Spain,League,2018,Real Betis,Junior,Firpo,24,3,4
+Football,Spain,League,2018,Real Betis,Joaquin,,30,6,0
+Football,Spain,League,2018,Real Betis,Joel,Robles,5,0,0
+Football,Spain,League,2018,Real Betis,William,Carvalho,30,0,5
+Football,Spain,League,2018,Real Betis,Cristian,Tello,29,4,6
+Football,Spain,League,2018,Real Betis,Sidnei,,24,1,0
+Football,Spain,League,2018,Real Betis,Aissa,Mandi,35,1,1
+Football,Spain,League,2018,Real Betis,Pau,Lopez,33,0,0
+Football,Spain,League,2018,Real Betis,Francis,,22,0,1
+Football,Spain,League,2018,Real Betis,Andres,Guardado,31,0,4
+Football,Spain,League,2018,Real Betis,Wilfrid,Kaptoum,10,0,0
+Football,Spain,League,2018,Real Betis,Ryad,Boudebouz,9,0,0
+Football,Spain,League,2018,Real Betis,Loren,Moron,33,6,0
+Football,Spain,League,2018,Real Betis,Emerson,,6,0,0
+Football,Spain,League,2018,Real Betis,Antonio,Sanabria,15,2,0
+Football,Spain,League,2018,Real Betis,Javi,Garcia,13,0,0
+Football,Spain,League,2018,Real Betis,Takashi,Inui,8,0,0
+Football,Spain,League,2018,Real Betis,Diego,Lainez,12,0,1
+Football,Spain,League,2018,Real Betis,Jese,,14,2,0
+Football,Spain,League,2018,Real Betis,Antonio,Barragan,14,0,0
+Football,Spain,League,2018,Real Betis,Sergio,Leon,16,0,1

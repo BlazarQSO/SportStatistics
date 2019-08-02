@@ -1,0 +1,24 @@
+Football,Spain,League,2009,Almeria,Hernan,Pellerano,19,0,0
+Football,Spain,League,2009,Almeria,Diego,Alves,37,0,0
+Football,Spain,League,2009,Almeria,Guilherme,Santos,15,1,0
+Football,Spain,League,2009,Almeria,Modeste,M'Bami,28,0,0
+Football,Spain,League,2009,Almeria,Fernando,Soriano,35,7,2
+Football,Spain,League,2009,Almeria,Albert,Crusat,33,7,4
+Football,Spain,League,2009,Almeria,Santiago,Acasiete,31,0,1
+Football,Spain,League,2009,Almeria,Hernan,Bernardello,35,0,3
+Football,Spain,League,2009,Almeria,Pablo,Piatti,35,7,4
+Football,Spain,League,2009,Almeria,Kalu,Uche,28,9,2
+Football,Spain,League,2009,Almeria,Chico,Flores,27,0,0
+Football,Spain,League,2009,Almeria,Domingo,Cisma,33,3,1
+Football,Spain,League,2009,Almeria,Michel,Macedo,28,1,2
+Football,Spain,League,2009,Almeria,Leonardo,Borzani,3,0,0
+Football,Spain,League,2009,Almeria,Corona,,22,1,2
+Football,Spain,League,2009,Almeria,Juanma,Ortiz,35,2,4
+Football,Spain,League,2009,Almeria,Esteban,,2,0,0
+Football,Spain,League,2009,Almeria,Fabian,Vargas,10,0,0
+Football,Spain,League,2009,Almeria,Miguel,Angel Nieto,14,0,0
+Football,Spain,League,2009,Almeria,Henok,Goitom,21,1,1
+Football,Spain,League,2009,Almeria,Ortiz,Bernal,17,1,2
+Football,Spain,League,2009,Almeria,Alex,Quillo,1,0,0
+Football,Spain,League,2009,Almeria,David,Rodriguez,9,1,0
+Football,Spain,League,2009,Almeria,Esteban,Solari,2,0,0

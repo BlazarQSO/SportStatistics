@@ -1,0 +1,26 @@
+Football,England,League,2018,Crystal Palace,Aaron,Wan-Bissaka,35,0,3
+Football,England,League,2018,Crystal Palace,Wilfried,Zaha,34,10,5
+Football,England,League,2018,Crystal Palace,Luka,Milivojevic,38,12,2
+Football,England,League,2018,Crystal Palace,Andros,Townsend,38,6,4
+Football,England,League,2018,Crystal Palace,Michy,Batshuayi,11,5,0
+Football,England,League,2018,Crystal Palace,James,Tomkins,29,1,1
+Football,England,League,2018,Crystal Palace,James,McArthur,38,3,6
+Football,England,League,2018,Crystal Palace,Joel,Ward,7,0,0
+Football,England,League,2018,Crystal Palace,Scott,Dann,10,0,1
+Football,England,League,2018,Crystal Palace,Vicente,Guaita,20,0,0
+Football,England,League,2018,Crystal Palace,Mamadou,Sakho,27,0,0
+Football,England,League,2018,Crystal Palace,Patrick,van Aanholt,36,3,2
+Football,England,League,2018,Crystal Palace,Jeffrey,Schlupp,30,4,1
+Football,England,League,2018,Crystal Palace,Christian,Benteke,16,1,1
+Football,England,League,2018,Crystal Palace,Martin,Kelly,13,0,0
+Football,England,League,2018,Crystal Palace,Cheikhou,Kouyate,31,0,2
+Football,England,League,2018,Crystal Palace,Wayne,Hennessey,18,0,0
+Football,England,League,2018,Crystal Palace,Jordan,Ayew,20,1,2
+Football,England,League,2018,Crystal Palace,Max,Meyer,29,1,2
+Football,England,League,2018,Crystal Palace,Connor,Wickham,6,0,1
+Football,England,League,2018,Crystal Palace,Alexander,Sorloth,12,0,0
+Football,England,League,2018,Crystal Palace,Jason,Puncheon,5,0,0
+Football,England,League,2018,Crystal Palace,Luke,Dreher,1,0,0
+Football,England,League,2018,Crystal Palace,Pape,Souare,1,0,0
+Football,England,League,2018,Crystal Palace,Bakary,Sako,4,0,0
+Football,England,League,2018,Crystal Palace,Julian,Speroni,1,0,0

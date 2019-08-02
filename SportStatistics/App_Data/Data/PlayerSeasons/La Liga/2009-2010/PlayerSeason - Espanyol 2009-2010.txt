@@ -1,0 +1,28 @@
+Football,Spain,League,2009,Espanyol,Didac,Vila,11,0,0
+Football,Spain,League,2009,Espanyol,Javi,Marquez,15,1,1
+Football,Spain,League,2009,Espanyol,Nico,Pareja,30,0,0
+Football,Spain,League,2009,Espanyol,Victor,Ruiz,22,2,0
+Football,Spain,League,2009,Espanyol,Javi,Chica,28,0,2
+Football,Spain,League,2009,Espanyol,Ivan,Pillud,9,0,0
+Football,Spain,League,2009,Espanyol,David,Garcia,21,0,2
+Football,Spain,League,2009,Espanyol,Jose,Callejon,36,2,4
+Football,Spain,League,2009,Espanyol,Luis,Garcia,36,3,1
+Football,Spain,League,2009,Espanyol,Cristian,Alvarez,8,0,0
+Football,Spain,League,2009,Espanyol,Pablo,Daniel Osvaldo,20,7,0
+Football,Spain,League,2009,Espanyol,Joan,Verdu,34,4,1
+Football,Spain,League,2009,Espanyol,Facundo,Roncaglia,21,0,0
+Football,Spain,League,2009,Espanyol,Carlos,Kameni,31,0,0
+Football,Spain,League,2009,Espanyol,Moises,Hurtado,31,0,0
+Football,Spain,League,2009,Espanyol,Juan,Forlin,24,2,0
+Football,Spain,League,2009,Espanyol,Fernando,Marques,21,1,5
+Football,Spain,League,2009,Espanyol,Raul,Baena,19,0,0
+Football,Spain,League,2009,Espanyol,Ivan,Alonso,34,5,0
+Football,Spain,League,2009,Espanyol,Shunsuke,Nakamura,13,0,1
+Football,Spain,League,2009,Espanyol,Ferran,Corominas,23,1,1
+Football,Spain,League,2009,Espanyol,Jordi,Amat,6,0,0
+Football,Spain,League,2009,Espanyol,Ben,Sahar,22,1,0
+Football,Spain,League,2009,Espanyol,Azrack-Yassine,Mahamat,2,0,0
+Football,Spain,League,2009,Espanyol,Ivan,De la Pena,4,0,0
+Football,Spain,League,2009,Espanyol,Javi,Lopez,1,0,0
+Football,Spain,League,2009,Espanyol,Raul,Tamudo,6,0,0
+Football,Spain,League,2009,Espanyol,Marc,Pedraza,1,0,0

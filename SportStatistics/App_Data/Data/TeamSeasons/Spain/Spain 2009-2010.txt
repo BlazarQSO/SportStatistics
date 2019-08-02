@@ -1,0 +1,20 @@
+Football,Spain,League,2009,Barcelona,38,31,6,1,98,24,99,19,18,1,0,57,11,55,19,13
+Football,Spain,League,2009,Real Madrid,38,31,3,4,102,35,96,19,18,0,1,60,18,54,19,13
+Football,Spain,League,2009,Valencia,38,21,8,9,59,40,71,19,13,5,1,34,12,44,19,8
+Football,Spain,League,2009,Sevilla,38,19,6,13,65,49,63,19,10,6,3,33,18,36,19,9
+Football,Spain,League,2009,Mallorca,38,18,8,12,59,44,62,19,15,1,3,42,15,46,19,3
+Football,Spain,League,2009,Getafe,38,17,7,14,58,48,58,19,11,4,4,34,22,37,19,6
+Football,Spain,League,2009,Villarreal,38,16,8,14,58,57,56,19,13,3,3,35,18,42,19,3
+Football,Spain,League,2009,Athletic Bilbao,38,15,9,14,50,53,54,19,11,4,4,34,24,37,19,4
+Football,Spain,League,2009,Atletico Madrid,38,13,8,17,57,61,47,19,11,3,5,37,24,36,19,2
+Football,Spain,League,2009,Deportivo La Coruna,38,13,8,17,35,49,47,19,9,4,6,22,21,31,19,4
+Football,Spain,League,2009,Espanyol,38,11,11,16,29,46,44,19,9,6,4,20,17,33,19,2
+Football,Spain,League,2009,Osasuna,38,11,10,17,37,46,43,19,7,8,4,21,16,29,19,4
+Football,Spain,League,2009,Almeria,38,10,12,16,43,55,42,19,8,6,5,25,23,30,19,2
+Football,Spain,League,2009,Real Zaragoza,38,10,11,17,46,64,41,19,7,6,6,27,23,27,19,3
+Football,Spain,League,2009,Sporting Gijon,38,9,13,16,36,51,40,19,7,7,5,20,18,28,19,2
+Football,Spain,League,2009,Racing Santander,38,9,12,17,42,59,39,19,4,5,10,17,32,17,19,5
+Football,Spain,League,2009,Malaga,38,7,16,15,42,48,37,19,5,8,6,21,21,23,19,2
+Football,Spain,League,2009,Tenerife,38,9,9,20,40,74,36,19,8,6,5,26,29,30,19,1
+Football,Spain,League,2009,Real Valladolid,38,7,15,16,37,62,36,19,4,8,7,23,32,20,19,3
+Football,Spain,League,2009,Xerez,38,8,10,20,38,66,34,19,6,4,9,20,29,22,19,2

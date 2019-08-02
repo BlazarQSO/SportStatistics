@@ -1,0 +1,27 @@
+Football,Spain,League,2009,Valencia,David,Villa,32,21,3
+Football,Spain,League,2009,Valencia,David,Silva,30,8,7
+Football,Spain,League,2009,Valencia,Jordi,Alba,15,1,0
+Football,Spain,League,2009,Valencia,Cesar,,30,0,0
+Football,Spain,League,2009,Valencia,Ever,Banega,36,2,8
+Football,Spain,League,2009,Valencia,Jeremy,Mathieu,17,1,2
+Football,Spain,League,2009,Valencia,Pablo,Hernandez,33,5,6
+Football,Spain,League,2009,Valencia,David,Albelda,28,1,1
+Football,Spain,League,2009,Valencia,Joaquin,,28,2,4
+Football,Spain,League,2009,Valencia,Juan,Mata,35,9,4
+Football,Spain,League,2009,Valencia,Miguel,Brito,25,0,1
+Football,Spain,League,2009,Valencia,Bruno,,26,0,1
+Football,Spain,League,2009,Valencia,Carlos,Marchena,24,2,1
+Football,Spain,League,2009,Valencia,Angel,Dealbert,24,0,0
+Football,Spain,League,2009,Valencia,David,Navarro,19,2,0
+Football,Spain,League,2009,Valencia,Miguel,Angel Moya,8,0,0
+Football,Spain,League,2009,Valencia,Ruben,Baraja,18,0,1
+Football,Spain,League,2009,Valencia,Nikola,Zigic,13,4,1
+Football,Spain,League,2009,Valencia,Alexis,Ruano,24,1,0
+Football,Spain,League,2009,Valencia,Joel,Johnson,1,0,0
+Football,Spain,League,2009,Valencia,Vicente,,11,0,1
+Football,Spain,League,2009,Valencia,Lillo,,1,0,0
+Football,Spain,League,2009,Valencia,Hedwiges,Maduro,18,0,0
+Football,Spain,League,2009,Valencia,Manuel,Fernandes,15,0,0
+Football,Spain,League,2009,Valencia,Chori,Dominguez,13,0,2
+Football,Spain,League,2009,Valencia,Miku,,2,0,0
+Football,Spain,League,2009,Valencia,Michel,,3,0,0

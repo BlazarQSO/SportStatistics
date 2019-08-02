@@ -1,0 +1,27 @@
+Football,Spain,League,2015,Levante,Jose,Luis Morales,35,0,0
+Football,Spain,League,2015,Levante,Deyverson,,33,9,1
+Football,Spain,League,2015,Levante,Zouhair,Feddal,28,1,1
+Football,Spain,League,2015,Levante,Tono,,27,0,1
+Football,Spain,League,2015,Levante,Giuseppe,Rossi,17,6,2
+Football,Spain,League,2015,Levante,Jose,Mari,12,0,0
+Football,Spain,League,2015,Levante,Simao,Mate,30,1,0
+Football,Spain,League,2015,Levante,Jefferson,Lerma,33,1,2
+Football,Spain,League,2015,Levante,Carl,Medjani,14,1,0
+Football,Spain,League,2015,Levante,Ivan,Lopez,13,0,0
+Football,Spain,League,2015,Levante,Diego,Marino,23,0,0
+Football,Spain,League,2015,Levante,Joan,Verdu,13,1,1
+Football,Spain,League,2015,Levante,Verza,,29,2,3
+Football,Spain,League,2015,Levante,Pedro,Lopez,17,1,0
+Football,Spain,League,2015,Levante,Juanfran,,21,0,1
+Football,Spain,League,2015,Levante,Victor,Casadesus,23,3,1
+Football,Spain,League,2015,Levante,Ruben,Garcia,22,1,0
+Football,Spain,League,2015,Levante,Mauricio,Cuero,13,0,1
+Football,Spain,League,2015,Levante,Victor,Camarasa,34,2,3
+Football,Spain,League,2015,Levante,Angel,Trujillo,8,0,0
+Football,Spain,League,2015,Levante,David,Navarro,20,0,0
+Football,Spain,League,2015,Levante,Ruben,Martinez,15,0,0
+Football,Spain,League,2015,Levante,Nikos,Karampelas,1,0,0
+Football,Spain,League,2015,Levante,Nabil,Ghilas,20,0,1
+Football,Spain,League,2015,Levante,Roger,Marti,16,0,0
+Football,Spain,League,2015,Levante,Jordi,Xumetra,13,0,0
+Football,Spain,League,2015,Levante,Lucas,Orban,3,0,0

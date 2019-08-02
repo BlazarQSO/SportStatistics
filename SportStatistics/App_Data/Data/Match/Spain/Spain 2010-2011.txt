@@ -1,0 +1,380 @@
+Football,Spain,League,2010,28/08/10,Hercules,Athletic Bilbao,0,1,A
+Football,Spain,League,2010,28/08/10,Levante,Sevilla,1,4,A
+Football,Spain,League,2010,28/08/10,Malaga,Valencia,1,3,A
+Football,Spain,League,2010,29/08/10,Espanyol,Getafe,3,1,H
+Football,Spain,League,2010,29/08/10,Deportivo La Coruna,Real Zaragoza,0,0,D
+Football,Spain,League,2010,29/08/10,Mallorca,Real Madrid,0,0,D
+Football,Spain,League,2010,29/08/10,Osasuna,Almeria,0,0,D
+Football,Spain,League,2010,29/08/10,Racing Santander,Barcelona,0,3,A
+Football,Spain,League,2010,29/08/10,Real Sociedad,Villarreal,1,0,H
+Football,Spain,League,2010,30/08/10,Atletico Madrid,Sporting Gijon,4,0,H
+Football,Spain,League,2010,11/09/10,Athletic Bilbao,Atletico Madrid,1,2,A
+Football,Spain,League,2010,11/09/10,Barcelona,Hercules,0,2,A
+Football,Spain,League,2010,11/09/10,Real Madrid,Osasuna,1,0,H
+Football,Spain,League,2010,11/09/10,Valencia,Racing Santander,1,0,H
+Football,Spain,League,2010,12/09/10,Getafe,Levante,4,1,H
+Football,Spain,League,2010,12/09/10,Sevilla,Deportivo La Coruna,0,0,D
+Football,Spain,League,2010,12/09/10,Sporting Gijon,Mallorca,2,0,H
+Football,Spain,League,2010,12/09/10,Villarreal,Espanyol,4,0,H
+Football,Spain,League,2010,12/09/10,Real Zaragoza,Malaga,3,5,A
+Football,Spain,League,2010,13/09/10,Almeria,Real Sociedad,2,2,D
+Football,Spain,League,2010,18/09/10,Espanyol,Almeria,1,0,H
+Football,Spain,League,2010,18/09/10,Mallorca,Osasuna,2,0,H
+Football,Spain,League,2010,18/09/10,Real Sociedad,Real Madrid,1,2,A
+Football,Spain,League,2010,18/09/10,Sporting Gijon,Athletic Bilbao,2,2,D
+Football,Spain,League,2010,19/09/10,Atletico Madrid,Barcelona,1,2,A
+Football,Spain,League,2010,19/09/10,Hercules,Valencia,1,2,A
+Football,Spain,League,2010,19/09/10,Levante,Villarreal,1,2,A
+Football,Spain,League,2010,19/09/10,Malaga,Sevilla,1,2,A
+Football,Spain,League,2010,19/09/10,Racing Santander,Real Zaragoza,2,0,H
+Football,Spain,League,2010,20/09/10,Deportivo La Coruna,Getafe,2,2,D
+Football,Spain,League,2010,21/09/10,Athletic Bilbao,Mallorca,3,0,H
+Football,Spain,League,2010,21/09/10,Osasuna,Real Sociedad,3,1,H
+Football,Spain,League,2010,21/09/10,Real Madrid,Espanyol,3,0,H
+Football,Spain,League,2010,22/09/10,Almeria,Levante,0,1,A
+Football,Spain,League,2010,22/09/10,Barcelona,Sporting Gijon,1,0,H
+Football,Spain,League,2010,22/09/10,Valencia,Atletico Madrid,1,1,D
+Football,Spain,League,2010,22/09/10,Real Zaragoza,Hercules,0,0,D
+Football,Spain,League,2010,23/09/10,Getafe,Malaga,0,2,A
+Football,Spain,League,2010,23/09/10,Sevilla,Racing Santander,1,1,D
+Football,Spain,League,2010,23/09/10,Villarreal,Deportivo La Coruna,1,0,H
+Football,Spain,League,2010,25/09/10,Athletic Bilbao,Barcelona,1,3,A
+Football,Spain,League,2010,25/09/10,Levante,Real Madrid,0,0,D
+Football,Spain,League,2010,25/09/10,Sporting Gijon,Valencia,0,2,A
+Football,Spain,League,2010,26/09/10,Atletico Madrid,Real Zaragoza,1,0,H
+Football,Spain,League,2010,26/09/10,Espanyol,Osasuna,1,0,H
+Football,Spain,League,2010,26/09/10,Hercules,Sevilla,2,0,H
+Football,Spain,League,2010,26/09/10,Deportivo La Coruna,Almeria,0,2,A
+Football,Spain,League,2010,26/09/10,Mallorca,Real Sociedad,2,0,H
+Football,Spain,League,2010,26/09/10,Racing Santander,Getafe,0,1,A
+Football,Spain,League,2010,27/09/10,Malaga,Villarreal,2,3,A
+Football,Spain,League,2010,02/10/10,Real Sociedad,Espanyol,1,0,H
+Football,Spain,League,2010,02/10/10,Valencia,Athletic Bilbao,2,1,H
+Football,Spain,League,2010,02/10/10,Real Zaragoza,Sporting Gijon,2,2,D
+Football,Spain,League,2010,03/10/10,Almeria,Malaga,1,1,D
+Football,Spain,League,2010,03/10/10,Barcelona,Mallorca,1,1,D
+Football,Spain,League,2010,03/10/10,Getafe,Hercules,3,0,H
+Football,Spain,League,2010,03/10/10,Osasuna,Levante,1,1,D
+Football,Spain,League,2010,03/10/10,Real Madrid,Deportivo La Coruna,6,1,H
+Football,Spain,League,2010,03/10/10,Sevilla,Atletico Madrid,3,1,H
+Football,Spain,League,2010,03/10/10,Villarreal,Racing Santander,2,0,H
+Football,Spain,League,2010,16/10/10,Atletico Madrid,Getafe,2,0,H
+Football,Spain,League,2010,16/10/10,Barcelona,Valencia,2,1,H
+Football,Spain,League,2010,16/10/10,Malaga,Real Madrid,1,4,A
+Football,Spain,League,2010,17/10/10,Athletic Bilbao,Real Zaragoza,2,1,H
+Football,Spain,League,2010,17/10/10,Deportivo La Coruna,Osasuna,0,0,D
+Football,Spain,League,2010,17/10/10,Levante,Real Sociedad,2,1,H
+Football,Spain,League,2010,17/10/10,Mallorca,Espanyol,0,1,A
+Football,Spain,League,2010,17/10/10,Racing Santander,Almeria,1,0,H
+Football,Spain,League,2010,17/10/10,Sporting Gijon,Sevilla,2,0,H
+Football,Spain,League,2010,18/10/10,Hercules,Villarreal,2,2,D
+Football,Spain,League,2010,23/10/10,Real Madrid,Racing Santander,6,1,H
+Football,Spain,League,2010,23/10/10,Valencia,Mallorca,1,2,A
+Football,Spain,League,2010,23/10/10,Real Zaragoza,Barcelona,0,2,A
+Football,Spain,League,2010,24/10/10,Almeria,Hercules,1,1,D
+Football,Spain,League,2010,24/10/10,Espanyol,Levante,2,1,H
+Football,Spain,League,2010,24/10/10,Getafe,Sporting Gijon,3,0,H
+Football,Spain,League,2010,24/10/10,Osasuna,Malaga,3,0,H
+Football,Spain,League,2010,24/10/10,Sevilla,Athletic Bilbao,4,3,H
+Football,Spain,League,2010,24/10/10,Villarreal,Atletico Madrid,2,0,H
+Football,Spain,League,2010,25/10/10,Real Sociedad,Deportivo La Coruna,3,0,H
+Football,Spain,League,2010,30/10/10,Barcelona,Sevilla,5,0,H
+Football,Spain,League,2010,30/10/10,Hercules,Real Madrid,1,3,A
+Football,Spain,League,2010,30/10/10,Valencia,Real Zaragoza,1,1,D
+Football,Spain,League,2010,31/10/10,Athletic Bilbao,Getafe,3,0,H
+Football,Spain,League,2010,31/10/10,Atletico Madrid,Almeria,1,1,D
+Football,Spain,League,2010,31/10/10,Deportivo La Coruna,Espanyol,3,0,H
+Football,Spain,League,2010,31/10/10,Malaga,Real Sociedad,1,2,A
+Football,Spain,League,2010,31/10/10,Racing Santander,Osasuna,4,1,H
+Football,Spain,League,2010,31/10/10,Sporting Gijon,Villarreal,1,1,D
+Football,Spain,League,2010,01/11/10,Mallorca,Levante,2,1,H
+Football,Spain,League,2010,06/11/10,Espanyol,Malaga,1,0,H
+Football,Spain,League,2010,06/11/10,Real Sociedad,Racing Santander,1,0,H
+Football,Spain,League,2010,07/11/10,Almeria,Sporting Gijon,1,1,D
+Football,Spain,League,2010,07/11/10,Getafe,Barcelona,1,3,A
+Football,Spain,League,2010,07/11/10,Levante,Deportivo La Coruna,1,2,A
+Football,Spain,League,2010,07/11/10,Osasuna,Hercules,3,0,H
+Football,Spain,League,2010,07/11/10,Real Madrid,Atletico Madrid,2,0,H
+Football,Spain,League,2010,07/11/10,Villarreal,Athletic Bilbao,4,1,H
+Football,Spain,League,2010,07/11/10,Real Zaragoza,Mallorca,3,2,H
+Football,Spain,League,2010,08/11/10,Sevilla,Valencia,2,0,H
+Football,Spain,League,2010,13/11/10,Athletic Bilbao,Almeria,1,0,H
+Football,Spain,League,2010,13/11/10,Atletico Madrid,Osasuna,3,0,H
+Football,Spain,League,2010,13/11/10,Barcelona,Villarreal,3,1,H
+Football,Spain,League,2010,14/11/10,Hercules,Real Sociedad,2,1,H
+Football,Spain,League,2010,14/11/10,Malaga,Levante,1,0,H
+Football,Spain,League,2010,14/11/10,Mallorca,Deportivo La Coruna,0,0,D
+Football,Spain,League,2010,14/11/10,Racing Santander,Espanyol,0,0,D
+Football,Spain,League,2010,14/11/10,Sporting Gijon,Real Madrid,0,1,A
+Football,Spain,League,2010,14/11/10,Valencia,Getafe,2,0,H
+Football,Spain,League,2010,14/11/10,Real Zaragoza,Sevilla,1,2,A
+Football,Spain,League,2010,20/11/10,Almeria,Barcelona,0,8,A
+Football,Spain,League,2010,20/11/10,Real Madrid,Athletic Bilbao,5,1,H
+Football,Spain,League,2010,20/11/10,Villarreal,Valencia,1,1,D
+Football,Spain,League,2010,21/11/10,Espanyol,Hercules,3,0,H
+Football,Spain,League,2010,21/11/10,Deportivo La Coruna,Malaga,3,0,H
+Football,Spain,League,2010,21/11/10,Levante,Racing Santander,3,1,H
+Football,Spain,League,2010,21/11/10,Osasuna,Sporting Gijon,1,0,H
+Football,Spain,League,2010,21/11/10,Sevilla,Mallorca,1,2,A
+Football,Spain,League,2010,21/11/10,Real Sociedad,Atletico Madrid,2,4,A
+Football,Spain,League,2010,22/11/10,Getafe,Real Zaragoza,1,1,D
+Football,Spain,League,2010,27/11/10,Atletico Madrid,Espanyol,2,3,A
+Football,Spain,League,2010,27/11/10,Sevilla,Getafe,1,3,A
+Football,Spain,League,2010,27/11/10,Real Zaragoza,Villarreal,0,3,A
+Football,Spain,League,2010,28/11/10,Athletic Bilbao,Osasuna,1,0,H
+Football,Spain,League,2010,28/11/10,Hercules,Levante,3,1,H
+Football,Spain,League,2010,28/11/10,Mallorca,Malaga,2,0,H
+Football,Spain,League,2010,28/11/10,Racing Santander,Deportivo La Coruna,1,0,H
+Football,Spain,League,2010,28/11/10,Sporting Gijon,Real Sociedad,1,3,A
+Football,Spain,League,2010,28/11/10,Valencia,Almeria,2,1,H
+Football,Spain,League,2010,29/11/10,Barcelona,Real Madrid,5,0,H
+Football,Spain,League,2010,04/12/10,Levante,Atletico Madrid,2,0,H
+Football,Spain,League,2010,04/12/10,Osasuna,Barcelona,0,3,A
+Football,Spain,League,2010,04/12/10,Real Madrid,Valencia,2,0,H
+Football,Spain,League,2010,05/12/10,Almeria,Real Zaragoza,1,1,D
+Football,Spain,League,2010,05/12/10,Espanyol,Sporting Gijon,1,0,H
+Football,Spain,League,2010,05/12/10,Getafe,Mallorca,3,0,H
+Football,Spain,League,2010,05/12/10,Malaga,Racing Santander,4,1,H
+Football,Spain,League,2010,05/12/10,Real Sociedad,Athletic Bilbao,2,0,H
+Football,Spain,League,2010,05/12/10,Villarreal,Sevilla,1,0,H
+Football,Spain,League,2010,06/12/10,Deportivo La Coruna,Hercules,1,0,H
+Football,Spain,League,2010,11/12/10,Atletico Madrid,Deportivo La Coruna,2,0,H
+Football,Spain,League,2010,11/12/10,Getafe,Villarreal,1,0,H
+Football,Spain,League,2010,11/12/10,Sevilla,Almeria,1,3,A
+Football,Spain,League,2010,12/12/10,Athletic Bilbao,Espanyol,2,1,H
+Football,Spain,League,2010,12/12/10,Barcelona,Real Sociedad,5,0,H
+Football,Spain,League,2010,12/12/10,Hercules,Malaga,4,1,H
+Football,Spain,League,2010,12/12/10,Mallorca,Racing Santander,0,1,A
+Football,Spain,League,2010,12/12/10,Sporting Gijon,Levante,1,1,D
+Football,Spain,League,2010,12/12/10,Real Zaragoza,Real Madrid,1,3,A
+Football,Spain,League,2010,13/12/10,Valencia,Osasuna,3,3,D
+Football,Spain,League,2010,18/12/10,Espanyol,Barcelona,1,5,A
+Football,Spain,League,2010,18/12/10,Deportivo La Coruna,Sporting Gijon,1,1,D
+Football,Spain,League,2010,18/12/10,Levante,Athletic Bilbao,1,2,A
+Football,Spain,League,2010,18/12/10,Real Sociedad,Valencia,1,2,A
+Football,Spain,League,2010,18/12/10,Villarreal,Mallorca,3,1,H
+Football,Spain,League,2010,19/12/10,Almeria,Getafe,2,3,A
+Football,Spain,League,2010,19/12/10,Malaga,Atletico Madrid,0,3,A
+Football,Spain,League,2010,19/12/10,Osasuna,Real Zaragoza,0,0,D
+Football,Spain,League,2010,19/12/10,Real Madrid,Sevilla,1,0,H
+Football,Spain,League,2010,20/12/10,Racing Santander,Hercules,0,0,D
+Football,Spain,League,2010,02/01/11,Athletic Bilbao,Deportivo La Coruna,1,2,A
+Football,Spain,League,2010,02/01/11,Barcelona,Levante,2,1,H
+Football,Spain,League,2010,02/01/11,Sevilla,Osasuna,1,0,H
+Football,Spain,League,2010,02/01/11,Sporting Gijon,Malaga,1,2,A
+Football,Spain,League,2010,02/01/11,Valencia,Espanyol,2,1,H
+Football,Spain,League,2010,03/01/11,Atletico Madrid,Racing Santander,0,0,D
+Football,Spain,League,2010,03/01/11,Getafe,Real Madrid,2,3,A
+Football,Spain,League,2010,03/01/11,Mallorca,Hercules,3,0,H
+Football,Spain,League,2010,03/01/11,Villarreal,Almeria,2,0,H
+Football,Spain,League,2010,03/01/11,Real Zaragoza,Real Sociedad,2,1,H
+Football,Spain,League,2010,08/01/11,Deportivo La Coruna,Barcelona,0,4,A
+Football,Spain,League,2010,08/01/11,Malaga,Athletic Bilbao,1,1,D
+Football,Spain,League,2010,08/01/11,Real Sociedad,Sevilla,2,3,A
+Football,Spain,League,2010,09/01/11,Espanyol,Real Zaragoza,4,0,H
+Football,Spain,League,2010,09/01/11,Levante,Valencia,0,1,A
+Football,Spain,League,2010,09/01/11,Mallorca,Almeria,4,1,H
+Football,Spain,League,2010,09/01/11,Osasuna,Getafe,0,0,D
+Football,Spain,League,2010,09/01/11,Real Madrid,Villarreal,4,2,H
+Football,Spain,League,2010,09/01/11,Racing Santander,Sporting Gijon,1,1,D
+Football,Spain,League,2010,10/01/11,Hercules,Atletico Madrid,4,1,H
+Football,Spain,League,2010,15/01/11,Athletic Bilbao,Racing Santander,2,1,H
+Football,Spain,League,2010,15/01/11,Getafe,Real Sociedad,0,4,A
+Football,Spain,League,2010,15/01/11,Sevilla,Espanyol,1,2,A
+Football,Spain,League,2010,15/01/11,Sporting Gijon,Hercules,2,0,H
+Football,Spain,League,2010,15/01/11,Villarreal,Osasuna,4,2,H
+Football,Spain,League,2010,15/01/11,Real Zaragoza,Levante,1,0,H
+Football,Spain,League,2010,16/01/11,Almeria,Real Madrid,1,1,D
+Football,Spain,League,2010,16/01/11,Barcelona,Malaga,4,1,H
+Football,Spain,League,2010,16/01/11,Valencia,Deportivo La Coruna,2,0,H
+Football,Spain,League,2010,17/01/11,Atletico Madrid,Mallorca,3,0,H
+Football,Spain,League,2010,22/01/11,Barcelona,Racing Santander,3,0,H
+Football,Spain,League,2010,22/01/11,Sevilla,Levante,4,1,H
+Football,Spain,League,2010,22/01/11,Valencia,Malaga,4,3,H
+Football,Spain,League,2010,23/01/11,Almeria,Osasuna,3,2,H
+Football,Spain,League,2010,23/01/11,Getafe,Espanyol,1,3,A
+Football,Spain,League,2010,23/01/11,Real Madrid,Mallorca,1,0,H
+Football,Spain,League,2010,23/01/11,Sporting Gijon,Atletico Madrid,1,0,H
+Football,Spain,League,2010,23/01/11,Villarreal,Real Sociedad,2,1,H
+Football,Spain,League,2010,23/01/11,Real Zaragoza,Deportivo La Coruna,1,0,H
+Football,Spain,League,2010,24/01/11,Athletic Bilbao,Hercules,3,0,H
+Football,Spain,League,2010,29/01/11,Hercules,Barcelona,0,3,A
+Football,Spain,League,2010,29/01/11,Deportivo La Coruna,Sevilla,3,3,D
+Football,Spain,League,2010,29/01/11,Levante,Getafe,2,0,H
+Football,Spain,League,2010,29/01/11,Malaga,Real Zaragoza,1,2,A
+Football,Spain,League,2010,29/01/11,Mallorca,Sporting Gijon,0,4,A
+Football,Spain,League,2010,29/01/11,Real Sociedad,Almeria,2,0,H
+Football,Spain,League,2010,30/01/11,Atletico Madrid,Athletic Bilbao,0,2,A
+Football,Spain,League,2010,30/01/11,Espanyol,Villarreal,0,1,A
+Football,Spain,League,2010,30/01/11,Osasuna,Real Madrid,1,0,H
+Football,Spain,League,2010,31/01/11,Racing Santander,Valencia,1,1,D
+Football,Spain,League,2010,05/02/11,Almeria,Espanyol,3,2,H
+Football,Spain,League,2010,05/02/11,Athletic Bilbao,Sporting Gijon,3,0,H
+Football,Spain,League,2010,05/02/11,Barcelona,Atletico Madrid,3,0,H
+Football,Spain,League,2010,05/02/11,Getafe,Deportivo La Coruna,4,1,H
+Football,Spain,League,2010,05/02/11,Osasuna,Mallorca,1,1,D
+Football,Spain,League,2010,05/02/11,Villarreal,Levante,0,1,A
+Football,Spain,League,2010,05/02/11,Real Zaragoza,Racing Santander,1,1,D
+Football,Spain,League,2010,06/02/11,Real Madrid,Real Sociedad,4,1,H
+Football,Spain,League,2010,06/02/11,Sevilla,Malaga,0,0,D
+Football,Spain,League,2010,06/02/11,Valencia,Hercules,2,0,H
+Football,Spain,League,2010,12/02/11,Atletico Madrid,Valencia,1,2,A
+Football,Spain,League,2010,12/02/11,Racing Santander,Sevilla,3,2,H
+Football,Spain,League,2010,12/02/11,Sporting Gijon,Barcelona,1,1,D
+Football,Spain,League,2010,13/02/11,Espanyol,Real Madrid,0,1,A
+Football,Spain,League,2010,13/02/11,Hercules,Real Zaragoza,2,1,H
+Football,Spain,League,2010,13/02/11,Deportivo La Coruna,Villarreal,1,0,H
+Football,Spain,League,2010,13/02/11,Levante,Almeria,1,0,H
+Football,Spain,League,2010,13/02/11,Malaga,Getafe,2,2,D
+Football,Spain,League,2010,13/02/11,Real Sociedad,Osasuna,1,0,H
+Football,Spain,League,2010,14/02/11,Mallorca,Athletic Bilbao,1,0,H
+Football,Spain,League,2010,19/02/11,Real Madrid,Levante,2,0,H
+Football,Spain,League,2010,19/02/11,Valencia,Sporting Gijon,0,0,D
+Football,Spain,League,2010,19/02/11,Real Zaragoza,Atletico Madrid,0,1,A
+Football,Spain,League,2010,20/02/11,Almeria,Deportivo La Coruna,1,1,D
+Football,Spain,League,2010,20/02/11,Barcelona,Athletic Bilbao,2,1,H
+Football,Spain,League,2010,20/02/11,Getafe,Racing Santander,0,1,A
+Football,Spain,League,2010,20/02/11,Osasuna,Espanyol,4,0,H
+Football,Spain,League,2010,20/02/11,Sevilla,Hercules,1,0,H
+Football,Spain,League,2010,20/02/11,Villarreal,Malaga,1,1,D
+Football,Spain,League,2010,21/02/11,Real Sociedad,Mallorca,1,0,H
+Football,Spain,League,2010,26/02/11,Atletico Madrid,Sevilla,2,2,D
+Football,Spain,League,2010,26/02/11,Espanyol,Real Sociedad,4,1,H
+Football,Spain,League,2010,26/02/11,Deportivo La Coruna,Real Madrid,0,0,D
+Football,Spain,League,2010,26/02/11,Mallorca,Barcelona,0,3,A
+Football,Spain,League,2010,26/02/11,Sporting Gijon,Real Zaragoza,0,0,D
+Football,Spain,League,2010,27/02/11,Athletic Bilbao,Valencia,1,2,A
+Football,Spain,League,2010,27/02/11,Hercules,Getafe,0,0,D
+Football,Spain,League,2010,27/02/11,Levante,Osasuna,2,1,H
+Football,Spain,League,2010,27/02/11,Racing Santander,Villarreal,2,2,D
+Football,Spain,League,2010,28/02/11,Malaga,Almeria,3,1,H
+Football,Spain,League,2010,01/03/11,Espanyol,Mallorca,1,2,A
+Football,Spain,League,2010,01/03/11,Sevilla,Sporting Gijon,3,0,H
+Football,Spain,League,2010,02/03/11,Getafe,Atletico Madrid,1,1,D
+Football,Spain,League,2010,02/03/11,Osasuna,Deportivo La Coruna,0,0,D
+Football,Spain,League,2010,02/03/11,Real Sociedad,Levante,1,1,D
+Football,Spain,League,2010,02/03/11,Valencia,Barcelona,0,1,A
+Football,Spain,League,2010,02/03/11,Villarreal,Hercules,1,0,H
+Football,Spain,League,2010,02/03/11,Real Zaragoza,Athletic Bilbao,2,1,H
+Football,Spain,League,2010,03/03/11,Almeria,Racing Santander,1,1,D
+Football,Spain,League,2010,03/03/11,Real Madrid,Malaga,7,0,H
+Football,Spain,League,2010,05/03/11,Atletico Madrid,Villarreal,3,1,H
+Football,Spain,League,2010,05/03/11,Barcelona,Real Zaragoza,1,0,H
+Football,Spain,League,2010,05/03/11,Mallorca,Valencia,1,2,A
+Football,Spain,League,2010,06/03/11,Athletic Bilbao,Sevilla,2,0,H
+Football,Spain,League,2010,06/03/11,Hercules,Almeria,1,2,A
+Football,Spain,League,2010,06/03/11,Levante,Espanyol,1,0,H
+Football,Spain,League,2010,06/03/11,Malaga,Osasuna,0,1,A
+Football,Spain,League,2010,06/03/11,Racing Santander,Real Madrid,1,3,A
+Football,Spain,League,2010,06/03/11,Sporting Gijon,Getafe,2,0,H
+Football,Spain,League,2010,07/03/11,Deportivo La Coruna,Real Sociedad,2,1,H
+Football,Spain,League,2010,12/03/11,Almeria,Atletico Madrid,2,2,D
+Football,Spain,League,2010,12/03/11,Real Madrid,Hercules,2,0,H
+Football,Spain,League,2010,12/03/11,Real Zaragoza,Valencia,4,0,H
+Football,Spain,League,2010,13/03/11,Espanyol,Deportivo La Coruna,2,0,H
+Football,Spain,League,2010,13/03/11,Levante,Mallorca,1,1,D
+Football,Spain,League,2010,13/03/11,Osasuna,Racing Santander,3,1,H
+Football,Spain,League,2010,13/03/11,Sevilla,Barcelona,1,1,D
+Football,Spain,League,2010,13/03/11,Real Sociedad,Malaga,0,2,A
+Football,Spain,League,2010,13/03/11,Villarreal,Sporting Gijon,1,1,D
+Football,Spain,League,2010,14/03/11,Getafe,Athletic Bilbao,2,2,D
+Football,Spain,League,2010,19/03/11,Atletico Madrid,Real Madrid,1,2,A
+Football,Spain,League,2010,19/03/11,Barcelona,Getafe,2,1,H
+Football,Spain,League,2010,19/03/11,Mallorca,Real Zaragoza,1,0,H
+Football,Spain,League,2010,20/03/11,Athletic Bilbao,Villarreal,0,1,A
+Football,Spain,League,2010,20/03/11,Hercules,Osasuna,0,4,A
+Football,Spain,League,2010,20/03/11,Deportivo La Coruna,Levante,0,1,A
+Football,Spain,League,2010,20/03/11,Malaga,Espanyol,2,0,H
+Football,Spain,League,2010,20/03/11,Racing Santander,Real Sociedad,2,1,H
+Football,Spain,League,2010,20/03/11,Sporting Gijon,Almeria,1,0,H
+Football,Spain,League,2010,20/03/11,Valencia,Sevilla,0,1,A
+Football,Spain,League,2010,02/04/11,Getafe,Valencia,2,4,A
+Football,Spain,League,2010,02/04/11,Real Madrid,Sporting Gijon,0,1,A
+Football,Spain,League,2010,02/04/11,Villarreal,Barcelona,0,1,A
+Football,Spain,League,2010,03/04/11,Espanyol,Racing Santander,1,2,A
+Football,Spain,League,2010,03/04/11,Deportivo La Coruna,Mallorca,2,1,H
+Football,Spain,League,2010,03/04/11,Levante,Malaga,3,1,H
+Football,Spain,League,2010,03/04/11,Osasuna,Atletico Madrid,2,3,A
+Football,Spain,League,2010,03/04/11,Sevilla,Real Zaragoza,3,1,H
+Football,Spain,League,2010,03/04/11,Real Sociedad,Hercules,1,3,A
+Football,Spain,League,2010,04/04/11,Almeria,Athletic Bilbao,1,3,A
+Football,Spain,League,2010,09/04/11,Athletic Bilbao,Real Madrid,0,3,A
+Football,Spain,League,2010,09/04/11,Barcelona,Almeria,3,1,H
+Football,Spain,League,2010,09/04/11,Mallorca,Sevilla,2,2,D
+Football,Spain,League,2010,10/04/11,Atletico Madrid,Real Sociedad,3,0,H
+Football,Spain,League,2010,10/04/11,Hercules,Espanyol,0,0,D
+Football,Spain,League,2010,10/04/11,Malaga,Deportivo La Coruna,0,0,D
+Football,Spain,League,2010,10/04/11,Racing Santander,Levante,1,1,D
+Football,Spain,League,2010,10/04/11,Sporting Gijon,Osasuna,1,0,H
+Football,Spain,League,2010,10/04/11,Valencia,Villarreal,5,0,H
+Football,Spain,League,2010,11/04/11,Real Zaragoza,Getafe,2,1,H
+Football,Spain,League,2010,16/04/11,Almeria,Valencia,0,3,A
+Football,Spain,League,2010,16/04/11,Getafe,Sevilla,1,0,H
+Football,Spain,League,2010,16/04/11,Malaga,Mallorca,3,0,H
+Football,Spain,League,2010,16/04/11,Real Madrid,Barcelona,1,1,D
+Football,Spain,League,2010,17/04/11,Espanyol,Atletico Madrid,2,2,D
+Football,Spain,League,2010,17/04/11,Deportivo La Coruna,Racing Santander,2,0,H
+Football,Spain,League,2010,17/04/11,Levante,Hercules,2,1,H
+Football,Spain,League,2010,17/04/11,Osasuna,Athletic Bilbao,1,2,A
+Football,Spain,League,2010,17/04/11,Real Sociedad,Sporting Gijon,2,1,H
+Football,Spain,League,2010,18/04/11,Villarreal,Real Zaragoza,1,0,H
+Football,Spain,League,2010,23/04/11,Athletic Bilbao,Real Sociedad,2,1,H
+Football,Spain,League,2010,23/04/11,Barcelona,Osasuna,2,0,H
+Football,Spain,League,2010,23/04/11,Valencia,Real Madrid,3,6,A
+Football,Spain,League,2010,24/04/11,Atletico Madrid,Levante,4,1,H
+Football,Spain,League,2010,24/04/11,Hercules,Deportivo La Coruna,1,0,H
+Football,Spain,League,2010,24/04/11,Mallorca,Getafe,2,0,H
+Football,Spain,League,2010,24/04/11,Racing Santander,Malaga,1,2,A
+Football,Spain,League,2010,24/04/11,Sevilla,Villarreal,3,2,H
+Football,Spain,League,2010,24/04/11,Sporting Gijon,Espanyol,1,0,H
+Football,Spain,League,2010,25/04/11,Real Zaragoza,Almeria,1,0,H
+Football,Spain,League,2010,30/04/11,Deportivo La Coruna,Atletico Madrid,0,1,A
+Football,Spain,League,2010,30/04/11,Real Madrid,Real Zaragoza,2,3,A
+Football,Spain,League,2010,30/04/11,Real Sociedad,Barcelona,2,1,H
+Football,Spain,League,2010,01/05/11,Almeria,Sevilla,0,1,A
+Football,Spain,League,2010,01/05/11,Levante,Sporting Gijon,0,0,D
+Football,Spain,League,2010,01/05/11,Malaga,Hercules,3,1,H
+Football,Spain,League,2010,01/05/11,Osasuna,Valencia,1,0,H
+Football,Spain,League,2010,01/05/11,Racing Santander,Mallorca,2,0,H
+Football,Spain,League,2010,01/05/11,Villarreal,Getafe,2,1,H
+Football,Spain,League,2010,02/05/11,Espanyol,Athletic Bilbao,2,1,H
+Football,Spain,League,2010,07/05/11,Athletic Bilbao,Levante,3,2,H
+Football,Spain,League,2010,07/05/11,Atletico Madrid,Malaga,0,3,A
+Football,Spain,League,2010,07/05/11,Getafe,Almeria,2,0,H
+Football,Spain,League,2010,07/05/11,Hercules,Racing Santander,2,3,A
+Football,Spain,League,2010,07/05/11,Sevilla,Real Madrid,2,6,A
+Football,Spain,League,2010,07/05/11,Sporting Gijon,Deportivo La Coruna,2,2,D
+Football,Spain,League,2010,07/05/11,Valencia,Real Sociedad,3,0,H
+Football,Spain,League,2010,08/05/11,Barcelona,Espanyol,2,0,H
+Football,Spain,League,2010,08/05/11,Mallorca,Villarreal,0,0,D
+Football,Spain,League,2010,08/05/11,Real Zaragoza,Osasuna,1,3,A
+Football,Spain,League,2010,10/05/11,Deportivo La Coruna,Athletic Bilbao,2,1,H
+Football,Spain,League,2010,10/05/11,Malaga,Sporting Gijon,2,0,H
+Football,Spain,League,2010,10/05/11,Real Madrid,Getafe,4,0,H
+Football,Spain,League,2010,10/05/11,Racing Santander,Atletico Madrid,2,1,H
+Football,Spain,League,2010,11/05/11,Almeria,Villarreal,0,0,D
+Football,Spain,League,2010,11/05/11,Espanyol,Valencia,2,2,D
+Football,Spain,League,2010,11/05/11,Hercules,Mallorca,2,2,D
+Football,Spain,League,2010,11/05/11,Levante,Barcelona,1,1,D
+Football,Spain,League,2010,11/05/11,Osasuna,Sevilla,3,2,H
+Football,Spain,League,2010,11/05/11,Real Sociedad,Real Zaragoza,2,1,H
+Football,Spain,League,2010,15/05/11,Almeria,Mallorca,3,1,H
+Football,Spain,League,2010,15/05/11,Athletic Bilbao,Malaga,1,1,D
+Football,Spain,League,2010,15/05/11,Atletico Madrid,Hercules,2,1,H
+Football,Spain,League,2010,15/05/11,Barcelona,Deportivo La Coruna,0,0,D
+Football,Spain,League,2010,15/05/11,Getafe,Osasuna,2,0,H
+Football,Spain,League,2010,15/05/11,Sevilla,Real Sociedad,3,1,H
+Football,Spain,League,2010,15/05/11,Sporting Gijon,Racing Santander,2,1,H
+Football,Spain,League,2010,15/05/11,Valencia,Levante,0,0,D
+Football,Spain,League,2010,15/05/11,Villarreal,Real Madrid,1,3,A
+Football,Spain,League,2010,15/05/11,Real Zaragoza,Espanyol,1,0,H
+Football,Spain,League,2010,21/05/11,Espanyol,Sevilla,2,3,A
+Football,Spain,League,2010,21/05/11,Hercules,Sporting Gijon,0,0,D
+Football,Spain,League,2010,21/05/11,Deportivo La Coruna,Valencia,0,2,A
+Football,Spain,League,2010,21/05/11,Levante,Real Zaragoza,1,2,A
+Football,Spain,League,2010,21/05/11,Malaga,Barcelona,1,3,A
+Football,Spain,League,2010,21/05/11,Mallorca,Atletico Madrid,3,4,A
+Football,Spain,League,2010,21/05/11,Osasuna,Villarreal,1,0,H
+Football,Spain,League,2010,21/05/11,Real Madrid,Almeria,8,1,H
+Football,Spain,League,2010,21/05/11,Racing Santander,Athletic Bilbao,1,2,A
+Football,Spain,League,2010,21/05/11,Real Sociedad,Getafe,1,1,D

@@ -1,0 +1,23 @@
+Football,England,League,2011,Wigan,Jean,Beausejour,16,0,5
+Football,England,League,2011,Wigan,Maynor,Figueroa,38,0,0
+Football,England,League,2011,Wigan,Victor,Moses,38,6,1
+Football,England,League,2011,Wigan,Antolin,Alcaraz,25,2,0
+Football,England,League,2011,Wigan,Mohamed,Diame,26,3,0
+Football,England,League,2011,Wigan,Shaun,Maloney,13,3,2
+Football,England,League,2011,Wigan,Emmerson,Boyce,26,3,1
+Football,England,League,2011,Wigan,James,McCarthy,33,0,1
+Football,England,League,2011,Wigan,Franco,Di Santo,32,7,1
+Football,England,League,2011,Wigan,Ben,Watson,21,3,1
+Football,England,League,2011,Wigan,James,McArthur,31,3,1
+Football,England,League,2011,Wigan,Jordi,Gomez,28,5,0
+Football,England,League,2011,Wigan,Ali,Al Habsi,38,0,0
+Football,England,League,2011,Wigan,Gary,Caldwell,36,3,0
+Football,England,League,2011,Wigan,David,Jones,16,0,1
+Football,England,League,2011,Wigan,Hugo,Rodallega,23,2,4
+Football,England,League,2011,Wigan,Ronnie,Stam,20,0,1
+Football,England,League,2011,Wigan,Piscu,,5,0,0
+Football,England,League,2011,Wigan,Patrick,van Aanholt,3,0,0
+Football,England,League,2011,Wigan,Albert,Crusat,15,1,0
+Football,England,League,2011,Wigan,Steve,Gohouri,10,0,0
+Football,England,League,2011,Wigan,Conor,Sammon,25,0,0
+Football,England,League,2011,Wigan,Callum,McManaman,2,0,0

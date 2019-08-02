@@ -1,0 +1,25 @@
+Football,Spain,League,2012,Espanyol,Javi,Lopez,32,1,0
+Football,Spain,League,2012,Espanyol,Victor,Sanchez,33,1,1
+Football,Spain,League,2012,Espanyol,Alvaro,Vazquez,2,1,0
+Football,Spain,League,2012,Espanyol,Mubarak,Wakaso,26,3,6
+Football,Spain,League,2012,Espanyol,Diego,Colotto,28,2,1
+Football,Spain,League,2012,Espanyol,Hector,Moreno,32,2,2
+Football,Spain,League,2012,Espanyol,Kiko,Casilla,21,0,0
+Football,Spain,League,2012,Espanyol,Juan,Forlin,33,0,0
+Football,Spain,League,2012,Espanyol,Sergio,Garcia,28,7,5
+Football,Spain,League,2012,Espanyol,Cristian,Alvarez,18,0,0
+Football,Spain,League,2012,Espanyol,Cristhian,Stuani,32,7,4
+Football,Spain,League,2012,Espanyol,Victor,Alvarez,18,0,2
+Football,Spain,League,2012,Espanyol,Joan,Verdu,37,9,3
+Football,Spain,League,2012,Espanyol,Raul,Rodriguez,23,0,0
+Football,Spain,League,2012,Espanyol,Felipe,Mattioni,6,0,0
+Football,Spain,League,2012,Espanyol,Simao,,26,3,2
+Football,Spain,League,2012,Espanyol,Joan,Capdevila,26,0,0
+Football,Spain,League,2012,Espanyol,Raul,Baena,19,1,1
+Football,Spain,League,2012,Espanyol,Samuele,Longo,18,3,0
+Football,Spain,League,2012,Espanyol,Rui,Fonte,10,0,0
+Football,Spain,League,2012,Espanyol,Cristian,Gomez,16,0,1
+Football,Spain,League,2012,Espanyol,Cristian,Alfonso,13,0,0
+Football,Spain,League,2012,Espanyol,Sergio,Tejera,12,0,0
+Football,Spain,League,2012,Espanyol,Juan,Angel Albin,7,1,0
+Football,Spain,League,2012,Espanyol,Martin,Petrov,8,0,1

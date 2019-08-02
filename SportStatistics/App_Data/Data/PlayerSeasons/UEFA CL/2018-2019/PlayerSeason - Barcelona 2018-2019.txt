@@ -1,0 +1,23 @@
+Football,UEFA,League,2018,Barcelona,Lionel,Messi,10,12,3
+Football,UEFA,League,2018,Barcelona,Jasper,Cillessen,1,0,0
+Football,UEFA,League,2018,Barcelona,Luis,Suarez,10,1,3
+Football,UEFA,League,2018,Barcelona,Coutinho,,12,3,3
+Football,UEFA,League,2018,Barcelona,Jordi,Alba,11,1,5
+Football,UEFA,League,2018,Barcelona,Sergio,Busquets,12,0,1
+Football,UEFA,League,2018,Barcelona,Juan,Miranda,1,0,0
+Football,UEFA,League,2018,Barcelona,Gerard,Pique,11,2,0
+Football,UEFA,League,2018,Barcelona,Rafinha,,2,1,0
+Football,UEFA,League,2018,Barcelona,Ousmane,Dembele,8,3,1
+Football,UEFA,League,2018,Barcelona,Ivan,Rakitic,12,1,2
+Football,UEFA,League,2018,Barcelona,Sergi,Roberto,9,0,0
+Football,UEFA,League,2018,Barcelona,Clement,Lenglet,12,0,0
+Football,UEFA,League,2018,Barcelona,Marc-Andre,ter Stegen,11,0,0
+Football,UEFA,League,2018,Barcelona,Arthur,,9,0,0
+Football,UEFA,League,2018,Barcelona,Nelson,Semedo,10,0,0
+Football,UEFA,League,2018,Barcelona,Arturo,Vidal,11,0,0
+Football,UEFA,League,2018,Barcelona,Thomas,Vermaelen,2,0,0
+Football,UEFA,League,2018,Barcelona,Malcom,,3,1,0
+Football,UEFA,League,2018,Barcelona,Carles,Alena,3,0,0
+Football,UEFA,League,2018,Barcelona,Munir,El Haddadi,2,0,0
+Football,UEFA,League,2018,Barcelona,Denis,Suarez,2,0,0
+Football,UEFA,League,2018,Barcelona,Samuel,Umtiti,1,0,0

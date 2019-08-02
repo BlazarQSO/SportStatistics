@@ -1,0 +1,27 @@
+Football,Spain,League,2016,Espanyol,Gerard,Moreno,37,13,4
+Football,Spain,League,2016,Espanyol,David,Lopez,36,3,2
+Football,Spain,League,2016,Espanyol,Pablo,Piatti,30,10,10
+Football,Spain,League,2016,Espanyol,Victor,Sanchez,26,1,1
+Football,Spain,League,2016,Espanyol,Marc,Navarro,12,2,1
+Football,Spain,League,2016,Espanyol,Leo,Baptistao,21,6,4
+Football,Spain,League,2016,Espanyol,Diego,Reyes,34,1,0
+Football,Spain,League,2016,Espanyol,Aaron,Martin,30,0,0
+Football,Spain,League,2016,Espanyol,Jose,Manuel Jurado,31,3,3
+Football,Spain,League,2016,Espanyol,Diego,Lopez,35,0,0
+Football,Spain,League,2016,Espanyol,Javi,Lopez,19,0,1
+Football,Spain,League,2016,Espanyol,Javi,Fuego,31,1,0
+Football,Spain,League,2016,Espanyol,Hernan,Perez,32,3,1
+Football,Spain,League,2016,Espanyol,Martin,Demichelis,2,0,0
+Football,Spain,League,2016,Espanyol,Victor,Alvarez,4,0,0
+Football,Spain,League,2016,Espanyol,Jose,Antonio Reyes,21,3,4
+Football,Spain,League,2016,Espanyol,Marc,Roca,25,0,1
+Football,Spain,League,2016,Espanyol,Oscar,Duarte,15,0,0
+Football,Spain,League,2016,Espanyol,Pape,Diop,18,0,0
+Football,Spain,League,2016,Espanyol,Roberto,Jimenez,4,0,0
+Football,Spain,League,2016,Espanyol,Ruben,Duarte,3,0,0
+Football,Spain,League,2016,Espanyol,Felipe,Caicedo,27,2,1
+Football,Spain,League,2016,Espanyol,Alvaro,Vazquez,10,0,1
+Football,Spain,League,2016,Espanyol,Oscar,Melendo,11,0,0
+Football,Spain,League,2016,Espanyol,Salva,Sevilla,6,0,0
+Football,Spain,League,2016,Espanyol,Michael,Ciani,1,0,0
+Football,Spain,League,2016,Espanyol,Alvaro,Gonzalez,2,0,0

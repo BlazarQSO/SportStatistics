@@ -1,0 +1,28 @@
+Football,England,League,2012,Wigan,Antolin,Alcaraz,10,0,0
+Football,England,League,2012,Wigan,Shaun,Maloney,36,6,8
+Football,England,League,2012,Wigan,Paul,Scharner,14,0,1
+Football,England,League,2012,Wigan,Piscu,,5,0,0
+Football,England,League,2012,Wigan,Arouna,Kone,34,11,5
+Football,England,League,2012,Wigan,James,McCarthy,38,3,2
+Football,England,League,2012,Wigan,Emmerson,Boyce,36,4,0
+Football,England,League,2012,Wigan,James,McArthur,34,3,2
+Football,England,League,2012,Wigan,Roger,Espinoza,12,1,2
+Football,England,League,2012,Wigan,Jean,Beausejour,34,1,7
+Football,England,League,2012,Wigan,Maynor,Figueroa,33,1,1
+Football,England,League,2012,Wigan,Ben,Watson,12,1,0
+Football,England,League,2012,Wigan,Ivan,Ramis,16,2,0
+Football,England,League,2012,Wigan,Roman,Golobart,3,0,0
+Football,England,League,2012,Wigan,Franco,Di Santo,35,5,2
+Football,England,League,2012,Wigan,David,Jones,13,0,0
+Football,England,League,2012,Wigan,Callum,McManaman,20,2,0
+Football,England,League,2012,Wigan,Jordi,Gomez,32,3,1
+Football,England,League,2012,Wigan,Gary,Caldwell,25,1,1
+Football,England,League,2012,Wigan,Ronnie,Stam,17,0,0
+Football,England,League,2012,Wigan,Victor,Moses,1,0,0
+Football,England,League,2012,Wigan,Joel,Robles,9,0,0
+Football,England,League,2012,Wigan,Fraser,Fyvie,1,0,0
+Football,England,League,2012,Wigan,Ali,Al Habsi,29,0,0
+Football,England,League,2012,Wigan,Angelo,Henriquez,4,1,0
+Football,England,League,2012,Wigan,Ryo,Miyaichi,4,0,0
+Football,England,League,2012,Wigan,Mauro,Boselli,7,0,0
+Football,England,League,2012,Wigan,Eduard,Campabadal,1,0,0

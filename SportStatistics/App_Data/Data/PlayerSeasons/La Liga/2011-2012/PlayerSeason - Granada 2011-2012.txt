@@ -1,0 +1,25 @@
+Football,Spain,League,2011,Granada,Roberto,Fernandez,22,0,0
+Football,Spain,League,2011,Granada,Fran,Rico,19,2,1
+Football,Spain,League,2011,Granada,Guilherme,Siqueira,35,6,1
+Football,Spain,League,2011,Granada,Inigo,Lopez,28,4,0
+Football,Spain,League,2011,Granada,Carlos,Martins,29,3,6
+Football,Spain,League,2011,Granada,Diego,Mainz,21,1,0
+Football,Spain,League,2011,Granada,Franco,Jara,31,3,5
+Football,Spain,League,2011,Granada,Mikel,Rico,36,3,2
+Football,Spain,League,2011,Granada,Moises,Hurtado,17,0,0
+Football,Spain,League,2011,Granada,Borja,Gomez,19,0,0
+Football,Spain,League,2011,Granada,Dani,Benitez,30,0,1
+Football,Spain,League,2011,Granada,Allan,Nyom,32,0,0
+Football,Spain,League,2011,Granada,Hassan,Yebda,14,0,0
+Football,Spain,League,2011,Granada,Pape,Malickou Diakhate,11,0,0
+Football,Spain,League,2011,Granada,Ikechukwu,Uche,34,3,1
+Football,Spain,League,2011,Granada,David,Cortes,10,0,1
+Football,Spain,League,2011,Granada,Julio,Cesar,16,0,0
+Football,Spain,League,2011,Granada,Noe,Pamarot,2,0,0
+Football,Spain,League,2011,Granada,Abel,Gomez,33,1,0
+Football,Spain,League,2011,Granada,Odion,Ighalo,30,6,1
+Football,Spain,League,2011,Granada,Jaime,Romero,18,1,0
+Football,Spain,League,2011,Granada,Yohan,Mollo,6,0,0
+Football,Spain,League,2011,Granada,Alexandre,Geijo,24,2,0
+Football,Spain,League,2011,Granada,Manuel,Lucena,5,0,0
+Football,Spain,League,2011,Granada,Henrique,Almeida,6,0,0

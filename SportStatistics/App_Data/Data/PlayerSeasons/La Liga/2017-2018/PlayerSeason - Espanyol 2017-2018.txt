@@ -1,0 +1,25 @@
+Football,Spain,League,2017,Espanyol,Gerard,Moreno,38,16,1
+Football,Spain,League,2017,Espanyol,Victor,Sanchez,30,0,2
+Football,Spain,League,2017,Espanyol,Javi,Lopez,14,0,0
+Football,Spain,League,2017,Espanyol,David,Lopez,37,1,0
+Football,Spain,League,2017,Espanyol,Sergi,Darder,35,1,2
+Football,Spain,League,2017,Espanyol,Pau,Lopez,29,0,0
+Football,Spain,League,2017,Espanyol,Diego,Lopez,10,0,0
+Football,Spain,League,2017,Espanyol,Leo,Baptistao,36,8,3
+Football,Spain,League,2017,Espanyol,Naldo,,11,0,0
+Football,Spain,League,2017,Espanyol,Aaron,Martin,32,0,0
+Football,Spain,League,2017,Espanyol,Pablo,Piatti,30,2,3
+Football,Spain,League,2017,Espanyol,Carlos,Sanchez,14,0,0
+Football,Spain,League,2017,Espanyol,Didac,Vila,14,0,0
+Football,Spain,League,2017,Espanyol,Oscar,Duarte,11,0,0
+Football,Spain,League,2017,Espanyol,Mario,Hermoso,22,1,0
+Football,Spain,League,2017,Espanyol,Esteban,Granero,25,1,2
+Football,Spain,League,2017,Espanyol,Javi,Fuego,17,0,0
+Football,Spain,League,2017,Espanyol,Sergio,Garcia,33,2,6
+Football,Spain,League,2017,Espanyol,Marc,Navarro,19,1,0
+Football,Spain,League,2017,Espanyol,Jose,Manuel Jurado,29,0,3
+Football,Spain,League,2017,Espanyol,Sergio,Sanchez,2,0,0
+Football,Spain,League,2017,Espanyol,Marc,Roca,8,0,0
+Football,Spain,League,2017,Espanyol,Oscar,Melendo,18,0,1
+Football,Spain,League,2017,Espanyol,Pape,Diop,5,0,0
+Football,Spain,League,2017,Espanyol,Hernan,Perez,4,0,0

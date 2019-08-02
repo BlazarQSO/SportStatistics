@@ -1,0 +1,28 @@
+Football,England,League,2018,Fulham,Aleksandar,Mitrovic,37,11,3
+Football,England,League,2018,Fulham,Ryan,Babel,16,5,3
+Football,England,League,2018,Fulham,Calum,Chambers,31,2,0
+Football,England,League,2018,Fulham,Maxime,Le Marchand,26,0,1
+Football,England,League,2018,Fulham,Andre-Frank,Zambo Anguissa,22,0,0
+Football,England,League,2018,Fulham,Joe,Bryan,28,0,1
+Football,England,League,2018,Fulham,Fabri,,2,0,0
+Football,England,League,2018,Fulham,Denis,Odoi,31,0,1
+Football,England,League,2018,Fulham,Cyrus,Christie,28,0,1
+Football,England,League,2018,Fulham,Tom,Cairney,31,1,1
+Football,England,League,2018,Fulham,Andre,Schurrle,24,6,0
+Football,England,League,2018,Fulham,Sergio,Rico,29,0,0
+Football,England,League,2018,Fulham,Jean,Michael Seri,32,1,2
+Football,England,League,2018,Fulham,Luciano,Vietto,20,1,4
+Football,England,League,2018,Fulham,Marcus,Bettinelli,7,0,0
+Football,England,League,2018,Fulham,Alfie,Mawson,15,0,0
+Football,England,League,2018,Fulham,Ryan,Sessegnon,35,2,6
+Football,England,League,2018,Fulham,Aboubakar,Kamara,13,3,0
+Football,England,League,2018,Fulham,Timothy,Fosu-Mensah,12,0,0
+Football,England,League,2018,Fulham,Tim,Ream,26,0,0
+Football,England,League,2018,Fulham,Havard,Nordtveit,5,0,1
+Football,England,League,2018,Fulham,Floyd,Ayite,16,1,0
+Football,England,League,2018,Fulham,Kevin,McDonald,15,0,0
+Football,England,League,2018,Fulham,Lazar,Markovic,1,0,0
+Football,England,League,2018,Fulham,Neeskens,Kebano,7,0,0
+Football,England,League,2018,Fulham,Ibrahima,Cisse,3,0,0
+Football,England,League,2018,Fulham,Stefan,Johansen,12,0,0
+Football,England,League,2018,Fulham,Harvey,Elliott,2,0,0

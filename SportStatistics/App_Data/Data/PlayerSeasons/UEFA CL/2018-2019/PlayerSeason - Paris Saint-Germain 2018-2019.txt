@@ -1,0 +1,20 @@
+Football,UEFA,League,2018,Paris Saint-Germain,Neymar,,6,5,2
+Football,UEFA,League,2018,Paris Saint-Germain,Kylian,Mbappe,8,4,5
+Football,UEFA,League,2018,Paris Saint-Germain,Angel,Di Maria,8,2,3
+Football,UEFA,League,2018,Paris Saint-Germain,Juan,Bernat,8,3,0
+Football,UEFA,League,2018,Paris Saint-Germain,Marco,Verratti,7,0,0
+Football,UEFA,League,2018,Paris Saint-Germain,Thiago,Silva,7,0,0
+Football,UEFA,League,2018,Paris Saint-Germain,Thomas,Meunier,5,1,1
+Football,UEFA,League,2018,Paris Saint-Germain,Edinson,Cavani,7,2,1
+Football,UEFA,League,2018,Paris Saint-Germain,Marquinhos,,7,1,0
+Football,UEFA,League,2018,Paris Saint-Germain,Presnel,Kimpembe,8,1,0
+Football,UEFA,League,2018,Paris Saint-Germain,Adrien,Rabiot,5,0,0
+Football,UEFA,League,2018,Paris Saint-Germain,Alphonse,Areola,3,0,0
+Football,UEFA,League,2018,Paris Saint-Germain,Dani,Alves,3,0,0
+Football,UEFA,League,2018,Paris Saint-Germain,Thilo,Kehrer,7,0,0
+Football,UEFA,League,2018,Paris Saint-Germain,Julian,Draxler,7,0,1
+Football,UEFA,League,2018,Paris Saint-Germain,Eric,Maxim Choupo-Moting,4,0,0
+Football,UEFA,League,2018,Paris Saint-Germain,Colin,Dagba,1,0,0
+Football,UEFA,League,2018,Paris Saint-Germain,Moussa,Diaby,1,0,0
+Football,UEFA,League,2018,Paris Saint-Germain,Leandro,Paredes,2,0,0
+Football,UEFA,League,2018,Paris Saint-Germain,Gianluigi,Buffon,5,0,0

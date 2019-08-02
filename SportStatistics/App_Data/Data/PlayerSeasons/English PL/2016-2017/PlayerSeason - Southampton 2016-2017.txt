@@ -1,0 +1,26 @@
+Football,England,League,2016,Southampton,Virgil,van Dijk,21,1,0
+Football,England,League,2016,Southampton,Oriol,Romeu,35,1,0
+Football,England,League,2016,Southampton,Maya,Yoshida,23,1,0
+Football,England,League,2016,Southampton,Nathan,Redmond,37,7,1
+Football,England,League,2016,Southampton,Cedric,Soares,30,0,3
+Football,England,League,2016,Southampton,Charlie,Austin,15,6,1
+Football,England,League,2016,Southampton,Ryan,Bertrand,28,2,4
+Football,England,League,2016,Southampton,Jose,Fonte,17,0,0
+Football,England,League,2016,Southampton,Matt,Targett,5,0,0
+Football,England,League,2016,Southampton,Pierre-Emile,Hojbjerg,22,0,0
+Football,England,League,2016,Southampton,Jack,Stephens,17,0,1
+Football,England,League,2016,Southampton,Sofiane,Boufal,24,1,0
+Football,England,League,2016,Southampton,Dusan,Tadic,33,3,5
+Football,England,League,2016,Southampton,James,Ward-Prowse,30,4,4
+Football,England,League,2016,Southampton,Steven,Davis,32,0,3
+Football,England,League,2016,Southampton,Martin,Caceres,1,0,0
+Football,England,League,2016,Southampton,Manolo,Gabbiadini,11,4,0
+Football,England,League,2016,Southampton,Cuco,Martina,9,0,0
+Football,England,League,2016,Southampton,Sam,McQueen,13,0,0
+Football,England,League,2016,Southampton,Jay,Rodriguez,24,5,2
+Football,England,League,2016,Southampton,Josh,Sims,7,0,1
+Football,England,League,2016,Southampton,Shane,Long,32,3,1
+Football,England,League,2016,Southampton,Jordy,Clasie,16,1,1
+Football,England,League,2016,Southampton,Fraser,Forster,38,0,0
+Football,England,League,2016,Southampton,Jeremy,Pied,4,0,0
+Football,England,League,2016,Southampton,Harrison,Reed,3,0,0

@@ -1,0 +1,29 @@
+Football,England,League,2011,Tottenham,Gareth,Bale,36,9,10
+Football,England,League,2011,Tottenham,Luka,Modric,36,4,4
+Football,England,League,2011,Tottenham,Younes,Kaboul,33,1,0
+Football,England,League,2011,Tottenham,Emmanuel,Adebayor,33,17,11
+Football,England,League,2011,Tottenham,Scott,Parker,29,0,1
+Football,England,League,2011,Tottenham,Rafael,van der Vaart,33,11,7
+Football,England,League,2011,Tottenham,Michael,Dawson,7,0,0
+Football,England,League,2011,Tottenham,Kyle,Walker,37,2,1
+Football,England,League,2011,Tottenham,Benoit,Assou-Ekotto,34,2,4
+Football,England,League,2011,Tottenham,William,Gallas,15,0,0
+Football,England,League,2011,Tottenham,Sandro,,23,0,0
+Football,England,League,2011,Tottenham,Jermain,Defoe,25,11,1
+Football,England,League,2011,Tottenham,Aaron,Lennon,23,3,5
+Football,England,League,2011,Tottenham,Ledley,King,21,0,0
+Football,England,League,2011,Tottenham,Louis,Saha,10,3,1
+Football,England,League,2011,Tottenham,Niko,Kranjcar,12,1,1
+Football,England,League,2011,Tottenham,Brad,Friedel,38,0,0
+Football,England,League,2011,Tottenham,Peter,Crouch,1,0,0
+Football,England,League,2011,Tottenham,Sebastien,Bassong,5,0,0
+Football,England,League,2011,Tottenham,Jake,Livermore,24,0,1
+Football,England,League,2011,Tottenham,Adam,Smith,1,0,0
+Football,England,League,2011,Tottenham,Cameron,Lancaster,1,0,0
+Football,England,League,2011,Tottenham,Tom,Huddlestone,2,0,0
+Football,England,League,2011,Tottenham,Ryan,Nelsen,5,0,0
+Football,England,League,2011,Tottenham,Danny,Rose,11,0,0
+Football,England,League,2011,Tottenham,Vedran,Corluka,3,0,0
+Football,England,League,2011,Tottenham,Roman,Pavlyuchenko,5,1,0
+Football,England,League,2011,Tottenham,Giovani,dos Santos,7,0,0
+Football,England,League,2011,Tottenham,Steven,Pienaar,2,0,0

@@ -1,0 +1,380 @@
+Football,Spain,League,2012,18/08/12,Celta Vigo,Malaga,0,1,A
+Football,Spain,League,2012,18/08/12,Mallorca,Espanyol,2,1,H
+Football,Spain,League,2012,18/08/12,Sevilla,Getafe,2,1,H
+Football,Spain,League,2012,19/08/12,Athletic Bilbao,Real Betis,3,5,A
+Football,Spain,League,2012,19/08/12,Barcelona,Real Sociedad,5,1,H
+Football,Spain,League,2012,19/08/12,Levante,Atletico Madrid,1,1,D
+Football,Spain,League,2012,19/08/12,Real Madrid,Valencia,1,1,D
+Football,Spain,League,2012,20/08/12,Deportivo La Coruna,Osasuna,2,0,H
+Football,Spain,League,2012,20/08/12,Rayo Vallecano,Granada,1,0,H
+Football,Spain,League,2012,20/08/12,Real Zaragoza,Valladolid,0,1,A
+Football,Spain,League,2012,25/08/12,Real Betis,Rayo Vallecano,1,2,A
+Football,Spain,League,2012,25/08/12,Espanyol,Real Zaragoza,1,2,A
+Football,Spain,League,2012,25/08/12,Malaga,Mallorca,1,1,D
+Football,Spain,League,2012,25/08/12,Real Sociedad,Celta Vigo,2,1,H
+Football,Spain,League,2012,26/08/12,Getafe,Real Madrid,2,1,H
+Football,Spain,League,2012,26/08/12,Granada,Sevilla,1,1,D
+Football,Spain,League,2012,26/08/12,Osasuna,Barcelona,1,2,A
+Football,Spain,League,2012,26/08/12,Valencia,Deportivo La Coruna,3,3,D
+Football,Spain,League,2012,27/08/12,Atletico Madrid,Athletic Bilbao,4,0,H
+Football,Spain,League,2012,27/08/12,Valladolid,Levante,2,0,H
+Football,Spain,League,2012,01/09/12,Celta Vigo,Osasuna,2,0,H
+Football,Spain,League,2012,01/09/12,Deportivo La Coruna,Getafe,1,1,D
+Football,Spain,League,2012,01/09/12,Mallorca,Real Sociedad,1,0,H
+Football,Spain,League,2012,01/09/12,Real Zaragoza,Malaga,0,1,A
+Football,Spain,League,2012,02/09/12,Athletic Bilbao,Valladolid,2,0,H
+Football,Spain,League,2012,02/09/12,Barcelona,Valencia,1,0,H
+Football,Spain,League,2012,02/09/12,Levante,Espanyol,3,2,H
+Football,Spain,League,2012,02/09/12,Real Madrid,Granada,3,0,H
+Football,Spain,League,2012,02/09/12,Rayo Vallecano,Sevilla,0,0,D
+Football,Spain,League,2012,15/09/12,Getafe,Barcelona,1,4,A
+Football,Spain,League,2012,15/09/12,Malaga,Levante,3,1,H
+Football,Spain,League,2012,15/09/12,Sevilla,Real Madrid,1,0,H
+Football,Spain,League,2012,15/09/12,Valencia,Celta Vigo,2,1,H
+Football,Spain,League,2012,16/09/12,Atletico Madrid,Rayo Vallecano,4,3,H
+Football,Spain,League,2012,16/09/12,Espanyol,Athletic Bilbao,3,3,D
+Football,Spain,League,2012,16/09/12,Granada,Deportivo La Coruna,1,1,D
+Football,Spain,League,2012,16/09/12,Osasuna,Mallorca,1,1,D
+Football,Spain,League,2012,16/09/12,Real Sociedad,Real Zaragoza,2,0,H
+Football,Spain,League,2012,17/09/12,Valladolid,Real Betis,0,1,A
+Football,Spain,League,2012,22/09/12,Barcelona,Granada,2,0,H
+Football,Spain,League,2012,22/09/12,Real Betis,Espanyol,1,0,H
+Football,Spain,League,2012,22/09/12,Celta Vigo,Getafe,2,1,H
+Football,Spain,League,2012,22/09/12,Real Zaragoza,Osasuna,3,1,H
+Football,Spain,League,2012,23/09/12,Athletic Bilbao,Malaga,0,0,D
+Football,Spain,League,2012,23/09/12,Atletico Madrid,Valladolid,2,1,H
+Football,Spain,League,2012,23/09/12,Levante,Real Sociedad,2,1,H
+Football,Spain,League,2012,23/09/12,Mallorca,Valencia,2,0,H
+Football,Spain,League,2012,24/09/12,Deportivo La Coruna,Sevilla,0,2,A
+Football,Spain,League,2012,24/09/12,Rayo Vallecano,Real Madrid,0,2,A
+Football,Spain,League,2012,26/09/12,Real Betis,Atletico Madrid,2,4,A
+Football,Spain,League,2012,29/09/12,Malaga,Real Betis,4,0,H
+Football,Spain,League,2012,29/09/12,Sevilla,Barcelona,2,3,A
+Football,Spain,League,2012,29/09/12,Real Sociedad,Athletic Bilbao,2,0,H
+Football,Spain,League,2012,29/09/12,Valencia,Real Zaragoza,2,0,H
+Football,Spain,League,2012,30/09/12,Espanyol,Atletico Madrid,0,1,A
+Football,Spain,League,2012,30/09/12,Granada,Celta Vigo,2,1,H
+Football,Spain,League,2012,30/09/12,Osasuna,Levante,4,0,H
+Football,Spain,League,2012,30/09/12,Real Madrid,Deportivo La Coruna,5,1,H
+Football,Spain,League,2012,30/09/12,Valladolid,Rayo Vallecano,6,1,H
+Football,Spain,League,2012,01/10/12,Getafe,Mallorca,1,0,H
+Football,Spain,League,2012,05/10/12,Celta Vigo,Sevilla,2,0,H
+Football,Spain,League,2012,06/10/12,Real Betis,Real Sociedad,2,0,H
+Football,Spain,League,2012,06/10/12,Valladolid,Espanyol,1,1,D
+Football,Spain,League,2012,06/10/12,Rayo Vallecano,Deportivo La Coruna,2,1,H
+Football,Spain,League,2012,06/10/12,Real Zaragoza,Getafe,0,1,A
+Football,Spain,League,2012,07/10/12,Athletic Bilbao,Osasuna,1,0,H
+Football,Spain,League,2012,07/10/12,Atletico Madrid,Malaga,2,1,H
+Football,Spain,League,2012,07/10/12,Barcelona,Real Madrid,2,2,D
+Football,Spain,League,2012,07/10/12,Levante,Valencia,1,0,H
+Football,Spain,League,2012,07/10/12,Mallorca,Granada,1,2,A
+Football,Spain,League,2012,20/10/12,Deportivo La Coruna,Barcelona,4,5,A
+Football,Spain,League,2012,20/10/12,Malaga,Valladolid,2,1,H
+Football,Spain,League,2012,20/10/12,Real Madrid,Celta Vigo,2,0,H
+Football,Spain,League,2012,20/10/12,Valencia,Athletic Bilbao,3,2,H
+Football,Spain,League,2012,21/10/12,Espanyol,Rayo Vallecano,3,2,H
+Football,Spain,League,2012,21/10/12,Getafe,Levante,0,1,A
+Football,Spain,League,2012,21/10/12,Granada,Real Zaragoza,1,2,A
+Football,Spain,League,2012,21/10/12,Osasuna,Real Betis,0,0,D
+Football,Spain,League,2012,21/10/12,Real Sociedad,Atletico Madrid,0,1,A
+Football,Spain,League,2012,22/10/12,Sevilla,Mallorca,3,2,H
+Football,Spain,League,2012,27/10/12,Real Betis,Valencia,1,0,H
+Football,Spain,League,2012,27/10/12,Celta Vigo,Deportivo La Coruna,1,1,D
+Football,Spain,League,2012,27/10/12,Espanyol,Malaga,0,0,D
+Football,Spain,League,2012,27/10/12,Rayo Vallecano,Barcelona,0,5,A
+Football,Spain,League,2012,28/10/12,Athletic Bilbao,Getafe,1,2,A
+Football,Spain,League,2012,28/10/12,Atletico Madrid,Osasuna,3,1,H
+Football,Spain,League,2012,28/10/12,Levante,Granada,3,1,H
+Football,Spain,League,2012,28/10/12,Mallorca,Real Madrid,0,5,A
+Football,Spain,League,2012,28/10/12,Real Zaragoza,Sevilla,2,1,H
+Football,Spain,League,2012,29/10/12,Valladolid,Real Sociedad,2,2,D
+Football,Spain,League,2012,03/11/12,Barcelona,Celta Vigo,3,1,H
+Football,Spain,League,2012,03/11/12,Malaga,Rayo Vallecano,1,2,A
+Football,Spain,League,2012,03/11/12,Real Madrid,Real Zaragoza,4,0,H
+Football,Spain,League,2012,03/11/12,Valencia,Atletico Madrid,2,0,H
+Football,Spain,League,2012,04/11/12,Granada,Athletic Bilbao,1,2,A
+Football,Spain,League,2012,04/11/12,Deportivo La Coruna,Mallorca,1,0,H
+Football,Spain,League,2012,04/11/12,Osasuna,Valladolid,0,1,A
+Football,Spain,League,2012,04/11/12,Sevilla,Levante,0,0,D
+Football,Spain,League,2012,04/11/12,Real Sociedad,Espanyol,0,1,A
+Football,Spain,League,2012,05/11/12,Getafe,Real Betis,2,4,A
+Football,Spain,League,2012,09/11/12,Real Betis,Granada,1,2,A
+Football,Spain,League,2012,10/11/12,Espanyol,Osasuna,0,3,A
+Football,Spain,League,2012,10/11/12,Malaga,Real Sociedad,1,2,A
+Football,Spain,League,2012,10/11/12,Rayo Vallecano,Celta Vigo,3,2,H
+Football,Spain,League,2012,10/11/12,Real Zaragoza,Deportivo La Coruna,5,3,H
+Football,Spain,League,2012,11/11/12,Athletic Bilbao,Sevilla,2,1,H
+Football,Spain,League,2012,11/11/12,Atletico Madrid,Getafe,2,0,H
+Football,Spain,League,2012,11/11/12,Levante,Real Madrid,1,2,A
+Football,Spain,League,2012,11/11/12,Mallorca,Barcelona,2,4,A
+Football,Spain,League,2012,11/11/12,Valladolid,Valencia,1,1,D
+Football,Spain,League,2012,17/11/12,Barcelona,Real Zaragoza,3,1,H
+Football,Spain,League,2012,17/11/12,Osasuna,Malaga,0,0,D
+Football,Spain,League,2012,17/11/12,Real Madrid,Athletic Bilbao,5,1,H
+Football,Spain,League,2012,17/11/12,Valencia,Espanyol,2,1,H
+Football,Spain,League,2012,18/11/12,Celta Vigo,Mallorca,1,1,D
+Football,Spain,League,2012,18/11/12,Getafe,Valladolid,2,1,H
+Football,Spain,League,2012,18/11/12,Granada,Atletico Madrid,0,1,A
+Football,Spain,League,2012,18/11/12,Deportivo La Coruna,Levante,0,2,A
+Football,Spain,League,2012,18/11/12,Sevilla,Real Betis,5,1,H
+Football,Spain,League,2012,19/11/12,Real Sociedad,Rayo Vallecano,4,0,H
+Football,Spain,League,2012,23/11/12,Real Sociedad,Osasuna,0,0,D
+Football,Spain,League,2012,24/11/12,Real Betis,Real Madrid,1,0,H
+Football,Spain,League,2012,24/11/12,Malaga,Valencia,4,0,H
+Football,Spain,League,2012,24/11/12,Valladolid,Granada,1,0,H
+Football,Spain,League,2012,24/11/12,Rayo Vallecano,Mallorca,2,0,H
+Football,Spain,League,2012,25/11/12,Athletic Bilbao,Deportivo La Coruna,1,1,D
+Football,Spain,League,2012,25/11/12,Atletico Madrid,Sevilla,4,0,H
+Football,Spain,League,2012,25/11/12,Espanyol,Getafe,0,2,A
+Football,Spain,League,2012,25/11/12,Levante,Barcelona,0,4,A
+Football,Spain,League,2012,26/11/12,Real Zaragoza,Celta Vigo,0,1,A
+Football,Spain,League,2012,30/11/12,Osasuna,Rayo Vallecano,1,0,H
+Football,Spain,League,2012,01/12/12,Barcelona,Athletic Bilbao,5,1,H
+Football,Spain,League,2012,01/12/12,Getafe,Malaga,1,0,H
+Football,Spain,League,2012,01/12/12,Real Madrid,Atletico Madrid,2,0,H
+Football,Spain,League,2012,01/12/12,Valencia,Real Sociedad,2,5,A
+Football,Spain,League,2012,02/12/12,Celta Vigo,Levante,1,1,D
+Football,Spain,League,2012,02/12/12,Granada,Espanyol,0,0,D
+Football,Spain,League,2012,02/12/12,Deportivo La Coruna,Real Betis,2,3,A
+Football,Spain,League,2012,02/12/12,Mallorca,Real Zaragoza,1,1,D
+Football,Spain,League,2012,03/12/12,Sevilla,Valladolid,1,2,A
+Football,Spain,League,2012,07/12/12,Espanyol,Sevilla,2,2,D
+Football,Spain,League,2012,08/12/12,Malaga,Granada,4,0,H
+Football,Spain,League,2012,08/12/12,Osasuna,Valencia,0,1,A
+Football,Spain,League,2012,08/12/12,Real Sociedad,Getafe,1,1,D
+Football,Spain,League,2012,08/12/12,Valladolid,Real Madrid,2,3,A
+Football,Spain,League,2012,09/12/12,Athletic Bilbao,Celta Vigo,1,0,H
+Football,Spain,League,2012,09/12/12,Atletico Madrid,Deportivo La Coruna,6,0,H
+Football,Spain,League,2012,09/12/12,Real Betis,Barcelona,1,2,A
+Football,Spain,League,2012,09/12/12,Levante,Mallorca,4,0,H
+Football,Spain,League,2012,10/12/12,Rayo Vallecano,Real Zaragoza,0,2,A
+Football,Spain,League,2012,15/12/12,Getafe,Osasuna,1,1,D
+Football,Spain,League,2012,15/12/12,Granada,Real Sociedad,0,0,D
+Football,Spain,League,2012,15/12/12,Mallorca,Athletic Bilbao,0,1,A
+Football,Spain,League,2012,15/12/12,Sevilla,Malaga,0,2,A
+Football,Spain,League,2012,16/12/12,Barcelona,Atletico Madrid,4,1,H
+Football,Spain,League,2012,16/12/12,Real Madrid,Espanyol,2,2,D
+Football,Spain,League,2012,16/12/12,Valencia,Rayo Vallecano,0,1,A
+Football,Spain,League,2012,16/12/12,Real Zaragoza,Levante,0,1,A
+Football,Spain,League,2012,17/12/12,Celta Vigo,Real Betis,0,1,A
+Football,Spain,League,2012,17/12/12,Deportivo La Coruna,Valladolid,0,0,D
+Football,Spain,League,2012,20/12/12,Espanyol,Deportivo La Coruna,2,0,H
+Football,Spain,League,2012,20/12/12,Real Sociedad,Sevilla,2,1,H
+Football,Spain,League,2012,20/12/12,Rayo Vallecano,Levante,3,0,H
+Football,Spain,League,2012,21/12/12,Atletico Madrid,Celta Vigo,1,0,H
+Football,Spain,League,2012,21/12/12,Valencia,Getafe,4,2,H
+Football,Spain,League,2012,22/12/12,Athletic Bilbao,Real Zaragoza,0,2,A
+Football,Spain,League,2012,22/12/12,Real Betis,Mallorca,1,2,A
+Football,Spain,League,2012,22/12/12,Malaga,Real Madrid,3,2,H
+Football,Spain,League,2012,22/12/12,Osasuna,Granada,1,2,A
+Football,Spain,League,2012,22/12/12,Valladolid,Barcelona,1,3,A
+Football,Spain,League,2012,04/01/13,Real Zaragoza,Real Betis,1,2,A
+Football,Spain,League,2012,05/01/13,Granada,Valencia,1,2,A
+Football,Spain,League,2012,05/01/13,Deportivo La Coruna,Malaga,1,0,H
+Football,Spain,League,2012,05/01/13,Levante,Athletic Bilbao,3,1,H
+Football,Spain,League,2012,05/01/13,Sevilla,Osasuna,1,0,H
+Football,Spain,League,2012,06/01/13,Barcelona,Espanyol,4,0,H
+Football,Spain,League,2012,06/01/13,Celta Vigo,Valladolid,3,1,H
+Football,Spain,League,2012,06/01/13,Mallorca,Atletico Madrid,1,1,D
+Football,Spain,League,2012,06/01/13,Real Madrid,Real Sociedad,4,3,H
+Football,Spain,League,2012,07/01/13,Rayo Vallecano,Getafe,3,1,H
+Football,Spain,League,2012,11/01/13,Athletic Bilbao,Rayo Vallecano,1,2,A
+Football,Spain,League,2012,12/01/13,Espanyol,Celta Vigo,1,0,H
+Football,Spain,League,2012,12/01/13,Osasuna,Real Madrid,0,0,D
+Football,Spain,League,2012,12/01/13,Valencia,Sevilla,2,0,H
+Football,Spain,League,2012,12/01/13,Valladolid,Mallorca,3,1,H
+Football,Spain,League,2012,13/01/13,Atletico Madrid,Real Zaragoza,2,0,H
+Football,Spain,League,2012,13/01/13,Real Betis,Levante,2,0,H
+Football,Spain,League,2012,13/01/13,Malaga,Barcelona,1,3,A
+Football,Spain,League,2012,13/01/13,Real Sociedad,Deportivo La Coruna,1,1,D
+Football,Spain,League,2012,14/01/13,Getafe,Granada,2,2,D
+Football,Spain,League,2012,18/01/13,Espanyol,Mallorca,3,2,H
+Football,Spain,League,2012,19/01/13,Getafe,Sevilla,1,1,D
+Football,Spain,League,2012,19/01/13,Granada,Rayo Vallecano,2,0,H
+Football,Spain,League,2012,19/01/13,Malaga,Celta Vigo,1,1,D
+Football,Spain,League,2012,19/01/13,Real Sociedad,Barcelona,3,2,H
+Football,Spain,League,2012,20/01/13,Atletico Madrid,Levante,2,0,H
+Football,Spain,League,2012,20/01/13,Osasuna,Deportivo La Coruna,2,1,H
+Football,Spain,League,2012,20/01/13,Valencia,Real Madrid,0,5,A
+Football,Spain,League,2012,20/01/13,Valladolid,Real Zaragoza,2,0,H
+Football,Spain,League,2012,21/01/13,Real Betis,Athletic Bilbao,1,1,D
+Football,Spain,League,2012,26/01/13,Celta Vigo,Real Sociedad,1,1,D
+Football,Spain,League,2012,26/01/13,Deportivo La Coruna,Valencia,2,3,A
+Football,Spain,League,2012,26/01/13,Levante,Valladolid,2,1,H
+Football,Spain,League,2012,26/01/13,Real Zaragoza,Espanyol,0,0,D
+Football,Spain,League,2012,27/01/13,Athletic Bilbao,Atletico Madrid,3,0,H
+Football,Spain,League,2012,27/01/13,Barcelona,Osasuna,5,1,H
+Football,Spain,League,2012,27/01/13,Mallorca,Malaga,2,3,A
+Football,Spain,League,2012,27/01/13,Real Madrid,Getafe,4,0,H
+Football,Spain,League,2012,27/01/13,Rayo Vallecano,Real Betis,3,0,H
+Football,Spain,League,2012,28/01/13,Sevilla,Granada,3,0,H
+Football,Spain,League,2012,01/02/13,Valladolid,Athletic Bilbao,2,2,D
+Football,Spain,League,2012,02/02/13,Espanyol,Levante,3,2,H
+Football,Spain,League,2012,02/02/13,Getafe,Deportivo La Coruna,3,1,H
+Football,Spain,League,2012,02/02/13,Granada,Real Madrid,1,0,H
+Football,Spain,League,2012,02/02/13,Osasuna,Celta Vigo,1,0,H
+Football,Spain,League,2012,03/02/13,Atletico Madrid,Real Betis,1,0,H
+Football,Spain,League,2012,03/02/13,Malaga,Real Zaragoza,1,1,D
+Football,Spain,League,2012,03/02/13,Sevilla,Rayo Vallecano,2,1,H
+Football,Spain,League,2012,03/02/13,Real Sociedad,Mallorca,3,0,H
+Football,Spain,League,2012,03/02/13,Valencia,Barcelona,1,1,D
+Football,Spain,League,2012,09/02/13,Celta Vigo,Valencia,0,1,A
+Football,Spain,League,2012,09/02/13,Deportivo La Coruna,Granada,0,3,A
+Football,Spain,League,2012,09/02/13,Levante,Malaga,1,2,A
+Football,Spain,League,2012,09/02/13,Mallorca,Osasuna,1,1,D
+Football,Spain,League,2012,09/02/13,Real Madrid,Sevilla,4,1,H
+Football,Spain,League,2012,10/02/13,Athletic Bilbao,Espanyol,0,4,A
+Football,Spain,League,2012,10/02/13,Barcelona,Getafe,6,1,H
+Football,Spain,League,2012,10/02/13,Rayo Vallecano,Atletico Madrid,2,1,H
+Football,Spain,League,2012,10/02/13,Real Zaragoza,Real Sociedad,1,2,A
+Football,Spain,League,2012,11/02/13,Real Betis,Valladolid,0,0,D
+Football,Spain,League,2012,15/02/13,Sevilla,Deportivo La Coruna,3,1,H
+Football,Spain,League,2012,16/02/13,Getafe,Celta Vigo,3,1,H
+Football,Spain,League,2012,16/02/13,Granada,Barcelona,1,2,A
+Football,Spain,League,2012,16/02/13,Malaga,Athletic Bilbao,1,0,H
+Football,Spain,League,2012,16/02/13,Osasuna,Real Zaragoza,1,0,H
+Football,Spain,League,2012,17/02/13,Espanyol,Real Betis,1,0,H
+Football,Spain,League,2012,17/02/13,Real Madrid,Rayo Vallecano,2,0,H
+Football,Spain,League,2012,17/02/13,Real Sociedad,Levante,1,1,D
+Football,Spain,League,2012,17/02/13,Valencia,Mallorca,2,0,H
+Football,Spain,League,2012,17/02/13,Valladolid,Atletico Madrid,0,3,A
+Football,Spain,League,2012,22/02/13,Athletic Bilbao,Real Sociedad,1,3,A
+Football,Spain,League,2012,23/02/13,Barcelona,Sevilla,2,1,H
+Football,Spain,League,2012,23/02/13,Deportivo La Coruna,Real Madrid,1,2,A
+Football,Spain,League,2012,23/02/13,Mallorca,Getafe,1,3,A
+Football,Spain,League,2012,23/02/13,Real Zaragoza,Valencia,2,2,D
+Football,Spain,League,2012,24/02/13,Atletico Madrid,Espanyol,1,0,H
+Football,Spain,League,2012,24/02/13,Real Betis,Malaga,3,0,H
+Football,Spain,League,2012,24/02/13,Celta Vigo,Granada,2,1,H
+Football,Spain,League,2012,24/02/13,Rayo Vallecano,Valladolid,1,2,A
+Football,Spain,League,2012,25/02/13,Levante,Osasuna,0,2,A
+Football,Spain,League,2012,01/03/13,Getafe,Real Zaragoza,2,0,H
+Football,Spain,League,2012,02/03/13,Deportivo La Coruna,Rayo Vallecano,0,0,D
+Football,Spain,League,2012,02/03/13,Osasuna,Athletic Bilbao,0,1,A
+Football,Spain,League,2012,02/03/13,Real Madrid,Barcelona,2,1,H
+Football,Spain,League,2012,02/03/13,Valencia,Levante,2,2,D
+Football,Spain,League,2012,03/03/13,Espanyol,Valladolid,0,0,D
+Football,Spain,League,2012,03/03/13,Granada,Mallorca,1,2,A
+Football,Spain,League,2012,03/03/13,Malaga,Atletico Madrid,0,0,D
+Football,Spain,League,2012,03/03/13,Real Sociedad,Real Betis,3,3,D
+Football,Spain,League,2012,04/03/13,Sevilla,Celta Vigo,4,1,H
+Football,Spain,League,2012,08/03/13,Real Betis,Osasuna,2,1,H
+Football,Spain,League,2012,09/03/13,Barcelona,Deportivo La Coruna,2,0,H
+Football,Spain,League,2012,09/03/13,Mallorca,Sevilla,2,1,H
+Football,Spain,League,2012,09/03/13,Valladolid,Malaga,1,1,D
+Football,Spain,League,2012,09/03/13,Rayo Vallecano,Espanyol,2,0,H
+Football,Spain,League,2012,10/03/13,Athletic Bilbao,Valencia,1,0,H
+Football,Spain,League,2012,10/03/13,Atletico Madrid,Real Sociedad,0,1,A
+Football,Spain,League,2012,10/03/13,Celta Vigo,Real Madrid,1,2,A
+Football,Spain,League,2012,10/03/13,Levante,Getafe,0,0,D
+Football,Spain,League,2012,11/03/13,Real Zaragoza,Granada,0,0,D
+Football,Spain,League,2012,15/03/13,Deportivo La Coruna,Celta Vigo,3,1,H
+Football,Spain,League,2012,16/03/13,Getafe,Athletic Bilbao,1,0,H
+Football,Spain,League,2012,16/03/13,Real Madrid,Mallorca,5,2,H
+Football,Spain,League,2012,16/03/13,Real Sociedad,Valladolid,4,1,H
+Football,Spain,League,2012,16/03/13,Valencia,Real Betis,3,0,H
+Football,Spain,League,2012,17/03/13,Barcelona,Rayo Vallecano,3,1,H
+Football,Spain,League,2012,17/03/13,Granada,Levante,1,1,D
+Football,Spain,League,2012,17/03/13,Malaga,Espanyol,0,2,A
+Football,Spain,League,2012,17/03/13,Osasuna,Atletico Madrid,0,2,A
+Football,Spain,League,2012,17/03/13,Sevilla,Real Zaragoza,4,0,H
+Football,Spain,League,2012,30/03/13,Celta Vigo,Barcelona,2,2,D
+Football,Spain,League,2012,30/03/13,Levante,Sevilla,1,0,H
+Football,Spain,League,2012,30/03/13,Rayo Vallecano,Malaga,1,3,A
+Football,Spain,League,2012,30/03/13,Real Zaragoza,Real Madrid,1,1,D
+Football,Spain,League,2012,31/03/13,Atletico Madrid,Valencia,1,1,D
+Football,Spain,League,2012,31/03/13,Espanyol,Real Sociedad,2,2,D
+Football,Spain,League,2012,31/03/13,Mallorca,Deportivo La Coruna,2,3,A
+Football,Spain,League,2012,31/03/13,Valladolid,Osasuna,1,3,A
+Football,Spain,League,2012,01/04/13,Athletic Bilbao,Granada,1,0,H
+Football,Spain,League,2012,01/04/13,Real Betis,Getafe,0,0,D
+Football,Spain,League,2012,05/04/13,Granada,Real Betis,1,5,A
+Football,Spain,League,2012,06/04/13,Barcelona,Mallorca,5,0,H
+Football,Spain,League,2012,06/04/13,Deportivo La Coruna,Real Zaragoza,3,2,H
+Football,Spain,League,2012,06/04/13,Real Madrid,Levante,5,1,H
+Football,Spain,League,2012,06/04/13,Real Sociedad,Malaga,4,2,H
+Football,Spain,League,2012,07/04/13,Celta Vigo,Rayo Vallecano,0,2,A
+Football,Spain,League,2012,07/04/13,Getafe,Atletico Madrid,0,0,D
+Football,Spain,League,2012,07/04/13,Osasuna,Espanyol,0,2,A
+Football,Spain,League,2012,07/04/13,Valencia,Valladolid,2,1,H
+Football,Spain,League,2012,08/04/13,Sevilla,Athletic Bilbao,2,1,H
+Football,Spain,League,2012,12/04/13,Real Betis,Sevilla,3,3,D
+Football,Spain,League,2012,13/04/13,Espanyol,Valencia,3,3,D
+Football,Spain,League,2012,13/04/13,Levante,Deportivo La Coruna,0,4,A
+Football,Spain,League,2012,13/04/13,Malaga,Osasuna,1,0,H
+Football,Spain,League,2012,13/04/13,Valladolid,Getafe,2,1,H
+Football,Spain,League,2012,14/04/13,Athletic Bilbao,Real Madrid,0,3,A
+Football,Spain,League,2012,14/04/13,Atletico Madrid,Granada,5,0,H
+Football,Spain,League,2012,14/04/13,Rayo Vallecano,Real Sociedad,0,2,A
+Football,Spain,League,2012,14/04/13,Real Zaragoza,Barcelona,0,3,A
+Football,Spain,League,2012,15/04/13,Mallorca,Celta Vigo,1,0,H
+Football,Spain,League,2012,19/04/13,Mallorca,Rayo Vallecano,1,1,D
+Football,Spain,League,2012,20/04/13,Barcelona,Levante,1,0,H
+Football,Spain,League,2012,20/04/13,Granada,Valladolid,1,1,D
+Football,Spain,League,2012,20/04/13,Real Madrid,Real Betis,3,1,H
+Football,Spain,League,2012,20/04/13,Valencia,Malaga,5,1,H
+Football,Spain,League,2012,21/04/13,Getafe,Espanyol,0,2,A
+Football,Spain,League,2012,21/04/13,Deportivo La Coruna,Athletic Bilbao,1,1,D
+Football,Spain,League,2012,21/04/13,Osasuna,Real Sociedad,0,0,D
+Football,Spain,League,2012,21/04/13,Sevilla,Atletico Madrid,0,1,A
+Football,Spain,League,2012,22/04/13,Celta Vigo,Real Zaragoza,2,1,H
+Football,Spain,League,2012,26/04/13,Rayo Vallecano,Osasuna,2,2,D
+Football,Spain,League,2012,27/04/13,Athletic Bilbao,Barcelona,2,2,D
+Football,Spain,League,2012,27/04/13,Atletico Madrid,Real Madrid,1,2,A
+Football,Spain,League,2012,27/04/13,Levante,Celta Vigo,0,1,A
+Football,Spain,League,2012,27/04/13,Real Zaragoza,Mallorca,3,2,H
+Football,Spain,League,2012,28/04/13,Espanyol,Granada,0,1,A
+Football,Spain,League,2012,28/04/13,Malaga,Getafe,2,1,H
+Football,Spain,League,2012,28/04/13,Real Sociedad,Valencia,4,2,H
+Football,Spain,League,2012,28/04/13,Valladolid,Sevilla,1,1,D
+Football,Spain,League,2012,29/04/13,Real Betis,Deportivo La Coruna,1,1,D
+Football,Spain,League,2012,03/05/13,Celta Vigo,Athletic Bilbao,1,1,D
+Football,Spain,League,2012,04/05/13,Granada,Malaga,1,0,H
+Football,Spain,League,2012,04/05/13,Deportivo La Coruna,Atletico Madrid,0,0,D
+Football,Spain,League,2012,04/05/13,Real Madrid,Valladolid,4,3,H
+Football,Spain,League,2012,04/05/13,Valencia,Osasuna,4,0,H
+Football,Spain,League,2012,05/05/13,Barcelona,Real Betis,4,2,H
+Football,Spain,League,2012,05/05/13,Mallorca,Levante,1,1,D
+Football,Spain,League,2012,05/05/13,Sevilla,Espanyol,3,0,H
+Football,Spain,League,2012,05/05/13,Real Zaragoza,Rayo Vallecano,3,0,H
+Football,Spain,League,2012,06/05/13,Getafe,Real Sociedad,2,1,H
+Football,Spain,League,2012,08/05/13,Celta Vigo,Atletico Madrid,1,3,A
+Football,Spain,League,2012,08/05/13,Real Madrid,Malaga,6,2,H
+Football,Spain,League,2012,10/05/13,Levante,Real Zaragoza,0,0,D
+Football,Spain,League,2012,11/05/13,Athletic Bilbao,Mallorca,2,1,H
+Football,Spain,League,2012,11/05/13,Espanyol,Real Madrid,1,1,D
+Football,Spain,League,2012,11/05/13,Osasuna,Getafe,1,0,H
+Football,Spain,League,2012,11/05/13,Valladolid,Deportivo La Coruna,1,0,H
+Football,Spain,League,2012,12/05/13,Atletico Madrid,Barcelona,1,2,A
+Football,Spain,League,2012,12/05/13,Real Betis,Celta Vigo,1,0,H
+Football,Spain,League,2012,12/05/13,Malaga,Sevilla,0,0,D
+Football,Spain,League,2012,12/05/13,Rayo Vallecano,Valencia,0,4,A
+Football,Spain,League,2012,13/05/13,Real Sociedad,Granada,2,2,D
+Football,Spain,League,2012,18/05/13,Getafe,Valencia,0,1,A
+Football,Spain,League,2012,18/05/13,Granada,Osasuna,3,0,H
+Football,Spain,League,2012,18/05/13,Sevilla,Real Sociedad,1,2,A
+Football,Spain,League,2012,19/05/13,Barcelona,Valladolid,2,1,H
+Football,Spain,League,2012,19/05/13,Deportivo La Coruna,Espanyol,2,0,H
+Football,Spain,League,2012,19/05/13,Levante,Rayo Vallecano,2,3,A
+Football,Spain,League,2012,19/05/13,Real Zaragoza,Athletic Bilbao,1,2,A
+Football,Spain,League,2012,20/05/13,Mallorca,Real Betis,1,0,H
+Football,Spain,League,2012,26/05/13,Athletic Bilbao,Levante,0,1,A
+Football,Spain,League,2012,26/05/13,Atletico Madrid,Mallorca,0,0,D
+Football,Spain,League,2012,26/05/13,Real Betis,Real Zaragoza,4,0,H
+Football,Spain,League,2012,26/05/13,Espanyol,Barcelona,0,2,A
+Football,Spain,League,2012,26/05/13,Getafe,Rayo Vallecano,1,2,A
+Football,Spain,League,2012,26/05/13,Malaga,Deportivo La Coruna,3,1,H
+Football,Spain,League,2012,26/05/13,Osasuna,Sevilla,2,1,H
+Football,Spain,League,2012,26/05/13,Real Sociedad,Real Madrid,3,3,D
+Football,Spain,League,2012,26/05/13,Valencia,Granada,1,0,H
+Football,Spain,League,2012,26/05/13,Valladolid,Celta Vigo,0,2,A
+Football,Spain,League,2012,01/06/13,Barcelona,Malaga,4,1,H
+Football,Spain,League,2012,01/06/13,Celta Vigo,Espanyol,1,0,H
+Football,Spain,League,2012,01/06/13,Granada,Getafe,2,0,H
+Football,Spain,League,2012,01/06/13,Deportivo La Coruna,Real Sociedad,0,1,A
+Football,Spain,League,2012,01/06/13,Levante,Real Betis,1,1,D
+Football,Spain,League,2012,01/06/13,Mallorca,Valladolid,4,2,H
+Football,Spain,League,2012,01/06/13,Real Madrid,Osasuna,4,2,H
+Football,Spain,League,2012,01/06/13,Sevilla,Valencia,4,3,H
+Football,Spain,League,2012,01/06/13,Rayo Vallecano,Athletic Bilbao,2,2,D
+Football,Spain,League,2012,01/06/13,Real Zaragoza,Atletico Madrid,1,3,A

@@ -1,0 +1,22 @@
+Football,Spain,League,2016,Atletico Madrid,Filipe,Luis,34,3,6
+Football,Spain,League,2016,Atletico Madrid,Antoine,Griezmann,36,16,8
+Football,Spain,League,2016,Atletico Madrid,Saul,Niguez,33,4,3
+Football,Spain,League,2016,Atletico Madrid,Diego,Godin,31,3,1
+Football,Spain,League,2016,Atletico Madrid,Jose,Gimenez,17,0,0
+Football,Spain,League,2016,Atletico Madrid,Koke,,36,4,8
+Football,Spain,League,2016,Atletico Madrid,Gabi,,34,0,0
+Football,Spain,League,2016,Atletico Madrid,Lucas,Hernandez,15,0,0
+Football,Spain,League,2016,Atletico Madrid,Stefan,Savic,32,1,1
+Football,Spain,League,2016,Atletico Madrid,Yannick,Carrasco,35,10,4
+Football,Spain,League,2016,Atletico Madrid,Sime,Vrsaljko,14,0,0
+Football,Spain,League,2016,Atletico Madrid,Miguel,Angel Moya,9,0,0
+Football,Spain,League,2016,Atletico Madrid,Juanfran,,23,0,2
+Football,Spain,League,2016,Atletico Madrid,Augusto,Fernandez,3,0,0
+Football,Spain,League,2016,Atletico Madrid,Nicolas,Gaitan,23,3,2
+Football,Spain,League,2016,Atletico Madrid,Kevin,Gameiro,31,12,5
+Football,Spain,League,2016,Atletico Madrid,Angel,Correa,31,4,8
+Football,Spain,League,2016,Atletico Madrid,Thomas,Partey,16,1,2
+Football,Spain,League,2016,Atletico Madrid,Jan,Oblak,30,0,0
+Football,Spain,League,2016,Atletico Madrid,Fernando,Torres,31,8,5
+Football,Spain,League,2016,Atletico Madrid,Tiago,,12,1,0
+Football,Spain,League,2016,Atletico Madrid,Alessio,Cerci,1,0,0

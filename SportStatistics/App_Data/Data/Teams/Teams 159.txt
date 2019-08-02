@@ -1,0 +1,159 @@
+Football,Barcelona,Spain,Barcelona,Camp Nou,29/11/1899           
+Football,Atletico Madrid,Spain,Madrid,Estadio Wanda Metropolitano,1903
+Football,Real Madrid,Spain,Madrid,Estadio Santiago Bernabéu,1902
+Football,Valencia,Spain,Valencia,Estadio de Mestalla,1919
+Football,Getafe,Spain,Getafe,Coliseum Alfonso Pérez,1983
+Football,Sevilla,Spain,Sevilla,Estadio Ramón Sánchez Pizjuán,1890
+Football,Espanyol,Spain,Barcelona,RCDE Stadium,1900
+Football,Athletic Bilbao,Spain,Bilbao,San Mamés Barria,1898
+Football,Real Sociedad,Spain,San Sebastián,Estadio Municipal de Anoeta,1909
+Football,Deportivo Alaves,Spain,Sevilla,Estadio Benito Villamarín,1907
+Football,Real Betis,Spain,Vitoria-Gasteiz,Estadio de Mendizorroza,1921
+Football,Eibar,Spain,Eibar,Estadio Municipal de Ipurúa,1940
+Football,Leganes,Spain,Leganés,Estadio Municipal de Butarque,1928
+Football,Villarreal,Spain,Villarreal,Estadio de la Cerámica,1923
+Football,Levante,Spain,Valencia,Estadio Ciudad de Valencia,1909
+Football,Real Valladolid ,Spain,Valladolid,Estadio Municipal José Zorrilla,1928
+Football,Celta Vigo,Spain,Vigo,Abanca-Balaídos,1923
+Football,Girona,Spain,Girona,Estadi Municipal de Montilivi,1930
+Football,SD Huesca,Spain,Huesca,Estadio El Alcoraz,1922
+Football,Rayo Vallecano,Spain,Madrid,Estadio de Vallecas,1924
+Football,Malaga,Spain,Malaga,Estadio La Rosaleda,1948
+Football,Las Palmas,Spain,Las Palmas de Gran Canaria,Estadio de Gran Canaria,1949
+Football,Deportivo La Coruna,Spain,A Coruña,Estadio Abanca-Riazor,1906
+Football,Sporting Gijon,Spain,Gijón,Estadio Municipal El Molinón,1905
+Football,Osasuna,Spain,Pamplona,Estadio El Sadar,1920
+Football,Granada,Spain,Granada,Estadio Nuevo Los Cármenes,1931
+Football,Almeria,Spain,Almería,Estadio de los Juegos Mediterráneos,1989
+Football,Cordoba,Spain,Córdoba,Estadio Nuevo Arcángel,1954
+Football,Real Zaragoza,Spain,Zaragoza,Estadi de La Romareda,1932 
+Football,Mallorca,Spain,Palma de Mallorca,Iberostar Estadi,1916
+Football,Racing Santander,Spain,Santander,Campos de Sport de El Sardinero,1913
+Football,Hercules,Spain,Alicante,José Rico Pérez,1922
+Football,Tenerife,Spain,Santa Cruz de Tenerife,Estadio Heliodoro Rodríguez López,1912
+Football,Xerez,Spain,Jerez de la Frontera,Municipal de Chapín,1947
+Football,Numancia,Spain,Soria,Nuevo Estadio Los Pajaritos,1945
+Football,Recreativo Huelva,Spain,Huelva,Nuevo Colombino,1889
+Football,Real Murcia,Spain,Murcia,Estadio Nueva Condomina,1908
+Football,Gimnastic,Spain,Tarragona,Nou Estadi de Tarragona,1914
+Football,Cadiz,Spain,Cádiz,Estadio Ramón de Carranza,1910
+Football,Albacete,Spain,Albacete,Estadio Carlos Belmonte,1940
+Football,Elche,Spain,Elche,Martínez Valero,1923
+Football,Manchester City,England,Manchester,Etihad Stadium,1880
+Football,Liverpool,England,Liverpool,Anfield,1892
+Football,Chelsea,England,London,Stamford Bridge,1905
+Football,Tottenham,England,London,Tottenham Hotspur Stadium,1882
+Football,Arsenal,England,London,Emirates Stadium,1886
+Football,Manchester United,England,Manchester,Old Trafford,1878
+Football,Wolverhampton Wanderers,England,Wolverhampton,Molineux Stadium,1877
+Football,Everton,England,Liverpool,Goodison Park,1878
+Football,Leicester,England,Leicester,King Power Stadium,1884
+Football,West Ham,England,London,London Stadium,1895
+Football,Watford,England,Watford,Vicarage Road,1881
+Football,Crystal Palace,England,London,Selhurst Park,1905
+Football,Newcastle United United,England,Newcastle United upon Tyne,St. James' Park,1892
+Football,Bournemouth,England,Bournemouth,Vitality Stadium,1899
+Football,Burnley,England,Burnley,Turf Moor,1882
+Football,Southampton,England,Southampton,St. Mary's Stadium,1885
+Football,Brighton,England,Brighton,The American Express Community Stadium,1901
+Football,Cardiff,England,Cardiff,Cardiff City Stadium,1889
+Football,Fulham,England,London,Craven Cottage,1879
+Football,Huddersfield,England,Huddersfield,John Smith's Stadium,1908
+Football,Swansea,England,Swansea,Liberty Stadium,1912
+Football,Stoke,England,Stoke-on-Trent,bet365 Stadium,1868
+Football,West Bromwich Albion,England,West Bromwich,The Hawthorns,1878
+Football,Hull,England,Hull,KCOM Stadium,1904
+Football,Middlesbrough,England,Middlesbrough,Riverside Stadium,1876
+Football,Sunderland,England,Sunderland,Stadium of Light,1879
+Football,Norwich,England,Norwich,Carrow Road,1902
+Football,Aston Villa,England,Birmingham,Villa Park,1874
+Football,Queens Park Rangers,England,London,Loftus Road Stadium,1885
+Football,Wigan,England,Wigan,DW Stadium,01/01/1932
+Football,Reading,England,Reading,Madejski Stadium,1871
+Football,Bolton,England,Bolton,Macron Stadium,01/01/1874
+Football,Blackburn,England,Blackburn,Ewood Park,05/11/1875
+Football,Birmingham,England,Birmingham,St Andrew's Ground,01/01/1875
+Football,Blackpool,England,Blackpool,Bloomfield Road,26/07/1887
+Football,Portsmouth,England,Portsmouth,Fratton Park,05/04/1898
+Football,Borussia Dortmund,Germany,Dortmund,Signal Iduna Park,19/12/1909
+Football,Club Bruges,Belgium,Brugge,Jan Breydel Stadion,01/11/1891
+Football,Monaco,France,Monaco,Stade Louis II,01/08/1919
+Football,Inter,Italy,Giuseppe Meazza,Milano,09/03/1908
+Football,PSV Eindhoven,Netherlands,Eindhoven,Philips Stadion,31/08/1913
+Football,Paris Saint-Germain,France,Paris,Parc des Princes,12/08/1970
+Football,Napoli,Italy,Napoli,San Paolo,01/08/1926
+Football,FK Crvena Zvezda,Serbia,Beograd,Marakana,04/03/1945
+Football,Bayern Munich,Germany,München,Allianz Arena,27/02/1900
+Football,Ajax,Netherlands,Amsterdam,Johan Cruijff ArenA,18/03/1900
+Football,Benfica,Portugal,Lisboa,Estádio da Luz,28/02/1904	
+Football,AEK Athens,Greece,Athen,Spyros Louis,1924
+Football,Olympique Lyon,France,Lyon,Groupama Stadium,03/08/1950
+Football,Shakhtar Donetsk,Ukraine,Donetsk,Donbass Arena,24/05/1936
+Football,Hoffenheim,Germany,Zuzenhausen,PreZero Arena,01/07/1899
+Football,FC Porto,Portugal,Porto,Estádio do Dragão,28/09/1893
+Football,Schalke 04,Germany,Gelsenkirchen,Veltins-Arena,04/05/1904
+Football,Galatasaray,Turkey,Istanbul,Türk Telekom Stadyumu,20/10/1905
+Football,Lokomotiv Moscow,Russia,Moskva,RŽD-Arena,1923
+Football,Roma,Italy,Roma,Olimpico,07/06/1927
+Football,Viktoria Plzen,Czechia,Plzeň,Doosan Arena,11/06/1911
+Football,CSKA Moscow,Russia,Moskva,Arena CSKA,27/08/1911
+Football,Juventus,Italy,Torino,Allianz Stadium,01/11/1897
+Football,BSC Young Boys,Switzerland,Bern,Stade de Suisse,14/03/1898	
+Football,FC Basel,Switzerland,Basel,St. Jakob-Park,15/11/1893
+Football,Celtic FC,Scotland,Glasgow,Celtic Park ,06/11/1887
+Football,Anderlecht,Belgium,Brussels,Constant Vanden Stock,27/05/1908
+Football,Sporting CP,Portugal,Lisboa,Estádio José Alvalade,01/07/1906
+Football,Olympiacos,Greece,Piräus,Georgios Karaiskakis,10/03/1925
+Football,Qarabag FK,Azerbaijan,Agdam,Qarabağ Stadium,1951
+Football,Besiktas,Turkey,Beşiktaş,Vodafone Park,03/03/1903
+Football,RB Leipzig,Germany,Leipzig,Red Bull Arena,19/05/2009
+Football,Feyenoord,Netherlands,Rotterdam,De Kuip,19/07/1908
+Football,APOEL Nicosia,Cyprus,Nikosia,Neo GSP Stadium,08/11/1926
+Football,Spartak Moscow,Russia,Moskva,Otkrytie Arena,18/04/1922
+Football,Maribor,Slovenia,Maribor,Ljudski vrt,12/12/1960
+Football,Ludogorets Razgrad,Bulgaria,Ludogorets,Ludogorets Arena,27/07/2000
+Football,Dynamo Kyiv,Ukraine,Kiev,Olimpiyskyi,13/05/1927
+Football,Mönchengladbach,Germany,Mönchengladbach,Borussia-Park,01/08/1900
+Football,FC Rostov,Russia,Rostov,Rostov Arena,01/05/1930
+Football,Bayer Leverkusen,Germany,Leverkusen,BayArena,01/07/1904
+Football,Legia Warszawa,Poland,Warszawa,Wojska Polskiego,1916
+Football,Dinamo Zagreb,Croatia,Zagreb,Maksimir,26/04/1911
+Football,FC København,Denmark,København,Telia Parken,01/07/1992
+Football,Malmoe FF,Sweden,Malmö,Swedbank Stadion,24/02/1910
+Football,Wolfsburg,Germany,Wolfsburg,Volkswagen Arena,12/09/1945
+Football,BATE Borisov,Belarusia,Borisov,Borisov Arena,1973
+Football,FC Astana,Kazakhstan,Astana,Astana Arena,01/01/2009
+Football,Maccabi Tel Aviv,Israel,Tel-Aviv,Bloomfield,01/01/1906
+Football,Gent,Belgium,Gent,Ghelamco Arena,1864
+Football,Zenit St. Petersburg,Russia,St. Petersburg,Gazprom Arena,01/05/1925
+Football,Austria Wien,Austria,Wien,Generali-Arena,15/03/1911
+Football,Marseille,France,Marseille,Vélodrome,31/08/1899
+Football,Steaua Bucuresti,Romania,Bucuresti,Steaua Stadion Ghencea,07/06/1947
+Football,AC Milan,Italy,Milano,Giuseppe Meazza,16/12/1899
+Football,CFR Cluj,Romania,Cluj-Napoca,CFR,1907
+Football,FC Nordsjælland,Denmark,Farum,Right to Dream Park Farum,31/01/1991
+Football,Lille OSC,France,Lille,Stade Pierre Mauroy,23/09/1944
+Football,Montpellier HSC,France,Montpellier,La Mosson,1919
+Football,Sporting Braga,Portugal,Braga,Estádio Municipal de Braga,19/01/1921
+Football,KRC Genk,Belgium,Genk,Luminus Arena,01/07/1988
+Football,Oţelul Galaţi,Romania,Galati,Oțelul,1964
+Football,Trabzonspor,Turkey,Trabzon,Medical Park Arena,02/08/1967
+Football,AJ Auxerre,France,Auxerre,Abbe Deschamps,01/01/1905
+Football,Bursaspor,Turkey,Bursa,Timsah Arena,1963
+Football,FC Twente,Netherlands,Enschede,De Grolsch Veste,01/07/1965
+Football,Hapoel Tel Aviv,Israel,Tel Aviv,Bloomfield,1927
+Football,MŠK Žilina,Slovakia,Zilina,Štadión pod Dubňom,01/08/1908
+Football,Panathinaikos,Greece,Athen,Apostolos Nikolaidis,03/02/1908
+Football,Partizan,Serbia,Beograd,Partizan Stadion,04/10/1945
+Football,Rangers FC,Scotland,Glasgow,Ibrox Stadium,01/01/1872
+Football,Rubin Kazan,Russia,Kazan,Kazan Arena,20/04/1958
+Football,Werder Bremen,Germany,Bremen,Wohninvest Weserstadion,04/02/1899
+Football,ACF Fiorentina,Italy,Firenze,Artemio Franchi,29/08/1926
+Football,AZ Alkmaar,Netherlands,Alkmaar,AFAS Stadion,13/04/1954
+Football,Debreceni VSC,Hungary,Debrecen,Oláh Gábor Út,12/03/1902
+Football,FC Unirea,Romania,Urziceni,Tineretului,1954
+Football,FC Zürich,Switzerland,Zürich,Letzigrund,01/08/1896
+Football,Girondins Bordeaux,France,Bordeaux,Matmut Atlantique,01/10/1881
+Football,Maccabi Haifa,Israel,Haifa,Sammy Ofer,1913
+Football,Standard Liège,Belgium,Liège,Stade Sclessin,01/04/1900
+Football,VfB Stuttgart,Germany,Stuttgart,Mercedes-Benz Arena,09/09/1893

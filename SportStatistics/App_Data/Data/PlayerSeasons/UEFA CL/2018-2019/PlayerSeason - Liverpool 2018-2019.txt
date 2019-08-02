@@ -1,0 +1,20 @@
+Football,UEFA,League,2018,Liverpool,Trent,Alexander-Arnold,11,0,3
+Football,UEFA,League,2018,Liverpool,Joel,Matip,8,0,1
+Football,UEFA,League,2018,Liverpool,Sadio,Mane,13,4,1
+Football,UEFA,League,2018,Liverpool,Virgil,van Dijk,12,2,2
+Football,UEFA,League,2018,Liverpool,Mohamed,Salah,12,5,2
+Football,UEFA,League,2018,Liverpool,Naby,Keita,6,1,0
+Football,UEFA,League,2018,Liverpool,James,Milner,12,2,2
+Football,UEFA,League,2018,Liverpool,Jordan,Henderson,11,0,1
+Football,UEFA,League,2018,Liverpool,Alisson,,13,0,0
+Football,UEFA,League,2018,Liverpool,Fabinho,,11,0,0
+Football,UEFA,League,2018,Liverpool,Roberto,Firmino,12,4,1
+Football,UEFA,League,2018,Liverpool,Andrew,Robertson,12,0,2
+Football,UEFA,League,2018,Liverpool,Xherdan,Shaqiri,4,0,2
+Football,UEFA,League,2018,Liverpool,Georginio,Wijnaldum,12,2,0
+Football,UEFA,League,2018,Liverpool,Divock,Origi,8,3,0
+Football,UEFA,League,2018,Liverpool,Dejan,Lovren,3,0,0
+Football,UEFA,League,2018,Liverpool,Joe,Gomez,9,0,0
+Football,UEFA,League,2018,Liverpool,Daniel,Sturridge,7,1,1
+Football,UEFA,League,2018,Liverpool,Alberto,Moreno,1,0,0
+Football,UEFA,League,2018,Liverpool,Adam,Lallana,3,0,0

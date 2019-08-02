@@ -1,0 +1,30 @@
+Football,England,League,2012,Queens Park Rangers,Andros,Townsend,12,2,1
+Football,England,League,2012,Queens Park Rangers,Michael,Harriman,1,0,0
+Football,England,League,2012,Queens Park Rangers,Ryan,Nelsen,21,1,0
+Football,England,League,2012,Queens Park Rangers,Adel,Taarabt,31,5,4
+Football,England,League,2012,Queens Park Rangers,Clint,Hill,31,0,1
+Football,England,League,2012,Queens Park Rangers,Esteban,Granero,24,1,1
+Football,England,League,2012,Queens Park Rangers,Stephane,Mbia,29,0,3
+Football,England,League,2012,Queens Park Rangers,Armand,Traore,26,0,0
+Football,England,League,2012,Queens Park Rangers,Jose,Bosingwa,23,0,1
+Football,England,League,2012,Queens Park Rangers,Julio,Cesar,24,0,1
+Football,England,League,2012,Queens Park Rangers,Samba,Diakite,14,0,1
+Football,England,League,2012,Queens Park Rangers,Nedum,Onuoha,23,0,0
+Football,England,League,2012,Queens Park Rangers,Jay,Bothroyd,4,1,0
+Football,England,League,2012,Queens Park Rangers,Alejandro,Faurlin,11,0,2
+Football,England,League,2012,Queens Park Rangers,Fabio,,21,0,0
+Football,England,League,2012,Queens Park Rangers,Anton,Ferdinand,13,0,0
+Football,England,League,2012,Queens Park Rangers,Christopher,Samba,10,0,0
+Football,England,League,2012,Queens Park Rangers,Loic,Remy,14,6,0
+Football,England,League,2012,Queens Park Rangers,Tal,Ben Haim,3,0,0
+Football,England,League,2012,Queens Park Rangers,Park,Ji-Sung,20,0,3
+Football,England,League,2012,Queens Park Rangers,Shaun,Derry,18,0,0
+Football,England,League,2012,Queens Park Rangers,Jermaine,Jenas,12,2,0
+Football,England,League,2012,Queens Park Rangers,Shaun,Wright-Phillips,20,1,1
+Football,England,League,2012,Queens Park Rangers,David,Junior Hoilett,26,2,1
+Football,England,League,2012,Queens Park Rangers,Bobby,Zamora,21,4,1
+Football,England,League,2012,Queens Park Rangers,Djibril,Cisse,18,3,0
+Football,England,League,2012,Queens Park Rangers,Robert,Green,16,0,0
+Football,England,League,2012,Queens Park Rangers,Jamie,Mackie,29,2,0
+Football,England,League,2012,Queens Park Rangers,Kieron,Dyer,4,0,0
+Football,England,League,2012,Queens Park Rangers,Andrew,Johnson,3,0,0

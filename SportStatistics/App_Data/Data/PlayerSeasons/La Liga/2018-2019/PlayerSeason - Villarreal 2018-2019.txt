@@ -1,0 +1,26 @@
+Football,Spain,League,2018,Villarreal,Santi,Cazorla,35,4,10
+Football,Spain,League,2018,Villarreal,Vicente,Iborra,19,3,1
+Football,Spain,League,2018,Villarreal,Sergio,Asenjo,32,0,0
+Football,Spain,League,2018,Villarreal,Karl,Toko Ekambi,34,10,1
+Football,Spain,League,2018,Villarreal,Ramiro,Funes Mori,31,2,1
+Football,Spain,League,2018,Villarreal,Manuel,Morlanes,10,0,3
+Football,Spain,League,2018,Villarreal,Gerard,Moreno,35,8,1
+Football,Spain,League,2018,Villarreal,Samuel,Chukwueze,26,5,2
+Football,Spain,League,2018,Villarreal,Andres,Fernandez,6,0,0
+Football,Spain,League,2018,Villarreal,Alfonso,Pedraza,34,3,3
+Football,Spain,League,2018,Villarreal,Pablo,Fornals,35,2,3
+Football,Spain,League,2018,Villarreal,Mario,Gaspar,31,1,2
+Football,Spain,League,2018,Villarreal,Victor,Ruiz,22,0,0
+Football,Spain,League,2018,Villarreal,Jaume,Costa,21,1,0
+Football,Spain,League,2018,Villarreal,Miguelon,,8,0,0
+Football,Spain,League,2018,Villarreal,Alvaro,Gonzalez,34,1,2
+Football,Spain,League,2018,Villarreal,Santiago,Caseres,23,0,1
+Football,Spain,League,2018,Villarreal,Miguel,Layun,8,0,1
+Football,Spain,League,2018,Villarreal,Manu,Trigueros,24,0,0
+Football,Spain,League,2018,Villarreal,Xavier,Quintilla,7,0,0
+Football,Spain,League,2018,Villarreal,Carlos,Bacca,33,6,1
+Football,Spain,League,2018,Villarreal,Nicola,Sansone,3,1,1
+Football,Spain,League,2018,Villarreal,Daniele,Bonera,5,0,0
+Football,Spain,League,2018,Villarreal,Javi,Fuego,5,0,0
+Football,Spain,League,2018,Villarreal,Raba,,8,0,1
+Football,Spain,League,2018,Villarreal,Manuel,Iturra,3,0,0

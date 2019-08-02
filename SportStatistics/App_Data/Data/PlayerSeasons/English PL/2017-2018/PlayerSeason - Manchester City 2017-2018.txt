@@ -1,0 +1,25 @@
+Football,England,League,2017,Manchester City,Sergio,Aguero,25,21,6
+Football,England,League,2017,Manchester City,Kevin,De Bruyne,37,8,16
+Football,England,League,2017,Manchester City,David,Silva,29,9,11
+Football,England,League,2017,Manchester City,Raheem,Sterling,33,18,11
+Football,England,League,2017,Manchester City,Leroy,Sane,32,10,15
+Football,England,League,2017,Manchester City,Fernandinho,,34,5,3
+Football,England,League,2017,Manchester City,Fabian,Delph,22,1,2
+Football,England,League,2017,Manchester City,Nicolas,Otamendi,34,4,0
+Football,England,League,2017,Manchester City,Oleksandr,Zinchenko,8,0,0
+Football,England,League,2017,Manchester City,Aymeric,Laporte,9,0,0
+Football,England,League,2017,Manchester City,Kyle,Walker,32,0,6
+Football,England,League,2017,Manchester City,Gabriel,Jesus,29,13,3
+Football,England,League,2017,Manchester City,Vincent,Kompany,17,1,1
+Football,England,League,2017,Manchester City,Danilo,,23,3,2
+Football,England,League,2017,Manchester City,John,Stones,18,0,0
+Football,England,League,2017,Manchester City,Benjamin,Mendy,7,0,0
+Football,England,League,2017,Manchester City,Claudio,Bravo,3,0,0
+Football,England,League,2017,Manchester City,Bernardo,Silva,35,6,4
+Football,England,League,2017,Manchester City,Ilkay,Gundogan,30,4,1
+Football,England,League,2017,Manchester City,Ederson,,37,0,0
+Football,England,League,2017,Manchester City,Eliaquim,Mangala,9,0,0
+Football,England,League,2017,Manchester City,Yaya,Toure,10,0,2
+Football,England,League,2017,Manchester City,Phil,Foden,5,0,1
+Football,England,League,2017,Manchester City,Brahim,Diaz,5,0,0
+Football,England,League,2017,Manchester City,Lukas,Nmecha,2,0,0

@@ -1,0 +1,20 @@
+Football,Spain,League,2013,Atletico Madrid,38,28,6,4,77,26,90,19,15,4,0,49,10,49,19,13
+Football,Spain,League,2013,Barcelona,38,27,6,5,100,33,87,19,16,2,1,64,15,50,19,11
+Football,Spain,League,2013,Real Madrid,38,27,6,5,104,38,87,19,16,1,2,63,17,49,19,11
+Football,Spain,League,2013,Athletic Bilbao,38,20,10,8,66,39,70,19,13,4,2,42,18,43,19,7
+Football,Spain,League,2013,Sevilla,38,18,9,11,69,52,63,19,11,4,4,40,21,37,19,7
+Football,Spain,League,2013,Villarreal,38,17,8,13,60,44,59,19,9,6,4,36,21,33,19,8
+Football,Spain,League,2013,Real Sociedad,38,16,11,11,62,55,59,19,11,4,4,38,19,37,19,5
+Football,Spain,League,2013,Valencia,38,13,10,15,51,53,49,19,10,3,6,35,24,33,19,3
+Football,Spain,League,2013,Celta Vigo,38,14,7,17,49,54,49,19,6,7,6,23,23,25,19,8
+Football,Spain,League,2013,Levante,38,12,12,14,35,43,48,19,7,6,6,19,16,27,19,5
+Football,Spain,League,2013,Malaga,38,12,9,17,39,46,45,19,8,2,9,24,21,26,19,4
+Football,Spain,League,2013,Rayo Vallecano,38,13,4,21,46,80,43,19,8,0,11,28,36,24,19,5
+Football,Spain,League,2013,Getafe,38,11,9,18,35,54,42,19,6,6,7,20,24,24,19,5
+Football,Spain,League,2013,Espanyol,38,11,9,18,41,51,42,19,7,5,7,23,22,26,19,4
+Football,Spain,League,2013,Granada,38,12,5,21,32,56,41,19,7,1,11,18,22,22,19,5
+Football,Spain,League,2013,Elche,38,9,13,16,30,50,40,19,6,8,5,13,12,26,19,3
+Football,Spain,League,2013,Almeria,38,11,7,20,43,71,40,19,6,6,7,26,31,24,19,5
+Football,Spain,League,2013,Osasuna,38,10,9,19,32,62,39,19,6,5,8,20,25,23,19,4
+Football,Spain,League,2013,Real Valladolid,38,7,15,16,38,60,36,19,6,9,4,20,17,27,19,1
+Football,Spain,League,2013,Real Betis,38,6,7,25,36,78,25,19,5,3,11,19,31,18,19,1

@@ -1,0 +1,22 @@
+Football,Spain,League,2009,Tenerife,Pablo,Sicilia,34,0,2
+Football,Spain,League,2009,Tenerife,Hector,Sanchez Cabrera,11,0,1
+Football,Spain,League,2009,Tenerife,Jose,Antonio Culebras,18,1,0
+Football,Spain,League,2009,Tenerife,Ricardo,Leon,29,2,1
+Football,Spain,League,2009,Tenerife,Roman,Martinez,23,5,2
+Football,Spain,League,2009,Tenerife,Manolo,Martinez,30,0,0
+Football,Spain,League,2009,Tenerife,Alejandro,Alfaro,36,7,5
+Football,Spain,League,2009,Tenerife,Marc,Bertran,21,1,2
+Football,Spain,League,2009,Tenerife,Nino,,38,14,0
+Football,Spain,League,2009,Tenerife,Ezequiel,Luna,23,1,0
+Football,Spain,League,2009,Tenerife,Ayoze,,25,2,2
+Football,Spain,League,2009,Tenerife,Juanlu,Hens,32,4,2
+Football,Spain,League,2009,Tenerife,Mikel,Alonso,28,1,1
+Football,Spain,League,2009,Tenerife,Carlos,Bellvis,15,0,0
+Football,Spain,League,2009,Tenerife,Daniel,Kome,29,0,3
+Football,Spain,League,2009,Tenerife,Sergio,Aragoneses,38,0,0
+Football,Spain,League,2009,Tenerife,Richi,,22,1,0
+Football,Spain,League,2009,Tenerife,Omar,Ramos,23,0,2
+Football,Spain,League,2009,Tenerife,Aitor,Nunez,5,0,0
+Football,Spain,League,2009,Tenerife,Dinei,,23,0,2
+Football,Spain,League,2009,Tenerife,Angel,Rodriguez,24,1,0
+Football,Spain,League,2009,Tenerife,Gaizka,Saizar,4,0,0

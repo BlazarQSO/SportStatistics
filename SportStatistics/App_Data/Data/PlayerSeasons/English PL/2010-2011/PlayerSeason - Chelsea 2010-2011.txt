@@ -1,0 +1,24 @@
+Football,England,League,2010,Chelsea,Didier,Drogba,36,11,13
+Football,England,League,2010,Chelsea,Florent,Malouda,38,13,4
+Football,England,League,2010,Chelsea,Frank,Lampard,24,10,2
+Football,England,League,2010,Chelsea,Alex,,15,2,0
+Football,England,League,2010,Chelsea,John,Terry,33,3,1
+Football,England,League,2010,Chelsea,Michael,Essien,33,3,2
+Football,England,League,2010,Chelsea,Branislav,Ivanovic,34,4,4
+Football,England,League,2010,Chelsea,David,Luiz,12,2,0
+Football,England,League,2010,Chelsea,Nicolas,Anelka,32,6,4
+Football,England,League,2010,Chelsea,John,Obi Mikel,28,0,1
+Football,England,League,2010,Chelsea,Ramires,,29,2,0
+Football,England,League,2010,Chelsea,Ashley,Cole,38,0,3
+Football,England,League,2010,Chelsea,Salomon,Kalou,31,10,3
+Football,England,League,2010,Chelsea,Petr,Cech,38,0,1
+Football,England,League,2010,Chelsea,Ryan,Bertrand,1,0,1
+Football,England,League,2010,Chelsea,Jose,Bosingwa,20,0,0
+Football,England,League,2010,Chelsea,Yuri,Zhirkov,12,0,2
+Football,England,League,2010,Chelsea,Jeffrey,Bruma,2,0,0
+Football,England,League,2010,Chelsea,Paulo,Ferreira,21,0,2
+Football,England,League,2010,Chelsea,Fernando,Torres,14,1,2
+Football,England,League,2010,Chelsea,Yossi,Benayoun,7,1,0
+Football,England,League,2010,Chelsea,Josh,McEachran,9,0,0
+Football,England,League,2010,Chelsea,Daniel,Sturridge,13,0,0
+Football,England,League,2010,Chelsea,Gael,Kakuta,5,0,0

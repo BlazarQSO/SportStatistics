@@ -1,0 +1,28 @@
+Football,England,League,2015,Chelsea,Willian,,35,5,6
+Football,England,League,2015,Chelsea,Cesc,Fabregas,37,5,7
+Football,England,League,2015,Chelsea,Eden,Hazard,31,4,3
+Football,England,League,2015,Chelsea,Diego,Costa,28,12,6
+Football,England,League,2015,Chelsea,Pedro,,29,7,2
+Football,England,League,2015,Chelsea,Cesar,Azpilicueta,37,2,3
+Football,England,League,2015,Chelsea,Nemanja,Matic,33,2,2
+Football,England,League,2015,Chelsea,Branislav,Ivanovic,33,2,2
+Football,England,League,2015,Chelsea,Kurt,Zouma,23,1,1
+Football,England,League,2015,Chelsea,Oscar,,27,3,3
+Football,England,League,2015,Chelsea,Gary,Cahill,23,2,1
+Football,England,League,2015,Chelsea,Bertrand,Traore,10,2,1
+Football,England,League,2015,Chelsea,Asmir,Begovic,17,0,0
+Football,England,League,2015,Chelsea,Abdul,Rahman Baba,15,0,1
+Football,England,League,2015,Chelsea,John,Obi Mikel,25,0,1
+Football,England,League,2015,Chelsea,Thibaut,Courtois,23,0,0
+Football,England,League,2015,Chelsea,Kenedy,,14,1,0
+Football,England,League,2015,Chelsea,Alexandre,Pato,2,1,0
+Football,England,League,2015,Chelsea,Ramires,,12,2,0
+Football,England,League,2015,Chelsea,John,Terry,24,1,0
+Football,England,League,2015,Chelsea,Ruben,Loftus-Cheek,13,1,0
+Football,England,League,2015,Chelsea,Juan,Cuadrado,1,0,0
+Football,England,League,2015,Chelsea,Matt,Miazga,2,0,0
+Football,England,League,2015,Chelsea,Radamel,Falcao,10,1,0
+Football,England,League,2015,Chelsea,Loic,Remy,13,1,0
+Football,England,League,2015,Chelsea,Jake,Clarke-Salter,1,0,0
+Football,England,League,2015,Chelsea,Fikayo,Tomori,1,0,0
+Football,England,League,2015,Chelsea,Tammy,Abraham,2,0,0

@@ -1,0 +1,22 @@
+Football,Spain,League,2012,Real Sociedad,Carlos,Martinez,29,1,4
+Football,Spain,League,2012,Real Sociedad,Carlos,Vela,35,14,9
+Football,Spain,League,2012,Real Sociedad,Asier,Illarramendi,32,0,2
+Football,Spain,League,2012,Real Sociedad,Antoine,Griezmann,34,10,3
+Football,Spain,League,2012,Real Sociedad,Xabi,Prieto,35,9,3
+Football,Spain,League,2012,Real Sociedad,Alberto,de la Bella,36,3,2
+Football,Spain,League,2012,Real Sociedad,Mikel,Gonzalez,34,2,1
+Football,Spain,League,2012,Real Sociedad,David,Zurutuza,21,2,4
+Football,Spain,League,2012,Real Sociedad,Imanol,Agirretxe,34,13,5
+Football,Spain,League,2012,Real Sociedad,Inigo,Martinez,34,4,0
+Football,Spain,League,2012,Real Sociedad,Markel,Bergara,28,0,0
+Football,Spain,League,2012,Real Sociedad,Gonzalo,Castro,31,7,4
+Football,Spain,League,2012,Real Sociedad,Claudio,Bravo,31,0,0
+Football,Spain,League,2012,Real Sociedad,Gorka,Elustondo,8,1,0
+Football,Spain,League,2012,Real Sociedad,Liassine,Cadamuro,4,0,0
+Football,Spain,League,2012,Real Sociedad,Enaut,Zubikarai,7,0,0
+Football,Spain,League,2012,Real Sociedad,Ruben,Pardo,25,0,4
+Football,Spain,League,2012,Real Sociedad,Diego,Ifran,26,2,3
+Football,Spain,League,2012,Real Sociedad,Dani,Estrada,19,0,0
+Football,Spain,League,2012,Real Sociedad,Cote,,11,0,0
+Football,Spain,League,2012,Real Sociedad,Ion,Ansotegi,7,0,0
+Football,Spain,League,2012,Real Sociedad,Javi,Ros,6,0,0

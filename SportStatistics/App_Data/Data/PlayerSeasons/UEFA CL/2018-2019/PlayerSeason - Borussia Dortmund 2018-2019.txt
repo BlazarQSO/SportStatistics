@@ -1,0 +1,24 @@
+Football,UEFA,League,2018,Borussia Dortmund,Marco,Reus,6,1,1
+Football,UEFA,League,2018,Borussia Dortmund,Axel,Witsel,7,1,0
+Football,UEFA,League,2018,Borussia Dortmund,Manuel,Akanji,5,0,0
+Football,UEFA,League,2018,Borussia Dortmund,Maximilian,Philipp,2,0,1
+Football,UEFA,League,2018,Borussia Dortmund,Abdou,Diallo,7,0,0
+Football,UEFA,League,2018,Borussia Dortmund,Raphael,Guerreiro,6,4,0
+Football,UEFA,League,2018,Borussia Dortmund,Lukasz,Piszczek,5,0,0
+Football,UEFA,League,2018,Borussia Dortmund,Dan-Axel,Zagadou,4,0,0
+Football,UEFA,League,2018,Borussia Dortmund,Marwin,Hitz,1,0,0
+Football,UEFA,League,2018,Borussia Dortmund,Marcel,Schmelzer,3,0,0
+Football,UEFA,League,2018,Borussia Dortmund,Achraf,Hakimi,5,0,3
+Football,UEFA,League,2018,Borussia Dortmund,Julian,Weigl,4,0,0
+Football,UEFA,League,2018,Borussia Dortmund,Christian,Pulisic,7,1,0
+Football,UEFA,League,2018,Borussia Dortmund,Omer,Toprak,3,0,0
+Football,UEFA,League,2018,Borussia Dortmund,Marius,Wolf,4,0,0
+Football,UEFA,League,2018,Borussia Dortmund,Mario,Gotze,6,0,0
+Football,UEFA,League,2018,Borussia Dortmund,Paco,Alcacer,5,1,1
+Football,UEFA,League,2018,Borussia Dortmund,Jacob,Bruun Larsen,5,1,1
+Football,UEFA,League,2018,Borussia Dortmund,Roman,Burki,7,0,0
+Football,UEFA,League,2018,Borussia Dortmund,Jadon,Sancho,7,1,1
+Football,UEFA,League,2018,Borussia Dortmund,Shinji,Kagawa,1,0,0
+Football,UEFA,League,2018,Borussia Dortmund,Thomas,Delaney,6,0,0
+Football,UEFA,League,2018,Borussia Dortmund,Mahmoud,Dahoud,5,0,0
+Football,UEFA,League,2018,Borussia Dortmund,Sergio,Gomez,1,0,0

@@ -1,0 +1,32 @@
+Football,Spain,League,2011,Rayo Vallecano,Javi,Fuego,31,0,0
+Football,Spain,League,2011,Rayo Vallecano,Emiliano,Armenteros,13,2,2
+Football,Spain,League,2011,Rayo Vallecano,Michu,,37,15,3
+Football,Spain,League,2011,Rayo Vallecano,Diego,Costa,16,10,4
+Football,Spain,League,2011,Rayo Vallecano,Casado,,32,0,2
+Football,Spain,League,2011,Rayo Vallecano,Jordi,Figueras,17,0,0
+Football,Spain,League,2011,Rayo Vallecano,Piti,,35,3,4
+Football,Spain,League,2011,Rayo Vallecano,Alejandro,Arribas,34,1,1
+Football,Spain,League,2011,Rayo Vallecano,Tito,,36,1,1
+Football,Spain,League,2011,Rayo Vallecano,Roberto,Trashorras,29,2,4
+Football,Spain,League,2011,Rayo Vallecano,Pedro,Botelho,11,1,1
+Football,Spain,League,2011,Rayo Vallecano,Joel,Robles,13,0,1
+Football,Spain,League,2011,Rayo Vallecano,Dani,Gimenez,11,0,0
+Football,Spain,League,2011,Rayo Vallecano,Jose,Maria Movilla,38,2,3
+Football,Spain,League,2011,Rayo Vallecano,Mikel,Labaka,13,1,0
+Football,Spain,League,2011,Rayo Vallecano,Jorge,Pulido,14,0,0
+Football,Spain,League,2011,Rayo Vallecano,Raul,Tamudo,32,9,2
+Football,Spain,League,2011,Rayo Vallecano,David,Cobeno,15,0,0
+Football,Spain,League,2011,Rayo Vallecano,Alberto,Perea,1,0,0
+Football,Spain,League,2011,Rayo Vallecano,Lass,,28,3,4
+Football,Spain,League,2011,Rayo Vallecano,Raul,Bravo,6,0,0
+Football,Spain,League,2011,Rayo Vallecano,Rafa,Garcia,4,0,0
+Football,Spain,League,2011,Rayo Vallecano,Michel,,9,0,1
+Football,Spain,League,2011,Rayo Vallecano,Pape,Maly Diamanka,7,0,0
+Football,Spain,League,2011,Rayo Vallecano,Rayco,Garcia,6,0,0
+Football,Spain,League,2011,Rayo Vallecano,Andrija,Delibasic,19,1,0
+Football,Spain,League,2011,Rayo Vallecano,Koke,,5,1,0
+Football,Spain,League,2011,Rayo Vallecano,Dani,Pacheco,11,0,0
+Football,Spain,League,2011,Rayo Vallecano,Diego,Benito,4,0,0
+Football,Spain,League,2011,Rayo Vallecano,Nestor,Susaeta,2,0,0
+Football,Spain,League,2011,Rayo Vallecano,Aitor,Nunez,1,0,0
+Football,Spain,League,2011,Rayo Vallecano,Rober,Correa,2,0,0

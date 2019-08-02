@@ -1,0 +1,32 @@
+Football,England,League,2012,Newcastle United,Mike,Williamson,19,0,0
+Football,England,League,2012,Newcastle United,Yohan,Cabaye,26,6,2
+Football,England,League,2012,Newcastle United,Demba,Ba,20,13,0
+Football,England,League,2012,Newcastle United,Hatem,Ben Arfa,19,4,2
+Football,England,League,2012,Newcastle United,Moussa,Sissoko,12,3,2
+Football,England,League,2012,Newcastle United,Davide,Santon,31,1,2
+Football,England,League,2012,Newcastle United,Mapou,Yanga-Mbiwa,14,0,0
+Football,England,League,2012,Newcastle United,Jonas,Gutierrez,34,1,0
+Football,England,League,2012,Newcastle United,Cheick,Tiote,24,0,1
+Football,England,League,2012,Newcastle United,Mathieu,Debuchy,14,0,0
+Football,England,League,2012,Newcastle United,Fabricio,Coloccini,22,0,1
+Football,England,League,2012,Newcastle United,Yoan,Gouffran,15,3,0
+Football,England,League,2012,Newcastle United,Sylvain,Marveaux,22,1,4
+Football,England,League,2012,Newcastle United,Tim,Krul,24,0,1
+Football,England,League,2012,Newcastle United,Steve,Harper,6,0,0
+Football,England,League,2012,Newcastle United,Steven,Taylor,25,0,0
+Football,England,League,2012,Newcastle United,Papiss,Demba Cisse,36,8,2
+Football,England,League,2012,Newcastle United,James,Perch,27,0,0
+Football,England,League,2012,Newcastle United,Danny,Simpson,19,0,0
+Football,England,League,2012,Newcastle United,Ryan,Taylor,1,0,0
+Football,England,League,2012,Newcastle United,Massadio,Haidara,4,0,0
+Football,England,League,2012,Newcastle United,Vurnon,Anita,25,0,0
+Football,England,League,2012,Newcastle United,Gael,Bigirimana,13,1,0
+Football,England,League,2012,Newcastle United,Shola,Ameobi,23,1,1
+Football,England,League,2012,Newcastle United,Sammy,Ameobi,8,0,1
+Football,England,League,2012,Newcastle United,Shane,Ferguson,9,0,1
+Football,England,League,2012,Newcastle United,Robert,Elliot,10,0,1
+Football,England,League,2012,Newcastle United,Gabriel,Obertan,14,0,2
+Football,England,League,2012,Newcastle United,James,Tavernier,2,0,0
+Football,England,League,2012,Newcastle United,Dan,Gosling,3,0,0
+Football,England,League,2012,Newcastle United,Adam,Campbell,3,0,0
+Football,England,League,2012,Newcastle United,Nile,Ranger,2,0,0

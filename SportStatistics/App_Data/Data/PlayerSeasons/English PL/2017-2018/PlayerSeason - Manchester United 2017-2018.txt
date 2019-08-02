@@ -1,0 +1,27 @@
+Football,England,League,2017,Manchester United,Alexis,Sanchez,12,2,3
+Football,England,League,2017,Manchester United,Paul,Pogba,27,6,10
+Football,England,League,2017,Manchester United,Sergio,Romero,1,0,0
+Football,England,League,2017,Manchester United,Romelu,Lukaku,34,16,7
+Football,England,League,2017,Manchester United,Chris,Smalling,29,4,0
+Football,England,League,2017,Manchester United,Phil,Jones,23,0,0
+Football,England,League,2017,Manchester United,Nemanja,Matic,36,1,1
+Football,England,League,2017,Manchester United,Ashley,Young,30,2,4
+Football,England,League,2017,Manchester United,Luis,Antonio Valencia,31,3,1
+Football,England,League,2017,Manchester United,Eric,Bailly,13,1,0
+Football,England,League,2017,Manchester United,Henrikh,Mkhitaryan,15,1,5
+Football,England,League,2017,Manchester United,Marouane,Fellaini,16,4,0
+Football,England,League,2017,Manchester United,Anthony,Martial,30,9,5
+Football,England,League,2017,Manchester United,Juan,Mata,28,3,5
+Football,England,League,2017,Manchester United,Luke,Shaw,11,0,0
+Football,England,League,2017,Manchester United,Daley,Blind,7,0,0
+Football,England,League,2017,Manchester United,David,de Gea,37,0,0
+Football,England,League,2017,Manchester United,Jesse,Lingard,33,8,5
+Football,England,League,2017,Manchester United,Marcus,Rashford,35,7,5
+Football,England,League,2017,Manchester United,Michael,Carrick,2,0,0
+Football,England,League,2017,Manchester United,Victor,Lindelof,17,0,0
+Football,England,League,2017,Manchester United,Marcos,Rojo,9,0,0
+Football,England,League,2017,Manchester United,Matteo,Darmian,8,0,0
+Football,England,League,2017,Manchester United,Ander,Herrera,26,0,2
+Football,England,League,2017,Manchester United,Scott,McTominay,13,0,0
+Football,England,League,2017,Manchester United,Zlatan,Ibrahimovic,5,0,0
+Football,England,League,2017,Manchester United,Axel,Tuanzebe,1,0,0

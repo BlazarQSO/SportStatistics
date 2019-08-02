@@ -1,0 +1,30 @@
+Football,England,League,2009,Chelsea,Didier,Drogba,32,29,10
+Football,England,League,2009,Chelsea,Frank,Lampard,36,22,14
+Football,England,League,2009,Chelsea,Florent,Malouda,33,12,8
+Football,England,League,2009,Chelsea,Michael,Essien,14,3,0
+Football,England,League,2009,Chelsea,Nicolas,Anelka,33,11,7
+Football,England,League,2009,Chelsea,Branislav,Ivanovic,28,1,5
+Football,England,League,2009,Chelsea,Deco,,19,2,2
+Football,England,League,2009,Chelsea,Ashley,Cole,27,4,3
+Football,England,League,2009,Chelsea,Jose,Bosingwa,8,0,1
+Football,England,League,2009,Chelsea,Alex,,16,1,0
+Football,England,League,2009,Chelsea,John,Terry,37,2,2
+Football,England,League,2009,Chelsea,Ricardo,Carvalho,22,0,1
+Football,England,League,2009,Chelsea,Michael,Ballack,32,4,5
+Football,England,League,2009,Chelsea,John,Obi Mikel,25,0,1
+Football,England,League,2009,Chelsea,Yuri,Zhirkov,17,0,2
+Football,England,League,2009,Chelsea,Joe,Cole,26,2,5
+Football,England,League,2009,Chelsea,Paulo,Ferreira,13,0,0
+Football,England,League,2009,Chelsea,Petr,Cech,34,0,1
+Football,England,League,2009,Chelsea,Salomon,Kalou,23,5,3
+Football,England,League,2009,Chelsea,Juliano,Belletti,11,0,1
+Football,England,League,2009,Chelsea,Sam,Hutchinson,2,0,1
+Football,England,League,2009,Chelsea,Patrick,van Aanholt,2,0,0
+Football,England,League,2009,Chelsea,Nemanja,Matic,2,0,0
+Football,England,League,2009,Chelsea,Jeffrey,Bruma,2,0,0
+Football,England,League,2009,Chelsea,Ross,Turnbull,2,0,0
+Football,England,League,2009,Chelsea,Daniel,Sturridge,13,1,0
+Football,England,League,2009,Chelsea,Henrique,Hilario,3,0,0
+Football,England,League,2009,Chelsea,Gael,Kakuta,1,0,0
+Football,England,League,2009,Chelsea,Fabio,Borini,4,0,0
+Football,England,League,2009,Chelsea,Andriy,Shevchenko,1,0,0

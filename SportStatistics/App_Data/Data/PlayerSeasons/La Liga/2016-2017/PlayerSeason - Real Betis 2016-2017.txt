@@ -1,0 +1,27 @@
+Football,Spain,League,2016,Real Betis,Dani,Ceballos,30,2,2
+Football,Spain,League,2016,Real Betis,German,Pezzella,36,1,0
+Football,Spain,League,2016,Real Betis,Bruno,Gonzalez,16,1,0
+Football,Spain,League,2016,Real Betis,Petros,,32,1,2
+Football,Spain,League,2016,Real Betis,Aissa,Mandi,26,2,1
+Football,Spain,League,2016,Real Betis,Antonio,Adan,37,0,0
+Football,Spain,League,2016,Real Betis,Riza,Durmisi,27,1,4
+Football,Spain,League,2016,Real Betis,Felipe,Gutierrez,14,1,0
+Football,Spain,League,2016,Real Betis,Ruben,Pardo,16,1,0
+Football,Spain,League,2016,Real Betis,Ruben,Castro,35,13,3
+Football,Spain,League,2016,Real Betis,Jose,Carlos Ramirez,6,0,0
+Football,Spain,League,2016,Real Betis,Joaquin,,28,3,4
+Football,Spain,League,2016,Real Betis,Cristiano,Piccini,23,2,3
+Football,Spain,League,2016,Real Betis,Alin,Tosca,17,0,0
+Football,Spain,League,2016,Real Betis,Antonio,Sanabria,22,4,1
+Football,Spain,League,2016,Real Betis,Alex,Alegria,25,3,2
+Football,Spain,League,2016,Real Betis,Ryan,Donk,16,0,1
+Football,Spain,League,2016,Real Betis,Alvaro,Cejudo,17,1,1
+Football,Spain,League,2016,Real Betis,Rafa,Navarro,18,2,2
+Football,Spain,League,2016,Real Betis,Charly,Musonda,8,0,1
+Football,Spain,League,2016,Real Betis,Darko,Brasanac,25,1,1
+Football,Spain,League,2016,Real Betis,Alex,Martinez,14,0,0
+Football,Spain,League,2016,Real Betis,Fabian,Ruiz,4,0,0
+Football,Spain,League,2016,Real Betis,Jonas,Martin,20,2,0
+Football,Spain,League,2016,Real Betis,Dani,Gimenez,2,0,0
+Football,Spain,League,2016,Real Betis,Roman,Zozulia,6,0,0
+Football,Spain,League,2016,Real Betis,Nahuel,Leiva,10,0,0

@@ -1,0 +1,25 @@
+Football,Spain,League,2017,Barcelona,Lionel,Messi,36,34,12
+Football,Spain,League,2017,Barcelona,Luis,Suarez,33,25,12
+Football,Spain,League,2017,Barcelona,Coutinho,,18,8,5
+Football,Spain,League,2017,Barcelona,Jasper,Cillessen,1,0,0
+Football,Spain,League,2017,Barcelona,Sergio,Busquets,31,1,4
+Football,Spain,League,2017,Barcelona,Jordi,Alba,33,2,8
+Football,Spain,League,2017,Barcelona,Sergi,Roberto,30,1,7
+Football,Spain,League,2017,Barcelona,Javier,Mascherano,7,0,0
+Football,Spain,League,2017,Barcelona,Gerard,Pique,30,2,0
+Football,Spain,League,2017,Barcelona,Ousmane,Dembele,17,3,6
+Football,Spain,League,2017,Barcelona,Ivan,Rakitic,35,1,5
+Football,Spain,League,2017,Barcelona,Samuel,Umtiti,25,1,0
+Football,Spain,League,2017,Barcelona,Andres,Iniesta,30,1,2
+Football,Spain,League,2017,Barcelona,Marc-Andre,ter Stegen,37,0,0
+Football,Spain,League,2017,Barcelona,Yerry,Mina,5,0,1
+Football,Spain,League,2017,Barcelona,Paulinho,,34,9,2
+Football,Spain,League,2017,Barcelona,Gerard,Deulofeu,10,1,1
+Football,Spain,League,2017,Barcelona,Thomas,Vermaelen,14,0,1
+Football,Spain,League,2017,Barcelona,Nelson,Semedo,24,0,0
+Football,Spain,League,2017,Barcelona,Lucas,Digne,12,0,2
+Football,Spain,League,2017,Barcelona,Denis,Suarez,18,2,2
+Football,Spain,League,2017,Barcelona,Paco,Alcacer,17,4,3
+Football,Spain,League,2017,Barcelona,Andre,Gomes,16,0,0
+Football,Spain,League,2017,Barcelona,Aleix,Vidal,15,1,1
+Football,Spain,League,2017,Barcelona,Jose,Arnaiz,1,0,0

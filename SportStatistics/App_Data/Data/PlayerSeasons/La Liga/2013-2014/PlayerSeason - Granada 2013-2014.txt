@@ -1,0 +1,26 @@
+Football,Spain,League,2013,Granada,Yacine,Brahimi,35,3,4
+Football,Spain,League,2013,Granada,Fran,Rico,32,2,5
+Football,Spain,League,2013,Granada,Roberto,Fernandez,32,0,0
+Football,Spain,League,2013,Granada,Brayan,Angulo,34,0,1
+Football,Spain,League,2013,Granada,Tiago,Ilori,9,0,1
+Football,Spain,League,2013,Granada,Jeison,Murillo,32,1,1
+Football,Spain,League,2013,Granada,Youssef,El-Arabi,36,12,2
+Football,Spain,League,2013,Granada,Manuel,Iturra,34,1,0
+Football,Spain,League,2013,Granada,Piti,,26,5,1
+Football,Spain,League,2013,Granada,Allan,Nyom,34,0,2
+Football,Spain,League,2013,Granada,Pape,Malickou Diakhate,14,0,1
+Football,Spain,League,2013,Granada,Orestis,Karnezis,6,0,0
+Football,Spain,League,2013,Granada,Recio,,30,2,0
+Football,Spain,League,2013,Granada,Dimitri,Foulquier,23,0,0
+Football,Spain,League,2013,Granada,Mohammed,Fatau,9,0,0
+Football,Spain,League,2013,Granada,Alexandre,Coeff,13,0,0
+Football,Spain,League,2013,Granada,Diego,Mainz,17,0,0
+Football,Spain,League,2013,Granada,Hassan,Yebda,10,1,0
+Football,Spain,League,2013,Granada,Diego,Buonanotte,24,0,1
+Football,Spain,League,2013,Granada,Riki,,27,2,0
+Football,Spain,League,2013,Granada,Michael,Pereira,17,0,0
+Football,Spain,League,2013,Granada,Odion,Ighalo,16,2,0
+Football,Spain,League,2013,Granada,Dani,Benitez,8,0,1
+Football,Spain,League,2013,Granada,Christian,Bravo,2,0,0
+Football,Spain,League,2013,Granada,Alvaro,Garcia,4,0,0
+Football,Spain,League,2013,Granada,Richard,Boateng,1,0,0

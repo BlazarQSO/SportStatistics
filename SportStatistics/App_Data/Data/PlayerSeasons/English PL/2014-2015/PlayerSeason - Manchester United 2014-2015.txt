@@ -1,0 +1,33 @@
+Football,England,League,2014,Manchester United,Phil,Jones,22,0,0
+Football,England,League,2014,Manchester United,Chris,Smalling,25,4,0
+Football,England,League,2014,Manchester United,Ander,Herrera,26,6,4
+Football,England,League,2014,Manchester United,Wayne,Rooney,33,12,5
+Football,England,League,2014,Manchester United,Marcos,Rojo,22,0,0
+Football,England,League,2014,Manchester United,Ashley,Young,26,2,5
+Football,England,League,2014,Manchester United,Luis,Antonio Valencia,32,0,2
+Football,England,League,2014,Manchester United,Daley,Blind,25,0,0
+Football,England,League,2014,Manchester United,Marouane,Fellaini,27,6,0
+Football,England,League,2014,Manchester United,Jonny,Evans,14,0,0
+Football,England,League,2014,Manchester United,Robin,van Persie,27,10,2
+Football,England,League,2014,Manchester United,Michael,Carrick,18,1,2
+Football,England,League,2014,Manchester United,Angel,Di Maria,27,3,10
+Football,England,League,2014,Manchester United,Juan,Mata,33,9,4
+Football,England,League,2014,Manchester United,Victor,Valdes,2,0,0
+Football,England,League,2014,Manchester United,Luke,Shaw,16,0,0
+Football,England,League,2014,Manchester United,Rafael,,10,0,1
+Football,England,League,2014,Manchester United,Patrick,McNair,16,0,0
+Football,England,League,2014,Manchester United,Michael,Keane,1,0,0
+Football,England,League,2014,Manchester United,David,de Gea,37,0,0
+Football,England,League,2014,Manchester United,Radamel,Falcao,26,4,4
+Football,England,League,2014,Manchester United,Tom,Cleverley,1,0,0
+Football,England,League,2014,Manchester United,Anderson,,1,0,0
+Football,England,League,2014,Manchester United,Adnan,Januzaj,18,0,0
+Football,England,League,2014,Manchester United,Tyler,Blackett,11,0,0
+Football,England,League,2014,Manchester United,Danny,Welbeck,2,0,0
+Football,England,League,2014,Manchester United,Nani,,1,0,0
+Football,England,League,2014,Manchester United,James,Wilson,13,1,0
+Football,England,League,2014,Manchester United,Andreas,Pereira,1,0,0
+Football,England,League,2014,Manchester United,Jesse,Lingard,1,0,0
+Football,England,League,2014,Manchester United,Darren,Fletcher,11,0,0
+Football,England,League,2014,Manchester United,Chicharito,,1,0,0
+Football,England,League,2014,Manchester United,Tom,Thorpe,1,0,0

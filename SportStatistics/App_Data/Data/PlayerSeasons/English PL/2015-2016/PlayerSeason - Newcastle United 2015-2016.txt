@@ -1,0 +1,31 @@
+Football,England,League,2015,Newcastle United,Andros,Townsend,13,4,2
+Football,England,League,2015,Newcastle United,Karl,Darlow,9,0,0
+Football,England,League,2015,Newcastle United,Moussa,Sissoko,37,1,7
+Football,England,League,2015,Newcastle United,Chancel,Mbemba,33,0,0
+Football,England,League,2015,Newcastle United,Georginio,Wijnaldum,38,11,5
+Football,England,League,2015,Newcastle United,Jack,Colback,29,1,1
+Football,England,League,2015,Newcastle United,Paul,Dummett,23,1,0
+Football,England,League,2015,Newcastle United,Cheick,Tiote,20,0,0
+Football,England,League,2015,Newcastle United,Daryl,Janmaat,32,2,4
+Football,England,League,2015,Newcastle United,Massadio,Haidara,7,0,0
+Football,England,League,2015,Newcastle United,Jonjo,Shelvey,15,0,3
+Football,England,League,2015,Newcastle United,Ayoze,Perez,34,6,2
+Football,England,League,2015,Newcastle United,Vurnon,Anita,28,0,0
+Football,England,League,2015,Newcastle United,Fabricio,Coloccini,26,1,0
+Football,England,League,2015,Newcastle United,Aleksandar,Mitrovic,34,9,4
+Football,England,League,2015,Newcastle United,Tim,Krul,8,0,0
+Football,England,League,2015,Newcastle United,Robert,Elliot,21,0,0
+Football,England,League,2015,Newcastle United,Jamaal,Lascelles,18,2,0
+Football,England,League,2015,Newcastle United,Gabriel,Obertan,5,0,1
+Football,England,League,2015,Newcastle United,Henri,Saivet,4,0,0
+Football,England,League,2015,Newcastle United,Steven,Taylor,10,0,0
+Football,England,League,2015,Newcastle United,Kevin,Mbabu,3,0,0
+Football,England,League,2015,Newcastle United,Papiss,Demba Cisse,21,3,0
+Football,England,League,2015,Newcastle United,Rolando,Aarons,10,1,1
+Football,England,League,2015,Newcastle United,Florian,Thauvin,13,0,0
+Football,England,League,2015,Newcastle United,Jamie,Sterry,1,0,0
+Football,England,League,2015,Newcastle United,Siem,de Jong,18,0,1
+Football,England,League,2015,Newcastle United,Yoan,Gouffran,8,0,0
+Football,England,League,2015,Newcastle United,Emmanuel,Riviere,3,0,0
+Football,England,League,2015,Newcastle United,Seydou,Doumbia,3,0,0
+Football,England,League,2015,Newcastle United,Ivan,Toney,2,0,0

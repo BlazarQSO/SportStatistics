@@ -1,0 +1,380 @@
+Football,Spain,League,2016,19/08/16,Deportivo La Coruna,Eibar,2,1,H
+Football,Spain,League,2016,19/08/16,Malaga,Osasuna,1,1,D
+Football,Spain,League,2016,20/08/16,Barcelona,Real Betis,6,2,H
+Football,Spain,League,2016,20/08/16,Granada,Villarreal,1,1,D
+Football,Spain,League,2016,20/08/16,Sevilla,Espanyol,6,4,H
+Football,Spain,League,2016,21/08/16,Atletico Madrid,Deportivo Alaves,1,1,D
+Football,Spain,League,2016,21/08/16,Real Sociedad,Real Madrid,0,3,A
+Football,Spain,League,2016,21/08/16,Sporting Gijon,Athletic Bilbao,2,1,H
+Football,Spain,League,2016,22/08/16,Celta Vigo,Leganes,0,1,A
+Football,Spain,League,2016,22/08/16,Valencia,Las Palmas,2,4,A
+Football,Spain,League,2016,26/08/16,Real Betis,Deportivo La Coruna,0,0,D
+Football,Spain,League,2016,26/08/16,Espanyol,Malaga,2,2,D
+Football,Spain,League,2016,27/08/16,Eibar,Valencia,1,0,H
+Football,Spain,League,2016,27/08/16,Leganes,Atletico Madrid,0,0,D
+Football,Spain,League,2016,27/08/16,Osasuna,Real Sociedad,0,2,A
+Football,Spain,League,2016,27/08/16,Real Madrid,Celta Vigo,2,1,H
+Football,Spain,League,2016,28/08/16,Deportivo Alaves,Sporting Gijon,0,0,D
+Football,Spain,League,2016,28/08/16,Athletic Bilbao,Barcelona,0,1,A
+Football,Spain,League,2016,28/08/16,Las Palmas,Granada,5,1,H
+Football,Spain,League,2016,28/08/16,Villarreal,Sevilla,0,0,D
+Football,Spain,League,2016,09/09/16,Real Sociedad,Espanyol,1,1,D
+Football,Spain,League,2016,10/09/16,Barcelona,Deportivo Alaves,1,2,A
+Football,Spain,League,2016,10/09/16,Celta Vigo,Atletico Madrid,0,4,A
+Football,Spain,League,2016,10/09/16,Malaga,Villarreal,0,2,A
+Football,Spain,League,2016,10/09/16,Real Madrid,Osasuna,5,2,H
+Football,Spain,League,2016,10/09/16,Sevilla,Las Palmas,2,1,H
+Football,Spain,League,2016,11/09/16,Granada,Eibar,1,2,A
+Football,Spain,League,2016,11/09/16,Deportivo La Coruna,Athletic Bilbao,0,1,A
+Football,Spain,League,2016,11/09/16,Sporting Gijon,Leganes,2,1,H
+Football,Spain,League,2016,11/09/16,Valencia,Real Betis,2,3,A
+Football,Spain,League,2016,16/09/16,Real Betis,Granada,2,2,D
+Football,Spain,League,2016,17/09/16,Atletico Madrid,Sporting Gijon,5,0,H
+Football,Spain,League,2016,17/09/16,Eibar,Sevilla,1,1,D
+Football,Spain,League,2016,17/09/16,Las Palmas,Malaga,1,0,H
+Football,Spain,League,2016,17/09/16,Leganes,Barcelona,1,5,A
+Football,Spain,League,2016,18/09/16,Athletic Bilbao,Valencia,2,1,H
+Football,Spain,League,2016,18/09/16,Espanyol,Real Madrid,0,2,A
+Football,Spain,League,2016,18/09/16,Osasuna,Celta Vigo,0,0,D
+Football,Spain,League,2016,18/09/16,Villarreal,Real Sociedad,2,1,H
+Football,Spain,League,2016,19/09/16,Deportivo Alaves,Deportivo La Coruna,0,0,D
+Football,Spain,League,2016,20/09/16,Malaga,Eibar,2,1,H
+Football,Spain,League,2016,20/09/16,Sevilla,Real Betis,1,0,H
+Football,Spain,League,2016,21/09/16,Barcelona,Atletico Madrid,1,1,D
+Football,Spain,League,2016,21/09/16,Celta Vigo,Sporting Gijon,2,1,H
+Football,Spain,League,2016,21/09/16,Granada,Athletic Bilbao,1,2,A
+Football,Spain,League,2016,21/09/16,Real Madrid,Villarreal,1,1,D
+Football,Spain,League,2016,21/09/16,Real Sociedad,Las Palmas,4,1,H
+Football,Spain,League,2016,22/09/16,Deportivo La Coruna,Leganes,1,2,A
+Football,Spain,League,2016,22/09/16,Osasuna,Espanyol,1,2,A
+Football,Spain,League,2016,22/09/16,Valencia,Deportivo Alaves,2,1,H
+Football,Spain,League,2016,23/09/16,Real Betis,Malaga,1,0,H
+Football,Spain,League,2016,24/09/16,Athletic Bilbao,Sevilla,3,1,H
+Football,Spain,League,2016,24/09/16,Eibar,Real Sociedad,2,0,H
+Football,Spain,League,2016,24/09/16,Las Palmas,Real Madrid,2,2,D
+Football,Spain,League,2016,24/09/16,Sporting Gijon,Barcelona,0,5,A
+Football,Spain,League,2016,25/09/16,Atletico Madrid,Deportivo La Coruna,1,0,H
+Football,Spain,League,2016,25/09/16,Espanyol,Celta Vigo,0,2,A
+Football,Spain,League,2016,25/09/16,Leganes,Valencia,1,2,A
+Football,Spain,League,2016,25/09/16,Villarreal,Osasuna,3,1,H
+Football,Spain,League,2016,26/09/16,Deportivo Alaves,Granada,3,1,H
+Football,Spain,League,2016,30/09/16,Real Sociedad,Real Betis,1,0,H
+Football,Spain,League,2016,01/10/16,Granada,Leganes,0,1,A
+Football,Spain,League,2016,01/10/16,Deportivo La Coruna,Sporting Gijon,2,1,H
+Football,Spain,League,2016,01/10/16,Osasuna,Las Palmas,2,2,D
+Football,Spain,League,2016,01/10/16,Sevilla,Deportivo Alaves,2,1,H
+Football,Spain,League,2016,02/10/16,Celta Vigo,Barcelona,4,3,H
+Football,Spain,League,2016,02/10/16,Espanyol,Villarreal,0,0,D
+Football,Spain,League,2016,02/10/16,Malaga,Athletic Bilbao,2,1,H
+Football,Spain,League,2016,02/10/16,Real Madrid,Eibar,1,1,D
+Football,Spain,League,2016,02/10/16,Valencia,Atletico Madrid,0,2,A
+Football,Spain,League,2016,14/10/16,Las Palmas,Espanyol,0,0,D
+Football,Spain,League,2016,15/10/16,Atletico Madrid,Granada,7,1,H
+Football,Spain,League,2016,15/10/16,Barcelona,Deportivo La Coruna,4,0,H
+Football,Spain,League,2016,15/10/16,Real Betis,Real Madrid,1,6,A
+Football,Spain,League,2016,15/10/16,Leganes,Sevilla,2,3,A
+Football,Spain,League,2016,16/10/16,Deportivo Alaves,Malaga,1,1,D
+Football,Spain,League,2016,16/10/16,Athletic Bilbao,Real Sociedad,3,2,H
+Football,Spain,League,2016,16/10/16,Sporting Gijon,Valencia,1,2,A
+Football,Spain,League,2016,16/10/16,Villarreal,Celta Vigo,5,0,H
+Football,Spain,League,2016,17/10/16,Eibar,Osasuna,2,3,A
+Football,Spain,League,2016,21/10/16,Osasuna,Real Betis,1,2,A
+Football,Spain,League,2016,22/10/16,Espanyol,Eibar,3,3,D
+Football,Spain,League,2016,22/10/16,Granada,Sporting Gijon,0,0,D
+Football,Spain,League,2016,22/10/16,Real Sociedad,Deportivo Alaves,3,0,H
+Football,Spain,League,2016,22/10/16,Valencia,Barcelona,2,3,A
+Football,Spain,League,2016,23/10/16,Celta Vigo,Deportivo La Coruna,4,1,H
+Football,Spain,League,2016,23/10/16,Malaga,Leganes,4,0,H
+Football,Spain,League,2016,23/10/16,Real Madrid,Athletic Bilbao,2,1,H
+Football,Spain,League,2016,23/10/16,Sevilla,Atletico Madrid,1,0,H
+Football,Spain,League,2016,23/10/16,Villarreal,Las Palmas,2,1,H
+Football,Spain,League,2016,28/10/16,Leganes,Real Sociedad,0,2,A
+Football,Spain,League,2016,29/10/16,Deportivo Alaves,Real Madrid,1,4,A
+Football,Spain,League,2016,29/10/16,Atletico Madrid,Malaga,4,2,H
+Football,Spain,League,2016,29/10/16,Barcelona,Granada,1,0,H
+Football,Spain,League,2016,29/10/16,Sporting Gijon,Sevilla,1,1,D
+Football,Spain,League,2016,30/10/16,Athletic Bilbao,Osasuna,1,1,D
+Football,Spain,League,2016,30/10/16,Real Betis,Espanyol,0,1,A
+Football,Spain,League,2016,30/10/16,Eibar,Villarreal,2,1,H
+Football,Spain,League,2016,30/10/16,Las Palmas,Celta Vigo,3,3,D
+Football,Spain,League,2016,31/10/16,Deportivo La Coruna,Valencia,1,1,D
+Football,Spain,League,2016,04/11/16,Malaga,Sporting Gijon,3,2,H
+Football,Spain,League,2016,05/11/16,Granada,Deportivo La Coruna,1,1,D
+Football,Spain,League,2016,05/11/16,Las Palmas,Eibar,1,0,H
+Football,Spain,League,2016,05/11/16,Osasuna,Deportivo Alaves,0,1,A
+Football,Spain,League,2016,05/11/16,Real Sociedad,Atletico Madrid,2,0,H
+Football,Spain,League,2016,06/11/16,Celta Vigo,Valencia,2,1,H
+Football,Spain,League,2016,06/11/16,Espanyol,Athletic Bilbao,0,0,D
+Football,Spain,League,2016,06/11/16,Real Madrid,Leganes,3,0,H
+Football,Spain,League,2016,06/11/16,Sevilla,Barcelona,1,2,A
+Football,Spain,League,2016,06/11/16,Villarreal,Real Betis,2,0,H
+Football,Spain,League,2016,18/11/16,Real Betis,Las Palmas,2,0,H
+Football,Spain,League,2016,19/11/16,Atletico Madrid,Real Madrid,0,3,A
+Football,Spain,League,2016,19/11/16,Barcelona,Malaga,0,0,D
+Football,Spain,League,2016,19/11/16,Eibar,Celta Vigo,1,0,H
+Football,Spain,League,2016,19/11/16,Deportivo La Coruna,Sevilla,2,3,A
+Football,Spain,League,2016,20/11/16,Deportivo Alaves,Espanyol,0,1,A
+Football,Spain,League,2016,20/11/16,Athletic Bilbao,Villarreal,1,0,H
+Football,Spain,League,2016,20/11/16,Sporting Gijon,Real Sociedad,1,3,A
+Football,Spain,League,2016,20/11/16,Valencia,Granada,1,1,D
+Football,Spain,League,2016,21/11/16,Leganes,Osasuna,2,0,H
+Football,Spain,League,2016,25/11/16,Eibar,Real Betis,3,1,H
+Football,Spain,League,2016,26/11/16,Espanyol,Leganes,3,0,H
+Football,Spain,League,2016,26/11/16,Malaga,Deportivo La Coruna,4,3,H
+Football,Spain,League,2016,26/11/16,Real Madrid,Sporting Gijon,2,1,H
+Football,Spain,League,2016,26/11/16,Sevilla,Valencia,2,1,H
+Football,Spain,League,2016,27/11/16,Celta Vigo,Granada,3,1,H
+Football,Spain,League,2016,27/11/16,Osasuna,Atletico Madrid,0,3,A
+Football,Spain,League,2016,27/11/16,Real Sociedad,Barcelona,1,1,D
+Football,Spain,League,2016,27/11/16,Villarreal,Deportivo Alaves,0,2,A
+Football,Spain,League,2016,28/11/16,Las Palmas,Athletic Bilbao,3,1,H
+Football,Spain,League,2016,03/12/16,Atletico Madrid,Espanyol,0,0,D
+Football,Spain,League,2016,03/12/16,Barcelona,Real Madrid,1,1,D
+Football,Spain,League,2016,03/12/16,Granada,Sevilla,2,1,H
+Football,Spain,League,2016,03/12/16,Leganes,Villarreal,0,0,D
+Football,Spain,League,2016,04/12/16,Deportivo Alaves,Las Palmas,1,1,D
+Football,Spain,League,2016,04/12/16,Athletic Bilbao,Eibar,3,1,H
+Football,Spain,League,2016,04/12/16,Real Betis,Celta Vigo,3,3,D
+Football,Spain,League,2016,04/12/16,Sporting Gijon,Osasuna,3,1,H
+Football,Spain,League,2016,04/12/16,Valencia,Malaga,2,2,D
+Football,Spain,League,2016,05/12/16,Deportivo La Coruna,Real Sociedad,5,1,H
+Football,Spain,League,2016,09/12/16,Malaga,Granada,1,1,D
+Football,Spain,League,2016,10/12/16,Las Palmas,Leganes,1,1,D
+Football,Spain,League,2016,10/12/16,Osasuna,Barcelona,0,3,A
+Football,Spain,League,2016,10/12/16,Real Madrid,Deportivo La Coruna,3,2,H
+Football,Spain,League,2016,10/12/16,Real Sociedad,Valencia,3,2,H
+Football,Spain,League,2016,11/12/16,Real Betis,Athletic Bilbao,1,0,H
+Football,Spain,League,2016,11/12/16,Celta Vigo,Sevilla,0,3,A
+Football,Spain,League,2016,11/12/16,Eibar,Deportivo Alaves,0,0,D
+Football,Spain,League,2016,11/12/16,Espanyol,Sporting Gijon,2,1,H
+Football,Spain,League,2016,12/12/16,Villarreal,Atletico Madrid,3,0,H
+Football,Spain,League,2016,16/12/16,Deportivo Alaves,Real Betis,1,0,H
+Football,Spain,League,2016,17/12/16,Atletico Madrid,Las Palmas,1,0,H
+Football,Spain,League,2016,17/12/16,Granada,Real Sociedad,0,2,A
+Football,Spain,League,2016,17/12/16,Sevilla,Malaga,4,1,H
+Football,Spain,League,2016,17/12/16,Sporting Gijon,Villarreal,1,3,A
+Football,Spain,League,2016,18/12/16,Barcelona,Espanyol,4,1,H
+Football,Spain,League,2016,18/12/16,Deportivo La Coruna,Osasuna,2,0,H
+Football,Spain,League,2016,18/12/16,Leganes,Eibar,1,1,D
+Football,Spain,League,2016,19/12/16,Athletic Bilbao,Celta Vigo,2,1,H
+Football,Spain,League,2016,06/01/17,Espanyol,Deportivo La Coruna,1,1,D
+Football,Spain,League,2016,07/01/17,Eibar,Atletico Madrid,0,2,A
+Football,Spain,League,2016,07/01/17,Las Palmas,Sporting Gijon,1,0,H
+Football,Spain,League,2016,07/01/17,Real Madrid,Granada,5,0,H
+Football,Spain,League,2016,07/01/17,Real Sociedad,Sevilla,0,4,A
+Football,Spain,League,2016,08/01/17,Athletic Bilbao,Deportivo Alaves,0,0,D
+Football,Spain,League,2016,08/01/17,Real Betis,Leganes,2,0,H
+Football,Spain,League,2016,08/01/17,Celta Vigo,Malaga,3,1,H
+Football,Spain,League,2016,08/01/17,Villarreal,Barcelona,1,1,D
+Football,Spain,League,2016,09/01/17,Osasuna,Valencia,3,3,D
+Football,Spain,League,2016,14/01/17,Atletico Madrid,Real Betis,1,0,H
+Football,Spain,League,2016,14/01/17,Barcelona,Las Palmas,5,0,H
+Football,Spain,League,2016,14/01/17,Deportivo La Coruna,Villarreal,0,0,D
+Football,Spain,League,2016,14/01/17,Leganes,Athletic Bilbao,0,0,D
+Football,Spain,League,2016,15/01/17,Celta Vigo,Deportivo Alaves,1,0,H
+Football,Spain,League,2016,15/01/17,Granada,Osasuna,1,1,D
+Football,Spain,League,2016,15/01/17,Sevilla,Real Madrid,2,1,H
+Football,Spain,League,2016,15/01/17,Sporting Gijon,Eibar,2,3,A
+Football,Spain,League,2016,15/01/17,Valencia,Espanyol,2,1,H
+Football,Spain,League,2016,16/01/17,Malaga,Real Sociedad,0,2,A
+Football,Spain,League,2016,20/01/17,Las Palmas,Deportivo La Coruna,1,1,D
+Football,Spain,League,2016,21/01/17,Deportivo Alaves,Leganes,2,2,D
+Football,Spain,League,2016,21/01/17,Espanyol,Granada,3,1,H
+Football,Spain,League,2016,21/01/17,Real Madrid,Malaga,2,1,H
+Football,Spain,League,2016,21/01/17,Villarreal,Valencia,0,2,A
+Football,Spain,League,2016,22/01/17,Athletic Bilbao,Atletico Madrid,2,2,D
+Football,Spain,League,2016,22/01/17,Real Betis,Sporting Gijon,0,0,D
+Football,Spain,League,2016,22/01/17,Eibar,Barcelona,0,4,A
+Football,Spain,League,2016,22/01/17,Osasuna,Sevilla,3,4,A
+Football,Spain,League,2016,22/01/17,Real Sociedad,Celta Vigo,1,0,H
+Football,Spain,League,2016,27/01/17,Osasuna,Malaga,1,1,D
+Football,Spain,League,2016,28/01/17,Deportivo Alaves,Atletico Madrid,0,0,D
+Football,Spain,League,2016,28/01/17,Eibar,Deportivo La Coruna,3,1,H
+Football,Spain,League,2016,28/01/17,Leganes,Celta Vigo,0,2,A
+Football,Spain,League,2016,28/01/17,Villarreal,Granada,2,0,H
+Football,Spain,League,2016,29/01/17,Athletic Bilbao,Sporting Gijon,2,1,H
+Football,Spain,League,2016,29/01/17,Real Betis,Barcelona,1,1,D
+Football,Spain,League,2016,29/01/17,Espanyol,Sevilla,3,1,H
+Football,Spain,League,2016,29/01/17,Real Madrid,Real Sociedad,3,0,H
+Football,Spain,League,2016,30/01/17,Las Palmas,Valencia,3,1,H
+Football,Spain,League,2016,04/02/17,Atletico Madrid,Leganes,2,0,H
+Football,Spain,League,2016,04/02/17,Barcelona,Athletic Bilbao,3,0,H
+Football,Spain,League,2016,04/02/17,Malaga,Espanyol,0,1,A
+Football,Spain,League,2016,04/02/17,Valencia,Eibar,0,4,A
+Football,Spain,League,2016,05/02/17,Sevilla,Villarreal,0,0,D
+Football,Spain,League,2016,05/02/17,Real Sociedad,Osasuna,3,2,H
+Football,Spain,League,2016,05/02/17,Sporting Gijon,Deportivo Alaves,2,4,A
+Football,Spain,League,2016,06/02/17,Granada,Las Palmas,1,0,H
+Football,Spain,League,2016,10/02/17,Espanyol,Real Sociedad,1,2,A
+Football,Spain,League,2016,11/02/17,Deportivo Alaves,Barcelona,0,6,A
+Football,Spain,League,2016,11/02/17,Athletic Bilbao,Deportivo La Coruna,2,1,H
+Football,Spain,League,2016,11/02/17,Real Betis,Valencia,0,0,D
+Football,Spain,League,2016,11/02/17,Osasuna,Real Madrid,1,3,A
+Football,Spain,League,2016,12/02/17,Atletico Madrid,Celta Vigo,3,2,H
+Football,Spain,League,2016,12/02/17,Las Palmas,Sevilla,0,1,A
+Football,Spain,League,2016,12/02/17,Leganes,Sporting Gijon,0,2,A
+Football,Spain,League,2016,12/02/17,Villarreal,Malaga,1,1,D
+Football,Spain,League,2016,13/02/17,Eibar,Granada,4,0,H
+Football,Spain,League,2016,17/02/17,Granada,Real Betis,4,1,H
+Football,Spain,League,2016,18/02/17,Deportivo La Coruna,Deportivo Alaves,0,1,A
+Football,Spain,League,2016,18/02/17,Real Madrid,Espanyol,2,0,H
+Football,Spain,League,2016,18/02/17,Sevilla,Eibar,2,0,H
+Football,Spain,League,2016,18/02/17,Sporting Gijon,Atletico Madrid,1,4,A
+Football,Spain,League,2016,19/02/17,Barcelona,Leganes,2,1,H
+Football,Spain,League,2016,19/02/17,Celta Vigo,Osasuna,3,0,H
+Football,Spain,League,2016,19/02/17,Real Sociedad,Villarreal,0,1,A
+Football,Spain,League,2016,19/02/17,Valencia,Athletic Bilbao,2,0,H
+Football,Spain,League,2016,20/02/17,Malaga,Las Palmas,2,1,H
+Football,Spain,League,2016,22/02/17,Valencia,Real Madrid,2,1,H
+Football,Spain,League,2016,24/02/17,Las Palmas,Real Sociedad,0,1,A
+Football,Spain,League,2016,25/02/17,Deportivo Alaves,Valencia,2,1,H
+Football,Spain,League,2016,25/02/17,Real Betis,Sevilla,1,2,A
+Football,Spain,League,2016,25/02/17,Eibar,Malaga,3,0,H
+Football,Spain,League,2016,25/02/17,Leganes,Deportivo La Coruna,4,0,H
+Football,Spain,League,2016,26/02/17,Athletic Bilbao,Granada,3,1,H
+Football,Spain,League,2016,26/02/17,Atletico Madrid,Barcelona,1,2,A
+Football,Spain,League,2016,26/02/17,Espanyol,Osasuna,3,0,H
+Football,Spain,League,2016,26/02/17,Sporting Gijon,Celta Vigo,1,1,D
+Football,Spain,League,2016,26/02/17,Villarreal,Real Madrid,2,3,A
+Football,Spain,League,2016,28/02/17,Malaga,Real Betis,1,2,A
+Football,Spain,League,2016,28/02/17,Real Sociedad,Eibar,2,2,D
+Football,Spain,League,2016,28/02/17,Valencia,Leganes,1,0,H
+Football,Spain,League,2016,01/03/17,Barcelona,Sporting Gijon,6,1,H
+Football,Spain,League,2016,01/03/17,Celta Vigo,Espanyol,2,2,D
+Football,Spain,League,2016,01/03/17,Granada,Deportivo Alaves,2,1,H
+Football,Spain,League,2016,01/03/17,Osasuna,Villarreal,1,4,A
+Football,Spain,League,2016,01/03/17,Real Madrid,Las Palmas,3,3,D
+Football,Spain,League,2016,02/03/17,Deportivo La Coruna,Atletico Madrid,1,1,D
+Football,Spain,League,2016,02/03/17,Sevilla,Athletic Bilbao,1,0,H
+Football,Spain,League,2016,03/03/17,Real Betis,Real Sociedad,2,3,A
+Football,Spain,League,2016,04/03/17,Barcelona,Celta Vigo,5,0,H
+Football,Spain,League,2016,04/03/17,Eibar,Real Madrid,1,4,A
+Football,Spain,League,2016,04/03/17,Leganes,Granada,1,0,H
+Football,Spain,League,2016,04/03/17,Villarreal,Espanyol,2,0,H
+Football,Spain,League,2016,05/03/17,Athletic Bilbao,Malaga,1,0,H
+Football,Spain,League,2016,05/03/17,Atletico Madrid,Valencia,3,0,H
+Football,Spain,League,2016,05/03/17,Las Palmas,Osasuna,5,2,H
+Football,Spain,League,2016,05/03/17,Sporting Gijon,Deportivo La Coruna,0,1,A
+Football,Spain,League,2016,06/03/17,Deportivo Alaves,Sevilla,1,1,D
+Football,Spain,League,2016,08/03/17,Deportivo La Coruna,Real Betis,1,1,D
+Football,Spain,League,2016,10/03/17,Espanyol,Las Palmas,4,3,H
+Football,Spain,League,2016,11/03/17,Granada,Atletico Madrid,0,1,A
+Football,Spain,League,2016,11/03/17,Malaga,Deportivo Alaves,1,2,A
+Football,Spain,League,2016,11/03/17,Sevilla,Leganes,1,1,D
+Football,Spain,League,2016,11/03/17,Valencia,Sporting Gijon,1,1,D
+Football,Spain,League,2016,12/03/17,Celta Vigo,Villarreal,0,1,A
+Football,Spain,League,2016,12/03/17,Deportivo La Coruna,Barcelona,2,1,H
+Football,Spain,League,2016,12/03/17,Real Madrid,Real Betis,2,1,H
+Football,Spain,League,2016,12/03/17,Real Sociedad,Athletic Bilbao,0,2,A
+Football,Spain,League,2016,13/03/17,Osasuna,Eibar,1,1,D
+Football,Spain,League,2016,17/03/17,Las Palmas,Villarreal,1,0,H
+Football,Spain,League,2016,18/03/17,Deportivo Alaves,Real Sociedad,1,0,H
+Football,Spain,League,2016,18/03/17,Athletic Bilbao,Real Madrid,1,2,A
+Football,Spain,League,2016,18/03/17,Real Betis,Osasuna,2,0,H
+Football,Spain,League,2016,18/03/17,Eibar,Espanyol,1,1,D
+Football,Spain,League,2016,19/03/17,Atletico Madrid,Sevilla,3,1,H
+Football,Spain,League,2016,19/03/17,Barcelona,Valencia,4,2,H
+Football,Spain,League,2016,19/03/17,Deportivo La Coruna,Celta Vigo,0,1,A
+Football,Spain,League,2016,19/03/17,Leganes,Malaga,0,0,D
+Football,Spain,League,2016,19/03/17,Sporting Gijon,Granada,3,1,H
+Football,Spain,League,2016,31/03/17,Espanyol,Real Betis,2,1,H
+Football,Spain,League,2016,01/04/17,Malaga,Atletico Madrid,0,2,A
+Football,Spain,League,2016,01/04/17,Osasuna,Athletic Bilbao,1,2,A
+Football,Spain,League,2016,01/04/17,Real Sociedad,Leganes,1,1,D
+Football,Spain,League,2016,01/04/17,Villarreal,Eibar,2,3,A
+Football,Spain,League,2016,02/04/17,Granada,Barcelona,1,4,A
+Football,Spain,League,2016,02/04/17,Real Madrid,Deportivo Alaves,3,0,H
+Football,Spain,League,2016,02/04/17,Sevilla,Sporting Gijon,0,0,D
+Football,Spain,League,2016,02/04/17,Valencia,Deportivo La Coruna,3,0,H
+Football,Spain,League,2016,03/04/17,Celta Vigo,Las Palmas,3,1,H
+Football,Spain,League,2016,04/04/17,Athletic Bilbao,Espanyol,2,0,H
+Football,Spain,League,2016,04/04/17,Atletico Madrid,Real Sociedad,1,0,H
+Football,Spain,League,2016,04/04/17,Real Betis,Villarreal,0,1,A
+Football,Spain,League,2016,05/04/17,Deportivo Alaves,Osasuna,0,1,A
+Football,Spain,League,2016,05/04/17,Barcelona,Sevilla,3,0,H
+Football,Spain,League,2016,05/04/17,Deportivo La Coruna,Granada,0,0,D
+Football,Spain,League,2016,05/04/17,Leganes,Real Madrid,2,4,A
+Football,Spain,League,2016,05/04/17,Sporting Gijon,Malaga,0,1,A
+Football,Spain,League,2016,06/04/17,Eibar,Las Palmas,3,1,H
+Football,Spain,League,2016,06/04/17,Valencia,Celta Vigo,3,2,H
+Football,Spain,League,2016,07/04/17,Villarreal,Athletic Bilbao,3,1,H
+Football,Spain,League,2016,08/04/17,Espanyol,Deportivo Alaves,1,0,H
+Football,Spain,League,2016,08/04/17,Malaga,Barcelona,2,0,H
+Football,Spain,League,2016,08/04/17,Real Madrid,Atletico Madrid,1,1,D
+Football,Spain,League,2016,08/04/17,Sevilla,Deportivo La Coruna,4,2,H
+Football,Spain,League,2016,09/04/17,Celta Vigo,Eibar,0,2,A
+Football,Spain,League,2016,09/04/17,Granada,Valencia,1,3,A
+Football,Spain,League,2016,09/04/17,Las Palmas,Real Betis,4,1,H
+Football,Spain,League,2016,09/04/17,Osasuna,Leganes,2,1,H
+Football,Spain,League,2016,10/04/17,Real Sociedad,Sporting Gijon,3,1,H
+Football,Spain,League,2016,14/04/17,Athletic Bilbao,Las Palmas,5,1,H
+Football,Spain,League,2016,15/04/17,Atletico Madrid,Osasuna,3,0,H
+Football,Spain,League,2016,15/04/17,Barcelona,Real Sociedad,3,2,H
+Football,Spain,League,2016,15/04/17,Deportivo La Coruna,Malaga,2,0,H
+Football,Spain,League,2016,15/04/17,Sporting Gijon,Real Madrid,2,3,A
+Football,Spain,League,2016,16/04/17,Real Betis,Eibar,2,0,H
+Football,Spain,League,2016,16/04/17,Granada,Celta Vigo,0,3,A
+Football,Spain,League,2016,16/04/17,Leganes,Espanyol,0,1,A
+Football,Spain,League,2016,16/04/17,Valencia,Sevilla,0,0,D
+Football,Spain,League,2016,17/04/17,Deportivo Alaves,Villarreal,2,1,H
+Football,Spain,League,2016,21/04/17,Sevilla,Granada,2,0,H
+Football,Spain,League,2016,22/04/17,Espanyol,Atletico Madrid,0,1,A
+Football,Spain,League,2016,22/04/17,Malaga,Valencia,2,0,H
+Football,Spain,League,2016,22/04/17,Osasuna,Sporting Gijon,2,2,D
+Football,Spain,League,2016,22/04/17,Villarreal,Leganes,2,1,H
+Football,Spain,League,2016,23/04/17,Celta Vigo,Real Betis,0,1,A
+Football,Spain,League,2016,23/04/17,Las Palmas,Deportivo Alaves,1,1,D
+Football,Spain,League,2016,23/04/17,Real Madrid,Barcelona,2,3,A
+Football,Spain,League,2016,23/04/17,Real Sociedad,Deportivo La Coruna,1,0,H
+Football,Spain,League,2016,24/04/17,Eibar,Athletic Bilbao,0,1,A
+Football,Spain,League,2016,25/04/17,Atletico Madrid,Villarreal,0,1,A
+Football,Spain,League,2016,25/04/17,Granada,Malaga,0,2,A
+Football,Spain,League,2016,25/04/17,Sporting Gijon,Espanyol,1,1,D
+Football,Spain,League,2016,26/04/17,Barcelona,Osasuna,7,1,H
+Football,Spain,League,2016,26/04/17,Deportivo La Coruna,Real Madrid,2,6,A
+Football,Spain,League,2016,26/04/17,Leganes,Las Palmas,3,0,H
+Football,Spain,League,2016,26/04/17,Valencia,Real Sociedad,2,3,A
+Football,Spain,League,2016,27/04/17,Deportivo Alaves,Eibar,0,0,D
+Football,Spain,League,2016,27/04/17,Athletic Bilbao,Real Betis,2,1,H
+Football,Spain,League,2016,27/04/17,Sevilla,Celta Vigo,2,1,H
+Football,Spain,League,2016,28/04/17,Villarreal,Sporting Gijon,3,1,H
+Football,Spain,League,2016,29/04/17,Espanyol,Barcelona,0,3,A
+Football,Spain,League,2016,29/04/17,Las Palmas,Atletico Madrid,0,5,A
+Football,Spain,League,2016,29/04/17,Real Madrid,Valencia,2,1,H
+Football,Spain,League,2016,29/04/17,Real Sociedad,Granada,2,1,H
+Football,Spain,League,2016,30/04/17,Real Betis,Deportivo Alaves,1,4,A
+Football,Spain,League,2016,30/04/17,Celta Vigo,Athletic Bilbao,0,3,A
+Football,Spain,League,2016,30/04/17,Eibar,Leganes,2,0,H
+Football,Spain,League,2016,30/04/17,Osasuna,Deportivo La Coruna,2,2,D
+Football,Spain,League,2016,01/05/17,Malaga,Sevilla,4,2,H
+Football,Spain,League,2016,05/05/17,Sevilla,Real Sociedad,1,1,D
+Football,Spain,League,2016,06/05/17,Atletico Madrid,Eibar,1,0,H
+Football,Spain,League,2016,06/05/17,Barcelona,Villarreal,4,1,H
+Football,Spain,League,2016,06/05/17,Granada,Real Madrid,0,4,A
+Football,Spain,League,2016,06/05/17,Sporting Gijon,Las Palmas,1,0,H
+Football,Spain,League,2016,07/05/17,Deportivo Alaves,Athletic Bilbao,1,0,H
+Football,Spain,League,2016,07/05/17,Deportivo La Coruna,Espanyol,1,2,A
+Football,Spain,League,2016,07/05/17,Malaga,Celta Vigo,3,0,H
+Football,Spain,League,2016,07/05/17,Valencia,Osasuna,4,1,H
+Football,Spain,League,2016,08/05/17,Leganes,Real Betis,4,0,H
+Football,Spain,League,2016,13/05/17,Espanyol,Valencia,0,1,A
+Football,Spain,League,2016,13/05/17,Osasuna,Granada,2,1,H
+Football,Spain,League,2016,14/05/17,Deportivo Alaves,Celta Vigo,3,1,H
+Football,Spain,League,2016,14/05/17,Athletic Bilbao,Leganes,1,1,D
+Football,Spain,League,2016,14/05/17,Real Betis,Atletico Madrid,1,1,D
+Football,Spain,League,2016,14/05/17,Eibar,Sporting Gijon,0,1,A
+Football,Spain,League,2016,14/05/17,Las Palmas,Barcelona,1,4,A
+Football,Spain,League,2016,14/05/17,Real Madrid,Sevilla,4,1,H
+Football,Spain,League,2016,14/05/17,Real Sociedad,Malaga,2,2,D
+Football,Spain,League,2016,14/05/17,Villarreal,Deportivo La Coruna,0,0,D
+Football,Spain,League,2016,17/05/17,Celta Vigo,Real Madrid,1,4,A
+Football,Spain,League,2016,19/05/17,Granada,Espanyol,1,2,A
+Football,Spain,League,2016,20/05/17,Deportivo La Coruna,Las Palmas,3,0,H
+Football,Spain,League,2016,20/05/17,Leganes,Deportivo Alaves,1,1,D
+Football,Spain,League,2016,20/05/17,Sevilla,Osasuna,5,0,H
+Football,Spain,League,2016,20/05/17,Sporting Gijon,Real Betis,2,2,D
+Football,Spain,League,2016,21/05/17,Atletico Madrid,Athletic Bilbao,3,1,H
+Football,Spain,League,2016,21/05/17,Barcelona,Eibar,4,2,H
+Football,Spain,League,2016,21/05/17,Celta Vigo,Real Sociedad,2,2,D
+Football,Spain,League,2016,21/05/17,Malaga,Real Madrid,0,2,A
+Football,Spain,League,2016,21/05/17,Valencia,Villarreal,1,3,A

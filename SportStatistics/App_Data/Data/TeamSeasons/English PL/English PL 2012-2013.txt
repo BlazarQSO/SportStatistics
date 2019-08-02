@@ -1,0 +1,20 @@
+Football,England,League,2012,Manchester United,38,28,5,5,86,43,89,19,16,0,3,45,19,48
+Football,England,League,2012,Manchester City,38,23,9,6,66,34,78,19,14,3,2,41,15,45
+Football,England,League,2012,Chelsea,38,22,9,7,75,39,75,19,12,5,2,41,16,41
+Football,England,League,2012,Arsenal,38,21,10,7,72,37,73,19,11,5,3,47,23,38
+Football,England,League,2012,Tottenham,38,21,9,8,66,46,72,19,11,5,3,29,18,38
+Football,England,League,2012,Everton,38,16,15,7,55,40,63,19,12,6,1,33,17,42
+Football,England,League,2012,Liverpool,38,16,13,9,71,43,61,19,9,6,4,33,16,33
+Football,England,League,2012,West Bromwich Albion,38,14,7,17,53,57,49,19,9,4,6,32,25,31
+Football,England,League,2012,Swansea,38,11,13,14,47,51,46,19,6,8,5,28,26,26
+Football,England,League,2012,West Ham,38,12,10,16,45,53,46,19,9,6,4,34,22,33
+Football,England,League,2012,Norwich,38,10,14,14,41,58,44,19,8,7,4,25,20,31
+Football,England,League,2012,Fulham,38,11,10,17,50,60,43,19,7,3,9,28,30,24
+Football,England,League,2012,Stoke,38,9,15,14,34,45,42,19,7,7,5,21,22,28
+Football,England,League,2012,Southampton,38,9,14,15,49,60,41,19,6,7,6,26,24,25
+Football,England,League,2012,Aston Villa,38,10,11,17,47,69,41,19,5,5,9,23,28,20
+Football,England,League,2012,Newcastle United,38,11,8,19,45,68,41,19,9,1,9,24,31,28
+Football,England,League,2012,Sunderland,38,9,12,17,41,54,39,19,5,8,6,20,19,23
+Football,England,League,2012,Wigan,38,9,9,20,47,73,36,19,4,6,9,26,39,18
+Football,England,League,2012,Reading,38,6,10,22,43,73,28,19,4,8,7,23,33,20
+Football,England,League,2012,Queens Park Rangers,38,4,13,21,30,60,25,19,2,8,9,13,28,14

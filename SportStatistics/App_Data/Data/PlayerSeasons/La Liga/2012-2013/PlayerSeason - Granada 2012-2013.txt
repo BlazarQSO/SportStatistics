@@ -1,0 +1,28 @@
+Football,Spain,League,2012,Granada,Diego,Mainz,27,1,0
+Football,Spain,League,2012,Granada,Manuel,Lucena,2,0,0
+Football,Spain,League,2012,Granada,Nolito,,17,3,1
+Football,Spain,League,2012,Granada,Dani,Benitez,9,1,1
+Football,Spain,League,2012,Granada,Guilherme,Siqueira,35,6,3
+Football,Spain,League,2012,Granada,Roberto,Fernandez,14,0,1
+Football,Spain,League,2012,Granada,Allan,Nyom,35,0,2
+Football,Spain,League,2012,Granada,Tono,,25,0,0
+Football,Spain,League,2012,Granada,Yacine,Brahimi,27,0,1
+Football,Spain,League,2012,Granada,Recio,,15,2,0
+Football,Spain,League,2012,Granada,Mikel,Rico,38,2,0
+Football,Spain,League,2012,Granada,Inigo,Lopez,23,0,0
+Football,Spain,League,2012,Granada,Youssef,El-Arabi,31,8,1
+Football,Spain,League,2012,Granada,Pape,Malickou Diakhate,18,0,0
+Football,Spain,League,2012,Granada,Iriney,,25,0,0
+Football,Spain,League,2012,Granada,Odion,Ighalo,28,4,2
+Football,Spain,League,2012,Granada,Borja,Gomez,12,0,0
+Football,Spain,League,2012,Granada,Gabriel,Torje,34,3,0
+Football,Spain,League,2012,Granada,Fabian,Orellana,17,0,1
+Football,Spain,League,2012,Granada,Antonio,Floro Flores,10,1,0
+Football,Spain,League,2012,Granada,Diego,Buonanotte,15,1,1
+Football,Spain,League,2012,Granada,Brayan,Angulo,15,1,0
+Football,Spain,League,2012,Granada,Juanma,Ortiz,22,0,2
+Football,Spain,League,2012,Granada,Jaime,Romero,11,0,1
+Football,Spain,League,2012,Granada,Aranda,,17,1,1
+Football,Spain,League,2012,Granada,Hassan,Yebda,2,0,0
+Football,Spain,League,2012,Granada,Moises,Hurtado,1,0,0
+Football,Spain,League,2012,Granada,Darwin,Machis,4,0,0

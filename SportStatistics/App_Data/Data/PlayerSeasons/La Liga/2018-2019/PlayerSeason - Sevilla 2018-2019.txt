@@ -1,0 +1,27 @@
+Football,Spain,League,2018,Sevilla,Wissam,Ben Yedder,35,18,9
+Football,Spain,League,2018,Sevilla,Pablo,Sarabia,33,12,13
+Football,Spain,League,2018,Sevilla,Ever,Banega,32,3,4
+Football,Spain,League,2018,Sevilla,Andre,Silva,27,9,0
+Football,Spain,League,2018,Sevilla,Jesus,Navas,32,1,5
+Football,Spain,League,2018,Sevilla,Daniel,Carrico,24,1,1
+Football,Spain,League,2018,Sevilla,Simon,Kjaer,26,0,0
+Football,Spain,League,2018,Sevilla,Franco,Vazquez,34,3,4
+Football,Spain,League,2018,Sevilla,Munir,El Haddadi,16,5,1
+Football,Spain,League,2018,Sevilla,Gabriel,Mercado,23,2,1
+Football,Spain,League,2018,Sevilla,Joris,Gnagnon,7,0,0
+Football,Spain,League,2018,Sevilla,Sergi,Gomez,32,0,0
+Football,Spain,League,2018,Sevilla,Maximilian,Wober,7,0,0
+Football,Spain,League,2018,Sevilla,Sergio,Escudero,21,0,1
+Football,Spain,League,2018,Sevilla,Juan,Soriano,4,0,0
+Football,Spain,League,2018,Sevilla,Maxime,Gonalons,10,0,0
+Football,Spain,League,2018,Sevilla,Quincy,Promes,33,2,3
+Football,Spain,League,2018,Sevilla,Tomas,Vaclik,33,0,0
+Football,Spain,League,2018,Sevilla,Aleix,Vidal,11,0,0
+Football,Spain,League,2018,Sevilla,Ibrahim,Amadou,17,0,0
+Football,Spain,League,2018,Sevilla,Guilherme,Arana,9,0,0
+Football,Spain,League,2018,Sevilla,Marko,Rog,10,0,0
+Football,Spain,League,2018,Sevilla,Roque,Mesa,31,2,2
+Football,Spain,League,2018,Sevilla,Bryan,Gil,11,1,1
+Football,Spain,League,2018,Sevilla,Luis,Muriel,6,1,1
+Football,Spain,League,2018,Sevilla,Javi,Diaz,1,0,0
+Football,Spain,League,2018,Sevilla,Nolito,,4,0,0

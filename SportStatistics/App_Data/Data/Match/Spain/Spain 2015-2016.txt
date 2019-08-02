@@ -1,0 +1,380 @@
+Football,Spain,League,2015,21/08/15,Malaga,Sevilla,0,0,D
+Football,Spain,League,2015,22/08/15,Atletico Madrid,Las Palmas,1,0,H
+Football,Spain,League,2015,22/08/15,Espanyol,Getafe,1,0,H
+Football,Spain,League,2015,22/08/15,Deportivo La Coruna,Real Sociedad,0,0,D
+Football,Spain,League,2015,22/08/15,Rayo Vallecano,Valencia,0,0,D
+Football,Spain,League,2015,23/08/15,Athletic Bilbao,Barcelona,0,1,A
+Football,Spain,League,2015,23/08/15,Real Betis,Villarreal,1,1,D
+Football,Spain,League,2015,23/08/15,Levante,Celta Vigo,1,2,A
+Football,Spain,League,2015,23/08/15,Sporting Gijon,Real Madrid,0,0,D
+Football,Spain,League,2015,24/08/15,Granada,Eibar,1,3,A
+Football,Spain,League,2015,28/08/15,Villarreal,Espanyol,3,1,H
+Football,Spain,League,2015,29/08/15,Barcelona,Malaga,1,0,H
+Football,Spain,League,2015,29/08/15,Celta Vigo,Rayo Vallecano,3,0,H
+Football,Spain,League,2015,29/08/15,Real Madrid,Real Betis,5,0,H
+Football,Spain,League,2015,29/08/15,Real Sociedad,Sporting Gijon,0,0,D
+Football,Spain,League,2015,30/08/15,Eibar,Athletic Bilbao,2,0,H
+Football,Spain,League,2015,30/08/15,Getafe,Granada,1,2,A
+Football,Spain,League,2015,30/08/15,Las Palmas,Levante,0,0,D
+Football,Spain,League,2015,30/08/15,Sevilla,Atletico Madrid,0,3,A
+Football,Spain,League,2015,30/08/15,Valencia,Deportivo La Coruna,1,1,D
+Football,Spain,League,2015,11/09/15,Levante,Sevilla,1,1,D
+Football,Spain,League,2015,12/09/15,Atletico Madrid,Barcelona,1,2,A
+Football,Spain,League,2015,12/09/15,Real Betis,Real Sociedad,1,0,H
+Football,Spain,League,2015,12/09/15,Espanyol,Real Madrid,0,6,A
+Football,Spain,League,2015,12/09/15,Sporting Gijon,Valencia,0,1,A
+Football,Spain,League,2015,13/09/15,Athletic Bilbao,Getafe,3,1,H
+Football,Spain,League,2015,13/09/15,Celta Vigo,Las Palmas,3,3,D
+Football,Spain,League,2015,13/09/15,Granada,Villarreal,1,3,A
+Football,Spain,League,2015,13/09/15,Malaga,Eibar,0,0,D
+Football,Spain,League,2015,14/09/15,Rayo Vallecano,Deportivo La Coruna,1,3,A
+Football,Spain,League,2015,18/09/15,Getafe,Malaga,1,0,H
+Football,Spain,League,2015,19/09/15,Eibar,Atletico Madrid,0,2,A
+Football,Spain,League,2015,19/09/15,Real Madrid,Granada,1,0,H
+Football,Spain,League,2015,19/09/15,Real Sociedad,Espanyol,2,3,A
+Football,Spain,League,2015,19/09/15,Valencia,Real Betis,0,0,D
+Football,Spain,League,2015,20/09/15,Barcelona,Levante,4,1,H
+Football,Spain,League,2015,20/09/15,Deportivo La Coruna,Sporting Gijon,2,3,A
+Football,Spain,League,2015,20/09/15,Las Palmas,Rayo Vallecano,0,1,A
+Football,Spain,League,2015,20/09/15,Sevilla,Celta Vigo,1,2,A
+Football,Spain,League,2015,20/09/15,Villarreal,Athletic Bilbao,3,1,H
+Football,Spain,League,2015,22/09/15,Atletico Madrid,Getafe,2,0,H
+Football,Spain,League,2015,22/09/15,Espanyol,Valencia,1,0,H
+Football,Spain,League,2015,22/09/15,Granada,Real Sociedad,0,3,A
+Football,Spain,League,2015,23/09/15,Athletic Bilbao,Real Madrid,1,2,A
+Football,Spain,League,2015,23/09/15,Celta Vigo,Barcelona,4,1,H
+Football,Spain,League,2015,23/09/15,Las Palmas,Sevilla,2,0,H
+Football,Spain,League,2015,23/09/15,Levante,Eibar,2,2,D
+Football,Spain,League,2015,23/09/15,Malaga,Villarreal,0,1,A
+Football,Spain,League,2015,23/09/15,Rayo Vallecano,Sporting Gijon,2,1,H
+Football,Spain,League,2015,24/09/15,Real Betis,Deportivo La Coruna,1,2,A
+Football,Spain,League,2015,25/09/15,Valencia,Granada,1,0,H
+Football,Spain,League,2015,26/09/15,Barcelona,Las Palmas,2,1,H
+Football,Spain,League,2015,26/09/15,Eibar,Celta Vigo,1,1,D
+Football,Spain,League,2015,26/09/15,Real Madrid,Malaga,0,0,D
+Football,Spain,League,2015,26/09/15,Sevilla,Rayo Vallecano,3,2,H
+Football,Spain,League,2015,26/09/15,Villarreal,Atletico Madrid,1,0,H
+Football,Spain,League,2015,27/09/15,Getafe,Levante,3,0,H
+Football,Spain,League,2015,27/09/15,Deportivo La Coruna,Espanyol,3,0,H
+Football,Spain,League,2015,27/09/15,Real Sociedad,Athletic Bilbao,0,0,D
+Football,Spain,League,2015,27/09/15,Sporting Gijon,Real Betis,1,2,A
+Football,Spain,League,2015,02/10/15,Celta Vigo,Getafe,0,0,D
+Football,Spain,League,2015,03/10/15,Espanyol,Sporting Gijon,1,2,A
+Football,Spain,League,2015,03/10/15,Granada,Deportivo La Coruna,1,1,D
+Football,Spain,League,2015,03/10/15,Las Palmas,Eibar,0,2,A
+Football,Spain,League,2015,03/10/15,Malaga,Real Sociedad,3,1,H
+Football,Spain,League,2015,03/10/15,Sevilla,Barcelona,2,1,H
+Football,Spain,League,2015,04/10/15,Athletic Bilbao,Valencia,3,1,H
+Football,Spain,League,2015,04/10/15,Atletico Madrid,Real Madrid,1,1,D
+Football,Spain,League,2015,04/10/15,Levante,Villarreal,1,0,H
+Football,Spain,League,2015,04/10/15,Rayo Vallecano,Real Betis,0,2,A
+Football,Spain,League,2015,17/10/15,Barcelona,Rayo Vallecano,5,2,H
+Football,Spain,League,2015,17/10/15,Real Betis,Espanyol,1,3,A
+Football,Spain,League,2015,17/10/15,Eibar,Sevilla,1,1,D
+Football,Spain,League,2015,17/10/15,Real Madrid,Levante,3,0,H
+Football,Spain,League,2015,17/10/15,Valencia,Malaga,3,0,H
+Football,Spain,League,2015,18/10/15,Getafe,Las Palmas,4,0,H
+Football,Spain,League,2015,18/10/15,Deportivo La Coruna,Athletic Bilbao,2,2,D
+Football,Spain,League,2015,18/10/15,Real Sociedad,Atletico Madrid,0,2,A
+Football,Spain,League,2015,18/10/15,Villarreal,Celta Vigo,1,2,A
+Football,Spain,League,2015,19/10/15,Sporting Gijon,Granada,3,3,D
+Football,Spain,League,2015,23/10/15,Rayo Vallecano,Espanyol,3,0,H
+Football,Spain,League,2015,24/10/15,Celta Vigo,Real Madrid,1,3,A
+Football,Spain,League,2015,24/10/15,Granada,Real Betis,1,1,D
+Football,Spain,League,2015,24/10/15,Malaga,Deportivo La Coruna,2,0,H
+Football,Spain,League,2015,24/10/15,Sevilla,Getafe,5,0,H
+Football,Spain,League,2015,25/10/15,Atletico Madrid,Valencia,2,1,H
+Football,Spain,League,2015,25/10/15,Barcelona,Eibar,3,1,H
+Football,Spain,League,2015,25/10/15,Las Palmas,Villarreal,0,0,D
+Football,Spain,League,2015,25/10/15,Levante,Real Sociedad,0,4,A
+Football,Spain,League,2015,26/10/15,Athletic Bilbao,Sporting Gijon,3,0,H
+Football,Spain,League,2015,30/10/15,Deportivo La Coruna,Atletico Madrid,1,1,D
+Football,Spain,League,2015,31/10/15,Getafe,Barcelona,0,2,A
+Football,Spain,League,2015,31/10/15,Real Madrid,Las Palmas,3,1,H
+Football,Spain,League,2015,31/10/15,Real Sociedad,Celta Vigo,2,3,A
+Football,Spain,League,2015,31/10/15,Valencia,Levante,3,0,H
+Football,Spain,League,2015,31/10/15,Villarreal,Sevilla,2,1,H
+Football,Spain,League,2015,01/11/15,Real Betis,Athletic Bilbao,1,3,A
+Football,Spain,League,2015,01/11/15,Eibar,Rayo Vallecano,1,0,H
+Football,Spain,League,2015,01/11/15,Espanyol,Granada,1,1,D
+Football,Spain,League,2015,01/11/15,Sporting Gijon,Malaga,1,0,H
+Football,Spain,League,2015,06/11/15,Las Palmas,Real Sociedad,2,0,H
+Football,Spain,League,2015,07/11/15,Celta Vigo,Valencia,1,5,A
+Football,Spain,League,2015,07/11/15,Eibar,Getafe,3,1,H
+Football,Spain,League,2015,07/11/15,Levante,Deportivo La Coruna,1,1,D
+Football,Spain,League,2015,07/11/15,Malaga,Real Betis,0,1,A
+Football,Spain,League,2015,07/11/15,Rayo Vallecano,Granada,2,1,H
+Football,Spain,League,2015,08/11/15,Athletic Bilbao,Espanyol,2,1,H
+Football,Spain,League,2015,08/11/15,Atletico Madrid,Sporting Gijon,1,0,H
+Football,Spain,League,2015,08/11/15,Barcelona,Villarreal,3,0,H
+Football,Spain,League,2015,08/11/15,Sevilla,Real Madrid,3,2,H
+Football,Spain,League,2015,21/11/15,Espanyol,Malaga,2,0,H
+Football,Spain,League,2015,21/11/15,Deportivo La Coruna,Celta Vigo,2,0,H
+Football,Spain,League,2015,21/11/15,Real Madrid,Barcelona,0,4,A
+Football,Spain,League,2015,21/11/15,Real Sociedad,Sevilla,2,0,H
+Football,Spain,League,2015,21/11/15,Valencia,Las Palmas,1,1,D
+Football,Spain,League,2015,22/11/15,Real Betis,Atletico Madrid,0,1,A
+Football,Spain,League,2015,22/11/15,Granada,Athletic Bilbao,2,0,H
+Football,Spain,League,2015,22/11/15,Sporting Gijon,Levante,0,3,A
+Football,Spain,League,2015,22/11/15,Villarreal,Eibar,1,1,D
+Football,Spain,League,2015,23/11/15,Getafe,Rayo Vallecano,1,1,D
+Football,Spain,League,2015,27/11/15,Levante,Real Betis,0,1,A
+Football,Spain,League,2015,28/11/15,Atletico Madrid,Espanyol,1,0,H
+Football,Spain,League,2015,28/11/15,Barcelona,Real Sociedad,4,0,H
+Football,Spain,League,2015,28/11/15,Celta Vigo,Sporting Gijon,2,1,H
+Football,Spain,League,2015,28/11/15,Las Palmas,Deportivo La Coruna,0,2,A
+Football,Spain,League,2015,28/11/15,Malaga,Granada,2,2,D
+Football,Spain,League,2015,29/11/15,Eibar,Real Madrid,0,2,A
+Football,Spain,League,2015,29/11/15,Getafe,Villarreal,2,0,H
+Football,Spain,League,2015,29/11/15,Sevilla,Valencia,1,0,H
+Football,Spain,League,2015,29/11/15,Rayo Vallecano,Athletic Bilbao,0,3,A
+Football,Spain,League,2015,05/12/15,Real Betis,Celta Vigo,1,1,D
+Football,Spain,League,2015,05/12/15,Granada,Atletico Madrid,0,2,A
+Football,Spain,League,2015,05/12/15,Deportivo La Coruna,Sevilla,1,1,D
+Football,Spain,League,2015,05/12/15,Real Madrid,Getafe,4,1,H
+Football,Spain,League,2015,05/12/15,Valencia,Barcelona,1,1,D
+Football,Spain,League,2015,06/12/15,Athletic Bilbao,Malaga,0,0,D
+Football,Spain,League,2015,06/12/15,Real Sociedad,Eibar,2,1,H
+Football,Spain,League,2015,06/12/15,Sporting Gijon,Las Palmas,3,1,H
+Football,Spain,League,2015,06/12/15,Villarreal,Rayo Vallecano,2,1,H
+Football,Spain,League,2015,07/12/15,Espanyol,Levante,1,1,D
+Football,Spain,League,2015,11/12/15,Getafe,Real Sociedad,1,1,D
+Football,Spain,League,2015,12/12/15,Barcelona,Deportivo La Coruna,2,2,D
+Football,Spain,League,2015,12/12/15,Celta Vigo,Espanyol,1,0,H
+Football,Spain,League,2015,12/12/15,Las Palmas,Real Betis,1,0,H
+Football,Spain,League,2015,12/12/15,Levante,Granada,1,2,A
+Football,Spain,League,2015,12/12/15,Sevilla,Sporting Gijon,2,0,H
+Football,Spain,League,2015,13/12/15,Atletico Madrid,Athletic Bilbao,2,1,H
+Football,Spain,League,2015,13/12/15,Eibar,Valencia,1,1,D
+Football,Spain,League,2015,13/12/15,Rayo Vallecano,Malaga,1,2,A
+Football,Spain,League,2015,13/12/15,Villarreal,Real Madrid,1,0,H
+Football,Spain,League,2015,19/12/15,Real Betis,Sevilla,0,0,D
+Football,Spain,League,2015,19/12/15,Espanyol,Las Palmas,1,0,H
+Football,Spain,League,2015,19/12/15,Deportivo La Coruna,Eibar,2,0,H
+Football,Spain,League,2015,19/12/15,Valencia,Getafe,2,2,D
+Football,Spain,League,2015,20/12/15,Athletic Bilbao,Levante,2,0,H
+Football,Spain,League,2015,20/12/15,Granada,Celta Vigo,0,2,A
+Football,Spain,League,2015,20/12/15,Malaga,Atletico Madrid,1,0,H
+Football,Spain,League,2015,20/12/15,Real Madrid,Rayo Vallecano,10,2,H
+Football,Spain,League,2015,20/12/15,Real Sociedad,Villarreal,0,2,A
+Football,Spain,League,2015,30/12/15,Barcelona,Real Betis,4,0,H
+Football,Spain,League,2015,30/12/15,Celta Vigo,Athletic Bilbao,0,1,A
+Football,Spain,League,2015,30/12/15,Eibar,Sporting Gijon,2,0,H
+Football,Spain,League,2015,30/12/15,Getafe,Deportivo La Coruna,0,0,D
+Football,Spain,League,2015,30/12/15,Las Palmas,Granada,4,1,H
+Football,Spain,League,2015,30/12/15,Levante,Malaga,0,1,A
+Football,Spain,League,2015,30/12/15,Real Madrid,Real Sociedad,3,1,H
+Football,Spain,League,2015,30/12/15,Sevilla,Espanyol,2,0,H
+Football,Spain,League,2015,30/12/15,Rayo Vallecano,Atletico Madrid,0,2,A
+Football,Spain,League,2015,31/12/15,Villarreal,Valencia,1,0,H
+Football,Spain,League,2015,02/01/16,Atletico Madrid,Levante,1,0,H
+Football,Spain,League,2015,02/01/16,Espanyol,Barcelona,0,0,D
+Football,Spain,League,2015,02/01/16,Malaga,Celta Vigo,2,0,H
+Football,Spain,League,2015,03/01/16,Athletic Bilbao,Las Palmas,2,2,D
+Football,Spain,League,2015,03/01/16,Real Betis,Eibar,0,4,A
+Football,Spain,League,2015,03/01/16,Granada,Sevilla,2,1,H
+Football,Spain,League,2015,03/01/16,Deportivo La Coruna,Villarreal,1,2,A
+Football,Spain,League,2015,03/01/16,Valencia,Real Madrid,2,2,D
+Football,Spain,League,2015,03/01/16,Rayo Vallecano,Real Sociedad,2,2,D
+Football,Spain,League,2015,04/01/16,Sporting Gijon,Getafe,1,2,A
+Football,Spain,League,2015,09/01/16,Barcelona,Granada,4,0,H
+Football,Spain,League,2015,09/01/16,Getafe,Real Betis,1,0,H
+Football,Spain,League,2015,09/01/16,Levante,Rayo Vallecano,2,1,H
+Football,Spain,League,2015,09/01/16,Real Madrid,Deportivo La Coruna,5,0,H
+Football,Spain,League,2015,09/01/16,Sevilla,Athletic Bilbao,2,0,H
+Football,Spain,League,2015,10/01/16,Celta Vigo,Atletico Madrid,0,2,A
+Football,Spain,League,2015,10/01/16,Eibar,Espanyol,2,1,H
+Football,Spain,League,2015,10/01/16,Las Palmas,Malaga,1,1,D
+Football,Spain,League,2015,10/01/16,Real Sociedad,Valencia,2,0,H
+Football,Spain,League,2015,10/01/16,Villarreal,Sporting Gijon,2,0,H
+Football,Spain,League,2015,16/01/16,Celta Vigo,Levante,4,3,H
+Football,Spain,League,2015,16/01/16,Sevilla,Malaga,2,1,H
+Football,Spain,League,2015,16/01/16,Real Sociedad,Deportivo La Coruna,1,1,D
+Football,Spain,League,2015,16/01/16,Villarreal,Real Betis,0,0,D
+Football,Spain,League,2015,17/01/16,Barcelona,Athletic Bilbao,6,0,H
+Football,Spain,League,2015,17/01/16,Getafe,Espanyol,3,1,H
+Football,Spain,League,2015,17/01/16,Las Palmas,Atletico Madrid,0,3,A
+Football,Spain,League,2015,17/01/16,Real Madrid,Sporting Gijon,5,1,H
+Football,Spain,League,2015,17/01/16,Valencia,Rayo Vallecano,2,2,D
+Football,Spain,League,2015,18/01/16,Eibar,Granada,5,1,H
+Football,Spain,League,2015,22/01/16,Sporting Gijon,Real Sociedad,5,1,H
+Football,Spain,League,2015,23/01/16,Espanyol,Villarreal,2,2,D
+Football,Spain,League,2015,23/01/16,Granada,Getafe,3,2,H
+Football,Spain,League,2015,23/01/16,Malaga,Barcelona,1,2,A
+Football,Spain,League,2015,23/01/16,Rayo Vallecano,Celta Vigo,3,0,H
+Football,Spain,League,2015,24/01/16,Athletic Bilbao,Eibar,5,2,H
+Football,Spain,League,2015,24/01/16,Atletico Madrid,Sevilla,0,0,D
+Football,Spain,League,2015,24/01/16,Real Betis,Real Madrid,1,1,D
+Football,Spain,League,2015,24/01/16,Deportivo La Coruna,Valencia,1,1,D
+Football,Spain,League,2015,25/01/16,Levante,Las Palmas,3,2,H
+Football,Spain,League,2015,30/01/16,Barcelona,Atletico Madrid,2,1,H
+Football,Spain,League,2015,30/01/16,Eibar,Malaga,1,2,A
+Football,Spain,League,2015,30/01/16,Getafe,Athletic Bilbao,0,1,A
+Football,Spain,League,2015,30/01/16,Real Sociedad,Real Betis,2,1,H
+Football,Spain,League,2015,30/01/16,Villarreal,Granada,1,0,H
+Football,Spain,League,2015,31/01/16,Las Palmas,Celta Vigo,2,1,H
+Football,Spain,League,2015,31/01/16,Real Madrid,Espanyol,6,0,H
+Football,Spain,League,2015,31/01/16,Sevilla,Levante,3,1,H
+Football,Spain,League,2015,31/01/16,Valencia,Sporting Gijon,0,1,A
+Football,Spain,League,2015,01/02/16,Deportivo La Coruna,Rayo Vallecano,2,2,D
+Football,Spain,League,2015,05/02/16,Malaga,Getafe,3,0,H
+Football,Spain,League,2015,06/02/16,Athletic Bilbao,Villarreal,0,0,D
+Football,Spain,League,2015,06/02/16,Atletico Madrid,Eibar,3,1,H
+Football,Spain,League,2015,06/02/16,Sporting Gijon,Deportivo La Coruna,1,1,D
+Football,Spain,League,2015,06/02/16,Rayo Vallecano,Las Palmas,2,0,H
+Football,Spain,League,2015,07/02/16,Real Betis,Valencia,1,0,H
+Football,Spain,League,2015,07/02/16,Celta Vigo,Sevilla,1,1,D
+Football,Spain,League,2015,07/02/16,Granada,Real Madrid,1,2,A
+Football,Spain,League,2015,07/02/16,Levante,Barcelona,0,2,A
+Football,Spain,League,2015,08/02/16,Espanyol,Real Sociedad,0,5,A
+Football,Spain,League,2015,12/02/16,Sporting Gijon,Rayo Vallecano,2,2,D
+Football,Spain,League,2015,13/02/16,Deportivo La Coruna,Real Betis,2,2,D
+Football,Spain,League,2015,13/02/16,Real Madrid,Athletic Bilbao,4,2,H
+Football,Spain,League,2015,13/02/16,Valencia,Espanyol,2,1,H
+Football,Spain,League,2015,13/02/16,Villarreal,Malaga,1,0,H
+Football,Spain,League,2015,14/02/16,Barcelona,Celta Vigo,6,1,H
+Football,Spain,League,2015,14/02/16,Eibar,Levante,2,0,H
+Football,Spain,League,2015,14/02/16,Getafe,Atletico Madrid,0,1,A
+Football,Spain,League,2015,14/02/16,Sevilla,Las Palmas,2,0,H
+Football,Spain,League,2015,14/02/16,Real Sociedad,Granada,3,0,H
+Football,Spain,League,2015,17/02/16,Sporting Gijon,Barcelona,1,3,A
+Football,Spain,League,2015,19/02/16,Levante,Getafe,3,0,H
+Football,Spain,League,2015,20/02/16,Real Betis,Sporting Gijon,1,1,D
+Football,Spain,League,2015,20/02/16,Celta Vigo,Eibar,3,2,H
+Football,Spain,League,2015,20/02/16,Espanyol,Deportivo La Coruna,1,0,H
+Football,Spain,League,2015,20/02/16,Las Palmas,Barcelona,1,2,A
+Football,Spain,League,2015,21/02/16,Athletic Bilbao,Real Sociedad,0,1,A
+Football,Spain,League,2015,21/02/16,Atletico Madrid,Villarreal,0,0,D
+Football,Spain,League,2015,21/02/16,Granada,Valencia,1,2,A
+Football,Spain,League,2015,21/02/16,Malaga,Real Madrid,1,1,D
+Football,Spain,League,2015,21/02/16,Rayo Vallecano,Sevilla,2,2,D
+Football,Spain,League,2015,26/02/16,Eibar,Las Palmas,0,1,A
+Football,Spain,League,2015,27/02/16,Real Betis,Rayo Vallecano,2,2,D
+Football,Spain,League,2015,27/02/16,Getafe,Celta Vigo,0,1,A
+Football,Spain,League,2015,27/02/16,Real Madrid,Atletico Madrid,0,1,A
+Football,Spain,League,2015,27/02/16,Real Sociedad,Malaga,1,1,D
+Football,Spain,League,2015,27/02/16,Sporting Gijon,Espanyol,2,4,A
+Football,Spain,League,2015,28/02/16,Barcelona,Sevilla,2,1,H
+Football,Spain,League,2015,28/02/16,Deportivo La Coruna,Granada,0,1,A
+Football,Spain,League,2015,28/02/16,Valencia,Athletic Bilbao,0,3,A
+Football,Spain,League,2015,28/02/16,Villarreal,Levante,3,0,H
+Football,Spain,League,2015,01/03/16,Atletico Madrid,Real Sociedad,3,0,H
+Football,Spain,League,2015,01/03/16,Las Palmas,Getafe,4,0,H
+Football,Spain,League,2015,02/03/16,Athletic Bilbao,Deportivo La Coruna,4,1,H
+Football,Spain,League,2015,02/03/16,Celta Vigo,Villarreal,0,0,D
+Football,Spain,League,2015,02/03/16,Levante,Real Madrid,1,3,A
+Football,Spain,League,2015,02/03/16,Malaga,Valencia,1,2,A
+Football,Spain,League,2015,02/03/16,Sevilla,Eibar,1,0,H
+Football,Spain,League,2015,03/03/16,Espanyol,Real Betis,0,3,A
+Football,Spain,League,2015,03/03/16,Granada,Sporting Gijon,2,0,H
+Football,Spain,League,2015,03/03/16,Rayo Vallecano,Barcelona,1,5,A
+Football,Spain,League,2015,05/03/16,Getafe,Sevilla,1,1,D
+Football,Spain,League,2015,05/03/16,Deportivo La Coruna,Malaga,3,3,D
+Football,Spain,League,2015,05/03/16,Real Madrid,Celta Vigo,7,1,H
+Football,Spain,League,2015,05/03/16,Villarreal,Las Palmas,0,1,A
+Football,Spain,League,2015,06/03/16,Real Betis,Granada,2,0,H
+Football,Spain,League,2015,06/03/16,Eibar,Barcelona,0,4,A
+Football,Spain,League,2015,06/03/16,Real Sociedad,Levante,1,1,D
+Football,Spain,League,2015,06/03/16,Sporting Gijon,Athletic Bilbao,0,2,A
+Football,Spain,League,2015,06/03/16,Valencia,Atletico Madrid,1,3,A
+Football,Spain,League,2015,07/03/16,Espanyol,Rayo Vallecano,2,1,H
+Football,Spain,League,2015,11/03/16,Malaga,Sporting Gijon,1,0,H
+Football,Spain,League,2015,12/03/16,Atletico Madrid,Deportivo La Coruna,3,0,H
+Football,Spain,League,2015,12/03/16,Barcelona,Getafe,6,0,H
+Football,Spain,League,2015,12/03/16,Celta Vigo,Real Sociedad,1,0,H
+Football,Spain,League,2015,12/03/16,Rayo Vallecano,Eibar,1,1,D
+Football,Spain,League,2015,13/03/16,Athletic Bilbao,Real Betis,3,1,H
+Football,Spain,League,2015,13/03/16,Las Palmas,Real Madrid,1,2,A
+Football,Spain,League,2015,13/03/16,Levante,Valencia,1,0,H
+Football,Spain,League,2015,13/03/16,Sevilla,Villarreal,4,2,H
+Football,Spain,League,2015,14/03/16,Granada,Espanyol,1,1,D
+Football,Spain,League,2015,18/03/16,Getafe,Eibar,1,1,D
+Football,Spain,League,2015,19/03/16,Real Betis,Malaga,0,1,A
+Football,Spain,League,2015,19/03/16,Granada,Rayo Vallecano,2,2,D
+Football,Spain,League,2015,19/03/16,Deportivo La Coruna,Levante,2,1,H
+Football,Spain,League,2015,19/03/16,Real Sociedad,Las Palmas,0,1,A
+Football,Spain,League,2015,19/03/16,Sporting Gijon,Atletico Madrid,2,1,H
+Football,Spain,League,2015,20/03/16,Espanyol,Athletic Bilbao,2,1,H
+Football,Spain,League,2015,20/03/16,Real Madrid,Sevilla,4,0,H
+Football,Spain,League,2015,20/03/16,Valencia,Celta Vigo,0,2,A
+Football,Spain,League,2015,20/03/16,Villarreal,Barcelona,2,2,D
+Football,Spain,League,2015,01/04/16,Rayo Vallecano,Getafe,2,0,H
+Football,Spain,League,2015,02/04/16,Atletico Madrid,Real Betis,5,1,H
+Football,Spain,League,2015,02/04/16,Barcelona,Real Madrid,1,2,A
+Football,Spain,League,2015,02/04/16,Celta Vigo,Deportivo La Coruna,1,1,D
+Football,Spain,League,2015,02/04/16,Las Palmas,Valencia,2,1,H
+Football,Spain,League,2015,03/04/16,Athletic Bilbao,Granada,1,1,D
+Football,Spain,League,2015,03/04/16,Eibar,Villarreal,1,2,A
+Football,Spain,League,2015,03/04/16,Malaga,Espanyol,1,1,D
+Football,Spain,League,2015,03/04/16,Sevilla,Real Sociedad,1,2,A
+Football,Spain,League,2015,04/04/16,Levante,Sporting Gijon,0,0,D
+Football,Spain,League,2015,08/04/16,Granada,Malaga,0,0,D
+Football,Spain,League,2015,09/04/16,Real Betis,Levante,1,0,H
+Football,Spain,League,2015,09/04/16,Espanyol,Atletico Madrid,1,3,A
+Football,Spain,League,2015,09/04/16,Real Madrid,Eibar,4,0,H
+Football,Spain,League,2015,09/04/16,Real Sociedad,Barcelona,1,0,H
+Football,Spain,League,2015,10/04/16,Athletic Bilbao,Rayo Vallecano,1,0,H
+Football,Spain,League,2015,10/04/16,Sporting Gijon,Celta Vigo,0,1,A
+Football,Spain,League,2015,10/04/16,Valencia,Sevilla,2,1,H
+Football,Spain,League,2015,10/04/16,Villarreal,Getafe,2,0,H
+Football,Spain,League,2015,11/04/16,Deportivo La Coruna,Las Palmas,1,3,A
+Football,Spain,League,2015,15/04/16,Levante,Espanyol,2,1,H
+Football,Spain,League,2015,16/04/16,Celta Vigo,Real Betis,1,1,D
+Football,Spain,League,2015,16/04/16,Eibar,Real Sociedad,2,1,H
+Football,Spain,League,2015,16/04/16,Getafe,Real Madrid,1,5,A
+Football,Spain,League,2015,16/04/16,Las Palmas,Sporting Gijon,1,1,D
+Football,Spain,League,2015,17/04/16,Atletico Madrid,Granada,3,0,H
+Football,Spain,League,2015,17/04/16,Barcelona,Valencia,1,2,A
+Football,Spain,League,2015,17/04/16,Malaga,Athletic Bilbao,0,1,A
+Football,Spain,League,2015,17/04/16,Sevilla,Deportivo La Coruna,1,1,D
+Football,Spain,League,2015,17/04/16,Rayo Vallecano,Villarreal,2,1,H
+Football,Spain,League,2015,19/04/16,Real Betis,Las Palmas,1,0,H
+Football,Spain,League,2015,19/04/16,Espanyol,Celta Vigo,1,1,D
+Football,Spain,League,2015,20/04/16,Athletic Bilbao,Atletico Madrid,0,1,A
+Football,Spain,League,2015,20/04/16,Deportivo La Coruna,Barcelona,0,8,A
+Football,Spain,League,2015,20/04/16,Malaga,Rayo Vallecano,1,1,D
+Football,Spain,League,2015,20/04/16,Real Madrid,Villarreal,3,0,H
+Football,Spain,League,2015,20/04/16,Sporting Gijon,Sevilla,2,1,H
+Football,Spain,League,2015,20/04/16,Valencia,Eibar,4,0,H
+Football,Spain,League,2015,21/04/16,Granada,Levante,5,1,H
+Football,Spain,League,2015,21/04/16,Real Sociedad,Getafe,1,2,A
+Football,Spain,League,2015,22/04/16,Las Palmas,Espanyol,4,0,H
+Football,Spain,League,2015,23/04/16,Atletico Madrid,Malaga,1,0,H
+Football,Spain,League,2015,23/04/16,Barcelona,Sporting Gijon,6,0,H
+Football,Spain,League,2015,23/04/16,Eibar,Deportivo La Coruna,1,1,D
+Football,Spain,League,2015,23/04/16,Rayo Vallecano,Real Madrid,2,3,A
+Football,Spain,League,2015,24/04/16,Getafe,Valencia,2,2,D
+Football,Spain,League,2015,24/04/16,Levante,Athletic Bilbao,2,2,D
+Football,Spain,League,2015,24/04/16,Sevilla,Real Betis,2,0,H
+Football,Spain,League,2015,24/04/16,Villarreal,Real Sociedad,0,0,D
+Football,Spain,League,2015,25/04/16,Celta Vigo,Granada,2,1,H
+Football,Spain,League,2015,29/04/16,Sporting Gijon,Eibar,2,0,H
+Football,Spain,League,2015,30/04/16,Atletico Madrid,Rayo Vallecano,1,0,H
+Football,Spain,League,2015,30/04/16,Real Betis,Barcelona,0,2,A
+Football,Spain,League,2015,30/04/16,Granada,Las Palmas,3,2,H
+Football,Spain,League,2015,30/04/16,Real Sociedad,Real Madrid,0,1,A
+Football,Spain,League,2015,01/05/16,Athletic Bilbao,Celta Vigo,2,1,H
+Football,Spain,League,2015,01/05/16,Espanyol,Sevilla,1,0,H
+Football,Spain,League,2015,01/05/16,Deportivo La Coruna,Getafe,0,2,A
+Football,Spain,League,2015,01/05/16,Valencia,Villarreal,0,2,A
+Football,Spain,League,2015,02/05/16,Malaga,Levante,3,1,H
+Football,Spain,League,2015,08/05/16,Barcelona,Espanyol,5,0,H
+Football,Spain,League,2015,08/05/16,Celta Vigo,Malaga,1,0,H
+Football,Spain,League,2015,08/05/16,Eibar,Real Betis,1,1,D
+Football,Spain,League,2015,08/05/16,Getafe,Sporting Gijon,1,1,D
+Football,Spain,League,2015,08/05/16,Las Palmas,Athletic Bilbao,0,0,D
+Football,Spain,League,2015,08/05/16,Levante,Atletico Madrid,2,1,H
+Football,Spain,League,2015,08/05/16,Real Madrid,Valencia,3,2,H
+Football,Spain,League,2015,08/05/16,Sevilla,Granada,1,4,A
+Football,Spain,League,2015,08/05/16,Real Sociedad,Rayo Vallecano,2,1,H
+Football,Spain,League,2015,08/05/16,Villarreal,Deportivo La Coruna,0,2,A
+Football,Spain,League,2015,13/05/16,Valencia,Real Sociedad,0,1,A
+Football,Spain,League,2015,14/05/16,Athletic Bilbao,Sevilla,3,1,H
+Football,Spain,League,2015,14/05/16,Atletico Madrid,Celta Vigo,2,0,H
+Football,Spain,League,2015,14/05/16,Granada,Barcelona,0,3,A
+Football,Spain,League,2015,14/05/16,Deportivo La Coruna,Real Madrid,0,2,A
+Football,Spain,League,2015,15/05/16,Real Betis,Getafe,2,1,H
+Football,Spain,League,2015,15/05/16,Espanyol,Eibar,4,2,H
+Football,Spain,League,2015,15/05/16,Malaga,Las Palmas,4,1,H
+Football,Spain,League,2015,15/05/16,Sporting Gijon,Villarreal,2,0,H
+Football,Spain,League,2015,15/05/16,Rayo Vallecano,Levante,3,1,H

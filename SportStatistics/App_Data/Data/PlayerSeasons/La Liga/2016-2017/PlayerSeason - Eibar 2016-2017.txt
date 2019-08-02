@@ -1,0 +1,24 @@
+Football,Spain,League,2016,Eibar,Pedro,Leon,37,10,5
+Football,Spain,League,2016,Eibar,Ivan,Ramis,22,3,0
+Football,Spain,League,2016,Eibar,Florian,Lejeune,34,1,1
+Football,Spain,League,2016,Eibar,Antonio,Luna,26,1,5
+Football,Spain,League,2016,Eibar,Anaitz,Arbilla,22,0,2
+Football,Spain,League,2016,Eibar,Sergi,Enrich,38,11,7
+Football,Spain,League,2016,Eibar,David,Junca,9,0,2
+Football,Spain,League,2016,Eibar,Ander,Capa,31,0,3
+Football,Spain,League,2016,Eibar,Dani,Garcia,36,1,1
+Football,Spain,League,2016,Eibar,Takashi,Inui,28,3,2
+Football,Spain,League,2016,Eibar,Fran,Rico,17,2,1
+Football,Spain,League,2016,Eibar,Yoel,Rodriguez,25,0,0
+Football,Spain,League,2016,Eibar,Alejandro,Galvez,20,0,0
+Football,Spain,League,2016,Eibar,Kike,Garcia,24,7,1
+Football,Spain,League,2016,Eibar,Gonzalo,Escalante,30,2,1
+Football,Spain,League,2016,Eibar,Markel,Areitio,1,0,0
+Football,Spain,League,2016,Eibar,Adrian,Gonzalez,28,7,1
+Football,Spain,League,2016,Eibar,Bebe,,20,3,2
+Football,Spain,League,2016,Eibar,Mauro,Dos Santos,11,0,0
+Football,Spain,League,2016,Eibar,Christian,Rivera,17,0,0
+Football,Spain,League,2016,Eibar,Ruben,Pena,28,1,0
+Football,Spain,League,2016,Eibar,Jota,,5,0,0
+Football,Spain,League,2016,Eibar,Nano,Mesa,6,1,0
+Football,Spain,League,2016,Eibar,Asier,Riesgo,16,0,0

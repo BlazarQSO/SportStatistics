@@ -1,0 +1,125 @@
+Football,UEFA,League,2015,15/09/2015 19:45,Real Madrid,Shakhtar Donetsk,4,0,H,Group A
+Football,UEFA,League,2015,15/09/2015 19:45,Paris Saint-Germain,Malmoe FF,2,0,H,Group A
+Football,UEFA,League,2015,30/09/2015 19:45,Malmoe FF,Real Madrid,0,2,A,Group A
+Football,UEFA,League,2015,30/09/2015 19:45,Shakhtar Donetsk,Paris Saint-Germain,0,3,A,Group A
+Football,UEFA,League,2015,21/10/2015 19:45,Paris Saint-Germain,Real Madrid,0,0,D,Group A
+Football,UEFA,League,2015,21/10/2015 19:45,Malmoe FF,Shakhtar Donetsk,1,0,H,Group A
+Football,UEFA,League,2015,03/11/2015 19:45,Real Madrid,Paris Saint-Germain,1,0,H,Group A
+Football,UEFA,League,2015,03/11/2015 19:45,Shakhtar Donetsk,Malmoe FF,4,0,H,Group A
+Football,UEFA,League,2015,25/11/2015 19:45,Malmoe FF,Paris Saint-Germain,0,5,A,Group A
+Football,UEFA,League,2015,25/11/2015 19:45,Shakhtar Donetsk,Real Madrid,3,4,A,Group A
+Football,UEFA,League,2015,08/12/2015 19:45,Paris Saint-Germain,Shakhtar Donetsk,2,0,H,Group A
+Football,UEFA,League,2015,08/12/2015 19:45,Real Madrid,Malmoe FF,8,0,H,Group A
+Football,UEFA,League,2015,15/09/2015 19:45,Wolfsburg,CSKA Moscow,1,0,H,Group B
+Football,UEFA,League,2015,15/09/2015 19:45,PSV Eindhoven,Manchester United,2,1,H,Group B
+Football,UEFA,League,2015,30/09/2015 19:45,CSKA Moscow,PSV Eindhoven,3,2,H,Group B
+Football,UEFA,League,2015,30/09/2015 19:45,Manchester United,Wolfsburg,2,1,H,Group B
+Football,UEFA,League,2015,21/10/2015 19:45,CSKA Moscow,Manchester United,1,1,D,Group B
+Football,UEFA,League,2015,21/10/2015 19:45,Wolfsburg,PSV Eindhoven,2,0,H,Group B
+Football,UEFA,League,2015,03/11/2015 19:45,PSV Eindhoven,Wolfsburg,2,0,H,Group B
+Football,UEFA,League,2015,03/11/2015 19:45,Manchester United,CSKA Moscow,1,0,H,Group B
+Football,UEFA,League,2015,25/11/2015 17:00,CSKA Moscow,Wolfsburg,0,2,A,Group B
+Football,UEFA,League,2015,25/11/2015 17:00,Manchester United,PSV Eindhoven,0,0,D,Group B
+Football,UEFA,League,2015,08/12/2015 19:45,Wolfsburg,Manchester United,3,2,H,Group B
+Football,UEFA,League,2015,08/12/2015 19:45,PSV Eindhoven,CSKA Moscow,2,1,H,Group B
+Football,UEFA,League,2015,15/09/2015 19:45,Benfica,FC Astana,2,0,H,Group C
+Football,UEFA,League,2015,15/09/2015 19:45,Galatasaray,Atletico Madrid,0,2,A,Group C
+Football,UEFA,League,2015,30/09/2015 17:00,FC Astana,Galatasaray,2,2,D,Group C
+Football,UEFA,League,2015,30/09/2015 17:00,Atletico Madrid,Benfica,1,2,A,Group C
+Football,UEFA,League,2015,21/10/2015 19:45,Galatasaray,Benfica,2,1,H,Group C
+Football,UEFA,League,2015,21/10/2015 19:45,Atletico Madrid,FC Astana,4,0,H,Group C
+Football,UEFA,League,2015,03/11/2015 15:00,FC Astana,Atletico Madrid,0,0,D,Group C
+Football,UEFA,League,2015,03/11/2015 15:00,Benfica,Galatasaray,2,1,H,Group C
+Football,UEFA,League,2015,25/11/2015 15:00,FC Astana,Benfica,2,2,D,Group C
+Football,UEFA,League,2015,25/11/2015 15:00,Atletico Madrid,Galatasaray,2,0,H,Group C
+Football,UEFA,League,2015,08/12/2015 19:45,Galatasaray,FC Astana,1,1,D,Group C
+Football,UEFA,League,2015,08/12/2015 19:45,Benfica,Atletico Madrid,1,2,A,Group C
+Football,UEFA,League,2015,15/09/2015 19:45,Sevilla,Mönchengladbach,3,0,H,Group D
+Football,UEFA,League,2015,15/09/2015 19:45,Manchester City,Juventus,1,2,A,Group D
+Football,UEFA,League,2015,30/09/2015 19:45,Juventus,Sevilla,2,0,H,Group D
+Football,UEFA,League,2015,30/09/2015 19:45,Mönchengladbach,Manchester City,1,2,A,Group D
+Football,UEFA,League,2015,21/10/2015 19:45,Manchester City,Sevilla,2,1,H,Group D
+Football,UEFA,League,2015,21/10/2015 19:45,Juventus,Mönchengladbach,0,0,D,Group D
+Football,UEFA,League,2015,03/11/2015 19:45,Mönchengladbach,Juventus,1,1,D,Group D
+Football,UEFA,League,2015,03/11/2015 19:45,Sevilla,Manchester City,1,3,A,Group D
+Football,UEFA,League,2015,25/11/2015 19:45,Juventus,Manchester City,1,0,H,Group D
+Football,UEFA,League,2015,25/11/2015 19:45,Mönchengladbach,Sevilla,4,2,H,Group D
+Football,UEFA,League,2015,08/12/2015 19:45,Manchester City,Mönchengladbach,4,2,H,Group D
+Football,UEFA,League,2015,08/12/2015 19:45,Sevilla,Juventus,1,0,H,Group D
+Football,UEFA,League,2015,16/09/2015 19:45,Roma,Barcelona,1,1,D,Group E
+Football,UEFA,League,2015,16/09/2015 19:45,Bayer Leverkusen,BATE Borisov,4,1,H,Group E
+Football,UEFA,League,2015,29/09/2015 19:45,Barcelona,Bayer Leverkusen,2,1,H,Group E
+Football,UEFA,League,2015,29/09/2015 19:45,BATE Borisov,Roma,3,2,H,Group E
+Football,UEFA,League,2015,20/10/2015 19:45,BATE Borisov,Barcelona,0,2,A,Group E
+Football,UEFA,League,2015,20/10/2015 19:45,Bayer Leverkusen,Roma,4,4,D,Group E
+Football,UEFA,League,2015,04/11/2015 19:45,Roma,Bayer Leverkusen,3,2,H,Group E
+Football,UEFA,League,2015,04/11/2015 19:45,Barcelona,BATE Borisov,3,0,H,Group E
+Football,UEFA,League,2015,24/11/2015 17:00,BATE Borisov,Bayer Leverkusen,1,1,D,Group E
+Football,UEFA,League,2015,24/11/2015 17:00,Barcelona,Roma,6,1,H,Group E
+Football,UEFA,League,2015,09/12/2015 19:45,Bayer Leverkusen,Barcelona,1,1,D,Group E
+Football,UEFA,League,2015,09/12/2015 19:45,Roma,BATE Borisov,0,0,D,Group E
+Football,UEFA,League,2015,16/09/2015 19:45,Olympiacos,Bayern Munich,0,3,A,Group F
+Football,UEFA,League,2015,16/09/2015 19:45,Dinamo Zagreb,Arsenal,2,1,H,Group F
+Football,UEFA,League,2015,29/09/2015 19:45,Arsenal,Olympiacos,2,3,A,Group F
+Football,UEFA,League,2015,29/09/2015 19:45,Bayern Munich,Dinamo Zagreb,5,0,H,Group F
+Football,UEFA,League,2015,20/10/2015 19:45,Arsenal,Bayern Munich,2,0,H,Group F
+Football,UEFA,League,2015,20/10/2015 19:45,Dinamo Zagreb,Olympiacos,0,1,A,Group F
+Football,UEFA,League,2015,04/11/2015 19:45,Bayern Munich,Arsenal,5,1,H,Group F
+Football,UEFA,League,2015,04/11/2015 19:45,Olympiacos,Dinamo Zagreb,2,1,H,Group F
+Football,UEFA,League,2015,24/11/2015 19:45,Bayern Munich,Olympiacos,4,0,H,Group F
+Football,UEFA,League,2015,24/11/2015 19:45,Arsenal,Dinamo Zagreb,3,0,H,Group F
+Football,UEFA,League,2015,09/12/2015 19:45,Dinamo Zagreb,Bayern Munich,0,2,A,Group F
+Football,UEFA,League,2015,09/12/2015 19:45,Olympiacos,Arsenal,0,3,A,Group F
+Football,UEFA,League,2015,16/09/2015 19:45,Dynamo Kyiv,FC Porto,2,2,D,Group G
+Football,UEFA,League,2015,16/09/2015 19:45,Chelsea,Maccabi Tel Aviv,4,0,H,Group G
+Football,UEFA,League,2015,29/09/2015 19:45,FC Porto,Chelsea,2,1,H,Group G
+Football,UEFA,League,2015,29/09/2015 19:45,Maccabi Tel Aviv,Dynamo Kyiv,0,2,A,Group G
+Football,UEFA,League,2015,20/10/2015 19:45,FC Porto,Maccabi Tel Aviv,2,0,H,Group G
+Football,UEFA,League,2015,20/10/2015 19:45,Dynamo Kyiv,Chelsea,0,0,D,Group G
+Football,UEFA,League,2015,04/11/2015 19:45,Chelsea,Dynamo Kyiv,2,1,H,Group G
+Football,UEFA,League,2015,04/11/2015 19:45,Maccabi Tel Aviv,FC Porto,1,3,A,Group G
+Football,UEFA,League,2015,24/11/2015 19:45,Maccabi Tel Aviv,Chelsea,0,4,A,Group G
+Football,UEFA,League,2015,24/11/2015 19:45,FC Porto,Dynamo Kyiv,0,2,A,Group G
+Football,UEFA,League,2015,09/12/2015 19:45,Chelsea,FC Porto,2,0,H,Group G
+Football,UEFA,League,2015,09/12/2015 19:45,Dynamo Kyiv,Maccabi Tel Aviv,1,0,H,Group G
+Football,UEFA,League,2015,16/09/2015 19:45,Valencia,Zenit St. Petersburg,2,3,A,Group H
+Football,UEFA,League,2015,16/09/2015 19:45,Gent,Olympique Lyon,1,1,D,Group H
+Football,UEFA,League,2015,29/09/2015 19:45,Olympique Lyon,Valencia,0,1,A,Group H
+Football,UEFA,League,2015,29/09/2015 19:45,Zenit St. Petersburg,Gent,2,1,H,Group H
+Football,UEFA,League,2015,20/10/2015 19:45,Valencia,Gent,2,1,H,Group H
+Football,UEFA,League,2015,20/10/2015 19:45,Zenit St. Petersburg,Olympique Lyon,3,1,H,Group H
+Football,UEFA,League,2015,04/11/2015 19:45,Olympique Lyon,Zenit St. Petersburg,0,2,A,Group H
+Football,UEFA,League,2015,04/11/2015 19:45,Gent,Valencia,1,0,H,Group H
+Football,UEFA,League,2015,24/11/2015 17:00,Zenit St. Petersburg,Valencia,2,0,H,Group H
+Football,UEFA,League,2015,24/11/2015 17:00,Olympique Lyon,Gent,1,2,A,Group H
+Football,UEFA,League,2015,09/12/2015 19:45,Valencia,Olympique Lyon,0,2,A,Group H
+Football,UEFA,League,2015,09/12/2015 19:45,Gent,Zenit St. Petersburg,2,1,H,Group H
+Football,UEFA,League,2016,16/02/2016 19:45,Paris Saint-Germain,Chelsea,2,1,H,Round of 16
+Football,UEFA,League,2016,16/02/2016 19:45,Benfica,Zenit St. Petersburg,1,0,H,Round of 16
+Football,UEFA,League,2016,17/02/2016 19:45,Gent,Wolfsburg,2,3,A,Round of 16
+Football,UEFA,League,2016,17/02/2016 19:45,Roma,Real Madrid,0,2,A,Round of 16
+Football,UEFA,League,2016,23/02/2016 19:45,Arsenal,Barcelona,0,2,A,Round of 16
+Football,UEFA,League,2016,23/02/2016 19:45,Juventus,Bayern Munich,2,2,D,Round of 16
+Football,UEFA,League,2016,24/02/2016 19:45,PSV Eindhoven,Atletico Madrid,0,0,D,Round of 16
+Football,UEFA,League,2016,24/02/2016 19:45,Dynamo Kyiv,Manchester City,1,3,A,Round of 16
+Football,UEFA,League,2016,08/03/2016 19:45,Wolfsburg,Gent,1,0,H,Round of 16
+Football,UEFA,League,2016,08/03/2016 19:45,Real Madrid,Roma,2,0,H,Round of 16
+Football,UEFA,League,2016,09/03/2016 17:00,Zenit St. Petersburg,Benfica,1,2,A,Round of 16
+Football,UEFA,League,2016,09/03/2016 17:00,Chelsea,Paris Saint-Germain,1,2,A,Round of 16
+Football,UEFA,League,2016,15/03/2016 19:45,Atletico Madrid,PSV Eindhoven,8,7,H,Round of 16
+Football,UEFA,League,2016,15/03/2016 19:45,Manchester City,Dynamo Kyiv,0,0,D,Round of 16
+Football,UEFA,League,2016,16/03/2016 19:45,Barcelona,Arsenal,3,1,H,Round of 16
+Football,UEFA,League,2016,16/03/2016 19:45,Bayern Munich,Juventus,4,2,H,Round of 16
+Football,UEFA,League,2016,05/04/2016 19:45,Bayern Munich,Benfica,1,0,H,Quarter-finals
+Football,UEFA,League,2016,05/04/2016 19:45,Barcelona,Atletico Madrid,2,1,H,Quarter-finals
+Football,UEFA,League,2016,06/04/2016 19:45,Wolfsburg,Real Madrid,2,0,H,Quarter-finals
+Football,UEFA,League,2016,06/04/2016 19:45,Paris Saint-Germain,Manchester City,2,2,D,Quarter-finals
+Football,UEFA,League,2016,12/04/2016 19:45,Real Madrid,Wolfsburg,3,0,H,Quarter-finals
+Football,UEFA,League,2016,12/04/2016 19:45,Manchester City,Paris Saint-Germain,1,0,H,Quarter-finals
+Football,UEFA,League,2016,13/04/2016 19:45,Benfica,Bayern Munich,2,2,D,Quarter-finals
+Football,UEFA,League,2016,13/04/2016 19:45,Atletico Madrid,Barcelona,2,0,H,Quarter-finals
+Football,UEFA,League,2016,26/04/2016 19:45,Manchester City,Real Madrid,0,0,D,Semi-finals
+Football,UEFA,League,2016,27/04/2016 19:45,Atletico Madrid,Bayern Munich,1,0,H,Semi-finals
+Football,UEFA,League,2016,03/05/2016 19:45,Bayern Munich,Atletico Madrid,2,1,H,Semi-finals
+Football,UEFA,League,2016,04/05/2016 19:45,Real Madrid,Manchester City,1,0,H,Semi-finals
+Football,UEFA,League,2016,28/05/2016 19:45,Real Madrid,Atletico Madrid,5,3,H,Final

@@ -1,0 +1,26 @@
+Football,UEFA,League,2018,Manchester United,Marouane,Fellaini,5,1,0
+Football,UEFA,League,2018,Manchester United,Nemanja,Matic,6,0,0
+Football,UEFA,League,2018,Manchester United,Paul,Pogba,9,2,1
+Football,UEFA,League,2018,Manchester United,Chris,Smalling,8,0,0
+Football,UEFA,League,2018,Manchester United,Luis,Antonio Valencia,3,0,0
+Football,UEFA,League,2018,Manchester United,Luke,Shaw,8,0,0
+Football,UEFA,League,2018,Manchester United,Scott,McTominay,3,0,0
+Football,UEFA,League,2018,Manchester United,Marcus,Rashford,10,2,0
+Football,UEFA,League,2018,Manchester United,Phil,Jones,3,0,0
+Football,UEFA,League,2018,Manchester United,Romelu,Lukaku,9,2,1
+Football,UEFA,League,2018,Manchester United,Diogo,Dalot,4,0,0
+Football,UEFA,League,2018,Manchester United,Eric,Bailly,4,0,0
+Football,UEFA,League,2018,Manchester United,Anthony,Martial,8,1,0
+Football,UEFA,League,2018,Manchester United,Victor,Lindelof,7,0,0
+Football,UEFA,League,2018,Manchester United,Fred,,6,0,1
+Football,UEFA,League,2018,Manchester United,Ander,Herrera,2,0,0
+Football,UEFA,League,2018,Manchester United,David,de Gea,9,0,0
+Football,UEFA,League,2018,Manchester United,Ashley,Young,7,0,1
+Football,UEFA,League,2018,Manchester United,Marcos,Rojo,1,0,0
+Football,UEFA,League,2018,Manchester United,Juan,Mata,6,1,0
+Football,UEFA,League,2018,Manchester United,Andreas,Pereira,4,0,0
+Football,UEFA,League,2018,Manchester United,Alexis,Sanchez,4,0,0
+Football,UEFA,League,2018,Manchester United,Jesse,Lingard,6,0,0
+Football,UEFA,League,2018,Manchester United,Mason,Greenwood,1,0,0
+Football,UEFA,League,2018,Manchester United,Tahith,Chong,1,0,0
+Football,UEFA,League,2018,Manchester United,Sergio,Romero,1,0,0

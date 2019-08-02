@@ -1,0 +1,125 @@
+Football,UEFA,League,2011,14/09/2011 19:45,Manchester City,Napoli,1,1,D,Group A
+Football,UEFA,League,2011,14/09/2011 19:45,Villarreal,Bayern Munich,0,2,A,Group A
+Football,UEFA,League,2011,27/09/2011 19:45,Bayern Munich,Manchester City,2,0,H,Group A
+Football,UEFA,League,2011,27/09/2011 19:45,Napoli,Villarreal,2,0,H,Group A
+Football,UEFA,League,2011,18/10/2011 19:45,Manchester City,Villarreal,2,1,H,Group A
+Football,UEFA,League,2011,18/10/2011 19:45,Napoli,Bayern Munich,1,1,D,Group A
+Football,UEFA,League,2011,02/11/2011 19:45,Bayern Munich,Napoli,3,2,H,Group A
+Football,UEFA,League,2011,02/11/2011 19:45,Villarreal,Manchester City,0,3,A,Group A
+Football,UEFA,League,2011,22/11/2011 19:45,Bayern Munich,Villarreal,3,1,H,Group A
+Football,UEFA,League,2011,22/11/2011 19:45,Napoli,Manchester City,2,1,H,Group A
+Football,UEFA,League,2011,07/12/2011 19:45,Manchester City,Bayern Munich,2,0,H,Group A
+Football,UEFA,League,2011,07/12/2011 19:45,Villarreal,Napoli,0,2,A,Group A
+Football,UEFA,League,2011,14/09/2011 19:45,Lille OSC,CSKA Moscow,2,2,D,Group B
+Football,UEFA,League,2011,14/09/2011 19:45,Inter,Trabzonspor,0,1,A,Group B
+Football,UEFA,League,2011,27/09/2011 17:00,CSKA Moscow,Inter,2,3,A,Group B
+Football,UEFA,League,2011,27/09/2011 17:00,Trabzonspor,Lille OSC,1,1,D,Group B
+Football,UEFA,League,2011,18/10/2011 17:00,CSKA Moscow,Trabzonspor,3,0,H,Group B
+Football,UEFA,League,2011,18/10/2011 17:00,Lille OSC,Inter,0,1,A,Group B
+Football,UEFA,League,2011,02/11/2011 19:45,Trabzonspor,CSKA Moscow,0,0,D,Group B
+Football,UEFA,League,2011,02/11/2011 19:45,Inter,Lille OSC,2,1,H,Group B
+Football,UEFA,League,2011,22/11/2011 17:00,CSKA Moscow,Lille OSC,0,2,A,Group B
+Football,UEFA,League,2011,22/11/2011 17:00,Trabzonspor,Inter,1,1,D,Group B
+Football,UEFA,League,2011,07/12/2011 19:45,Inter,CSKA Moscow,1,2,A,Group B
+Football,UEFA,League,2011,07/12/2011 19:45,Lille OSC,Trabzonspor,0,0,D,Group B
+Football,UEFA,League,2011,14/09/2011 19:45,FC Basel,Otelul Galati,2,1,H,Group C
+Football,UEFA,League,2011,14/09/2011 19:45,Benfica,Manchester United,1,1,D,Group C
+Football,UEFA,League,2011,27/09/2011 19:45,Manchester United,FC Basel,3,3,D,Group C
+Football,UEFA,League,2011,27/09/2011 19:45,Otelul Galati,Benfica,0,1,A,Group C
+Football,UEFA,League,2011,18/10/2011 19:45,FC Basel,Benfica,0,2,A,Group C
+Football,UEFA,League,2011,18/10/2011 19:45,Otelul Galati,Manchester United,0,2,A,Group C
+Football,UEFA,League,2011,02/11/2011 19:45,Manchester United,Otelul Galati,2,0,H,Group C
+Football,UEFA,League,2011,02/11/2011 19:45,Benfica,FC Basel,1,1,D,Group C
+Football,UEFA,League,2011,22/11/2011 19:45,Manchester United,Benfica,2,2,D,Group C
+Football,UEFA,League,2011,22/11/2011 19:45,Otelul Galati,FC Basel,2,3,A,Group C
+Football,UEFA,League,2011,07/12/2011 19:45,FC Basel,Manchester United,2,1,H,Group C
+Football,UEFA,League,2011,07/12/2011 19:45,Benfica,Otelul Galati,1,0,H,Group C
+Football,UEFA,League,2011,14/09/2011 19:45,Ajax,Olympique Lyon,0,0,D,Group D
+Football,UEFA,League,2011,14/09/2011 19:45,Dinamo Zagreb,Real Madrid,0,1,A,Group D
+Football,UEFA,League,2011,27/09/2011 19:45,Olympique Lyon,Dinamo Zagreb,2,0,H,Group D
+Football,UEFA,League,2011,27/09/2011 19:45,Real Madrid,Ajax,3,0,H,Group D
+Football,UEFA,League,2011,18/10/2011 19:45,Dinamo Zagreb,Ajax,0,2,A,Group D
+Football,UEFA,League,2011,18/10/2011 19:45,Real Madrid,Olympique Lyon,4,0,H,Group D
+Football,UEFA,League,2011,02/11/2011 19:45,Ajax,Dinamo Zagreb,4,0,H,Group D
+Football,UEFA,League,2011,02/11/2011 19:45,Olympique Lyon,Real Madrid,0,2,A,Group D
+Football,UEFA,League,2011,22/11/2011 19:45,Olympique Lyon,Ajax,0,0,D,Group D
+Football,UEFA,League,2011,22/11/2011 19:45,Real Madrid,Dinamo Zagreb,6,2,H,Group D
+Football,UEFA,League,2011,07/12/2011 19:45,Ajax,Real Madrid,0,3,A,Group D
+Football,UEFA,League,2011,07/12/2011 19:45,Dinamo Zagreb,Olympique Lyon,1,7,A,Group D
+Football,UEFA,League,2011,13/09/2011 19:45,Chelsea,Bayer Leverkusen,2,0,H,Group E
+Football,UEFA,League,2011,13/09/2011 19:45,KRC Genk,Valencia,0,0,D,Group E
+Football,UEFA,League,2011,28/09/2011 19:45,Bayer Leverkusen,KRC Genk,2,0,H,Group E
+Football,UEFA,League,2011,28/09/2011 19:45,Valencia,Chelsea,1,1,D,Group E
+Football,UEFA,League,2011,19/10/2011 19:45,Bayer Leverkusen,Valencia,2,1,H,Group E
+Football,UEFA,League,2011,19/10/2011 19:45,Chelsea,KRC Genk,5,0,H,Group E
+Football,UEFA,League,2011,01/11/2011 19:45,KRC Genk,Chelsea,1,1,D,Group E
+Football,UEFA,League,2011,01/11/2011 19:45,Valencia,Bayer Leverkusen,3,1,H,Group E
+Football,UEFA,League,2011,23/11/2011 19:45,Bayer Leverkusen,Chelsea,2,1,H,Group E
+Football,UEFA,League,2011,23/11/2011 19:45,Valencia,KRC Genk,7,0,H,Group E
+Football,UEFA,League,2011,06/12/2011 19:45,Chelsea,Valencia,3,0,H,Group E
+Football,UEFA,League,2011,06/12/2011 19:45,KRC Genk,Bayer Leverkusen,1,1,D,Group E
+Football,UEFA,League,2011,13/09/2011 19:45,Borussia Dortmund,Arsenal,1,1,D,Group F
+Football,UEFA,League,2011,13/09/2011 19:45,Olympiacos,Marseille,0,1,A,Group F
+Football,UEFA,League,2011,28/09/2011 19:45,Arsenal,Olympiacos,2,1,H,Group F
+Football,UEFA,League,2011,28/09/2011 19:45,Marseille,Borussia Dortmund,3,0,H,Group F
+Football,UEFA,League,2011,19/10/2011 19:45,Olympiacos,Borussia Dortmund,3,1,H,Group F
+Football,UEFA,League,2011,19/10/2011 19:45,Marseille,Arsenal,0,1,A,Group F
+Football,UEFA,League,2011,01/11/2011 19:45,Arsenal,Marseille,0,0,D,Group F
+Football,UEFA,League,2011,01/11/2011 19:45,Borussia Dortmund,Olympiacos,1,0,H,Group F
+Football,UEFA,League,2011,23/11/2011 19:45,Arsenal,Borussia Dortmund,2,1,H,Group F
+Football,UEFA,League,2011,23/11/2011 19:45,Marseille,Olympiacos,0,1,A,Group F
+Football,UEFA,League,2011,06/12/2011 19:45,Borussia Dortmund,Marseille,2,3,A,Group F
+Football,UEFA,League,2011,06/12/2011 19:45,Olympiacos,Arsenal,3,1,H,Group F
+Football,UEFA,League,2011,13/09/2011 19:45,APOEL Nicosia,Zenit St. Petersburg,2,1,H,Group G
+Football,UEFA,League,2011,13/09/2011 19:45,FC Porto,Shakhtar Donetsk,2,1,H,Group G
+Football,UEFA,League,2011,28/09/2011 17:00,Zenit St. Petersburg,FC Porto,3,1,H,Group G
+Football,UEFA,League,2011,28/09/2011 17:00,Shakhtar Donetsk,APOEL Nicosia,1,1,D,Group G
+Football,UEFA,League,2011,19/10/2011 19:45,FC Porto,APOEL Nicosia,1,1,D,Group G
+Football,UEFA,League,2011,19/10/2011 19:45,Shakhtar Donetsk,Zenit St. Petersburg,2,2,D,Group G
+Football,UEFA,League,2011,01/11/2011 17:00,Zenit St. Petersburg,Shakhtar Donetsk,1,0,H,Group G
+Football,UEFA,League,2011,01/11/2011 17:00,APOEL Nicosia,FC Porto,2,1,H,Group G
+Football,UEFA,League,2011,23/11/2011 17:00,Zenit St. Petersburg,APOEL Nicosia,0,0,D,Group G
+Football,UEFA,League,2011,23/11/2011 17:00,Shakhtar Donetsk,FC Porto,0,2,A,Group G
+Football,UEFA,League,2011,06/12/2011 19:45,APOEL Nicosia,Shakhtar Donetsk,0,2,A,Group G
+Football,UEFA,League,2011,06/12/2011 19:45,FC Porto,Zenit St. Petersburg,0,0,D,Group G
+Football,UEFA,League,2011,13/09/2011 19:45,Barcelona,AC Milan,2,2,D,Group H
+Football,UEFA,League,2011,13/09/2011 19:45,Viktoria Plzen,BATE Borisov,1,1,D,Group H
+Football,UEFA,League,2011,28/09/2011 19:45,AC Milan,Viktoria Plzen,2,0,H,Group H
+Football,UEFA,League,2011,28/09/2011 19:45,BATE Borisov,Barcelona,0,5,A,Group H
+Football,UEFA,League,2011,19/10/2011 19:45,AC Milan,BATE Borisov,2,0,H,Group H
+Football,UEFA,League,2011,19/10/2011 19:45,Barcelona,Viktoria Plzen,2,0,H,Group H
+Football,UEFA,League,2011,01/11/2011 17:00,BATE Borisov,AC Milan,1,1,D,Group H
+Football,UEFA,League,2011,01/11/2011 17:00,Viktoria Plzen,Barcelona,0,4,A,Group H
+Football,UEFA,League,2011,23/11/2011 18:00,BATE Borisov,Viktoria Plzen,0,1,A,Group H
+Football,UEFA,League,2011,23/11/2011 18:00,AC Milan,Barcelona,2,3,A,Group H
+Football,UEFA,League,2011,06/12/2011 19:45,Barcelona,BATE Borisov,4,0,H,Group H
+Football,UEFA,League,2011,06/12/2011 19:45,Viktoria Plzen,AC Milan,2,2,D,Group H
+Football,UEFA,League,2011,14/02/2012 19:45,Olympique Lyon,APOEL Nicosia,1,0,H,Round of 16
+Football,UEFA,League,2011,14/02/2012 19:45,Bayer Leverkusen,Barcelona,1,3,A,Round of 16
+Football,UEFA,League,2011,15/02/2012 17:00,Zenit St. Petersburg,Benfica,3,2,H,Round of 16
+Football,UEFA,League,2011,15/02/2012 17:00,AC Milan,Arsenal,4,0,H,Round of 16
+Football,UEFA,League,2011,21/02/2012 17:00,CSKA Moscow,Real Madrid,1,1,D,Round of 16
+Football,UEFA,League,2011,21/02/2012 17:00,Napoli,Chelsea,3,1,H,Round of 16
+Football,UEFA,League,2011,22/02/2012 19:45,FC Basel,Bayern Munich,1,0,H,Round of 16
+Football,UEFA,League,2011,22/02/2012 19:45,Marseille,Inter,1,0,H,Round of 16
+Football,UEFA,League,2011,06/03/2012 19:45,Arsenal,AC Milan,3,0,H,Round of 16
+Football,UEFA,League,2011,06/03/2012 19:45,Benfica,Zenit St. Petersburg,2,0,H,Round of 16
+Football,UEFA,League,2011,07/03/2012 19:45,APOEL Nicosia,Olympique Lyon,4,3,H,Round of 16
+Football,UEFA,League,2011,07/03/2012 19:45,Barcelona,Bayer Leverkusen,7,1,H,Round of 16
+Football,UEFA,League,2011,13/03/2012 19:45,Bayern Munich,FC Basel,7,0,H,Round of 16
+Football,UEFA,League,2011,13/03/2012 19:45,Inter,Marseille,2,1,H,Round of 16
+Football,UEFA,League,2011,14/03/2012 19:45,Chelsea,Napoli,4,1,H,Round of 16
+Football,UEFA,League,2011,14/03/2012 19:45,Real Madrid,CSKA Moscow,4,1,H,Round of 16
+Football,UEFA,League,2011,27/03/2012 19:45,APOEL Nicosia,Real Madrid,0,3,A,Quarter-finals
+Football,UEFA,League,2011,27/03/2012 19:45,Benfica,Chelsea,0,1,A,Quarter-finals
+Football,UEFA,League,2011,28/03/2012 19:45,Marseille,Bayern Munich,0,2,A,Quarter-finals
+Football,UEFA,League,2011,28/03/2012 19:45,AC Milan,Barcelona,0,0,D,Quarter-finals
+Football,UEFA,League,2011,03/04/2012 19:45,Bayern Munich,Marseille,2,0,H,Quarter-finals
+Football,UEFA,League,2011,03/04/2012 19:45,Barcelona,AC Milan,3,1,H,Quarter-finals
+Football,UEFA,League,2011,04/04/2012 19:45,Real Madrid,APOEL Nicosia,5,2,H,Quarter-finals
+Football,UEFA,League,2011,04/04/2012 19:45,Chelsea,Benfica,2,1,H,Quarter-finals
+Football,UEFA,League,2011,17/04/2012 19:45,Bayern Munich,Real Madrid,2,1,H,Semi-finals
+Football,UEFA,League,2011,18/04/2012 19:45,Chelsea,Barcelona,1,0,H,Semi-finals
+Football,UEFA,League,2011,24/04/2012 19:45,Barcelona,Chelsea,2,2,D,Semi-finals
+Football,UEFA,League,2011,25/04/2012 19:45,Real Madrid,Bayern Munich,1,3,A,Semi-finals
+Football,UEFA,League,2011,19/05/2012 19:45,Bayern Munich,Chelsea,3,4,A,Final

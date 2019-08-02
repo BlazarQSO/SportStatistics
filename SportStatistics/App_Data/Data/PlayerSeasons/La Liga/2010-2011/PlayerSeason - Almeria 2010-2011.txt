@@ -1,0 +1,26 @@
+Football,Spain,League,2010,Almeria,Diego,Alves,33,0,0
+Football,Spain,League,2010,Almeria,Antonio,Luna,13,0,1
+Football,Spain,League,2010,Almeria,Pablo,Piatti,35,8,4
+Football,Spain,League,2010,Almeria,Hernan,Bernardello,33,1,5
+Football,Spain,League,2010,Almeria,Michel,Macedo,31,0,1
+Football,Spain,League,2010,Almeria,Modeste,M'Bami,30,1,1
+Football,Spain,League,2010,Almeria,Baltasar,Rigo,1,0,0
+Football,Spain,League,2010,Almeria,Kalu,Uche,32,7,3
+Football,Spain,League,2010,Almeria,Sofiane,Feghouli,9,2,0
+Football,Spain,League,2010,Almeria,Carlos,Garcia,33,1,0
+Football,Spain,League,2010,Almeria,Michael,Jakobsen,16,0,1
+Football,Spain,League,2010,Almeria,Esteban,,6,0,0
+Football,Spain,League,2010,Almeria,Marcelo,Silva,21,1,0
+Football,Spain,League,2010,Almeria,Juanma,Ortiz,25,1,1
+Football,Spain,League,2010,Almeria,Albert,Crusat,34,3,4
+Football,Spain,League,2010,Almeria,Santiago,Acasiete,20,0,0
+Football,Spain,League,2010,Almeria,Leonardo,Ulloa,34,7,1
+Football,Spain,League,2010,Almeria,Corona,,30,2,1
+Football,Spain,League,2010,Almeria,Lillo,,2,0,0
+Football,Spain,League,2010,Almeria,Fabian,Vargas,20,1,1
+Football,Spain,League,2010,Almeria,Diego,Valeri,9,0,0
+Football,Spain,League,2010,Almeria,Hernan,Pellerano,8,0,0
+Football,Spain,League,2010,Almeria,Juanito,,9,0,0
+Football,Spain,League,2010,Almeria,Ortiz,Bernal,17,0,2
+Football,Spain,League,2010,Almeria,Miguel,Angel Nieto,1,0,0
+Football,Spain,League,2010,Almeria,Henok,Goitom,26,1,1

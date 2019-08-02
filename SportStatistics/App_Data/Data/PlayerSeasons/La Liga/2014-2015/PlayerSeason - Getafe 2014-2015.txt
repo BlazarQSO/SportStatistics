@@ -1,0 +1,27 @@
+Football,Spain,League,2014,Getafe,Emiliano,Velazquez,27,1,1
+Football,Spain,League,2014,Getafe,Sergio,Escudero,30,2,2
+Football,Spain,League,2014,Getafe,Naldo,,30,0,0
+Football,Spain,League,2014,Getafe,Pedro,Leon,25,2,5
+Football,Spain,League,2014,Getafe,Michel,,12,1,0
+Football,Spain,League,2014,Getafe,Karim,Yoda,18,4,1
+Football,Spain,League,2014,Getafe,Juan,Rodriguez,34,1,0
+Football,Spain,League,2014,Getafe,Pablo,Sarabia,35,2,5
+Football,Spain,League,2014,Getafe,Alexis,Ruano,29,1,1
+Football,Spain,League,2014,Getafe,Diego,Castro,32,3,0
+Football,Spain,League,2014,Getafe,Mehdi,Lacen,30,2,2
+Football,Spain,League,2014,Getafe,Sammir,,23,1,4
+Football,Spain,League,2014,Getafe,Carlos,Vigaray,13,0,0
+Football,Spain,League,2014,Getafe,Vicente,Guaita,29,0,0
+Football,Spain,League,2014,Getafe,Angel,Lafita,15,2,1
+Football,Spain,League,2014,Getafe,Alvaro,Vazquez,21,7,0
+Football,Spain,League,2014,Getafe,Juan,Valera,12,0,0
+Football,Spain,League,2014,Getafe,Fredy,Hinestroza,33,2,2
+Football,Spain,League,2014,Getafe,Alvaro,Arroyo,12,0,0
+Football,Spain,League,2014,Getafe,Jona,,5,0,0
+Football,Spain,League,2014,Getafe,Rafa,,1,0,0
+Football,Spain,League,2014,Getafe,Roberto,Lago,16,0,1
+Football,Spain,League,2014,Getafe,Jordi,Codina,5,0,0
+Football,Spain,League,2014,Getafe,Emiliano,Buendia,6,0,0
+Football,Spain,League,2014,Getafe,Ivi,,8,0,0
+Football,Spain,League,2014,Getafe,Papa,Baba Diawara,21,1,1
+Football,Spain,League,2014,Getafe,Alex,Felip,10,0,0

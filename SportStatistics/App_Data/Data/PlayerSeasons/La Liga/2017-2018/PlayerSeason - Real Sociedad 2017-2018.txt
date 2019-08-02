@@ -1,0 +1,27 @@
+Football,Spain,League,2017,Real Sociedad,Asier,Illarramendi,36,7,5
+Football,Spain,League,2017,Real Sociedad,Aritz,Elustondo,19,3,2
+Football,Spain,League,2017,Real Sociedad,Willian,Jose,34,15,4
+Football,Spain,League,2017,Real Sociedad,Mikel,Oyarzabal,35,12,5
+Football,Spain,League,2017,Real Sociedad,Hector,Moreno,8,1,0
+Football,Spain,League,2017,Real Sociedad,Alberto,de la Bella,17,0,1
+Football,Spain,League,2017,Real Sociedad,Inigo,Martinez,12,1,1
+Football,Spain,League,2017,Real Sociedad,Miguel,Angel Moya,9,0,0
+Football,Spain,League,2017,Real Sociedad,Adnan,Januzaj,28,3,5
+Football,Spain,League,2017,Real Sociedad,Sergio,Canales,36,4,5
+Football,Spain,League,2017,Real Sociedad,Xabi,Prieto,26,3,5
+Football,Spain,League,2017,Real Sociedad,Diego,Llorente,27,3,0
+Football,Spain,League,2017,Real Sociedad,Raul,Navas,20,0,1
+Football,Spain,League,2017,Real Sociedad,Kevin,Rodrigues,20,1,2
+Football,Spain,League,2017,Real Sociedad,David,Zurutuza,31,0,2
+Football,Spain,League,2017,Real Sociedad,Igor,Zubeldia,25,1,2
+Football,Spain,League,2017,Real Sociedad,Alvaro,Odriozola,35,0,4
+Football,Spain,League,2017,Real Sociedad,Carlos,Vela,13,1,0
+Football,Spain,League,2017,Real Sociedad,Juanmi,,30,8,2
+Football,Spain,League,2017,Real Sociedad,Geronimo,Rulli,26,0,0
+Football,Spain,League,2017,Real Sociedad,Ruben,Pardo,6,0,1
+Football,Spain,League,2017,Real Sociedad,Andoni,Gorosabel,2,0,0
+Football,Spain,League,2017,Real Sociedad,Imanol,Agirretxe,11,0,0
+Football,Spain,League,2017,Real Sociedad,Jon,Bautista,11,1,0
+Football,Spain,League,2017,Real Sociedad,Carlos,Martinez,1,0,0
+Football,Spain,League,2017,Real Sociedad,Jon,Guridi,4,0,0
+Football,Spain,League,2017,Real Sociedad,Tono,Ramirez,4,0,0

@@ -1,0 +1,125 @@
+Football,UEFA,League,2010,14/09/2010 19:45,FC Twente,Inter,2,2,D,Group A
+Football,UEFA,League,2010,14/09/2010 19:45,Werder Bremen,Tottenham ,2,2,D,Group A
+Football,UEFA,League,2010,29/09/2010 19:45,Tottenham,FC Twente,4,1,H,Group A
+Football,UEFA,League,2010,29/09/2010 19:45,Inter,Werder Bremen,4,0,H,Group A
+Football,UEFA,League,2010,20/10/2010 19:45,FC Twente,Werder Bremen,1,1,D,Group A
+Football,UEFA,League,2010,20/10/2010 19:45,Inter,Tottenham ,4,3,H,Group A
+Football,UEFA,League,2010,02/11/2010 19:45,Tottenham,Inter,3,1,H,Group A
+Football,UEFA,League,2010,02/11/2010 19:45,Werder Bremen,FC Twente,0,2,A,Group A
+Football,UEFA,League,2010,24/11/2010 19:45,Tottenham,Werder Bremen,3,0,H,Group A
+Football,UEFA,League,2010,24/11/2010 19:45,Inter,FC Twente,1,0,H,Group A
+Football,UEFA,League,2010,07/12/2010 19:45,Werder Bremen,Inter,3,0,H,Group A
+Football,UEFA,League,2010,07/12/2010 19:45,FC Twente,Tottenham ,3,3,D,Group A
+Football,UEFA,League,2010,14/09/2010 19:45,Olympique Lyon,Schalke 04,1,0,H,Group B
+Football,UEFA,League,2010,14/09/2010 19:45,Benfica,Hapoel Tel Aviv,2,0,H,Group B
+Football,UEFA,League,2010,29/09/2010 19:45,Hapoel Tel Aviv,Olympique Lyon,1,3,A,Group B
+Football,UEFA,League,2010,29/09/2010 19:45,Schalke 04,Benfica,2,0,H,Group B
+Football,UEFA,League,2010,20/10/2010 19:45,Olympique Lyon,Benfica,2,0,H,Group B
+Football,UEFA,League,2010,20/10/2010 19:45,Schalke 04,Hapoel Tel Aviv,3,1,H,Group B
+Football,UEFA,League,2010,02/11/2010 19:45,Benfica,Olympique Lyon,4,3,H,Group B
+Football,UEFA,League,2010,02/11/2010 19:45,Hapoel Tel Aviv,Schalke 04,0,0,D,Group B
+Football,UEFA,League,2010,24/11/2010 19:45,Schalke 04,Olympique Lyon,3,0,H,Group B
+Football,UEFA,League,2010,24/11/2010 19:45,Hapoel Tel Aviv,Benfica,3,0,H,Group B
+Football,UEFA,League,2010,07/12/2010 19:45,Benfica,Schalke 04,1,2,A,Group B
+Football,UEFA,League,2010,07/12/2010 19:45,Olympique Lyon,Hapoel Tel Aviv,2,2,D,Group B
+Football,UEFA,League,2010,14/09/2010 19:45,Bursaspor,Valencia,0,4,A,Group C
+Football,UEFA,League,2010,14/09/2010 19:45,Manchester United,Rangers FC,0,0,D,Group C
+Football,UEFA,League,2010,29/09/2010 19:45,Valencia,Manchester United,0,1,A,Group C
+Football,UEFA,League,2010,29/09/2010 19:45,Rangers FC,Bursaspor,1,0,H,Group C
+Football,UEFA,League,2010,20/10/2010 19:45,Rangers FC,Valencia,1,1,D,Group C
+Football,UEFA,League,2010,20/10/2010 19:45,Manchester United,Bursaspor,1,0,H,Group C
+Football,UEFA,League,2010,02/11/2010 19:45,Bursaspor,Manchester United,0,3,A,Group C
+Football,UEFA,League,2010,02/11/2010 19:45,Valencia,Rangers FC,3,0,H,Group C
+Football,UEFA,League,2010,24/11/2010 19:45,Rangers FC,Manchester United,0,1,A,Group C
+Football,UEFA,League,2010,24/11/2010 19:45,Valencia,Bursaspor,6,1,H,Group C
+Football,UEFA,League,2010,07/12/2010 19:45,Manchester United,Valencia,1,1,D,Group C
+Football,UEFA,League,2010,07/12/2010 19:45,Bursaspor,Rangers FC,1,1,D,Group C
+Football,UEFA,League,2010,14/09/2010 19:45,Barcelona,Panathinaikos,5,1,H,Group D
+Football,UEFA,League,2010,14/09/2010 19:45,FC Copenhagen,Rubin Kazan,1,0,H,Group D
+Football,UEFA,League,2010,29/09/2010 17:30,Rubin Kazan,Barcelona,1,1,D,Group D
+Football,UEFA,League,2010,29/09/2010 17:30,Panathinaikos,FC Copenhagen,0,2,A,Group D
+Football,UEFA,League,2010,20/10/2010 19:45,Barcelona,FC Copenhagen,2,0,H,Group D
+Football,UEFA,League,2010,20/10/2010 19:45,Panathinaikos,Rubin Kazan,0,0,D,Group D
+Football,UEFA,League,2010,02/11/2010 17:30,Rubin Kazan,Panathinaikos,0,0,D,Group D
+Football,UEFA,League,2010,02/11/2010 17:30,FC Copenhagen,Barcelona,1,1,D,Group D
+Football,UEFA,League,2010,24/11/2010 17:30,Rubin Kazan,FC Copenhagen,1,0,H,Group D
+Football,UEFA,League,2010,24/11/2010 17:30,Panathinaikos,Barcelona,0,3,A,Group D
+Football,UEFA,League,2010,07/12/2010 19:45,FC Copenhagen,Panathinaikos,3,1,H,Group D
+Football,UEFA,League,2010,07/12/2010 19:45,Barcelona,Rubin Kazan,2,0,H,Group D
+Football,UEFA,League,2010,15/09/2010 19:45,Bayern Munich,Roma,2,0,H,Group E
+Football,UEFA,League,2010,15/09/2010 19:45,CFR Cluj,FC Basel,2,1,H,Group E
+Football,UEFA,League,2010,28/09/2010 19:45,FC Basel,Bayern Munich,1,2,A,Group E
+Football,UEFA,League,2010,28/09/2010 19:45,Roma,CFR Cluj,2,1,H,Group E
+Football,UEFA,League,2010,19/10/2010 19:45,Roma,FC Basel,1,3,A,Group E
+Football,UEFA,League,2010,19/10/2010 19:45,Bayern Munich,CFR Cluj,3,2,H,Group E
+Football,UEFA,League,2010,03/11/2010 19:45,CFR Cluj,Bayern Munich,0,4,A,Group E
+Football,UEFA,League,2010,03/11/2010 19:45,FC Basel,Roma,2,3,A,Group E
+Football,UEFA,League,2010,23/11/2010 19:45,Roma,Bayern Munich,3,2,H,Group E
+Football,UEFA,League,2010,23/11/2010 19:45,FC Basel,CFR Cluj,1,0,H,Group E
+Football,UEFA,League,2010,08/12/2010 19:45,CFR Cluj,Roma,1,1,D,Group E
+Football,UEFA,League,2010,08/12/2010 19:45,Bayern Munich,FC Basel,3,0,H,Group E
+Football,UEFA,League,2010,15/09/2010 19:45,Zilina,Chelsea,1,4,A,Group F
+Football,UEFA,League,2010,15/09/2010 19:45,Marseille,Spartak Moscow,0,1,A,Group F
+Football,UEFA,League,2010,28/09/2010 17:30,Spartak Moscow,Zilina,3,0,H,Group F
+Football,UEFA,League,2010,28/09/2010 17:30,Chelsea,Marseille,2,0,H,Group F
+Football,UEFA,League,2010,19/10/2010 17:30,Spartak Moscow,Chelsea,0,2,A,Group F
+Football,UEFA,League,2010,19/10/2010 17:30,Marseille,Zilina,1,0,H,Group F
+Football,UEFA,League,2010,03/11/2010 19:45,Zilina,Marseille,0,7,A,Group F
+Football,UEFA,League,2010,03/11/2010 19:45,Chelsea,Spartak Moscow,4,1,H,Group F
+Football,UEFA,League,2010,23/11/2010 17:30,Spartak Moscow,Marseille,0,3,A,Group F
+Football,UEFA,League,2010,23/11/2010 17:30,Chelsea,Zilina,2,1,H,Group F
+Football,UEFA,League,2010,08/12/2010 19:45,Marseille,Chelsea,1,0,H,Group F
+Football,UEFA,League,2010,08/12/2010 19:45,Zilina,Spartak Moscow,1,2,A,Group F
+Football,UEFA,League,2010,15/09/2010 19:45,Real Madrid,Ajax,2,0,H,Group G
+Football,UEFA,League,2010,15/09/2010 19:45,AC Milan,AJ Auxerre,2,0,H,Group G
+Football,UEFA,League,2010,28/09/2010 19:45,Ajax,AC Milan,1,1,D,Group G
+Football,UEFA,League,2010,28/09/2010 19:45,AJ Auxerre,Real Madrid,0,1,A,Group G
+Football,UEFA,League,2010,19/10/2010 19:45,Real Madrid,AC Milan,2,0,H,Group G
+Football,UEFA,League,2010,19/10/2010 19:45,Ajax,AJ Auxerre,2,1,H,Group G
+Football,UEFA,League,2010,03/11/2010 19:45,AC Milan,Real Madrid,2,2,D,Group G
+Football,UEFA,League,2010,03/11/2010 19:45,AJ Auxerre,Ajax,2,1,H,Group G
+Football,UEFA,League,2010,23/11/2010 19:45,AJ Auxerre,AC Milan,0,2,A,Group G
+Football,UEFA,League,2010,23/11/2010 19:45,Ajax,Real Madrid,0,4,A,Group G
+Football,UEFA,League,2010,08/12/2010 19:45,AC Milan,Ajax,0,2,A,Group G
+Football,UEFA,League,2010,08/12/2010 19:45,Real Madrid,AJ Auxerre,4,0,H,Group G
+Football,UEFA,League,2010,15/09/2010 19:45,Arsenal,Sporting Braga,6,0,H,Group H
+Football,UEFA,League,2010,15/09/2010 19:45,Shakhtar Donetsk,Partizan,1,0,H,Group H
+Football,UEFA,League,2010,28/09/2010 19:45,Partizan,Arsenal,1,3,A,Group H
+Football,UEFA,League,2010,28/09/2010 19:45,Sporting Braga,Shakhtar Donetsk,0,3,A,Group H
+Football,UEFA,League,2010,19/10/2010 19:45,Arsenal,Shakhtar Donetsk,5,1,H,Group H
+Football,UEFA,League,2010,19/10/2010 19:45,Sporting Braga,Partizan,2,0,H,Group H
+Football,UEFA,League,2010,03/11/2010 19:45,Shakhtar Donetsk,Arsenal,2,1,H,Group H
+Football,UEFA,League,2010,03/11/2010 19:45,Partizan,Sporting Braga,0,1,A,Group H
+Football,UEFA,League,2010,23/11/2010 19:45,Sporting Braga,Arsenal,2,0,H,Group H
+Football,UEFA,League,2010,23/11/2010 19:45,Partizan,Shakhtar Donetsk,0,3,A,Group H
+Football,UEFA,League,2010,08/12/2010 19:45,Shakhtar Donetsk,Sporting Braga,2,0,H,Group H
+Football,UEFA,League,2010,08/12/2010 19:45,Arsenal,Partizan,3,1,H,Group H
+Football,UEFA,League,2010,15/02/2011 19:45,AC Milan,Tottenham ,0,1,A,Round of 16
+Football,UEFA,League,2010,15/02/2011 19:45,Valencia,Schalke 04,1,1,D,Round of 16
+Football,UEFA,League,2010,16/02/2011 19:45,Roma,Shakhtar Donetsk,2,3,A,Round of 16
+Football,UEFA,League,2010,16/02/2011 19:45,Arsenal,Barcelona,2,1,H,Round of 16
+Football,UEFA,League,2010,22/02/2011 19:45,Olympique Lyon,Real Madrid,1,1,D,Round of 16
+Football,UEFA,League,2010,22/02/2011 19:45,FC Copenhagen,Chelsea,0,2,A,Round of 16
+Football,UEFA,League,2010,23/02/2011 19:45,Inter,Bayern Munich,0,1,A,Round of 16
+Football,UEFA,League,2010,23/02/2011 19:45,Marseille,Manchester United,0,0,D,Round of 16
+Football,UEFA,League,2010,08/03/2011 19:45,Shakhtar Donetsk,Roma,3,0,H,Round of 16
+Football,UEFA,League,2010,08/03/2011 19:45,Barcelona,Arsenal,3,1,H,Round of 16
+Football,UEFA,League,2010,09/03/2011 19:45,Tottenham,AC Milan,0,0,D,Round of 16
+Football,UEFA,League,2010,09/03/2011 19:45,Schalke 04,Valencia,3,1,H,Round of 16
+Football,UEFA,League,2010,15/03/2011 19:45,Bayern Munich,Inter,2,3,A,Round of 16
+Football,UEFA,League,2010,15/03/2011 19:45,Manchester United,Marseille,2,1,H,Round of 16
+Football,UEFA,League,2010,16/03/2011 19:45,Real Madrid,Olympique Lyon,3,0,H,Round of 16
+Football,UEFA,League,2010,16/03/2011 19:45,Chelsea,FC Copenhagen,0,0,D,Round of 16
+Football,UEFA,League,2010,05/04/2011 19:45,Real Madrid,Tottenham ,4,0,H,Quarter-finals
+Football,UEFA,League,2010,05/04/2011 19:45,Inter,Schalke 04,2,5,A,Quarter-finals
+Football,UEFA,League,2010,06/04/2011 19:45,Chelsea,Manchester United,0,1,A,Quarter-finals
+Football,UEFA,League,2010,06/04/2011 19:45,Barcelona,Shakhtar Donetsk,5,1,H,Quarter-finals
+Football,UEFA,League,2010,12/04/2011 19:45,Manchester United,Chelsea,2,1,H,Quarter-finals
+Football,UEFA,League,2010,12/04/2011 19:45,Shakhtar Donetsk,Barcelona,0,1,A,Quarter-finals
+Football,UEFA,League,2010,13/04/2011 19:45,Tottenham,Real Madrid,0,1,A,Quarter-finals
+Football,UEFA,League,2010,13/04/2011 19:45,Schalke 04,Inter,2,1,H,Quarter-finals
+Football,UEFA,League,2010,26/04/2011 19:45,Schalke 04,Manchester United,0,2,A,Semi-finals
+Football,UEFA,League,2010,27/04/2011 19:45,Real Madrid,Barcelona,0,2,A,Semi-finals
+Football,UEFA,League,2010,03/05/2011 19:45,Barcelona,Real Madrid,1,1,D,Semi-finals
+Football,UEFA,League,2010,04/05/2011 19:45,Manchester United,Schalke 04,4,1,H,Semi-finals
+Football,UEFA,League,2010,28/05/2011 19:45,Barcelona,Manchester United,3,1,H,Final

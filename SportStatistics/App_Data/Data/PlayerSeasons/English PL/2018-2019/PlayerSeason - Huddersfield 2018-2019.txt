@@ -1,0 +1,31 @@
+Football,England,League,2018,Huddersfield,Philip,Billing,27,2,0
+Football,England,League,2018,Huddersfield,Zanka,,24,3,1
+Football,England,League,2018,Huddersfield,Aaron,Mooy,29,3,1
+Football,England,League,2018,Huddersfield,Steve,Mounie,31,2,3
+Football,England,League,2018,Huddersfield,Jonathan,Hogg,29,0,1
+Football,England,League,2018,Huddersfield,Christopher,Schindler,37,1,0
+Football,England,League,2018,Huddersfield,Terence,Kongolo,32,1,1
+Football,England,League,2018,Huddersfield,Jonas,Lossl,31,0,1
+Football,England,League,2018,Huddersfield,Alex,Pritchard,30,2,0
+Football,England,League,2018,Huddersfield,Juninho,Bacuna,21,1,0
+Football,England,League,2018,Huddersfield,Jon,Gorenc Stankovic,11,1,0
+Football,England,League,2018,Huddersfield,Karlan,Grant,13,4,0
+Football,England,League,2018,Huddersfield,Florent,Hadergjonaj,24,0,0
+Football,England,League,2018,Huddersfield,Chris,Lowe,29,0,2
+Football,England,League,2018,Huddersfield,Erik,Durm,28,0,1
+Football,England,League,2018,Huddersfield,Joel,Coleman,1,0,0
+Football,England,League,2018,Huddersfield,Rajiv,van La Parra,5,0,0
+Football,England,League,2018,Huddersfield,Jason,Puncheon,6,0,0
+Football,England,League,2018,Huddersfield,Tommy,Smith,15,0,0
+Football,England,League,2018,Huddersfield,Laurent,Depoitre,23,0,1
+Football,England,League,2018,Huddersfield,Ramadan,Sobhi,4,0,0
+Football,England,League,2018,Huddersfield,Abdelhamid,Sabiri,2,0,0
+Football,England,League,2018,Huddersfield,Elias,Kachunga,20,0,0
+Football,England,League,2018,Huddersfield,Isaac,Mbenza,22,1,1
+Football,England,League,2018,Huddersfield,Demeaco,Duhaney,1,0,0
+Football,England,League,2018,Huddersfield,Adama,Diakhaby,12,0,0
+Football,England,League,2018,Huddersfield,Danny,Williams,5,0,0
+Football,England,League,2018,Huddersfield,Ben,Hamer,7,0,0
+Football,England,League,2018,Huddersfield,Collin,Quaner,2,0,0
+Football,England,League,2018,Huddersfield,Matty,Daly,2,0,0
+Football,England,League,2018,Huddersfield,Aaron,Rowe,2,0,0

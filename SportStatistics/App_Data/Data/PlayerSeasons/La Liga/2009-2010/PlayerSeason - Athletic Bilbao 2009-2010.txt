@@ -1,0 +1,29 @@
+Football,Spain,League,2009,Athletic Bilbao,Javi,Martinez,34,6,1
+Football,Spain,League,2009,Athletic Bilbao,Armando,,1,0,0
+Football,Spain,League,2009,Athletic Bilbao,Fernando,Llorente,37,14,5
+Football,Spain,League,2009,Athletic Bilbao,Xabier,Etxeita,3,0,0
+Football,Spain,League,2009,Athletic Bilbao,Gaizka,Toquero,31,8,4
+Football,Spain,League,2009,Athletic Bilbao,Ion,Velez,2,0,0
+Football,Spain,League,2009,Athletic Bilbao,Ustaritz,,15,1,0
+Football,Spain,League,2009,Athletic Bilbao,Markel,Susaeta,35,4,4
+Football,Spain,League,2009,Athletic Bilbao,Gorka,Iraizoz,37,0,0
+Football,Spain,League,2009,Athletic Bilbao,Igor,Gabilondo,26,3,5
+Football,Spain,League,2009,Athletic Bilbao,Xabier,Castillo,19,0,1
+Football,Spain,League,2009,Athletic Bilbao,Andoni,Iraola,37,2,1
+Football,Spain,League,2009,Athletic Bilbao,Fran,Yeste,22,2,3
+Football,Spain,League,2009,Athletic Bilbao,Mikel,San Jose,25,1,0
+Football,Spain,League,2009,Athletic Bilbao,Koikili,,21,0,2
+Football,Spain,League,2009,Athletic Bilbao,Gurpegi,,34,1,1
+Football,Spain,League,2009,Athletic Bilbao,Iker,Muniain,26,4,3
+Football,Spain,League,2009,Athletic Bilbao,Aitor,Ocio,3,0,0
+Football,Spain,League,2009,Athletic Bilbao,Fernando,Amorebieta,34,0,0
+Football,Spain,League,2009,Athletic Bilbao,Pablo,Orbaiz,20,1,2
+Football,Spain,League,2009,Athletic Bilbao,Ander,Iturraspe,15,0,0
+Football,Spain,League,2009,Athletic Bilbao,Oscar,De Marcos,19,1,0
+Football,Spain,League,2009,Athletic Bilbao,David,Lopez,17,0,3
+Football,Spain,League,2009,Athletic Bilbao,Etxeberria,,7,0,1
+Football,Spain,League,2009,Athletic Bilbao,Eneko,Boveda,1,0,0
+Football,Spain,League,2009,Athletic Bilbao,Inigo,Perez,3,0,0
+Football,Spain,League,2009,Athletic Bilbao,Inigo,Diaz de Cerio,5,0,0
+Football,Spain,League,2009,Athletic Bilbao,Inaki,Munoz,1,0,0
+Football,Spain,League,2009,Athletic Bilbao,Isaac,Aketxe,1,0,0

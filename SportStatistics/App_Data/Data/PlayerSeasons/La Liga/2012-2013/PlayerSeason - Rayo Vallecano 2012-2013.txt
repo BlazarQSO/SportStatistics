@@ -1,0 +1,29 @@
+Football,Spain,League,2012,Rayo Vallecano,Piti,,35,18,2
+Football,Spain,League,2012,Rayo Vallecano,Nacho,,10,1,1
+Football,Spain,League,2012,Rayo Vallecano,Roberto,Trashorras,35,1,4
+Football,Spain,League,2012,Rayo Vallecano,Casado,,28,0,4
+Football,Spain,League,2012,Rayo Vallecano,Alejandro,Galvez,28,0,0
+Football,Spain,League,2012,Rayo Vallecano,Leo,Baptistao,28,7,6
+Football,Spain,League,2012,Rayo Vallecano,Jordi,Figueras,14,0,1
+Football,Spain,League,2012,Rayo Vallecano,Javi,Fuego,36,0,1
+Football,Spain,League,2012,Rayo Vallecano,Ruben,Martinez,30,0,0
+Football,Spain,League,2012,Rayo Vallecano,Anaitz,Arbilla,11,0,0
+Football,Spain,League,2012,Rayo Vallecano,Jordi,Amat,27,1,0
+Football,Spain,League,2012,Rayo Vallecano,Jose,Carlos Fernandez,32,2,1
+Football,Spain,League,2012,Rayo Vallecano,Tito,,33,1,1
+Football,Spain,League,2012,Rayo Vallecano,David,Cobeno,8,0,0
+Football,Spain,League,2012,Rayo Vallecano,Chori,Dominguez,33,5,5
+Football,Spain,League,2012,Rayo Vallecano,Lass,,32,3,5
+Football,Spain,League,2012,Rayo Vallecano,Alberto,Perea,4,0,0
+Football,Spain,League,2012,Rayo Vallecano,Franco,Vazquez,18,3,0
+Football,Spain,League,2012,Rayo Vallecano,Andrija,Delibasic,32,6,1
+Football,Spain,League,2012,Rayo Vallecano,Rodri,,4,0,0
+Football,Spain,League,2012,Rayo Vallecano,Adrian,Gonzalez,21,0,1
+Football,Spain,League,2012,Rayo Vallecano,Nicki,Bille Nielsen,9,0,0
+Football,Spain,League,2012,Rayo Vallecano,Mikel,Labaka,10,0,0
+Football,Spain,League,2012,Rayo Vallecano,Isi,,1,0,0
+Football,Spain,League,2012,Rayo Vallecano,Dani,Gimenez,2,0,0
+Football,Spain,League,2012,Rayo Vallecano,Ruben,Ramiro,1,0,0
+Football,Spain,League,2012,Rayo Vallecano,Raul,Tamudo,4,1,0
+Football,Spain,League,2012,Rayo Vallecano,Manuel,Arana,2,0,0
+Football,Spain,League,2012,Rayo Vallecano,Mohammed,Abu,1,0,0

@@ -1,0 +1,26 @@
+Football,Spain,League,2014,Athletic Bilbao,Aritz,Aduriz,31,18,4
+Football,Spain,League,2014,Athletic Bilbao,Aymeric,Laporte,33,0,1
+Football,Spain,League,2014,Athletic Bilbao,Mikel,San Jose,28,5,1
+Football,Spain,League,2014,Athletic Bilbao,Xabier,Etxeita,24,2,0
+Football,Spain,League,2014,Athletic Bilbao,Mikel,Balenziaga,33,0,0
+Football,Spain,League,2014,Athletic Bilbao,Iker,Muniain,25,1,1
+Football,Spain,League,2014,Athletic Bilbao,Ander,Iturraspe,25,2,0
+Football,Spain,League,2014,Athletic Bilbao,Oscar,De Marcos,35,1,3
+Football,Spain,League,2014,Athletic Bilbao,Andoni,Iraola,22,1,1
+Football,Spain,League,2014,Athletic Bilbao,Markel,Susaeta,31,1,7
+Football,Spain,League,2014,Athletic Bilbao,Unai,Bustinza,2,0,0
+Football,Spain,League,2014,Athletic Bilbao,Benat,Etxebarria,28,2,2
+Football,Spain,League,2014,Athletic Bilbao,Gorka,Iraizoz,34,0,0
+Football,Spain,League,2014,Athletic Bilbao,Mikel,Rico,36,3,2
+Football,Spain,League,2014,Athletic Bilbao,Aurtenetxe,,4,0,0
+Football,Spain,League,2014,Athletic Bilbao,Gurpegi,,23,1,0
+Football,Spain,League,2014,Athletic Bilbao,Iago,Herrerin,4,0,0
+Football,Spain,League,2014,Athletic Bilbao,Inaki,Williams,19,1,1
+Football,Spain,League,2014,Athletic Bilbao,Ager,Aketxe,8,1,1
+Football,Spain,League,2014,Athletic Bilbao,Ibai,Gomez,21,1,2
+Football,Spain,League,2014,Athletic Bilbao,Borja,Viguera,20,1,0
+Football,Spain,League,2014,Athletic Bilbao,Kike,Sola,5,0,0
+Football,Spain,League,2014,Athletic Bilbao,Unai,Lopez,19,0,0
+Football,Spain,League,2014,Athletic Bilbao,Guillermo,,14,0,0
+Football,Spain,League,2014,Athletic Bilbao,Gaizka,Toquero,4,0,0
+Football,Spain,League,2014,Athletic Bilbao,Erik,Moran,2,0,0

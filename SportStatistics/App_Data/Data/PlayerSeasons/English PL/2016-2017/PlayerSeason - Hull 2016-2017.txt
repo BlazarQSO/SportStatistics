@@ -1,0 +1,28 @@
+Football,England,League,2016,Hull,Harry,Maguire,29,2,2
+Football,England,League,2016,Hull,Robert,Snodgrass,20,7,3
+Football,England,League,2016,Hull,Curtis,Davies,26,0,2
+Football,England,League,2016,Hull,Andrea,Ranocchia,16,2,2
+Football,England,League,2016,Hull,Lazar,Markovic,12,2,0
+Football,England,League,2016,Hull,Jake,Livermore,21,1,1
+Football,England,League,2016,Hull,Andrew,Robertson,33,1,2
+Football,England,League,2016,Hull,Sam,Clucas,37,3,1
+Football,England,League,2016,Hull,Eldin,Jakupovic,22,0,0
+Football,England,League,2016,Hull,Michael,Dawson,22,3,0
+Football,England,League,2016,Hull,Kamil,Grosicki,15,0,3
+Football,England,League,2016,Hull,Ahmed,El Mohamady,33,0,2
+Football,England,League,2016,Hull,Shaun,Maloney,9,1,2
+Football,England,League,2016,Hull,Alfred,N'Diaye,15,1,0
+Football,England,League,2016,Hull,Tom,Huddlestone,31,1,0
+Football,England,League,2016,Hull,Dieudonne,Mbokani Bezua,12,0,1
+Football,England,League,2016,Hull,Adama,Diomande,22,2,0
+Football,England,League,2016,Hull,David,Marshall,16,0,0
+Football,England,League,2016,Hull,Abel,Hernandez,24,4,3
+Football,England,League,2016,Hull,David,Meyler,20,1,0
+Football,England,League,2016,Hull,Evandro,,11,0,0
+Football,England,League,2016,Hull,Oumar,Niasse,17,4,1
+Football,England,League,2016,Hull,Josh,Tymon,5,0,0
+Football,England,League,2016,Hull,Ryan,Mason,16,1,0
+Football,England,League,2016,Hull,Omar,Elabdellaoui,8,0,0
+Football,England,League,2016,Hull,Markus,Henriksen,15,0,0
+Football,England,League,2016,Hull,Jarrod,Bowen,7,0,0
+Football,England,League,2016,Hull,Will,Keane,5,0,0

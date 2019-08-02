@@ -1,0 +1,20 @@
+Football,UEFA,League,2018,BSC Young Boys,Guillaume,Hoarau,5,3,0
+Football,UEFA,League,2018,BSC Young Boys,Kevin,Mbabu,5,0,0
+Football,UEFA,League,2018,BSC Young Boys,Sandro,Lauper,5,0,0
+Football,UEFA,League,2018,BSC Young Boys,Ulisses,Garcia,2,0,0
+Football,UEFA,League,2018,BSC Young Boys,Marco,Wolfli,2,0,0
+Football,UEFA,League,2018,BSC Young Boys,Djibril,Sow,6,0,0
+Football,UEFA,League,2018,BSC Young Boys,Moumi,Nicolas Ngamaleu,6,0,1
+Football,UEFA,League,2018,BSC Young Boys,Christian,Fassnacht,6,0,1
+Football,UEFA,League,2018,BSC Young Boys,Michel,Aebischer,4,0,0
+Football,UEFA,League,2018,BSC Young Boys,Jean-Pierre,Nsame,4,0,0
+Football,UEFA,League,2018,BSC Young Boys,Steve,Von Bergen,5,0,0
+Football,UEFA,League,2018,BSC Young Boys,Loris,Benito,6,0,0
+Football,UEFA,League,2018,BSC Young Boys,Mohamed,Ali Camara,4,0,0
+Football,UEFA,League,2018,BSC Young Boys,Miralem,Sulejmani,5,0,0
+Football,UEFA,League,2018,BSC Young Boys,Roger,Assale,5,1,0
+Football,UEFA,League,2018,BSC Young Boys,Thorsten,Schick,2,0,0
+Football,UEFA,League,2018,BSC Young Boys,Leonardo,Bertone,3,0,0
+Football,UEFA,League,2018,BSC Young Boys,Sekou,Sanogo,4,0,0
+Football,UEFA,League,2018,BSC Young Boys,Gregory,Wuthrich,1,0,0
+Football,UEFA,League,2018,BSC Young Boys,David,Von Ballmoos,4,0,0

@@ -1,0 +1,380 @@
+Football,England,League,2012,18/08/12,Arsenal,Sunderland,0,0,D
+Football,England,League,2012,18/08/12,Fulham,Norwich,5,0,H
+Football,England,League,2012,18/08/12,Newcastle United,Tottenham,2,1,H
+Football,England,League,2012,18/08/12,Queens Park Rangers,Swansea,0,5,A
+Football,England,League,2012,18/08/12,Reading,Stoke,1,1,D
+Football,England,League,2012,18/08/12,West Bromwich Albion,Liverpool,3,0,H
+Football,England,League,2012,18/08/12,West Ham,Aston Villa,1,0,H
+Football,England,League,2012,19/08/12,Manchester City,Southampton,3,2,H
+Football,England,League,2012,19/08/12,Wigan,Chelsea,0,2,A
+Football,England,League,2012,20/08/12,Everton,Manchester United,1,0,H
+Football,England,League,2012,22/08/12,Chelsea,Reading,4,2,H
+Football,England,League,2012,25/08/12,Aston Villa,Everton,1,3,A
+Football,England,League,2012,25/08/12,Chelsea,Newcastle United,2,0,H
+Football,England,League,2012,25/08/12,Manchester United,Fulham,3,2,H
+Football,England,League,2012,25/08/12,Norwich,Queens Park Rangers,1,1,D
+Football,England,League,2012,25/08/12,Southampton,Wigan,0,2,A
+Football,England,League,2012,25/08/12,Swansea,West Ham,3,0,H
+Football,England,League,2012,25/08/12,Tottenham,West Bromwich Albion,1,1,D
+Football,England,League,2012,26/08/12,Liverpool,Manchester City,2,2,D
+Football,England,League,2012,26/08/12,Stoke,Arsenal,0,0,D
+Football,England,League,2012,01/09/12,Manchester City,Queens Park Rangers,3,1,H
+Football,England,League,2012,01/09/12,Swansea,Sunderland,2,2,D
+Football,England,League,2012,01/09/12,Tottenham,Norwich,1,1,D
+Football,England,League,2012,01/09/12,West Bromwich Albion,Everton,2,0,H
+Football,England,League,2012,01/09/12,West Ham,Fulham,3,0,H
+Football,England,League,2012,01/09/12,Wigan,Stoke,2,2,D
+Football,England,League,2012,02/09/12,Liverpool,Arsenal,0,2,A
+Football,England,League,2012,02/09/12,Newcastle United,Aston Villa,1,1,D
+Football,England,League,2012,02/09/12,Southampton,Manchester United,2,3,A
+Football,England,League,2012,15/09/12,Arsenal,Southampton,6,1,H
+Football,England,League,2012,15/09/12,Aston Villa,Swansea,2,0,H
+Football,England,League,2012,15/09/12,Fulham,West Bromwich Albion,3,0,H
+Football,England,League,2012,15/09/12,Manchester United,Wigan,4,0,H
+Football,England,League,2012,15/09/12,Norwich,West Ham,0,0,D
+Football,England,League,2012,15/09/12,Queens Park Rangers,Chelsea,0,0,D
+Football,England,League,2012,15/09/12,Stoke,Manchester City,1,1,D
+Football,England,League,2012,15/09/12,Sunderland,Liverpool,1,1,D
+Football,England,League,2012,16/09/12,Reading,Tottenham,1,3,A
+Football,England,League,2012,17/09/12,Everton,Newcastle United,2,2,D
+Football,England,League,2012,22/09/12,Chelsea,Stoke,1,0,H
+Football,England,League,2012,22/09/12,Southampton,Aston Villa,4,1,H
+Football,England,League,2012,22/09/12,Swansea,Everton,0,3,A
+Football,England,League,2012,22/09/12,West Bromwich Albion,Reading,1,0,H
+Football,England,League,2012,22/09/12,West Ham,Sunderland,1,1,D
+Football,England,League,2012,22/09/12,Wigan,Fulham,1,2,A
+Football,England,League,2012,23/09/12,Liverpool,Manchester United,1,2,A
+Football,England,League,2012,23/09/12,Manchester City,Arsenal,1,1,D
+Football,England,League,2012,23/09/12,Newcastle United,Norwich,1,0,H
+Football,England,League,2012,23/09/12,Tottenham,Queens Park Rangers,2,1,H
+Football,England,League,2012,29/09/12,Arsenal,Chelsea,1,2,A
+Football,England,League,2012,29/09/12,Everton,Southampton,3,1,H
+Football,England,League,2012,29/09/12,Fulham,Manchester City,1,2,A
+Football,England,League,2012,29/09/12,Manchester United,Tottenham,2,3,A
+Football,England,League,2012,29/09/12,Norwich,Liverpool,2,5,A
+Football,England,League,2012,29/09/12,Reading,Newcastle United,2,2,D
+Football,England,League,2012,29/09/12,Stoke,Swansea,2,0,H
+Football,England,League,2012,29/09/12,Sunderland,Wigan,1,0,H
+Football,England,League,2012,30/09/12,Aston Villa,West Bromwich Albion,1,1,D
+Football,England,League,2012,01/10/12,Queens Park Rangers,West Ham,1,2,A
+Football,England,League,2012,06/10/12,Chelsea,Norwich,4,1,H
+Football,England,League,2012,06/10/12,Manchester City,Sunderland,3,0,H
+Football,England,League,2012,06/10/12,Swansea,Reading,2,2,D
+Football,England,League,2012,06/10/12,West Bromwich Albion,Queens Park Rangers,3,2,H
+Football,England,League,2012,06/10/12,West Ham,Arsenal,1,3,A
+Football,England,League,2012,06/10/12,Wigan,Everton,2,2,D
+Football,England,League,2012,07/10/12,Liverpool,Stoke,0,0,D
+Football,England,League,2012,07/10/12,Newcastle United,Manchester United,0,3,A
+Football,England,League,2012,07/10/12,Southampton,Fulham,2,2,D
+Football,England,League,2012,07/10/12,Tottenham,Aston Villa,2,0,H
+Football,England,League,2012,20/10/12,Fulham,Aston Villa,1,0,H
+Football,England,League,2012,20/10/12,Liverpool,Reading,1,0,H
+Football,England,League,2012,20/10/12,Manchester United,Stoke,4,2,H
+Football,England,League,2012,20/10/12,Norwich,Arsenal,1,0,H
+Football,England,League,2012,20/10/12,Swansea,Wigan,2,1,H
+Football,England,League,2012,20/10/12,Tottenham,Chelsea,2,4,A
+Football,England,League,2012,20/10/12,West Bromwich Albion,Manchester City,1,2,A
+Football,England,League,2012,20/10/12,West Ham,Southampton,4,1,H
+Football,England,League,2012,21/10/12,Queens Park Rangers,Everton,1,1,D
+Football,England,League,2012,21/10/12,Sunderland,Newcastle United,1,1,D
+Football,England,League,2012,27/10/12,Arsenal,Queens Park Rangers,1,0,H
+Football,England,League,2012,27/10/12,Aston Villa,Norwich,1,1,D
+Football,England,League,2012,27/10/12,Manchester City,Swansea,1,0,H
+Football,England,League,2012,27/10/12,Reading,Fulham,3,3,D
+Football,England,League,2012,27/10/12,Stoke,Sunderland,0,0,D
+Football,England,League,2012,27/10/12,Wigan,West Ham,2,1,H
+Football,England,League,2012,28/10/12,Chelsea,Manchester United,2,3,A
+Football,England,League,2012,28/10/12,Everton,Liverpool,2,2,D
+Football,England,League,2012,28/10/12,Newcastle United,West Bromwich Albion,2,1,H
+Football,England,League,2012,28/10/12,Southampton,Tottenham,1,2,A
+Football,England,League,2012,03/11/12,Fulham,Everton,2,2,D
+Football,England,League,2012,03/11/12,Manchester United,Arsenal,2,1,H
+Football,England,League,2012,03/11/12,Norwich,Stoke,1,0,H
+Football,England,League,2012,03/11/12,Sunderland,Aston Villa,0,1,A
+Football,England,League,2012,03/11/12,Swansea,Chelsea,1,1,D
+Football,England,League,2012,03/11/12,Tottenham,Wigan,0,1,A
+Football,England,League,2012,03/11/12,West Ham,Manchester City,0,0,D
+Football,England,League,2012,04/11/12,Liverpool,Newcastle United,1,1,D
+Football,England,League,2012,04/11/12,Queens Park Rangers,Reading,1,1,D
+Football,England,League,2012,05/11/12,West Bromwich Albion,Southampton,2,0,H
+Football,England,League,2012,10/11/12,Arsenal,Fulham,3,3,D
+Football,England,League,2012,10/11/12,Aston Villa,Manchester United,2,3,A
+Football,England,League,2012,10/11/12,Everton,Sunderland,2,1,H
+Football,England,League,2012,10/11/12,Reading,Norwich,0,0,D
+Football,England,League,2012,10/11/12,Southampton,Swansea,1,1,D
+Football,England,League,2012,10/11/12,Stoke,Queens Park Rangers,1,0,H
+Football,England,League,2012,10/11/12,Wigan,West Bromwich Albion,1,2,A
+Football,England,League,2012,11/11/12,Chelsea,Liverpool,1,1,D
+Football,England,League,2012,11/11/12,Manchester City,Tottenham,2,1,H
+Football,England,League,2012,11/11/12,Newcastle United,West Ham,0,1,A
+Football,England,League,2012,17/11/12,Arsenal,Tottenham,5,2,H
+Football,England,League,2012,17/11/12,Liverpool,Wigan,3,0,H
+Football,England,League,2012,17/11/12,Manchester City,Aston Villa,5,0,H
+Football,England,League,2012,17/11/12,Newcastle United,Swansea,1,2,A
+Football,England,League,2012,17/11/12,Norwich,Manchester United,1,0,H
+Football,England,League,2012,17/11/12,Queens Park Rangers,Southampton,1,3,A
+Football,England,League,2012,17/11/12,Reading,Everton,2,1,H
+Football,England,League,2012,17/11/12,West Bromwich Albion,Chelsea,2,1,H
+Football,England,League,2012,18/11/12,Fulham,Sunderland,1,3,A
+Football,England,League,2012,19/11/12,West Ham,Stoke,1,1,D
+Football,England,League,2012,24/11/12,Aston Villa,Arsenal,0,0,D
+Football,England,League,2012,24/11/12,Everton,Norwich,1,1,D
+Football,England,League,2012,24/11/12,Manchester United,Queens Park Rangers,3,1,H
+Football,England,League,2012,24/11/12,Stoke,Fulham,1,0,H
+Football,England,League,2012,24/11/12,Sunderland,West Bromwich Albion,2,4,A
+Football,England,League,2012,24/11/12,Wigan,Reading,3,2,H
+Football,England,League,2012,25/11/12,Chelsea,Manchester City,0,0,D
+Football,England,League,2012,25/11/12,Southampton,Newcastle United,2,0,H
+Football,England,League,2012,25/11/12,Swansea,Liverpool,0,0,D
+Football,England,League,2012,25/11/12,Tottenham,West Ham,3,1,H
+Football,England,League,2012,27/11/12,Aston Villa,Reading,1,0,H
+Football,England,League,2012,27/11/12,Sunderland,Queens Park Rangers,0,0,D
+Football,England,League,2012,28/11/12,Chelsea,Fulham,0,0,D
+Football,England,League,2012,28/11/12,Everton,Arsenal,1,1,D
+Football,England,League,2012,28/11/12,Manchester United,West Ham,1,0,H
+Football,England,League,2012,28/11/12,Southampton,Norwich,1,1,D
+Football,England,League,2012,28/11/12,Stoke,Newcastle United,2,1,H
+Football,England,League,2012,28/11/12,Swansea,West Bromwich Albion,3,1,H
+Football,England,League,2012,28/11/12,Tottenham,Liverpool,2,1,H
+Football,England,League,2012,28/11/12,Wigan,Manchester City,0,2,A
+Football,England,League,2012,01/12/12,Arsenal,Swansea,0,2,A
+Football,England,League,2012,01/12/12,Fulham,Tottenham,0,3,A
+Football,England,League,2012,01/12/12,Liverpool,Southampton,1,0,H
+Football,England,League,2012,01/12/12,Manchester City,Everton,1,1,D
+Football,England,League,2012,01/12/12,Queens Park Rangers,Aston Villa,1,1,D
+Football,England,League,2012,01/12/12,Reading,Manchester United,3,4,A
+Football,England,League,2012,01/12/12,West Bromwich Albion,Stoke,0,1,A
+Football,England,League,2012,01/12/12,West Ham,Chelsea,3,1,H
+Football,England,League,2012,02/12/12,Norwich,Sunderland,2,1,H
+Football,England,League,2012,03/12/12,Newcastle United,Wigan,3,0,H
+Football,England,League,2012,08/12/12,Arsenal,West Bromwich Albion,2,0,H
+Football,England,League,2012,08/12/12,Aston Villa,Stoke,0,0,D
+Football,England,League,2012,08/12/12,Southampton,Reading,1,0,H
+Football,England,League,2012,08/12/12,Sunderland,Chelsea,1,3,A
+Football,England,League,2012,08/12/12,Swansea,Norwich,3,4,A
+Football,England,League,2012,08/12/12,Wigan,Queens Park Rangers,2,2,D
+Football,England,League,2012,09/12/12,Everton,Tottenham,2,1,H
+Football,England,League,2012,09/12/12,Manchester City,Manchester United,2,3,A
+Football,England,League,2012,09/12/12,West Ham,Liverpool,2,3,A
+Football,England,League,2012,10/12/12,Fulham,Newcastle United,2,1,H
+Football,England,League,2012,11/12/12,Sunderland,Reading,3,0,H
+Football,England,League,2012,15/12/12,Liverpool,Aston Villa,1,3,A
+Football,England,League,2012,15/12/12,Manchester United,Sunderland,3,1,H
+Football,England,League,2012,15/12/12,Newcastle United,Manchester City,1,3,A
+Football,England,League,2012,15/12/12,Norwich,Wigan,2,1,H
+Football,England,League,2012,15/12/12,Queens Park Rangers,Fulham,2,1,H
+Football,England,League,2012,15/12/12,Stoke,Everton,1,1,D
+Football,England,League,2012,16/12/12,Tottenham,Swansea,1,0,H
+Football,England,League,2012,16/12/12,West Bromwich Albion,West Ham,0,0,D
+Football,England,League,2012,17/12/12,Reading,Arsenal,2,5,A
+Football,England,League,2012,22/12/12,Liverpool,Fulham,4,0,H
+Football,England,League,2012,22/12/12,Manchester City,Reading,1,0,H
+Football,England,League,2012,22/12/12,Newcastle United,Queens Park Rangers,1,0,H
+Football,England,League,2012,22/12/12,Southampton,Sunderland,0,1,A
+Football,England,League,2012,22/12/12,Tottenham,Stoke,0,0,D
+Football,England,League,2012,22/12/12,West Bromwich Albion,Norwich,2,1,H
+Football,England,League,2012,22/12/12,West Ham,Everton,1,2,A
+Football,England,League,2012,22/12/12,Wigan,Arsenal,0,1,A
+Football,England,League,2012,23/12/12,Chelsea,Aston Villa,8,0,H
+Football,England,League,2012,23/12/12,Swansea,Manchester United,1,1,D
+Football,England,League,2012,26/12/12,Aston Villa,Tottenham,0,4,A
+Football,England,League,2012,26/12/12,Everton,Wigan,2,1,H
+Football,England,League,2012,26/12/12,Fulham,Southampton,1,1,D
+Football,England,League,2012,26/12/12,Manchester United,Newcastle United,4,3,H
+Football,England,League,2012,26/12/12,Norwich,Chelsea,0,1,A
+Football,England,League,2012,26/12/12,Queens Park Rangers,West Bromwich Albion,1,2,A
+Football,England,League,2012,26/12/12,Reading,Swansea,0,0,D
+Football,England,League,2012,26/12/12,Stoke,Liverpool,3,1,H
+Football,England,League,2012,26/12/12,Sunderland,Manchester City,1,0,H
+Football,England,League,2012,29/12/12,Arsenal,Newcastle United,7,3,H
+Football,England,League,2012,29/12/12,Aston Villa,Wigan,0,3,A
+Football,England,League,2012,29/12/12,Fulham,Swansea,1,2,A
+Football,England,League,2012,29/12/12,Manchester United,West Bromwich Albion,2,0,H
+Football,England,League,2012,29/12/12,Norwich,Manchester City,3,4,A
+Football,England,League,2012,29/12/12,Reading,West Ham,1,0,H
+Football,England,League,2012,29/12/12,Stoke,Southampton,3,3,D
+Football,England,League,2012,29/12/12,Sunderland,Tottenham,1,2,A
+Football,England,League,2012,30/12/12,Everton,Chelsea,1,2,A
+Football,England,League,2012,30/12/12,Queens Park Rangers,Liverpool,0,3,A
+Football,England,League,2012,01/01/13,Manchester City,Stoke,3,0,H
+Football,England,League,2012,01/01/13,Southampton,Arsenal,1,1,D
+Football,England,League,2012,01/01/13,Swansea,Aston Villa,2,2,D
+Football,England,League,2012,01/01/13,Tottenham,Reading,3,1,H
+Football,England,League,2012,01/01/13,West Bromwich Albion,Fulham,1,2,A
+Football,England,League,2012,01/01/13,West Ham,Norwich,2,1,H
+Football,England,League,2012,01/01/13,Wigan,Manchester United,0,4,A
+Football,England,League,2012,02/01/13,Chelsea,Queens Park Rangers,0,1,A
+Football,England,League,2012,02/01/13,Liverpool,Sunderland,3,0,H
+Football,England,League,2012,02/01/13,Newcastle United,Everton,1,2,A
+Football,England,League,2012,12/01/13,Aston Villa,Southampton,0,1,A
+Football,England,League,2012,12/01/13,Everton,Swansea,0,0,D
+Football,England,League,2012,12/01/13,Fulham,Wigan,1,1,D
+Football,England,League,2012,12/01/13,Norwich,Newcastle United,0,0,D
+Football,England,League,2012,12/01/13,Queens Park Rangers,Tottenham,0,0,D
+Football,England,League,2012,12/01/13,Reading,West Bromwich Albion,3,2,H
+Football,England,League,2012,12/01/13,Stoke,Chelsea,0,4,A
+Football,England,League,2012,12/01/13,Sunderland,West Ham,3,0,H
+Football,England,League,2012,13/01/13,Arsenal,Manchester City,0,2,A
+Football,England,League,2012,13/01/13,Manchester United,Liverpool,2,1,H
+Football,England,League,2012,16/01/13,Chelsea,Southampton,2,2,D
+Football,England,League,2012,19/01/13,Liverpool,Norwich,5,0,H
+Football,England,League,2012,19/01/13,Manchester City,Fulham,2,0,H
+Football,England,League,2012,19/01/13,Newcastle United,Reading,1,2,A
+Football,England,League,2012,19/01/13,Swansea,Stoke,3,1,H
+Football,England,League,2012,19/01/13,West Bromwich Albion,Aston Villa,2,2,D
+Football,England,League,2012,19/01/13,West Ham,Queens Park Rangers,1,1,D
+Football,England,League,2012,19/01/13,Wigan,Sunderland,2,3,A
+Football,England,League,2012,20/01/13,Chelsea,Arsenal,2,1,H
+Football,England,League,2012,20/01/13,Tottenham,Manchester United,1,1,D
+Football,England,League,2012,21/01/13,Southampton,Everton,0,0,D
+Football,England,League,2012,23/01/13,Arsenal,West Ham,5,1,H
+Football,England,League,2012,29/01/13,Aston Villa,Newcastle United,1,2,A
+Football,England,League,2012,29/01/13,Queens Park Rangers,Manchester City,0,0,D
+Football,England,League,2012,29/01/13,Stoke,Wigan,2,2,D
+Football,England,League,2012,29/01/13,Sunderland,Swansea,0,0,D
+Football,England,League,2012,30/01/13,Arsenal,Liverpool,2,2,D
+Football,England,League,2012,30/01/13,Everton,West Bromwich Albion,2,1,H
+Football,England,League,2012,30/01/13,Fulham,West Ham,3,1,H
+Football,England,League,2012,30/01/13,Manchester United,Southampton,2,1,H
+Football,England,League,2012,30/01/13,Norwich,Tottenham,1,1,D
+Football,England,League,2012,30/01/13,Reading,Chelsea,2,2,D
+Football,England,League,2012,02/02/13,Arsenal,Stoke,1,0,H
+Football,England,League,2012,02/02/13,Everton,Aston Villa,3,3,D
+Football,England,League,2012,02/02/13,Fulham,Manchester United,0,1,A
+Football,England,League,2012,02/02/13,Newcastle United,Chelsea,3,2,H
+Football,England,League,2012,02/02/13,Queens Park Rangers,Norwich,0,0,D
+Football,England,League,2012,02/02/13,Reading,Sunderland,2,1,H
+Football,England,League,2012,02/02/13,West Ham,Swansea,1,0,H
+Football,England,League,2012,02/02/13,Wigan,Southampton,2,2,D
+Football,England,League,2012,03/02/13,Manchester City,Liverpool,2,2,D
+Football,England,League,2012,03/02/13,West Bromwich Albion,Tottenham,0,1,A
+Football,England,League,2012,09/02/13,Chelsea,Wigan,4,1,H
+Football,England,League,2012,09/02/13,Norwich,Fulham,0,0,D
+Football,England,League,2012,09/02/13,Southampton,Manchester City,3,1,H
+Football,England,League,2012,09/02/13,Stoke,Reading,2,1,H
+Football,England,League,2012,09/02/13,Sunderland,Arsenal,0,1,A
+Football,England,League,2012,09/02/13,Swansea,Queens Park Rangers,4,1,H
+Football,England,League,2012,09/02/13,Tottenham,Newcastle United,2,1,H
+Football,England,League,2012,10/02/13,Aston Villa,West Ham,2,1,H
+Football,England,League,2012,10/02/13,Manchester United,Everton,2,0,H
+Football,England,League,2012,11/02/13,Liverpool,West Bromwich Albion,0,2,A
+Football,England,League,2012,17/02/13,Liverpool,Swansea,5,0,H
+Football,England,League,2012,23/02/13,Arsenal,Aston Villa,2,1,H
+Football,England,League,2012,23/02/13,Fulham,Stoke,1,0,H
+Football,England,League,2012,23/02/13,Norwich,Everton,2,1,H
+Football,England,League,2012,23/02/13,Queens Park Rangers,Manchester United,0,2,A
+Football,England,League,2012,23/02/13,Reading,Wigan,0,3,A
+Football,England,League,2012,23/02/13,West Bromwich Albion,Sunderland,2,1,H
+Football,England,League,2012,24/02/13,Manchester City,Chelsea,2,0,H
+Football,England,League,2012,24/02/13,Newcastle United,Southampton,4,2,H
+Football,England,League,2012,25/02/13,West Ham,Tottenham,2,3,A
+Football,England,League,2012,02/03/13,Chelsea,West Bromwich Albion,1,0,H
+Football,England,League,2012,02/03/13,Everton,Reading,3,1,H
+Football,England,League,2012,02/03/13,Manchester United,Norwich,4,0,H
+Football,England,League,2012,02/03/13,Southampton,Queens Park Rangers,1,2,A
+Football,England,League,2012,02/03/13,Stoke,West Ham,0,1,A
+Football,England,League,2012,02/03/13,Sunderland,Fulham,2,2,D
+Football,England,League,2012,02/03/13,Swansea,Newcastle United,1,0,H
+Football,England,League,2012,02/03/13,Wigan,Liverpool,0,4,A
+Football,England,League,2012,03/03/13,Tottenham,Arsenal,2,1,H
+Football,England,League,2012,04/03/13,Aston Villa,Manchester City,0,1,A
+Football,England,League,2012,09/03/13,Norwich,Southampton,0,0,D
+Football,England,League,2012,09/03/13,Queens Park Rangers,Sunderland,3,1,H
+Football,England,League,2012,09/03/13,Reading,Aston Villa,1,2,A
+Football,England,League,2012,09/03/13,West Bromwich Albion,Swansea,2,1,H
+Football,England,League,2012,10/03/13,Liverpool,Tottenham,3,2,H
+Football,England,League,2012,10/03/13,Newcastle United,Stoke,2,1,H
+Football,England,League,2012,16/03/13,Aston Villa,Queens Park Rangers,3,2,H
+Football,England,League,2012,16/03/13,Everton,Manchester City,2,0,H
+Football,England,League,2012,16/03/13,Manchester United,Reading,1,0,H
+Football,England,League,2012,16/03/13,Southampton,Liverpool,3,1,H
+Football,England,League,2012,16/03/13,Stoke,West Bromwich Albion,0,0,D
+Football,England,League,2012,16/03/13,Swansea,Arsenal,0,2,A
+Football,England,League,2012,17/03/13,Chelsea,West Ham,2,0,H
+Football,England,League,2012,17/03/13,Sunderland,Norwich,1,1,D
+Football,England,League,2012,17/03/13,Tottenham,Fulham,0,1,A
+Football,England,League,2012,17/03/13,Wigan,Newcastle United,2,1,H
+Football,England,League,2012,30/03/13,Arsenal,Reading,4,1,H
+Football,England,League,2012,30/03/13,Everton,Stoke,1,0,H
+Football,England,League,2012,30/03/13,Manchester City,Newcastle United,4,0,H
+Football,England,League,2012,30/03/13,Southampton,Chelsea,2,1,H
+Football,England,League,2012,30/03/13,Sunderland,Manchester United,0,1,A
+Football,England,League,2012,30/03/13,Swansea,Tottenham,1,2,A
+Football,England,League,2012,30/03/13,West Ham,West Bromwich Albion,3,1,H
+Football,England,League,2012,30/03/13,Wigan,Norwich,1,0,H
+Football,England,League,2012,31/03/13,Aston Villa,Liverpool,1,2,A
+Football,England,League,2012,01/04/13,Fulham,Queens Park Rangers,3,2,H
+Football,England,League,2012,06/04/13,Norwich,Swansea,2,2,D
+Football,England,League,2012,06/04/13,Reading,Southampton,0,2,A
+Football,England,League,2012,06/04/13,Stoke,Aston Villa,1,3,A
+Football,England,League,2012,06/04/13,West Bromwich Albion,Arsenal,1,2,A
+Football,England,League,2012,07/04/13,Chelsea,Sunderland,2,1,H
+Football,England,League,2012,07/04/13,Liverpool,West Ham,0,0,D
+Football,England,League,2012,07/04/13,Newcastle United,Fulham,1,0,H
+Football,England,League,2012,07/04/13,Queens Park Rangers,Wigan,1,1,D
+Football,England,League,2012,07/04/13,Tottenham,Everton,2,2,D
+Football,England,League,2012,08/04/13,Manchester United,Manchester City,1,2,A
+Football,England,League,2012,13/04/13,Arsenal,Norwich,3,1,H
+Football,England,League,2012,13/04/13,Aston Villa,Fulham,1,1,D
+Football,England,League,2012,13/04/13,Everton,Queens Park Rangers,2,0,H
+Football,England,League,2012,13/04/13,Reading,Liverpool,0,0,D
+Football,England,League,2012,13/04/13,Southampton,West Ham,1,1,D
+Football,England,League,2012,14/04/13,Newcastle United,Sunderland,0,3,A
+Football,England,League,2012,14/04/13,Stoke,Manchester United,0,2,A
+Football,England,League,2012,16/04/13,Arsenal,Everton,0,0,D
+Football,England,League,2012,17/04/13,Fulham,Chelsea,0,3,A
+Football,England,League,2012,17/04/13,Manchester City,Wigan,1,0,H
+Football,England,League,2012,17/04/13,West Ham,Manchester United,2,2,D
+Football,England,League,2012,20/04/13,Fulham,Arsenal,0,1,A
+Football,England,League,2012,20/04/13,Norwich,Reading,2,1,H
+Football,England,League,2012,20/04/13,Queens Park Rangers,Stoke,0,2,A
+Football,England,League,2012,20/04/13,Sunderland,Everton,1,0,H
+Football,England,League,2012,20/04/13,Swansea,Southampton,0,0,D
+Football,England,League,2012,20/04/13,West Bromwich Albion,Newcastle United,1,1,D
+Football,England,League,2012,20/04/13,West Ham,Wigan,2,0,H
+Football,England,League,2012,21/04/13,Liverpool,Chelsea,2,2,D
+Football,England,League,2012,21/04/13,Tottenham,Manchester City,3,1,H
+Football,England,League,2012,22/04/13,Manchester United,Aston Villa,3,0,H
+Football,England,League,2012,27/04/13,Everton,Fulham,1,0,H
+Football,England,League,2012,27/04/13,Manchester City,West Ham,2,1,H
+Football,England,League,2012,27/04/13,Newcastle United,Liverpool,0,6,A
+Football,England,League,2012,27/04/13,Southampton,West Bromwich Albion,0,3,A
+Football,England,League,2012,27/04/13,Stoke,Norwich,1,0,H
+Football,England,League,2012,27/04/13,Wigan,Tottenham,2,2,D
+Football,England,League,2012,28/04/13,Arsenal,Manchester United,1,1,D
+Football,England,League,2012,28/04/13,Chelsea,Swansea,2,0,H
+Football,England,League,2012,28/04/13,Reading,Queens Park Rangers,0,0,D
+Football,England,League,2012,29/04/13,Aston Villa,Sunderland,6,1,H
+Football,England,League,2012,04/05/13,Fulham,Reading,2,4,A
+Football,England,League,2012,04/05/13,Norwich,Aston Villa,1,2,A
+Football,England,League,2012,04/05/13,Queens Park Rangers,Arsenal,0,1,A
+Football,England,League,2012,04/05/13,Swansea,Manchester City,0,0,D
+Football,England,League,2012,04/05/13,Tottenham,Southampton,1,0,H
+Football,England,League,2012,04/05/13,West Bromwich Albion,Wigan,2,3,A
+Football,England,League,2012,04/05/13,West Ham,Newcastle United,0,0,D
+Football,England,League,2012,05/05/13,Liverpool,Everton,0,0,D
+Football,England,League,2012,05/05/13,Manchester United,Chelsea,0,1,A
+Football,England,League,2012,06/05/13,Sunderland,Stoke,1,1,D
+Football,England,League,2012,07/05/13,Manchester City,West Bromwich Albion,1,0,H
+Football,England,League,2012,07/05/13,Wigan,Swansea,2,3,A
+Football,England,League,2012,08/05/13,Chelsea,Tottenham,2,2,D
+Football,England,League,2012,11/05/13,Aston Villa,Chelsea,1,2,A
+Football,England,League,2012,12/05/13,Everton,West Ham,2,0,H
+Football,England,League,2012,12/05/13,Fulham,Liverpool,1,3,A
+Football,England,League,2012,12/05/13,Manchester United,Swansea,2,1,H
+Football,England,League,2012,12/05/13,Norwich,West Bromwich Albion,4,0,H
+Football,England,League,2012,12/05/13,Queens Park Rangers,Newcastle United,1,2,A
+Football,England,League,2012,12/05/13,Stoke,Tottenham,1,2,A
+Football,England,League,2012,12/05/13,Sunderland,Southampton,1,1,D
+Football,England,League,2012,14/05/13,Arsenal,Wigan,4,1,H
+Football,England,League,2012,14/05/13,Reading,Manchester City,0,2,A
+Football,England,League,2012,19/05/13,Chelsea,Everton,2,1,H
+Football,England,League,2012,19/05/13,Liverpool,Queens Park Rangers,1,0,H
+Football,England,League,2012,19/05/13,Manchester City,Norwich,2,3,A
+Football,England,League,2012,19/05/13,Newcastle United,Arsenal,0,1,A
+Football,England,League,2012,19/05/13,Southampton,Stoke,1,1,D
+Football,England,League,2012,19/05/13,Swansea,Fulham,0,3,A
+Football,England,League,2012,19/05/13,Tottenham,Sunderland,1,0,H
+Football,England,League,2012,19/05/13,West Bromwich Albion,Manchester United,5,5,D
+Football,England,League,2012,19/05/13,West Ham,Reading,4,2,H
+Football,England,League,2012,19/05/13,Wigan,Aston Villa,2,2,D

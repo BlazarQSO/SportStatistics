@@ -1,0 +1,33 @@
+Football,Spain,League,2017,Levante,Ivan,Lopez,3,0,1
+Football,Spain,League,2017,Levante,Jose,Luis Morales,35,0,0
+Football,Spain,League,2017,Levante,Jefferson,Lerma,26,0,1
+Football,Spain,League,2017,Levante,Jose,Campana,35,1,4
+Football,Spain,League,2017,Levante,Raul,Fernandez,11,0,0
+Football,Spain,League,2017,Levante,Coke,,17,3,0
+Football,Spain,League,2017,Levante,Enis,Bardhi,26,9,1
+Football,Spain,League,2017,Levante,Antonio,Luna,23,0,2
+Football,Spain,League,2017,Levante,Ivi,,29,4,3
+Football,Spain,League,2017,Levante,Emmanuel,Boateng,25,6,0
+Football,Spain,League,2017,Levante,Sergio,Postigo,30,1,0
+Football,Spain,League,2017,Levante,Oier,Olazabal,26,0,0
+Football,Spain,League,2017,Levante,Tono,,12,0,1
+Football,Spain,League,2017,Levante,Erick,Cabaco,14,0,0
+Football,Spain,League,2017,Levante,Jason,,27,1,2
+Football,Spain,League,2017,Levante,Sasa,Lukic,16,0,1
+Football,Spain,League,2017,Levante,Chema,Rodriguez,25,1,1
+Football,Spain,League,2017,Levante,Shaquell,Moore,6,0,0
+Football,Spain,League,2017,Levante,Aly,Abeid,1,0,0
+Football,Spain,League,2017,Levante,Rober,Pier,25,0,0
+Football,Spain,League,2017,Levante,Roger,Marti,17,3,2
+Football,Spain,League,2017,Levante,Pedro,Lopez,22,0,0
+Football,Spain,League,2017,Levante,Ruben,Rochina,6,1,0
+Football,Spain,League,2017,Levante,Enes,Unal,7,1,1
+Football,Spain,League,2017,Levante,Alex,Alegria,9,0,0
+Football,Spain,League,2017,Levante,Cheick,Doukoure,19,1,0
+Football,Spain,League,2017,Levante,Koke,,2,0,0
+Football,Spain,League,2017,Levante,Armando,Sadiku,6,0,0
+Football,Spain,League,2017,Levante,Moctar,Sidi El Hacen,2,0,0
+Football,Spain,League,2017,Levante,Giampaolo,Pazzini,9,1,0
+Football,Spain,League,2017,Levante,Samu,Garcia,11,0,0
+Football,Spain,League,2017,Levante,Nano,Mesa,9,0,0
+Football,Spain,League,2017,Levante,Fahad,Al Muwallad,2,0,0

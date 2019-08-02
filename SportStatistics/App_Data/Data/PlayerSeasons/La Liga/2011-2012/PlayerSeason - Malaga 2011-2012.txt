@@ -1,0 +1,26 @@
+Football,Spain,League,2011,Malaga,Jeremy,Toulalan,25,3,0
+Football,Spain,League,2011,Malaga,Santi,Cazorla,38,9,5
+Football,Spain,League,2011,Malaga,Jesus,Gamez,25,0,5
+Football,Spain,League,2011,Malaga,Isco,,32,5,4
+Football,Spain,League,2011,Malaga,Martin,Demichelis,35,2,1
+Football,Spain,League,2011,Malaga,Joaquin,,23,2,3
+Football,Spain,League,2011,Malaga,Nacho,Monreal,31,0,4
+Football,Spain,League,2011,Malaga,Weligton,,19,1,0
+Football,Spain,League,2011,Malaga,Salomon,Rondon,37,11,4
+Football,Spain,League,2011,Malaga,Ignacio,Camacho,13,1,0
+Football,Spain,League,2011,Malaga,Julio,Baptista,4,1,1
+Football,Spain,League,2011,Malaga,Sergio,Sanchez,20,0,2
+Football,Spain,League,2011,Malaga,Eliseu,,25,2,2
+Football,Spain,League,2011,Malaga,Joris,Mathijsen,28,0,0
+Football,Spain,League,2011,Malaga,Willy,Caballero,28,0,0
+Football,Spain,League,2011,Malaga,Duda,,25,1,2
+Football,Spain,League,2011,Malaga,Enzo,Maresca,19,2,1
+Football,Spain,League,2011,Malaga,Sebastian,Fernandez,32,5,0
+Football,Spain,League,2011,Malaga,Ruud,van Nistelrooy,28,4,1
+Football,Spain,League,2011,Malaga,Apono,,6,1,0
+Football,Spain,League,2011,Malaga,Recio,,8,0,0
+Football,Spain,League,2011,Malaga,Juanmi,,6,1,0
+Football,Spain,League,2011,Malaga,Diego,Buonanotte,10,0,0
+Football,Spain,League,2011,Malaga,Carlos,Kameni,9,0,0
+Football,Spain,League,2011,Malaga,Francisco,Portillo,2,0,0
+Football,Spain,League,2011,Malaga,Ruben,Martinez,4,0,0

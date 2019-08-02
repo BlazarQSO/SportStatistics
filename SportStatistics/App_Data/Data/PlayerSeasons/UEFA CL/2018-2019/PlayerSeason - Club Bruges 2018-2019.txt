@@ -1,0 +1,25 @@
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Matej,Mitrovic,1,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Ethan,Horvath,3,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Hans,Vanaken,6,2,1
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Marvelous,Nakamba,5,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Sofyan,Amrabat,2,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Benoit,Poulain,6,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Brandon,Mechele,5,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Ruud,Vormer,6,1,1
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Clinton,Mata,4,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Stefano,Denswil,6,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Emmanuel,Bonaventure Dennis,3,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Wesley,,6,2,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Arnaut,Danjuma Groeneveld,2,1,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Jelle,Vossen,1,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Mats,Rits,5,0,1
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Cyril,Ngonge,1,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Thibault,Vlietinck,4,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Luan,Peres,1,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Dion,Cools,2,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Kaveh,Rezaei,2,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Karlo,Letica,3,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Krepin,Diatta,2,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Siebe,Schrijvers,2,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Lois,Openda,5,0,0
+Football,UEFA,League Chapions UEFA,League,2018,Club Bruges,Saulo,Decarli,1,0,0

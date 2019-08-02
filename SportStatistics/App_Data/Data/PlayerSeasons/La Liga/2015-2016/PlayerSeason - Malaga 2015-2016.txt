@@ -1,0 +1,30 @@
+Football,Spain,League,2015,Malaga,Ignacio,Camacho,23,2,1
+Football,Spain,League,2015,Malaga,Weligton,,30,0,2
+Football,Spain,League,2015,Malaga,Federico,Ricca,8,1,1
+Football,Spain,League,2015,Malaga,Charles,,35,12,3
+Football,Spain,League,2015,Malaga,Gonzalo,Castro,16,1,1
+Football,Spain,League,2015,Malaga,Roberto,Rosales,35,0,5
+Football,Spain,League,2015,Malaga,Sergi,Darder,1,0,0
+Football,Spain,League,2015,Malaga,Raul,Albentosa,29,2,0
+Football,Spain,League,2015,Malaga,Recio,,33,0,4
+Football,Spain,League,2015,Malaga,Miguel,Torres,23,0,2
+Football,Spain,League,2015,Malaga,Carlos,Kameni,28,0,1
+Football,Spain,League,2015,Malaga,Egor,Filipenko,8,0,0
+Football,Spain,League,2015,Malaga,Guillermo,Ochoa,11,0,0
+Football,Spain,League,2015,Malaga,Juankar,,19,1,2
+Football,Spain,League,2015,Malaga,Marcos,Angeleri,13,0,0
+Football,Spain,League,2015,Malaga,Fernando,Tissone,12,0,0
+Football,Spain,League,2015,Malaga,Arthur,Boka,14,0,0
+Football,Spain,League,2015,Malaga,Duje,Cop,31,7,3
+Football,Spain,League,2015,Malaga,Juan,Pablo Anor,29,4,1
+Football,Spain,League,2015,Malaga,Christian,Atsu,12,2,0
+Football,Spain,League,2015,Malaga,Duda,,27,1,1
+Football,Spain,League,2015,Malaga,Pablo,Fornals,27,1,0
+Football,Spain,League,2015,Malaga,Fabio,Espinho,2,0,0
+Football,Spain,League,2015,Malaga,Nordin,Amrabat,13,0,1
+Football,Spain,League,2015,Malaga,Adnane,Tighadouini,10,1,0
+Football,Spain,League,2015,Malaga,Roque,Santa Cruz,17,2,1
+Football,Spain,League,2015,Malaga,Ricardo,Horta,17,0,0
+Football,Spain,League,2015,Malaga,Hachim,Mastour,1,0,0
+Football,Spain,League,2015,Malaga,Javier,Ontiveros,4,0,0
+Football,Spain,League,2015,Malaga,Ikechukwu,Uche,3,0,0

@@ -1,0 +1,25 @@
+Football,England,League,2014,Sunderland,Sebastian,Coates,10,0,0
+Football,England,League,2014,Sunderland,Costel,Pantilimon,28,0,0
+Football,England,League,2014,Sunderland,Patrick,van Aanholt,28,0,5
+Football,England,League,2014,Sunderland,Sebastian,Larsson,36,3,3
+Football,England,League,2014,Sunderland,Santiago,Vergini,31,0,0
+Football,England,League,2014,Sunderland,Billy,Jones,14,0,0
+Football,England,League,2014,Sunderland,Anthony,Reveillere,16,0,1
+Football,England,League,2014,Sunderland,Lee,Cattermole,28,1,0
+Football,England,League,2014,Sunderland,John,O'Shea,37,0,0
+Football,England,League,2014,Sunderland,Connor,Wickham,36,5,1
+Football,England,League,2014,Sunderland,Jordi,Gomez,29,4,2
+Football,England,League,2014,Sunderland,Adam,Johnson,32,4,1
+Football,England,League,2014,Sunderland,Wes,Brown,25,0,0
+Football,England,League,2014,Sunderland,Jack,Rodwell,23,3,0
+Football,England,League,2014,Sunderland,Jermain,Defoe,17,4,0
+Football,England,League,2014,Sunderland,Liam,Bridcutt,18,0,2
+Football,England,League,2014,Sunderland,Steven,Fletcher,30,5,2
+Football,England,League,2014,Sunderland,Vito,Mannone,10,0,0
+Football,England,League,2014,Sunderland,Ricardo,Alvarez,13,0,0
+Football,England,League,2014,Sunderland,Emanuele,Giaccherini,8,0,0
+Football,England,League,2014,Sunderland,Danny,Graham,14,1,0
+Football,England,League,2014,Sunderland,Mikael,Mandron,1,0,0
+Football,England,League,2014,Sunderland,William,Buckley,22,0,2
+Football,England,League,2014,Sunderland,Jozy,Altidore,11,0,0
+Football,England,League,2014,Sunderland,Valentin,Roberge,1,0,0

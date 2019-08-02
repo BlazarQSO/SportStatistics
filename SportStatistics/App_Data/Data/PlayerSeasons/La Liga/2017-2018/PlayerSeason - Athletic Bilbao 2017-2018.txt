@@ -1,0 +1,26 @@
+Football,Spain,League,2017,Athletic Bilbao,Raul,Garcia,34,10,1
+Football,Spain,League,2017,Athletic Bilbao,Aymeric,Laporte,19,0,1
+Football,Spain,League,2017,Athletic Bilbao,Iker,Muniain,14,4,2
+Football,Spain,League,2017,Athletic Bilbao,Nunez,,33,1,0
+Football,Spain,League,2017,Athletic Bilbao,Inigo,Martinez,16,0,0
+Football,Spain,League,2017,Athletic Bilbao,Iago,Herrerin,8,0,0
+Football,Spain,League,2017,Athletic Bilbao,Inaki,Williams,38,7,6
+Football,Spain,League,2017,Athletic Bilbao,Kepa,Arrizabalaga,30,0,0
+Football,Spain,League,2017,Athletic Bilbao,Mikel,Balenziaga,18,0,2
+Football,Spain,League,2017,Athletic Bilbao,Markel,Susaeta,34,3,2
+Football,Spain,League,2017,Athletic Bilbao,Oscar,De Marcos,21,1,2
+Football,Spain,League,2017,Athletic Bilbao,Mikel,San Jose,26,1,1
+Football,Spain,League,2017,Athletic Bilbao,Saborit,,19,0,1
+Football,Spain,League,2017,Athletic Bilbao,Aritz,Aduriz,33,9,1
+Football,Spain,League,2017,Athletic Bilbao,Inigo,Lekue,32,0,1
+Football,Spain,League,2017,Athletic Bilbao,Eneko,Boveda,6,0,1
+Football,Spain,League,2017,Athletic Bilbao,Ander,Iturraspe,30,0,0
+Football,Spain,League,2017,Athletic Bilbao,Yeray,Alvarez,8,0,0
+Football,Spain,League,2017,Athletic Bilbao,Mikel,Rico,17,0,0
+Football,Spain,League,2017,Athletic Bilbao,Inigo,Cordoba,30,1,1
+Football,Spain,League,2017,Athletic Bilbao,Mikel,Vesga,12,1,1
+Football,Spain,League,2017,Athletic Bilbao,Benat,Etxebarria,24,0,2
+Football,Spain,League,2017,Athletic Bilbao,Xabier,Etxeita,5,1,0
+Football,Spain,League,2017,Athletic Bilbao,Sabin,Merino,13,0,0
+Football,Spain,League,2017,Athletic Bilbao,Ager,Aketxe,3,0,0
+Football,Spain,League,2017,Athletic Bilbao,Andoni,Lopez,1,0,0

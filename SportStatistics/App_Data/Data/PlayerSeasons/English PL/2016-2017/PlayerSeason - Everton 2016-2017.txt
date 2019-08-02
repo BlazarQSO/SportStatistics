@@ -1,0 +1,27 @@
+Football,England,League,2016,Everton,Romelu,Lukaku,37,25,6
+Football,England,League,2016,Everton,Idrissa,Gueye,33,1,1
+Football,England,League,2016,Everton,Yannick,Bolasie,13,1,4
+Football,England,League,2016,Everton,Ross,Barkley,36,5,8
+Football,England,League,2016,Everton,Phil,Jagielka,27,3,2
+Football,England,League,2016,Everton,Seamus,Coleman,26,4,3
+Football,England,League,2016,Everton,Ashley,Williams,36,1,3
+Football,England,League,2016,Everton,Morgan,Schneiderlin,14,1,0
+Football,England,League,2016,Everton,Joel,Robles,20,0,1
+Football,England,League,2016,Everton,Leighton,Baines,32,2,3
+Football,England,League,2016,Everton,Mason,Holgate,18,0,1
+Football,England,League,2016,Everton,Kevin,Mirallas,35,4,6
+Football,England,League,2016,Everton,Gareth,Barry,33,2,1
+Football,England,League,2016,Everton,Ramiro,Funes Mori,23,0,1
+Football,England,League,2016,Everton,Tom,Davies,24,2,3
+Football,England,League,2016,Everton,Bryan,Oviedo,6,0,0
+Football,England,League,2016,Everton,James,McCarthy,12,1,1
+Football,England,League,2016,Everton,Enner,Valencia,21,3,1
+Football,England,League,2016,Everton,Maarten,Stekelenburg,19,0,0
+Football,England,League,2016,Everton,Gerard,Deulofeu,11,0,0
+Football,England,League,2016,Everton,Matthew,Pennington,3,1,0
+Football,England,League,2016,Everton,Ademola,Lookman,8,1,0
+Football,England,League,2016,Everton,Aaron,Lennon,11,0,1
+Football,England,League,2016,Everton,Tom,Cleverley,10,0,0
+Football,England,League,2016,Everton,Dominic,Calvert-Lewin,11,1,0
+Football,England,League,2016,Everton,Arouna,Kone,6,0,0
+Football,England,League,2016,Everton,Jonjoe,Kenny,1,0,0

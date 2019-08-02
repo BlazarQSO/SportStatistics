@@ -1,0 +1,380 @@
+Football,Spain,League,2014,23/08/14,Almeria,Espanyol,1,1,D
+Football,Spain,League,2014,23/08/14,Granada,Deportivo La Coruna,2,1,H
+Football,Spain,League,2014,23/08/14,Malaga,Athletic Bilbao,1,0,H
+Football,Spain,League,2014,23/08/14,Sevilla,Valencia,1,1,D
+Football,Spain,League,2014,24/08/14,Barcelona,Elche,3,0,H
+Football,Spain,League,2014,24/08/14,Celta Vigo,Getafe,3,1,H
+Football,Spain,League,2014,24/08/14,Eibar,Real Sociedad,1,0,H
+Football,Spain,League,2014,24/08/14,Levante,Villarreal,0,2,A
+Football,Spain,League,2014,25/08/14,Real Madrid,Cordoba,2,0,H
+Football,Spain,League,2014,25/08/14,Rayo Vallecano,Atletico Madrid,0,0,D
+Football,Spain,League,2014,29/08/14,Getafe,Almeria,1,0,H
+Football,Spain,League,2014,29/08/14,Valencia,Malaga,3,0,H
+Football,Spain,League,2014,30/08/14,Athletic Bilbao,Levante,3,0,H
+Football,Spain,League,2014,30/08/14,Atletico Madrid,Eibar,2,1,H
+Football,Spain,League,2014,30/08/14,Cordoba,Celta Vigo,1,1,D
+Football,Spain,League,2014,30/08/14,Espanyol,Sevilla,1,2,A
+Football,Spain,League,2014,31/08/14,Elche,Granada,1,1,D
+Football,Spain,League,2014,31/08/14,Deportivo La Coruna,Rayo Vallecano,2,2,D
+Football,Spain,League,2014,31/08/14,Real Sociedad,Real Madrid,4,2,H
+Football,Spain,League,2014,31/08/14,Villarreal,Barcelona,0,1,A
+Football,Spain,League,2014,12/09/14,Almeria,Cordoba,1,1,D
+Football,Spain,League,2014,13/09/14,Barcelona,Athletic Bilbao,2,0,H
+Football,Spain,League,2014,13/09/14,Celta Vigo,Real Sociedad,2,2,D
+Football,Spain,League,2014,13/09/14,Malaga,Levante,0,0,D
+Football,Spain,League,2014,13/09/14,Real Madrid,Atletico Madrid,1,2,A
+Football,Spain,League,2014,14/09/14,Granada,Villarreal,0,0,D
+Football,Spain,League,2014,14/09/14,Sevilla,Getafe,2,0,H
+Football,Spain,League,2014,14/09/14,Valencia,Espanyol,3,1,H
+Football,Spain,League,2014,14/09/14,Rayo Vallecano,Elche,2,3,A
+Football,Spain,League,2014,15/09/14,Eibar,Deportivo La Coruna,0,1,A
+Football,Spain,League,2014,19/09/14,Elche,Eibar,0,2,A
+Football,Spain,League,2014,20/09/14,Athletic Bilbao,Granada,0,1,A
+Football,Spain,League,2014,20/09/14,Atletico Madrid,Celta Vigo,2,2,D
+Football,Spain,League,2014,20/09/14,Espanyol,Malaga,2,2,D
+Football,Spain,League,2014,20/09/14,Deportivo La Coruna,Real Madrid,2,8,A
+Football,Spain,League,2014,21/09/14,Cordoba,Sevilla,1,3,A
+Football,Spain,League,2014,21/09/14,Levante,Barcelona,0,5,A
+Football,Spain,League,2014,21/09/14,Real Sociedad,Almeria,1,2,A
+Football,Spain,League,2014,21/09/14,Villarreal,Rayo Vallecano,4,2,H
+Football,Spain,League,2014,22/09/14,Getafe,Valencia,0,3,A
+Football,Spain,League,2014,23/09/14,Celta Vigo,Deportivo La Coruna,2,1,H
+Football,Spain,League,2014,23/09/14,Real Madrid,Elche,5,1,H
+Football,Spain,League,2014,24/09/14,Almeria,Atletico Madrid,0,1,A
+Football,Spain,League,2014,24/09/14,Eibar,Villarreal,1,1,D
+Football,Spain,League,2014,24/09/14,Granada,Levante,0,1,A
+Football,Spain,League,2014,24/09/14,Malaga,Barcelona,0,0,D
+Football,Spain,League,2014,24/09/14,Sevilla,Real Sociedad,1,0,H
+Football,Spain,League,2014,24/09/14,Rayo Vallecano,Athletic Bilbao,2,1,H
+Football,Spain,League,2014,25/09/14,Espanyol,Getafe,2,0,H
+Football,Spain,League,2014,25/09/14,Valencia,Cordoba,3,0,H
+Football,Spain,League,2014,26/09/14,Elche,Celta Vigo,0,1,A
+Football,Spain,League,2014,27/09/14,Athletic Bilbao,Eibar,0,0,D
+Football,Spain,League,2014,27/09/14,Atletico Madrid,Sevilla,4,0,H
+Football,Spain,League,2014,27/09/14,Barcelona,Granada,6,0,H
+Football,Spain,League,2014,27/09/14,Levante,Rayo Vallecano,0,2,A
+Football,Spain,League,2014,27/09/14,Villarreal,Real Madrid,0,2,A
+Football,Spain,League,2014,28/09/14,Cordoba,Espanyol,0,0,D
+Football,Spain,League,2014,28/09/14,Getafe,Malaga,1,0,H
+Football,Spain,League,2014,28/09/14,Deportivo La Coruna,Almeria,0,1,A
+Football,Spain,League,2014,28/09/14,Real Sociedad,Valencia,1,1,D
+Football,Spain,League,2014,03/10/14,Getafe,Cordoba,1,1,D
+Football,Spain,League,2014,04/10/14,Almeria,Elche,2,2,D
+Football,Spain,League,2014,04/10/14,Eibar,Levante,3,3,D
+Football,Spain,League,2014,04/10/14,Malaga,Granada,2,1,H
+Football,Spain,League,2014,04/10/14,Valencia,Atletico Madrid,3,1,H
+Football,Spain,League,2014,04/10/14,Rayo Vallecano,Barcelona,0,2,A
+Football,Spain,League,2014,05/10/14,Celta Vigo,Villarreal,1,3,A
+Football,Spain,League,2014,05/10/14,Espanyol,Real Sociedad,2,0,H
+Football,Spain,League,2014,05/10/14,Real Madrid,Athletic Bilbao,5,0,H
+Football,Spain,League,2014,05/10/14,Sevilla,Deportivo La Coruna,4,1,H
+Football,Spain,League,2014,17/10/14,Granada,Rayo Vallecano,0,1,A
+Football,Spain,League,2014,18/10/14,Athletic Bilbao,Celta Vigo,1,1,D
+Football,Spain,League,2014,18/10/14,Barcelona,Eibar,3,0,H
+Football,Spain,League,2014,18/10/14,Cordoba,Malaga,1,2,A
+Football,Spain,League,2014,18/10/14,Levante,Real Madrid,0,5,A
+Football,Spain,League,2014,19/10/14,Atletico Madrid,Espanyol,2,0,H
+Football,Spain,League,2014,19/10/14,Elche,Sevilla,0,2,A
+Football,Spain,League,2014,19/10/14,Deportivo La Coruna,Valencia,3,0,H
+Football,Spain,League,2014,19/10/14,Villarreal,Almeria,2,0,H
+Football,Spain,League,2014,20/10/14,Real Sociedad,Getafe,1,2,A
+Football,Spain,League,2014,24/10/14,Celta Vigo,Levante,3,0,H
+Football,Spain,League,2014,25/10/14,Almeria,Athletic Bilbao,0,1,A
+Football,Spain,League,2014,25/10/14,Cordoba,Real Sociedad,1,1,D
+Football,Spain,League,2014,25/10/14,Eibar,Granada,1,1,D
+Football,Spain,League,2014,25/10/14,Real Madrid,Barcelona,3,1,H
+Football,Spain,League,2014,25/10/14,Valencia,Elche,3,1,H
+Football,Spain,League,2014,26/10/14,Espanyol,Deportivo La Coruna,0,0,D
+Football,Spain,League,2014,26/10/14,Getafe,Atletico Madrid,0,1,A
+Football,Spain,League,2014,26/10/14,Malaga,Rayo Vallecano,4,0,H
+Football,Spain,League,2014,26/10/14,Sevilla,Villarreal,2,1,H
+Football,Spain,League,2014,31/10/14,Deportivo La Coruna,Getafe,1,2,A
+Football,Spain,League,2014,01/11/14,Atletico Madrid,Cordoba,4,2,H
+Football,Spain,League,2014,01/11/14,Barcelona,Celta Vigo,0,1,A
+Football,Spain,League,2014,01/11/14,Granada,Real Madrid,0,4,A
+Football,Spain,League,2014,01/11/14,Real Sociedad,Malaga,0,1,A
+Football,Spain,League,2014,02/11/14,Athletic Bilbao,Sevilla,1,0,H
+Football,Spain,League,2014,02/11/14,Elche,Espanyol,2,1,H
+Football,Spain,League,2014,02/11/14,Levante,Almeria,2,1,H
+Football,Spain,League,2014,02/11/14,Villarreal,Valencia,1,3,A
+Football,Spain,League,2014,03/11/14,Rayo Vallecano,Eibar,2,3,A
+Football,Spain,League,2014,07/11/14,Cordoba,Deportivo La Coruna,0,0,D
+Football,Spain,League,2014,08/11/14,Almeria,Barcelona,1,2,A
+Football,Spain,League,2014,08/11/14,Celta Vigo,Granada,0,0,D
+Football,Spain,League,2014,08/11/14,Getafe,Elche,0,0,D
+Football,Spain,League,2014,08/11/14,Malaga,Eibar,2,1,H
+Football,Spain,League,2014,08/11/14,Real Madrid,Rayo Vallecano,5,1,H
+Football,Spain,League,2014,09/11/14,Espanyol,Villarreal,1,1,D
+Football,Spain,League,2014,09/11/14,Sevilla,Levante,1,1,D
+Football,Spain,League,2014,09/11/14,Real Sociedad,Atletico Madrid,2,1,H
+Football,Spain,League,2014,09/11/14,Valencia,Athletic Bilbao,0,0,D
+Football,Spain,League,2014,21/11/14,Athletic Bilbao,Espanyol,3,1,H
+Football,Spain,League,2014,22/11/14,Atletico Madrid,Malaga,3,1,H
+Football,Spain,League,2014,22/11/14,Barcelona,Sevilla,5,1,H
+Football,Spain,League,2014,22/11/14,Eibar,Real Madrid,0,4,A
+Football,Spain,League,2014,22/11/14,Deportivo La Coruna,Real Sociedad,0,0,D
+Football,Spain,League,2014,23/11/14,Elche,Cordoba,2,2,D
+Football,Spain,League,2014,23/11/14,Levante,Valencia,2,1,H
+Football,Spain,League,2014,23/11/14,Rayo Vallecano,Celta Vigo,1,0,H
+Football,Spain,League,2014,23/11/14,Villarreal,Getafe,2,1,H
+Football,Spain,League,2014,24/11/14,Granada,Almeria,0,0,D
+Football,Spain,League,2014,28/11/14,Real Sociedad,Elche,3,0,H
+Football,Spain,League,2014,29/11/14,Celta Vigo,Eibar,0,1,A
+Football,Spain,League,2014,29/11/14,Espanyol,Levante,2,1,H
+Football,Spain,League,2014,29/11/14,Getafe,Athletic Bilbao,1,2,A
+Football,Spain,League,2014,29/11/14,Malaga,Real Madrid,1,2,A
+Football,Spain,League,2014,30/11/14,Atletico Madrid,Deportivo La Coruna,2,0,H
+Football,Spain,League,2014,30/11/14,Cordoba,Villarreal,0,2,A
+Football,Spain,League,2014,30/11/14,Sevilla,Granada,5,1,H
+Football,Spain,League,2014,30/11/14,Valencia,Barcelona,0,1,A
+Football,Spain,League,2014,01/12/14,Almeria,Rayo Vallecano,0,1,A
+Football,Spain,League,2014,06/12/14,Athletic Bilbao,Cordoba,0,1,A
+Football,Spain,League,2014,06/12/14,Elche,Atletico Madrid,0,2,A
+Football,Spain,League,2014,06/12/14,Deportivo La Coruna,Malaga,0,1,A
+Football,Spain,League,2014,06/12/14,Real Madrid,Celta Vigo,3,0,H
+Football,Spain,League,2014,07/12/14,Barcelona,Espanyol,5,1,H
+Football,Spain,League,2014,07/12/14,Granada,Valencia,1,1,D
+Football,Spain,League,2014,07/12/14,Rayo Vallecano,Sevilla,0,1,A
+Football,Spain,League,2014,07/12/14,Villarreal,Real Sociedad,4,0,H
+Football,Spain,League,2014,08/12/14,Eibar,Almeria,5,2,H
+Football,Spain,League,2014,08/12/14,Levante,Getafe,1,1,D
+Football,Spain,League,2014,12/12/14,Almeria,Real Madrid,1,4,A
+Football,Spain,League,2014,13/12/14,Cordoba,Levante,0,0,D
+Football,Spain,League,2014,13/12/14,Getafe,Barcelona,0,0,D
+Football,Spain,League,2014,13/12/14,Malaga,Celta Vigo,1,0,H
+Football,Spain,League,2014,13/12/14,Valencia,Rayo Vallecano,3,0,H
+Football,Spain,League,2014,14/12/14,Atletico Madrid,Villarreal,0,1,A
+Football,Spain,League,2014,14/12/14,Espanyol,Granada,2,1,H
+Football,Spain,League,2014,14/12/14,Sevilla,Eibar,0,0,D
+Football,Spain,League,2014,14/12/14,Real Sociedad,Athletic Bilbao,1,1,D
+Football,Spain,League,2014,15/12/14,Deportivo La Coruna,Elche,1,0,H
+Football,Spain,League,2014,19/12/14,Celta Vigo,Almeria,0,1,A
+Football,Spain,League,2014,20/12/14,Barcelona,Cordoba,5,0,H
+Football,Spain,League,2014,20/12/14,Eibar,Valencia,0,1,A
+Football,Spain,League,2014,20/12/14,Levante,Real Sociedad,1,1,D
+Football,Spain,League,2014,20/12/14,Rayo Vallecano,Espanyol,1,3,A
+Football,Spain,League,2014,21/12/14,Athletic Bilbao,Atletico Madrid,1,4,A
+Football,Spain,League,2014,21/12/14,Elche,Malaga,1,2,A
+Football,Spain,League,2014,21/12/14,Granada,Getafe,1,1,D
+Football,Spain,League,2014,21/12/14,Villarreal,Deportivo La Coruna,3,0,H
+Football,Spain,League,2014,03/01/15,Atletico Madrid,Levante,3,1,H
+Football,Spain,League,2014,03/01/15,Elche,Villarreal,2,2,D
+Football,Spain,League,2014,03/01/15,Deportivo La Coruna,Athletic Bilbao,1,0,H
+Football,Spain,League,2014,03/01/15,Malaga,Almeria,1,2,A
+Football,Spain,League,2014,03/01/15,Sevilla,Celta Vigo,1,0,H
+Football,Spain,League,2014,04/01/15,Espanyol,Eibar,1,2,A
+Football,Spain,League,2014,04/01/15,Getafe,Rayo Vallecano,1,2,A
+Football,Spain,League,2014,04/01/15,Real Sociedad,Barcelona,1,0,H
+Football,Spain,League,2014,04/01/15,Valencia,Real Madrid,2,1,H
+Football,Spain,League,2014,05/01/15,Cordoba,Granada,2,0,H
+Football,Spain,League,2014,09/01/15,Levante,Deportivo La Coruna,0,0,D
+Football,Spain,League,2014,10/01/15,Celta Vigo,Valencia,1,1,D
+Football,Spain,League,2014,10/01/15,Eibar,Getafe,2,1,H
+Football,Spain,League,2014,10/01/15,Malaga,Villarreal,1,1,D
+Football,Spain,League,2014,10/01/15,Real Madrid,Espanyol,3,0,H
+Football,Spain,League,2014,11/01/15,Almeria,Sevilla,0,2,A
+Football,Spain,League,2014,11/01/15,Athletic Bilbao,Elche,1,2,A
+Football,Spain,League,2014,11/01/15,Barcelona,Atletico Madrid,3,1,H
+Football,Spain,League,2014,11/01/15,Granada,Real Sociedad,1,1,D
+Football,Spain,League,2014,12/01/15,Rayo Vallecano,Cordoba,0,1,A
+Football,Spain,League,2014,16/01/15,Cordoba,Eibar,1,1,D
+Football,Spain,League,2014,17/01/15,Espanyol,Celta Vigo,1,0,H
+Football,Spain,League,2014,17/01/15,Real Sociedad,Rayo Vallecano,0,1,A
+Football,Spain,League,2014,17/01/15,Valencia,Almeria,3,2,H
+Football,Spain,League,2014,17/01/15,Villarreal,Athletic Bilbao,2,0,H
+Football,Spain,League,2014,18/01/15,Atletico Madrid,Granada,2,0,H
+Football,Spain,League,2014,18/01/15,Elche,Levante,1,0,H
+Football,Spain,League,2014,18/01/15,Getafe,Real Madrid,0,3,A
+Football,Spain,League,2014,18/01/15,Deportivo La Coruna,Barcelona,0,4,A
+Football,Spain,League,2014,18/01/15,Sevilla,Malaga,2,0,H
+Football,Spain,League,2014,24/01/15,Atletico Madrid,Rayo Vallecano,3,1,H
+Football,Spain,League,2014,24/01/15,Cordoba,Real Madrid,1,2,A
+Football,Spain,League,2014,24/01/15,Elche,Barcelona,0,6,A
+Football,Spain,League,2014,24/01/15,Real Sociedad,Eibar,1,0,H
+Football,Spain,League,2014,24/01/15,Villarreal,Levante,1,0,H
+Football,Spain,League,2014,25/01/15,Athletic Bilbao,Malaga,1,1,D
+Football,Spain,League,2014,25/01/15,Espanyol,Almeria,3,0,H
+Football,Spain,League,2014,25/01/15,Deportivo La Coruna,Granada,2,2,D
+Football,Spain,League,2014,25/01/15,Valencia,Sevilla,3,1,H
+Football,Spain,League,2014,26/01/15,Getafe,Celta Vigo,2,1,H
+Football,Spain,League,2014,30/01/15,Rayo Vallecano,Deportivo La Coruna,1,2,A
+Football,Spain,League,2014,31/01/15,Celta Vigo,Cordoba,1,0,H
+Football,Spain,League,2014,31/01/15,Eibar,Atletico Madrid,1,3,A
+Football,Spain,League,2014,31/01/15,Granada,Elche,1,0,H
+Football,Spain,League,2014,31/01/15,Real Madrid,Real Sociedad,4,1,H
+Football,Spain,League,2014,01/02/15,Almeria,Getafe,1,0,H
+Football,Spain,League,2014,01/02/15,Barcelona,Villarreal,3,2,H
+Football,Spain,League,2014,01/02/15,Levante,Athletic Bilbao,0,2,A
+Football,Spain,League,2014,01/02/15,Sevilla,Espanyol,3,2,H
+Football,Spain,League,2014,02/02/15,Malaga,Valencia,1,0,H
+Football,Spain,League,2014,04/02/15,Real Madrid,Sevilla,2,1,H
+Football,Spain,League,2014,06/02/15,Deportivo La Coruna,Eibar,2,0,H
+Football,Spain,League,2014,07/02/15,Atletico Madrid,Real Madrid,4,0,H
+Football,Spain,League,2014,07/02/15,Levante,Malaga,4,1,H
+Football,Spain,League,2014,07/02/15,Real Sociedad,Celta Vigo,1,1,D
+Football,Spain,League,2014,07/02/15,Villarreal,Granada,2,0,H
+Football,Spain,League,2014,08/02/15,Athletic Bilbao,Barcelona,2,5,A
+Football,Spain,League,2014,08/02/15,Cordoba,Almeria,1,2,A
+Football,Spain,League,2014,08/02/15,Espanyol,Valencia,1,2,A
+Football,Spain,League,2014,08/02/15,Getafe,Sevilla,2,1,H
+Football,Spain,League,2014,09/02/15,Elche,Rayo Vallecano,2,0,H
+Football,Spain,League,2014,13/02/15,Almeria,Real Sociedad,2,2,D
+Football,Spain,League,2014,14/02/15,Granada,Athletic Bilbao,0,0,D
+Football,Spain,League,2014,14/02/15,Malaga,Espanyol,0,2,A
+Football,Spain,League,2014,14/02/15,Real Madrid,Deportivo La Coruna,2,0,H
+Football,Spain,League,2014,14/02/15,Sevilla,Cordoba,3,0,H
+Football,Spain,League,2014,15/02/15,Barcelona,Levante,5,0,H
+Football,Spain,League,2014,15/02/15,Celta Vigo,Atletico Madrid,2,0,H
+Football,Spain,League,2014,15/02/15,Valencia,Getafe,1,0,H
+Football,Spain,League,2014,15/02/15,Rayo Vallecano,Villarreal,2,0,H
+Football,Spain,League,2014,16/02/15,Eibar,Elche,0,1,A
+Football,Spain,League,2014,20/02/15,Getafe,Espanyol,2,1,H
+Football,Spain,League,2014,21/02/15,Atletico Madrid,Almeria,3,0,H
+Football,Spain,League,2014,21/02/15,Barcelona,Malaga,0,1,A
+Football,Spain,League,2014,21/02/15,Cordoba,Valencia,1,2,A
+Football,Spain,League,2014,21/02/15,Deportivo La Coruna,Celta Vigo,0,2,A
+Football,Spain,League,2014,22/02/15,Athletic Bilbao,Rayo Vallecano,1,0,H
+Football,Spain,League,2014,22/02/15,Elche,Real Madrid,0,2,A
+Football,Spain,League,2014,22/02/15,Real Sociedad,Sevilla,4,3,H
+Football,Spain,League,2014,22/02/15,Villarreal,Eibar,1,0,H
+Football,Spain,League,2014,23/02/15,Levante,Granada,2,1,H
+Football,Spain,League,2014,27/02/15,Espanyol,Cordoba,1,0,H
+Football,Spain,League,2014,28/02/15,Almeria,Deportivo La Coruna,0,0,D
+Football,Spain,League,2014,28/02/15,Granada,Barcelona,1,3,A
+Football,Spain,League,2014,28/02/15,Malaga,Getafe,3,2,H
+Football,Spain,League,2014,28/02/15,Rayo Vallecano,Levante,4,2,H
+Football,Spain,League,2014,01/03/15,Eibar,Athletic Bilbao,0,1,A
+Football,Spain,League,2014,01/03/15,Real Madrid,Villarreal,1,1,D
+Football,Spain,League,2014,01/03/15,Sevilla,Atletico Madrid,0,0,D
+Football,Spain,League,2014,01/03/15,Valencia,Real Sociedad,2,0,H
+Football,Spain,League,2014,02/03/15,Celta Vigo,Elche,1,1,D
+Football,Spain,League,2014,06/03/15,Levante,Eibar,2,1,H
+Football,Spain,League,2014,07/03/15,Athletic Bilbao,Real Madrid,1,0,H
+Football,Spain,League,2014,07/03/15,Elche,Almeria,1,0,H
+Football,Spain,League,2014,07/03/15,Granada,Malaga,1,0,H
+Football,Spain,League,2014,07/03/15,Deportivo La Coruna,Sevilla,3,4,A
+Football,Spain,League,2014,08/03/15,Atletico Madrid,Valencia,1,1,D
+Football,Spain,League,2014,08/03/15,Barcelona,Rayo Vallecano,6,1,H
+Football,Spain,League,2014,08/03/15,Real Sociedad,Espanyol,1,0,H
+Football,Spain,League,2014,08/03/15,Villarreal,Celta Vigo,4,1,H
+Football,Spain,League,2014,09/03/15,Cordoba,Getafe,1,2,A
+Football,Spain,League,2014,13/03/15,Valencia,Deportivo La Coruna,2,0,H
+Football,Spain,League,2014,14/03/15,Celta Vigo,Athletic Bilbao,1,2,A
+Football,Spain,League,2014,14/03/15,Eibar,Barcelona,0,2,A
+Football,Spain,League,2014,14/03/15,Espanyol,Atletico Madrid,0,0,D
+Football,Spain,League,2014,14/03/15,Rayo Vallecano,Granada,3,1,H
+Football,Spain,League,2014,15/03/15,Almeria,Villarreal,0,0,D
+Football,Spain,League,2014,15/03/15,Malaga,Cordoba,2,0,H
+Football,Spain,League,2014,15/03/15,Real Madrid,Levante,2,0,H
+Football,Spain,League,2014,15/03/15,Sevilla,Elche,3,0,H
+Football,Spain,League,2014,16/03/15,Getafe,Real Sociedad,0,1,A
+Football,Spain,League,2014,20/03/15,Elche,Valencia,0,4,A
+Football,Spain,League,2014,21/03/15,Athletic Bilbao,Almeria,2,1,H
+Football,Spain,League,2014,21/03/15,Atletico Madrid,Getafe,2,0,H
+Football,Spain,League,2014,21/03/15,Granada,Eibar,0,0,D
+Football,Spain,League,2014,21/03/15,Levante,Celta Vigo,0,1,A
+Football,Spain,League,2014,21/03/15,Rayo Vallecano,Malaga,1,0,H
+Football,Spain,League,2014,22/03/15,Barcelona,Real Madrid,2,1,H
+Football,Spain,League,2014,22/03/15,Deportivo La Coruna,Espanyol,0,0,D
+Football,Spain,League,2014,22/03/15,Real Sociedad,Cordoba,3,1,H
+Football,Spain,League,2014,22/03/15,Villarreal,Sevilla,0,2,A
+Football,Spain,League,2014,03/04/15,Eibar,Rayo Vallecano,1,2,A
+Football,Spain,League,2014,04/04/15,Almeria,Levante,1,4,A
+Football,Spain,League,2014,04/04/15,Cordoba,Atletico Madrid,0,2,A
+Football,Spain,League,2014,04/04/15,Malaga,Real Sociedad,1,1,D
+Football,Spain,League,2014,04/04/15,Sevilla,Athletic Bilbao,2,0,H
+Football,Spain,League,2014,05/04/15,Celta Vigo,Barcelona,0,1,A
+Football,Spain,League,2014,05/04/15,Getafe,Deportivo La Coruna,2,1,H
+Football,Spain,League,2014,05/04/15,Real Madrid,Granada,9,1,H
+Football,Spain,League,2014,05/04/15,Valencia,Villarreal,0,0,D
+Football,Spain,League,2014,06/04/15,Espanyol,Elche,1,1,D
+Football,Spain,League,2014,07/04/15,Atletico Madrid,Real Sociedad,2,0,H
+Football,Spain,League,2014,07/04/15,Eibar,Malaga,1,0,H
+Football,Spain,League,2014,07/04/15,Levante,Sevilla,1,2,A
+Football,Spain,League,2014,08/04/15,Barcelona,Almeria,4,0,H
+Football,Spain,League,2014,08/04/15,Granada,Celta Vigo,1,1,D
+Football,Spain,League,2014,08/04/15,Deportivo La Coruna,Cordoba,1,1,D
+Football,Spain,League,2014,08/04/15,Rayo Vallecano,Real Madrid,0,2,A
+Football,Spain,League,2014,09/04/15,Athletic Bilbao,Valencia,1,1,D
+Football,Spain,League,2014,09/04/15,Elche,Getafe,0,1,A
+Football,Spain,League,2014,09/04/15,Villarreal,Espanyol,0,3,A
+Football,Spain,League,2014,11/04/15,Almeria,Granada,3,0,H
+Football,Spain,League,2014,11/04/15,Celta Vigo,Rayo Vallecano,6,1,H
+Football,Spain,League,2014,11/04/15,Malaga,Atletico Madrid,2,2,D
+Football,Spain,League,2014,11/04/15,Real Madrid,Eibar,3,0,H
+Football,Spain,League,2014,11/04/15,Sevilla,Barcelona,2,2,D
+Football,Spain,League,2014,12/04/15,Cordoba,Elche,0,2,A
+Football,Spain,League,2014,12/04/15,Espanyol,Athletic Bilbao,1,0,H
+Football,Spain,League,2014,12/04/15,Getafe,Villarreal,1,1,D
+Football,Spain,League,2014,12/04/15,Real Sociedad,Deportivo La Coruna,2,2,D
+Football,Spain,League,2014,13/04/15,Valencia,Levante,3,0,H
+Football,Spain,League,2014,17/04/15,Levante,Espanyol,2,2,D
+Football,Spain,League,2014,18/04/15,Athletic Bilbao,Getafe,4,0,H
+Football,Spain,League,2014,18/04/15,Barcelona,Valencia,2,0,H
+Football,Spain,League,2014,18/04/15,Deportivo La Coruna,Atletico Madrid,1,2,A
+Football,Spain,League,2014,18/04/15,Real Madrid,Malaga,3,1,H
+Football,Spain,League,2014,19/04/15,Eibar,Celta Vigo,0,1,A
+Football,Spain,League,2014,19/04/15,Granada,Sevilla,1,1,D
+Football,Spain,League,2014,19/04/15,Rayo Vallecano,Almeria,2,0,H
+Football,Spain,League,2014,19/04/15,Villarreal,Cordoba,0,0,D
+Football,Spain,League,2014,20/04/15,Elche,Real Sociedad,1,0,H
+Football,Spain,League,2014,24/04/15,Cordoba,Athletic Bilbao,0,1,A
+Football,Spain,League,2014,25/04/15,Atletico Madrid,Elche,3,0,H
+Football,Spain,League,2014,25/04/15,Espanyol,Barcelona,0,2,A
+Football,Spain,League,2014,25/04/15,Getafe,Levante,0,1,A
+Football,Spain,League,2014,25/04/15,Real Sociedad,Villarreal,0,0,D
+Football,Spain,League,2014,26/04/15,Almeria,Eibar,2,0,H
+Football,Spain,League,2014,26/04/15,Celta Vigo,Real Madrid,2,4,A
+Football,Spain,League,2014,26/04/15,Malaga,Deportivo La Coruna,1,1,D
+Football,Spain,League,2014,26/04/15,Sevilla,Rayo Vallecano,2,0,H
+Football,Spain,League,2014,27/04/15,Valencia,Granada,4,0,H
+Football,Spain,League,2014,28/04/15,Athletic Bilbao,Real Sociedad,1,1,D
+Football,Spain,League,2014,28/04/15,Barcelona,Getafe,6,0,H
+Football,Spain,League,2014,28/04/15,Levante,Cordoba,1,0,H
+Football,Spain,League,2014,29/04/15,Celta Vigo,Malaga,1,0,H
+Football,Spain,League,2014,29/04/15,Eibar,Sevilla,1,3,A
+Football,Spain,League,2014,29/04/15,Elche,Deportivo La Coruna,4,0,H
+Football,Spain,League,2014,29/04/15,Real Madrid,Almeria,3,0,H
+Football,Spain,League,2014,29/04/15,Villarreal,Atletico Madrid,0,1,A
+Football,Spain,League,2014,30/04/15,Granada,Espanyol,1,2,A
+Football,Spain,League,2014,30/04/15,Rayo Vallecano,Valencia,1,1,D
+Football,Spain,League,2014,01/05/15,Real Sociedad,Levante,3,0,H
+Football,Spain,League,2014,02/05/15,Atletico Madrid,Athletic Bilbao,0,0,D
+Football,Spain,League,2014,02/05/15,Cordoba,Barcelona,0,8,A
+Football,Spain,League,2014,02/05/15,Deportivo La Coruna,Villarreal,1,1,D
+Football,Spain,League,2014,02/05/15,Sevilla,Real Madrid,2,3,A
+Football,Spain,League,2014,03/05/15,Espanyol,Rayo Vallecano,1,1,D
+Football,Spain,League,2014,03/05/15,Getafe,Granada,1,2,A
+Football,Spain,League,2014,03/05/15,Malaga,Elche,1,2,A
+Football,Spain,League,2014,03/05/15,Valencia,Eibar,3,1,H
+Football,Spain,League,2014,04/05/15,Almeria,Celta Vigo,2,2,D
+Football,Spain,League,2014,08/05/15,Eibar,Espanyol,0,2,A
+Football,Spain,League,2014,09/05/15,Athletic Bilbao,Deportivo La Coruna,1,1,D
+Football,Spain,League,2014,09/05/15,Barcelona,Real Sociedad,2,0,H
+Football,Spain,League,2014,09/05/15,Granada,Cordoba,2,0,H
+Football,Spain,League,2014,09/05/15,Real Madrid,Valencia,2,2,D
+Football,Spain,League,2014,10/05/15,Almeria,Malaga,1,2,A
+Football,Spain,League,2014,10/05/15,Celta Vigo,Sevilla,1,1,D
+Football,Spain,League,2014,10/05/15,Levante,Atletico Madrid,2,2,D
+Football,Spain,League,2014,10/05/15,Villarreal,Elche,1,0,H
+Football,Spain,League,2014,11/05/15,Rayo Vallecano,Getafe,2,0,H
+Football,Spain,League,2014,17/05/15,Atletico Madrid,Barcelona,0,1,A
+Football,Spain,League,2014,17/05/15,Cordoba,Rayo Vallecano,1,2,A
+Football,Spain,League,2014,17/05/15,Elche,Athletic Bilbao,2,3,A
+Football,Spain,League,2014,17/05/15,Espanyol,Real Madrid,1,4,A
+Football,Spain,League,2014,17/05/15,Getafe,Eibar,1,1,D
+Football,Spain,League,2014,17/05/15,Deportivo La Coruna,Levante,2,0,H
+Football,Spain,League,2014,17/05/15,Sevilla,Almeria,2,1,H
+Football,Spain,League,2014,17/05/15,Real Sociedad,Granada,0,3,A
+Football,Spain,League,2014,17/05/15,Valencia,Celta Vigo,1,1,D
+Football,Spain,League,2014,17/05/15,Villarreal,Malaga,2,1,H
+Football,Spain,League,2014,23/05/15,Almeria,Valencia,2,3,A
+Football,Spain,League,2014,23/05/15,Athletic Bilbao,Villarreal,4,0,H
+Football,Spain,League,2014,23/05/15,Barcelona,Deportivo La Coruna,2,2,D
+Football,Spain,League,2014,23/05/15,Celta Vigo,Espanyol,3,2,H
+Football,Spain,League,2014,23/05/15,Eibar,Cordoba,3,0,H
+Football,Spain,League,2014,23/05/15,Granada,Atletico Madrid,0,0,D
+Football,Spain,League,2014,23/05/15,Levante,Elche,0,0,D
+Football,Spain,League,2014,23/05/15,Malaga,Sevilla,2,3,A
+Football,Spain,League,2014,23/05/15,Real Madrid,Getafe,7,3,H
+Football,Spain,League,2014,23/05/15,Rayo Vallecano,Real Sociedad,2,4,A

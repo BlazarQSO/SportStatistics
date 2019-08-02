@@ -1,0 +1,25 @@
+Football,Spain,League,2012,Athletic Bilbao,Markel,Susaeta,36,7,7
+Football,Spain,League,2012,Athletic Bilbao,Ander,Herrera,29,1,2
+Football,Spain,League,2012,Athletic Bilbao,Gorka,Iraizoz,35,0,0
+Football,Spain,League,2012,Athletic Bilbao,Aymeric,Laporte,15,0,0
+Football,Spain,League,2012,Athletic Bilbao,Mikel,San Jose,34,5,0
+Football,Spain,League,2012,Athletic Bilbao,Fernando,Amorebieta,11,0,0
+Football,Spain,League,2012,Athletic Bilbao,Gurpegi,,27,1,0
+Football,Spain,League,2012,Athletic Bilbao,Aritz,Aduriz,36,14,6
+Football,Spain,League,2012,Athletic Bilbao,Borja,Ekiza,24,0,0
+Football,Spain,League,2012,Athletic Bilbao,Inigo,Perez,5,0,1
+Football,Spain,League,2012,Athletic Bilbao,Oscar,De Marcos,36,6,3
+Football,Spain,League,2012,Athletic Bilbao,Ibai,Gomez,35,4,8
+Football,Spain,League,2012,Athletic Bilbao,Ander,Iturraspe,30,0,1
+Football,Spain,League,2012,Athletic Bilbao,Aurtenetxe,,27,1,3
+Football,Spain,League,2012,Athletic Bilbao,Andoni,Iraola,35,0,3
+Football,Spain,League,2012,Athletic Bilbao,Iker,Muniain,33,1,1
+Football,Spain,League,2012,Athletic Bilbao,Xabier,Castillo,7,0,0
+Football,Spain,League,2012,Athletic Bilbao,Inigo,Ruiz de Galarreta,3,0,1
+Football,Spain,League,2012,Athletic Bilbao,Raul,Fernandez,3,0,0
+Football,Spain,League,2012,Athletic Bilbao,Fernando,Llorente,26,4,1
+Football,Spain,League,2012,Athletic Bilbao,Jonas,Ramalho,6,0,0
+Football,Spain,League,2012,Athletic Bilbao,Isma,Lopez,8,0,0
+Football,Spain,League,2012,Athletic Bilbao,Erik,Moran,1,0,0
+Football,Spain,League,2012,Athletic Bilbao,Igor,Martinez,3,0,0
+Football,Spain,League,2012,Athletic Bilbao,Gaizka,Toquero,16,0,0

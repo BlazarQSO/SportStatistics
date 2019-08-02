@@ -1,0 +1,27 @@
+Football,Spain,League,2013,Getafe,Sergio,Escudero,19,2,2
+Football,Spain,League,2013,Getafe,Miku,,5,2,1
+Football,Spain,League,2013,Getafe,Lisandro,Lopez,26,3,1
+Football,Spain,League,2013,Getafe,Rafa,,29,0,1
+Football,Spain,League,2013,Getafe,Pedro,Leon,36,7,4
+Football,Spain,League,2013,Getafe,Borja,Fernandez,28,0,2
+Football,Spain,League,2013,Getafe,Miguel,Angel Moya,26,0,0
+Football,Spain,League,2013,Getafe,Roberto,Lago,19,0,0
+Football,Spain,League,2013,Getafe,Alvaro,Arroyo,17,1,0
+Football,Spain,League,2013,Getafe,Angel,Lafita,29,7,1
+Football,Spain,League,2013,Getafe,Julio,Cesar,5,0,0
+Football,Spain,League,2013,Getafe,Carlos,Vigaray,1,0,0
+Football,Spain,League,2013,Getafe,Juan,Rodriguez,15,0,1
+Football,Spain,League,2013,Getafe,Juan,Valera,22,0,0
+Football,Spain,League,2013,Getafe,Diego,Castro,32,1,6
+Football,Spain,League,2013,Getafe,Ciprian,Marica,27,6,1
+Football,Spain,League,2013,Getafe,Pedro,Mosquera,24,0,0
+Football,Spain,League,2013,Getafe,Alexis,Ruano,29,0,0
+Football,Spain,League,2013,Getafe,Michel,,15,0,0
+Football,Spain,League,2013,Getafe,Pablo,Sarabia,33,1,5
+Football,Spain,League,2013,Getafe,Sammir,,7,0,0
+Football,Spain,League,2013,Getafe,Jordi,Codina,9,0,0
+Football,Spain,League,2013,Getafe,Mehdi,Lacen,21,0,2
+Football,Spain,League,2013,Getafe,Adrian,Colunga,26,4,1
+Football,Spain,League,2013,Getafe,Jaime,Gavilan,20,0,2
+Football,Spain,League,2013,Getafe,Alvaro,Vazquez,1,0,0
+Football,Spain,League,2013,Getafe,Alberto,Lopo,3,0,0

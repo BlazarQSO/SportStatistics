@@ -1,0 +1,30 @@
+Football,England,League,2017,Stoke,Kurt,Zouma,34,1,0
+Football,England,League,2017,Stoke,Ryan,Shawcross,27,1,1
+Football,England,League,2017,Stoke,Lasse,Sorensen,1,0,1
+Football,England,League,2017,Stoke,Badou,Ndiaye,13,2,1
+Football,England,League,2017,Stoke,Eric,Maxim Choupo-Moting,30,5,5
+Football,England,League,2017,Stoke,Joe,Allen,36,2,6
+Football,England,League,2017,Stoke,Xherdan,Shaqiri,36,8,7
+Football,England,League,2017,Stoke,Peter,Crouch,31,5,2
+Football,England,League,2017,Stoke,Jack,Butland,35,0,0
+Football,England,League,2017,Stoke,Mame,Biram Diouf,35,6,2
+Football,England,League,2017,Stoke,Erik,Pieters,31,0,1
+Football,England,League,2017,Stoke,Geoff,Cameron,20,0,0
+Football,England,League,2017,Stoke,Konstantinos,Stafylidis,5,0,0
+Football,England,League,2017,Stoke,Moritz,Bauer,15,0,0
+Football,England,League,2017,Stoke,Kevin,Wimmer,17,0,0
+Football,England,League,2017,Stoke,Thomas,Edwards,6,0,0
+Football,England,League,2017,Stoke,Darren,Fletcher,27,1,1
+Football,England,League,2017,Stoke,Ramadan,Sobhi,24,2,0
+Football,England,League,2017,Stoke,Jese,,13,1,1
+Football,England,League,2017,Stoke,Bruno,Martins Indi,17,0,0
+Football,England,League,2017,Stoke,Charlie,Adam,11,0,0
+Football,England,League,2017,Stoke,Lee,Grant,3,0,0
+Football,England,League,2017,Stoke,Glen,Johnson,9,0,0
+Football,England,League,2017,Stoke,Bojan,,1,0,0
+Football,England,League,2017,Stoke,Stephen,Ireland,4,0,0
+Football,England,League,2017,Stoke,Tyrese,Campbell,4,0,0
+Football,England,League,2017,Stoke,Saido,Berahino,15,0,1
+Football,England,League,2017,Stoke,Ibrahim,Afellay,6,0,0
+Football,England,League,2017,Stoke,Julien,Ngoy,1,0,0
+Football,England,League,2017,Stoke,Josh,Tymon,3,0,0

@@ -1,0 +1,27 @@
+Football,Spain,League,2012,Getafe,Sergio,Escudero,9,1,0
+Football,Spain,League,2012,Getafe,Pedro,Leon,29,3,7
+Football,Spain,League,2012,Getafe,Jordi,Codina,7,0,0
+Football,Spain,League,2012,Getafe,Federico,Fernandez,14,1,1
+Football,Spain,League,2012,Getafe,Abdelaziz,Barrada,32,4,6
+Football,Spain,League,2012,Getafe,Juan,Rodriguez,9,2,1
+Football,Spain,League,2012,Getafe,Rafa,,19,1,0
+Football,Spain,League,2012,Getafe,Miguel,Angel Moya,32,0,0
+Football,Spain,League,2012,Getafe,Juan,Valera,30,2,0
+Football,Spain,League,2012,Getafe,Borja,Fernandez,16,1,1
+Football,Spain,League,2012,Getafe,Alexis,Ruano,26,3,0
+Football,Spain,League,2012,Getafe,Miguel,Torres,21,0,0
+Football,Spain,League,2012,Getafe,Adrian,Colunga,22,6,6
+Football,Spain,League,2012,Getafe,David,Abraham,9,0,0
+Football,Spain,League,2012,Getafe,Alberto,Lopo,21,1,1
+Football,Spain,League,2012,Getafe,Mane,,13,1,2
+Football,Spain,League,2012,Getafe,Michel,,17,0,0
+Football,Spain,League,2012,Getafe,Diego,Castro,34,7,3
+Football,Spain,League,2012,Getafe,Xavi,Torres,35,0,2
+Football,Spain,League,2012,Getafe,Angel,Lafita,26,2,0
+Football,Spain,League,2012,Getafe,Mehdi,Lacen,20,0,0
+Football,Spain,League,2012,Getafe,Miku,,2,0,0
+Football,Spain,League,2012,Getafe,Paco,Alcacer,20,3,1
+Football,Spain,League,2012,Getafe,Hugo,Fraile,3,0,0
+Football,Spain,League,2012,Getafe,Jaime,Gavilan,22,0,2
+Football,Spain,League,2012,Getafe,Pablo,Sarabia,13,1,0
+Football,Spain,League,2012,Getafe,Alvaro,Vazquez,29,4,0

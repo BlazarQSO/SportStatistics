@@ -1,0 +1,24 @@
+Football,Spain,League,2009,Xerez,Chema,,3,0,0
+Football,Spain,League,2009,Xerez,Casado,,27,0,2
+Football,Spain,League,2009,Xerez,Victor,Sanchez,25,2,4
+Football,Spain,League,2009,Xerez,Mario,Bermejo,34,12,2
+Football,Spain,League,2009,Xerez,Renan,,35,0,0
+Football,Spain,League,2009,Xerez,Francis,,25,1,0
+Football,Spain,League,2009,Xerez,Alex,Bergantinos,26,0,2
+Football,Spain,League,2009,Xerez,Fabian,Orellana,26,2,5
+Football,Spain,League,2009,Xerez,Aythami,Artiles,30,2,0
+Football,Spain,League,2009,Xerez,Momo,,26,2,7
+Football,Spain,League,2009,Xerez,Jesus,Mendoza,12,0,0
+Football,Spain,League,2009,Xerez,Emiliano,Armenteros,25,4,1
+Football,Spain,League,2009,Xerez,Keita,,24,0,0
+Football,Spain,League,2009,Xerez,Leandro,Gioda,29,2,1
+Football,Spain,League,2009,Xerez,David,Prieto,21,0,1
+Football,Spain,League,2009,Xerez,Michel,,14,2,0
+Football,Spain,League,2009,Xerez,Carlos,Calvo,35,4,1
+Football,Spain,League,2009,Xerez,Juan,Luis Redondo,13,0,0
+Football,Spain,League,2009,Xerez,Vicente,Moreno,22,1,0
+Football,Spain,League,2009,Xerez,Emilio,Viqueira,17,0,0
+Football,Spain,League,2009,Xerez,Antonito,,25,3,1
+Football,Spain,League,2009,Xerez,Abel,Gomez,17,0,1
+Football,Spain,League,2009,Xerez,Matias,Alustiza,11,1,0
+Football,Spain,League,2009,Xerez,Giancarlo,Maldonado,9,0,0

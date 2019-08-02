@@ -1,0 +1,27 @@
+Football,England,League,2010,Manchester City,Carlos,Tevez,31,20,6
+Football,England,League,2010,Manchester City,Vincent,Kompany,37,0,1
+Football,England,League,2010,Manchester City,Pablo,Zabaleta,26,0,0
+Football,England,League,2010,Manchester City,Yaya,Toure,35,8,4
+Football,England,League,2010,Manchester City,David,Silva,35,4,7
+Football,England,League,2010,Manchester City,Kolo,Toure,22,1,0
+Football,England,League,2010,Manchester City,Gareth,Barry,33,2,2
+Football,England,League,2010,Manchester City,Nigel,de Jong,32,1,1
+Football,England,League,2010,Manchester City,Joleon,Lescott,22,3,1
+Football,England,League,2010,Manchester City,Micah,Richards,18,1,1
+Football,England,League,2010,Manchester City,Joe,Hart,38,0,0
+Football,England,League,2010,Manchester City,Jerome,Boateng,16,0,0
+Football,England,League,2010,Manchester City,Aleksandar,Kolarov,24,1,0
+Football,England,League,2010,Manchester City,Mario,Balotelli,17,6,0
+Football,England,League,2010,Manchester City,Adam,Johnson,31,4,5
+Football,England,League,2010,Manchester City,James,Milner,32,0,6
+Football,England,League,2010,Manchester City,Edin,Dzeko,15,2,2
+Football,England,League,2010,Manchester City,Dedryck,Boyata,7,0,0
+Football,England,League,2010,Manchester City,Patrick,Vieira,15,2,0
+Football,England,League,2010,Manchester City,Emmanuel,Adebayor,8,1,0
+Football,England,League,2010,Manchester City,Shaun,Wright-Phillips,7,0,0
+Football,England,League,2010,Manchester City,Jo,,12,0,0
+Football,England,League,2010,Manchester City,Wayne,Bridge,3,0,0
+Football,England,League,2010,Manchester City,Ryan,McGivern,1,0,0
+Football,England,League,2010,Manchester City,Reece,Wabara,1,0,0
+Football,England,League,2010,Manchester City,Abdul,Razak,1,0,0
+Football,England,League,2010,Manchester City,Roque,Santa Cruz,1,0,0

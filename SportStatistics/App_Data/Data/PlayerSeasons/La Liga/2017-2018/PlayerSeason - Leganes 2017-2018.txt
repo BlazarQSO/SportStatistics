@@ -1,0 +1,28 @@
+Football,Spain,League,2017,Leganes,Gabriel,Pires,29,5,2
+Football,Spain,League,2017,Leganes,Diego,Rico,26,2,2
+Football,Spain,League,2017,Leganes,Ruben,Perez,31,0,0
+Football,Spain,League,2017,Leganes,Joseba,Zaldua,30,1,0
+Football,Spain,League,2017,Leganes,Dimitrios,Siovas,24,1,1
+Football,Spain,League,2017,Leganes,Unai,Bustinza,20,2,0
+Football,Spain,League,2017,Leganes,Alexander,Szymanowski,13,2,2
+Football,Spain,League,2017,Leganes,Ezequiel,Munoz,19,0,1
+Football,Spain,League,2017,Leganes,Raul,Garcia,19,0,2
+Football,Spain,League,2017,Leganes,Martin,Mantovani,14,1,0
+Football,Spain,League,2017,Leganes,Ivan,Cuellar,35,0,0
+Football,Spain,League,2017,Leganes,Nabil,El Zhar,30,2,2
+Football,Spain,League,2017,Leganes,Mauro,Dos Santos,14,0,0
+Football,Spain,League,2017,Leganes,Guerrero,,22,4,3
+Football,Spain,League,2017,Leganes,Omar,Ramos,23,0,1
+Football,Spain,League,2017,Leganes,Darko,Brasanac,23,2,0
+Football,Spain,League,2017,Leganes,Javier,Eraso,34,4,3
+Football,Spain,League,2017,Leganes,Sergio,Arribas,1,0,0
+Football,Spain,League,2017,Leganes,Jon,Serantes,1,0,0
+Football,Spain,League,2017,Leganes,Nordin,Amrabat,30,2,4
+Football,Spain,League,2017,Leganes,Gerard,Gumbau,25,1,0
+Football,Spain,League,2017,Leganes,Tito,,9,0,0
+Football,Spain,League,2017,Leganes,Alex,Mozo,1,0,0
+Football,Spain,League,2017,Leganes,Claudio,Beauvue,28,2,0
+Football,Spain,League,2017,Leganes,Naranjo,,16,1,0
+Football,Spain,League,2017,Leganes,Jaime,Sierra,2,0,0
+Football,Spain,League,2017,Leganes,Erik,Moran,6,0,0
+Football,Spain,League,2017,Leganes,Nereo,Champagne,2,0,0

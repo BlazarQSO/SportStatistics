@@ -1,0 +1,31 @@
+Football,England,League,2011,Blackburn,Christopher,Samba,16,2,2
+Football,England,League,2011,Blackburn,David,Junior Hoilett,34,7,5
+Football,England,League,2011,Blackburn,Mark,Bunn,3,0,0
+Football,England,League,2011,Blackburn,Morten,Gamst Pedersen,33,3,4
+Football,England,League,2011,Blackburn,Steven,Nzonzi,32,2,5
+Football,England,League,2011,Blackburn,Adam,Henley,7,0,0
+Football,England,League,2011,Blackburn,Yakubu,,30,17,2
+Football,England,League,2011,Blackburn,Mauro,Formica,34,4,1
+Football,England,League,2011,Blackburn,Ruben,Rochina,18,2,0
+Football,England,League,2011,Blackburn,Grant,Hanley,23,1,0
+Football,England,League,2011,Blackburn,Gael,Givet,22,0,1
+Football,England,League,2011,Blackburn,David,Dunn,26,2,1
+Football,England,League,2011,Blackburn,Scott,Dann,27,1,1
+Football,England,League,2011,Blackburn,Martin,Olsson,27,0,2
+Football,England,League,2011,Blackburn,Jason,Lowe,32,0,1
+Football,England,League,2011,Blackburn,Simon,Vukcevic,7,1,1
+Football,England,League,2011,Blackburn,Ryan,Nelsen,1,0,0
+Football,England,League,2011,Blackburn,Brett,Emerton,2,0,0
+Football,England,League,2011,Blackburn,Marcus,Olsson,12,0,1
+Football,England,League,2011,Blackburn,Michel,Salgado,9,0,0
+Football,England,League,2011,Blackburn,Jake,Kean,1,0,0
+Football,England,League,2011,Blackburn,Bradley,Orr,12,0,2
+Football,England,League,2011,Blackburn,Vince,Grella,1,0,0
+Football,England,League,2011,Blackburn,Radosav,Petrovic,19,0,0
+Football,England,League,2011,Blackburn,David,Goodwillie,20,2,0
+Football,England,League,2011,Blackburn,Paul,Robinson,34,0,0
+Football,England,League,2011,Blackburn,Josh,Morris,2,0,0
+Football,England,League,2011,Blackburn,Jason,Roberts,10,0,1
+Football,England,League,2011,Blackburn,Jordan,Slew,1,0,0
+Football,England,League,2011,Blackburn,Nick,Blackman,1,0,0
+Football,England,League,2011,Blackburn,Anthony,Modeste,9,0,0

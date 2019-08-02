@@ -1,0 +1,26 @@
+Football,England,League,2012,Chelsea,Eden,Hazard,34,9,11
+Football,England,League,2012,Chelsea,Juan,Mata,35,12,12
+Football,England,League,2012,Chelsea,David,Luiz,30,2,2
+Football,England,League,2012,Chelsea,Branislav,Ivanovic,34,5,1
+Football,England,League,2012,Chelsea,Ramires,,35,5,1
+Football,England,League,2012,Chelsea,Frank,Lampard,29,15,1
+Football,England,League,2012,Chelsea,Gary,Cahill,26,2,2
+Football,England,League,2012,Chelsea,John,Terry,14,4,0
+Football,England,League,2012,Chelsea,Oscar,,34,4,5
+Football,England,League,2012,Chelsea,Fernando,Torres,36,8,6
+Football,England,League,2012,Chelsea,Cesar,Azpilicueta,27,0,4
+Football,England,League,2012,Chelsea,Lucas,Piazon,1,0,1
+Football,England,League,2012,Chelsea,Petr,Cech,36,0,0
+Football,England,League,2012,Chelsea,Ashley,Cole,31,1,2
+Football,England,League,2012,Chelsea,John,Obi Mikel,22,0,0
+Football,England,League,2012,Chelsea,Demba,Ba,14,2,0
+Football,England,League,2012,Chelsea,Victor,Moses,23,1,1
+Football,England,League,2012,Chelsea,Oriol,Romeu,6,0,0
+Football,England,League,2012,Chelsea,Raul,Meireles,3,0,0
+Football,England,League,2012,Chelsea,Ryan,Bertrand,19,0,0
+Football,England,League,2012,Chelsea,Daniel,Sturridge,7,1,0
+Football,England,League,2012,Chelsea,Nathan,Ake,3,0,0
+Football,England,League,2012,Chelsea,Marko,Marin,6,1,1
+Football,England,League,2012,Chelsea,Ross,Turnbull,3,0,0
+Football,England,League,2012,Chelsea,Yossi,Benayoun,6,0,0
+Football,England,League,2012,Chelsea,Paulo,Ferreira,2,0,0

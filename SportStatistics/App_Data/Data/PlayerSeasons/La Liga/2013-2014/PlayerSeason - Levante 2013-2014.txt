@@ -1,0 +1,28 @@
+Football,Spain,League,2013,Levante,Keylor,Navas,37,0,0
+Football,Spain,League,2013,Levante,Javi,Jimenez,2,0,0
+Football,Spain,League,2013,Levante,Pape,Diop,34,4,0
+Football,Spain,League,2013,Levante,Simao,Mate,31,1,0
+Football,Spain,League,2013,Levante,Juanfran,,35,0,1
+Football,Spain,League,2013,Levante,Loukas,Vyntra,33,2,0
+Football,Spain,League,2013,Levante,David,Navarro,29,1,0
+Football,Spain,League,2013,Levante,David,Barral,32,7,0
+Football,Spain,League,2013,Levante,Pedro,Lopez,32,1,1
+Football,Spain,League,2013,Levante,Hector,Rodas,15,0,0
+Football,Spain,League,2013,Levante,Issam,El Adoua,17,0,0
+Football,Spain,League,2013,Levante,Victor,Casadesus,14,1,2
+Football,Spain,League,2013,Levante,Pedro,Rios,13,1,1
+Football,Spain,League,2013,Levante,Andreas,Ivanschitz,29,3,5
+Football,Spain,League,2013,Levante,Ruben,Garcia,32,2,0
+Football,Spain,League,2013,Levante,Christian,Lell,5,0,0
+Football,Spain,League,2013,Levante,Nikos,Karampelas,16,0,1
+Football,Spain,League,2013,Levante,Mohamed,Sissoko,10,0,0
+Football,Spain,League,2013,Levante,Nabil,El Zhar,24,4,3
+Football,Spain,League,2013,Levante,Papa,Baba Diawara,20,3,2
+Football,Spain,League,2013,Levante,Jordi,Xumetra,25,1,3
+Football,Spain,League,2013,Levante,Sergio,da Silva Pinto,18,0,1
+Football,Spain,League,2013,Levante,Nagore,,4,0,0
+Football,Spain,League,2013,Levante,Miguel,Pallardo,3,0,0
+Football,Spain,League,2013,Levante,Victor,Camarasa,3,0,0
+Football,Spain,League,2013,Levante,Angel,Rodriguez,9,2,0
+Football,Spain,League,2013,Levante,Jason,,1,0,0
+Football,Spain,League,2013,Levante,Aloys,Nong,6,0,0

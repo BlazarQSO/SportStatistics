@@ -1,0 +1,27 @@
+Football,England,League,2017,Liverpool,Coutinho,,14,7,6
+Football,England,League,2017,Liverpool,Mohamed,Salah,36,32,10
+Football,England,League,2017,Liverpool,Roberto,Firmino,37,15,7
+Football,England,League,2017,Liverpool,Virgil,van Dijk,14,0,0
+Football,England,League,2017,Liverpool,Emre,Can,26,3,4
+Football,England,League,2017,Liverpool,Sadio,Mane,29,10,7
+Football,England,League,2017,Liverpool,Joe,Gomez,23,0,2
+Football,England,League,2017,Liverpool,Andrew,Robertson,22,1,5
+Football,England,League,2017,Liverpool,Trent,Alexander-Arnold,19,1,1
+Football,England,League,2017,Liverpool,Dejan,Lovren,29,2,1
+Football,England,League,2017,Liverpool,Jordan,Henderson,27,1,1
+Football,England,League,2017,Liverpool,Joel,Matip,25,1,0
+Football,England,League,2017,Liverpool,Alex,Oxlade Chamberlain,32,3,7
+Football,England,League,2017,Liverpool,Ragnar,Klavan,19,1,0
+Football,England,League,2017,Liverpool,Alberto,Moreno,16,0,0
+Football,England,League,2017,Liverpool,Georginio,Wijnaldum,33,1,2
+Football,England,League,2017,Liverpool,James,Milner,32,0,3
+Football,England,League,2017,Liverpool,Daniel,Sturridge,9,2,1
+Football,England,League,2017,Liverpool,Loris,Karius,19,0,0
+Football,England,League,2017,Liverpool,Simon,Mignolet,19,0,0
+Football,England,League,2017,Liverpool,Dominic,Solanke,21,1,1
+Football,England,League,2017,Liverpool,Danny,Ings,8,1,0
+Football,England,League,2017,Liverpool,Nathaniel,Clyne,3,0,0
+Football,England,League,2017,Liverpool,Adam,Lallana,12,0,0
+Football,England,League,2017,Liverpool,Ben,Woodburn,1,0,0
+Football,England,League,2017,Liverpool,Marko,Grujic,3,0,0
+Football,England,League,2017,Liverpool,Divock,Origi,1,0,0

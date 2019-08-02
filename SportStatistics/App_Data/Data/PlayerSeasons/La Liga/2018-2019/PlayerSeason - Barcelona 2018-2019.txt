@@ -1,0 +1,30 @@
+Football,Spain,League,2018,Barcelona,Lionel,Messi,34,36,13
+Football,Spain,League,2018,Barcelona,Luis,Suarez,33,21,6
+Football,Spain,League,2018,Barcelona,Ousmane,Dembele,29,8,5
+Football,Spain,League,2018,Barcelona,Gerard,Pique,35,4,2
+Football,Spain,League,2018,Barcelona,Ivan,Rakitic,34,3,5
+Football,Spain,League,2018,Barcelona,Jordi,Alba,36,2,8
+Football,Spain,League,2018,Barcelona,Sergio,Busquets,35,0,1
+Football,Spain,League,2018,Barcelona,Jean-Clair,Todibo,2,0,0
+Football,Spain,League,2018,Barcelona,Coutinho,,34,5,2
+Football,Spain,League,2018,Barcelona,Sergi,Roberto,29,0,7
+Football,Spain,League,2018,Barcelona,Arturo,Vidal,33,3,7
+Football,Spain,League,2018,Barcelona,Clement,Lenglet,23,1,0
+Football,Spain,League,2018,Barcelona,Marc-Andre,ter Stegen,35,0,0
+Football,Spain,League,2018,Barcelona,Nelson,Semedo,26,1,0
+Football,Spain,League,2018,Barcelona,Abel,Ruiz,1,0,0
+Football,Spain,League,2018,Barcelona,Moussa,Wague,3,0,0
+Football,Spain,League,2018,Barcelona,Samuel,Umtiti,14,0,1
+Football,Spain,League,2018,Barcelona,Malcom,,15,1,2
+Football,Spain,League,2018,Barcelona,Denis,Suarez,2,0,0
+Football,Spain,League,2018,Barcelona,Arthur,,27,0,1
+Football,Spain,League,2018,Barcelona,Jeison,Murillo,2,0,0
+Football,Spain,League,2018,Barcelona,Carles,Alena,17,2,0
+Football,Spain,League,2018,Barcelona,Riqui,Puig,2,0,0
+Football,Spain,League,2018,Barcelona,Munir,El Haddadi,7,1,1
+Football,Spain,League,2018,Barcelona,Thomas,Vermaelen,9,0,0
+Football,Spain,League,2018,Barcelona,Jasper,Cillessen,3,0,0
+Football,Spain,League,2018,Barcelona,Rafinha,,5,0,0
+Football,Spain,League,2018,Barcelona,Kevin-Prince,Boateng,3,0,0
+Football,Spain,League,2018,Barcelona,Carles,Perez,1,0,0
+Football,Spain,League,2018,Barcelona,Alex,Collado,1,0,0

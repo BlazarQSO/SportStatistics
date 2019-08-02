@@ -1,0 +1,28 @@
+Football,Spain,League,2013,Malaga,Ignacio,Camacho,33,5,1
+Football,Spain,League,2013,Malaga,Sergio,Sanchez,27,0,1
+Football,Spain,League,2013,Malaga,Weligton,,16,1,0
+Football,Spain,League,2013,Malaga,Nordin,Amrabat,15,2,4
+Football,Spain,League,2013,Malaga,Willy,Caballero,38,0,0
+Football,Spain,League,2013,Malaga,Roque,Santa Cruz,31,6,2
+Football,Spain,League,2013,Malaga,Duda,,24,2,5
+Football,Spain,League,2013,Malaga,Fernando,Tissone,26,1,1
+Football,Spain,League,2013,Malaga,Marcos,Angeleri,26,0,1
+Football,Spain,League,2013,Malaga,Vitorino,Antunes,36,0,2
+Football,Spain,League,2013,Malaga,Jesus,Gamez,28,0,2
+Football,Spain,League,2013,Malaga,Flavio,Ferreira,16,0,0
+Football,Spain,League,2013,Malaga,Sergi,Darder,29,1,2
+Football,Spain,League,2013,Malaga,Francisco,Portillo,24,3,1
+Football,Spain,League,2013,Malaga,Eliseu,,27,2,2
+Football,Spain,League,2013,Malaga,Samu,Garcia,27,4,2
+Football,Spain,League,2013,Malaga,Bobley,Anderson,8,0,1
+Football,Spain,League,2013,Malaga,Pablo,Perez,11,1,2
+Football,Spain,League,2013,Malaga,Mounir,El Hamdaoui,13,3,2
+Football,Spain,League,2013,Malaga,Pedro,Morales,15,1,0
+Football,Spain,League,2013,Malaga,Roberto,Chen,2,0,0
+Football,Spain,League,2013,Malaga,Aleksandr,Iakovenko,9,1,0
+Football,Spain,League,2013,Malaga,Juanmi,,22,4,0
+Football,Spain,League,2013,Malaga,Fabrice,Olinga,8,0,0
+Football,Spain,League,2013,Malaga,Sebastian,Fernandez,2,0,0
+Football,Spain,League,2013,Malaga,Ezequiel,Rescaldani,5,0,0
+Football,Spain,League,2013,Malaga,Bartlomiej,Pawlowski,8,1,0
+Football,Spain,League,2013,Malaga,Casado,,2,0,0

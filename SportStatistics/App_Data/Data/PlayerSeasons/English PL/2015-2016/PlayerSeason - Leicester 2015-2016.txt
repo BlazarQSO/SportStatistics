@@ -1,0 +1,23 @@
+Football,England,League,2015,Leicester,Riyad,Mahrez,37,17,11
+Football,England,League,2015,Leicester,N'Golo,Kante,37,1,4
+Football,England,League,2015,Leicester,Jamie,Vardy,36,24,6
+Football,England,League,2015,Leicester,Christian,Fuchs,32,0,4
+Football,England,League,2015,Leicester,Daniel,Drinkwater,35,2,7
+Football,England,League,2015,Leicester,Robert,Huth,35,3,0
+Football,England,League,2015,Leicester,Danny,Simpson,30,0,0
+Football,England,League,2015,Leicester,Wes,Morgan,38,2,0
+Football,England,League,2015,Leicester,Marc,Albrighton,38,2,6
+Football,England,League,2015,Leicester,Jeffrey,Schlupp,24,1,2
+Football,England,League,2015,Leicester,Ritchie,de Laet,12,1,0
+Football,England,League,2015,Leicester,Kasper,Schmeichel,38,0,0
+Football,England,League,2015,Leicester,Marcin,Wasilewski,4,0,0
+Football,England,League,2015,Leicester,Shinji,Okazaki,36,5,0
+Football,England,League,2015,Leicester,Leonardo,Ulloa,29,6,2
+Football,England,League,2015,Leicester,Andy,King,25,2,1
+Football,England,League,2015,Leicester,Gokhan,Inler,5,0,0
+Football,England,League,2015,Leicester,Demarai,Gray,12,0,1
+Football,England,League,2015,Leicester,Nathan,Dyer,12,1,1
+Football,England,League,2015,Leicester,Daniel,Amartey,5,0,0
+Football,England,League,2015,Leicester,Yohan,Benalouane,4,0,0
+Football,England,League,2015,Leicester,Andrej,Kramaric,2,0,0
+Football,England,League,2015,Leicester,Joseph,Dodoo,1,0,0

@@ -1,0 +1,27 @@
+Football,England,League,2013,Swansea,Chico,Flores,31,3,0
+Football,England,League,2013,Swansea,Ashley,Williams,34,1,1
+Football,England,League,2013,Swansea,Angel,Rangel,30,0,1
+Football,England,League,2013,Swansea,Wilfried,Bony,34,16,4
+Football,England,League,2013,Swansea,Jonjo,Shelvey,32,6,6
+Football,England,League,2013,Swansea,Ben,Davies,34,2,1
+Football,England,League,2013,Swansea,Roland,Lamah,9,2,2
+Football,England,League,2013,Swansea,Jonathan,de Guzman,34,4,4
+Football,England,League,2013,Swansea,Michu,,17,2,2
+Football,England,League,2013,Swansea,Kyle,Bartley,2,0,0
+Football,England,League,2013,Swansea,Nathan,Dyer,27,6,2
+Football,England,League,2013,Swansea,Leon,Britton,25,0,1
+Football,England,League,2013,Swansea,Pablo,Hernandez,27,2,7
+Football,England,League,2013,Swansea,Wayne,Routledge,35,2,4
+Football,England,League,2013,Swansea,Jordi,Amat,17,0,0
+Football,England,League,2013,Swansea,Dwight,Tiendalli,10,0,0
+Football,England,League,2013,Swansea,Neil,Taylor,10,0,1
+Football,England,League,2013,Swansea,Jose,Canas,23,0,0
+Football,England,League,2013,Swansea,Jay,Fulton,2,0,0
+Football,England,League,2013,Swansea,Michel,Vorm,26,0,0
+Football,England,League,2013,Swansea,Gerhard,Tremmel,12,0,0
+Football,England,League,2013,Swansea,Alejandro,Pozuelo,22,0,1
+Football,England,League,2013,Swansea,Marvin,Emnes,7,1,0
+Football,England,League,2013,Swansea,Alvaro,Vazquez,12,0,1
+Football,England,League,2013,Swansea,Ki,Sung-yueng,1,0,0
+Football,England,League,2013,Swansea,David,N'Gog,3,0,0
+Football,England,League,2013,Swansea,Leroy,Lita,2,0,0

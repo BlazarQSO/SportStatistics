@@ -1,0 +1,380 @@
+Football,England,League,2011,13/08/11,Blackburn,Wolverhampton Wanderers,1,2,A
+Football,England,League,2011,13/08/11,Fulham,Aston Villa,0,0,D
+Football,England,League,2011,13/08/11,Liverpool,Sunderland,1,1,D
+Football,England,League,2011,13/08/11,Newcastle United,Arsenal,0,0,D
+Football,England,League,2011,13/08/11,Queens Park Rangers,Bolton,0,4,A
+Football,England,League,2011,13/08/11,Wigan,Norwich,1,1,D
+Football,England,League,2011,14/08/11,Stoke,Chelsea,0,0,D
+Football,England,League,2011,14/08/11,West Bromwich Albion,Manchester United,1,2,A
+Football,England,League,2011,15/08/11,Manchester City,Swansea,4,0,H
+Football,England,League,2011,20/08/11,Arsenal,Liverpool,0,2,A
+Football,England,League,2011,20/08/11,Aston Villa,Blackburn,3,1,H
+Football,England,League,2011,20/08/11,Chelsea,West Bromwich Albion,2,1,H
+Football,England,League,2011,20/08/11,Everton,Queens Park Rangers,0,1,A
+Football,England,League,2011,20/08/11,Sunderland,Newcastle United,0,1,A
+Football,England,League,2011,20/08/11,Swansea,Wigan,0,0,D
+Football,England,League,2011,21/08/11,Bolton,Manchester City,2,3,A
+Football,England,League,2011,21/08/11,Norwich,Stoke,1,1,D
+Football,England,League,2011,21/08/11,Wolverhampton Wanderers,Fulham,2,0,H
+Football,England,League,2011,22/08/11,Manchester United,Tottenham,3,0,H
+Football,England,League,2011,27/08/11,Aston Villa,Wolverhampton Wanderers,0,0,D
+Football,England,League,2011,27/08/11,Blackburn,Everton,0,1,A
+Football,England,League,2011,27/08/11,Chelsea,Norwich,3,1,H
+Football,England,League,2011,27/08/11,Liverpool,Bolton,3,1,H
+Football,England,League,2011,27/08/11,Swansea,Sunderland,0,0,D
+Football,England,League,2011,27/08/11,Wigan,Queens Park Rangers,2,0,H
+Football,England,League,2011,28/08/11,Manchester United,Arsenal,8,2,H
+Football,England,League,2011,28/08/11,Newcastle United,Fulham,2,1,H
+Football,England,League,2011,28/08/11,Tottenham,Manchester City,1,5,A
+Football,England,League,2011,28/08/11,West Bromwich Albion,Stoke,0,1,A
+Football,England,League,2011,10/09/11,Arsenal,Swansea,1,0,H
+Football,England,League,2011,10/09/11,Bolton,Manchester United,0,5,A
+Football,England,League,2011,10/09/11,Everton,Aston Villa,2,2,D
+Football,England,League,2011,10/09/11,Manchester City,Wigan,3,0,H
+Football,England,League,2011,10/09/11,Stoke,Liverpool,1,0,H
+Football,England,League,2011,10/09/11,Sunderland,Chelsea,1,2,A
+Football,England,League,2011,10/09/11,Wolverhampton Wanderers,Tottenham,0,2,A
+Football,England,League,2011,11/09/11,Fulham,Blackburn,1,1,D
+Football,England,League,2011,11/09/11,Norwich,West Bromwich Albion,0,1,A
+Football,England,League,2011,12/09/11,Queens Park Rangers,Newcastle United,0,0,D
+Football,England,League,2011,17/09/11,Aston Villa,Newcastle United,1,1,D
+Football,England,League,2011,17/09/11,Blackburn,Arsenal,4,3,H
+Football,England,League,2011,17/09/11,Bolton,Norwich,1,2,A
+Football,England,League,2011,17/09/11,Everton,Wigan,3,1,H
+Football,England,League,2011,17/09/11,Swansea,West Bromwich Albion,3,0,H
+Football,England,League,2011,17/09/11,Wolverhampton Wanderers,Queens Park Rangers,0,3,A
+Football,England,League,2011,18/09/11,Fulham,Manchester City,2,2,D
+Football,England,League,2011,18/09/11,Manchester United,Chelsea,3,1,H
+Football,England,League,2011,18/09/11,Sunderland,Stoke,4,0,H
+Football,England,League,2011,18/09/11,Tottenham,Liverpool,4,0,H
+Football,England,League,2011,24/09/11,Arsenal,Bolton,3,0,H
+Football,England,League,2011,24/09/11,Chelsea,Swansea,4,1,H
+Football,England,League,2011,24/09/11,Liverpool,Wolverhampton Wanderers,2,1,H
+Football,England,League,2011,24/09/11,Manchester City,Everton,2,0,H
+Football,England,League,2011,24/09/11,Newcastle United,Blackburn,3,1,H
+Football,England,League,2011,24/09/11,Stoke,Manchester United,1,1,D
+Football,England,League,2011,24/09/11,West Bromwich Albion,Fulham,0,0,D
+Football,England,League,2011,24/09/11,Wigan,Tottenham,1,2,A
+Football,England,League,2011,25/09/11,Queens Park Rangers,Aston Villa,1,1,D
+Football,England,League,2011,26/09/11,Norwich,Sunderland,2,1,H
+Football,England,League,2011,01/10/11,Aston Villa,Wigan,2,0,H
+Football,England,League,2011,01/10/11,Blackburn,Manchester City,0,4,A
+Football,England,League,2011,01/10/11,Everton,Liverpool,0,2,A
+Football,England,League,2011,01/10/11,Manchester United,Norwich,2,0,H
+Football,England,League,2011,01/10/11,Sunderland,West Bromwich Albion,2,2,D
+Football,England,League,2011,01/10/11,Wolverhampton Wanderers,Newcastle United,1,2,A
+Football,England,League,2011,02/10/11,Bolton,Chelsea,1,5,A
+Football,England,League,2011,02/10/11,Fulham,Queens Park Rangers,6,0,H
+Football,England,League,2011,02/10/11,Swansea,Stoke,2,0,H
+Football,England,League,2011,02/10/11,Tottenham,Arsenal,2,1,H
+Football,England,League,2011,15/10/11,Chelsea,Everton,3,1,H
+Football,England,League,2011,15/10/11,Liverpool,Manchester United,1,1,D
+Football,England,League,2011,15/10/11,Manchester City,Aston Villa,4,1,H
+Football,England,League,2011,15/10/11,Norwich,Swansea,3,1,H
+Football,England,League,2011,15/10/11,Queens Park Rangers,Blackburn,1,1,D
+Football,England,League,2011,15/10/11,Stoke,Fulham,2,0,H
+Football,England,League,2011,15/10/11,Wigan,Bolton,1,3,A
+Football,England,League,2011,16/10/11,Arsenal,Sunderland,2,1,H
+Football,England,League,2011,16/10/11,Newcastle United,Tottenham,2,2,D
+Football,England,League,2011,16/10/11,West Bromwich Albion,Wolverhampton Wanderers,2,0,H
+Football,England,League,2011,22/10/11,Aston Villa,West Bromwich Albion,1,2,A
+Football,England,League,2011,22/10/11,Bolton,Sunderland,0,2,A
+Football,England,League,2011,22/10/11,Liverpool,Norwich,1,1,D
+Football,England,League,2011,22/10/11,Newcastle United,Wigan,1,0,H
+Football,England,League,2011,22/10/11,Wolverhampton Wanderers,Swansea,2,2,D
+Football,England,League,2011,23/10/11,Arsenal,Stoke,3,1,H
+Football,England,League,2011,23/10/11,Blackburn,Tottenham,1,2,A
+Football,England,League,2011,23/10/11,Fulham,Everton,1,3,A
+Football,England,League,2011,23/10/11,Manchester United,Manchester City,1,6,A
+Football,England,League,2011,23/10/11,Queens Park Rangers,Chelsea,1,0,H
+Football,England,League,2011,29/10/11,Chelsea,Arsenal,3,5,A
+Football,England,League,2011,29/10/11,Everton,Manchester United,0,1,A
+Football,England,League,2011,29/10/11,Manchester City,Wolverhampton Wanderers,3,1,H
+Football,England,League,2011,29/10/11,Norwich,Blackburn,3,3,D
+Football,England,League,2011,29/10/11,Sunderland,Aston Villa,2,2,D
+Football,England,League,2011,29/10/11,Swansea,Bolton,3,1,H
+Football,England,League,2011,29/10/11,West Bromwich Albion,Liverpool,0,2,A
+Football,England,League,2011,29/10/11,Wigan,Fulham,0,2,A
+Football,England,League,2011,30/10/11,Tottenham,Queens Park Rangers,3,1,H
+Football,England,League,2011,31/10/11,Stoke,Newcastle United,1,3,A
+Football,England,League,2011,05/11/11,Arsenal,West Bromwich Albion,3,0,H
+Football,England,League,2011,05/11/11,Aston Villa,Norwich,3,2,H
+Football,England,League,2011,05/11/11,Blackburn,Chelsea,0,1,A
+Football,England,League,2011,05/11/11,Liverpool,Swansea,0,0,D
+Football,England,League,2011,05/11/11,Manchester United,Sunderland,1,0,H
+Football,England,League,2011,05/11/11,Newcastle United,Everton,2,1,H
+Football,England,League,2011,05/11/11,Queens Park Rangers,Manchester City,2,3,A
+Football,England,League,2011,06/11/11,Bolton,Stoke,5,0,H
+Football,England,League,2011,06/11/11,Fulham,Tottenham,1,3,A
+Football,England,League,2011,06/11/11,Wolverhampton Wanderers,Wigan,3,1,H
+Football,England,League,2011,19/11/11,Everton,Wolverhampton Wanderers,2,1,H
+Football,England,League,2011,19/11/11,Manchester City,Newcastle United,3,1,H
+Football,England,League,2011,19/11/11,Norwich,Arsenal,1,2,A
+Football,England,League,2011,19/11/11,Stoke,Queens Park Rangers,2,3,A
+Football,England,League,2011,19/11/11,Sunderland,Fulham,0,0,D
+Football,England,League,2011,19/11/11,Swansea,Manchester United,0,1,A
+Football,England,League,2011,19/11/11,West Bromwich Albion,Bolton,2,1,H
+Football,England,League,2011,19/11/11,Wigan,Blackburn,3,3,D
+Football,England,League,2011,20/11/11,Chelsea,Liverpool,1,2,A
+Football,England,League,2011,21/11/11,Tottenham,Aston Villa,2,0,H
+Football,England,League,2011,26/11/11,Arsenal,Fulham,1,1,D
+Football,England,League,2011,26/11/11,Bolton,Everton,0,2,A
+Football,England,League,2011,26/11/11,Chelsea,Wolverhampton Wanderers,3,0,H
+Football,England,League,2011,26/11/11,Manchester United,Newcastle United,1,1,D
+Football,England,League,2011,26/11/11,Norwich,Queens Park Rangers,2,1,H
+Football,England,League,2011,26/11/11,Stoke,Blackburn,3,1,H
+Football,England,League,2011,26/11/11,Sunderland,Wigan,1,2,A
+Football,England,League,2011,26/11/11,West Bromwich Albion,Tottenham,1,3,A
+Football,England,League,2011,27/11/11,Liverpool,Manchester City,1,1,D
+Football,England,League,2011,27/11/11,Swansea,Aston Villa,0,0,D
+Football,England,League,2011,03/12/11,Aston Villa,Manchester United,0,1,A
+Football,England,League,2011,03/12/11,Blackburn,Swansea,4,2,H
+Football,England,League,2011,03/12/11,Manchester City,Norwich,5,1,H
+Football,England,League,2011,03/12/11,Newcastle United,Chelsea,0,3,A
+Football,England,League,2011,03/12/11,Queens Park Rangers,West Bromwich Albion,1,1,D
+Football,England,League,2011,03/12/11,Tottenham,Bolton,3,0,H
+Football,England,League,2011,03/12/11,Wigan,Arsenal,0,4,A
+Football,England,League,2011,04/12/11,Everton,Stoke,0,1,A
+Football,England,League,2011,04/12/11,Wolverhampton Wanderers,Sunderland,2,1,H
+Football,England,League,2011,05/12/11,Fulham,Liverpool,1,0,H
+Football,England,League,2011,10/12/11,Arsenal,Everton,1,0,H
+Football,England,League,2011,10/12/11,Bolton,Aston Villa,1,2,A
+Football,England,League,2011,10/12/11,Liverpool,Queens Park Rangers,1,0,H
+Football,England,League,2011,10/12/11,Manchester United,Wolverhampton Wanderers,4,1,H
+Football,England,League,2011,10/12/11,Norwich,Newcastle United,4,2,H
+Football,England,League,2011,10/12/11,Swansea,Fulham,2,0,H
+Football,England,League,2011,10/12/11,West Bromwich Albion,Wigan,1,2,A
+Football,England,League,2011,11/12/11,Stoke,Tottenham,2,1,H
+Football,England,League,2011,11/12/11,Sunderland,Blackburn,2,1,H
+Football,England,League,2011,12/12/11,Chelsea,Manchester City,2,1,H
+Football,England,League,2011,17/12/11,Blackburn,West Bromwich Albion,1,2,A
+Football,England,League,2011,17/12/11,Everton,Norwich,1,1,D
+Football,England,League,2011,17/12/11,Fulham,Bolton,2,0,H
+Football,England,League,2011,17/12/11,Newcastle United,Swansea,0,0,D
+Football,England,League,2011,17/12/11,Wigan,Chelsea,1,1,D
+Football,England,League,2011,17/12/11,Wolverhampton Wanderers,Stoke,1,2,A
+Football,England,League,2011,18/12/11,Aston Villa,Liverpool,0,2,A
+Football,England,League,2011,18/12/11,Manchester City,Arsenal,1,0,H
+Football,England,League,2011,18/12/11,Queens Park Rangers,Manchester United,0,2,A
+Football,England,League,2011,18/12/11,Tottenham,Sunderland,1,0,H
+Football,England,League,2011,20/12/11,Blackburn,Bolton,1,2,A
+Football,England,League,2011,20/12/11,Wolverhampton Wanderers,Norwich,2,2,D
+Football,England,League,2011,21/12/11,Aston Villa,Arsenal,1,2,A
+Football,England,League,2011,21/12/11,Everton,Swansea,1,0,H
+Football,England,League,2011,21/12/11,Fulham,Manchester United,0,5,A
+Football,England,League,2011,21/12/11,Manchester City,Stoke,3,0,H
+Football,England,League,2011,21/12/11,Newcastle United,West Bromwich Albion,2,3,A
+Football,England,League,2011,21/12/11,Queens Park Rangers,Sunderland,2,3,A
+Football,England,League,2011,21/12/11,Wigan,Liverpool,0,0,D
+Football,England,League,2011,22/12/11,Tottenham,Chelsea,1,1,D
+Football,England,League,2011,26/12/11,Bolton,Newcastle United,0,2,A
+Football,England,League,2011,26/12/11,Chelsea,Fulham,1,1,D
+Football,England,League,2011,26/12/11,Liverpool,Blackburn,1,1,D
+Football,England,League,2011,26/12/11,Manchester United,Wigan,5,0,H
+Football,England,League,2011,26/12/11,Stoke,Aston Villa,0,0,D
+Football,England,League,2011,26/12/11,Sunderland,Everton,1,1,D
+Football,England,League,2011,26/12/11,West Bromwich Albion,Manchester City,0,0,D
+Football,England,League,2011,27/12/11,Arsenal,Wolverhampton Wanderers,1,1,D
+Football,England,League,2011,27/12/11,Norwich,Tottenham,0,2,A
+Football,England,League,2011,27/12/11,Swansea,Queens Park Rangers,1,1,D
+Football,England,League,2011,30/12/11,Liverpool,Newcastle United,3,1,H
+Football,England,League,2011,31/12/11,Arsenal,Queens Park Rangers,1,0,H
+Football,England,League,2011,31/12/11,Bolton,Wolverhampton Wanderers,1,1,D
+Football,England,League,2011,31/12/11,Chelsea,Aston Villa,1,3,A
+Football,England,League,2011,31/12/11,Manchester United,Blackburn,2,3,A
+Football,England,League,2011,31/12/11,Norwich,Fulham,1,1,D
+Football,England,League,2011,31/12/11,Stoke,Wigan,2,2,D
+Football,England,League,2011,31/12/11,Swansea,Tottenham,1,1,D
+Football,England,League,2011,01/01/12,Sunderland,Manchester City,1,0,H
+Football,England,League,2011,01/01/12,West Bromwich Albion,Everton,0,1,A
+Football,England,League,2011,02/01/12,Aston Villa,Swansea,0,2,A
+Football,England,League,2011,02/01/12,Blackburn,Stoke,1,2,A
+Football,England,League,2011,02/01/12,Fulham,Arsenal,2,1,H
+Football,England,League,2011,02/01/12,Queens Park Rangers,Norwich,1,2,A
+Football,England,League,2011,02/01/12,Wolverhampton Wanderers,Chelsea,1,2,A
+Football,England,League,2011,03/01/12,Manchester City,Liverpool,3,0,H
+Football,England,League,2011,03/01/12,Tottenham,West Bromwich Albion,1,0,H
+Football,England,League,2011,03/01/12,Wigan,Sunderland,1,4,A
+Football,England,League,2011,04/01/12,Everton,Bolton,1,2,A
+Football,England,League,2011,04/01/12,Newcastle United,Manchester United,3,0,H
+Football,England,League,2011,11/01/12,Tottenham,Everton,2,0,H
+Football,England,League,2011,14/01/12,Aston Villa,Everton,1,1,D
+Football,England,League,2011,14/01/12,Blackburn,Fulham,3,1,H
+Football,England,League,2011,14/01/12,Chelsea,Sunderland,1,0,H
+Football,England,League,2011,14/01/12,Liverpool,Stoke,0,0,D
+Football,England,League,2011,14/01/12,Manchester United,Bolton,3,0,H
+Football,England,League,2011,14/01/12,Tottenham,Wolverhampton Wanderers,1,1,D
+Football,England,League,2011,14/01/12,West Bromwich Albion,Norwich,1,2,A
+Football,England,League,2011,15/01/12,Newcastle United,Queens Park Rangers,1,0,H
+Football,England,League,2011,15/01/12,Swansea,Arsenal,3,2,H
+Football,England,League,2011,16/01/12,Wigan,Manchester City,0,1,A
+Football,England,League,2011,21/01/12,Bolton,Liverpool,3,1,H
+Football,England,League,2011,21/01/12,Everton,Blackburn,1,1,D
+Football,England,League,2011,21/01/12,Fulham,Newcastle United,5,2,H
+Football,England,League,2011,21/01/12,Norwich,Chelsea,0,0,D
+Football,England,League,2011,21/01/12,Queens Park Rangers,Wigan,3,1,H
+Football,England,League,2011,21/01/12,Stoke,West Bromwich Albion,1,2,A
+Football,England,League,2011,21/01/12,Sunderland,Swansea,2,0,H
+Football,England,League,2011,21/01/12,Wolverhampton Wanderers,Aston Villa,2,3,A
+Football,England,League,2011,22/01/12,Arsenal,Manchester United,1,2,A
+Football,England,League,2011,22/01/12,Manchester City,Tottenham,3,2,H
+Football,England,League,2011,31/01/12,Everton,Manchester City,1,0,H
+Football,England,League,2011,31/01/12,Manchester United,Stoke,2,0,H
+Football,England,League,2011,31/01/12,Swansea,Chelsea,1,1,D
+Football,England,League,2011,31/01/12,Tottenham,Wigan,3,1,H
+Football,England,League,2011,31/01/12,Wolverhampton Wanderers,Liverpool,0,3,A
+Football,England,League,2011,01/02/12,Aston Villa,Queens Park Rangers,2,2,D
+Football,England,League,2011,01/02/12,Blackburn,Newcastle United,0,2,A
+Football,England,League,2011,01/02/12,Bolton,Arsenal,0,0,D
+Football,England,League,2011,01/02/12,Fulham,West Bromwich Albion,1,1,D
+Football,England,League,2011,01/02/12,Sunderland,Norwich,3,0,H
+Football,England,League,2011,04/02/12,Arsenal,Blackburn,7,1,H
+Football,England,League,2011,04/02/12,Manchester City,Fulham,3,0,H
+Football,England,League,2011,04/02/12,Norwich,Bolton,2,0,H
+Football,England,League,2011,04/02/12,Queens Park Rangers,Wolverhampton Wanderers,1,2,A
+Football,England,League,2011,04/02/12,Stoke,Sunderland,0,1,A
+Football,England,League,2011,04/02/12,West Bromwich Albion,Swansea,1,2,A
+Football,England,League,2011,04/02/12,Wigan,Everton,1,1,D
+Football,England,League,2011,05/02/12,Chelsea,Manchester United,3,3,D
+Football,England,League,2011,05/02/12,Newcastle United,Aston Villa,2,1,H
+Football,England,League,2011,06/02/12,Liverpool,Tottenham,0,0,D
+Football,England,League,2011,11/02/12,Blackburn,Queens Park Rangers,3,2,H
+Football,England,League,2011,11/02/12,Bolton,Wigan,1,2,A
+Football,England,League,2011,11/02/12,Everton,Chelsea,2,0,H
+Football,England,League,2011,11/02/12,Fulham,Stoke,2,1,H
+Football,England,League,2011,11/02/12,Manchester United,Liverpool,2,1,H
+Football,England,League,2011,11/02/12,Sunderland,Arsenal,1,2,A
+Football,England,League,2011,11/02/12,Swansea,Norwich,2,3,A
+Football,England,League,2011,11/02/12,Tottenham,Newcastle United,5,0,H
+Football,England,League,2011,12/02/12,Aston Villa,Manchester City,0,1,A
+Football,England,League,2011,12/02/12,Wolverhampton Wanderers,West Bromwich Albion,1,5,A
+Football,England,League,2011,25/02/12,Chelsea,Bolton,3,0,H
+Football,England,League,2011,25/02/12,Manchester City,Blackburn,3,0,H
+Football,England,League,2011,25/02/12,Newcastle United,Wolverhampton Wanderers,2,2,D
+Football,England,League,2011,25/02/12,Queens Park Rangers,Fulham,0,1,A
+Football,England,League,2011,25/02/12,West Bromwich Albion,Sunderland,4,0,H
+Football,England,League,2011,25/02/12,Wigan,Aston Villa,0,0,D
+Football,England,League,2011,26/02/12,Arsenal,Tottenham,5,2,H
+Football,England,League,2011,26/02/12,Norwich,Manchester United,1,2,A
+Football,England,League,2011,26/02/12,Stoke,Swansea,2,0,H
+Football,England,League,2011,03/03/12,Blackburn,Aston Villa,1,1,D
+Football,England,League,2011,03/03/12,Liverpool,Arsenal,1,2,A
+Football,England,League,2011,03/03/12,Manchester City,Bolton,2,0,H
+Football,England,League,2011,03/03/12,Queens Park Rangers,Everton,1,1,D
+Football,England,League,2011,03/03/12,Stoke,Norwich,1,0,H
+Football,England,League,2011,03/03/12,West Bromwich Albion,Chelsea,1,0,H
+Football,England,League,2011,03/03/12,Wigan,Swansea,0,2,A
+Football,England,League,2011,04/03/12,Fulham,Wolverhampton Wanderers,5,0,H
+Football,England,League,2011,04/03/12,Newcastle United,Sunderland,1,1,D
+Football,England,League,2011,04/03/12,Tottenham,Manchester United,1,3,A
+Football,England,League,2011,10/03/12,Aston Villa,Fulham,1,0,H
+Football,England,League,2011,10/03/12,Bolton,Queens Park Rangers,2,1,H
+Football,England,League,2011,10/03/12,Chelsea,Stoke,1,0,H
+Football,England,League,2011,10/03/12,Everton,Tottenham,1,0,H
+Football,England,League,2011,10/03/12,Sunderland,Liverpool,1,0,H
+Football,England,League,2011,10/03/12,Wolverhampton Wanderers,Blackburn,0,2,A
+Football,England,League,2011,11/03/12,Manchester United,West Bromwich Albion,2,0,H
+Football,England,League,2011,11/03/12,Norwich,Wigan,1,1,D
+Football,England,League,2011,11/03/12,Swansea,Manchester City,1,0,H
+Football,England,League,2011,12/03/12,Arsenal,Newcastle United,2,1,H
+Football,England,League,2011,13/03/12,Liverpool,Everton,3,0,H
+Football,England,League,2011,17/03/12,Fulham,Swansea,0,3,A
+Football,England,League,2011,17/03/12,Wigan,West Bromwich Albion,1,1,D
+Football,England,League,2011,18/03/12,Newcastle United,Norwich,1,0,H
+Football,England,League,2011,18/03/12,Wolverhampton Wanderers,Manchester United,0,5,A
+Football,England,League,2011,20/03/12,Blackburn,Sunderland,2,0,H
+Football,England,League,2011,21/03/12,Everton,Arsenal,0,1,A
+Football,England,League,2011,21/03/12,Manchester City,Chelsea,2,1,H
+Football,England,League,2011,21/03/12,Queens Park Rangers,Liverpool,3,2,H
+Football,England,League,2011,21/03/12,Tottenham,Stoke,1,1,D
+Football,England,League,2011,24/03/12,Arsenal,Aston Villa,3,0,H
+Football,England,League,2011,24/03/12,Bolton,Blackburn,2,1,H
+Football,England,League,2011,24/03/12,Chelsea,Tottenham,0,0,D
+Football,England,League,2011,24/03/12,Liverpool,Wigan,1,2,A
+Football,England,League,2011,24/03/12,Norwich,Wolverhampton Wanderers,2,1,H
+Football,England,League,2011,24/03/12,Stoke,Manchester City,1,1,D
+Football,England,League,2011,24/03/12,Sunderland,Queens Park Rangers,3,1,H
+Football,England,League,2011,24/03/12,Swansea,Everton,0,2,A
+Football,England,League,2011,25/03/12,West Bromwich Albion,Newcastle United,1,3,A
+Football,England,League,2011,26/03/12,Manchester United,Fulham,1,0,H
+Football,England,League,2011,31/03/12,Aston Villa,Chelsea,2,4,A
+Football,England,League,2011,31/03/12,Everton,West Bromwich Albion,2,0,H
+Football,England,League,2011,31/03/12,Fulham,Norwich,2,1,H
+Football,England,League,2011,31/03/12,Manchester City,Sunderland,3,3,D
+Football,England,League,2011,31/03/12,Queens Park Rangers,Arsenal,2,1,H
+Football,England,League,2011,31/03/12,Wigan,Stoke,2,0,H
+Football,England,League,2011,31/03/12,Wolverhampton Wanderers,Bolton,2,3,A
+Football,England,League,2011,01/04/12,Newcastle United,Liverpool,2,0,H
+Football,England,League,2011,01/04/12,Tottenham,Swansea,3,1,H
+Football,England,League,2011,02/04/12,Blackburn,Manchester United,0,2,A
+Football,England,League,2011,06/04/12,Swansea,Newcastle United,0,2,A
+Football,England,League,2011,07/04/12,Bolton,Fulham,0,3,A
+Football,England,League,2011,07/04/12,Chelsea,Wigan,2,1,H
+Football,England,League,2011,07/04/12,Liverpool,Aston Villa,1,1,D
+Football,England,League,2011,07/04/12,Norwich,Everton,2,2,D
+Football,England,League,2011,07/04/12,Stoke,Wolverhampton Wanderers,2,1,H
+Football,England,League,2011,07/04/12,Sunderland,Tottenham,0,0,D
+Football,England,League,2011,07/04/12,West Bromwich Albion,Blackburn,3,0,H
+Football,England,League,2011,08/04/12,Arsenal,Manchester City,1,0,H
+Football,England,League,2011,08/04/12,Manchester United,Queens Park Rangers,2,0,H
+Football,England,League,2011,09/04/12,Aston Villa,Stoke,1,1,D
+Football,England,League,2011,09/04/12,Everton,Sunderland,4,0,H
+Football,England,League,2011,09/04/12,Fulham,Chelsea,1,1,D
+Football,England,League,2011,09/04/12,Newcastle United,Bolton,2,0,H
+Football,England,League,2011,09/04/12,Tottenham,Norwich,1,2,A
+Football,England,League,2011,10/04/12,Blackburn,Liverpool,2,3,A
+Football,England,League,2011,11/04/12,Manchester City,West Bromwich Albion,4,0,H
+Football,England,League,2011,11/04/12,Queens Park Rangers,Swansea,3,0,H
+Football,England,League,2011,11/04/12,Wigan,Manchester United,1,0,H
+Football,England,League,2011,11/04/12,Wolverhampton Wanderers,Arsenal,0,3,A
+Football,England,League,2011,14/04/12,Norwich,Manchester City,1,6,A
+Football,England,League,2011,14/04/12,Sunderland,Wolverhampton Wanderers,0,0,D
+Football,England,League,2011,14/04/12,Swansea,Blackburn,3,0,H
+Football,England,League,2011,14/04/12,West Bromwich Albion,Queens Park Rangers,1,0,H
+Football,England,League,2011,15/04/12,Manchester United,Aston Villa,4,0,H
+Football,England,League,2011,16/04/12,Arsenal,Wigan,1,2,A
+Football,England,League,2011,21/04/12,Arsenal,Chelsea,0,0,D
+Football,England,League,2011,21/04/12,Aston Villa,Sunderland,0,0,D
+Football,England,League,2011,21/04/12,Blackburn,Norwich,2,0,H
+Football,England,League,2011,21/04/12,Bolton,Swansea,1,1,D
+Football,England,League,2011,21/04/12,Fulham,Wigan,2,1,H
+Football,England,League,2011,21/04/12,Newcastle United,Stoke,3,0,H
+Football,England,League,2011,21/04/12,Queens Park Rangers,Tottenham,1,0,H
+Football,England,League,2011,22/04/12,Liverpool,West Bromwich Albion,0,1,A
+Football,England,League,2011,22/04/12,Manchester United,Everton,4,4,D
+Football,England,League,2011,22/04/12,Wolverhampton Wanderers,Manchester City,0,2,A
+Football,England,League,2011,24/04/12,Aston Villa,Bolton,1,2,A
+Football,England,League,2011,28/04/12,Everton,Fulham,4,0,H
+Football,England,League,2011,28/04/12,Norwich,Liverpool,0,3,A
+Football,England,League,2011,28/04/12,Stoke,Arsenal,1,1,D
+Football,England,League,2011,28/04/12,Sunderland,Bolton,2,2,D
+Football,England,League,2011,28/04/12,Swansea,Wolverhampton Wanderers,4,4,D
+Football,England,League,2011,28/04/12,West Bromwich Albion,Aston Villa,0,0,D
+Football,England,League,2011,28/04/12,Wigan,Newcastle United,4,0,H
+Football,England,League,2011,29/04/12,Chelsea,Queens Park Rangers,6,1,H
+Football,England,League,2011,29/04/12,Tottenham,Blackburn,2,0,H
+Football,England,League,2011,30/04/12,Manchester City,Manchester United,1,0,H
+Football,England,League,2011,01/05/12,Liverpool,Fulham,0,1,A
+Football,England,League,2011,01/05/12,Stoke,Everton,1,1,D
+Football,England,League,2011,02/05/12,Bolton,Tottenham,1,4,A
+Football,England,League,2011,02/05/12,Chelsea,Newcastle United,0,2,A
+Football,England,League,2011,05/05/12,Arsenal,Norwich,3,3,D
+Football,England,League,2011,06/05/12,Aston Villa,Tottenham,1,1,D
+Football,England,League,2011,06/05/12,Bolton,West Bromwich Albion,2,2,D
+Football,England,League,2011,06/05/12,Fulham,Sunderland,2,1,H
+Football,England,League,2011,06/05/12,Manchester United,Swansea,2,0,H
+Football,England,League,2011,06/05/12,Newcastle United,Manchester City,0,2,A
+Football,England,League,2011,06/05/12,Queens Park Rangers,Stoke,1,0,H
+Football,England,League,2011,06/05/12,Wolverhampton Wanderers,Everton,0,0,D
+Football,England,League,2011,07/05/12,Blackburn,Wigan,0,1,A
+Football,England,League,2011,08/05/12,Liverpool,Chelsea,4,1,H
+Football,England,League,2011,13/05/12,Chelsea,Blackburn,2,1,H
+Football,England,League,2011,13/05/12,Everton,Newcastle United,3,1,H
+Football,England,League,2011,13/05/12,Manchester City,Queens Park Rangers,3,2,H
+Football,England,League,2011,13/05/12,Norwich,Aston Villa,2,0,H
+Football,England,League,2011,13/05/12,Stoke,Bolton,2,2,D
+Football,England,League,2011,13/05/12,Sunderland,Manchester United,0,1,A
+Football,England,League,2011,13/05/12,Swansea,Liverpool,1,0,H
+Football,England,League,2011,13/05/12,Tottenham,Fulham,2,0,H
+Football,England,League,2011,13/05/12,West Bromwich Albion,Arsenal,2,3,A
+Football,England,League,2011,13/05/12,Wigan,Wolverhampton Wanderers,3,2,H

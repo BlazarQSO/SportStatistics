@@ -1,0 +1,27 @@
+Football,England,League,2014,Newcastle United,Jonas,Gutierrez,10,1,1
+Football,England,League,2014,Newcastle United,Sammy,Ameobi,25,2,2
+Football,England,League,2014,Newcastle United,Remy,Cabella,31,1,2
+Football,England,League,2014,Newcastle United,Cheick,Tiote,11,0,2
+Football,England,League,2014,Newcastle United,Massadio,Haidara,15,0,1
+Football,England,League,2014,Newcastle United,Moussa,Sissoko,34,4,2
+Football,England,League,2014,Newcastle United,Jack,Colback,35,4,6
+Football,England,League,2014,Newcastle United,Daryl,Janmaat,37,1,6
+Football,England,League,2014,Newcastle United,Paul,Dummett,25,0,0
+Football,England,League,2014,Newcastle United,Ryan,Taylor,14,0,1
+Football,England,League,2014,Newcastle United,Fabricio,Coloccini,32,1,0
+Football,England,League,2014,Newcastle United,Steven,Taylor,10,1,0
+Football,England,League,2014,Newcastle United,Ayoze,Perez,36,7,0
+Football,England,League,2014,Newcastle United,Gabriel,Obertan,13,1,1
+Football,England,League,2014,Newcastle United,Papiss,Demba Cisse,22,11,1
+Football,England,League,2014,Newcastle United,Mike,Williamson,31,1,1
+Football,England,League,2014,Newcastle United,Yoan,Gouffran,31,2,1
+Football,England,League,2014,Newcastle United,Rolando,Aarons,4,1,0
+Football,England,League,2014,Newcastle United,Siem,de Jong,4,1,0
+Football,England,League,2014,Newcastle United,Mehdi,Abeid,13,0,0
+Football,England,League,2014,Newcastle United,Vurnon,Anita,19,0,0
+Football,England,League,2014,Newcastle United,Tim,Krul,30,0,1
+Football,England,League,2014,Newcastle United,Haris,Vuckic,1,0,0
+Football,England,League,2014,Newcastle United,Robert,Elliot,3,0,0
+Football,England,League,2014,Newcastle United,Emmanuel,Riviere,23,1,1
+Football,England,League,2014,Newcastle United,Jak,Alnwick,6,0,0
+Football,England,League,2014,Newcastle United,Adam,Armstrong,11,0,1

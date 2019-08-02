@@ -1,0 +1,26 @@
+Football,Spain,League,2018,Levante,Jose,Campana,36,4,9
+Football,Spain,League,2018,Levante,Ruben,Rochina,27,4,5
+Football,Spain,League,2018,Levante,Koke,,1,0,0
+Football,Spain,League,2018,Levante,Ruben,Vezo,15,2,1
+Football,Spain,League,2018,Levante,Jose,Luis Morales,37,0,0
+Football,Spain,League,2018,Levante,Oier,Olazabal,21,0,0
+Football,Spain,League,2018,Levante,Jason,,30,2,5
+Football,Spain,League,2018,Levante,Enis,Bardhi,36,3,4
+Football,Spain,League,2018,Levante,Aitor,Fernandez,16,0,0
+Football,Spain,League,2018,Levante,Tono,,21,1,2
+Football,Spain,League,2018,Levante,Chema,Rodriguez,19,2,0
+Football,Spain,League,2018,Levante,Roger,Marti,31,13,0
+Football,Spain,League,2018,Levante,Coke,,27,4,0
+Football,Spain,League,2018,Levante,Rober,Pier,33,1,0
+Football,Spain,League,2018,Levante,Borja,Mayoral,29,3,2
+Football,Spain,League,2018,Levante,Sanjin,Prcic,10,0,0
+Football,Spain,League,2018,Levante,Antonio,Luna,16,0,2
+Football,Spain,League,2018,Levante,Pedro,Lopez,9,0,1
+Football,Spain,League,2018,Levante,Sergio,Postigo,21,1,1
+Football,Spain,League,2018,Levante,Moses,Simon,19,1,1
+Football,Spain,League,2018,Levante,Nikola,Vukcevic,16,0,1
+Football,Spain,League,2018,Levante,Erick,Cabaco,21,2,0
+Football,Spain,League,2018,Levante,Emmanuel,Boateng,16,1,0
+Football,Spain,League,2018,Levante,Fran,Manzanara,4,0,0
+Football,Spain,League,2018,Levante,Raphael,Dwamena,12,0,1
+Football,Spain,League,2018,Levante,Cheick,Doukoure,9,0,0

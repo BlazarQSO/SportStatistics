@@ -1,0 +1,31 @@
+Football,England,League,2009,Manchester City,Richard,Dunne,2,0,0
+Football,England,League,2009,Manchester City,Carlos,Tevez,35,23,7
+Football,England,League,2009,Manchester City,Gareth,Barry,34,2,7
+Football,England,League,2009,Manchester City,Emmanuel,Adebayor,26,14,3
+Football,England,League,2009,Manchester City,Kolo,Toure,31,1,0
+Football,England,League,2009,Manchester City,Vincent,Kompany,25,2,1
+Football,England,League,2009,Manchester City,Adam,Johnson,16,1,5
+Football,England,League,2009,Manchester City,Craig,Bellamy,32,10,8
+Football,England,League,2009,Manchester City,Pablo,Zabaleta,27,0,1
+Football,England,League,2009,Manchester City,Marton,Fulop,3,0,0
+Football,England,League,2009,Manchester City,Patrick,Vieira,13,1,1
+Football,England,League,2009,Manchester City,Joleon,Lescott,18,1,1
+Football,England,League,2009,Manchester City,Wayne,Bridge,23,0,0
+Football,England,League,2009,Manchester City,Micah,Richards,23,3,1
+Football,England,League,2009,Manchester City,Shaun,Wright-Phillips,30,4,7
+Football,England,League,2009,Manchester City,Nigel,de Jong,34,0,0
+Football,England,League,2009,Manchester City,Benjani,,2,0,1
+Football,England,League,2009,Manchester City,Javier,Garrido,9,1,0
+Football,England,League,2009,Manchester City,Stephen,Ireland,22,2,2
+Football,England,League,2009,Manchester City,Martin,Petrov,16,4,3
+Football,England,League,2009,Manchester City,Nedum,Onuoha,10,1,1
+Football,England,League,2009,Manchester City,Shay,Given,35,0,0
+Football,England,League,2009,Manchester City,Robinho,,10,0,3
+Football,England,League,2009,Manchester City,Sylvinho,,9,0,0
+Football,England,League,2009,Manchester City,Roque,Santa Cruz,19,3,0
+Football,England,League,2009,Manchester City,Gunnar,Nielsen,1,0,0
+Football,England,League,2009,Manchester City,Dedryck,Boyata,3,0,0
+Football,England,League,2009,Manchester City,Abdisalam,Ibrahim,1,0,0
+Football,England,League,2009,Manchester City,Alex,Nimely,1,0,0
+Football,England,League,2009,Manchester City,Greg,Cunningham,2,0,0
+Football,England,League,2009,Manchester City,Michael,Johnson,1,0,0

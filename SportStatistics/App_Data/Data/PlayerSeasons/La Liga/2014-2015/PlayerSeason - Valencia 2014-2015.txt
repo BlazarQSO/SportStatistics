@@ -1,0 +1,24 @@
+Football,Spain,League,2014,Valencia,Nicolas,Otamendi,35,6,0
+Football,Spain,League,2014,Valencia,Daniel,Parejo,34,11,5
+Football,Spain,League,2014,Valencia,Ruben,Vezo,7,0,0
+Football,Spain,League,2014,Valencia,Pablo,Piatti,28,7,6
+Football,Spain,League,2014,Valencia,Shkodran,Mustafi,33,4,0
+Football,Spain,League,2014,Valencia,Jose,Gaya,35,1,6
+Football,Spain,League,2014,Valencia,Javi,Fuego,35,3,1
+Football,Spain,League,2014,Valencia,Antonio,Barragan,34,1,2
+Football,Spain,League,2014,Valencia,Sofiane,Feghouli,33,6,6
+Football,Spain,League,2014,Valencia,Andre,Gomes,33,4,1
+Football,Spain,League,2014,Valencia,Paco,Alcacer,32,11,5
+Football,Spain,League,2014,Valencia,Enzo,Perez,14,0,1
+Football,Spain,League,2014,Valencia,Diego,Alves,37,0,0
+Football,Spain,League,2014,Valencia,Rodrigo,Moreno,31,3,4
+Football,Spain,League,2014,Valencia,Lucas,Orban,22,1,1
+Football,Spain,League,2014,Valencia,Alvaro,Negredo,30,5,4
+Football,Spain,League,2014,Valencia,Joao,Cancelo,10,0,0
+Football,Spain,League,2014,Valencia,Bruno,Zuculini,1,0,0
+Football,Spain,League,2014,Valencia,Carles,Gil,8,1,1
+Football,Spain,League,2014,Valencia,Rodrigo,de Paul,25,1,4
+Football,Spain,League,2014,Valencia,Filipe,Augusto,6,0,0
+Football,Spain,League,2014,Valencia,Robert,Ibanez,4,0,0
+Football,Spain,League,2014,Valencia,Tropi,,1,0,0
+Football,Spain,League,2014,Valencia,Yoel,Rodriguez,2,0,0

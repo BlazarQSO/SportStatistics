@@ -1,0 +1,25 @@
+Football,Spain,League,2018,Eibar,Joan,Jordan,36,4,4
+Football,Spain,League,2018,Eibar,Cote,,35,1,1
+Football,Spain,League,2018,Eibar,Ruben,Pena,31,1,2
+Football,Spain,League,2018,Eibar,Fabian,Orellana,33,3,5
+Football,Spain,League,2018,Eibar,Pape,Diop,28,1,1
+Football,Spain,League,2018,Eibar,Sergi,Enrich,35,7,4
+Football,Spain,League,2018,Eibar,Ivan,Ramis,21,0,0
+Football,Spain,League,2018,Eibar,Anaitz,Arbilla,25,1,2
+Football,Spain,League,2018,Eibar,Charles,,34,14,1
+Football,Spain,League,2018,Eibar,Paulo,Oliveira,28,0,0
+Football,Spain,League,2018,Eibar,Pablo,Hervias,3,0,1
+Football,Spain,League,2018,Eibar,Gonzalo,Escalante,32,4,1
+Football,Spain,League,2018,Eibar,Marc,Cucurella,31,1,2
+Football,Spain,League,2018,Eibar,Sergio,Alvarez,19,0,0
+Football,Spain,League,2018,Eibar,Pablo,De Blasis,24,2,0
+Football,Spain,League,2018,Eibar,Marko,Dmitrovic,24,0,0
+Football,Spain,League,2018,Eibar,Asier,Riesgo,15,0,0
+Football,Spain,League,2018,Eibar,Pedro,Leon,9,1,0
+Football,Spain,League,2018,Eibar,Kike,Garcia,30,3,0
+Football,Spain,League,2018,Eibar,Marc,Cardona,17,3,1
+Football,Spain,League,2018,Eibar,Pere,Milla,5,0,0
+Football,Spain,League,2018,Eibar,Pedro,Bigas,10,0,1
+Football,Spain,League,2018,Eibar,Miguel,Mari,2,0,0
+Football,Spain,League,2018,Eibar,Bebe,,2,0,0
+Football,Spain,League,2018,Eibar,Jordi,Calavera,1,0,0

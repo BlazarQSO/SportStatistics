@@ -1,0 +1,35 @@
+Football,England,League,2010,West Ham,James,Tomkins,19,1,1
+Football,England,League,2010,West Ham,Manuel,da Costa,16,1,0
+Football,England,League,2010,West Ham,Scott,Parker,32,5,2
+Football,England,League,2010,West Ham,Thomas,Hitzlsperger,11,2,4
+Football,England,League,2010,West Ham,Demba,Ba,12,7,0
+Football,England,League,2010,West Ham,Valon,Behrami,7,2,0
+Football,England,League,2010,West Ham,Victor,Obinna,25,3,3
+Football,England,League,2010,West Ham,Mark,Noble,26,4,3
+Football,England,League,2010,West Ham,Frederic,Piquionne,34,6,3
+Football,England,League,2010,West Ham,Gary,O'Neil,8,0,1
+Football,England,League,2010,West Ham,Matt,Upson,30,0,0
+Football,England,League,2010,West Ham,Danny,Gabbidon,26,0,0
+Football,England,League,2010,West Ham,Tal,Ben Haim,8,0,1
+Football,England,League,2010,West Ham,Robert,Green,37,0,0
+Football,England,League,2010,West Ham,Ruud,Boffin,1,0,0
+Football,England,League,2010,West Ham,Wayne,Bridge,15,0,2
+Football,England,League,2010,West Ham,Jordan,Spence,2,0,0
+Football,England,League,2010,West Ham,Luis,Boa Morte,22,0,2
+Football,England,League,2010,West Ham,Pablo,Barrera,14,0,0
+Football,England,League,2010,West Ham,Jack,Collison,3,0,0
+Football,England,League,2010,West Ham,Junior,Stanislas,6,1,0
+Football,England,League,2010,West Ham,Carlton,Cole,35,5,2
+Football,England,League,2010,West Ham,Winston,Reid,7,0,0
+Football,England,League,2010,West Ham,Lars,Jacobsen,24,0,0
+Football,England,League,2010,West Ham,Herita,Ilunga,11,0,0
+Football,England,League,2010,West Ham,Radoslav,Kovac,13,0,0
+Football,England,League,2010,West Ham,Freddie,Sears,11,1,0
+Football,England,League,2010,West Ham,Jonathan,Spector,14,1,0
+Football,England,League,2010,West Ham,Kieron,Dyer,11,0,0
+Football,England,League,2010,West Ham,Julien,Faubert,9,0,0
+Football,England,League,2010,West Ham,Robbie,Keane,9,2,0
+Football,England,League,2010,West Ham,Alessandro,Diamanti,1,0,0
+Football,England,League,2010,West Ham,Zavon,Hines,9,0,0
+Football,England,League,2010,West Ham,Frank,Nouble,2,0,0
+Football,England,League,2010,West Ham,Benni,McCarthy,6,0,0

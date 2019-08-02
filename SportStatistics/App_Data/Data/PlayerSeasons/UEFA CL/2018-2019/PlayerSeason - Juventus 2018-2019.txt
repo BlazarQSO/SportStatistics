@@ -1,0 +1,22 @@
+Football,UEFA,League,2018,Juventus,Cristiano,Ronaldo,9,6,2
+Football,UEFA,League,2018,Juventus,Medhi,Benatia,1,0,0
+Football,UEFA,League,2018,Juventus,Joao,Cancelo,7,0,2
+Football,UEFA,League,2018,Juventus,Giorgio,Chiellini,6,0,0
+Football,UEFA,League,2018,Juventus,Miralem,Pjanic,10,2,1
+Football,UEFA,League,2018,Juventus,Paulo,Dybala,9,5,0
+Football,UEFA,League,2018,Juventus,Leonardo,Spinazzola,1,0,0
+Football,UEFA,League,2018,Juventus,Juan,Cuadrado,5,0,2
+Football,UEFA,League,2018,Juventus,Federico,Bernardeschi,8,0,1
+Football,UEFA,League,2018,Juventus,Alex,Sandro,9,0,0
+Football,UEFA,League,2018,Juventus,Leonardo,Bonucci,10,0,2
+Football,UEFA,League,2018,Juventus,Mario,Mandzukic,8,1,0
+Football,UEFA,League,2018,Juventus,Wojciech,Szczesny,10,0,0
+Football,UEFA,League,2018,Juventus,Rodrigo,Bentancur,7,0,0
+Football,UEFA,League,2018,Juventus,Blaise,Matuidi,9,0,0
+Football,UEFA,League,2018,Juventus,Emre,Can,6,0,0
+Football,UEFA,League,2018,Juventus,Douglas,Costa,5,0,0
+Football,UEFA,League,2018,Juventus,Mattia,De Sciglio,4,0,0
+Football,UEFA,League,2018,Juventus,Andrea,Barzagli,3,0,0
+Football,UEFA,League,2018,Juventus,Daniele,Rugani,4,0,0
+Football,UEFA,League,2018,Juventus,Sami,Khedira,4,0,0
+Football,UEFA,League,2018,Juventus,Moise,Kean,3,0,0

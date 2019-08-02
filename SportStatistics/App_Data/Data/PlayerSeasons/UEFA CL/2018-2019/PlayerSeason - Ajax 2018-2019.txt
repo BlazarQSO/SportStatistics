@@ -1,0 +1,22 @@
+Football,UEFA,League,2018,Ajax,Hakim,Ziyech,11,3,3
+Football,UEFA,League,2018,Ajax,Carel,Eiting,1,0,1
+Football,UEFA,League,2018,Ajax,Dusan,Tadic,12,6,4
+Football,UEFA,League,2018,Ajax,Matthijs,de Ligt,11,2,0
+Football,UEFA,League,2018,Ajax,Donny,van de Beek,12,3,2
+Football,UEFA,League,2018,Ajax,Noussair,Mazraoui,11,2,0
+Football,UEFA,League,2018,Ajax,Nicolas,Tagliafico,10,3,0
+Football,UEFA,League,2018,Ajax,Lasse,Schone,11,1,2
+Football,UEFA,League,2018,Ajax,Frenkie,de Jong,11,0,0
+Football,UEFA,League,2018,Ajax,Joel,Veltman,5,0,0
+Football,UEFA,League,2018,Ajax,David,Neres,11,2,2
+Football,UEFA,League,2018,Ajax,Daley,Blind,12,0,0
+Football,UEFA,League,2018,Ajax,Andre,Onana,12,0,0
+Football,UEFA,League,2018,Ajax,Maximilian,Wober,4,0,0
+Football,UEFA,League,2018,Ajax,Daley,Sinkgraven,2,0,0
+Football,UEFA,League,2018,Ajax,Klaas,Jan Huntelaar,5,0,2
+Football,UEFA,League,2018,Ajax,Dani,de Wit,2,0,0
+Football,UEFA,League,2018,Ajax,Kasper,Dolberg,9,0,0
+Football,UEFA,League,2018,Ajax,Rasmus,Kristensen,1,0,0
+Football,UEFA,League,2018,Ajax,Jurgen,Ekkelenkamp,1,0,0
+Football,UEFA,League,2018,Ajax,Lisandro,Magallan,2,0,0
+Football,UEFA,League,2018,Ajax,Zakaria,Labyad,1,0,0

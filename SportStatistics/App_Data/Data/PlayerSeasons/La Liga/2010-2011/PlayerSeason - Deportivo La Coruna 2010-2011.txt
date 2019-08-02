@@ -1,0 +1,30 @@
+Football,Spain,League,2010,Deportivo La Coruna,Ruben,Perez,32,0,2
+Football,Spain,League,2010,Deportivo La Coruna,Daniel,Aranzubia,32,1,0
+Football,Spain,League,2010,Deportivo La Coruna,Diego,Colotto,36,2,3
+Football,Spain,League,2010,Deportivo La Coruna,Manuel,Pablo,30,0,2
+Football,Spain,League,2010,Deportivo La Coruna,Alberto,Lopo,33,2,0
+Football,Spain,League,2010,Deportivo La Coruna,Antonio,Tomas,21,0,0
+Football,Spain,League,2010,Deportivo La Coruna,Juan,Rodriguez,31,1,1
+Football,Spain,League,2010,Deportivo La Coruna,Manu,,6,0,0
+Football,Spain,League,2010,Deportivo La Coruna,Andres,Guardado,20,2,1
+Football,Spain,League,2010,Deportivo La Coruna,Claudio,Morel Rodriguez,15,0,0
+Football,Spain,League,2010,Deportivo La Coruna,Diego,Seoane,11,0,0
+Football,Spain,League,2010,Deportivo La Coruna,Juan,Carlos Valeron,21,0,1
+Football,Spain,League,2010,Deportivo La Coruna,Aythami,Artiles,19,2,0
+Football,Spain,League,2010,Deportivo La Coruna,Jonathan,Urretaviscaya,6,0,0
+Football,Spain,League,2010,Deportivo La Coruna,Riki,,19,3,3
+Football,Spain,League,2010,Deportivo La Coruna,Adrian,Lopez,36,8,3
+Football,Spain,League,2010,Deportivo La Coruna,Saul,,13,0,0
+Football,Spain,League,2010,Deportivo La Coruna,Lassad,,33,5,1
+Football,Spain,League,2010,Deportivo La Coruna,David,Rochela,2,0,0
+Football,Spain,League,2010,Deportivo La Coruna,Laure,,22,1,0
+Football,Spain,League,2010,Deportivo La Coruna,Juan,Dominguez,20,0,0
+Football,Spain,League,2010,Deportivo La Coruna,Xisco,,9,2,0
+Football,Spain,League,2010,Deportivo La Coruna,Juca,,8,0,1
+Football,Spain,League,2010,Deportivo La Coruna,Knut,Olav Rindaroy,4,0,0
+Football,Spain,League,2010,Deportivo La Coruna,Michel,,8,0,1
+Football,Spain,League,2010,Deportivo La Coruna,Pablo,Alvarez,17,1,2
+Football,Spain,League,2010,Deportivo La Coruna,Yves,Desmarets,12,0,0
+Football,Spain,League,2010,Deportivo La Coruna,Ze,Castro,6,0,0
+Football,Spain,League,2010,Deportivo La Coruna,Jose,Sand,5,0,0
+Football,Spain,League,2010,Deportivo La Coruna,Dionisio,Villalba,1,0,0

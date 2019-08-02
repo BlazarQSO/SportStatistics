@@ -1,0 +1,27 @@
+Football,UEFA,League,2018,Schalke 04,Abdul,Rahman Baba,1,0,0
+Football,UEFA,League,2018,Schalke 04,Naldo,,4,0,0
+Football,UEFA,League,2018,Schalke 04,Mark,Uth,5,1,0
+Football,UEFA,League,2018,Schalke 04,Daniel,Caligiuri,6,0,0
+Football,UEFA,League,2018,Schalke 04,Matija,Nastasic,6,0,0
+Football,UEFA,League,2018,Schalke 04,Alessandro,Schopf,4,1,0
+Football,UEFA,League,2018,Schalke 04,Weston,McKennie,6,1,1
+Football,UEFA,League,2018,Schalke 04,Alexander,Nubel,2,0,0
+Football,UEFA,League,2018,Schalke 04,Salif,Sane,6,0,0
+Football,UEFA,League,2018,Schalke 04,Benjamin,Stambouli,5,0,0
+Football,UEFA,League,2018,Schalke 04,Sebastian,Rudy,4,0,0
+Football,UEFA,League,2018,Schalke 04,Nabil,Bentaleb,6,3,0
+Football,UEFA,League,2018,Schalke 04,Yevhen,Konoplyanka,6,0,1
+Football,UEFA,League,2018,Schalke 04,Suat,Serdar,7,0,0
+Football,UEFA,League,2018,Schalke 04,Omar,Mascarell,3,0,0
+Football,UEFA,League,2018,Schalke 04,Breel,Embolo,5,1,0
+Football,UEFA,League,2018,Schalke 04,Hamza,Mendyl,6,0,0
+Football,UEFA,League,2018,Schalke 04,Guido,Burgstaller,6,1,1
+Football,UEFA,League,2018,Schalke 04,Ralf,Fahrmann,6,0,0
+Football,UEFA,League,2018,Schalke 04,Amine,Harit,5,0,0
+Football,UEFA,League,2018,Schalke 04,Ahmed,Kutucu,1,0,0
+Football,UEFA,League,2018,Schalke 04,Benjamin,Goller,1,0,0
+Football,UEFA,League,2018,Schalke 04,Franco,Di Santo,1,0,0
+Football,UEFA,League,2018,Schalke 04,Cedric,Teuchert,2,0,0
+Football,UEFA,League,2018,Schalke 04,Steven,Skrzybski,4,0,0
+Football,UEFA,League,2018,Schalke 04,Bastian,Oczipka,2,0,0
+Football,UEFA,League,2018,Schalke 04,Jeffrey,Bruma,2,0,0

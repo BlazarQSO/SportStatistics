@@ -1,0 +1,23 @@
+Football,Spain,League,2010,Real Sociedad,Xabi,Prieto,37,7,12
+Football,Spain,League,2010,Real Sociedad,Diego,Rivas,32,2,1
+Football,Spain,League,2010,Real Sociedad,Antoine,Griezmann,37,7,1
+Football,Spain,League,2010,Real Sociedad,Carlos,Martinez,25,0,1
+Football,Spain,League,2010,Real Sociedad,Claudio,Bravo,38,0,0
+Football,Spain,League,2010,Real Sociedad,Mikel,Aranburu,32,0,0
+Football,Spain,League,2010,Real Sociedad,Mikel,Gonzalez,32,0,1
+Football,Spain,League,2010,Real Sociedad,Vadim,Demidov,13,0,2
+Football,Spain,League,2010,Real Sociedad,Alberto,de la Bella,30,0,1
+Football,Spain,League,2010,Real Sociedad,David,Zurutuza,36,2,1
+Football,Spain,League,2010,Real Sociedad,Dani,Estrada,19,1,2
+Football,Spain,League,2010,Real Sociedad,Joseba,Llorente,18,5,6
+Football,Spain,League,2010,Real Sociedad,Ion,Ansotegi,32,1,1
+Football,Spain,League,2010,Real Sociedad,Asier,Illarramendi,3,0,0
+Football,Spain,League,2010,Real Sociedad,Mikel,Labaka,14,0,0
+Football,Spain,League,2010,Real Sociedad,Raul,Tamudo,31,7,1
+Football,Spain,League,2010,Real Sociedad,Gorka,Elustondo,18,0,0
+Football,Spain,League,2010,Real Sociedad,Markel,Bergara,19,0,0
+Football,Spain,League,2010,Real Sociedad,Paco,Sutil,17,2,0
+Football,Spain,League,2010,Real Sociedad,Diego,Ifran,10,2,0
+Football,Spain,League,2010,Real Sociedad,Imanol,Agirretxe,11,3,0
+Football,Spain,League,2010,Real Sociedad,Jeffrey,Sarpong,16,1,1
+Football,Spain,League,2010,Real Sociedad,Borja,Viguera,5,0,0

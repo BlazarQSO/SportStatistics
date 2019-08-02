@@ -1,0 +1,380 @@
+Football,England,League,2010,14/08/10,Aston Villa,West Ham,3,0,H
+Football,England,League,2010,14/08/10,Blackburn,Everton,1,0,H
+Football,England,League,2010,14/08/10,Bolton,Fulham,0,0,D
+Football,England,League,2010,14/08/10,Chelsea,West Bromwich Albion,6,0,H
+Football,England,League,2010,14/08/10,Sunderland,Birmingham,2,2,D
+Football,England,League,2010,14/08/10,Tottenham,Manchester City,0,0,D
+Football,England,League,2010,14/08/10,Wigan,Blackpool,0,4,A
+Football,England,League,2010,14/08/10,Wolverhampton Wanderers,Stoke,2,1,H
+Football,England,League,2010,15/08/10,Liverpool,Arsenal,1,1,D
+Football,England,League,2010,16/08/10,Manchester United,Newcastle United,3,0,H
+Football,England,League,2010,21/08/10,Arsenal,Blackpool,6,0,H
+Football,England,League,2010,21/08/10,Birmingham,Blackburn,2,1,H
+Football,England,League,2010,21/08/10,Everton,Wolverhampton Wanderers,1,1,D
+Football,England,League,2010,21/08/10,Stoke,Tottenham,1,2,A
+Football,England,League,2010,21/08/10,West Bromwich Albion,Sunderland,1,0,H
+Football,England,League,2010,21/08/10,West Ham,Bolton,1,3,A
+Football,England,League,2010,21/08/10,Wigan,Chelsea,0,6,A
+Football,England,League,2010,22/08/10,Fulham,Manchester United,2,2,D
+Football,England,League,2010,22/08/10,Newcastle United,Aston Villa,6,0,H
+Football,England,League,2010,23/08/10,Manchester City,Liverpool,3,0,H
+Football,England,League,2010,28/08/10,Blackburn,Arsenal,1,2,A
+Football,England,League,2010,28/08/10,Blackpool,Fulham,2,2,D
+Football,England,League,2010,28/08/10,Chelsea,Stoke,2,0,H
+Football,England,League,2010,28/08/10,Manchester United,West Ham,3,0,H
+Football,England,League,2010,28/08/10,Tottenham,Wigan,0,1,A
+Football,England,League,2010,28/08/10,Wolverhampton Wanderers,Newcastle United,1,1,D
+Football,England,League,2010,29/08/10,Aston Villa,Everton,1,0,H
+Football,England,League,2010,29/08/10,Bolton,Birmingham,2,2,D
+Football,England,League,2010,29/08/10,Liverpool,West Bromwich Albion,1,0,H
+Football,England,League,2010,29/08/10,Sunderland,Manchester City,1,0,H
+Football,England,League,2010,11/09/10,Arsenal,Bolton,4,1,H
+Football,England,League,2010,11/09/10,Everton,Manchester United,3,3,D
+Football,England,League,2010,11/09/10,Fulham,Wolverhampton Wanderers,2,1,H
+Football,England,League,2010,11/09/10,Manchester City,Blackburn,1,1,D
+Football,England,League,2010,11/09/10,Newcastle United,Blackpool,0,2,A
+Football,England,League,2010,11/09/10,West Bromwich Albion,Tottenham,1,1,D
+Football,England,League,2010,11/09/10,West Ham,Chelsea,1,3,A
+Football,England,League,2010,11/09/10,Wigan,Sunderland,1,1,D
+Football,England,League,2010,12/09/10,Birmingham,Liverpool,0,0,D
+Football,England,League,2010,13/09/10,Stoke,Aston Villa,2,1,H
+Football,England,League,2010,18/09/10,Aston Villa,Bolton,1,1,D
+Football,England,League,2010,18/09/10,Blackburn,Fulham,1,1,D
+Football,England,League,2010,18/09/10,Everton,Newcastle United,0,1,A
+Football,England,League,2010,18/09/10,Stoke,West Ham,1,1,D
+Football,England,League,2010,18/09/10,Sunderland,Arsenal,1,1,D
+Football,England,League,2010,18/09/10,Tottenham,Wolverhampton Wanderers,3,1,H
+Football,England,League,2010,18/09/10,West Bromwich Albion,Birmingham,3,1,H
+Football,England,League,2010,19/09/10,Chelsea,Blackpool,4,0,H
+Football,England,League,2010,19/09/10,Manchester United,Liverpool,3,2,H
+Football,England,League,2010,19/09/10,Wigan,Manchester City,0,2,A
+Football,England,League,2010,25/09/10,Arsenal,West Bromwich Albion,2,3,A
+Football,England,League,2010,25/09/10,Birmingham,Wigan,0,0,D
+Football,England,League,2010,25/09/10,Blackpool,Blackburn,1,2,A
+Football,England,League,2010,25/09/10,Fulham,Everton,0,0,D
+Football,England,League,2010,25/09/10,Liverpool,Sunderland,2,2,D
+Football,England,League,2010,25/09/10,Manchester City,Chelsea,1,0,H
+Football,England,League,2010,25/09/10,West Ham,Tottenham,1,0,H
+Football,England,League,2010,26/09/10,Bolton,Manchester United,2,2,D
+Football,England,League,2010,26/09/10,Newcastle United,Stoke,1,2,A
+Football,England,League,2010,26/09/10,Wolverhampton Wanderers,Aston Villa,1,2,A
+Football,England,League,2010,02/10/10,Birmingham,Everton,0,2,A
+Football,England,League,2010,02/10/10,Stoke,Blackburn,1,0,H
+Football,England,League,2010,02/10/10,Sunderland,Manchester United,0,0,D
+Football,England,League,2010,02/10/10,Tottenham,Aston Villa,2,1,H
+Football,England,League,2010,02/10/10,West Bromwich Albion,Bolton,1,1,D
+Football,England,League,2010,02/10/10,West Ham,Fulham,1,1,D
+Football,England,League,2010,02/10/10,Wigan,Wolverhampton Wanderers,2,0,H
+Football,England,League,2010,03/10/10,Chelsea,Arsenal,2,0,H
+Football,England,League,2010,03/10/10,Liverpool,Blackpool,1,2,A
+Football,England,League,2010,03/10/10,Manchester City,Newcastle United,2,1,H
+Football,England,League,2010,16/10/10,Arsenal,Birmingham,2,1,H
+Football,England,League,2010,16/10/10,Aston Villa,Chelsea,0,0,D
+Football,England,League,2010,16/10/10,Bolton,Stoke,2,1,H
+Football,England,League,2010,16/10/10,Fulham,Tottenham,1,2,A
+Football,England,League,2010,16/10/10,Manchester United,West Bromwich Albion,2,2,D
+Football,England,League,2010,16/10/10,Newcastle United,Wigan,2,2,D
+Football,England,League,2010,16/10/10,Wolverhampton Wanderers,West Ham,1,1,D
+Football,England,League,2010,17/10/10,Blackpool,Manchester City,2,3,A
+Football,England,League,2010,17/10/10,Everton,Liverpool,2,0,H
+Football,England,League,2010,18/10/10,Blackburn,Sunderland,0,0,D
+Football,England,League,2010,23/10/10,Birmingham,Blackpool,2,0,H
+Football,England,League,2010,23/10/10,Chelsea,Wolverhampton Wanderers,2,0,H
+Football,England,League,2010,23/10/10,Sunderland,Aston Villa,1,0,H
+Football,England,League,2010,23/10/10,Tottenham,Everton,1,1,D
+Football,England,League,2010,23/10/10,West Bromwich Albion,Fulham,2,1,H
+Football,England,League,2010,23/10/10,West Ham,Newcastle United,1,2,A
+Football,England,League,2010,23/10/10,Wigan,Bolton,1,1,D
+Football,England,League,2010,24/10/10,Liverpool,Blackburn,2,1,H
+Football,England,League,2010,24/10/10,Manchester City,Arsenal,0,3,A
+Football,England,League,2010,24/10/10,Stoke,Manchester United,1,2,A
+Football,England,League,2010,30/10/10,Arsenal,West Ham,1,0,H
+Football,England,League,2010,30/10/10,Blackburn,Chelsea,1,2,A
+Football,England,League,2010,30/10/10,Everton,Stoke,1,0,H
+Football,England,League,2010,30/10/10,Fulham,Wigan,2,0,H
+Football,England,League,2010,30/10/10,Manchester United,Tottenham,2,0,H
+Football,England,League,2010,30/10/10,Wolverhampton Wanderers,Manchester City,2,1,H
+Football,England,League,2010,31/10/10,Aston Villa,Birmingham,0,0,D
+Football,England,League,2010,31/10/10,Bolton,Liverpool,0,1,A
+Football,England,League,2010,31/10/10,Newcastle United,Sunderland,5,1,H
+Football,England,League,2010,01/11/10,Blackpool,West Bromwich Albion,2,1,H
+Football,England,League,2010,06/11/10,Birmingham,West Ham,2,2,D
+Football,England,League,2010,06/11/10,Blackburn,Wigan,2,1,H
+Football,England,League,2010,06/11/10,Blackpool,Everton,2,2,D
+Football,England,League,2010,06/11/10,Bolton,Tottenham,4,2,H
+Football,England,League,2010,06/11/10,Fulham,Aston Villa,1,1,D
+Football,England,League,2010,06/11/10,Manchester United,Wolverhampton Wanderers,2,1,H
+Football,England,League,2010,06/11/10,Sunderland,Stoke,2,0,H
+Football,England,League,2010,07/11/10,Arsenal,Newcastle United,0,1,A
+Football,England,League,2010,07/11/10,Liverpool,Chelsea,2,0,H
+Football,England,League,2010,07/11/10,West Bromwich Albion,Manchester City,0,2,A
+Football,England,League,2010,09/11/10,Stoke,Birmingham,3,2,H
+Football,England,League,2010,09/11/10,Tottenham,Sunderland,1,1,D
+Football,England,League,2010,10/11/10,Aston Villa,Blackpool,3,2,H
+Football,England,League,2010,10/11/10,Chelsea,Fulham,1,0,H
+Football,England,League,2010,10/11/10,Everton,Bolton,1,1,D
+Football,England,League,2010,10/11/10,Manchester City,Manchester United,0,0,D
+Football,England,League,2010,10/11/10,Newcastle United,Blackburn,1,2,A
+Football,England,League,2010,10/11/10,West Ham,West Bromwich Albion,2,2,D
+Football,England,League,2010,10/11/10,Wigan,Liverpool,1,1,D
+Football,England,League,2010,10/11/10,Wolverhampton Wanderers,Arsenal,0,2,A
+Football,England,League,2010,13/11/10,Aston Villa,Manchester United,2,2,D
+Football,England,League,2010,13/11/10,Manchester City,Birmingham,0,0,D
+Football,England,League,2010,13/11/10,Newcastle United,Fulham,0,0,D
+Football,England,League,2010,13/11/10,Stoke,Liverpool,2,0,H
+Football,England,League,2010,13/11/10,Tottenham,Blackburn,4,2,H
+Football,England,League,2010,13/11/10,West Ham,Blackpool,0,0,D
+Football,England,League,2010,13/11/10,Wigan,West Bromwich Albion,1,0,H
+Football,England,League,2010,13/11/10,Wolverhampton Wanderers,Bolton,2,3,A
+Football,England,League,2010,14/11/10,Chelsea,Sunderland,0,3,A
+Football,England,League,2010,14/11/10,Everton,Arsenal,1,2,A
+Football,England,League,2010,20/11/10,Arsenal,Tottenham,2,3,A
+Football,England,League,2010,20/11/10,Birmingham,Chelsea,1,0,H
+Football,England,League,2010,20/11/10,Blackpool,Wolverhampton Wanderers,2,1,H
+Football,England,League,2010,20/11/10,Bolton,Newcastle United,5,1,H
+Football,England,League,2010,20/11/10,Liverpool,West Ham,3,0,H
+Football,England,League,2010,20/11/10,Manchester United,Wigan,2,0,H
+Football,England,League,2010,20/11/10,West Bromwich Albion,Stoke,0,3,A
+Football,England,League,2010,21/11/10,Blackburn,Aston Villa,2,0,H
+Football,England,League,2010,21/11/10,Fulham,Manchester City,1,4,A
+Football,England,League,2010,22/11/10,Sunderland,Everton,2,2,D
+Football,England,League,2010,27/11/10,Aston Villa,Arsenal,2,4,A
+Football,England,League,2010,27/11/10,Bolton,Blackpool,2,2,D
+Football,England,League,2010,27/11/10,Everton,West Bromwich Albion,1,4,A
+Football,England,League,2010,27/11/10,Fulham,Birmingham,1,1,D
+Football,England,League,2010,27/11/10,Manchester United,Blackburn,7,1,H
+Football,England,League,2010,27/11/10,Stoke,Manchester City,1,1,D
+Football,England,League,2010,27/11/10,West Ham,Wigan,3,1,H
+Football,England,League,2010,27/11/10,Wolverhampton Wanderers,Sunderland,3,2,H
+Football,England,League,2010,28/11/10,Newcastle United,Chelsea,1,1,D
+Football,England,League,2010,28/11/10,Tottenham,Liverpool,2,1,H
+Football,England,League,2010,04/12/10,Arsenal,Fulham,2,1,H
+Football,England,League,2010,04/12/10,Birmingham,Tottenham,1,1,D
+Football,England,League,2010,04/12/10,Blackburn,Wolverhampton Wanderers,3,0,H
+Football,England,League,2010,04/12/10,Chelsea,Everton,1,1,D
+Football,England,League,2010,04/12/10,Manchester City,Bolton,1,0,H
+Football,England,League,2010,04/12/10,Wigan,Stoke,2,2,D
+Football,England,League,2010,05/12/10,Sunderland,West Ham,1,0,H
+Football,England,League,2010,05/12/10,West Bromwich Albion,Newcastle United,3,1,H
+Football,England,League,2010,06/12/10,Liverpool,Aston Villa,3,0,H
+Football,England,League,2010,11/12/10,Aston Villa,West Bromwich Albion,2,1,H
+Football,England,League,2010,11/12/10,Everton,Wigan,0,0,D
+Football,England,League,2010,11/12/10,Fulham,Sunderland,0,0,D
+Football,England,League,2010,11/12/10,Newcastle United,Liverpool,3,1,H
+Football,England,League,2010,11/12/10,Stoke,Blackpool,0,1,A
+Football,England,League,2010,11/12/10,West Ham,Manchester City,1,3,A
+Football,England,League,2010,12/12/10,Bolton,Blackburn,2,1,H
+Football,England,League,2010,12/12/10,Tottenham,Chelsea,1,1,D
+Football,England,League,2010,12/12/10,Wolverhampton Wanderers,Birmingham,1,0,H
+Football,England,League,2010,13/12/10,Manchester United,Arsenal,1,0,H
+Football,England,League,2010,18/12/10,Blackburn,West Ham,1,1,D
+Football,England,League,2010,18/12/10,Sunderland,Bolton,1,0,H
+Football,England,League,2010,20/12/10,Manchester City,Everton,1,2,A
+Football,England,League,2010,26/12/10,Aston Villa,Tottenham,1,2,A
+Football,England,League,2010,26/12/10,Blackburn,Stoke,0,2,A
+Football,England,League,2010,26/12/10,Bolton,West Bromwich Albion,2,0,H
+Football,England,League,2010,26/12/10,Fulham,West Ham,1,3,A
+Football,England,League,2010,26/12/10,Manchester United,Sunderland,2,0,H
+Football,England,League,2010,26/12/10,Newcastle United,Manchester City,1,3,A
+Football,England,League,2010,26/12/10,Wolverhampton Wanderers,Wigan,1,2,A
+Football,England,League,2010,27/12/10,Arsenal,Chelsea,3,1,H
+Football,England,League,2010,28/12/10,Birmingham,Manchester United,1,1,D
+Football,England,League,2010,28/12/10,Manchester City,Aston Villa,4,0,H
+Football,England,League,2010,28/12/10,Stoke,Fulham,0,2,A
+Football,England,League,2010,28/12/10,Sunderland,Blackpool,0,2,A
+Football,England,League,2010,28/12/10,Tottenham,Newcastle United,2,0,H
+Football,England,League,2010,28/12/10,West Bromwich Albion,Blackburn,1,3,A
+Football,England,League,2010,28/12/10,West Ham,Everton,1,1,D
+Football,England,League,2010,29/12/10,Chelsea,Bolton,1,0,H
+Football,England,League,2010,29/12/10,Liverpool,Wolverhampton Wanderers,0,1,A
+Football,England,League,2010,29/12/10,Wigan,Arsenal,2,2,D
+Football,England,League,2010,01/01/11,Birmingham,Arsenal,0,3,A
+Football,England,League,2010,01/01/11,Liverpool,Bolton,2,1,H
+Football,England,League,2010,01/01/11,Manchester City,Blackpool,1,0,H
+Football,England,League,2010,01/01/11,Stoke,Everton,2,0,H
+Football,England,League,2010,01/01/11,Sunderland,Blackburn,3,0,H
+Football,England,League,2010,01/01/11,Tottenham,Fulham,1,0,H
+Football,England,League,2010,01/01/11,West Bromwich Albion,Manchester United,1,2,A
+Football,England,League,2010,01/01/11,West Ham,Wolverhampton Wanderers,2,0,H
+Football,England,League,2010,02/01/11,Chelsea,Aston Villa,3,3,D
+Football,England,League,2010,02/01/11,Wigan,Newcastle United,0,1,A
+Football,England,League,2010,04/01/11,Blackpool,Birmingham,1,2,A
+Football,England,League,2010,04/01/11,Fulham,West Bromwich Albion,3,0,H
+Football,England,League,2010,04/01/11,Manchester United,Stoke,2,1,H
+Football,England,League,2010,05/01/11,Arsenal,Manchester City,0,0,D
+Football,England,League,2010,05/01/11,Aston Villa,Sunderland,0,1,A
+Football,England,League,2010,05/01/11,Blackburn,Liverpool,3,1,H
+Football,England,League,2010,05/01/11,Bolton,Wigan,1,1,D
+Football,England,League,2010,05/01/11,Everton,Tottenham,2,1,H
+Football,England,League,2010,05/01/11,Newcastle United,West Ham,5,0,H
+Football,England,League,2010,05/01/11,Wolverhampton Wanderers,Chelsea,1,0,H
+Football,England,League,2010,12/01/11,Blackpool,Liverpool,2,1,H
+Football,England,League,2010,15/01/11,Chelsea,Blackburn,2,0,H
+Football,England,League,2010,15/01/11,Manchester City,Wolverhampton Wanderers,4,3,H
+Football,England,League,2010,15/01/11,Stoke,Bolton,2,0,H
+Football,England,League,2010,15/01/11,West Bromwich Albion,Blackpool,3,2,H
+Football,England,League,2010,15/01/11,West Ham,Arsenal,0,3,A
+Football,England,League,2010,15/01/11,Wigan,Fulham,1,1,D
+Football,England,League,2010,16/01/11,Birmingham,Aston Villa,1,1,D
+Football,England,League,2010,16/01/11,Liverpool,Everton,2,2,D
+Football,England,League,2010,16/01/11,Sunderland,Newcastle United,1,1,D
+Football,England,League,2010,16/01/11,Tottenham,Manchester United,0,0,D
+Football,England,League,2010,22/01/11,Arsenal,Wigan,3,0,H
+Football,England,League,2010,22/01/11,Aston Villa,Manchester City,1,0,H
+Football,England,League,2010,22/01/11,Blackpool,Sunderland,1,2,A
+Football,England,League,2010,22/01/11,Everton,West Ham,2,2,D
+Football,England,League,2010,22/01/11,Fulham,Stoke,2,0,H
+Football,England,League,2010,22/01/11,Manchester United,Birmingham,5,0,H
+Football,England,League,2010,22/01/11,Newcastle United,Tottenham,1,1,D
+Football,England,League,2010,22/01/11,Wolverhampton Wanderers,Liverpool,0,3,A
+Football,England,League,2010,23/01/11,Blackburn,West Bromwich Albion,2,0,H
+Football,England,League,2010,24/01/11,Bolton,Chelsea,0,4,A
+Football,England,League,2010,25/01/11,Blackpool,Manchester United,2,3,A
+Football,England,League,2010,25/01/11,Wigan,Aston Villa,1,2,A
+Football,England,League,2010,26/01/11,Liverpool,Fulham,1,0,H
+Football,England,League,2010,01/02/11,Arsenal,Everton,2,1,H
+Football,England,League,2010,01/02/11,Manchester United,Aston Villa,3,1,H
+Football,England,League,2010,01/02/11,Sunderland,Chelsea,2,4,A
+Football,England,League,2010,01/02/11,West Bromwich Albion,Wigan,2,2,D
+Football,England,League,2010,02/02/11,Birmingham,Manchester City,2,2,D
+Football,England,League,2010,02/02/11,Blackburn,Tottenham,0,1,A
+Football,England,League,2010,02/02/11,Blackpool,West Ham,1,3,A
+Football,England,League,2010,02/02/11,Bolton,Wolverhampton Wanderers,1,0,H
+Football,England,League,2010,02/02/11,Fulham,Newcastle United,1,0,H
+Football,England,League,2010,02/02/11,Liverpool,Stoke,2,0,H
+Football,England,League,2010,05/02/11,Aston Villa,Fulham,2,2,D
+Football,England,League,2010,05/02/11,Everton,Blackpool,5,3,H
+Football,England,League,2010,05/02/11,Manchester City,West Bromwich Albion,3,0,H
+Football,England,League,2010,05/02/11,Newcastle United,Arsenal,4,4,D
+Football,England,League,2010,05/02/11,Stoke,Sunderland,3,2,H
+Football,England,League,2010,05/02/11,Tottenham,Bolton,2,1,H
+Football,England,League,2010,05/02/11,Wigan,Blackburn,4,3,H
+Football,England,League,2010,05/02/11,Wolverhampton Wanderers,Manchester United,2,1,H
+Football,England,League,2010,06/02/11,Chelsea,Liverpool,0,1,A
+Football,England,League,2010,06/02/11,West Ham,Birmingham,0,1,A
+Football,England,League,2010,12/02/11,Arsenal,Wolverhampton Wanderers,2,0,H
+Football,England,League,2010,12/02/11,Birmingham,Stoke,1,0,H
+Football,England,League,2010,12/02/11,Blackburn,Newcastle United,0,0,D
+Football,England,League,2010,12/02/11,Blackpool,Aston Villa,1,1,D
+Football,England,League,2010,12/02/11,Liverpool,Wigan,1,1,D
+Football,England,League,2010,12/02/11,Manchester United,Manchester City,2,1,H
+Football,England,League,2010,12/02/11,Sunderland,Tottenham,1,2,A
+Football,England,League,2010,12/02/11,West Bromwich Albion,West Ham,3,3,D
+Football,England,League,2010,13/02/11,Bolton,Everton,2,0,H
+Football,England,League,2010,14/02/11,Fulham,Chelsea,0,0,D
+Football,England,League,2010,15/02/11,Birmingham,Newcastle United,0,2,A
+Football,England,League,2010,20/02/11,West Bromwich Albion,Wolverhampton Wanderers,1,1,D
+Football,England,League,2010,22/02/11,Blackpool,Tottenham,3,1,H
+Football,England,League,2010,23/02/11,Arsenal,Stoke,1,0,H
+Football,England,League,2010,26/02/11,Aston Villa,Blackburn,4,1,H
+Football,England,League,2010,26/02/11,Everton,Sunderland,2,0,H
+Football,England,League,2010,26/02/11,Newcastle United,Bolton,1,1,D
+Football,England,League,2010,26/02/11,Wigan,Manchester United,0,4,A
+Football,England,League,2010,26/02/11,Wolverhampton Wanderers,Blackpool,4,0,H
+Football,England,League,2010,27/02/11,Manchester City,Fulham,1,1,D
+Football,England,League,2010,27/02/11,West Ham,Liverpool,3,1,H
+Football,England,League,2010,28/02/11,Stoke,West Bromwich Albion,1,1,D
+Football,England,League,2010,01/03/11,Chelsea,Manchester United,2,1,H
+Football,England,League,2010,05/03/11,Arsenal,Sunderland,0,0,D
+Football,England,League,2010,05/03/11,Birmingham,West Bromwich Albion,1,3,A
+Football,England,League,2010,05/03/11,Bolton,Aston Villa,3,2,H
+Football,England,League,2010,05/03/11,Fulham,Blackburn,3,2,H
+Football,England,League,2010,05/03/11,Manchester City,Wigan,1,0,H
+Football,England,League,2010,05/03/11,Newcastle United,Everton,1,2,A
+Football,England,League,2010,05/03/11,West Ham,Stoke,3,0,H
+Football,England,League,2010,06/03/11,Liverpool,Manchester United,3,1,H
+Football,England,League,2010,06/03/11,Wolverhampton Wanderers,Tottenham,3,3,D
+Football,England,League,2010,07/03/11,Blackpool,Chelsea,1,3,A
+Football,England,League,2010,09/03/11,Everton,Birmingham,1,1,D
+Football,England,League,2010,19/03/11,Aston Villa,Wolverhampton Wanderers,0,1,A
+Football,England,League,2010,19/03/11,Blackburn,Blackpool,2,2,D
+Football,England,League,2010,19/03/11,Everton,Fulham,2,1,H
+Football,England,League,2010,19/03/11,Manchester United,Bolton,1,0,H
+Football,England,League,2010,19/03/11,Stoke,Newcastle United,4,0,H
+Football,England,League,2010,19/03/11,Tottenham,West Ham,0,0,D
+Football,England,League,2010,19/03/11,West Bromwich Albion,Arsenal,2,2,D
+Football,England,League,2010,19/03/11,Wigan,Birmingham,2,1,H
+Football,England,League,2010,20/03/11,Chelsea,Manchester City,2,0,H
+Football,England,League,2010,20/03/11,Sunderland,Liverpool,0,2,A
+Football,England,League,2010,02/04/11,Arsenal,Blackburn,0,0,D
+Football,England,League,2010,02/04/11,Birmingham,Bolton,2,1,H
+Football,England,League,2010,02/04/11,Everton,Aston Villa,2,2,D
+Football,England,League,2010,02/04/11,Newcastle United,Wolverhampton Wanderers,4,1,H
+Football,England,League,2010,02/04/11,Stoke,Chelsea,1,1,D
+Football,England,League,2010,02/04/11,West Bromwich Albion,Liverpool,2,1,H
+Football,England,League,2010,02/04/11,West Ham,Manchester United,2,4,A
+Football,England,League,2010,02/04/11,Wigan,Tottenham,0,0,D
+Football,England,League,2010,03/04/11,Fulham,Blackpool,3,0,H
+Football,England,League,2010,03/04/11,Manchester City,Sunderland,5,0,H
+Football,England,League,2010,09/04/11,Blackburn,Birmingham,1,1,D
+Football,England,League,2010,09/04/11,Bolton,West Ham,3,0,H
+Football,England,League,2010,09/04/11,Chelsea,Wigan,1,0,H
+Football,England,League,2010,09/04/11,Manchester United,Fulham,2,0,H
+Football,England,League,2010,09/04/11,Sunderland,West Bromwich Albion,2,3,A
+Football,England,League,2010,09/04/11,Tottenham,Stoke,3,2,H
+Football,England,League,2010,09/04/11,Wolverhampton Wanderers,Everton,0,3,A
+Football,England,League,2010,10/04/11,Aston Villa,Newcastle United,1,0,H
+Football,England,League,2010,10/04/11,Blackpool,Arsenal,1,3,A
+Football,England,League,2010,11/04/11,Liverpool,Manchester City,3,0,H
+Football,England,League,2010,16/04/11,Birmingham,Sunderland,2,0,H
+Football,England,League,2010,16/04/11,Blackpool,Wigan,1,3,A
+Football,England,League,2010,16/04/11,Everton,Blackburn,2,0,H
+Football,England,League,2010,16/04/11,West Bromwich Albion,Chelsea,1,3,A
+Football,England,League,2010,16/04/11,West Ham,Aston Villa,1,2,A
+Football,England,League,2010,17/04/11,Arsenal,Liverpool,1,1,D
+Football,England,League,2010,19/04/11,Newcastle United,Manchester United,0,0,D
+Football,England,League,2010,20/04/11,Chelsea,Birmingham,3,1,H
+Football,England,League,2010,20/04/11,Tottenham,Arsenal,3,3,D
+Football,England,League,2010,23/04/11,Aston Villa,Stoke,1,1,D
+Football,England,League,2010,23/04/11,Blackpool,Newcastle United,1,1,D
+Football,England,League,2010,23/04/11,Chelsea,West Ham,3,0,H
+Football,England,League,2010,23/04/11,Liverpool,Birmingham,5,0,H
+Football,England,League,2010,23/04/11,Manchester United,Everton,1,0,H
+Football,England,League,2010,23/04/11,Sunderland,Wigan,4,2,H
+Football,England,League,2010,23/04/11,Tottenham,West Bromwich Albion,2,2,D
+Football,England,League,2010,23/04/11,Wolverhampton Wanderers,Fulham,1,1,D
+Football,England,League,2010,24/04/11,Bolton,Arsenal,2,1,H
+Football,England,League,2010,25/04/11,Blackburn,Manchester City,0,1,A
+Football,England,League,2010,26/04/11,Stoke,Wolverhampton Wanderers,3,0,H
+Football,England,League,2010,27/04/11,Fulham,Bolton,3,0,H
+Football,England,League,2010,30/04/11,Blackburn,Bolton,1,0,H
+Football,England,League,2010,30/04/11,Blackpool,Stoke,0,0,D
+Football,England,League,2010,30/04/11,Chelsea,Tottenham,2,1,H
+Football,England,League,2010,30/04/11,Sunderland,Fulham,0,3,A
+Football,England,League,2010,30/04/11,West Bromwich Albion,Aston Villa,2,1,H
+Football,England,League,2010,30/04/11,Wigan,Everton,1,1,D
+Football,England,League,2010,01/05/11,Arsenal,Manchester United,1,0,H
+Football,England,League,2010,01/05/11,Birmingham,Wolverhampton Wanderers,1,1,D
+Football,England,League,2010,01/05/11,Liverpool,Newcastle United,3,0,H
+Football,England,League,2010,01/05/11,Manchester City,West Ham,2,1,H
+Football,England,League,2010,07/05/11,Aston Villa,Wigan,1,1,D
+Football,England,League,2010,07/05/11,Bolton,Sunderland,1,2,A
+Football,England,League,2010,07/05/11,Everton,Manchester City,2,1,H
+Football,England,League,2010,07/05/11,Newcastle United,Birmingham,2,1,H
+Football,England,League,2010,07/05/11,Tottenham,Blackpool,1,1,D
+Football,England,League,2010,07/05/11,West Ham,Blackburn,1,1,D
+Football,England,League,2010,08/05/11,Manchester United,Chelsea,2,1,H
+Football,England,League,2010,08/05/11,Stoke,Arsenal,3,1,H
+Football,England,League,2010,08/05/11,Wolverhampton Wanderers,West Bromwich Albion,3,1,H
+Football,England,League,2010,09/05/11,Fulham,Liverpool,2,5,A
+Football,England,League,2010,10/05/11,Manchester City,Tottenham,1,0,H
+Football,England,League,2010,14/05/11,Blackburn,Manchester United,1,1,D
+Football,England,League,2010,14/05/11,Blackpool,Bolton,4,3,H
+Football,England,League,2010,14/05/11,Sunderland,Wolverhampton Wanderers,1,3,A
+Football,England,League,2010,14/05/11,West Bromwich Albion,Everton,1,0,H
+Football,England,League,2010,15/05/11,Arsenal,Aston Villa,1,2,A
+Football,England,League,2010,15/05/11,Birmingham,Fulham,0,2,A
+Football,England,League,2010,15/05/11,Chelsea,Newcastle United,2,2,D
+Football,England,League,2010,15/05/11,Liverpool,Tottenham,0,2,A
+Football,England,League,2010,15/05/11,Wigan,West Ham,3,2,H
+Football,England,League,2010,17/05/11,Manchester City,Stoke,3,0,H
+Football,England,League,2010,22/05/11,Aston Villa,Liverpool,1,0,H
+Football,England,League,2010,22/05/11,Bolton,Manchester City,0,2,A
+Football,England,League,2010,22/05/11,Everton,Chelsea,1,0,H
+Football,England,League,2010,22/05/11,Fulham,Arsenal,2,2,D
+Football,England,League,2010,22/05/11,Manchester United,Blackpool,4,2,H
+Football,England,League,2010,22/05/11,Newcastle United,West Bromwich Albion,3,3,D
+Football,England,League,2010,22/05/11,Stoke,Wigan,0,1,A
+Football,England,League,2010,22/05/11,Tottenham,Birmingham,2,1,H
+Football,England,League,2010,22/05/11,West Ham,Sunderland,0,3,A
+Football,England,League,2010,22/05/11,Wolverhampton Wanderers,Blackburn,2,3,A

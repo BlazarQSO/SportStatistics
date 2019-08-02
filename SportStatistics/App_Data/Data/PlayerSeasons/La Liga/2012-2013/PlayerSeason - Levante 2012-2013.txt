@@ -1,0 +1,27 @@
+Football,Spain,League,2012,Levante,Keylor,Navas,9,0,0
+Football,Spain,League,2012,Levante,Vicente,Iborra,35,4,0
+Football,Spain,League,2012,Levante,Juanfran,,29,0,3
+Football,Spain,League,2012,Levante,Simao,Mate,4,0,0
+Football,Spain,League,2012,Levante,Pape,Diop,32,0,0
+Football,Spain,League,2012,Levante,Gustavo,Munua,29,0,1
+Football,Spain,League,2012,Levante,Pedro,Lopez,17,0,1
+Football,Spain,League,2012,Levante,Loukas,Vyntra,15,0,0
+Football,Spain,League,2012,Levante,Dariusz,Dudka,3,0,0
+Football,Spain,League,2012,Levante,David,Navarro,35,1,2
+Football,Spain,League,2012,Levante,Michel,,37,4,6
+Football,Spain,League,2012,Levante,Hector,Rodas,10,0,0
+Football,Spain,League,2012,Levante,Obafemi,Martins,21,7,2
+Football,Spain,League,2012,Levante,Ruben,Garcia,31,4,3
+Football,Spain,League,2012,Levante,Nikos,Karampelas,9,0,1
+Football,Spain,League,2012,Levante,Barkero,,28,5,1
+Football,Spain,League,2012,Levante,Sergio,Ballesteros,26,0,1
+Football,Spain,League,2012,Levante,Pedro,Rios,26,2,1
+Football,Spain,League,2012,Levante,Christian,Lell,21,2,0
+Football,Spain,League,2012,Levante,Nabil,El Zhar,31,2,1
+Football,Spain,League,2012,Levante,Juanlu,,25,2,0
+Football,Spain,League,2012,Levante,Robert,Acquafresca,13,3,0
+Football,Spain,League,2012,Levante,Valdo,,13,0,1
+Football,Spain,League,2012,Levante,Angel,Rodriguez,10,1,1
+Football,Spain,League,2012,Levante,Miguel,Pallardo,5,0,0
+Football,Spain,League,2012,Levante,Roger,Marti,15,1,0
+Football,Spain,League,2012,Levante,Theofanis,Gekas,4,0,1

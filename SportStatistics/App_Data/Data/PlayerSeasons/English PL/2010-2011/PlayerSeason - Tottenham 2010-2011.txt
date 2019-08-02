@@ -1,0 +1,28 @@
+Football,England,League,2010,Tottenham,Danny,Rose,4,0,1
+Football,England,League,2010,Tottenham,Rafael,van der Vaart,28,13,8
+Football,England,League,2010,Tottenham,Ledley,King,6,0,0
+Football,England,League,2010,Tottenham,Gareth,Bale,30,7,1
+Football,England,League,2010,Tottenham,Michael,Dawson,24,1,0
+Football,England,League,2010,Tottenham,Luka,Modric,32,3,2
+Football,England,League,2010,Tottenham,Benoit,Assou-Ekotto,30,0,0
+Football,England,League,2010,Tottenham,Heurelho,Gomes,30,0,0
+Football,England,League,2010,Tottenham,Alan,Hutton,21,2,1
+Football,England,League,2010,Tottenham,Younes,Kaboul,21,1,1
+Football,England,League,2010,Tottenham,Vedran,Corluka,15,0,1
+Football,England,League,2010,Tottenham,Tom,Huddlestone,14,2,2
+Football,England,League,2010,Tottenham,Jermaine,Jenas,19,0,1
+Football,England,League,2010,Tottenham,Sandro,,19,1,0
+Football,England,League,2010,Tottenham,William,Gallas,27,0,0
+Football,England,League,2010,Tottenham,Steven,Pienaar,8,0,1
+Football,England,League,2010,Tottenham,Sebastien,Bassong,12,1,0
+Football,England,League,2010,Tottenham,Aaron,Lennon,34,3,2
+Football,England,League,2010,Tottenham,Peter,Crouch,34,4,6
+Football,England,League,2010,Tottenham,Carlo,Cudicini,8,0,0
+Football,England,League,2010,Tottenham,David,Bentley,2,0,0
+Football,England,League,2010,Tottenham,Jermain,Defoe,22,4,2
+Football,England,League,2010,Tottenham,Roman,Pavlyuchenko,29,9,4
+Football,England,League,2010,Tottenham,Wilson,Palacios,21,0,0
+Football,England,League,2010,Tottenham,Niko,Kranjcar,13,2,0
+Football,England,League,2010,Tottenham,Giovani,dos Santos,3,0,0
+Football,England,League,2010,Tottenham,Robbie,Keane,7,0,0
+Football,England,League,2010,Tottenham,Kyle,Walker,1,0,0

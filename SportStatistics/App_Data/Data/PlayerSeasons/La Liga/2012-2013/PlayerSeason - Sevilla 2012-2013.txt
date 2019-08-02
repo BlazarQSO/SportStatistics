@@ -1,0 +1,30 @@
+Football,Spain,League,2012,Sevilla,Ivan,Rakitic,34,8,10
+Football,Spain,League,2012,Sevilla,Alvaro,Negredo,36,25,1
+Football,Spain,League,2012,Sevilla,Emir,Spahic,22,1,0
+Football,Spain,League,2012,Sevilla,Federico,Fazio,26,3,0
+Football,Spain,League,2012,Sevilla,Jesus,Navas,37,0,6
+Football,Spain,League,2012,Sevilla,Coke,,21,3,4
+Football,Spain,League,2012,Sevilla,Jose,Antonio Reyes,27,4,6
+Football,Spain,League,2012,Sevilla,Julian,,1,0,0
+Football,Spain,League,2012,Sevilla,Alberto,Moreno,15,0,1
+Football,Spain,League,2012,Sevilla,Piotr,Trochowski,6,2,0
+Football,Spain,League,2012,Sevilla,Gary,Medel,32,6,3
+Football,Spain,League,2012,Sevilla,Cicinho,,27,1,2
+Football,Spain,League,2012,Sevilla,Beto,,14,0,0
+Football,Spain,League,2012,Sevilla,Geoffrey,Kondogbia,31,1,1
+Football,Spain,League,2012,Sevilla,Fernando,Navarro,35,0,1
+Football,Spain,League,2012,Sevilla,Juan,Cala,11,0,0
+Football,Spain,League,2012,Sevilla,Andres,Palop,16,0,0
+Football,Spain,League,2012,Sevilla,Alberto,Botia,18,1,0
+Football,Spain,League,2012,Sevilla,Diego,Perotti,18,0,0
+Football,Spain,League,2012,Sevilla,Hedwiges,Maduro,26,0,0
+Football,Spain,League,2012,Sevilla,Bryan,Rabello,3,0,0
+Football,Spain,League,2012,Sevilla,Manu,del Moral,22,1,0
+Football,Spain,League,2012,Sevilla,Miroslav,Stevanovic,7,0,0
+Football,Spain,League,2012,Sevilla,Jose,Campana,5,0,0
+Football,Spain,League,2012,Sevilla,Papa,Baba Diawara,19,0,0
+Football,Spain,League,2012,Sevilla,Israel,Puerto,2,0,0
+Football,Spain,League,2012,Sevilla,Alex,Rubio,2,0,0
+Football,Spain,League,2012,Sevilla,Javi,Hervas,9,0,0
+Football,Spain,League,2012,Sevilla,Diego,Lopez,8,0,0
+Football,Spain,League,2012,Sevilla,Antonio,Luna,5,0,0

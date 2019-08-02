@@ -1,0 +1,30 @@
+Football,England,League,2009,Manchester United,Wayne,Rooney,32,26,3
+Football,England,League,2009,Manchester United,Rafael,,8,1,1
+Football,England,League,2009,Manchester United,Nemanja,Vidic,24,1,0
+Football,England,League,2009,Manchester United,Ritchie,de Laet,2,0,0
+Football,England,League,2009,Manchester United,Nani,,23,4,6
+Football,England,League,2009,Manchester United,Luis,Antonio Valencia,34,5,7
+Football,England,League,2009,Manchester United,Ryan,Giggs,25,5,9
+Football,England,League,2009,Manchester United,Patrice,Evra,38,0,3
+Football,England,League,2009,Manchester United,Dimitar,Berbatov,33,12,5
+Football,England,League,2009,Manchester United,Jonny,Evans,18,0,0
+Football,England,League,2009,Manchester United,Darren,Fletcher,30,4,4
+Football,England,League,2009,Manchester United,Tomasz,Kuszczak,8,0,0
+Football,England,League,2009,Manchester United,Paul,Scholes,28,3,3
+Football,England,League,2009,Manchester United,Wes,Brown,19,0,0
+Football,England,League,2009,Manchester United,Edwin,van der Sar,21,0,0
+Football,England,League,2009,Manchester United,Michael,Carrick,30,3,2
+Football,England,League,2009,Manchester United,Gary,Neville,17,0,1
+Football,England,League,2009,Manchester United,Rio,Ferdinand,13,0,0
+Football,England,League,2009,Manchester United,Darron,Gibson,15,2,2
+Football,England,League,2009,Manchester United,Park,Ji-Sung,17,3,1
+Football,England,League,2009,Manchester United,Anderson,,14,1,2
+Football,England,League,2009,Manchester United,Ben,Foster,9,0,0
+Football,England,League,2009,Manchester United,John,O'Shea,15,1,1
+Football,England,League,2009,Manchester United,Fabio,,5,0,0
+Football,England,League,2009,Manchester United,Federico,Macheda,5,1,1
+Football,England,League,2009,Manchester United,Michael,Owen,19,3,0
+Football,England,League,2009,Manchester United,Mame,Biram Diouf,5,1,0
+Football,England,League,2009,Manchester United,Gabriel,Obertan,7,0,0
+Football,England,League,2009,Manchester United,Danny,Welbeck,5,0,0
+Football,England,League,2009,Manchester United,Owen,Hargreaves,1,0,0

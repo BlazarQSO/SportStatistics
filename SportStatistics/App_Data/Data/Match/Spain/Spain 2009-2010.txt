@@ -1,0 +1,380 @@
+Football,Spain,League,2009,29/08/09,Real Madrid,Deportivo La Coruna,3,2,H
+Football,Spain,League,2009,29/08/09,Real Zaragoza,Tenerife,1,0,H
+Football,Spain,League,2009,30/08/09,Almeria,Valladolid,0,0,D
+Football,Spain,League,2009,30/08/09,Athletic Bilbao,Espanyol,1,0,H
+Football,Spain,League,2009,30/08/09,Malaga,Atletico Madrid,3,0,H
+Football,Spain,League,2009,30/08/09,Mallorca,Xerez,2,0,H
+Football,Spain,League,2009,30/08/09,Osasuna,Villarreal,1,1,D
+Football,Spain,League,2009,30/08/09,Racing Santander,Getafe,1,4,A
+Football,Spain,League,2009,30/08/09,Valencia,Sevilla,2,0,H
+Football,Spain,League,2009,31/08/09,Barcelona,Sporting Gijon,3,0,H
+Football,Spain,League,2009,12/09/09,Atletico Madrid,Racing Santander,1,1,D
+Football,Spain,League,2009,12/09/09,Espanyol,Real Madrid,0,3,A
+Football,Spain,League,2009,12/09/09,Getafe,Barcelona,0,2,A
+Football,Spain,League,2009,12/09/09,Sevilla,Real Zaragoza,4,1,H
+Football,Spain,League,2009,13/09/09,Deportivo La Coruna,Malaga,1,0,H
+Football,Spain,League,2009,13/09/09,Sporting Gijon,Almeria,1,0,H
+Football,Spain,League,2009,13/09/09,Tenerife,Osasuna,2,1,H
+Football,Spain,League,2009,13/09/09,Valladolid,Valencia,2,4,A
+Football,Spain,League,2009,13/09/09,Villarreal,Mallorca,1,1,D
+Football,Spain,League,2009,13/09/09,Xerez,Athletic Bilbao,0,1,A
+Football,Spain,League,2009,19/09/09,Barcelona,Atletico Madrid,5,2,H
+Football,Spain,League,2009,19/09/09,Deportivo La Coruna,Espanyol,2,3,A
+Football,Spain,League,2009,19/09/09,Malaga,Racing Santander,1,2,A
+Football,Spain,League,2009,19/09/09,Mallorca,Tenerife,4,0,H
+Football,Spain,League,2009,19/09/09,Osasuna,Sevilla,0,2,A
+Football,Spain,League,2009,20/09/09,Almeria,Getafe,1,0,H
+Football,Spain,League,2009,20/09/09,Athletic Bilbao,Villarreal,3,2,H
+Football,Spain,League,2009,20/09/09,Real Madrid,Xerez,5,0,H
+Football,Spain,League,2009,20/09/09,Valencia,Sporting Gijon,2,2,D
+Football,Spain,League,2009,20/09/09,Real Zaragoza,Valladolid,1,2,A
+Football,Spain,League,2009,22/09/09,Racing Santander,Barcelona,1,4,A
+Football,Spain,League,2009,22/09/09,Sevilla,Mallorca,2,0,H
+Football,Spain,League,2009,23/09/09,Atletico Madrid,Almeria,2,2,D
+Football,Spain,League,2009,23/09/09,Espanyol,Malaga,2,1,H
+Football,Spain,League,2009,23/09/09,Getafe,Valencia,3,1,H
+Football,Spain,League,2009,23/09/09,Tenerife,Athletic Bilbao,1,0,H
+Football,Spain,League,2009,23/09/09,Valladolid,Osasuna,1,2,A
+Football,Spain,League,2009,23/09/09,Villarreal,Real Madrid,0,2,A
+Football,Spain,League,2009,23/09/09,Xerez,Deportivo La Coruna,0,3,A
+Football,Spain,League,2009,24/09/09,Sporting Gijon,Real Zaragoza,1,1,D
+Football,Spain,League,2009,26/09/09,Athletic Bilbao,Sevilla,0,4,A
+Football,Spain,League,2009,26/09/09,Malaga,Barcelona,0,2,A
+Football,Spain,League,2009,26/09/09,Real Madrid,Tenerife,3,0,H
+Football,Spain,League,2009,26/09/09,Valencia,Atletico Madrid,2,2,D
+Football,Spain,League,2009,27/09/09,Almeria,Racing Santander,2,2,D
+Football,Spain,League,2009,27/09/09,Espanyol,Xerez,0,0,D
+Football,Spain,League,2009,27/09/09,Deportivo La Coruna,Villarreal,1,0,H
+Football,Spain,League,2009,27/09/09,Mallorca,Valladolid,3,0,H
+Football,Spain,League,2009,27/09/09,Osasuna,Sporting Gijon,1,0,H
+Football,Spain,League,2009,27/09/09,Real Zaragoza,Getafe,3,0,H
+Football,Spain,League,2009,03/10/09,Atletico Madrid,Real Zaragoza,2,1,H
+Football,Spain,League,2009,03/10/09,Barcelona,Almeria,1,0,H
+Football,Spain,League,2009,03/10/09,Tenerife,Deportivo La Coruna,0,1,A
+Football,Spain,League,2009,04/10/09,Getafe,Osasuna,2,1,H
+Football,Spain,League,2009,04/10/09,Racing Santander,Valencia,0,1,A
+Football,Spain,League,2009,04/10/09,Sevilla,Real Madrid,2,1,H
+Football,Spain,League,2009,04/10/09,Sporting Gijon,Mallorca,4,1,H
+Football,Spain,League,2009,04/10/09,Valladolid,Athletic Bilbao,2,2,D
+Football,Spain,League,2009,04/10/09,Villarreal,Espanyol,0,0,D
+Football,Spain,League,2009,04/10/09,Xerez,Malaga,1,1,D
+Football,Spain,League,2009,17/10/09,Deportivo La Coruna,Sevilla,1,0,H
+Football,Spain,League,2009,17/10/09,Real Madrid,Valladolid,4,2,H
+Football,Spain,League,2009,17/10/09,Valencia,Barcelona,0,0,D
+Football,Spain,League,2009,18/10/09,Athletic Bilbao,Sporting Gijon,1,2,A
+Football,Spain,League,2009,18/10/09,Espanyol,Tenerife,2,1,H
+Football,Spain,League,2009,18/10/09,Malaga,Almeria,1,2,A
+Football,Spain,League,2009,18/10/09,Mallorca,Getafe,3,1,H
+Football,Spain,League,2009,18/10/09,Osasuna,Atletico Madrid,3,0,H
+Football,Spain,League,2009,18/10/09,Xerez,Villarreal,2,1,H
+Football,Spain,League,2009,18/10/09,Real Zaragoza,Racing Santander,2,2,D
+Football,Spain,League,2009,24/10/09,Atletico Madrid,Mallorca,1,1,D
+Football,Spain,League,2009,24/10/09,Sevilla,Espanyol,0,0,D
+Football,Spain,League,2009,24/10/09,Sporting Gijon,Real Madrid,0,0,D
+Football,Spain,League,2009,25/10/09,Almeria,Valencia,0,3,A
+Football,Spain,League,2009,25/10/09,Barcelona,Real Zaragoza,6,1,H
+Football,Spain,League,2009,25/10/09,Getafe,Athletic Bilbao,2,0,H
+Football,Spain,League,2009,25/10/09,Racing Santander,Osasuna,1,1,D
+Football,Spain,League,2009,25/10/09,Tenerife,Xerez,1,0,H
+Football,Spain,League,2009,25/10/09,Valladolid,Deportivo La Coruna,4,0,H
+Football,Spain,League,2009,25/10/09,Villarreal,Malaga,2,1,H
+Football,Spain,League,2009,31/10/09,Athletic Bilbao,Atletico Madrid,1,0,H
+Football,Spain,League,2009,31/10/09,Osasuna,Barcelona,1,1,D
+Football,Spain,League,2009,31/10/09,Real Madrid,Getafe,2,0,H
+Football,Spain,League,2009,31/10/09,Xerez,Sevilla,0,2,A
+Football,Spain,League,2009,01/11/09,Espanyol,Valladolid,1,1,D
+Football,Spain,League,2009,01/11/09,Deportivo La Coruna,Sporting Gijon,1,1,D
+Football,Spain,League,2009,01/11/09,Malaga,Valencia,0,1,A
+Football,Spain,League,2009,01/11/09,Mallorca,Racing Santander,1,0,H
+Football,Spain,League,2009,01/11/09,Villarreal,Tenerife,5,0,H
+Football,Spain,League,2009,01/11/09,Real Zaragoza,Almeria,2,1,H
+Football,Spain,League,2009,07/11/09,Atletico Madrid,Real Madrid,2,3,A
+Football,Spain,League,2009,07/11/09,Barcelona,Mallorca,4,2,H
+Football,Spain,League,2009,07/11/09,Getafe,Deportivo La Coruna,0,2,A
+Football,Spain,League,2009,07/11/09,Tenerife,Malaga,2,2,D
+Football,Spain,League,2009,08/11/09,Almeria,Osasuna,2,0,H
+Football,Spain,League,2009,08/11/09,Racing Santander,Athletic Bilbao,0,2,A
+Football,Spain,League,2009,08/11/09,Sevilla,Villarreal,3,2,H
+Football,Spain,League,2009,08/11/09,Sporting Gijon,Espanyol,1,0,H
+Football,Spain,League,2009,08/11/09,Valencia,Real Zaragoza,3,1,H
+Football,Spain,League,2009,08/11/09,Valladolid,Xerez,0,0,D
+Football,Spain,League,2009,21/11/09,Athletic Bilbao,Barcelona,1,1,D
+Football,Spain,League,2009,21/11/09,Deportivo La Coruna,Atletico Madrid,2,1,H
+Football,Spain,League,2009,21/11/09,Real Madrid,Racing Santander,1,0,H
+Football,Spain,League,2009,21/11/09,Tenerife,Sevilla,1,2,A
+Football,Spain,League,2009,22/11/09,Espanyol,Getafe,0,2,A
+Football,Spain,League,2009,22/11/09,Malaga,Real Zaragoza,1,1,D
+Football,Spain,League,2009,22/11/09,Mallorca,Almeria,3,1,H
+Football,Spain,League,2009,22/11/09,Osasuna,Valencia,1,3,A
+Football,Spain,League,2009,22/11/09,Villarreal,Valladolid,3,1,H
+Football,Spain,League,2009,22/11/09,Xerez,Sporting Gijon,0,0,D
+Football,Spain,League,2009,28/11/09,Sevilla,Malaga,2,2,D
+Football,Spain,League,2009,28/11/09,Sporting Gijon,Villarreal,1,0,H
+Football,Spain,League,2009,28/11/09,Valencia,Mallorca,1,1,D
+Football,Spain,League,2009,29/11/09,Almeria,Athletic Bilbao,1,4,A
+Football,Spain,League,2009,29/11/09,Atletico Madrid,Espanyol,4,0,H
+Football,Spain,League,2009,29/11/09,Barcelona,Real Madrid,1,0,H
+Football,Spain,League,2009,29/11/09,Getafe,Xerez,5,1,H
+Football,Spain,League,2009,29/11/09,Racing Santander,Deportivo La Coruna,0,1,A
+Football,Spain,League,2009,29/11/09,Valladolid,Tenerife,3,3,D
+Football,Spain,League,2009,29/11/09,Real Zaragoza,Osasuna,0,1,A
+Football,Spain,League,2009,02/12/09,Xerez,Barcelona,0,2,A
+Football,Spain,League,2009,05/12/09,Deportivo La Coruna,Barcelona,1,3,A
+Football,Spain,League,2009,05/12/09,Real Madrid,Almeria,4,2,H
+Football,Spain,League,2009,05/12/09,Sevilla,Valladolid,1,1,D
+Football,Spain,League,2009,05/12/09,Xerez,Atletico Madrid,0,2,A
+Football,Spain,League,2009,06/12/09,Athletic Bilbao,Valencia,1,2,A
+Football,Spain,League,2009,06/12/09,Espanyol,Racing Santander,0,4,A
+Football,Spain,League,2009,06/12/09,Malaga,Osasuna,1,1,D
+Football,Spain,League,2009,06/12/09,Mallorca,Real Zaragoza,4,1,H
+Football,Spain,League,2009,06/12/09,Tenerife,Sporting Gijon,2,1,H
+Football,Spain,League,2009,06/12/09,Villarreal,Getafe,3,2,H
+Football,Spain,League,2009,12/12/09,Barcelona,Espanyol,1,0,H
+Football,Spain,League,2009,12/12/09,Valencia,Real Madrid,2,3,A
+Football,Spain,League,2009,12/12/09,Real Zaragoza,Athletic Bilbao,1,2,A
+Football,Spain,League,2009,13/12/09,Almeria,Deportivo La Coruna,1,1,D
+Football,Spain,League,2009,13/12/09,Atletico Madrid,Villarreal,1,2,A
+Football,Spain,League,2009,13/12/09,Getafe,Tenerife,2,1,H
+Football,Spain,League,2009,13/12/09,Osasuna,Mallorca,0,1,A
+Football,Spain,League,2009,13/12/09,Racing Santander,Xerez,3,2,H
+Football,Spain,League,2009,13/12/09,Sporting Gijon,Sevilla,0,1,A
+Football,Spain,League,2009,13/12/09,Valladolid,Malaga,1,1,D
+Football,Spain,League,2009,19/12/09,Athletic Bilbao,Osasuna,2,0,H
+Football,Spain,League,2009,19/12/09,Real Madrid,Real Zaragoza,6,0,H
+Football,Spain,League,2009,19/12/09,Sevilla,Getafe,1,2,A
+Football,Spain,League,2009,20/12/09,Espanyol,Almeria,2,0,H
+Football,Spain,League,2009,20/12/09,Deportivo La Coruna,Valencia,0,0,D
+Football,Spain,League,2009,20/12/09,Malaga,Mallorca,2,1,H
+Football,Spain,League,2009,20/12/09,Tenerife,Atletico Madrid,1,1,D
+Football,Spain,League,2009,20/12/09,Valladolid,Sporting Gijon,2,1,H
+Football,Spain,League,2009,20/12/09,Villarreal,Racing Santander,2,0,H
+Football,Spain,League,2009,02/01/10,Atletico Madrid,Sevilla,2,1,H
+Football,Spain,League,2009,02/01/10,Barcelona,Villarreal,1,1,D
+Football,Spain,League,2009,02/01/10,Valencia,Espanyol,1,0,H
+Football,Spain,League,2009,03/01/10,Almeria,Xerez,1,0,H
+Football,Spain,League,2009,03/01/10,Getafe,Valladolid,1,0,H
+Football,Spain,League,2009,03/01/10,Mallorca,Athletic Bilbao,2,0,H
+Football,Spain,League,2009,03/01/10,Osasuna,Real Madrid,0,0,D
+Football,Spain,League,2009,03/01/10,Racing Santander,Tenerife,2,0,H
+Football,Spain,League,2009,03/01/10,Sporting Gijon,Malaga,2,2,D
+Football,Spain,League,2009,03/01/10,Real Zaragoza,Deportivo La Coruna,0,0,D
+Football,Spain,League,2009,09/01/10,Sevilla,Racing Santander,1,2,A
+Football,Spain,League,2009,09/01/10,Valladolid,Atletico Madrid,0,4,A
+Football,Spain,League,2009,09/01/10,Villarreal,Almeria,1,1,D
+Football,Spain,League,2009,10/01/10,Espanyol,Real Zaragoza,2,1,H
+Football,Spain,League,2009,10/01/10,Deportivo La Coruna,Osasuna,1,0,H
+Football,Spain,League,2009,10/01/10,Malaga,Athletic Bilbao,1,1,D
+Football,Spain,League,2009,10/01/10,Real Madrid,Mallorca,2,0,H
+Football,Spain,League,2009,10/01/10,Sporting Gijon,Getafe,1,0,H
+Football,Spain,League,2009,10/01/10,Tenerife,Barcelona,0,5,A
+Football,Spain,League,2009,10/01/10,Xerez,Valencia,1,3,A
+Football,Spain,League,2009,16/01/10,Athletic Bilbao,Real Madrid,1,0,H
+Football,Spain,League,2009,16/01/10,Barcelona,Sevilla,4,0,H
+Football,Spain,League,2009,16/01/10,Osasuna,Espanyol,2,0,H
+Football,Spain,League,2009,17/01/10,Almeria,Tenerife,1,1,D
+Football,Spain,League,2009,17/01/10,Atletico Madrid,Sporting Gijon,3,2,H
+Football,Spain,League,2009,17/01/10,Malaga,Getafe,1,0,H
+Football,Spain,League,2009,17/01/10,Mallorca,Deportivo La Coruna,2,0,H
+Football,Spain,League,2009,17/01/10,Racing Santander,Valladolid,1,1,D
+Football,Spain,League,2009,17/01/10,Valencia,Villarreal,4,1,H
+Football,Spain,League,2009,17/01/10,Real Zaragoza,Xerez,0,0,D
+Football,Spain,League,2009,23/01/10,Deportivo La Coruna,Athletic Bilbao,3,1,H
+Football,Spain,League,2009,23/01/10,Sevilla,Almeria,1,0,H
+Football,Spain,League,2009,23/01/10,Valladolid,Barcelona,0,3,A
+Football,Spain,League,2009,24/01/10,Espanyol,Mallorca,1,1,D
+Football,Spain,League,2009,24/01/10,Getafe,Atletico Madrid,1,0,H
+Football,Spain,League,2009,24/01/10,Real Madrid,Malaga,2,0,H
+Football,Spain,League,2009,24/01/10,Sporting Gijon,Racing Santander,0,1,A
+Football,Spain,League,2009,24/01/10,Tenerife,Valencia,0,0,D
+Football,Spain,League,2009,24/01/10,Villarreal,Real Zaragoza,4,2,H
+Football,Spain,League,2009,24/01/10,Xerez,Osasuna,1,2,A
+Football,Spain,League,2009,30/01/10,Espanyol,Athletic Bilbao,1,0,H
+Football,Spain,League,2009,30/01/10,Deportivo La Coruna,Real Madrid,1,3,A
+Football,Spain,League,2009,30/01/10,Sporting Gijon,Barcelona,0,1,A
+Football,Spain,League,2009,31/01/10,Atletico Madrid,Malaga,0,2,A
+Football,Spain,League,2009,31/01/10,Getafe,Racing Santander,0,0,D
+Football,Spain,League,2009,31/01/10,Sevilla,Valencia,2,1,H
+Football,Spain,League,2009,31/01/10,Tenerife,Real Zaragoza,1,3,A
+Football,Spain,League,2009,31/01/10,Valladolid,Almeria,1,1,D
+Football,Spain,League,2009,31/01/10,Villarreal,Osasuna,0,2,A
+Football,Spain,League,2009,31/01/10,Xerez,Mallorca,2,1,H
+Football,Spain,League,2009,06/02/10,Barcelona,Getafe,2,1,H
+Football,Spain,League,2009,06/02/10,Real Madrid,Espanyol,3,0,H
+Football,Spain,League,2009,06/02/10,Valencia,Valladolid,2,0,H
+Football,Spain,League,2009,07/02/10,Almeria,Sporting Gijon,3,1,H
+Football,Spain,League,2009,07/02/10,Athletic Bilbao,Xerez,3,2,H
+Football,Spain,League,2009,07/02/10,Malaga,Deportivo La Coruna,0,0,D
+Football,Spain,League,2009,07/02/10,Mallorca,Villarreal,1,0,H
+Football,Spain,League,2009,07/02/10,Osasuna,Tenerife,1,0,H
+Football,Spain,League,2009,07/02/10,Racing Santander,Atletico Madrid,1,1,D
+Football,Spain,League,2009,07/02/10,Real Zaragoza,Sevilla,2,1,H
+Football,Spain,League,2009,13/02/10,Sporting Gijon,Valencia,1,1,D
+Football,Spain,League,2009,13/02/10,Villarreal,Athletic Bilbao,2,1,H
+Football,Spain,League,2009,13/02/10,Xerez,Real Madrid,0,3,A
+Football,Spain,League,2009,14/02/10,Atletico Madrid,Barcelona,2,1,H
+Football,Spain,League,2009,14/02/10,Espanyol,Deportivo La Coruna,2,0,H
+Football,Spain,League,2009,14/02/10,Getafe,Almeria,2,2,D
+Football,Spain,League,2009,14/02/10,Racing Santander,Malaga,0,3,A
+Football,Spain,League,2009,14/02/10,Sevilla,Osasuna,1,0,H
+Football,Spain,League,2009,14/02/10,Valladolid,Real Zaragoza,1,1,D
+Football,Spain,League,2009,15/02/10,Tenerife,Mallorca,1,0,H
+Football,Spain,League,2009,20/02/10,Barcelona,Racing Santander,4,0,H
+Football,Spain,League,2009,20/02/10,Deportivo La Coruna,Xerez,2,1,H
+Football,Spain,League,2009,20/02/10,Mallorca,Sevilla,1,3,A
+Football,Spain,League,2009,21/02/10,Almeria,Atletico Madrid,1,0,H
+Football,Spain,League,2009,21/02/10,Athletic Bilbao,Tenerife,4,1,H
+Football,Spain,League,2009,21/02/10,Malaga,Espanyol,2,1,H
+Football,Spain,League,2009,21/02/10,Osasuna,Valladolid,1,1,D
+Football,Spain,League,2009,21/02/10,Real Madrid,Villarreal,6,2,H
+Football,Spain,League,2009,21/02/10,Real Zaragoza,Sporting Gijon,1,3,A
+Football,Spain,League,2009,22/02/10,Valencia,Getafe,2,1,H
+Football,Spain,League,2009,27/02/10,Barcelona,Malaga,2,1,H
+Football,Spain,League,2009,27/02/10,Getafe,Real Zaragoza,0,2,A
+Football,Spain,League,2009,27/02/10,Tenerife,Real Madrid,1,5,A
+Football,Spain,League,2009,28/02/10,Atletico Madrid,Valencia,4,1,H
+Football,Spain,League,2009,28/02/10,Racing Santander,Almeria,0,2,A
+Football,Spain,League,2009,28/02/10,Sevilla,Athletic Bilbao,0,0,D
+Football,Spain,League,2009,28/02/10,Sporting Gijon,Osasuna,3,2,H
+Football,Spain,League,2009,28/02/10,Valladolid,Mallorca,1,2,A
+Football,Spain,League,2009,28/02/10,Villarreal,Deportivo La Coruna,1,0,H
+Football,Spain,League,2009,28/02/10,Xerez,Espanyol,1,1,D
+Football,Spain,League,2009,06/03/10,Almeria,Barcelona,2,2,D
+Football,Spain,League,2009,06/03/10,Deportivo La Coruna,Tenerife,3,1,H
+Football,Spain,League,2009,06/03/10,Real Madrid,Sevilla,3,2,H
+Football,Spain,League,2009,07/03/10,Athletic Bilbao,Valladolid,2,0,H
+Football,Spain,League,2009,07/03/10,Espanyol,Villarreal,0,0,D
+Football,Spain,League,2009,07/03/10,Malaga,Xerez,2,4,A
+Football,Spain,League,2009,07/03/10,Mallorca,Sporting Gijon,3,0,H
+Football,Spain,League,2009,07/03/10,Osasuna,Getafe,0,0,D
+Football,Spain,League,2009,07/03/10,Real Zaragoza,Atletico Madrid,1,1,D
+Football,Spain,League,2009,08/03/10,Valencia,Racing Santander,0,0,D
+Football,Spain,League,2009,13/03/10,Getafe,Mallorca,3,0,H
+Football,Spain,League,2009,13/03/10,Sevilla,Deportivo La Coruna,1,1,D
+Football,Spain,League,2009,13/03/10,Sporting Gijon,Athletic Bilbao,0,0,D
+Football,Spain,League,2009,14/03/10,Almeria,Malaga,1,0,H
+Football,Spain,League,2009,14/03/10,Barcelona,Valencia,3,0,H
+Football,Spain,League,2009,14/03/10,Racing Santander,Real Zaragoza,0,0,D
+Football,Spain,League,2009,14/03/10,Tenerife,Espanyol,4,1,H
+Football,Spain,League,2009,14/03/10,Valladolid,Real Madrid,1,4,A
+Football,Spain,League,2009,14/03/10,Villarreal,Xerez,2,0,H
+Football,Spain,League,2009,15/03/10,Atletico Madrid,Osasuna,1,0,H
+Football,Spain,League,2009,20/03/10,Athletic Bilbao,Getafe,2,2,D
+Football,Spain,League,2009,20/03/10,Espanyol,Sevilla,2,0,H
+Football,Spain,League,2009,20/03/10,Deportivo La Coruna,Valladolid,0,2,A
+Football,Spain,League,2009,20/03/10,Real Madrid,Sporting Gijon,3,1,H
+Football,Spain,League,2009,20/03/10,Xerez,Tenerife,2,1,H
+Football,Spain,League,2009,21/03/10,Malaga,Villarreal,2,0,H
+Football,Spain,League,2009,21/03/10,Mallorca,Atletico Madrid,4,1,H
+Football,Spain,League,2009,21/03/10,Osasuna,Racing Santander,1,3,A
+Football,Spain,League,2009,21/03/10,Valencia,Almeria,2,0,H
+Football,Spain,League,2009,21/03/10,Real Zaragoza,Barcelona,2,4,A
+Football,Spain,League,2009,23/03/10,Sevilla,Xerez,1,1,D
+Football,Spain,League,2009,23/03/10,Sporting Gijon,Deportivo La Coruna,2,1,H
+Football,Spain,League,2009,24/03/10,Almeria,Real Zaragoza,1,0,H
+Football,Spain,League,2009,24/03/10,Barcelona,Osasuna,2,0,H
+Football,Spain,League,2009,24/03/10,Racing Santander,Mallorca,0,0,D
+Football,Spain,League,2009,24/03/10,Tenerife,Villarreal,2,2,D
+Football,Spain,League,2009,24/03/10,Valencia,Malaga,1,0,H
+Football,Spain,League,2009,24/03/10,Valladolid,Espanyol,0,0,D
+Football,Spain,League,2009,25/03/10,Atletico Madrid,Athletic Bilbao,2,0,H
+Football,Spain,League,2009,25/03/10,Getafe,Real Madrid,2,4,A
+Football,Spain,League,2009,27/03/10,Malaga,Tenerife,1,1,D
+Football,Spain,League,2009,27/03/10,Mallorca,Barcelona,0,1,A
+Football,Spain,League,2009,27/03/10,Real Zaragoza,Valencia,3,0,H
+Football,Spain,League,2009,28/03/10,Espanyol,Sporting Gijon,0,0,D
+Football,Spain,League,2009,28/03/10,Deportivo La Coruna,Getafe,1,3,A
+Football,Spain,League,2009,28/03/10,Osasuna,Almeria,1,0,H
+Football,Spain,League,2009,28/03/10,Real Madrid,Atletico Madrid,3,2,H
+Football,Spain,League,2009,28/03/10,Villarreal,Sevilla,3,0,H
+Football,Spain,League,2009,28/03/10,Xerez,Valladolid,3,0,H
+Football,Spain,League,2009,29/03/10,Athletic Bilbao,Racing Santander,4,3,H
+Football,Spain,League,2009,03/04/10,Barcelona,Athletic Bilbao,4,1,H
+Football,Spain,League,2009,03/04/10,Sevilla,Tenerife,3,0,H
+Football,Spain,League,2009,03/04/10,Real Zaragoza,Malaga,2,0,H
+Football,Spain,League,2009,04/04/10,Almeria,Mallorca,1,1,D
+Football,Spain,League,2009,04/04/10,Atletico Madrid,Deportivo La Coruna,3,0,H
+Football,Spain,League,2009,04/04/10,Getafe,Espanyol,1,1,D
+Football,Spain,League,2009,04/04/10,Racing Santander,Real Madrid,0,2,A
+Football,Spain,League,2009,04/04/10,Sporting Gijon,Xerez,2,2,D
+Football,Spain,League,2009,04/04/10,Valencia,Osasuna,3,0,H
+Football,Spain,League,2009,04/04/10,Valladolid,Villarreal,0,2,A
+Football,Spain,League,2009,10/04/10,Malaga,Sevilla,1,2,A
+Football,Spain,League,2009,10/04/10,Real Madrid,Barcelona,0,2,A
+Football,Spain,League,2009,10/04/10,Tenerife,Valladolid,0,0,D
+Football,Spain,League,2009,10/04/10,Villarreal,Sporting Gijon,1,0,H
+Football,Spain,League,2009,10/04/10,Xerez,Getafe,0,1,A
+Football,Spain,League,2009,11/04/10,Athletic Bilbao,Almeria,4,1,H
+Football,Spain,League,2009,11/04/10,Espanyol,Atletico Madrid,3,0,H
+Football,Spain,League,2009,11/04/10,Deportivo La Coruna,Racing Santander,1,1,D
+Football,Spain,League,2009,11/04/10,Mallorca,Valencia,3,2,H
+Football,Spain,League,2009,11/04/10,Osasuna,Real Zaragoza,2,0,H
+Football,Spain,League,2009,13/04/10,Getafe,Villarreal,3,0,H
+Football,Spain,League,2009,13/04/10,Sporting Gijon,Tenerife,0,2,A
+Football,Spain,League,2009,13/04/10,Valladolid,Sevilla,2,1,H
+Football,Spain,League,2009,14/04/10,Atletico Madrid,Xerez,1,2,A
+Football,Spain,League,2009,14/04/10,Barcelona,Deportivo La Coruna,3,0,H
+Football,Spain,League,2009,14/04/10,Osasuna,Malaga,2,2,D
+Football,Spain,League,2009,14/04/10,Racing Santander,Espanyol,3,1,H
+Football,Spain,League,2009,14/04/10,Real Zaragoza,Mallorca,1,1,D
+Football,Spain,League,2009,15/04/10,Almeria,Real Madrid,1,2,A
+Football,Spain,League,2009,15/04/10,Valencia,Athletic Bilbao,2,0,H
+Football,Spain,League,2009,17/04/10,Espanyol,Barcelona,0,0,D
+Football,Spain,League,2009,17/04/10,Sevilla,Sporting Gijon,3,0,H
+Football,Spain,League,2009,17/04/10,Villarreal,Atletico Madrid,2,1,H
+Football,Spain,League,2009,18/04/10,Athletic Bilbao,Real Zaragoza,0,0,D
+Football,Spain,League,2009,18/04/10,Deportivo La Coruna,Almeria,0,0,D
+Football,Spain,League,2009,18/04/10,Malaga,Valladolid,0,0,D
+Football,Spain,League,2009,18/04/10,Real Madrid,Valencia,2,0,H
+Football,Spain,League,2009,18/04/10,Tenerife,Getafe,3,2,H
+Football,Spain,League,2009,18/04/10,Xerez,Racing Santander,2,2,D
+Football,Spain,League,2009,19/04/10,Mallorca,Osasuna,2,0,H
+Football,Spain,League,2009,24/04/10,Barcelona,Xerez,3,1,H
+Football,Spain,League,2009,24/04/10,Valencia,Deportivo La Coruna,1,0,H
+Football,Spain,League,2009,24/04/10,Real Zaragoza,Real Madrid,1,2,A
+Football,Spain,League,2009,25/04/10,Almeria,Espanyol,0,1,A
+Football,Spain,League,2009,25/04/10,Atletico Madrid,Tenerife,3,1,H
+Football,Spain,League,2009,25/04/10,Getafe,Sevilla,4,3,H
+Football,Spain,League,2009,25/04/10,Mallorca,Malaga,1,1,D
+Football,Spain,League,2009,25/04/10,Racing Santander,Villarreal,1,2,A
+Football,Spain,League,2009,25/04/10,Sporting Gijon,Valladolid,0,2,A
+Football,Spain,League,2009,26/04/10,Osasuna,Athletic Bilbao,0,0,D
+Football,Spain,League,2009,01/05/10,Espanyol,Valencia,0,2,A
+Football,Spain,League,2009,01/05/10,Deportivo La Coruna,Real Zaragoza,0,1,A
+Football,Spain,League,2009,01/05/10,Malaga,Sporting Gijon,1,1,D
+Football,Spain,League,2009,01/05/10,Tenerife,Racing Santander,2,1,H
+Football,Spain,League,2009,01/05/10,Valladolid,Getafe,0,0,D
+Football,Spain,League,2009,01/05/10,Villarreal,Barcelona,1,4,A
+Football,Spain,League,2009,01/05/10,Xerez,Almeria,2,1,H
+Football,Spain,League,2009,02/05/10,Athletic Bilbao,Mallorca,1,3,A
+Football,Spain,League,2009,02/05/10,Real Madrid,Osasuna,3,2,H
+Football,Spain,League,2009,02/05/10,Sevilla,Atletico Madrid,3,1,H
+Football,Spain,League,2009,04/05/10,Almeria,Villarreal,4,2,H
+Football,Spain,League,2009,04/05/10,Barcelona,Tenerife,4,1,H
+Football,Spain,League,2009,04/05/10,Getafe,Sporting Gijon,1,1,D
+Football,Spain,League,2009,04/05/10,Valencia,Xerez,3,1,H
+Football,Spain,League,2009,05/05/10,Athletic Bilbao,Malaga,1,1,D
+Football,Spain,League,2009,05/05/10,Atletico Madrid,Valladolid,3,1,H
+Football,Spain,League,2009,05/05/10,Mallorca,Real Madrid,1,4,A
+Football,Spain,League,2009,05/05/10,Osasuna,Deportivo La Coruna,3,1,H
+Football,Spain,League,2009,05/05/10,Racing Santander,Sevilla,1,5,A
+Football,Spain,League,2009,05/05/10,Real Zaragoza,Espanyol,1,0,H
+Football,Spain,League,2009,08/05/10,Espanyol,Osasuna,2,1,H
+Football,Spain,League,2009,08/05/10,Getafe,Malaga,2,1,H
+Football,Spain,League,2009,08/05/10,Deportivo La Coruna,Mallorca,1,0,H
+Football,Spain,League,2009,08/05/10,Real Madrid,Athletic Bilbao,5,1,H
+Football,Spain,League,2009,08/05/10,Sevilla,Barcelona,2,3,A
+Football,Spain,League,2009,08/05/10,Sporting Gijon,Atletico Madrid,1,1,D
+Football,Spain,League,2009,08/05/10,Tenerife,Almeria,2,2,D
+Football,Spain,League,2009,08/05/10,Valladolid,Racing Santander,2,1,H
+Football,Spain,League,2009,08/05/10,Villarreal,Valencia,2,0,H
+Football,Spain,League,2009,08/05/10,Xerez,Real Zaragoza,3,2,H
+Football,Spain,League,2009,15/05/10,Almeria,Sevilla,2,3,A
+Football,Spain,League,2009,15/05/10,Athletic Bilbao,Deportivo La Coruna,2,0,H
+Football,Spain,League,2009,15/05/10,Atletico Madrid,Getafe,0,3,A
+Football,Spain,League,2009,15/05/10,Mallorca,Espanyol,2,0,H
+Football,Spain,League,2009,15/05/10,Real Zaragoza,Villarreal,3,3,D
+Football,Spain,League,2009,16/05/10,Barcelona,Valladolid,4,0,H
+Football,Spain,League,2009,16/05/10,Malaga,Real Madrid,1,1,D
+Football,Spain,League,2009,16/05/10,Osasuna,Xerez,1,1,D
+Football,Spain,League,2009,16/05/10,Racing Santander,Sporting Gijon,2,0,H
+Football,Spain,League,2009,16/05/10,Valencia,Tenerife,1,0,H

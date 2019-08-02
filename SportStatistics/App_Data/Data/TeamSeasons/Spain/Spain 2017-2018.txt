@@ -1,0 +1,20 @@
+Football,Spain,League,2017,Barcelona,38,28,9,1,99,29,93,19,16,3,0,53,11,51,19,12
+Football,Spain,League,2017,Atletico Madrid,38,23,10,5,58,22,79,19,12,6,1,30,8,42,19,11
+Football,Spain,League,2017,Real Madrid,38,22,10,6,94,44,76,19,12,4,3,54,20,40,19,10
+Football,Spain,League,2017,Valencia,38,22,7,9,65,38,73,19,13,3,3,36,16,42,19,9
+Football,Spain,League,2017,Villarreal,38,18,7,13,57,50,61,19,11,3,5,35,22,36,19,7
+Football,Spain,League,2017,Real Betis,38,18,6,14,60,61,60,19,10,4,5,35,31,34,19,8
+Football,Spain,League,2017,Sevilla,38,17,7,14,49,58,58,19,11,5,3,31,22,38,19,6
+Football,Spain,League,2017,Getafe,38,15,10,13,42,33,55,19,9,4,6,26,13,31,19,6
+Football,Spain,League,2017,Eibar,38,14,9,15,44,50,51,19,8,4,7,26,19,28,19,6
+Football,Spain,League,2017,Girona,38,14,9,15,50,59,51,19,8,3,8,26,22,27,19,6
+Football,Spain,League,2017,Espanyol,38,12,13,13,36,42,49,19,8,6,5,20,16,30,19,4
+Football,Spain,League,2017,Real Sociedad,38,14,7,17,66,59,49,19,10,3,6,47,29,33,19,4
+Football,Spain,League,2017,Celta Vigo,38,13,10,15,59,60,49,19,8,8,3,34,23,32,19,5
+Football,Spain,League,2017,Deportivo Alaves,38,15,2,21,40,50,47,19,9,1,9,21,23,28,19,6
+Football,Spain,League,2017,Levante,38,11,13,14,44,58,46,19,7,6,6,25,28,27,19,4
+Football,Spain,League,2017,Athletic Bilbao,38,10,13,15,41,49,43,19,6,8,5,19,16,26,19,4
+Football,Spain,League,2017,Leganes,38,12,7,19,34,51,43,19,9,4,6,19,19,31,19,3
+Football,Spain,League,2017,Deportivo La Coruna,38,6,11,21,38,76,29,19,4,6,9,22,33,18,19,2
+Football,Spain,League,2017,Las Palmas,38,5,7,26,24,74,22,19,4,2,13,15,38,14,19,1
+Football,Spain,League,2017,Malaga,38,5,5,28,24,61,20,19,4,3,12,14,27,15,19,1

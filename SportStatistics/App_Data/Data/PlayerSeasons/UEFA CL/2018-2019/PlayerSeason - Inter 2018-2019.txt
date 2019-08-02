@@ -1,0 +1,17 @@
+Football,UEFA,League,2018,Inter,Samir,Handanovic,6,0,0
+Football,UEFA,League,2018,Inter,Mauro,Icardi,6,4,0
+Football,UEFA,League,2018,Inter,Ivan,Perisic,6,0,0
+Football,UEFA,League,2018,Inter,Matias,Vecino,5,1,1
+Football,UEFA,League,2018,Inter,Stefan,de Vrij,5,0,1
+Football,UEFA,League,2018,Inter,Radja,Nainggolan,4,1,0
+Football,UEFA,League,2018,Inter,Kwadwo,Asamoah,6,0,1
+Football,UEFA,League,2018,Inter,Milan,Skriniar,6,0,0
+Football,UEFA,League,2018,Inter,Marcelo,Brozovic,6,0,0
+Football,UEFA,League,2018,Inter,Matteo,Politano,6,0,1
+Football,UEFA,League,2018,Inter,Danilo,D'Ambrosio,4,0,0
+Football,UEFA,League,2018,Inter,Sime,Vrsaljko,2,0,0
+Football,UEFA,League,2018,Inter,Miranda,,3,0,0
+Football,UEFA,League,2018,Inter,Keita,,4,0,0
+Football,UEFA,League,2018,Inter,Borja,Valero,6,0,0
+Football,UEFA,League,2018,Inter,Lautaro,Martinez,3,0,0
+Football,UEFA,League,2018,Inter,Antonio,Candreva,5,0,0

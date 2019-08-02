@@ -1,0 +1,32 @@
+Football,England,League,2013,Cardiff,Joe,Lewis,1,0,0
+Football,England,League,2013,Cardiff,Mark,Hudson,2,0,0
+Football,England,League,2013,Cardiff,Steven,Caulker,38,5,0
+Football,England,League,2013,Cardiff,Matthew,Connolly,3,0,0
+Football,England,League,2013,Cardiff,Ben,Turner,31,0,1
+Football,England,League,2013,Cardiff,Peter,Whittingham,32,3,5
+Football,England,League,2013,Cardiff,Juan,Cala,7,2,0
+Football,England,League,2013,Cardiff,Jordon,Mutch,35,7,5
+Football,England,League,2013,Cardiff,Kevin,Theophile-Catherine,28,0,0
+Football,England,League,2013,Cardiff,Craig,Noone,17,1,1
+Football,England,League,2013,Cardiff,David,Marshall,37,0,0
+Football,England,League,2013,Cardiff,Gary,Medel,34,0,1
+Football,England,League,2013,Cardiff,Fabio,,13,0,0
+Football,England,League,2013,Cardiff,Magnus,Wolff Eikrem,6,0,1
+Football,England,League,2013,Cardiff,Wilfried,Zaha,12,0,1
+Football,England,League,2013,Cardiff,Kenwyne,Jones,11,1,1
+Football,England,League,2013,Cardiff,Aron,Gunnarsson,23,1,2
+Football,England,League,2013,Cardiff,Craig,Bellamy,22,1,1
+Football,England,League,2013,Cardiff,Kim,Bo-Kyung,28,1,0
+Football,England,League,2013,Cardiff,Fraizer,Campbell,37,6,2
+Football,England,League,2013,Cardiff,Andrew,Taylor,18,0,0
+Football,England,League,2013,Cardiff,Mats,Moller D?hli,13,1,0
+Football,England,League,2013,Cardiff,Peter,Odemwingie,15,1,0
+Football,England,League,2013,Cardiff,Don,Cowie,18,0,2
+Football,England,League,2013,Cardiff,Declan,John,20,0,0
+Football,England,League,2013,Cardiff,Kevin,McNaughton,5,0,0
+Football,England,League,2013,Cardiff,Rudy,Gestede,3,0,0
+Football,England,League,2013,Cardiff,Jo,Inge Berget,1,0,0
+Football,England,League,2013,Cardiff,Andreas,Cornelius,8,0,0
+Football,England,League,2013,Cardiff,Tom,James,1,0,0
+Football,England,League,2013,Cardiff,Rhys,Healey,1,0,0
+Football,England,League,2013,Cardiff,Nicky,Maynard,8,0,0

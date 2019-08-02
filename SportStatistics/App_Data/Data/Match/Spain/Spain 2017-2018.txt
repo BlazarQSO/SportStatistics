@@ -1,0 +1,380 @@
+Football,Spain,League,2017,18/08/17,Leganes,Deportivo Alaves,1,0,H
+Football,Spain,League,2017,18/08/17,Valencia,Las Palmas,1,0,H
+Football,Spain,League,2017,19/08/17,Celta Vigo,Real Sociedad,2,3,A
+Football,Spain,League,2017,19/08/17,Girona,Atletico Madrid,2,2,D
+Football,Spain,League,2017,19/08/17,Sevilla,Espanyol,1,1,D
+Football,Spain,League,2017,20/08/17,Athletic Bilbao,Getafe,0,0,D
+Football,Spain,League,2017,20/08/17,Barcelona,Real Betis,2,0,H
+Football,Spain,League,2017,20/08/17,Deportivo La Coruna,Real Madrid,0,3,A
+Football,Spain,League,2017,21/08/17,Levante,Villarreal,1,0,H
+Football,Spain,League,2017,21/08/17,Malaga,Eibar,0,1,A
+Football,Spain,League,2017,25/08/17,Real Betis,Celta Vigo,2,1,H
+Football,Spain,League,2017,25/08/17,Real Sociedad,Villarreal,3,0,H
+Football,Spain,League,2017,26/08/17,Deportivo Alaves,Barcelona,0,2,A
+Football,Spain,League,2017,26/08/17,Girona,Malaga,1,0,H
+Football,Spain,League,2017,26/08/17,Las Palmas,Atletico Madrid,1,5,A
+Football,Spain,League,2017,26/08/17,Levante,Deportivo La Coruna,2,2,D
+Football,Spain,League,2017,27/08/17,Eibar,Athletic Bilbao,0,1,A
+Football,Spain,League,2017,27/08/17,Espanyol,Leganes,0,1,A
+Football,Spain,League,2017,27/08/17,Getafe,Sevilla,0,1,A
+Football,Spain,League,2017,27/08/17,Real Madrid,Valencia,2,2,D
+Football,Spain,League,2017,08/09/17,Leganes,Getafe,1,2,A
+Football,Spain,League,2017,09/09/17,Barcelona,Espanyol,5,0,H
+Football,Spain,League,2017,09/09/17,Real Madrid,Levante,1,1,D
+Football,Spain,League,2017,09/09/17,Sevilla,Eibar,3,0,H
+Football,Spain,League,2017,09/09/17,Valencia,Atletico Madrid,0,0,D
+Football,Spain,League,2017,10/09/17,Athletic Bilbao,Girona,2,0,H
+Football,Spain,League,2017,10/09/17,Celta Vigo,Deportivo Alaves,1,0,H
+Football,Spain,League,2017,10/09/17,Deportivo La Coruna,Real Sociedad,2,4,A
+Football,Spain,League,2017,10/09/17,Villarreal,Real Betis,3,1,H
+Football,Spain,League,2017,11/09/17,Malaga,Las Palmas,1,3,A
+Football,Spain,League,2017,15/09/17,Eibar,Leganes,1,0,H
+Football,Spain,League,2017,16/09/17,Atletico Madrid,Malaga,1,0,H
+Football,Spain,League,2017,16/09/17,Real Betis,Deportivo La Coruna,2,1,H
+Football,Spain,League,2017,16/09/17,Getafe,Barcelona,1,2,A
+Football,Spain,League,2017,16/09/17,Levante,Valencia,1,1,D
+Football,Spain,League,2017,17/09/17,Deportivo Alaves,Villarreal,0,3,A
+Football,Spain,League,2017,17/09/17,Girona,Sevilla,0,1,A
+Football,Spain,League,2017,17/09/17,Las Palmas,Athletic Bilbao,1,0,H
+Football,Spain,League,2017,17/09/17,Real Sociedad,Real Madrid,1,3,A
+Football,Spain,League,2017,18/09/17,Espanyol,Celta Vigo,2,1,H
+Football,Spain,League,2017,19/09/17,Barcelona,Eibar,6,1,H
+Football,Spain,League,2017,19/09/17,Valencia,Malaga,5,0,H
+Football,Spain,League,2017,20/09/17,Athletic Bilbao,Atletico Madrid,1,2,A
+Football,Spain,League,2017,20/09/17,Deportivo La Coruna,Deportivo Alaves,1,0,H
+Football,Spain,League,2017,20/09/17,Leganes,Girona,0,0,D
+Football,Spain,League,2017,20/09/17,Real Madrid,Real Betis,0,1,A
+Football,Spain,League,2017,20/09/17,Sevilla,Las Palmas,1,0,H
+Football,Spain,League,2017,21/09/17,Celta Vigo,Getafe,1,1,D
+Football,Spain,League,2017,21/09/17,Levante,Real Sociedad,3,0,H
+Football,Spain,League,2017,21/09/17,Villarreal,Espanyol,0,0,D
+Football,Spain,League,2017,23/09/17,Deportivo Alaves,Real Madrid,1,2,A
+Football,Spain,League,2017,23/09/17,Atletico Madrid,Sevilla,2,0,H
+Football,Spain,League,2017,23/09/17,Girona,Barcelona,0,3,A
+Football,Spain,League,2017,23/09/17,Malaga,Athletic Bilbao,3,3,D
+Football,Spain,League,2017,24/09/17,Eibar,Celta Vigo,0,4,A
+Football,Spain,League,2017,24/09/17,Espanyol,Deportivo La Coruna,4,1,H
+Football,Spain,League,2017,24/09/17,Getafe,Villarreal,4,0,H
+Football,Spain,League,2017,24/09/17,Las Palmas,Leganes,0,2,A
+Football,Spain,League,2017,24/09/17,Real Sociedad,Valencia,2,3,A
+Football,Spain,League,2017,25/09/17,Real Betis,Levante,4,0,H
+Football,Spain,League,2017,29/09/17,Celta Vigo,Girona,3,3,D
+Football,Spain,League,2017,30/09/17,Deportivo La Coruna,Getafe,2,1,H
+Football,Spain,League,2017,30/09/17,Leganes,Atletico Madrid,0,0,D
+Football,Spain,League,2017,30/09/17,Levante,Deportivo Alaves,0,2,A
+Football,Spain,League,2017,30/09/17,Sevilla,Malaga,2,0,H
+Football,Spain,League,2017,01/10/17,Barcelona,Las Palmas,3,0,H
+Football,Spain,League,2017,01/10/17,Real Madrid,Espanyol,2,0,H
+Football,Spain,League,2017,01/10/17,Real Sociedad,Real Betis,4,4,D
+Football,Spain,League,2017,01/10/17,Valencia,Athletic Bilbao,3,2,H
+Football,Spain,League,2017,01/10/17,Villarreal,Eibar,3,0,H
+Football,Spain,League,2017,13/10/17,Espanyol,Levante,0,0,D
+Football,Spain,League,2017,14/10/17,Deportivo Alaves,Real Sociedad,0,2,A
+Football,Spain,League,2017,14/10/17,Athletic Bilbao,Sevilla,1,0,H
+Football,Spain,League,2017,14/10/17,Atletico Madrid,Barcelona,1,1,D
+Football,Spain,League,2017,14/10/17,Getafe,Real Madrid,1,2,A
+Football,Spain,League,2017,15/10/17,Real Betis,Valencia,3,6,A
+Football,Spain,League,2017,15/10/17,Eibar,Deportivo La Coruna,0,0,D
+Football,Spain,League,2017,15/10/17,Girona,Villarreal,1,2,A
+Football,Spain,League,2017,15/10/17,Malaga,Leganes,0,2,A
+Football,Spain,League,2017,16/10/17,Las Palmas,Celta Vigo,2,5,A
+Football,Spain,League,2017,21/10/17,Barcelona,Malaga,2,0,H
+Football,Spain,League,2017,21/10/17,Real Betis,Deportivo Alaves,2,0,H
+Football,Spain,League,2017,21/10/17,Levante,Getafe,1,1,D
+Football,Spain,League,2017,21/10/17,Valencia,Sevilla,4,0,H
+Football,Spain,League,2017,22/10/17,Celta Vigo,Atletico Madrid,0,1,A
+Football,Spain,League,2017,22/10/17,Leganes,Athletic Bilbao,1,0,H
+Football,Spain,League,2017,22/10/17,Real Madrid,Eibar,3,0,H
+Football,Spain,League,2017,22/10/17,Villarreal,Las Palmas,4,0,H
+Football,Spain,League,2017,23/10/17,Deportivo La Coruna,Girona,1,2,A
+Football,Spain,League,2017,23/10/17,Real Sociedad,Espanyol,1,1,D
+Football,Spain,League,2017,28/10/17,Deportivo Alaves,Valencia,1,2,A
+Football,Spain,League,2017,28/10/17,Athletic Bilbao,Barcelona,0,2,A
+Football,Spain,League,2017,28/10/17,Atletico Madrid,Villarreal,1,1,D
+Football,Spain,League,2017,28/10/17,Sevilla,Leganes,2,1,H
+Football,Spain,League,2017,29/10/17,Eibar,Levante,2,2,D
+Football,Spain,League,2017,29/10/17,Getafe,Real Sociedad,2,1,H
+Football,Spain,League,2017,29/10/17,Girona,Real Madrid,2,1,H
+Football,Spain,League,2017,29/10/17,Malaga,Celta Vigo,2,1,H
+Football,Spain,League,2017,30/10/17,Espanyol,Real Betis,1,0,H
+Football,Spain,League,2017,30/10/17,Las Palmas,Deportivo La Coruna,1,3,A
+Football,Spain,League,2017,03/11/17,Real Betis,Getafe,2,2,D
+Football,Spain,League,2017,04/11/17,Deportivo Alaves,Espanyol,1,0,H
+Football,Spain,League,2017,04/11/17,Barcelona,Sevilla,2,1,H
+Football,Spain,League,2017,04/11/17,Deportivo La Coruna,Atletico Madrid,0,1,A
+Football,Spain,League,2017,04/11/17,Valencia,Leganes,3,0,H
+Football,Spain,League,2017,05/11/17,Celta Vigo,Athletic Bilbao,3,1,H
+Football,Spain,League,2017,05/11/17,Levante,Girona,1,2,A
+Football,Spain,League,2017,05/11/17,Real Madrid,Las Palmas,3,0,H
+Football,Spain,League,2017,05/11/17,Real Sociedad,Eibar,3,1,H
+Football,Spain,League,2017,05/11/17,Villarreal,Malaga,2,0,H
+Football,Spain,League,2017,17/11/17,Girona,Real Sociedad,1,1,D
+Football,Spain,League,2017,18/11/17,Atletico Madrid,Real Madrid,0,0,D
+Football,Spain,League,2017,18/11/17,Getafe,Deportivo Alaves,4,1,H
+Football,Spain,League,2017,18/11/17,Leganes,Barcelona,0,3,A
+Football,Spain,League,2017,18/11/17,Sevilla,Celta Vigo,2,1,H
+Football,Spain,League,2017,19/11/17,Athletic Bilbao,Villarreal,1,1,D
+Football,Spain,League,2017,19/11/17,Espanyol,Valencia,0,2,A
+Football,Spain,League,2017,19/11/17,Las Palmas,Levante,0,2,A
+Football,Spain,League,2017,19/11/17,Malaga,Deportivo La Coruna,3,2,H
+Football,Spain,League,2017,20/11/17,Eibar,Real Betis,5,0,H
+Football,Spain,League,2017,24/11/17,Celta Vigo,Leganes,1,0,H
+Football,Spain,League,2017,25/11/17,Deportivo Alaves,Eibar,1,2,A
+Football,Spain,League,2017,25/11/17,Real Betis,Girona,2,2,D
+Football,Spain,League,2017,25/11/17,Levante,Atletico Madrid,0,5,A
+Football,Spain,League,2017,25/11/17,Real Madrid,Malaga,3,2,H
+Football,Spain,League,2017,26/11/17,Deportivo La Coruna,Athletic Bilbao,2,2,D
+Football,Spain,League,2017,26/11/17,Real Sociedad,Las Palmas,2,2,D
+Football,Spain,League,2017,26/11/17,Valencia,Barcelona,1,1,D
+Football,Spain,League,2017,26/11/17,Villarreal,Sevilla,2,3,A
+Football,Spain,League,2017,27/11/17,Espanyol,Getafe,1,0,H
+Football,Spain,League,2017,01/12/17,Malaga,Levante,0,0,D
+Football,Spain,League,2017,02/12/17,Athletic Bilbao,Real Madrid,0,0,D
+Football,Spain,League,2017,02/12/17,Atletico Madrid,Real Sociedad,2,1,H
+Football,Spain,League,2017,02/12/17,Barcelona,Celta Vigo,2,2,D
+Football,Spain,League,2017,02/12/17,Sevilla,Deportivo La Coruna,2,0,H
+Football,Spain,League,2017,03/12/17,Eibar,Espanyol,3,1,H
+Football,Spain,League,2017,03/12/17,Getafe,Valencia,1,0,H
+Football,Spain,League,2017,03/12/17,Las Palmas,Real Betis,1,0,H
+Football,Spain,League,2017,03/12/17,Leganes,Villarreal,3,1,H
+Football,Spain,League,2017,04/12/17,Girona,Deportivo Alaves,2,3,A
+Football,Spain,League,2017,08/12/17,Deportivo Alaves,Las Palmas,2,0,H
+Football,Spain,League,2017,09/12/17,Getafe,Eibar,0,0,D
+Football,Spain,League,2017,09/12/17,Deportivo La Coruna,Leganes,1,0,H
+Football,Spain,League,2017,09/12/17,Real Madrid,Sevilla,5,0,H
+Football,Spain,League,2017,09/12/17,Valencia,Celta Vigo,2,1,H
+Football,Spain,League,2017,10/12/17,Real Betis,Atletico Madrid,0,1,A
+Football,Spain,League,2017,10/12/17,Levante,Athletic Bilbao,1,2,A
+Football,Spain,League,2017,10/12/17,Real Sociedad,Malaga,0,2,A
+Football,Spain,League,2017,10/12/17,Villarreal,Barcelona,0,2,A
+Football,Spain,League,2017,11/12/17,Espanyol,Girona,0,1,A
+Football,Spain,League,2017,15/12/17,Sevilla,Levante,0,0,D
+Football,Spain,League,2017,16/12/17,Athletic Bilbao,Real Sociedad,0,0,D
+Football,Spain,League,2017,16/12/17,Atletico Madrid,Deportivo Alaves,1,0,H
+Football,Spain,League,2017,16/12/17,Eibar,Valencia,2,1,H
+Football,Spain,League,2017,17/12/17,Barcelona,Deportivo La Coruna,4,0,H
+Football,Spain,League,2017,17/12/17,Celta Vigo,Villarreal,0,1,A
+Football,Spain,League,2017,17/12/17,Girona,Getafe,1,0,H
+Football,Spain,League,2017,17/12/17,Las Palmas,Espanyol,2,2,D
+Football,Spain,League,2017,18/12/17,Malaga,Real Betis,0,2,A
+Football,Spain,League,2017,19/12/17,Levante,Leganes,0,0,D
+Football,Spain,League,2017,20/12/17,Getafe,Las Palmas,2,0,H
+Football,Spain,League,2017,20/12/17,Real Sociedad,Sevilla,3,1,H
+Football,Spain,League,2017,21/12/17,Deportivo Alaves,Malaga,1,0,H
+Football,Spain,League,2017,21/12/17,Eibar,Girona,4,1,H
+Football,Spain,League,2017,22/12/17,Real Betis,Athletic Bilbao,0,2,A
+Football,Spain,League,2017,22/12/17,Espanyol,Atletico Madrid,1,0,H
+Football,Spain,League,2017,23/12/17,Deportivo La Coruna,Celta Vigo,1,3,A
+Football,Spain,League,2017,23/12/17,Real Madrid,Barcelona,0,3,A
+Football,Spain,League,2017,23/12/17,Valencia,Villarreal,0,1,A
+Football,Spain,League,2017,06/01/18,Atletico Madrid,Getafe,2,0,H
+Football,Spain,League,2017,06/01/18,Las Palmas,Eibar,1,2,A
+Football,Spain,League,2017,06/01/18,Sevilla,Real Betis,3,5,A
+Football,Spain,League,2017,06/01/18,Valencia,Girona,2,1,H
+Football,Spain,League,2017,07/01/18,Athletic Bilbao,Deportivo Alaves,2,0,H
+Football,Spain,League,2017,07/01/18,Barcelona,Levante,3,0,H
+Football,Spain,League,2017,07/01/18,Celta Vigo,Real Madrid,2,2,D
+Football,Spain,League,2017,07/01/18,Leganes,Real Sociedad,1,0,H
+Football,Spain,League,2017,07/01/18,Villarreal,Deportivo La Coruna,1,1,D
+Football,Spain,League,2017,08/01/18,Malaga,Espanyol,0,1,A
+Football,Spain,League,2017,12/01/18,Getafe,Malaga,1,0,H
+Football,Spain,League,2017,13/01/18,Eibar,Atletico Madrid,0,1,A
+Football,Spain,League,2017,13/01/18,Girona,Las Palmas,6,0,H
+Football,Spain,League,2017,13/01/18,Deportivo La Coruna,Valencia,1,2,A
+Football,Spain,League,2017,13/01/18,Real Madrid,Villarreal,0,1,A
+Football,Spain,League,2017,14/01/18,Deportivo Alaves,Sevilla,1,0,H
+Football,Spain,League,2017,14/01/18,Espanyol,Athletic Bilbao,1,1,D
+Football,Spain,League,2017,14/01/18,Levante,Celta Vigo,0,1,A
+Football,Spain,League,2017,14/01/18,Real Sociedad,Barcelona,2,4,A
+Football,Spain,League,2017,15/01/18,Real Betis,Leganes,3,2,H
+Football,Spain,League,2017,19/01/18,Getafe,Athletic Bilbao,2,2,D
+Football,Spain,League,2017,20/01/18,Atletico Madrid,Girona,1,1,D
+Football,Spain,League,2017,20/01/18,Espanyol,Sevilla,0,3,A
+Football,Spain,League,2017,20/01/18,Las Palmas,Valencia,2,1,H
+Football,Spain,League,2017,20/01/18,Villarreal,Levante,2,1,H
+Football,Spain,League,2017,21/01/18,Deportivo Alaves,Leganes,2,2,D
+Football,Spain,League,2017,21/01/18,Real Betis,Barcelona,0,5,A
+Football,Spain,League,2017,21/01/18,Real Madrid,Deportivo La Coruna,7,1,H
+Football,Spain,League,2017,21/01/18,Real Sociedad,Celta Vigo,1,2,A
+Football,Spain,League,2017,22/01/18,Eibar,Malaga,1,1,D
+Football,Spain,League,2017,26/01/18,Athletic Bilbao,Eibar,1,1,D
+Football,Spain,League,2017,27/01/18,Deportivo La Coruna,Levante,2,2,D
+Football,Spain,League,2017,27/01/18,Malaga,Girona,0,0,D
+Football,Spain,League,2017,27/01/18,Valencia,Real Madrid,1,4,A
+Football,Spain,League,2017,27/01/18,Villarreal,Real Sociedad,4,2,H
+Football,Spain,League,2017,28/01/18,Atletico Madrid,Las Palmas,3,0,H
+Football,Spain,League,2017,28/01/18,Barcelona,Deportivo Alaves,2,1,H
+Football,Spain,League,2017,28/01/18,Leganes,Espanyol,3,2,H
+Football,Spain,League,2017,28/01/18,Sevilla,Getafe,1,1,D
+Football,Spain,League,2017,29/01/18,Celta Vigo,Real Betis,3,2,H
+Football,Spain,League,2017,02/02/18,Real Sociedad,Deportivo La Coruna,5,0,H
+Football,Spain,League,2017,03/02/18,Deportivo Alaves,Celta Vigo,2,1,H
+Football,Spain,League,2017,03/02/18,Real Betis,Villarreal,2,1,H
+Football,Spain,League,2017,03/02/18,Eibar,Sevilla,5,1,H
+Football,Spain,League,2017,03/02/18,Levante,Real Madrid,2,2,D
+Football,Spain,League,2017,04/02/18,Atletico Madrid,Valencia,1,0,H
+Football,Spain,League,2017,04/02/18,Espanyol,Barcelona,1,1,D
+Football,Spain,League,2017,04/02/18,Getafe,Leganes,0,0,D
+Football,Spain,League,2017,04/02/18,Girona,Athletic Bilbao,2,0,H
+Football,Spain,League,2017,05/02/18,Las Palmas,Malaga,1,0,H
+Football,Spain,League,2017,09/02/18,Athletic Bilbao,Las Palmas,0,0,D
+Football,Spain,League,2017,10/02/18,Leganes,Eibar,0,1,A
+Football,Spain,League,2017,10/02/18,Malaga,Atletico Madrid,0,1,A
+Football,Spain,League,2017,10/02/18,Real Madrid,Real Sociedad,5,2,H
+Football,Spain,League,2017,10/02/18,Villarreal,Deportivo Alaves,1,2,A
+Football,Spain,League,2017,11/02/18,Barcelona,Getafe,0,0,D
+Football,Spain,League,2017,11/02/18,Celta Vigo,Espanyol,2,2,D
+Football,Spain,League,2017,11/02/18,Sevilla,Girona,1,0,H
+Football,Spain,League,2017,11/02/18,Valencia,Levante,3,1,H
+Football,Spain,League,2017,12/02/18,Deportivo La Coruna,Real Betis,0,1,A
+Football,Spain,League,2017,16/02/18,Girona,Leganes,3,0,H
+Football,Spain,League,2017,17/02/18,Deportivo Alaves,Deportivo La Coruna,1,0,H
+Football,Spain,League,2017,17/02/18,Eibar,Barcelona,0,2,A
+Football,Spain,League,2017,17/02/18,Las Palmas,Sevilla,1,2,A
+Football,Spain,League,2017,17/02/18,Malaga,Valencia,1,2,A
+Football,Spain,League,2017,18/02/18,Atletico Madrid,Athletic Bilbao,2,0,H
+Football,Spain,League,2017,18/02/18,Real Betis,Real Madrid,3,5,A
+Football,Spain,League,2017,18/02/18,Espanyol,Villarreal,1,1,D
+Football,Spain,League,2017,18/02/18,Real Sociedad,Levante,3,0,H
+Football,Spain,League,2017,19/02/18,Getafe,Celta Vigo,3,0,H
+Football,Spain,League,2017,21/02/18,Leganes,Real Madrid,1,3,A
+Football,Spain,League,2017,23/02/18,Deportivo La Coruna,Espanyol,0,0,D
+Football,Spain,League,2017,24/02/18,Barcelona,Girona,6,1,H
+Football,Spain,League,2017,24/02/18,Celta Vigo,Eibar,2,0,H
+Football,Spain,League,2017,24/02/18,Leganes,Las Palmas,0,0,D
+Football,Spain,League,2017,24/02/18,Real Madrid,Deportivo Alaves,4,0,H
+Football,Spain,League,2017,25/02/18,Athletic Bilbao,Malaga,2,1,H
+Football,Spain,League,2017,25/02/18,Sevilla,Atletico Madrid,2,5,A
+Football,Spain,League,2017,25/02/18,Valencia,Real Sociedad,2,1,H
+Football,Spain,League,2017,25/02/18,Villarreal,Getafe,1,0,H
+Football,Spain,League,2017,26/02/18,Levante,Real Betis,0,2,A
+Football,Spain,League,2017,27/02/18,Espanyol,Real Madrid,1,0,H
+Football,Spain,League,2017,27/02/18,Girona,Celta Vigo,1,0,H
+Football,Spain,League,2017,28/02/18,Athletic Bilbao,Valencia,1,1,D
+Football,Spain,League,2017,28/02/18,Atletico Madrid,Leganes,4,0,H
+Football,Spain,League,2017,28/02/18,Eibar,Villarreal,1,0,H
+Football,Spain,League,2017,28/02/18,Getafe,Deportivo La Coruna,3,0,H
+Football,Spain,League,2017,28/02/18,Malaga,Sevilla,0,1,A
+Football,Spain,League,2017,01/03/18,Deportivo Alaves,Levante,1,0,H
+Football,Spain,League,2017,01/03/18,Real Betis,Real Sociedad,0,0,D
+Football,Spain,League,2017,01/03/18,Las Palmas,Barcelona,1,1,D
+Football,Spain,League,2017,03/03/18,Deportivo La Coruna,Eibar,1,1,D
+Football,Spain,League,2017,03/03/18,Leganes,Malaga,2,0,H
+Football,Spain,League,2017,03/03/18,Real Madrid,Getafe,3,1,H
+Football,Spain,League,2017,03/03/18,Sevilla,Athletic Bilbao,2,0,H
+Football,Spain,League,2017,03/03/18,Villarreal,Girona,0,2,A
+Football,Spain,League,2017,04/03/18,Barcelona,Atletico Madrid,1,0,H
+Football,Spain,League,2017,04/03/18,Levante,Espanyol,1,1,D
+Football,Spain,League,2017,04/03/18,Real Sociedad,Deportivo Alaves,2,1,H
+Football,Spain,League,2017,04/03/18,Valencia,Real Betis,2,0,H
+Football,Spain,League,2017,05/03/18,Celta Vigo,Las Palmas,2,1,H
+Football,Spain,League,2017,09/03/18,Girona,Deportivo La Coruna,2,0,H
+Football,Spain,League,2017,10/03/18,Eibar,Real Madrid,1,2,A
+Football,Spain,League,2017,10/03/18,Getafe,Levante,0,1,A
+Football,Spain,League,2017,10/03/18,Malaga,Barcelona,0,2,A
+Football,Spain,League,2017,10/03/18,Sevilla,Valencia,0,2,A
+Football,Spain,League,2017,11/03/18,Athletic Bilbao,Leganes,2,0,H
+Football,Spain,League,2017,11/03/18,Atletico Madrid,Celta Vigo,3,0,H
+Football,Spain,League,2017,11/03/18,Espanyol,Real Sociedad,2,1,H
+Football,Spain,League,2017,11/03/18,Las Palmas,Villarreal,0,2,A
+Football,Spain,League,2017,12/03/18,Deportivo Alaves,Real Betis,1,3,A
+Football,Spain,League,2017,16/03/18,Levante,Eibar,2,1,H
+Football,Spain,League,2017,17/03/18,Real Betis,Espanyol,3,0,H
+Football,Spain,League,2017,17/03/18,Deportivo La Coruna,Las Palmas,1,1,D
+Football,Spain,League,2017,17/03/18,Real Sociedad,Getafe,1,2,A
+Football,Spain,League,2017,17/03/18,Valencia,Deportivo Alaves,3,1,H
+Football,Spain,League,2017,18/03/18,Barcelona,Athletic Bilbao,2,0,H
+Football,Spain,League,2017,18/03/18,Celta Vigo,Malaga,0,0,D
+Football,Spain,League,2017,18/03/18,Leganes,Sevilla,2,1,H
+Football,Spain,League,2017,18/03/18,Real Madrid,Girona,6,3,H
+Football,Spain,League,2017,18/03/18,Villarreal,Atletico Madrid,2,1,H
+Football,Spain,League,2017,31/03/18,Athletic Bilbao,Celta Vigo,1,1,D
+Football,Spain,League,2017,31/03/18,Girona,Levante,1,1,D
+Football,Spain,League,2017,31/03/18,Las Palmas,Real Madrid,0,3,A
+Football,Spain,League,2017,31/03/18,Sevilla,Barcelona,2,2,D
+Football,Spain,League,2017,01/04/18,Atletico Madrid,Deportivo La Coruna,1,0,H
+Football,Spain,League,2017,01/04/18,Eibar,Real Sociedad,0,0,D
+Football,Spain,League,2017,01/04/18,Espanyol,Deportivo Alaves,0,0,D
+Football,Spain,League,2017,01/04/18,Leganes,Valencia,0,1,A
+Football,Spain,League,2017,01/04/18,Malaga,Villarreal,1,0,H
+Football,Spain,League,2017,02/04/18,Getafe,Real Betis,0,1,A
+Football,Spain,League,2017,06/04/18,Deportivo La Coruna,Malaga,3,2,H
+Football,Spain,League,2017,07/04/18,Deportivo Alaves,Getafe,2,0,H
+Football,Spain,League,2017,07/04/18,Barcelona,Leganes,3,1,H
+Football,Spain,League,2017,07/04/18,Real Betis,Eibar,2,0,H
+Football,Spain,League,2017,07/04/18,Celta Vigo,Sevilla,4,0,H
+Football,Spain,League,2017,08/04/18,Levante,Las Palmas,2,1,H
+Football,Spain,League,2017,08/04/18,Real Madrid,Atletico Madrid,1,1,D
+Football,Spain,League,2017,08/04/18,Real Sociedad,Girona,5,0,H
+Football,Spain,League,2017,08/04/18,Valencia,Espanyol,1,0,H
+Football,Spain,League,2017,09/04/18,Villarreal,Athletic Bilbao,1,3,A
+Football,Spain,League,2017,13/04/18,Girona,Real Betis,0,1,A
+Football,Spain,League,2017,14/04/18,Athletic Bilbao,Deportivo La Coruna,2,3,A
+Football,Spain,League,2017,14/04/18,Barcelona,Valencia,2,1,H
+Football,Spain,League,2017,14/04/18,Las Palmas,Real Sociedad,0,1,A
+Football,Spain,League,2017,14/04/18,Leganes,Celta Vigo,1,0,H
+Football,Spain,League,2017,14/04/18,Sevilla,Villarreal,2,2,D
+Football,Spain,League,2017,15/04/18,Atletico Madrid,Levante,3,0,H
+Football,Spain,League,2017,15/04/18,Eibar,Deportivo Alaves,0,1,A
+Football,Spain,League,2017,15/04/18,Getafe,Espanyol,1,0,H
+Football,Spain,League,2017,15/04/18,Malaga,Real Madrid,1,2,A
+Football,Spain,League,2017,17/04/18,Celta Vigo,Barcelona,2,2,D
+Football,Spain,League,2017,17/04/18,Deportivo La Coruna,Sevilla,0,0,D
+Football,Spain,League,2017,17/04/18,Villarreal,Leganes,2,1,H
+Football,Spain,League,2017,18/04/18,Espanyol,Eibar,0,1,A
+Football,Spain,League,2017,18/04/18,Real Madrid,Athletic Bilbao,1,1,D
+Football,Spain,League,2017,18/04/18,Valencia,Getafe,1,2,A
+Football,Spain,League,2017,19/04/18,Deportivo Alaves,Girona,1,2,A
+Football,Spain,League,2017,19/04/18,Real Betis,Las Palmas,1,0,H
+Football,Spain,League,2017,19/04/18,Levante,Malaga,1,0,H
+Football,Spain,League,2017,19/04/18,Real Sociedad,Atletico Madrid,3,0,H
+Football,Spain,League,2017,20/04/18,Leganes,Deportivo La Coruna,0,0,D
+Football,Spain,League,2017,21/04/18,Celta Vigo,Valencia,1,1,D
+Football,Spain,League,2017,21/04/18,Eibar,Getafe,0,1,A
+Football,Spain,League,2017,22/04/18,Atletico Madrid,Real Betis,0,0,D
+Football,Spain,League,2017,22/04/18,Girona,Espanyol,0,2,A
+Football,Spain,League,2017,22/04/18,Las Palmas,Deportivo Alaves,0,4,A
+Football,Spain,League,2017,22/04/18,Malaga,Real Sociedad,2,0,H
+Football,Spain,League,2017,23/04/18,Athletic Bilbao,Levante,1,3,A
+Football,Spain,League,2017,27/04/18,Levante,Sevilla,2,1,H
+Football,Spain,League,2017,28/04/18,Espanyol,Las Palmas,1,1,D
+Football,Spain,League,2017,28/04/18,Real Madrid,Leganes,2,1,H
+Football,Spain,League,2017,28/04/18,Real Sociedad,Athletic Bilbao,3,1,H
+Football,Spain,League,2017,28/04/18,Villarreal,Celta Vigo,4,1,H
+Football,Spain,League,2017,29/04/18,Deportivo Alaves,Atletico Madrid,0,1,A
+Football,Spain,League,2017,29/04/18,Getafe,Girona,1,1,D
+Football,Spain,League,2017,29/04/18,Deportivo La Coruna,Barcelona,2,4,A
+Football,Spain,League,2017,29/04/18,Valencia,Eibar,0,0,D
+Football,Spain,League,2017,30/04/18,Real Betis,Malaga,2,1,H
+Football,Spain,League,2017,04/05/18,Sevilla,Real Sociedad,1,0,H
+Football,Spain,League,2017,05/05/18,Athletic Bilbao,Real Betis,2,0,H
+Football,Spain,League,2017,05/05/18,Celta Vigo,Deportivo La Coruna,1,1,D
+Football,Spain,League,2017,05/05/18,Girona,Eibar,1,4,A
+Football,Spain,League,2017,05/05/18,Villarreal,Valencia,1,0,H
+Football,Spain,League,2017,06/05/18,Atletico Madrid,Espanyol,0,2,A
+Football,Spain,League,2017,06/05/18,Barcelona,Real Madrid,2,2,D
+Football,Spain,League,2017,06/05/18,Las Palmas,Getafe,0,1,A
+Football,Spain,League,2017,06/05/18,Malaga,Deportivo Alaves,0,3,A
+Football,Spain,League,2017,07/05/18,Leganes,Levante,0,3,A
+Football,Spain,League,2017,09/05/18,Barcelona,Villarreal,5,1,H
+Football,Spain,League,2017,09/05/18,Sevilla,Real Madrid,3,2,H
+Football,Spain,League,2017,12/05/18,Deportivo Alaves,Athletic Bilbao,3,1,H
+Football,Spain,League,2017,12/05/18,Real Betis,Sevilla,2,2,D
+Football,Spain,League,2017,12/05/18,Eibar,Las Palmas,1,0,H
+Football,Spain,League,2017,12/05/18,Getafe,Atletico Madrid,0,1,A
+Football,Spain,League,2017,12/05/18,Girona,Valencia,0,1,A
+Football,Spain,League,2017,12/05/18,Deportivo La Coruna,Villarreal,2,4,A
+Football,Spain,League,2017,12/05/18,Real Madrid,Celta Vigo,6,0,H
+Football,Spain,League,2017,12/05/18,Real Sociedad,Leganes,3,2,H
+Football,Spain,League,2017,13/05/18,Espanyol,Malaga,4,1,H
+Football,Spain,League,2017,13/05/18,Levante,Barcelona,5,4,H
+Football,Spain,League,2017,19/05/18,Celta Vigo,Levante,4,2,H
+Football,Spain,League,2017,19/05/18,Las Palmas,Girona,1,2,A
+Football,Spain,League,2017,19/05/18,Leganes,Real Betis,3,2,H
+Football,Spain,League,2017,19/05/18,Malaga,Getafe,0,1,A
+Football,Spain,League,2017,19/05/18,Sevilla,Deportivo Alaves,1,0,H
+Football,Spain,League,2017,19/05/18,Villarreal,Real Madrid,2,2,D
+Football,Spain,League,2017,20/05/18,Athletic Bilbao,Espanyol,0,1,A
+Football,Spain,League,2017,20/05/18,Atletico Madrid,Eibar,2,2,D
+Football,Spain,League,2017,20/05/18,Barcelona,Real Sociedad,1,0,H
+Football,Spain,League,2017,20/05/18,Valencia,Deportivo La Coruna,2,1,H

@@ -1,0 +1,25 @@
+Football,Spain,League,2009,Real Madrid,Cristiano,Ronaldo,29,26,7
+Football,Spain,League,2009,Real Madrid,Gonzalo,Higuain,32,27,5
+Football,Spain,League,2009,Real Madrid,Ruud,van Nistelrooy,1,1,1
+Football,Spain,League,2009,Real Madrid,Sergio,Ramos,33,4,5
+Football,Spain,League,2009,Real Madrid,Marcelo,,35,4,9
+Football,Spain,League,2009,Real Madrid,Xabi,Alonso,34,3,5
+Football,Spain,League,2009,Real Madrid,Pepe,,10,1,0
+Football,Spain,League,2009,Real Madrid,Kaka,,25,8,5
+Football,Spain,League,2009,Real Madrid,Esteban,Granero,31,3,5
+Football,Spain,League,2009,Real Madrid,Alvaro,Arbeloa,30,2,2
+Football,Spain,League,2009,Real Madrid,Christoph,Metzelder,2,0,0
+Football,Spain,League,2009,Real Madrid,Rafael,van der Vaart,26,6,7
+Football,Spain,League,2009,Real Madrid,Ezequiel,Garay,20,1,2
+Football,Spain,League,2009,Real Madrid,Guti,,26,2,9
+Football,Spain,League,2009,Real Madrid,Fernando,Gago,18,0,2
+Football,Spain,League,2009,Real Madrid,Raul,Albiol,33,0,1
+Football,Spain,League,2009,Real Madrid,Lass,Diarra,23,1,0
+Football,Spain,League,2009,Real Madrid,Karim,Benzema,27,8,3
+Football,Spain,League,2009,Real Madrid,Iker,Casillas,38,0,0
+Football,Spain,League,2009,Real Madrid,Royston,Drenthe,8,0,1
+Football,Spain,League,2009,Real Madrid,Mahamadou,Diarra,15,0,0
+Football,Spain,League,2009,Real Madrid,Raul,,30,5,1
+Football,Spain,League,2009,Real Madrid,Juanfran,,1,0,0
+Football,Spain,League,2009,Real Madrid,Pedro,Mosquera,1,0,0
+Football,Spain,League,2009,Real Madrid,Marcos,Alonso,1,0,0

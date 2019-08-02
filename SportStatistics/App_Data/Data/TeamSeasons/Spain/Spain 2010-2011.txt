@@ -1,0 +1,20 @@
+Football,Spain,League,2010,Barcelona,38,30,6,2,95,21,96,19,16,2,1,46,10,50,19,14
+Football,Spain,League,2010,Real Madrid,38,29,5,4,102,33,92,19,16,1,2,61,12,49,19,13
+Football,Spain,League,2010,Valencia,38,21,8,9,64,44,71,19,10,5,4,34,21,35,19,11
+Football,Spain,League,2010,Villarreal,38,18,8,12,54,44,62,19,13,3,3,33,14,42,19,5
+Football,Spain,League,2010,Sevilla,38,17,7,14,62,61,58,19,10,4,5,35,27,34,19,7
+Football,Spain,League,2010,Athletic Bilbao,38,18,4,16,59,55,58,19,12,1,6,32,20,37,19,6
+Football,Spain,League,2010,Atletico Madrid,38,17,7,14,62,53,58,19,10,3,6,35,20,33,19,7
+Football,Spain,League,2010,Espanyol,38,15,4,19,46,55,49,19,11,2,6,33,22,35,19,4
+Football,Spain,League,2010,Osasuna,38,13,8,17,45,46,47,19,10,6,3,28,14,36,19,3
+Football,Spain,League,2010,Sporting Gijon,38,11,14,13,35,42,47,19,9,6,4,23,16,33,19,2
+Football,Spain,League,2010,Malaga,38,13,7,18,54,68,46,19,7,3,9,29,29,24,19,6
+Football,Spain,League,2010,Racing Santander,38,12,10,16,41,56,46,19,8,6,5,25,21,30,19,4
+Football,Spain,League,2010,Real Zaragoza,38,12,9,17,40,53,45,19,9,3,7,26,27,30,19,3
+Football,Spain,League,2010,Real Sociedad,38,14,3,21,49,66,45,19,11,2,6,27,21,35,19,3
+Football,Spain,League,2010,Levante,38,12,9,17,41,52,45,19,9,4,6,25,20,31,19,3
+Football,Spain,League,2010,Getafe,38,12,8,18,49,60,44,19,9,3,7,33,26,30,19,3
+Football,Spain,League,2010,Mallorca,38,12,8,18,41,56,44,19,9,4,6,25,19,31,19,3
+Football,Spain,League,2010,Deportivo La Coruna,38,10,13,15,31,47,43,19,8,6,5,22,19,30,19,2
+Football,Spain,League,2010,Hercules,38,9,8,21,36,60,35,19,7,5,7,27,27,26,19,2
+Football,Spain,League,2010,Almeria,38,6,12,20,36,70,30,19,3,10,6,23,35,19,19,3

@@ -1,0 +1,25 @@
+Football,Spain,League,2016,Athletic Bilbao,Borja,Viguera,1,1,0
+Football,Spain,League,2016,Athletic Bilbao,Yeray,Alvarez,26,0,0
+Football,Spain,League,2016,Athletic Bilbao,Raul,Garcia,36,10,4
+Football,Spain,League,2016,Athletic Bilbao,Aritz,Aduriz,32,16,1
+Football,Spain,League,2016,Athletic Bilbao,Iker,Muniain,35,7,2
+Football,Spain,League,2016,Athletic Bilbao,Benat,Etxebarria,32,1,5
+Football,Spain,League,2016,Athletic Bilbao,Aymeric,Laporte,33,2,0
+Football,Spain,League,2016,Athletic Bilbao,Eneko,Boveda,19,0,0
+Football,Spain,League,2016,Athletic Bilbao,Gorka,Elustondo,2,0,0
+Football,Spain,League,2016,Athletic Bilbao,Mikel,San Jose,35,4,1
+Football,Spain,League,2016,Athletic Bilbao,Inaki,Williams,38,5,6
+Football,Spain,League,2016,Athletic Bilbao,Inigo,Lekue,25,2,1
+Football,Spain,League,2016,Athletic Bilbao,Oscar,De Marcos,27,1,4
+Football,Spain,League,2016,Athletic Bilbao,Mikel,Balenziaga,33,1,1
+Football,Spain,League,2016,Athletic Bilbao,Markel,Susaeta,26,1,2
+Football,Spain,League,2016,Athletic Bilbao,Mikel,Vesga,6,0,0
+Football,Spain,League,2016,Athletic Bilbao,Xabier,Etxeita,10,0,0
+Football,Spain,League,2016,Athletic Bilbao,Gorka,Iraizoz,17,0,0
+Football,Spain,League,2016,Athletic Bilbao,Kepa,Arrizabalaga,23,0,0
+Football,Spain,League,2016,Athletic Bilbao,Ander,Iturraspe,24,0,1
+Football,Spain,League,2016,Athletic Bilbao,Sabin,Merino,13,1,1
+Football,Spain,League,2016,Athletic Bilbao,Saborit,,9,0,0
+Football,Spain,League,2016,Athletic Bilbao,Mikel,Rico,18,1,0
+Football,Spain,League,2016,Athletic Bilbao,Asier,Villalibre,6,0,1
+Football,Spain,League,2016,Athletic Bilbao,Javier,Eraso,7,0,1

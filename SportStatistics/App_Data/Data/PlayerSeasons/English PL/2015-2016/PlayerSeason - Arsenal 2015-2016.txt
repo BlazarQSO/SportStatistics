@@ -1,0 +1,25 @@
+Football,England,League,2015,Arsenal,Alexis,Sanchez,30,13,4
+Football,England,League,2015,Arsenal,Mesut,Ozil,35,6,19
+Football,England,League,2015,Arsenal,Santi,Cazorla,15,0,3
+Football,England,League,2015,Arsenal,Laurent,Koscielny,33,4,0
+Football,England,League,2015,Arsenal,Nacho,Monreal,37,0,3
+Football,England,League,2015,Arsenal,Gabriel,Paulista,21,1,0
+Football,England,League,2015,Arsenal,Aaron,Ramsey,31,5,4
+Football,England,League,2015,Arsenal,Hector,Bellerin,36,1,5
+Football,England,League,2015,Arsenal,David,Ospina,4,0,0
+Football,England,League,2015,Arsenal,Francis,Coquelin,26,0,0
+Football,England,League,2015,Arsenal,Olivier,Giroud,38,16,6
+Football,England,League,2015,Arsenal,Danny,Welbeck,11,4,2
+Football,England,League,2015,Arsenal,Petr,Cech,34,0,0
+Football,England,League,2015,Arsenal,Per,Mertesacker,24,0,0
+Football,England,League,2015,Arsenal,Mathieu,Debuchy,2,0,0
+Football,England,League,2015,Arsenal,Alex,Iwobi,13,2,2
+Football,England,League,2015,Arsenal,Mohamed,Elneny,11,0,1
+Football,England,League,2015,Arsenal,Mathieu,Flamini,16,0,0
+Football,England,League,2015,Arsenal,Joel,Campbell,19,3,2
+Football,England,League,2015,Arsenal,Alex,Oxlade Chamberlain,22,1,0
+Football,England,League,2015,Arsenal,Jack,Wilshere,3,0,0
+Football,England,League,2015,Arsenal,Theo,Walcott,28,5,2
+Football,England,League,2015,Arsenal,Calum,Chambers,12,0,0
+Football,England,League,2015,Arsenal,Mikel,Arteta,9,0,0
+Football,England,League,2015,Arsenal,Kieran,Gibbs,15,1,0

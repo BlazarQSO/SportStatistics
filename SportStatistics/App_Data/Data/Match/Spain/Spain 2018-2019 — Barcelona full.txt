@@ -1,0 +1,380 @@
+Football,Spain,League,2018,17/08/2018,Real Betis,Levante,0,3,A
+Football,Spain,League,2018,17/08/2018,Girona,Valladolid,0,0,D
+Football,Spain,League,2018,18/08/2018,Barcelona,Deportivo Alaves,3,0,H|Marc-Andre ter Stegen,Nelson Semedo,Samuel Umtiti,Gerard Pique,Jordi Alba,Sergi Roberto,Ivan Rakitic,Sergio Busquets,Ousmane Dembele,Lionel Messi,Luis Suarez,Coutinho,Arthur,Arturo Vidal|Fernando Pacheco,Martin Aguirregabiria,Guillermo Maripan,Victor Laguardia,Ruben Duarte,Ibai Gomez,Dani Torres,Mubarak Wakaso,Manu Garcia,Jony,Ruben Sobrino,Burgui,Adrian Marín,Borja Baston|G:64:Lionel Messi,G:83:Coutinho,G:90+1:Lionel Messi,A:90+1:Luis Suarez,A:83:Arthur|
+Football,Spain,League,2018,18/08/2018,Celta Vigo,Espanyol,1,1,D
+Football,Spain,League,2018,18/08/2018,Villarreal,Real Sociedad,1,2,A
+Football,Spain,League,2018,19/08/2018,Eibar,Huesca,1,2,A
+Football,Spain,League,2018,19/08/2018,Real Madrid,Getafe,2,0,H
+Football,Spain,League,2018,19/08/2018,Rayo Vallecano,Sevilla,1,4,A
+Football,Spain,League,2018,20/08/2018,Athletic Bilbao,Leganes,2,1,H
+Football,Spain,League,2018,20/08/2018,Valencia,Atletico Madrid,1,1,D
+Football,Spain,League,2018,24/08/2018,Getafe,Eibar,2,0,H
+Football,Spain,League,2018,24/08/2018,Leganes,Real Sociedad,2,2,D
+Football,Spain,League,2018,25/08/2018,Deportivo Alaves,Real Betis,0,0,D
+Football,Spain,League,2018,25/08/2018,Atletico Madrid,Rayo Vallecano,1,0,H
+Football,Spain,League,2018,25/08/2018,Valladolid,Barcelona,0,1,A|Jordi Masip,Javi Moyano,Fernando Calero,Kiko Olivas,Nacho,Ruben Alcaraz,Anuar Mohamed,Borja Fernandez,Toni Villa,Oscar Plano,Enes Unal,Duje Cop,Daniele Verde,Kekoe|Marc-Andre ter Stegen,Sergi Roberto,Samuel Umtiti,Gerard Pique,Jordi Alba,Coutinho,Ivan Rakitic,Sergio Busquets,Lionel Messi,Luis Suarez,Ousmane Dembele,Malcom,Arturo Vidal,Munir El Haddadi||A:57:Sergi Roberto,G:57:Ousmane Dembele
+Football,Spain,League,2018,26/08/2018,Espanyol,Valencia,2,0,H
+Football,Spain,League,2018,26/08/2018,Girona,Real Madrid,1,4,A
+Football,Spain,League,2018,26/08/2018,Sevilla,Villarreal,0,0,D
+Football,Spain,League,2018,27/08/2018,Athletic Bilbao,Huesca,2,2,D
+Football,Spain,League,2018,27/08/2018,Levante,Celta Vigo,1,2,A
+Football,Spain,League,2018,31/08/2018,Eibar,Real Sociedad,2,1,H
+Football,Spain,League,2018,31/08/2018,Getafe,Valladolid,0,0,D
+Football,Spain,League,2018,31/08/2018,Villarreal,Girona,0,1,A
+Football,Spain,League,2018,01/09/2018,Celta Vigo,Atletico Madrid,2,0,H
+Football,Spain,League,2018,01/09/2018,Real Madrid,Leganes,4,1,H
+Football,Spain,League,2018,02/09/2018,Deportivo Alaves,Espanyol,2,1,H
+Football,Spain,League,2018,02/09/2018,Barcelona,Huesca,8,2,H|Marc-Andre ter Stegen,Sergi Roberto,Samuel Umtiti,Gerard Pique,Jordi Alba,Coutinho,Ivan Rakitic,Sergio Busquets,Lionel Messi,Luis Suarez,Ousmane Dembele,Arthur,Arturo Vidal,Clement Lenglet,Malcom,Jasper Cillessen,Nelson Semedo,Munir El Haddadi|Axel Werner,Jorge Miramon,Xabier Etxeita,Jorge Pulido,Luisinho,Alex Gallar,Damian Musto,Gonzalo Melero,Moi Gomez,Samuele Longo,Juan Hernandez,Chimy Avila,Serdar Gurler,Ruben Semedo|A:16:Ivan Rakitic,G:16:Lionel Messi,A:39:Jordi Alba,G:39:Luis Suarez,A:48:Luis Suarez,G:48:Ousmane Dembele,A:52:Lionel Messi,G:52:Ivan Rakitic,A:61:Coutinho,G:61:Lionel Messi,A:81:Lionel Messi,G:81:Jordi Alba,G:90+2:Luis Suarez|A:3:Samuele Longo,G:3:Juan Hernandez,A:42:Moi Gomez,G:42:Alex Gallar
+Football,Spain,League,2018,02/09/2018,Real Betis,Sevilla,1,0,H
+Football,Spain,League,2018,02/09/2018,Levante,Valencia,2,2,D
+Football,Spain,League,2018,14/09/2018,Huesca,Rayo Vallecano,0,1,A
+Football,Spain,League,2018,15/09/2018,Athletic Bilbao,Real Madrid,1,1,D
+Football,Spain,League,2018,15/09/2018,Atletico Madrid,Eibar,1,1,D
+Football,Spain,League,2018,15/09/2018,Real Sociedad,Barcelona,1,2,A|Geronimo Rulli,Joseba Zaldua,Hector Moreno,Aritz Elustondo,Theo Hernandez,Igor Zubeldia,David Zurutuza,Asier Illarramendi,Ruben Pardo,Juanmi,Mikel Oyarzabal,Luca Sangalli,Jon Bautista,Mikel Merino|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Jordi Alba,Samuel Umtiti,Ivan Rakitic,Rafinha,Sergi Roberto,Luis Suarez,Lionel Messi,Ousmane Dembele,Sergio Busquets,Coutinho,Arturo Vidal,Malcom,Jasper Cillessen,Nelson Semedo,Munir El Haddadi|G:12:Aritz Elustondo|A:63:Samuel Umtiti,G:63:Luis Suarez,G:66:Ousmane Dembele
+Football,Spain,League,2018,15/09/2018,Valencia,Real Betis,0,0,D
+Football,Spain,League,2018,16/09/2018,Espanyol,Levante,1,0,H
+Football,Spain,League,2018,16/09/2018,Leganes,Villarreal,0,1,A
+Football,Spain,League,2018,16/09/2018,Sevilla,Getafe,0,2,A
+Football,Spain,League,2018,16/09/2018,Valladolid,Deportivo Alaves,0,1,A
+Football,Spain,League,2018,17/09/2018,Girona,Celta Vigo,3,2,H
+Football,Spain,League,2018,21/09/2018,Huesca,Real Sociedad,0,1,A
+Football,Spain,League,2018,22/09/2018,Celta Vigo,Valladolid,3,3,D
+Football,Spain,League,2018,22/09/2018,Eibar,Leganes,1,0,H
+Football,Spain,League,2018,22/09/2018,Getafe,Atletico Madrid,0,2,A
+Football,Spain,League,2018,22/09/2018,Real Madrid,Espanyol,1,0,H
+Football,Spain,League,2018,22/09/2018,Rayo Vallecano,Deportivo Alaves,1,5,A
+Football,Spain,League,2018,23/09/2018,Barcelona,Girona,2,2,D|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Clement Lenglet,Jordi Alba,Sergio Busquets,Arthur,Arturo Vidal,Luis Suarez,Lionel Messi,Ousmane Dembele,Samuel Umtiti,Ivan Rakitic,Coutinho|Yassine Bounou,Aday Benitez,Bernardo Espinosa,Juanpe,Pedro Alcala,Marc Muniesa,Pere Pons,Alex Granell,Aleix Garcia,Portu,Cristhian Stuani,Douglas Luiz,Borja Garcia,Seydou Doumbia|G:63:Gerard Pique,A:19:Arturo Vidal,G:19:Lionel Messi|A:45:Aday Benitez,G:45:Cristhian Stuani,G:51:Cristhian Stuani
+Football,Spain,League,2018,23/09/2018,Real Betis,Athletic Bilbao,2,2,D
+Football,Spain,League,2018,23/09/2018,Levante,Sevilla,2,6,A
+Football,Spain,League,2018,23/09/2018,Villarreal,Valencia,0,0,D
+Football,Spain,League,2018,25/09/2018,Atletico Madrid,Huesca,3,0,H
+Football,Spain,League,2018,25/09/2018,Espanyol,Eibar,1,0,H
+Football,Spain,League,2018,25/09/2018,Real Sociedad,Rayo Vallecano,2,2,D
+Football,Spain,League,2018,26/09/2018,Athletic Bilbao,Villarreal,0,3,A
+Football,Spain,League,2018,26/09/2018,Leganes,Barcelona,2,1,H|Ivan Cuellar,Juanfran,Raul Garcia,Unai Bustinza,Rodrigo Tarin,Jonathan Silva,Nabil El Zhar,Ruben Perez,Mikel Vesga,Oscar Rodriguez,Youssef En-Nesyri,Allan Nyom,Sabin Merino,Gerard Gumbau|Marc-Andre ter Stegen,Gerard Pique,Samuel Umtiti,Thomas Vermaelen,Ivan Rakitic,Sergio Busquets,Coutinho,Sergi Roberto,Lionel Messi,Ousmane Dembele,MunirEl Haddadi,Jordi Alba,Luis Suarez,Malcom|A:52:Jonathan Silva,G:53:Oscar Rodriguez|A:12:Lionel Messi,G:12:Coutinho
+Football,Spain,League,2018,26/09/2018,Sevilla,Real Madrid,3,0,H
+Football,Spain,League,2018,26/09/2018,Valencia,Celta Vigo,1,1,D
+Football,Spain,League,2018,27/09/2018,Deportivo Alaves,Getafe,1,1,D
+Football,Spain,League,2018,27/09/2018,Girona,Real Betis,0,1,A
+Football,Spain,League,2018,27/09/2018,Valladolid,Levante,2,1,H
+Football,Spain,League,2018,28/09/2018,Rayo Vallecano,Espanyol,2,2,D
+Football,Spain,League,2018,29/09/2018,Barcelona,Athletic Bilbao,1,1,D|Marc-Andre ter Stegen,Gerard Pique,Samuel Umtiti,Thomas Vermaelen,Ivan Rakitic,Sergio Busquets,Coutinho,Sergi Roberto,Lionel Messi,Ousmane Dembele,Munir El Haddadi,Jordi Alba,Luis Suarez,Malcom|Unai Simon,Oscar De Marcos,Inigo Martinez,Yeray Alvarez,Mikel Balenziaga,Benat Etxebarria,Dani Garcia,Markel Susaeta,Raul Garcia,Yuri,Inaki Williams,Aritz Aduriz,Mikel San Jose,Peru Nolaskoain|A:84:Lionel Messi,G:84:Munir|A:41:Markel Susaeta,G:41:Oscar De Marcos
+Football,Spain,League,2018,29/09/2018,Eibar,Sevilla,1,3,A
+Football,Spain,League,2018,29/09/2018,Real Madrid,Atletico Madrid,0,0,D
+Football,Spain,League,2018,29/09/2018,Real Sociedad,Valencia,0,1,A
+Football,Spain,League,2018,30/09/2018,Real Betis,Leganes,1,0,H
+Football,Spain,League,2018,30/09/2018,Huesca,Girona,1,1,D
+Football,Spain,League,2018,30/09/2018,Levante,Deportivo Alaves,2,1,H
+Football,Spain,League,2018,30/09/2018,Villarreal,Valladolid,0,1,A
+Football,Spain,League,2018,01/10/2018,Celta Vigo,Getafe,1,1,D
+Football,Spain,League,2018,05/10/2018,Athletic Bilbao,Real Sociedad,1,3,A
+Football,Spain,League,2018,06/10/2018,Deportivo Alaves,Real Madrid,1,0,H
+Football,Spain,League,2018,06/10/2018,Getafe,Levante,0,1,A
+Football,Spain,League,2018,06/10/2018,Girona,Eibar,2,3,A
+Football,Spain,League,2018,06/10/2018,Leganes,Rayo Vallecano,1,0,H
+Football,Spain,League,2018,07/10/2018,Atletico Madrid,Real Betis,1,0,H
+Football,Spain,League,2018,07/10/2018,Espanyol,Villarreal,3,1,H
+Football,Spain,League,2018,07/10/2018,Sevilla,Celta Vigo,2,1,H
+Football,Spain,League,2018,07/10/2018,Valencia,Barcelona,1,1,D|Neto,Cristiano Piccini,Ezequiel Garay,Gabriel,Jose Gaya,Carlos Soler,Geoffrey Kondogbia,Daniel Parejo,Goncalo Guedes,Michy Batshuayi,Kevin Gameiro,Francis Coquelin,Denis Cheryshev,Rodrigo Moreno|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Jordi Alba,Thomas Vermaelen,Ivan Rakitic,Sergio Busquets,Coutinho,Arthur,Luis Suarez,Lionel Messi,Rafinha,Ousmane Dembeleuarez,Malcom|G:2:Ezequiel Garay|A:23:Luis Suarez,G:23:Lionel Messi
+Football,Spain,League,2018,07/10/2018,Valladolid,Huesca,1,0,H
+Football,Spain,League,2018,19/10/2018,Celta Vigo,Deportivo Alaves,0,1,A
+Football,Spain,League,2018,20/10/2018,Barcelona,Sevilla,4,2,H|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Sergio Busquets,Coutinho,Arthur,Luis Suarez,Lionel Messi,Sergi Roberto,Ousmane Dembele,Munir El Haddadi|Tomas Vaclik,Simon Kjaer,Daniel Carrico,Sergi Gomez,Jesus Navas,Guilherme Arana,Ever Banega,Franco Vazquez,Pablo Sarabia,Wissam Ben Yedder,Andre Silva,Gabriel Mercado,Luis Muriel,Roque Mesa|A:2:Lionel Messi,G:2:Coutinho,A:12:Luis Suarez,G:12:Lionel Messi,G:63:Luis Suarez,G:88:Ivan Rakitic|A:91:Wissam Ben Yedder,G:91:Luis Muriel
+Football,Spain,League,2018,20/10/2018,Real Madrid,Levante,1,2,A
+Football,Spain,League,2018,20/10/2018,Valencia,Leganes,1,1,D
+Football,Spain,League,2018,20/10/2018,Villarreal,Atletico Madrid,1,1,D
+Football,Spain,League,2018,21/10/2018,Real Betis,Valladolid,0,1,A
+Football,Spain,League,2018,21/10/2018,Eibar,Athletic Bilbao,1,1,D
+Football,Spain,League,2018,21/10/2018,Huesca,Espanyol,0,2,A
+Football,Spain,League,2018,21/10/2018,Rayo Vallecano,Getafe,1,2,A
+Football,Spain,League,2018,22/10/2018,Real Sociedad,Girona,0,0,D
+Football,Spain,League,2018,24/10/2018,Rayo Vallecano,Athletic Bilbao,1,1,D
+Football,Spain,League,2018,26/10/2018,Valladolid,Espanyol,1,1,D
+Football,Spain,League,2018,27/10/2018,Athletic Bilbao,Valencia,0,0,D
+Football,Spain,League,2018,27/10/2018,Atletico Madrid,Real Sociedad,2,0,H
+Football,Spain,League,2018,27/10/2018,Celta Vigo,Eibar,4,0,H
+Football,Spain,League,2018,27/10/2018,Girona,Rayo Vallecano,2,1,H
+Football,Spain,League,2018,27/10/2018,Levante,Leganes,2,0,H
+Football,Spain,League,2018,28/10/2018,Deportivo Alaves,Villarreal,2,1,H
+Football,Spain,League,2018,28/10/2018,Barcelona,Real Madrid,5,1,H|Marc-Andre ter Stegen,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Sergio Busquets,Coutinho,Arthur,Rafinha,Sergi Roberto,Luis Suarez,Nelson Semedo,Arturo Vidal,Ousmane Dembele|Thibaut Courtois,Nacho,Raphael Varane,Sergio Ramos,Marcelo,Casemiro,Luka Modric,Toni Kroos,Gareth Bale,Karim Benzema,Isco,Marco Asensio,Lucas Vazquez,Mariano|A:11:Jordi Alba,G:11:Coutinho,G:30:Luis Suarez,A:75:Sergi Roberto,G:75:Luis Suarez,A:83:Sergi Roberto,G:83:Luis Suarez,A:87,Ousmane Dembele,G:87:Arturo Vidal|G:50:Marcelo
+Football,Spain,League,2018,28/10/2018,Getafe,Real Betis,2,0,H
+Football,Spain,League,2018,28/10/2018,Sevilla,Huesca,2,1,H
+Football,Spain,League,2018,03/11/2018,Leganes,Atletico Madrid,1,1,D
+Football,Spain,League,2018,03/11/2018,Real Madrid,Valladolid,2,0,H
+Football,Spain,League,2018,03/11/2018,Valencia,Girona,0,1,A
+Football,Spain,League,2018,03/11/2018,Rayo Vallecano,Barcelona,2,3,A|Alberto Garcia,Luis Advincula,Jordi Amat,Alejandro Galvez,Alex Moreno,Santiago Comesana,Adrian Embarba,Oscar Trejo,Giannelli Imbula,Jose Pozo,Raul de Tomas,Alex Alegria,Alvaro Garcia,Emiliano Velazquez|Marc-Andre ter Stegen,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Sergio Busquets,Coutinho,Arthur,Rafinha,Sergi Roberto,Luis Suarez,Arturo Vidal,Ousmane Dembele,Munir El Haddadi|G:35:Jose Pozo,G:57:Alvaro Garcia|A:11:Jordi Alba,G:11:Luis Suarez,A:87:Gerard Pique,G:87:Ousmane Dembele,A:90:Sergi Roberto,G:90:Luis Suarez
+Football,Spain,League,2018,04/11/2018,Real Betis,Celta Vigo,3,3,D
+Football,Spain,League,2018,04/11/2018,Eibar,Deportivo Alaves,2,1,H
+Football,Spain,League,2018,04/11/2018,Huesca,Getafe,1,1,D
+Football,Spain,League,2018,04/11/2018,Real Sociedad,Sevilla,0,0,D
+Football,Spain,League,2018,04/11/2018,Villarreal,Levante,1,1,D
+Football,Spain,League,2018,05/11/2018,Espanyol,Athletic Bilbao,1,0,H
+Football,Spain,League,2018,09/11/2018,Levante,Real Sociedad,1,3,A
+Football,Spain,League,2018,10/11/2018,Atletico Madrid,Athletic Bilbao,3,2,H
+Football,Spain,League,2018,10/11/2018,Getafe,Valencia,0,1,A
+Football,Spain,League,2018,10/11/2018,Girona,Leganes,0,0,D
+Football,Spain,League,2018,10/11/2018,Valladolid,Eibar,0,0,D
+Football,Spain,League,2018,11/11/2018,Deportivo Alaves,Huesca,2,1,H
+Football,Spain,League,2018,11/11/2018,Barcelona,Real Betis,3,4,A|Marc-Andre ter Stegen,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Sergio Busquets,Arthur,Sergi Roberto,Luis Suarez,Lionel Messi,Malcom,Arturo Vidal,Carles Alena,Munir El Haddadi|Pau Lopez,Aissa Mandi,Sidnei,Marc Bartra,Cristian Tello,Andres Guardado,William Carvalho,Junior Firpo,Giovani Lo Celso,Joaquin,Loren Moron,Takashi Inui,Sergio Leon,Sergio Canales|G:68:Lionel Messi,A:79:Munir El Haddadi,G:79:Arturo Vidal,A:90:Arturo Vidal,G:90:Lionel Messi|A:20:William Carvalho,G:20:Junior Firpo,A:34:Cristian Tello,G:34:Joaquin,A:71:Cristian Tello,G:71:Giovani Lo Celso,A:83:Junior Firpo,G:83:Sergio Canales
+Football,Spain,League,2018,11/11/2018,Celta Vigo,Real Madrid,2,4,A
+Football,Spain,League,2018,11/11/2018,Sevilla,Espanyol,2,1,H
+Football,Spain,League,2018,11/11/2018,Rayo Vallecano,Villarreal,2,2,D
+Football,Spain,League,2018,23/11/2018,Leganes,Deportivo Alaves,1,0,H
+Football,Spain,League,2018,24/11/2018,Atletico Madrid,Barcelona,1,1,D|Jan Oblak,Santiago Arias,Lucas Hernandez,Stefan Savic,Filipe Luis,Koke,Saul Niguez,Rodrigo,Thomas Lemar,Antoine Griezmann,Diego Costa,Angel Correa,Vitolo|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Jordi Alba,Samuel Umtiti,Sergio Busquets,Arthur,Sergi Roberto,Arturo Vidal,Luis Suarez,Lionel Messi,Rafinha,Ousmane Dembele,Malcom|A:77:Antoine Griezmann,G:77:Diego Costa|A:90:Lionel Messi,G:90:Ousmane Dembele
+Football,Spain,League,2018,24/11/2018,Eibar,Real Madrid,3,0,H
+Football,Spain,League,2018,24/11/2018,Huesca,Levante,2,2,D
+Football,Spain,League,2018,24/11/2018,Valencia,Rayo Vallecano,3,0,H
+Football,Spain,League,2018,25/11/2018,Athletic Bilbao,Getafe,1,1,D
+Football,Spain,League,2018,25/11/2018,Espanyol,Girona,1,3,A
+Football,Spain,League,2018,25/11/2018,Sevilla,Valladolid,1,0,H
+Football,Spain,League,2018,25/11/2018,Villarreal,Real Betis,2,1,H
+Football,Spain,League,2018,26/11/2018,Real Sociedad,Celta Vigo,2,1,H
+Football,Spain,League,2018,30/11/2018,Rayo Vallecano,Eibar,1,0,H
+Football,Spain,League,2018,01/12/2018,Celta Vigo,Huesca,2,0,H
+Football,Spain,League,2018,01/12/2018,Getafe,Espanyol,3,0,H
+Football,Spain,League,2018,01/12/2018,Real Madrid,Valencia,2,0,H
+Football,Spain,League,2018,01/12/2018,Valladolid,Leganes,2,4,A
+Football,Spain,League,2018,02/12/2018,Deportivo Alaves,Sevilla,1,1,D
+Football,Spain,League,2018,02/12/2018,Barcelona,Villarreal,2,0,H|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Sergio Busquets,Coutinho,Arturo Vidal,Lionel Messi,Ousmane Dembele,Carles Alena,Malcom|Sergio Asenjo,Mario Gaspar,Victor Ruiz,Alvaro Gonzalez,Alfonso Pedraza,Samuel Chukwueze,Santiago Caseres,Manu Trigueros,Santi Cazorla,Pablo Fornals,Gerard Moreno,Karl Toko Ekambi,Carlos Bacca,Raba|A:36:Ousmane Dembele,G:36:Gerard Pique,A:87:Lionel Messi,G:87:Carles Alena|
+Football,Spain,League,2018,02/12/2018,Real Betis,Real Sociedad,1,0,H
+Football,Spain,League,2018,02/12/2018,Girona,Atletico Madrid,1,1,D
+Football,Spain,League,2018,03/12/2018,Levante,Athletic Bilbao,3,0,H
+Football,Spain,League,2018,07/12/2018,Leganes,Getafe,1,1,D
+Football,Spain,League,2018,08/12/2018,Atletico Madrid,Deportivo Alaves,3,0,H
+Football,Spain,League,2018,08/12/2018,Espanyol,Barcelona,0,4,A|Diego Lopez,Javi Lopez,Oscar Duarte,David Lopez,Didac Vila,Hernan Perez,Sergi Darder,Marc Roca,Victor Sanchez,Oscar Melendo,Borja Iglesias,Leo Baptistao,Esteban Granero,Sergio Garcia|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Sergio Busquets,Arturo Vidal,Luis Suarez,Lionel Messi,Ousmane Dembele,Denis Suarez,Coutinho,Munir El Haddadi||G:17:Lionel Messi,A:26:Lionel Messi,G:26:Ousmane Dembele,A:45:Ousmane Dembele,G:45:Luis Suarez,G:65:Lionel Messi
+Football,Spain,League,2018,08/12/2018,Valencia,Sevilla,1,1,D
+Football,Spain,League,2018,08/12/2018,Villarreal,Celta Vigo,2,3,A
+Football,Spain,League,2018,09/12/2018,Real Betis,Rayo Vallecano,2,0,H
+Football,Spain,League,2018,09/12/2018,Eibar,Levante,4,4,D
+Football,Spain,League,2018,09/12/2018,Huesca,Real Madrid,0,1,A
+Football,Spain,League,2018,09/12/2018,Real Sociedad,Valladolid,1,2,A
+Football,Spain,League,2018,10/12/2018,Athletic Bilbao,Girona,1,0,H
+Football,Spain,League,2018,14/12/2018,Celta Vigo,Leganes,0,0,D
+Football,Spain,League,2018,15/12/2018,Eibar,Valencia,1,1,D
+Football,Spain,League,2018,15/12/2018,Getafe,Real Sociedad,1,0,H
+Football,Spain,League,2018,15/12/2018,Real Madrid,Rayo Vallecano,1,0,H
+Football,Spain,League,2018,15/12/2018,Valladolid,Atletico Madrid,2,3,A
+Football,Spain,League,2018,16/12/2018,Espanyol,Real Betis,1,3,A
+Football,Spain,League,2018,16/12/2018,Huesca,Villarreal,2,2,D
+Football,Spain,League,2018,16/12/2018,Levante,Barcelona,0,5,A|Oier Olazabal,Rober Pier,Sergio Postigo,Erick Cabaco,Jason,Tono,Enis Bardhi,Jose Campana,Ruben Rochina,Emmanuel Boateng,Jose Luis Morales,Sanjin Prcic,Borja Mayoral,Coke|Marc-Andre ter Stegen,Gerard Pique,Clement Lenglet,Jordi Alba,Thomas Vermaelen,Ivan Rakitic,Sergio Busquets,Arturo Vidal,Luis Suarez,Lionel Messi,Ousmane Dembele,Denis Suarez,Coutinho,Arthur||A:35:Lionel Messi,G:35:Luis Suarez,A:43:Sergio Busquets,G:43:Lionel Messi,G:47:Lionel Messi,A:60:Arturo Vidal,G:60:Lionel Messi,A:88:Lionel Messi,G:88:Gerard Pique
+Football,Spain,League,2018,16/12/2018,Sevilla,Girona,2,0,H
+Football,Spain,League,2018,17/12/2018,Deportivo Alaves,Athletic Bilbao,0,0,D
+Football,Spain,League,2018,21/12/2018,Girona,Getafe,1,1,D
+Football,Spain,League,2018,21/12/2018,Real Sociedad,Deportivo Alaves,0,1,A
+Football,Spain,League,2018,22/12/2018,Athletic Bilbao,Valladolid,1,1,D
+Football,Spain,League,2018,22/12/2018,Atletico Madrid,Espanyol,1,0,H
+Football,Spain,League,2018,22/12/2018,Barcelona,Celta Vigo,2,0,H|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Sergio Busquets,Arturo Vidal,Luis Suarez,Lionel Messi,Ousmane Dembele,Coutinho,Arthur,Carles Alena|Ruben Blanco,Hugo Mallo,Nestor Araujo,David Costas,Robert Mazan,Brais Mendez,Jozabed Sanchez,Okay Yokuslu,Sofiane Boufal,Iago Aspas,Maxi Gomez,Pione Sisto,Stanislav Lobotka,Fran Beltran|G:10:Ousmane Dembele,A:45:Jordi Alba,G:45:Lionel Messi|
+Football,Spain,League,2018,22/12/2018,Real Betis,Eibar,1,1,D
+Football,Spain,League,2018,23/12/2018,Leganes,Sevilla,1,1,D
+Football,Spain,League,2018,23/12/2018,Valencia,Huesca,2,1,H
+Football,Spain,League,2018,23/12/2018,Rayo Vallecano,Levante,2,1,H
+Football,Spain,League,2018,03/01/2019,Villarreal,Real Madrid,2,2,D
+Football,Spain,League,2018,04/01/2019,Espanyol,Leganes,1,0,H
+Football,Spain,League,2018,04/01/2019,Levante,Girona,2,2,D
+Football,Spain,League,2018,05/01/2019,Deportivo Alaves,Valencia,2,1,H
+Football,Spain,League,2018,05/01/2019,Huesca,Real Betis,2,1,H
+Football,Spain,League,2018,05/01/2019,Valladolid,Rayo Vallecano,0,1,A
+Football,Spain,League,2018,06/01/2019,Eibar,Villarreal,0,0,D
+Football,Spain,League,2018,06/01/2019,Getafe,Barcelona,1,2,A|David Soria,Damian Suarez,Djene Dakonam,Leandro Cabrera,Vitorino Antunes,Dimitri Foulquier,Nemanja Maksimovic,Mauro Arambarri,Francisco Portillo,Jaime Mata,Angel Rodriguez,Samu Saiz,Robert Ibanez,Jorge Molina|Marc-Andre ter Stegen,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Arthur,Sergi Roberto,Arturo Vidal,Luis Suarez,Lionel Messi,Ousmane Dembele,Sergio Busquets,Coutinho,Carles Alena|A:43:Angel Rodriguez,G:43:Jaime Mata|G:20:Lionel Messi,G:39:Luis Suarez
+Football,Spain,League,2018,06/01/2019,Real Madrid,Real Sociedad,0,2,A
+Football,Spain,League,2018,06/01/2019,Sevilla,Atletico Madrid,1,1,D
+Football,Spain,League,2018,07/01/2019,Celta Vigo,Athletic Bilbao,1,2,A
+Football,Spain,League,2018,11/01/2019,Rayo Vallecano,Celta Vigo,4,2,H
+Football,Spain,League,2018,12/01/2019,Girona,Deportivo Alaves,1,1,D
+Football,Spain,League,2018,12/01/2019,Leganes,Huesca,1,0,H
+Football,Spain,League,2018,12/01/2019,Valencia,Valladolid,1,1,D
+Football,Spain,League,2018,12/01/2019,Villarreal,Getafe,1,2,A
+Football,Spain,League,2018,13/01/2019,Athletic Bilbao,Sevilla,2,0,H
+Football,Spain,League,2018,13/01/2019,Atletico Madrid,Levante,1,0,H
+Football,Spain,League,2018,13/01/2019,Barcelona,Eibar,3,0,H|Marc-Andre ter Stegen,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Sergio Busquets,Coutinho,Arthur,Sergi Roberto,Luis Suarez,Lionel Messi,Nelson Semedo,Arturo Vidal,Ousmane Dembele|Asier Riesgo,Ruben Pena,Anaitz Arbilla,Pedro Bigas,Cote,Gonzalo Escalante,Pape Diop,Fabian Orellana,Joan Jordan,Marc Cucurella,Sergi Enrich,Pablo De Blasis,Marc Cardona,Kike Garcia|A:19:Coutinho,G:19:Luis Suarez,A:53:Luis Suarez,G:53:Lionel Messi,A:59:Sergi Roberto,G:59:Luis Suarez|
+Football,Spain,League,2018,13/01/2019,Real Betis,Real Madrid,1,2,A
+Football,Spain,League,2018,14/01/2019,Real Sociedad,Espanyol,3,2,H
+Football,Spain,League,2018,18/01/2019,Getafe,Deportivo Alaves,4,0,H
+Football,Spain,League,2018,19/01/2019,Celta Vigo,Valencia,1,2,A
+Football,Spain,League,2018,19/01/2019,Huesca,Atletico Madrid,0,3,A
+Football,Spain,League,2018,19/01/2019,Real Madrid,Sevilla,2,0,H
+Football,Spain,League,2018,20/01/2019,Barcelona,Leganes,3,1,H|Marc-Andre ter Stegen,Gerard Pique,Jordi Alba,Thomas Vermaelen,Sergio Busquets,Coutinho,Arthur,Sergi Roberto,Carles Alena,Luis Suarez,Ousmane Dembele,Ivan Rakitic,Lionel Messi,Malcom|Ivan Cuellar,Allan Nyom,Dimitrios Siovas,Kenneth Omeruo,Rodrigo Tarin,Jonathan Silva,Oscar Rodriguez,Recio,Mikel Vesga,Youssef En-Nesyri,Martin Braithwaite,Nabil El Zhar,Javier Eraso,Michael Santos|A:32:Jordi Alba,G:32:Ousmane Dembele,G:44:Luis Suarez,A:90:Jordi Alba,G:90:Lionel Messi|A:57:Youssef En-Nesyri,G:57:Martin Braithwaite
+Football,Spain,League,2018,20/01/2019,Real Betis,Girona,3,2,H
+Football,Spain,League,2018,20/01/2019,Levante,Valladolid,2,0,H
+Football,Spain,League,2018,20/01/2019,Rayo Vallecano,Real Sociedad,2,2,D
+Football,Spain,League,2018,20/01/2019,Villarreal,Athletic Bilbao,1,1,D
+Football,Spain,League,2018,21/01/2019,Eibar,Espanyol,3,0,H
+Football,Spain,League,2018,26/01/2019,Atletico Madrid,Getafe,2,0,H
+Football,Spain,League,2018,26/01/2019,Leganes,Eibar,2,2,D
+Football,Spain,League,2018,26/01/2019,Sevilla,Levante,5,0,H
+Football,Spain,League,2018,26/01/2019,Valencia,Villarreal,3,0,H
+Football,Spain,League,2018,27/01/2019,Athletic Bilbao,Real Betis,1,0,H
+Football,Spain,League,2018,27/01/2019,Espanyol,Real Madrid,2,4,A
+Football,Spain,League,2018,27/01/2019,Girona,Barcelona,0,2,A|Yassine Bounou,Bernardo Espinosa,Juanpe,Pedro Alcala,Pedro Porro,Valery Fernandez,Pere Pons,Alex Granell,Aleix Garcia,Portu,Cristhian Stuani,Douglas Luiz,Anthony Lozano,Paik Seung-Ho|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Sergio Busquets,Coutinho,Arturo Vidal,Luis Suarez,Lionel Messi,Thomas Vermaelen,Arthur,Sergi Roberto||G:9:Nelson Semedo,A:69:Jordi Alba,G:69:Lionel Messi
+Football,Spain,League,2018,27/01/2019,Real Sociedad,Huesca,0,0,D
+Football,Spain,League,2018,27/01/2019,Valladolid,Celta Vigo,2,1,H
+Football,Spain,League,2018,28/01/2019,Deportivo Alaves,Rayo Vallecano,0,1,A
+Football,Spain,League,2018,01/02/2019,Huesca,Valladolid,4,0,H
+Football,Spain,League,2018,02/02/2019,Barcelona,Valencia,2,2,D|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Thomas Vermaelen,Ivan Rakitic,Coutinho,Sergi Roberto,Carles Alena,Arturo Vidal,Luis Suarez,Lionel Messi,Jordi Alba,Arthur,Malcom|Neto,Cristiano Piccini,Ezequiel Garay,Gabriel,Toni Lato,Daniel Wass,Francis Coquelin,Daniel Parejo,Denis Cheryshev,Kevin Gameiro,Rodrigo Moreno,Geoffrey Kondogbia,Santi Mina,Ferran Torres|G:39:Lionel Messi,A:64:Arturo Vidal,G:64:Lionel Messi|A:24:Rodrigo Moreno,G:24:Kevin Gameiro,G:32:Daniel Parejo
+Football,Spain,League,2018,02/02/2019,Celta Vigo,Sevilla,1,0,H
+Football,Spain,League,2018,02/02/2019,Levante,Getafe,0,0,D
+Football,Spain,League,2018,02/02/2019,Real Sociedad,Athletic Bilbao,2,1,H
+Football,Spain,League,2018,03/02/2019,Real Betis,Atletico Madrid,1,0,H
+Football,Spain,League,2018,03/02/2019,Eibar,Girona,3,0,H
+Football,Spain,League,2018,03/02/2019,Real Madrid,Deportivo Alaves,3,0,H
+Football,Spain,League,2018,03/02/2019,Villarreal,Espanyol,2,2,D
+Football,Spain,League,2018,04/02/2019,Rayo Vallecano,Leganes,1,2,A
+Football,Spain,League,2018,08/02/2019,Valladolid,Villarreal,0,0,D
+Football,Spain,League,2018,09/02/2019,Atletico Madrid,Real Madrid,1,3,A
+Football,Spain,League,2018,09/02/2019,Espanyol,Rayo Vallecano,2,1,H
+Football,Spain,League,2018,09/02/2019,Getafe,Celta Vigo,3,1,H
+Football,Spain,League,2018,09/02/2019,Girona,Huesca,0,2,A
+Football,Spain,League,2018,10/02/2019,Athletic Bilbao,Barcelona,0,0,D|Iago Herrerin,Oscar De Marcos,Yeray Alvarez,Inigo Martinez,Mikel Balenziaga,Benat Etxebarria,Dani Garcia,Markel Susaeta,Raul Garcia,Yuri,Inaki Williams,Kenan Kodro,Iker Muniain,Mikel San Jose|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Clement Lenglet,Ivan Rakitic,Sergio Busquets,Coutinho,Sergi Roberto,Arturo Vidal,Luis Suarez,Lionel Messi,Thomas Vermaelen,Carles Alena,Ousmane Dembele||
+Football,Spain,League,2018,10/02/2019,Leganes,Real Betis,3,0,H
+Football,Spain,League,2018,10/02/2019,Sevilla,Eibar,2,2,D
+Football,Spain,League,2018,10/02/2019,Valencia,Real Sociedad,0,0,D
+Football,Spain,League,2018,11/02/2019,Deportivo Alaves,Levante,2,0,H
+Football,Spain,League,2018,15/02/2019,Eibar,Getafe,2,2,D
+Football,Spain,League,2018,16/02/2019,Barcelona,Valladolid,1,0,H|Marc-Andre ter Stegen,Gerard Pique,Jordi Alba,Thomas Vermaelen,Sergio Busquets,Kevin-Prince Boateng,Sergi Roberto,Carles Alena,Arturo Vidal,Lionel Messi,Ousmane Dembele,Ivan Rakitic,Coutinho,Luis Suarez|Jordi Masip,Fernando Calero,Joaquin Fernandez,Kiko Olivas,Antonito,Anuar Mohamed,Michel,Nacho,Daniele Verde,Sergi Guardiola,Enes Unal,Stiven Plaza,Toni Villa,Keko|G:43:Lionel Messi|
+Football,Spain,League,2018,16/02/2019,Celta Vigo,Levante,1,4,A
+Football,Spain,League,2018,16/02/2019,Real Sociedad,Leganes,3,0,H
+Football,Spain,League,2018,16/02/2019,Rayo Vallecano,Atletico Madrid,0,1,A
+Football,Spain,League,2018,17/02/2019,Real Betis,Deportivo Alaves,1,1,D
+Football,Spain,League,2018,17/02/2019,Real Madrid,Girona,1,2,A
+Football,Spain,League,2018,17/02/2019,Valencia,Espanyol,0,0,D
+Football,Spain,League,2018,17/02/2019,Villarreal,Sevilla,3,0,H
+Football,Spain,League,2018,18/02/2019,Huesca,Athletic Bilbao,0,1,A
+Football,Spain,League,2018,22/02/2019,Espanyol,Huesca,1,1,D
+Football,Spain,League,2018,23/02/2019,Deportivo Alaves,Celta Vigo,0,0,D
+Football,Spain,League,2018,23/02/2019,Athletic Bilbao,Eibar,1,0,H
+Football,Spain,League,2018,23/02/2019,Getafe,Rayo Vallecano,2,1,H
+Football,Spain,League,2018,23/02/2019,Sevilla,Barcelona,2,4,A|Tomas Vaclik,Gabriel Mercado,Simon Kjaer,Sergi Gomez,Maximilian Wober,Jesus Navas,Ever Banega,Marko Rog,Quincy Promes,Pablo Sarabia,Wissam Ben Yedder,Franco Vazquez,Ibrahim Amadou,Roque Mesa|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Jordi Alba,Samuel Umtiti,Ivan Rakitic,Sergio Busquets,Coutinho,Arturo Vidal,Luis Suarez,Lionel Messi,Sergi Roberto,Carles Alena,Ousmane Dembele|A:22:Wissam Ben Yedder,A:42:Pablo Sarabia,G:42:Gabriel Mercado|A:26:Ivan Rakitic,G:26:Lionel Messi,A:67:Ousmane Dembele,G:67:Lionel Messi,G:85:Lionel Messi,A:90:Lionel Messi,G:90:Luis Suarez
+Football,Spain,League,2018,24/02/2019,Atletico Madrid,Villarreal,2,0,H
+Football,Spain,League,2018,24/02/2019,Leganes,Valencia,1,1,D
+Football,Spain,League,2018,24/02/2019,Levante,Real Madrid,1,2,A
+Football,Spain,League,2018,24/02/2019,Valladolid,Real Betis,0,2,A
+Football,Spain,League,2018,25/02/2019,Girona,Real Sociedad,0,0,D
+Football,Spain,League,2018,01/03/2019,Rayo Vallecano,Girona,0,2,A
+Football,Spain,League,2018,02/03/2019,Espanyol,Valladolid,3,1,H
+Football,Spain,League,2018,02/03/2019,Huesca,Sevilla,2,1,H
+Football,Spain,League,2018,02/03/2019,Real Madrid,Barcelona,0,1,A|Thibaut Courtois,Daniel Carvajal,Raphael Varane,Sergio Ramos,Sergio Reguilon,Casemiro,Luka Modric,Toni Kroos,Gareth Bale,Karim Benzema,Vinicius Junior,Isco,Marco Asensio,Federico Valverde|Marc-Andre ter Stegen,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Sergio Busquets,Arthur,Sergi Roberto,Luis Suarez,Lionel Messi,Ousmane Dembele,Nelson Semedo,Coutinho,Arturo Vidal||A:26:Sergi Roberto,G:26:Ivan Rakitic
+Football,Spain,League,2018,02/03/2019,Villarreal,Deportivo Alaves,1,2,A
+Football,Spain,League,2018,03/03/2019,Real Betis,Getafe,1,2,A
+Football,Spain,League,2018,03/03/2019,Eibar,Celta Vigo,1,0,H
+Football,Spain,League,2018,03/03/2019,Real Sociedad,Atletico Madrid,0,2,A
+Football,Spain,League,2018,03/03/2019,Valencia,Athletic Bilbao,2,0,H
+Football,Spain,League,2018,04/03/2019,Leganes,Levante,1,0,H
+Football,Spain,League,2018,08/03/2019,Athletic Bilbao,Espanyol,1,1,D
+Football,Spain,League,2018,09/03/2019,Deportivo Alaves,Eibar,1,1,D
+Football,Spain,League,2018,09/03/2019,Atletico Madrid,Leganes,1,0,H
+Football,Spain,League,2018,09/03/2019,Barcelona,Rayo Vallecano,3,1,H|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Jordi Alba,Samuel Umtiti,Sergio Busquets,Coutinho,Arthur,Arturo Vidal,Luis Suarez,Lionel Messi,Ivan Rakitic,Ousmane Dembele,Malcom|Stole Dimitrievski,Luis Advincula,Alejandro Galvez,Jordi Amat,Emiliano Velazquez,Alex Moreno,Bebe,Giannelli Imbula,Santiago Comesana,Alvaro Garcia,Raul de Tomas,Adrian Embarba,Jose Pozo|A:38:Lionel Messi,G:38:Gerard Pique,G:51:Lionel Messi,A:82:Ivan Rakitic,G:82:Luis Suarez|A:24:Alvaro Garcia,G:24:Raul de TomAs
+Football,Spain,League,2018,09/03/2019,Getafe,Huesca,2,1,H
+Football,Spain,League,2018,10/03/2019,Celta Vigo,Real Betis,0,1,A
+Football,Spain,League,2018,10/03/2019,Girona,Valencia,2,3,A
+Football,Spain,League,2018,10/03/2019,Levante,Villarreal,0,2,A
+Football,Spain,League,2018,10/03/2019,Sevilla,Real Sociedad,5,2,H
+Football,Spain,League,2018,10/03/2019,Valladolid,Real Madrid,1,4,A
+Football,Spain,League,2018,15/03/2019,Real Sociedad,Levante,1,1,D
+Football,Spain,League,2018,16/03/2019,Athletic Bilbao,Atletico Madrid,2,0,H
+Football,Spain,League,2018,16/03/2019,Huesca,Deportivo Alaves,1,3,A
+Football,Spain,League,2018,16/03/2019,Leganes,Girona,0,2,A
+Football,Spain,League,2018,16/03/2019,Real Madrid,Celta Vigo,2,0,H
+Football,Spain,League,2018,17/03/2019,Real Betis,Barcelona,1,4,A|Pau Lopez,Aissa Mandi,Sidnei,Marc Bartra,William Carvalho,Joaquin,Andres Guardado,Sergio Canales,Cristian Tello,Giovani Lo Celso,Jese,Emerson,Diego Lainez,Loren Moron|Marc-Andre ter Stegen,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Sergio Busquets,Arthur,Sergi Roberto,Arturo Vidal,Luis Suarez,Lionel Messi,Nelson Semedo,Coutinho,Carles Alena|A:82:Diego Lainez,G:82:Loren MorOn|G:18:Lionel Messi,A:45:Luis Suarez,G:45:Lionel Messi,A:63:Gerard Piqie,G:63:Luis Suarez 63,A:85:Ivan Rakitic,G:85:Lionel Messi
+Football,Spain,League,2018,17/03/2019,Eibar,Valladolid,1,2,A
+Football,Spain,League,2018,17/03/2019,Espanyol,Sevilla,0,1,A
+Football,Spain,League,2018,17/03/2019,Valencia,Getafe,0,0,D
+Football,Spain,League,2018,17/03/2019,Villarreal,Rayo Vallecano,3,1,H
+Football,Spain,League,2018,29/03/2019,Girona,Athletic Bilbao,1,2,A
+Football,Spain,League,2018,30/03/2019,Deportivo Alaves,Atletico Madrid,0,4,A
+Football,Spain,League,2018,30/03/2019,Barcelona,Espanyol,2,0,H|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Sergio Busquets,Coutinho,Arthur,Luis Suarez,Lionel Messi,Sergi Roberto,Arturo Vidal,Malcom|Diego Lopez,Roberto Rosales,Naldo,Mario Hermoso,Lluis Lopez,Adria Pedrosa,Esteban Granero,Marc Roca,Victor Sanchez,Borja Iglesias,Oscar Melendo,Wu Lei,Alfa Semedo,Sergio Garcia|G:71:Lionel Messi,A:89:Malcom,G:89:Lionel Messi|
+Football,Spain,League,2018,30/03/2019,Celta Vigo,Villarreal,3,2,H
+Football,Spain,League,2018,30/03/2019,Getafe,Leganes,0,2,A
+Football,Spain,League,2018,31/03/2019,Levante,Eibar,2,2,D
+Football,Spain,League,2018,31/03/2019,Real Madrid,Huesca,3,2,H
+Football,Spain,League,2018,31/03/2019,Sevilla,Valencia,0,1,A
+Football,Spain,League,2018,31/03/2019,Valladolid,Real Sociedad,1,1,D
+Football,Spain,League,2018,31/03/2019,Rayo Vallecano,Real Betis,1,1,D
+Football,Spain,League,2018,02/04/2019,Atletico Madrid,Girona,2,0,H
+Football,Spain,League,2018,02/04/2019,Espanyol,Getafe,1,1,D
+Football,Spain,League,2018,02/04/2019,Villarreal,Barcelona,4,4,D|Sergio Asenjo,Ramiro Funes Mori,Victor Ruiz,Alvaro Gonzalez,Mario Gaspar,Alfonso Pedraza,Manuel Morlanes,Santi Cazorla,Samuel Chukwueze,Vicente Iborra,Karl Toko Ekambi,Santiago Caseres,Carlos Bacca,Daniele Bonera|Marc-Andre ter Stegen,Clement Lenglet,Jordi Alba,Samuel Umtiti,Sergio Busquets,Coutinho,Arthur,Sergi Roberto,Arturo Vidal,Luis Suarez,Malcom,Ivan Rakitic,Carles Alena ,Lionel Messi|G:23:Samuel Chukwueze,A:50:Samuel Chukwueze,G:50:Karl Toko Ekambi,A:62:Manuel Morlanes,G:62:Vicente Iborra,A:80:Santi Cazorla,G:80:Carlos Bacca|A:12:Malcom,G:12:Coutinho,A:16:Arturo Vidal,G:16:Malcom,G:90:Lionel Messi,G:90:Luis Suarez
+Football,Spain,League,2018,03/04/2019,Athletic Bilbao,Levante,3,2,H
+Football,Spain,League,2018,03/04/2019,Eibar,Rayo Vallecano,2,1,H
+Football,Spain,League,2018,03/04/2019,Huesca,Celta Vigo,3,3,D
+Football,Spain,League,2018,03/04/2019,Valencia,Real Madrid,2,1,H
+Football,Spain,League,2018,04/04/2019,Leganes,Valladolid,1,0,H
+Football,Spain,League,2018,04/04/2019,Sevilla,Deportivo Alaves,2,0,H
+Football,Spain,League,2018,04/04/2019,Real Sociedad,Real Betis,2,1,H
+Football,Spain,League,2018,06/04/2019,Barcelona,Atletico Madrid,2,0,H|Marc-Andre ter Stegen,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Sergio Busquets,Coutinho,Arthur,Sergi Roberto,Luis Suarez,Lionel Messi,Nelson Semedo,Carles Alena,Malcom|Jan Oblak,Santiago Arias,Jose Gimenez,Diego Godin,Filipe Luis,Koke,Thomas Partey,Rodrigo,Saul Niguez,Antoine Griezmann,Diego Costa,Angel Correa,Alvaro Morata,Juanfran|A:85:Jordi Alba,G:85:Luis Suarez,G:90:Lionel Messi|
+Football,Spain,League,2018,06/04/2019,Girona,Espanyol,1,2,A
+Football,Spain,League,2018,06/04/2019,Real Madrid,Eibar,2,1,H
+Football,Spain,League,2018,06/04/2019,Rayo Vallecano,Valencia,2,0,H
+Football,Spain,League,2018,07/04/2019,Deportivo Alaves,Leganes,1,1,D
+Football,Spain,League,2018,07/04/2019,Real Betis,Villarreal,2,1,H
+Football,Spain,League,2018,07/04/2019,Celta Vigo,Real Sociedad,3,1,H
+Football,Spain,League,2018,07/04/2019,Getafe,Athletic Bilbao,1,0,H
+Football,Spain,League,2018,07/04/2019,Levante,Huesca,2,2,D
+Football,Spain,League,2018,07/04/2019,Valladolid,Sevilla,0,2,A
+Football,Spain,League,2018,13/04/2019,Atletico Madrid,Celta Vigo,2,0,H
+Football,Spain,League,2018,13/04/2019,Espanyol,Deportivo Alaves,2,1,H
+Football,Spain,League,2018,13/04/2019,Huesca,Barcelona,0,0,D|Roberto Santamaria,Jorge Miramon,Xabier Etxeita,Jorge Pulido,Javi Galan,Christian Rivera,Chimy Avila,Moi Gomez,Juan Pablo Anor,David Ferreiro,Enric Gallego,Alex Gallar,Gonzalo Melero,Juan Hernandez|Marc-Andre ter Stegen,Jean-Clair Todibo,Jeison Murillo,Samuel Umtiti,Moussa Wague,Kevin-Prince Boateng,Carles Alena,Arturo Vidal,Riqui Puig,Ousmane Dembele,Malcom,Jordi Alba,Coutinho,Arthur||
+Football,Spain,League,2018,13/04/2019,Sevilla,Real Betis,3,2,H
+Football,Spain,League,2018,14/04/2019,Athletic Bilbao,Rayo Vallecano,3,2,H
+Football,Spain,League,2018,14/04/2019,Girona,Villarreal,0,1,A
+Football,Spain,League,2018,14/04/2019,Real Sociedad,Eibar,1,1,D
+Football,Spain,League,2018,14/04/2019,Valencia,Levante,3,1,H
+Football,Spain,League,2018,14/04/2019,Valladolid,Getafe,2,2,D
+Football,Spain,League,2018,15/04/2019,Leganes,Real Madrid,1,1,D
+Football,Spain,League,2018,19/04/2019,Deportivo Alaves,Valladolid,2,2,D
+Football,Spain,League,2018,20/04/2019,Barcelona,Real Sociedad,2,1,H|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Arthur,Arturo Vidal,Luis Suarez,Lionel Messi,Ousmane Dembele,Sergio Busquets,Coutinho,Sergi Roberto|Geronimo Rulli,Joseba Zaldua,Diego Llorente,Aritz Elustondo,Aihen Munoz,Ruben Pardo,Mikel Merino,Igor Zubeldia,Mikel Oyarzabal,Willian Jose,Juanmi,Luca Sangalli,Sandro Ramirez,Ander Barrenetxea|A:45:Ousmane Dembele,G:45:Clement Lenglet,A:64:Lionel Messi,G:64:Jordi Alba|A:62:Mikel Merino,G:62:Juanmi
+Football,Spain,League,2018,20/04/2019,Celta Vigo,Girona,2,1,H
+Football,Spain,League,2018,20/04/2019,Eibar,Atletico Madrid,0,1,A
+Football,Spain,League,2018,20/04/2019,Rayo Vallecano,Huesca,0,0,D
+Football,Spain,League,2018,21/04/2019,Real Betis,Valencia,1,2,A
+Football,Spain,League,2018,21/04/2019,Getafe,Sevilla,3,0,H
+Football,Spain,League,2018,21/04/2019,Levante,Espanyol,2,2,D
+Football,Spain,League,2018,21/04/2019,Real Madrid,Athletic Bilbao,3,0,H
+Football,Spain,League,2018,21/04/2019,Villarreal,Leganes,2,1,H
+Football,Spain,League,2018,23/04/2019,Deportivo Alaves,Barcelona,0,2,A|Fernando Pacheco,Carlos Vigaray,Rodrigo Ely,Victor Laguardia,Ximo Navarro,Ruben Duarte,Diego Rolan,Mubarak Wakaso,Tomas Pina,Jony,Borja Baston,Patrick Twumasi,Darko Brasanac,John Guidetti|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Samuel Umtiti,Sergio Busquets,Coutinho,Sergi Roberto,Carles Alena,Arturo Vidal,Luis Suarez,Ousmane Dembele,Jordi Alba,Arthur,Lionel Messi||A:54:Sergi Roberto,G:54:Carles Alena,G:60:Luis Suarez
+Football,Spain,League,2018,23/04/2019,Huesca,Eibar,2,0,H
+Football,Spain,League,2018,23/04/2019,Valladolid,Girona,1,0,H
+Football,Spain,League,2018,24/04/2019,Atletico Madrid,Valencia,3,2,H
+Football,Spain,League,2018,24/04/2019,Espanyol,Celta Vigo,1,1,D
+Football,Spain,League,2018,24/04/2019,Leganes,Athletic Bilbao,0,1,A
+Football,Spain,League,2018,24/04/2019,Levante,Real Betis,4,0,H
+Football,Spain,League,2018,25/04/2019,Getafe,Real Madrid,0,0,D
+Football,Spain,League,2018,25/04/2019,Sevilla,Rayo Vallecano,5,0,H
+Football,Spain,League,2018,25/04/2019,Real Sociedad,Villarreal,0,1,A
+Football,Spain,League,2018,27/04/2019,Athletic Bilbao,Deportivo Alaves,1,1,D
+Football,Spain,League,2018,27/04/2019,Atletico Madrid,Valladolid,1,0,H
+Football,Spain,League,2018,27/04/2019,Barcelona,Levante,1,0,H|Marc-Andre ter Stegen,Nelson Semedo,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Coutinho,Arthur,Arturo Vidal,Luis Suarez,Ousmane Dembele,Sergio Busquets,Sergi Roberto,Lionel Messi|Aitor Fernandez,Coke,Ruben Vezo,Rober Pier,Antonio Luna,Nikola Vukcevic,Jason,Jose Campana,Ruben Rochina,Moses Simon,Borja Mayoral,Enis Bardhi,Jose Luis Morales,Roger Marti|A:62:Arturo Vidal,G:62:Lionel Messi|
+Football,Spain,League,2018,27/04/2019,Leganes,Celta Vigo,0,0,D
+Football,Spain,League,2018,28/04/2019,Girona,Sevilla,1,0,H
+Football,Spain,League,2018,28/04/2019,Real Sociedad,Getafe,2,1,H
+Football,Spain,League,2018,28/04/2019,Valencia,Eibar,0,1,A
+Football,Spain,League,2018,28/04/2019,Rayo Vallecano,Real Madrid,1,0,H
+Football,Spain,League,2018,28/04/2019,Villarreal,Huesca,1,1,D
+Football,Spain,League,2018,29/04/2019,Real Betis,Espanyol,1,1,D
+Football,Spain,League,2018,03/05/2019,Sevilla,Leganes,0,3,A
+Football,Spain,League,2018,04/05/2019,Deportivo Alaves,Real Sociedad,0,1,A
+Football,Spain,League,2018,04/05/2019,Celta Vigo,Barcelona,2,0,H|Ruben Blanco,Hugo Mallo,Gustavo Cabral,Nestor Araujo,Lucas Olaza,Ryad Boudebouz,Stanislav Lobotka,Okay Yokuslu,Sofiane Boufal,Iago Aspas,Maxi Gomez,Brais Mendez,Fran Beltran,Jozabed Sanchez|Jasper Cillessen,Jean-Clair Todibo,Samuel Umtiti,Thomas Vermaelen,Moussa Wague,Arthur,Kevin-Prince Boateng,Carles Alena,Riqui Puig,Ousmane Dembele,Malcom,Jeison Murillo,Arturo Vidal ,Alex Collado|A:67:Ryad Boudebouz,G:67:Maxi GOmez,G:88:Iago Aspas|
+Football,Spain,League,2018,04/05/2019,Espanyol,Atletico Madrid,3,0,H
+Football,Spain,League,2018,04/05/2019,Levante,Rayo Vallecano,4,1,H
+Football,Spain,League,2018,05/05/2019,Eibar,Real Betis,1,0,H
+Football,Spain,League,2018,05/05/2019,Getafe,Girona,2,0,H
+Football,Spain,League,2018,05/05/2019,Huesca,Valencia,2,6,A
+Football,Spain,League,2018,05/05/2019,Real Madrid,Villarreal,3,2,H
+Football,Spain,League,2018,05/05/2019,Valladolid,Athletic Bilbao,1,0,H
+Football,Spain,League,2018,12/05/2019,Athletic Bilbao,Celta Vigo,3,1,H
+Football,Spain,League,2018,12/05/2019,Atletico Madrid,Sevilla,1,1,D
+Football,Spain,League,2018,12/05/2019,Barcelona,Getafe,2,0,H|Jasper Cillessen,Gerard Pique,Jordi Alba,Samuel Umtiti,Ivan Rakitic,Sergio Busquets,Coutinho,Sergi Roberto,Arturo Vidal,Lionel Messi,Malcom,Nelson Semedo,Carles Alena,Abel Ruiz|David Soria,Damian Suarez,Djene Dakonam,Leandro Cabrera,Mathias Olivera,Dimitri Foulquier,Nemanja Maksimovic,Mauro Arambarri,Gaku Shibasaki,Angel Rodriguez,Jorge Molina,Samu Saiz,Hugo Duro,Francisco Portillo|G:39:Arturo Vidal|
+Football,Spain,League,2018,12/05/2019,Real Betis,Huesca,2,1,H
+Football,Spain,League,2018,12/05/2019,Girona,Levante,1,2,A
+Football,Spain,League,2018,12/05/2019,Leganes,Espanyol,0,2,A
+Football,Spain,League,2018,12/05/2019,Real Sociedad,Real Madrid,3,1,H
+Football,Spain,League,2018,12/05/2019,Valencia,Deportivo Alaves,3,1,H
+Football,Spain,League,2018,12/05/2019,Rayo Vallecano,Valladolid,1,2,A
+Football,Spain,League,2018,12/05/2019,Villarreal,Eibar,1,0,H
+Football,Spain,League,2018,18/05/2019,Deportivo Alaves,Girona,2,1,H
+Football,Spain,League,2018,18/05/2019,Celta Vigo,Rayo Vallecano,2,2,D
+Football,Spain,League,2018,18/05/2019,Espanyol,Real Sociedad,2,0,H
+Football,Spain,League,2018,18/05/2019,Getafe,Villarreal,2,2,D
+Football,Spain,League,2018,18/05/2019,Huesca,Leganes,2,1,H
+Football,Spain,League,2018,18/05/2019,Levante,Atletico Madrid,2,2,D
+Football,Spain,League,2018,18/05/2019,Sevilla,Athletic Bilbao,2,0,H
+Football,Spain,League,2018,18/05/2019,Valladolid,Valencia,0,2,A
+Football,Spain,League,2018,19/05/2019,Eibar,Barcelona,2,2,D|Marko Dmitrovic,Pablo De Blasis,Paulo Oliveira,Ivan Ramis,Cote,Fabian Orellana,Gonzalo Escalante,Joan Jordan,Marc Cucurella,Charles,Sergi Enrich,Marc Cardona,Sergio Alvarez,Kike Garcia|Jasper Cillessen,Nelson Semedo,Gerard Pique,Clement Lenglet,Jordi Alba,Ivan Rakitic,Sergio Busquets,Sergi Roberto,Arturo Vidal,Lionel Messi,Malcom,Moussa Wague,Carles Alena,Carles Perez|A:20:Sergi Enrich,G:20:Marc Cucurella,G:45:Pablo De Blasis|A:31:Arturo Vidal,G:31:Lionel Messi,A:32:Ivan Rakitic,G:32:Lionel Messi
+Football,Spain,League,2018,19/05/2019,Real Madrid,Real Betis,0,2,A

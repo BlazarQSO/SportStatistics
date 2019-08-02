@@ -1,0 +1,20 @@
+Football,Spain,League,2015,Barcelona,38,29,4,5,112,29,91,19,16,1,2,67,14,49,19,13
+Football,Spain,League,2015,Real Madrid,38,28,6,4,110,34,90,19,16,1,2,70,16,49,19,12
+Football,Spain,League,2015,Atletico Madrid,38,28,4,6,63,18,88,19,15,3,1,33,7,48,19,13
+Football,Spain,League,2015,Villarreal,38,18,10,10,44,35,64,19,12,4,3,26,12,40,19,6
+Football,Spain,League,2015,Athletic Bilbao,38,18,8,12,58,45,62,19,11,4,4,35,17,37,19,7
+Football,Spain,League,2015,Celta Vigo,38,17,9,12,51,59,60,19,9,6,4,29,25,33,19,8
+Football,Spain,League,2015,Sevilla,38,14,10,14,51,50,52,19,14,1,4,38,21,43,19,0
+Football,Spain,League,2015,Malaga,38,12,12,14,38,35,48,19,8,6,5,26,15,30,19,4
+Football,Spain,League,2015,Real Sociedad,38,13,9,16,45,48,48,19,7,5,7,22,20,26,19,6
+Football,Spain,League,2015,Real Betis,38,11,12,15,34,52,45,19,6,6,7,17,23,24,19,5
+Football,Spain,League,2015,Las Palmas,38,12,8,18,45,53,44,19,8,5,6,25,17,29,19,4
+Football,Spain,League,2015,Valencia,38,11,11,16,46,48,44,19,6,7,6,25,23,25,19,5
+Football,Spain,League,2015,Espanyol,38,12,7,19,40,74,43,19,9,5,5,22,28,32,19,3
+Football,Spain,League,2015,Eibar,38,11,10,17,49,61,43,19,8,5,6,26,22,29,19,3
+Football,Spain,League,2015,Deportivo La Coruna,38,8,18,12,45,61,42,19,4,8,7,25,34,20,19,4
+Football,Spain,League,2015,Granada,38,10,9,19,46,69,39,19,6,5,8,26,31,23,19,4
+Football,Spain,League,2015,Sporting Gijon,38,10,9,19,40,62,39,19,7,4,8,28,28,25,19,3
+Football,Spain,League,2015,Rayo Vallecano,38,9,11,18,52,73,38,19,8,4,7,29,29,28,19,1
+Football,Spain,League,2015,Getafe,38,9,9,20,37,67,36,19,6,7,6,23,20,25,19,3
+Football,Spain,League,2015,Levante,38,8,8,22,37,70,32,19,7,5,7,23,26,26,19,1

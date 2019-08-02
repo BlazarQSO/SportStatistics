@@ -1,0 +1,30 @@
+Football,England,League,2009,Arsenal,Cesc,Fabregas,27,15,13
+Football,England,League,2009,Arsenal,Robin,van Persie,16,9,7
+Football,England,League,2009,Arsenal,Abou,Diaby,29,6,3
+Football,England,League,2009,Arsenal,Alexandre,Song,26,1,1
+Football,England,League,2009,Arsenal,Kieran,Gibbs,3,0,0
+Football,England,League,2009,Arsenal,Gael,Clichy,24,0,1
+Football,England,League,2009,Arsenal,Thomas,Vermaelen,33,7,1
+Football,England,League,2009,Arsenal,Andrey,Arshavin,30,10,1
+Football,England,League,2009,Arsenal,Denilson,,20,3,1
+Football,England,League,2009,Arsenal,Armand,Traore,9,0,0
+Football,England,League,2009,Arsenal,Samir,Nasri,26,2,4
+Football,England,League,2009,Arsenal,William,Gallas,26,3,0
+Football,England,League,2009,Arsenal,Sol,Campbell,11,0,0
+Football,England,League,2009,Arsenal,Bacary,Sagna,35,0,3
+Football,England,League,2009,Arsenal,Emmanuel,Eboue,25,1,3
+Football,England,League,2009,Arsenal,Nicklas,Bendtner,23,6,5
+Football,England,League,2009,Arsenal,Tomas,Rosicky,25,3,4
+Football,England,League,2009,Arsenal,Aaron,Ramsey,18,3,3
+Football,England,League,2009,Arsenal,Vito,Mannone,5,0,0
+Football,England,League,2009,Arsenal,Craig,Eastmond,4,0,0
+Football,England,League,2009,Arsenal,Mikael,Silvestre,12,1,0
+Football,England,League,2009,Arsenal,Theo,Walcott,23,3,2
+Football,England,League,2009,Arsenal,Eduardo,da Silva,24,2,4
+Football,England,League,2009,Arsenal,Manuel,Almunia,29,0,1
+Football,England,League,2009,Arsenal,Johan,Djourou,1,0,0
+Football,England,League,2009,Arsenal,Fran,Merida,4,1,0
+Football,England,League,2009,Arsenal,Lukasz,Fabianski,4,0,0
+Football,England,League,2009,Arsenal,Henri,Lansbury,1,0,0
+Football,England,League,2009,Arsenal,Carlos,Vela,11,1,0
+Football,England,League,2009,Arsenal,Jack,Wilshere,1,0,0

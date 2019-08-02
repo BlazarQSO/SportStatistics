@@ -1,0 +1,26 @@
+Football,Spain,League,2014,Sevilla,Grzegorz,Krychowiak,32,2,1
+Football,Spain,League,2014,Sevilla,Vicente,Iborra,26,7,1
+Football,Spain,League,2014,Sevilla,Jose,Antonio Reyes,19,3,4
+Football,Spain,League,2014,Sevilla,Nico,Pareja,26,1,1
+Football,Spain,League,2014,Sevilla,Coke,,22,2,3
+Football,Spain,League,2014,Sevilla,Carlos,Bacca,37,20,6
+Football,Spain,League,2014,Sevilla,Ever,Banega,34,3,3
+Football,Spain,League,2014,Sevilla,Fernando,Navarro,19,0,0
+Football,Spain,League,2014,Sevilla,Benoit,Tremoulinas,20,0,4
+Football,Spain,League,2014,Sevilla,Aleix,Vidal,31,4,5
+Football,Spain,League,2014,Sevilla,Vitolo,,28,6,3
+Football,Spain,League,2014,Sevilla,Daniel,Carrico,28,1,0
+Football,Spain,League,2014,Sevilla,Sergio,Rico,21,0,0
+Football,Spain,League,2014,Sevilla,Alejandro,Arribas,11,0,1
+Football,Spain,League,2014,Sevilla,Stephane,Mbia,23,4,0
+Football,Spain,League,2014,Sevilla,Gerard,Deulofeu,17,1,5
+Football,Spain,League,2014,Sevilla,Timothee,Kolodziejczak,18,1,0
+Football,Spain,League,2014,Sevilla,Denis,Suarez,31,2,4
+Football,Spain,League,2014,Sevilla,Kevin,Gameiro,26,8,2
+Football,Spain,League,2014,Sevilla,Iago,Aspas,16,2,1
+Football,Spain,League,2014,Sevilla,Diogo,Figueiras,24,1,2
+Football,Spain,League,2014,Sevilla,Beto,,18,0,0
+Football,Spain,League,2014,Sevilla,Mariano,Barbosa,2,0,0
+Football,Spain,League,2014,Sevilla,Carlos,Fernandez,1,0,0
+Football,Spain,League,2014,Sevilla,Juan,Munoz,1,0,0
+Football,Spain,League,2014,Sevilla,Luismi,,1,0,0

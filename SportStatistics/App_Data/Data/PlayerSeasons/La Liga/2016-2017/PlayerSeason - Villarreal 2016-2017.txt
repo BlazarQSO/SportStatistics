@@ -1,0 +1,27 @@
+Football,Spain,League,2016,Villarreal,Cote,,7,0,1
+Football,Spain,League,2016,Villarreal,Bruno,Soriano,34,5,2
+Football,Spain,League,2016,Villarreal,Mario,Gaspar,36,0,3
+Football,Spain,League,2016,Villarreal,Manu,Trigueros,37,5,1
+Football,Spain,League,2016,Villarreal,Jaume,Costa,31,1,3
+Football,Spain,League,2016,Villarreal,Roberto,Soriano,33,9,5
+Football,Spain,League,2016,Villarreal,Roberto,Soldado,12,4,3
+Football,Spain,League,2016,Villarreal,Samu,Castillejo,33,2,3
+Football,Spain,League,2016,Villarreal,Andres,Fernandez,15,0,0
+Football,Spain,League,2016,Villarreal,Sergio,Asenjo,24,0,0
+Football,Spain,League,2016,Villarreal,Victor,Ruiz,28,1,1
+Football,Spain,League,2016,Villarreal,Cedric,Bakambu,26,11,1
+Football,Spain,League,2016,Villarreal,Mateo,Musacchio,23,0,2
+Football,Spain,League,2016,Villarreal,Jonathan,dos Santos,34,2,3
+Football,Spain,League,2016,Villarreal,Alvaro,Gonzalez,24,1,1
+Football,Spain,League,2016,Villarreal,Daniele,Bonera,6,0,0
+Football,Spain,League,2016,Villarreal,Alexandre,Pato,14,2,1
+Football,Spain,League,2016,Villarreal,Nicola,Sansone,32,8,3
+Football,Spain,League,2016,Villarreal,Rodrigo,,23,0,1
+Football,Spain,League,2016,Villarreal,Adrian,Lopez,15,2,1
+Football,Spain,League,2016,Villarreal,Antonio,Rukavina,4,0,0
+Football,Spain,League,2016,Villarreal,Santos,Borre,17,2,1
+Football,Spain,League,2016,Villarreal,Denis,Cheryshev,11,0,0
+Football,Spain,League,2016,Villarreal,Alfred,N'Diaye,7,0,1
+Football,Spain,League,2016,Villarreal,Aitor,Cantalapiedra,1,0,0
+Football,Spain,League,2016,Villarreal,Mario,Gonzalez,2,0,0
+Football,Spain,League,2016,Villarreal,Leo,Suarez,3,0,0

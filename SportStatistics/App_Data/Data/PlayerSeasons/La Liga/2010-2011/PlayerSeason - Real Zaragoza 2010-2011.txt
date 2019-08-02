@@ -1,0 +1,24 @@
+Football,Spain,League,2010,Real Zaragoza,Gabi,,36,10,6
+Football,Spain,League,2010,Real Zaragoza,Jiri,Jarosik,36,3,1
+Football,Spain,League,2010,Real Zaragoza,Ander,Herrera,33,2,3
+Football,Spain,League,2010,Real Zaragoza,Leonardo,Ponzio,32,2,2
+Football,Spain,League,2010,Real Zaragoza,Paulo,Da Silva,13,0,0
+Football,Spain,League,2010,Real Zaragoza,Ivan,Obradovic,20,0,0
+Football,Spain,League,2010,Real Zaragoza,Javier,Paredes,19,0,1
+Football,Spain,League,2010,Real Zaragoza,Angel,Lafita,30,4,1
+Football,Spain,League,2010,Real Zaragoza,Toni,Doblas,18,0,0
+Football,Spain,League,2010,Real Zaragoza,Carlos,Diogo,33,0,0
+Football,Spain,League,2010,Real Zaragoza,Matteo,Contini,24,0,0
+Football,Spain,League,2010,Real Zaragoza,Leo,Franco,23,0,0
+Football,Spain,League,2010,Real Zaragoza,Maurizio,Lanzaro,17,1,0
+Football,Spain,League,2010,Real Zaragoza,Said,Boutahar,21,2,1
+Football,Spain,League,2010,Real Zaragoza,Nicolas,Bertolo,36,5,0
+Football,Spain,League,2010,Real Zaragoza,Ikechukwu,Uche,14,1,4
+Football,Spain,League,2010,Real Zaragoza,Kevin,Lacruz,3,0,0
+Football,Spain,League,2010,Real Zaragoza,Braulio,,27,3,3
+Football,Spain,League,2010,Real Zaragoza,Jorge,Lopez,27,0,0
+Football,Spain,League,2010,Real Zaragoza,Guirane,N'Daw,9,0,0
+Football,Spain,League,2010,Real Zaragoza,Florent,Sinama-Pongolle,24,4,0
+Football,Spain,League,2010,Real Zaragoza,Edmilson,,12,1,0
+Football,Spain,League,2010,Real Zaragoza,Marco,Perez,16,1,0
+Football,Spain,League,2010,Real Zaragoza,Adam,Pinter,9,0,0

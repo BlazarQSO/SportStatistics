@@ -1,0 +1,27 @@
+Football,England,League,2013,Arsenal,Lukasz,Fabianski,1,0,0
+Football,England,League,2013,Arsenal,Aaron,Ramsey,23,10,8
+Football,England,League,2013,Arsenal,Olivier,Giroud,36,16,8
+Football,England,League,2013,Arsenal,Santi,Cazorla,31,4,8
+Football,England,League,2013,Arsenal,Laurent,Koscielny,32,2,0
+Football,England,League,2013,Arsenal,Mesut,Ozil,26,5,9
+Football,England,League,2013,Arsenal,Bacary,Sagna,35,1,2
+Football,England,League,2013,Arsenal,Per,Mertesacker,35,2,0
+Football,England,League,2013,Arsenal,Mikel,Arteta,31,2,0
+Football,England,League,2013,Arsenal,Theo,Walcott,13,5,4
+Football,England,League,2013,Arsenal,Kieran,Gibbs,28,0,1
+Football,England,League,2013,Arsenal,Wojciech,Szczesny,37,0,0
+Football,England,League,2013,Arsenal,Jack,Wilshere,24,3,4
+Football,England,League,2013,Arsenal,Lukas,Podolski,20,8,2
+Football,England,League,2013,Arsenal,Serge,Gnabry,9,1,0
+Football,England,League,2013,Arsenal,Thomas,Vermaelen,14,0,1
+Football,England,League,2013,Arsenal,Nacho,Monreal,23,0,1
+Football,England,League,2013,Arsenal,Tomas,Rosicky,27,2,1
+Football,England,League,2013,Arsenal,Carl,Jenkinson,14,1,2
+Football,England,League,2013,Arsenal,Mathieu,Flamini,27,2,0
+Football,England,League,2013,Arsenal,Kim,Kallstrom,3,0,0
+Football,England,League,2013,Arsenal,Alex,Oxlade Chamberlain,14,2,2
+Football,England,League,2013,Arsenal,Nicklas,Bendtner,9,2,0
+Football,England,League,2013,Arsenal,Ryo,Miyaichi,1,0,0
+Football,England,League,2013,Arsenal,Yaya,Sanogo,8,0,0
+Football,England,League,2013,Arsenal,Abou,Diaby,1,0,0
+Football,England,League,2013,Arsenal,Chuba,Akpom,1,0,0

@@ -1,0 +1,25 @@
+Football,Spain,League,2013,Real Madrid,Cristiano,Ronaldo,30,31,9
+Football,Spain,League,2013,Real Madrid,Gareth,Bale,27,15,12
+Football,Spain,League,2013,Real Madrid,Sergio,Ramos,32,4,1
+Football,Spain,League,2013,Real Madrid,Angel,Di Maria,34,4,17
+Football,Spain,League,2013,Real Madrid,Karim,Benzema,35,17,9
+Football,Spain,League,2013,Real Madrid,Pepe,,30,4,2
+Football,Spain,League,2013,Real Madrid,Isco,,32,8,6
+Football,Spain,League,2013,Real Madrid,Luka,Modric,34,1,6
+Football,Spain,League,2013,Real Madrid,Marcelo,,28,1,6
+Football,Spain,League,2013,Real Madrid,Daniel,Carvajal,31,2,2
+Football,Spain,League,2013,Real Madrid,Mesut,Ozil,2,0,0
+Football,Spain,League,2013,Real Madrid,Xabi,Alonso,26,0,1
+Football,Spain,League,2013,Real Madrid,Asier,Illarramendi,29,2,1
+Football,Spain,League,2013,Real Madrid,Raphael,Varane,14,0,1
+Football,Spain,League,2013,Real Madrid,Alvaro,Arbeloa,18,0,0
+Football,Spain,League,2013,Real Madrid,Fabio,Coentrao,10,0,0
+Football,Spain,League,2013,Real Madrid,Diego,Lopez,36,0,0
+Football,Spain,League,2013,Real Madrid,Nacho,,12,0,1
+Football,Spain,League,2013,Real Madrid,Sami,Khedira,13,1,1
+Football,Spain,League,2013,Real Madrid,Alvaro,Morata,23,8,0
+Football,Spain,League,2013,Real Madrid,Jese,,18,5,4
+Football,Spain,League,2013,Real Madrid,Casemiro,,12,0,1
+Football,Spain,League,2013,Real Madrid,Willian,Jose,1,0,0
+Football,Spain,League,2013,Real Madrid,Diego,Llorente,1,0,0
+Football,Spain,League,2013,Real Madrid,Iker,Casillas,2,0,0

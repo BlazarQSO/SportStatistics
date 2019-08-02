@@ -1,0 +1,20 @@
+Football,Spain,League,2018,Barcelona,38,26,9,3,90,36,87,19,15,3,1,51,17,48
+Football,Spain,League,2018,Atletico Madrid,38,22,10,6,55,29,76,19,15,3,1,32,10,48
+Football,Spain,League,2018,Real Madrid,38,21,5,12,63,46,68,19,13,1,5,32,15,40
+Football,Spain,League,2018,Valencia,38,15,16,7,51,35,61,19,7,10,2,24,12,31
+Football,Spain,League,2018,Getafe,38,15,14,9,48,35,59,19,11,3,5,28,13,36
+Football,Spain,League,2018,Sevilla,38,17,8,13,62,47,59,19,12,3,4,39,20,39
+Football,Spain,League,2018,Espanyol,38,14,11,13,48,50,53,19,11,3,5,28,22,36
+Football,Spain,League,2018,Athletic Bilbao,38,13,14,11,41,45,53,19,9,8,2,26,19,35
+Football,Spain,League,2018,Real Sociedad,38,13,11,14,45,46,50,19,7,6,6,23,20,27
+Football,Spain,League,2018,Deportivo Alaves,38,13,11,14,39,50,50,19,7,8,4,19,19,29
+Football,Spain,League,2018,Real Betis,38,14,8,16,44,52,50,19,8,5,6,25,26,29
+Football,Spain,League,2018,Eibar,,38,11,14,13,46,50,47,19,9,6,4,31,21
+Football,Spain,League,2018,Leganes,38,11,12,15,37,43,45,19,7,8,4,19,16,29
+Football,Spain,League,2018,Villarreal,38,10,14,14,49,52,44,19,5,8,6,28,26,23
+Football,Spain,League,2018,Levante,38,11,11,16,59,66,44,19,6,7,6,34,34,25
+Football,Spain,League,2018,Real Valladolid,38,10,11,17,32,51,41,19,5,5,9,16,26,20
+Football,Spain,League,2018,Celta Vigo,38,10,11,17,53,62,41,19,8,5,6,31,25,29
+Football,Spain,League,2018,Girona,38,9,10,19,37,53,37,19,3,6,10,17,28,15
+Football,Spain,League,2018,SD Huesca,38,7,12,19,43,65,33,19,5,6,8,24,30,21
+Football,Spain,League,2018,Rayo Vallecano,38,8,8,22,41,70,32,19,5,6,8,25,32,21

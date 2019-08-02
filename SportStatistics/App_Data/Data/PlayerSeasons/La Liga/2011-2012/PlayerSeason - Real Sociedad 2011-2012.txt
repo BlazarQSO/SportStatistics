@@ -1,0 +1,24 @@
+Football,Spain,League,2011,Real Sociedad,David,Zurutuza,33,3,2
+Football,Spain,League,2011,Real Sociedad,Asier,Illarramendi,18,0,1
+Football,Spain,League,2011,Real Sociedad,Carlos,Martinez,21,0,2
+Football,Spain,League,2011,Real Sociedad,Antoine,Griezmann,35,7,4
+Football,Spain,League,2011,Real Sociedad,Ion,Ansotegi,10,0,0
+Football,Spain,League,2011,Real Sociedad,Gorka,Elustondo,17,1,2
+Football,Spain,League,2011,Real Sociedad,Alberto,de la Bella,21,0,2
+Football,Spain,League,2011,Real Sociedad,Carlos,Vela,35,12,7
+Football,Spain,League,2011,Real Sociedad,Mikel,Gonzalez,28,1,0
+Football,Spain,League,2011,Real Sociedad,Dani,Estrada,29,2,1
+Football,Spain,League,2011,Real Sociedad,Xabi,Prieto,34,2,5
+Football,Spain,League,2011,Real Sociedad,Claudio,Bravo,37,0,0
+Football,Spain,League,2011,Real Sociedad,Inigo,Martinez,26,3,0
+Football,Spain,League,2011,Real Sociedad,Vadim,Demidov,23,0,1
+Football,Spain,League,2011,Real Sociedad,Liassine,Cadamuro,19,0,0
+Football,Spain,League,2011,Real Sociedad,Mikel,Aranburu,29,0,0
+Football,Spain,League,2011,Real Sociedad,McDonald,Mariga,14,0,0
+Football,Spain,League,2011,Real Sociedad,Markel,Bergara,11,0,0
+Football,Spain,League,2011,Real Sociedad,Imanol,Agirretxe,36,10,4
+Football,Spain,League,2011,Real Sociedad,Enaut,Zubikarai,2,0,0
+Football,Spain,League,2011,Real Sociedad,Ruben,Pardo,15,1,0
+Football,Spain,League,2011,Real Sociedad,Diego,Ifran,16,1,0
+Football,Spain,League,2011,Real Sociedad,Jeffrey,Sarpong,3,0,0
+Football,Spain,League,2011,Real Sociedad,Joseba,Llorente,18,0,0

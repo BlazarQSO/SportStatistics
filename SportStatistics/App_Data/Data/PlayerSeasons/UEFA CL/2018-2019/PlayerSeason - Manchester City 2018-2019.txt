@@ -1,0 +1,21 @@
+Football,UEFA,League,2018,Manchester City,Raheem,Sterling,10,5,2
+Football,UEFA,League,2018,Manchester City,Bernardo,Silva,8,4,1
+Football,UEFA,League,2018,Manchester City,Sergio,Aguero,7,6,1
+Football,UEFA,League,2018,Manchester City,Leroy,Sane,8,4,4
+Football,UEFA,League,2018,Manchester City,Kevin,De Bruyne,4,0,4
+Football,UEFA,League,2018,Manchester City,Riyad,Mahrez,6,1,4
+Football,UEFA,League,2018,Manchester City,David,Silva,9,3,2
+Football,UEFA,League,2018,Manchester City,Oleksandr,Zinchenko,5,0,2
+Football,UEFA,League,2018,Manchester City,Gabriel,Jesus,6,4,0
+Football,UEFA,League,2018,Manchester City,Ilkay,Gundogan,8,0,1
+Football,UEFA,League,2018,Manchester City,Benjamin,Mendy,2,0,0
+Football,UEFA,League,2018,Manchester City,Danilo,,2,0,0
+Football,UEFA,League,2018,Manchester City,Aymeric,Laporte,10,2,0
+Football,UEFA,League,2018,Manchester City,Fernandinho,,8,0,0
+Football,UEFA,League,2018,Manchester City,John,Stones,6,0,0
+Football,UEFA,League,2018,Manchester City,Phil,Foden,4,1,0
+Football,UEFA,League,2018,Manchester City,Ederson,,10,0,1
+Football,UEFA,League,2018,Manchester City,Nicolas,Otamendi,5,0,0
+Football,UEFA,League,2018,Manchester City,Kyle,Walker,10,0,0
+Football,UEFA,League,2018,Manchester City,Vincent,Kompany,4,0,0
+Football,UEFA,League,2018,Manchester City,Fabian,Delph,6,0,0

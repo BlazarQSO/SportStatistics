@@ -1,0 +1,27 @@
+Football,Spain,League,2015,Las Palmas,Pedro,Bigas,27,3,0
+Football,Spain,League,2015,Las Palmas,Jonathan,Viera,36,10,9
+Football,Spain,League,2015,Las Palmas,Antolin,Alcaraz,6,1,0
+Football,Spain,League,2015,Las Palmas,Raul,Lizoain,8,0,0
+Football,Spain,League,2015,Las Palmas,David,Garcia,19,2,1
+Football,Spain,League,2015,Las Palmas,Dani,Castellano,27,0,0
+Football,Spain,League,2015,Las Palmas,Aythami,Artiles,31,0,1
+Football,Spain,League,2015,Las Palmas,Javi,Castellano,1,0,0
+Football,Spain,League,2015,Las Palmas,Javi,Varas,31,0,0
+Football,Spain,League,2015,Las Palmas,Momo,,23,0,3
+Football,Spain,League,2015,Las Palmas,Vicente,Gomez,21,1,1
+Football,Spain,League,2015,Las Palmas,Tana,,27,5,4
+Football,Spain,League,2015,Las Palmas,Mauricio,Lemos,10,0,0
+Football,Spain,League,2015,Las Palmas,David,Simon,27,1,2
+Football,Spain,League,2015,Las Palmas,Willian,Jose,30,9,1
+Football,Spain,League,2015,Las Palmas,Sergio,Araujo,30,5,3
+Football,Spain,League,2015,Las Palmas,Javier,Garrido,18,0,1
+Football,Spain,League,2015,Las Palmas,Roque,Mesa,34,1,2
+Football,Spain,League,2015,Las Palmas,Angel,Montoro,9,0,0
+Football,Spain,League,2015,Las Palmas,Nabil,El Zhar,30,2,4
+Football,Spain,League,2015,Las Palmas,Hernan,Santana,18,1,0
+Football,Spain,League,2015,Las Palmas,Mubarak,Wakaso,20,1,0
+Football,Spain,League,2015,Las Palmas,Juan,Emmanuel Culio,12,0,1
+Football,Spain,League,2015,Las Palmas,Nili,,8,0,0
+Football,Spain,League,2015,Las Palmas,Juan,Carlos Valeron,13,0,0
+Football,Spain,League,2015,Las Palmas,Angel,,3,0,0
+Football,Spain,League,2015,Las Palmas,Nauzet,Aleman,10,0,0

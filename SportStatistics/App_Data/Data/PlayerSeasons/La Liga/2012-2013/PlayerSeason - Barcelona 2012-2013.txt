@@ -1,0 +1,25 @@
+Football,Spain,League,2012,Barcelona,Lionel,Messi,32,46,12
+Football,Spain,League,2012,Barcelona,Cesc,Fabregas,32,11,11
+Football,Spain,League,2012,Barcelona,Andres,Iniesta,31,3,16
+Football,Spain,League,2012,Barcelona,Sergio,Busquets,31,1,2
+Football,Spain,League,2012,Barcelona,Adriano,,23,5,1
+Football,Spain,League,2012,Barcelona,Jordi,Alba,29,2,5
+Football,Spain,League,2012,Barcelona,Xavi,,30,5,8
+Football,Spain,League,2012,Barcelona,Dani,Alves,30,0,6
+Football,Spain,League,2012,Barcelona,Pedro,,28,7,6
+Football,Spain,League,2012,Barcelona,Alexandre,Song,20,1,0
+Football,Spain,League,2012,Barcelona,Thiago,Alcantara,27,2,4
+Football,Spain,League,2012,Barcelona,Gerard,Pique,28,2,0
+Football,Spain,League,2012,Barcelona,Cristian,Tello,22,7,4
+Football,Spain,League,2012,Barcelona,Alexis,Sanchez,29,8,9
+Football,Spain,League,2012,Barcelona,Martin,Montoya,15,1,2
+Football,Spain,League,2012,Barcelona,Carles,Puyol,13,1,0
+Football,Spain,League,2012,Barcelona,Javier,Mascherano,25,0,0
+Football,Spain,League,2012,Barcelona,Pinto,,7,0,0
+Football,Spain,League,2012,Barcelona,David,Villa,28,10,5
+Football,Spain,League,2012,Barcelona,Marc,Bartra,8,0,0
+Football,Spain,League,2012,Barcelona,Victor,Valdes,31,0,0
+Football,Spain,League,2012,Barcelona,Eric,Abidal,5,0,0
+Football,Spain,League,2012,Barcelona,Jonathan,dos Santos,3,0,0
+Football,Spain,League,2012,Barcelona,Sergi,Roberto,1,0,0
+Football,Spain,League,2012,Barcelona,Gerard,Deulofeu,1,0,0

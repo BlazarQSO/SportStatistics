@@ -1,0 +1,25 @@
+Football,Spain,League,2015,Barcelona,Lionel,Messi,33,26,16
+Football,Spain,League,2015,Barcelona,Neymar,,34,24,12
+Football,Spain,League,2015,Barcelona,Luis,Suarez,35,40,16
+Football,Spain,League,2015,Barcelona,Sergio,Busquets,35,0,4
+Football,Spain,League,2015,Barcelona,Andres,Iniesta,28,1,2
+Football,Spain,League,2015,Barcelona,Ivan,Rakitic,36,7,2
+Football,Spain,League,2015,Barcelona,Gerard,Pique,30,2,1
+Football,Spain,League,2015,Barcelona,Dani,Alves,29,0,4
+Football,Spain,League,2015,Barcelona,Jordi,Alba,31,0,6
+Football,Spain,League,2015,Barcelona,Javier,Mascherano,32,0,0
+Football,Spain,League,2015,Barcelona,Sergi,Roberto,31,0,5
+Football,Spain,League,2015,Barcelona,Claudio,Bravo,32,0,0
+Football,Spain,League,2015,Barcelona,Thomas,Vermaelen,10,1,0
+Football,Spain,League,2015,Barcelona,Marc,Bartra,13,2,1
+Football,Spain,League,2015,Barcelona,Jeremy,Mathieu,21,0,2
+Football,Spain,League,2015,Barcelona,Aleix,Vidal,9,0,1
+Football,Spain,League,2015,Barcelona,Rafinha,,6,1,0
+Football,Spain,League,2015,Barcelona,Munir,El Haddadi,15,3,2
+Football,Spain,League,2015,Barcelona,Arda,Turan,18,2,3
+Football,Spain,League,2015,Barcelona,Adriano,,8,0,1
+Football,Spain,League,2015,Barcelona,Sergi,Samper,1,0,0
+Football,Spain,League,2015,Barcelona,Marc-Andre,ter Stegen,7,0,0
+Football,Spain,League,2015,Barcelona,Sandro,Ramirez,10,0,1
+Football,Spain,League,2015,Barcelona,Gerard,Gumbau,3,0,0
+Football,Spain,League,2015,Barcelona,Douglas,,1,0,0

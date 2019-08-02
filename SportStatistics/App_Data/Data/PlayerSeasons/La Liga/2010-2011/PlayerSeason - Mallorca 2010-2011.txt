@@ -1,0 +1,24 @@
+Football,Spain,League,2010,Mallorca,Edson,Ratinho,7,0,0
+Football,Spain,League,2010,Mallorca,Ivan,Ramis,33,3,0
+Football,Spain,League,2010,Mallorca,Jonathan,de Guzman,33,5,4
+Football,Spain,League,2010,Mallorca,Pierre,Webo,34,11,6
+Football,Spain,League,2010,Mallorca,Kevin,,19,0,0
+Football,Spain,League,2010,Mallorca,Marti,,34,0,3
+Football,Spain,League,2010,Mallorca,Pau,Cendros,31,0,0
+Football,Spain,League,2010,Mallorca,Michael,Pereira,35,5,3
+Football,Spain,League,2010,Mallorca,Gonzalo,Castro,33,5,6
+Football,Spain,League,2010,Mallorca,Nsue,,38,0,0
+Football,Spain,League,2010,Mallorca,Ruben,Gonzalez,13,0,0
+Football,Spain,League,2010,Mallorca,Nunes,,34,1,0
+Football,Spain,League,2010,Mallorca,German,Lux,4,0,0
+Football,Spain,League,2010,Mallorca,Sergio,Tejera,16,0,0
+Football,Spain,League,2010,Mallorca,Enrique,Corrales,2,0,0
+Football,Spain,League,2010,Mallorca,Dudu,Aouate,35,0,0
+Football,Spain,League,2010,Mallorca,Joao,Victor,32,0,1
+Football,Spain,League,2010,Mallorca,Ayoze,Diaz,19,0,1
+Football,Spain,League,2010,Mallorca,Victor,Casadesus,19,3,2
+Football,Spain,League,2010,Mallorca,Akihiro,Ienaga,14,2,0
+Football,Spain,League,2010,Mallorca,Marti,Crespi,5,0,0
+Football,Spain,League,2010,Mallorca,Fernando,Cavenaghi,11,2,0
+Football,Spain,League,2010,Mallorca,Tomas,Pina,9,0,0
+Football,Spain,League,2010,Mallorca,Sergi,Enrich,5,0,0
