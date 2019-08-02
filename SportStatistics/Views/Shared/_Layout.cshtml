@@ -17,21 +17,20 @@
                 <a href="#">Spain</a>
                 <ul>
                     <li>@Html.ActionLink("La Liga", "Standings", "Home", routeValues: new { sport = "Football", fed = "Spain", tour = "League" }, htmlAttributes: null)</li>
-                    <li><a href="#">Copa del Rey</a></li>
-                    <li><a href="#">Supercopa de Espana</a></li>                    
+                    <li>@Html.ActionLink("Copa del Rey", "Stub", "Home", routeValues: new { stub = "Copa del Rey" }, htmlAttributes: null)</li>
+                    <li>@Html.ActionLink("Supercopa", "Stub", "Home", routeValues: new { stub = "Supercopa" }, htmlAttributes: null)</li>                    
                 </ul>
             </li>
             <li>
                 <a href="#">English</a>
                 <ul>
-                    <li><a href="#">Premier League</a></li>
-                    <li><a href="#">League Cup</a></li>
-                    <li><a href="#">FA Cup</a></li>
-                    <li><a href="#">Super Cup</a></li>
+                    <li>@Html.ActionLink("Premier League", "Standings", "Home", routeValues: new { sport = "Football", fed = "England", tour = "League" }, htmlAttributes: null)</li>
+                    <li>@Html.ActionLink("League Cup", "Stub", "Home", routeValues: new { stub = "League Cup" }, htmlAttributes: null)</li>                    
+                    <li>@Html.ActionLink("FA Cup", "Stub", "Home", routeValues: new { stub = "FA Cup" }, htmlAttributes: null)</li>
+                    <li>@Html.ActionLink("Super Cup", "Stub", "Home", routeValues: new { stub = "Super Cup" }, htmlAttributes: null)</li>
                 </ul>
             </li>
-            <li><a href="#">Champions League</a></li>
-            <li><a href="#">Europe League</a></li>
+            <li>@Html.ActionLink("Champions League", "Standings", "Home", routeValues: new { sport = "Football", fed = "UEFA", tour = "League" }, htmlAttributes: null)</li>            
             <li>@Html.ActionLink("Add data", "AddData", "Home")</li>
         </ul>
     </nav>

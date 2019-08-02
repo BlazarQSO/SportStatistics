@@ -15,23 +15,45 @@ namespace SportStatistics.Models.ServiceClasses
         public List<Standings> CreateModelStandings(string sport, string federation, string tournament, int? fedSeason)
         {
             List<Standings> list = new List<Standings>();
-            List<FederationSeason> search = new List<FederationSeason>();            
-            if (fedSeason == null)
+            List<FederationSeason> search = new List<FederationSeason>();
+
+            if (fedSeason != null && tournament != null)
             {
-                string season = currentSeason.ToString();
-                search  = (from c in db.FederationSeasons
+                search = (from c in db.FederationSeasons
+                          where c.FederationSeasonId == fedSeason
+                          select c).ToList();
+
+                string season = Enum.Format(typeof(Season), Convert.ToInt32(tournament), "G");
+                string tourn = search[0].TournamentString;
+                string country = search[0].SportFederation.Country;
+                string nameSport = search[0].SportFederation.NameSportString;
+                search = (from c in db.FederationSeasons
+                          where 
+                          c.SeasonString == season &&
+                          c.TournamentString == tourn &&
+                          c.SportFederation.Country == country &&
+                          c.SportFederation.NameSportString == nameSport
+                          select c).ToList();
+            }
+            else
+            {
+                if (fedSeason == null)
+                {
+                    string season = currentSeason.ToString();
+                    search = (from c in db.FederationSeasons
                               where
                               c.SeasonString == season &&
                               c.TournamentString == tournament &&
                               c.SportFederation.Country == federation &&
                               c.SportFederation.Sport.NameSportString == sport
                               select c).ToList();
-            } 
-            else
-            {
-                search = (from c in db.FederationSeasons
-                          where c.FederationSeasonId == fedSeason
-                          select c).ToList();
+                }
+                else
+                {
+                    search = (from c in db.FederationSeasons
+                              where c.FederationSeasonId == fedSeason
+                              select c).ToList();
+                }
             }
 
             if (search.Count() > 0)
@@ -265,12 +287,34 @@ namespace SportStatistics.Models.ServiceClasses
             return show;
         }
 
-        public List<Scorer> Scorers(int fedSeason)
+        public List<Scorer> Scorers(int fedSeason, string season)
         {
             List<Scorer> scorers = new List<Scorer>();
-            var search = from c in db.FederationSeasons
-                         where c.FederationSeasonId == fedSeason
-                         select c;
+            List<FederationSeason> search = new List<FederationSeason>();
+            if (season == null)
+            {            
+                search = (from c in db.FederationSeasons
+                          where c.FederationSeasonId == fedSeason
+                          select c).ToList();
+            }
+            else
+            {
+                search = (from c in db.FederationSeasons
+                          where c.FederationSeasonId == fedSeason
+                          select c).ToList();
+
+                string seasonS = Enum.Format(typeof(Season), Convert.ToInt32(season), "G");
+                string tourn = search[0].TournamentString;
+                string country = search[0].SportFederation.Country;
+                string nameSport = search[0].SportFederation.NameSportString;
+                search = (from c in db.FederationSeasons
+                          where
+                          c.SeasonString == seasonS &&
+                          c.TournamentString == tourn &&
+                          c.SportFederation.Country == country &&
+                          c.SportFederation.NameSportString == nameSport
+                          select c).ToList();
+            }
 
             if (search.Count() > 0)
             {
@@ -282,7 +326,7 @@ namespace SportStatistics.Models.ServiceClasses
                         {
                             Scorer scorer = new Scorer();
                             scorer.PlayerId = player.PlayerId;
-                            scorer.FederationSeasonId = fedSeason;
+                            scorer.FederationSeasonId = search.First().FederationSeasonId;
                             scorer.Season = player.Season;
                             scorer.Name = player.Player.Name + " " + player.Player.Surname;
                             scorer.NameTeam = item.Team.Name;
@@ -661,6 +705,105 @@ namespace SportStatistics.Models.ServiceClasses
                 }
             }
             return match;
+        }
+
+        public List<string> Stub(string stub)
+        {
+            List<string> list;
+            switch (stub)
+            { 
+                case "Copa del Rey":
+                    {
+                        list = new List<string>()
+                        {
+                            "2018/2019", "Sevilla",     "6","11",
+                            "2017/2018", "Barcelona",   "1","11",
+                            "2016/2017", "Barcelona",   "1","11",
+                            "2015/2016", "Barcelona",   "1","11",
+                            "2014/2015", "Barcelona",   "1","11",
+                            "2013/2014", "Real Madrid", "3","11",
+                            "2013/2014", "Real Madrid", "3","11",
+                            "2011/2012", "Barcelona",   "1","11",
+                            "2010/2011", "Real Madrid", "3","11",
+                            "2009/2010", "Sevilla",     "6","11",
+                            "2008/2009", "Barcelona",   "1","11",
+                        };      
+                        return list;
+                    }
+                case "Supercopa":
+                    {
+                        list = new List<string>()
+                        {
+                            "2018/2019", "Barcelona", "1",      "11",    
+                            "2017/2018", "Real Madrid", "3",    "11",
+                            "2016/2017", "Barcelona", "1",      "11",
+                            "2015/2016", "Athletic Bilbao", "8","11",
+                            "2014/2015", "Atlético Madrid", "2","11",
+                            "2013/2014", "Barcelona", "1",      "11",
+                            "2012/2013", "Real Madrid", "3",    "11",
+                            "2011/2012", "Barcelona", "1",      "11",
+                            "2010/2011", "Barcelona", "1",      "11",
+                            "2009/2010", "Barcelona", "1",      "11",
+                            "2008/2009", "Real Madrid", "3",    "11",
+                        };
+                        return list;
+                    }
+                case "FA Cup":
+                    {
+                        list = new List<string>()
+                        {
+                            "2018/2019", "Manchester City", "41",  "21",
+                            "2017/2018", "Chelsea", "43",          "21",
+                            "2016/2017", "Arsenal", "45",          "21",
+                            "2015/2016", "Manchester United", "46","21",
+                            "2014/2015", "Arsenal", "45",          "21",
+                            "2013/2014", "Arsenal", "45",          "21",
+                            "2012/2013", "Wigan", "70",            "21",
+                            "2011/2012", "Chelsea", "43",          "21",
+                            "2010/2011", "Manchester City", "41",  "21",
+                            "2009/2010", "Chelsea", "43",          "21",
+                            "2008/2009", "Chelsea", "43",          "21",
+                        };
+                        return list;
+                    }
+                case "League Cup":
+                    {
+                        list = new List<string>()
+                        {
+                            "2018/2019", "Manchester City", "41",   "21",
+                            "2017/2018", "Manchester City", "41",   "21",
+                            "2016/2017", "Manchester United", "46", "21",
+                            "2015/2016", "Manchester City", "41",   "21",
+                            "2014/2015", "Chelsea", "43",           "21",
+                            "2013/2014", "Manchester City", "46",   "21",
+                            "2012/2013", "Swansea", "61",           "21",
+                            "2011/2012", "Liverpool", "42",         "21",
+                            "2010/2011", "Birmingham City", "74",   "21",
+                            "2009/2010", "Manchester United", "46", "21",
+                            "2008/2009", "Manchester United", "46", "21",
+                        };
+                        return list;
+                    }
+                case "Super Cup":
+                    {
+                        list = new List<string>()
+                        {
+                            "2018/2019", "Manchester City", "41",   "21",
+                            "2017/2018", "Arsenal", "45",           "21",
+                            "2016/2017", "Manchester United", "46", "21",
+                            "2015/2016", "Arsenal", "45",           "21",
+                            "2014/2015", "Arsenal", "45",           "21",
+                            "2013/2014", "Manchester United", "46", "21",
+                            "2012/2013", "Manchester City", "41",   "21",
+                            "2011/2012", "Manchester United", "46", "21",
+                            "2010/2011", "Manchester United", "46", "21",
+                            "2009/2010", "Chelsea", "43",           "21",
+                            "2008/2009", "Manchester United", "46", "21",
+                        };
+                        return list;
+                    }
+            }
+            return null;
         }
     }
 }

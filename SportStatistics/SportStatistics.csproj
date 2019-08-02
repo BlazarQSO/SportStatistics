@@ -725,6 +725,7 @@
     <Content Include="Views\FederationSeasons\Edit.cshtml" />
     <Content Include="Views\FederationSeasons\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Home\Stub.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

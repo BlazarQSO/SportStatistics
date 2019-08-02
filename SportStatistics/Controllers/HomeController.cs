@@ -23,8 +23,25 @@ namespace SportStatistics.Controllers
         public ActionResult Standings(string sport, string fed, string tour, int? fedSeason)
         {
             try
-            {                
+            {
                 List<Standings> standings = new ServiceDatabase().CreateModelStandings(sport, fed, tour, fedSeason);
+                return View(standings.ToList());
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
+        }
+
+        [HttpPost]
+        public ActionResult Standings(FormCollection collection)
+        {
+            try
+            {
+                int fedSeason = Convert.ToInt32(collection[1]);
+                string season = collection[0];
+                List<Standings> standings = new ServiceDatabase().CreateModelStandings(null, null, season, fedSeason);
                 return View(standings.ToList());
             }
             catch (Exception e)
@@ -84,7 +101,24 @@ namespace SportStatistics.Controllers
         {
             try
             {
-                List<Scorer> scorers = new ServiceDatabase().Scorers(fedSeason);
+                List<Scorer> scorers = new ServiceDatabase().Scorers(fedSeason, null);
+                return View(scorers);
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
+        }
+
+        [HttpPost]
+        public ActionResult Scorers(FormCollection collection)
+        {
+            try
+            {
+                int fedSeason = Convert.ToInt32(collection[1]);
+                string season = collection[0];
+                List<Scorer> scorers = new ServiceDatabase().Scorers(fedSeason, season);
                 return View(scorers);
             }
             catch (Exception e)
@@ -203,6 +237,13 @@ namespace SportStatistics.Controllers
         public ActionResult Result(int fedSeason)
         {
             return View();
+        }
+
+        [HttpGet]
+        public ActionResult Stub(string stub)
+        {
+            List<string> list = new ServiceDatabase().Stub(stub);
+            return View(list);
         }
 
         [HttpGet]
