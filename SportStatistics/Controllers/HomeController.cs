@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using SportStatistics.Models.ViewModels;
 using SportStatistics.Models.ServiceClasses;
+using SportStatistics.Models;
 using System.IO;
 using System.Text;
 
@@ -222,7 +223,8 @@ namespace SportStatistics.Controllers
             }
             catch(Exception e)
             {
-                ViewBag.Error = e.Message;
+                ViewBag.Error = myException.Message;
+                ViewBag.Message = e.Message;
                 return View("Error");
             }
         }

@@ -26,7 +26,7 @@
         headerStyle: "myTableHeader",
         footerStyle: "myTableFooter",
         columns: grid.Columns(
-                grid.Column("Date", format: model => model.Date.ToString("dd-MM-yyyy HH:mm")),
+                grid.Column("Date", format: model => model.Date),
                 grid.Column("Tournament", format:
                 @<text>
                 @{string name = item.Tournament.ToString(); }

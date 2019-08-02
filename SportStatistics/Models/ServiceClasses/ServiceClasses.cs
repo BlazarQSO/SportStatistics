@@ -152,17 +152,14 @@ namespace SportStatistics.Models.ServiceClasses
                 teamSeason.TeamId = team.TeamId;                
                 teamSeason.Win = Convert.ToInt32(list[6]);
 
-                db.TeamSeasons.Add(teamSeason);
-                db.SaveChanges();
+                db.TeamSeasons.Add(teamSeason);               
 
                 team.TeamSeasons.Add(teamSeason);
-                db.Entry(team).State = EntityState.Modified;
-                db.SaveChanges();
+                db.Entry(team).State = EntityState.Modified;                
 
                 fedSeason.TeamSeasons.Add(teamSeason);
-                db.Entry(fedSeason).State = EntityState.Modified;
-                db.SaveChanges();
-            }
+                db.Entry(fedSeason).State = EntityState.Modified;                
+            }            
         }
 
         public void AddPlayerSeason(string data)
@@ -181,7 +178,7 @@ namespace SportStatistics.Models.ServiceClasses
                     continue;
                 }
 
-                string name = list[4] + " " + list[5];
+                string name = list[5] + " " + list[6];
                 string nameSport = list[0];
                 var search = from c in db.Players
                              where
@@ -199,47 +196,63 @@ namespace SportStatistics.Models.ServiceClasses
                     player = search.First();
                 }
 
-                string season = Enum.Format(typeof(Season), Convert.ToInt32(list[2]), "G");
-                string tournament = list[1];
-                string nameTeam = list[3];
+                string nameTeamPS = list[4];
+                string seasonPS = Enum.Format(typeof(Season), Convert.ToInt32(list[3]), "G");
+                string tournamentPS = list[2];
+                string countryPS = list[1];
+                var searchPS = from c in db.PlayerSeasons
+                               where
+                               c.Player.Name + " " + c.Player.Surname == name &&
+                               c.SeasonString == seasonPS &&
+                               c.TeamSeason.FederationSeason.TournamentString == tournamentPS &&
+                               c.Player.NameSportString == nameSport &&
+                               c.TeamSeason.Team.Name == nameTeamPS && 
+                               c.TeamSeason.FederationSeason.SportFederation.Country == countryPS
+                               select c;
 
-                var searchTeamSeason = from c in db.TeamSeasons
-                                       where                                       
-                                       c.FederationSeason.SportFederation.NameSportString == nameSport &&                                       
-                                       c.FederationSeason.TournamentString == tournament &&
-                                       c.SeasonString == season &&
-                                       c.Team.Name == nameTeam
-                                       select c;
-
-                TeamSeason teamSeason = new TeamSeason();
-                if (searchTeamSeason.Count() < 1)
+                if (searchPS.Count() == 0)
                 {
+                    string season = Enum.Format(typeof(Season), Convert.ToInt32(list[3]), "G");
+                    string tournament = list[2];
+                    string nameTeam = list[4];
+                    string country = list[1];
+                    var searchTeamSeason = from c in db.TeamSeasons
+                                           where
+                                           c.FederationSeason.SportFederation.NameSportString == nameSport &&
+                                           c.FederationSeason.TournamentString == tournament &&
+                                           c.SeasonString == season &&
+                                           c.Team.Name == nameTeam &&
+                                           c.FederationSeason.SportFederation.Country == country
+                                           select c;
+
+                    TeamSeason teamSeason = new TeamSeason();
+                    if (searchTeamSeason.Count() < 1)
+                    {
+                    }
+                    else
+                    {
+                        teamSeason = searchTeamSeason.First();
+                    }
+
+                    playerSeason.Assists = Convert.ToInt32(list[9]);
+                    playerSeason.GamedMatches = Convert.ToInt32(list[7]);
+                    playerSeason.Goals = Convert.ToInt32(list[8]);
+                    playerSeason.Player = player;
+                    playerSeason.PlayerId = player.PlayerId;
+                    playerSeason.Season = season.ParseEnum<Season>();
+                    playerSeason.TeamSeason = teamSeason;
+                    playerSeason.TeamSeasonId = teamSeason.TeamSeasonId;
+
+                    db.PlayerSeasons.Add(playerSeason);                    
+
+                    teamSeason.PlayerSeasons.Add(playerSeason);
+                    db.Entry(teamSeason).State = EntityState.Modified;                    
+
+                    player.PlayerSeasons.Add(playerSeason);
+                    db.Entry(player).State = EntityState.Modified;
+                    db.SaveChanges();
                 }
-                else
-                {
-                    teamSeason = searchTeamSeason.First();
-                }
-
-                playerSeason.Assists = Convert.ToInt32(list[8]);
-                playerSeason.GamedMatches = Convert.ToInt32(list[6]);
-                playerSeason.Goals = Convert.ToInt32(list[7]);                
-                playerSeason.Player = player;
-                playerSeason.PlayerId = player.PlayerId;
-                playerSeason.Season = season.ParseEnum<Season>();
-                playerSeason.TeamSeason = teamSeason;
-                playerSeason.TeamSeasonId = teamSeason.TeamSeasonId;                
-
-                db.PlayerSeasons.Add(playerSeason);
-                db.SaveChanges();
-
-                teamSeason.PlayerSeasons.Add(playerSeason);
-                db.Entry(teamSeason).State = EntityState.Modified;
-                db.SaveChanges();
-
-                player.PlayerSeasons.Add(playerSeason);
-                db.Entry(player).State = EntityState.Modified;
-                db.SaveChanges();
-            }
+            }            
         }
 
         public void AddSportFederation(string data)
@@ -436,142 +449,193 @@ namespace SportStatistics.Models.ServiceClasses
                 }
             }            
         }
+        
 
+        
 
         public void AddMatch(string data)
         {   
             data = data.Replace("\n", "&");
             data = data.Replace("\r", "");
             List<string> dataList = data.Split('&').ToList();
-
+                        
             foreach (string item in dataList)
             {
-                if (item == null || item == "")
+                using (var transaction = db.Database.BeginTransaction())
                 {
-                    return;
-                }
-                string[] itemList = item.Split('|');
+                    try
+                    {
+                        if (item == null || item == "")
+                        {
+                            return;
+                        }
+                        
+                        string[] itemList = item.Split('|');
 
-                Match match = new Match();
-                string[] list = itemList[0].Split(',');
+                        Match match = new Match();
+                        string[] list = itemList[0].Split(',');
 
-                string nameSportM = list[0];
-                string homeTeamM = list[5];
-                string awayTeamM = list[6];
-                string dateM = list[4];
-                var search = from c in db.Matches
-                             where c.NameSportString == nameSportM &&
+                        string nameSportM = list[0];
+                        string homeTeamM = list[5];
+                        string awayTeamM = list[6];
+                        string dateM = list[4];
+                        var search = from c in db.Matches
+                                     where c.NameSportString == nameSportM &&
                              c.HomeTeam == homeTeamM &&
                              c.AwayTeam == awayTeamM &&
                              c.Date == dateM
-                             select c;
+                                     select c;
 
-                if (search.Count() > 0)
-                {
-                    continue;
-                }         
+                        if (search.Count() > 0)
+                        {
+                            continue;
+                        }
 
-                match.NameSport = list[0].ParseEnum<NameSport>();
-                match.Country = list[1];                
-                string season = Enum.Format(typeof(Season), Convert.ToInt32(list[3]), "G");
-                match.Season = season.ParseEnum<Season>();
-                match.Tournament = list[2].ParseEnum<Tournament>();
-                match.Date = list[4];                
+                        match.NameSport = list[0].ParseEnum<NameSport>();
+                        match.Country = list[1];
+                        string season = Enum.Format(typeof(Season), Convert.ToInt32(list[3]), "G");
+                        match.Season = season.ParseEnum<Season>();
+                        match.Tournament = list[2].ParseEnum<Tournament>();
+                        match.Date = list[4];
 
-                match.HomeTeam = list[5];
-                match.AwayTeam = list[6];
-                match.HomeTeamGoal = Convert.ToInt32(list[7]);
-                match.AwayTeamGoal = Convert.ToInt32(list[8]);
+                        match.HomeTeam = list[5];
+                        match.AwayTeam = list[6];
+                        match.HomeTeamGoal = Convert.ToInt32(list[7]);
+                        match.AwayTeamGoal = Convert.ToInt32(list[8]);
 
-                if (list[9] == "A")
-                {
-                    match.HomeTeamResult = Result.Lose;
-                    match.AwayTeamResult = Result.Win;
-                }
-                else if (list[9] == "D")
-                {
-                    match.HomeTeamResult = Result.Draw;
-                    match.AwayTeamResult = Result.Draw;
-                }
-                else if (list[9] == "H")
-                {
-                    match.HomeTeamResult = Result.Win;
-                    match.AwayTeamResult = Result.Lose;
-                }
+                        if (list.Count() > 10)
+                        {
+                            match.Tour = list[10];
+                        }
+                        
+                        if (list[9] == "A")
+                        {
+                            match.HomeTeamResult = Result.Lose;
+                            match.AwayTeamResult = Result.Win;
+                        }
+                        else if (list[9] == "D")
+                        {
+                            match.HomeTeamResult = Result.Draw;
+                            match.AwayTeamResult = Result.Draw;
+                        }
+                        else if (list[9] == "H")
+                        {
+                            match.HomeTeamResult = Result.Win;
+                            match.AwayTeamResult = Result.Lose;
+                        }
+                        
+                        if (itemList.Count() > 1)
+                        {
+                            if (itemList[1].Split(',').ToList()[0] != "")
+                            {
+                                match.ListHomePlayers = itemList[1].Split(',').ToList();
+                            }
+                        }
+                        if (itemList.Count() > 2)
+                        {
+                            List<string> player = new List<string>();
+                            player = itemList[2].Split(',').ToList();
+                            if (player[0] != "")
+                            {
+                                match.ListAwayPlayers = new List<string>();
+                                match.ListAwayPlayers.AddRange(player);
+                            }
+                        }
+                        if (itemList.Count() == 5)
+                        {
+                            if (itemList[3].Split(',').ToList()[0] != "")
+                            {
+                                match.ListTimeLineHome = itemList[3].Split(',').ToList();
+                            }
+                            if (itemList[4].Split(',').ToList()[0] != "")
+                            {
+                                match.ListTimeLineAway = itemList[4].Split(',').ToList();
+                            }
+                        }
 
-                if (list.Count() > 10)
-                {
-                    match.Tour = list[10];
-                }
+                        // Federation Season
 
-                List<string> player = new List<string>();
+                        FederationSeason fedSeason = new FederationSeason();
 
-                match.ListAwayPlayers = new List<string>();
-                match.ListHomePlayers = new List<string>();
-                match.ListTimeLineHome = new List<string>();
-                match.ListTimeLineAway = new List<string>();
-                if (itemList.Count() > 1)
-                {
-                    player = itemList[1].Split(',').ToList();                    
-                    match.ListHomePlayers.AddRange(player);
-                }
-                if (itemList.Count() > 2)
-                {
-                    player = itemList[2].Split(',').ToList();                    
-                    match.ListAwayPlayers.AddRange(player);
-                }
-
-                if (itemList.Count() == 5)
-                {                    
-                    match.ListTimeLineHome = itemList[3].Split(',').ToList();                    
-                    match.ListTimeLineAway = itemList[4].Split(',').ToList();
-                }
-
-                // FederationSeason
-
-                string countryFS = match.Country;
-                
-                FederationSeason fedSeason = new FederationSeason();
-                var searchFS = from c in db.FederationSeasons
-                               where 
+                        string countryFS = match.Country;
+                        string nameSportFS = match.NameSportString;
+                        string seasonFS = season;
+                        var searchFS = from c in db.FederationSeasons
+                                       where
                                c.SportFederation.Country == countryFS &&
-                               c.SportFederation.NameSportString == nameSportM &&
-                               c.SeasonString == season 
-                               select c;
+                               c.SportFederation.NameSportString == nameSportFS &&
+                               c.SeasonString == seasonFS
+                                       select c;
 
-                if (searchFS.Count() > 0)
-                {                    
+                        if (searchFS.Count() == 0)
+                        {
+                            CreateFederationSeason(match);
+                        }
+
+                        // Team Home
+
+                        TeamSeason homeTeam = HomeTeam(ref match);
+
+                        // Team Away
+
+                        TeamSeason awayTeam = AwayTeam(ref match);
+
+                        if (searchFS.Count() > 0)
+                        {
+                            fedSeason = searchFS.First();
+                            fedSeason.Matches.Add(match);
+
+                            db.Entry(fedSeason).State = EntityState.Modified;
+                            db.SaveChanges();
+                        }
+
+                        // PlayerSeason
+
+                        MatchAddPlayerSeason(match, homeTeam, match.ListHomePlayers, match.ListTimeLineHome);
+
+                        MatchAddPlayerSeason(match, awayTeam, match.ListAwayPlayers, match.ListTimeLineAway);
+                        transaction.Commit();
+                    }
+                    catch(Exception)
+                    {
+                        transaction.Rollback();
+                        myException.Message = item;
+                        throw;
+                    }
                 }
-                else
-                {
-                    CreateFederationSeason(match);
-                }
-                
-                // Team Home
+            }
+            db.SaveChanges();
+            db.Dispose();
+            db = new DatabaseContext();
+        } 
+        
+        public TeamSeason HomeTeam(ref Match match)
+        {
+            TeamSeason homeTeam = new TeamSeason();
 
-                TeamSeason homeTeam = new TeamSeason();
-
-                string countryH = match.Country;
-                string homeTeamH = match.HomeTeam;
-                string seasonH = match.Season.ToString();
-                string nameSportH = match.NameSport.ToString();
-                var searchHT = from c in db.TeamSeasons                               
-                               where
+            string countryH = match.Country;
+            string homeTeamH = match.HomeTeam;
+            string seasonH = match.Season.ToString();
+            string nameSportH = match.NameSport.ToString();
+            var searchHT = from c in db.TeamSeasons
+                           where
                                c.FederationSeason.SportFederation.NameSportString == nameSportH &&
                                c.FederationSeason.SportFederation.Country == countryH &&
                                c.Team.Name == homeTeamH &&
-                               c.SeasonString == season
-                               select c;
+                               c.SeasonString == seasonH
+                           select c;
 
-                if (searchHT.Count() > 0)
-                {
-                    homeTeam = searchHT.First();
-                }
-                else
-                {
-                    homeTeam = CreateTeamSeason(match, "home");
-                }
+            if (searchHT.Count() > 0)
+            {
+                homeTeam = searchHT.First();
+            }
+            else
+            {
+                homeTeam = CreateTeamSeason(match, "home");
+            }
 
+            if (match.Tour == null || match.Tour.Substring(0, 5) == "Group")
+            {
                 if (match.HomeTeamResult == Result.Win)
                 {
                     homeTeam.Win++;
@@ -598,39 +662,46 @@ namespace SportStatistics.Models.ServiceClasses
                 homeTeam.HomePlayed++;
                 homeTeam.Goals += match.HomeTeamGoal;
                 homeTeam.HomeGoals += match.HomeTeamGoal;
-                
+
                 homeTeam.GoalAgainst += match.AwayTeamGoal;
                 homeTeam.HomeGoalAgainst += match.AwayTeamGoal;
-                                
-                db.Entry(homeTeam).State = EntityState.Modified;
-                db.SaveChanges();
+            }
 
-                match.TeamSeasons = new List<TeamSeason>();
-                match.TeamSeasons.Add(homeTeam);                
+            db.Entry(homeTeam).State = EntityState.Modified;
+            db.SaveChanges();
 
-                // Team Away
+            match.TeamSeasons = new List<TeamSeason>();
+            match.TeamSeasons.Add(homeTeam);
 
-                
-                TeamSeason awayTeam = new TeamSeason();
-                string teamAway = match.AwayTeam;
-                string countryA = match.Country;
-                var searchAT = from c in db.TeamSeasons
-                               where
+            return homeTeam;
+        }   
+
+        public TeamSeason AwayTeam(ref Match match)
+        {
+            TeamSeason awayTeam = new TeamSeason();
+            string teamAway = match.AwayTeam;
+            string countryA = match.Country;
+            string season = match.Season.ToString();
+            string nameSportM = match.NameSport.ToString();
+            var searchAT = from c in db.TeamSeasons
+                           where
                                c.FederationSeason.SportFederation.NameSportString == nameSportM &&
                                c.FederationSeason.SportFederation.Country == countryA &&
                                c.Team.Name == teamAway &&
                                c.SeasonString == season
-                               select c;
+                           select c;
 
-                if (searchAT.Count() > 0)
-                {
-                    awayTeam = searchAT.First();
-                }
-                else
-                {
-                    awayTeam = CreateTeamSeason(match, "away");
-                }
+            if (searchAT.Count() > 0)
+            {
+                awayTeam = searchAT.First();
+            }
+            else
+            {
+                awayTeam = CreateTeamSeason(match, "away");
+            }
 
+            if (match.Tour == null || match.Tour.Substring(0, 5) == "Group")
+            {
                 if (match.AwayTeamResult == Result.Win)
                 {
                     awayTeam.Win++;
@@ -642,82 +713,77 @@ namespace SportStatistics.Models.ServiceClasses
                     awayTeam.Draw++;
                     awayTeam.Point += 1;
                 }
-                else
+                else 
                 if (match.AwayTeamResult == Result.Lose)
                 {
-                    awayTeam.Lose++;                    
+                    awayTeam.Lose++;
                 }
 
-                awayTeam.Played++;                
-                awayTeam.Goals += match.AwayTeamGoal;                
-                
+                awayTeam.Played++;
+                awayTeam.Goals += match.AwayTeamGoal;
+
                 awayTeam.GoalAgainst += match.HomeTeamGoal;
-                
-                db.Entry(awayTeam).State = EntityState.Modified;
-                db.SaveChanges();
+            }
 
-                match.TeamSeasons.Add(awayTeam);                                        
-                
-                db.Matches.Add(match);
-                db.SaveChanges();
+            db.Entry(awayTeam).State = EntityState.Modified;            
+            match.TeamSeasons.Add(awayTeam);
 
-                if (searchFS.Count() > 0)
+            db.Matches.Add(match);
+            db.SaveChanges();
+            
+            return awayTeam;
+        }
+
+        public void MatchAddPlayerSeason(Match match, TeamSeason seasonTeam, List<string> listPlayer, List<string> listTimeLine)
+        {
+            if (listPlayer != null)
+            {
+                foreach (string homeplayer in listPlayer)
                 {
-                    fedSeason = searchFS.First();
-                    fedSeason.Matches.Add(match);
+                    PlayerSeason playerSeason = new PlayerSeason();
+                    string playerName = homeplayer;
+                    string nameSport = match.NameSport.ToString();
 
-                    db.Entry(fedSeason).State = EntityState.Modified;
-                    db.SaveChanges();
-                }
-                
-                // PlayerSeason
+                    var searchPlayer = from c in db.Players
+                                       where
+                                       (c.Name + " " + c.Surname == playerName ||
+                                       c.Name + " " + c.Surname == playerName + " ") &&
+                                       c.NameSportString == nameSport
+                                       select c;
 
-                if (match.ListHomePlayers != null)
-                {
-                    foreach (string homeplayer in match.ListHomePlayers)
+                    if (searchPlayer.Count() == 0)
                     {
-                        PlayerSeason playerSeason = new PlayerSeason();
-                        string playerName = homeplayer;
-                        string nameSport = match.NameSport.ToString();
+                        continue;
+                    }
 
-                        var searchPlayer = from c in db.Players
-                                           where
-                                           (c.Name + " " + c.Surname == playerName ||
-                                           c.Name + " " + c.Surname == playerName + " ") &&
-                                           c.NameSportString == nameSport 
-                                           select c;
-
-                        if (searchPlayer.Count() == 0)
-                        {
-                            continue;
-                        }
-
-                        string seasonPSH = match.Season.ToString();
-                        string teamH = homeTeam.NameTeam;
-                        var searchPSH = from c in db.PlayerSeasons
-                                        where 
+                    string seasonPSH = match.Season.ToString();
+                    string teamH = seasonTeam.NameTeam;
+                    var searchPSH = from c in db.PlayerSeasons
+                                    where
                                         c.TeamSeason.NameTeam == teamH &&
                                         (c.Player.Name + " " + c.Player.Surname == playerName ||
                                         c.Player.Name + " " + c.Player.Surname == playerName + " ") &&
                                         c.Player.NameSportString == nameSport &&
                                         c.TeamSeason.SeasonString == seasonPSH
-                                        select c;
+                                    select c;
 
-                        if (searchPSH.Count() > 0)
+                    if (searchPSH.Count() > 0)
+                    {
+                        playerSeason = searchPSH.First();
+                    }
+                    else
+                    {
+                        playerSeason = CreatePlayerSeason(match, searchPlayer.First(), seasonTeam);
+                    }
+
+                    playerSeason.GamedMatches++;
+                    playerSeason.Matches.Add(match);
+
+                    if (listTimeLine != null)
+                    {                        
+                        if (string.Join(",", listTimeLine).IndexOf(homeplayer) > 0)
                         {
-                            playerSeason = searchPSH.First();
-                        }
-                        else
-                        {                            
-                            playerSeason = CreatePlayerSeason(match, searchPlayer.First(), homeTeam);
-                        }
-
-                        playerSeason.GamedMatches++;
-                        playerSeason.Matches.Add(match);
-
-                        if (match.ListTimeLineHome != null)
-                        {
-                            foreach (string itemLine in match.ListTimeLineHome)
+                            foreach (string itemLine in listTimeLine)
                             {
                                 string[] actTimeLine = itemLine.Split(':');
                                 if (actTimeLine[2] == homeplayer)
@@ -733,87 +799,18 @@ namespace SportStatistics.Models.ServiceClasses
                                 }
                             }
                         }
-
-                        db.Entry(playerSeason).State = EntityState.Modified;
-                        db.SaveChanges();
                     }
-                }
 
-
-                if (match.ListAwayPlayers != null)
-                {
-                    foreach (string awayplayer in match.ListAwayPlayers)
-                    {
-                        PlayerSeason playerSeason = new PlayerSeason();
-                        string playerName = awayplayer;
-                        string nameSport = match.NameSport.ToString();
-
-                        var searchPlayer = from c in db.Players
-                                           where
-                                           (c.Name + " " + c.Surname == playerName ||
-                                           c.Name + " " + c.Surname == playerName + " ") &&
-                                           c.NameSportString == nameSport
-                                           select c;
-
-                        if (searchPlayer.Count() == 0)
-                        {
-                            continue;
-                        }
-
-                        string seasonPSH = match.Season.ToString();
-                        string teamA = homeTeam.NameTeam;
-                        var searchPSA = from c in db.PlayerSeasons
-                                        where
-                                        c.TeamSeason.NameTeam == teamA &&
-                                        (c.Player.Name + " " + c.Player.Surname == playerName ||
-                                        c.Player.Name + " " + c.Player.Surname == playerName + " ") &&
-                                        c.Player.NameSportString == nameSport &&
-                                        c.TeamSeason.SeasonString == seasonPSH
-                                        select c;
-
-                        if (searchPSA.Count() > 0)
-                        {
-                            playerSeason = searchPSA.First();
-                        }
-                        else
-                        {
-                            playerSeason = CreatePlayerSeason(match, searchPlayer.First(), awayTeam);
-                        }
-
-
-                        playerSeason.GamedMatches++;
-                        playerSeason.Matches.Add(match);
-
-                        if (match.ListTimeLineAway != null)
-                        {
-                            foreach (string itemLine in match.ListTimeLineAway)
-                            {
-                                string[] actTimeLine = itemLine.Split(':');
-                                if (actTimeLine[2] == awayplayer)
-                                {
-                                    if (actTimeLine[0] == "G")
-                                    {
-                                        playerSeason.Goals++;
-                                    }
-                                    if (actTimeLine[0] == "A")
-                                    {
-                                        playerSeason.Assists++;
-                                    }
-                                }
-                            }
-                        }
-
-                        db.Entry(playerSeason).State = EntityState.Modified;
-                        db.SaveChanges();
-                    }
+                    db.Entry(playerSeason).State = EntityState.Modified;
+                    db.SaveChanges();
                 }
             }
-        }    
-        
+        }
+
         private PlayerSeason CreatePlayerSeason(Match match, Player player, TeamSeason teamSeason)
         {
             PlayerSeason playerSeason = new PlayerSeason();
-                        
+
             if (player != null && teamSeason != null)
             {
                 playerSeason.TeamSeasonId = teamSeason.TeamSeasonId;
@@ -821,12 +818,9 @@ namespace SportStatistics.Models.ServiceClasses
                 playerSeason.Player = player;
                 playerSeason.PlayerId = player.PlayerId;
 
-                playerSeason.Assists = 0;
-                playerSeason.GamedMatches = 0;
-                playerSeason.Goals = 0;
-                playerSeason.Matches = new List<Match>();            
-                playerSeason.Season = match.Season;                
-
+                playerSeason.Matches = new List<Match>();
+                playerSeason.Season = match.Season;
+                                
                 db.PlayerSeasons.Add(playerSeason);
                 db.SaveChanges();
             }
@@ -851,7 +845,8 @@ namespace SportStatistics.Models.ServiceClasses
             string country = match.Country;
             string name = nameTeam;
             var search = from c in db.Teams
-                         where c.Country == country &&
+                         where 
+                         (c.Country == country || country == "UEFA") &&
                          c.NameSportString == nameSport &&
                          c.Name == name
                          select c;
@@ -859,7 +854,7 @@ namespace SportStatistics.Models.ServiceClasses
             string season = match.Season.ToString();
             string tournament = match.Tournament.ToString();
             var searchFS = from c in db.FederationSeasons
-                           where 
+                           where
                            c.SportFederation.Country == country &&
                            c.SportFederation.NameSportString == nameSport &&
                            c.SeasonString == season &&
@@ -872,26 +867,14 @@ namespace SportStatistics.Models.ServiceClasses
                 FederationSeason fedSeason = searchFS.First();
 
                 teamSeason.NameTeam = nameTeam;
-                teamSeason.Draw = 0;
-                teamSeason.GoalAgainst = 0;
-                teamSeason.Goals = 0;
-                teamSeason.HomeDraw = 0;
-                teamSeason.HomeGoalAgainst = 0;
-                teamSeason.HomeGoals = 0;
-                teamSeason.HomeLose = 0;
-                teamSeason.HomePoint = 0;
-                teamSeason.HomeWin = 0;
-                teamSeason.Lose = 0;                                
-                teamSeason.Point = 0;
-                teamSeason.Season = match.Season;                                
-                teamSeason.Win = 0;                
+                teamSeason.Season = match.Season;                
                 teamSeason.FederationSeasonId = fedSeason.FederationSeasonId;
                 teamSeason.FederationSeason = fedSeason;
                 teamSeason.Team = team;
                 teamSeason.TeamId = team.TeamId;
 
                 db.TeamSeasons.Add(teamSeason);
-                db.SaveChanges();                
+                db.SaveChanges();
             }
             else
             {
@@ -906,26 +889,26 @@ namespace SportStatistics.Models.ServiceClasses
             SportFederation spFed = new SportFederation();
 
             string country = match.Country;
-            string nameSport = match.NameSport.ToString();
+            string nameSport = match.NameSportString;
             var searchSF = from c in db.SportFederations
                            where c.NameSportString == nameSport &&
-                                   c.Country == country
+                                 c.Country == country
                            select c;
-
+             
             if (searchSF.Count() > 0)
             {
                 FederationSeason fedSeason = new FederationSeason();
                 spFed = searchSF.First();
-                                
-                fedSeason.NameTournament = LeagueName.Name(match.Country + match.NameSport.ToString() + match.Tournament.ToString());                
+
+                fedSeason.NameTournament = LeagueName.Name(match.Country + match.NameSport.ToString() + match.Tournament.ToString());
                 fedSeason.Season = match.Season;
                 fedSeason.SportFederation = spFed;
                 fedSeason.SportFederationId = spFed.SportFederationId;
                 fedSeason.Tournament = match.Tournament;
                 fedSeason.Matches = new List<Match>();
-                
+
                 db.FederationSeasons.Add(fedSeason);
-                db.SaveChanges();                
+                db.SaveChanges();
             }
         }
     }

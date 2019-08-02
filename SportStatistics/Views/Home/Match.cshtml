@@ -85,7 +85,7 @@
         }
     </div>
     <div class="sectionR">
-        @if (Model.ListTimeLineHome != null)
+        @if (Model.ListTimeLineAway != null)
         {
             string assist = "";
             foreach (var item in Model.ListTimeLineAway)
@@ -115,7 +115,7 @@
         }
     </div>
 </div>
-<br />
+<br style="clear:left;"/>
 <div>
     <div class="half">
         <label>@Model.HomeTeam</label>
@@ -129,17 +129,14 @@
                 columns: gridH.Columns(
                     gridH.Column(header: "№", format: @<text> @{ rank++; } @rank</text>),
                     gridH.Column(header: "Name", format:
-                    @<text>
-                        @{ string name = item.ToString();}
-                        @*
-                            @Html.ActionLink(name, "Player", "Home", new { PlayerId = Model.IdMatch.HomeTeamPlayersId[rank - 1] }, null)}
-                        *@
-                        @name
-                    </text>)
+                        @<text>
+                            @{ string name = item.ToString();}                 
+                                @Html.ActionLink(name, "Player", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId, PlayerId = Model.IdMatch.HomeTeamPlayersId[rank - 1] }, null)                                          
+                        </text>)
                     )
                 )
             </div>
-                            }
+        }
     </div>
     <div class="half">
         <label>@Model.AwayTeam</label>
@@ -156,17 +153,14 @@
                     gridA.Column(header: "Name", format:
                    @<text>
                        @{ string name = item.ToString(); }
-                       @*
-                           @Html.ActionLink(name, "Player", "Home", new { PlayerId = Model.IdMatch.HomeTeamPlayersId[rank - 1] }, null)
-                       *@
-                       @name
+                        @Html.ActionLink(name, "Player", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId, PlayerId = Model.IdMatch.HomeTeamPlayersId[rank - 1] }, null)                                          
                    </text>)
                     )
                 )
             </div>
             }
-        </div>
     </div>
+</div>
 
 
 

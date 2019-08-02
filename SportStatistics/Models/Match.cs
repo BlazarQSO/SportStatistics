@@ -98,7 +98,7 @@ namespace SportStatistics.Models
         {
             get
             {
-                if (ListHomePlayers != null)
+                if (ListAwayPlayers != null)
                 {
                     return string.Join(",", ListAwayPlayers);
                 }

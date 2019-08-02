@@ -10,7 +10,7 @@ namespace SportStatistics.Models.ServiceClasses
     public class ServiceDatabase
     {
         private DatabaseContext db = new DatabaseContext();
-        private Season currentSeason = Season._2009_2010;
+        private Season currentSeason = Season._2018_2019;
 
         public List<Standings> CreateModelStandings(string sport, string federation, string tournament, int? fedSeason)
         {
@@ -278,16 +278,19 @@ namespace SportStatistics.Models.ServiceClasses
                 {
                     foreach(var player in item.PlayerSeasons)
                     {
-                        Scorer scorer = new Scorer();
-                        scorer.PlayerId = player.PlayerId;
-                        scorer.FederationSeasonId = fedSeason;
-                        scorer.Season = player.Season;
-                        scorer.Name = player.Player.Name + " " + player.Player.Surname;
-                        scorer.NameTeam = item.Team.Name;
-                        scorer.Apps = player.GamedMatches;
-                        scorer.Goals = player.Goals;
-                        scorer.Assists = player.Assists;
-                        scorers.Add(scorer);
+                        if (player.Goals > 0)
+                        {
+                            Scorer scorer = new Scorer();
+                            scorer.PlayerId = player.PlayerId;
+                            scorer.FederationSeasonId = fedSeason;
+                            scorer.Season = player.Season;
+                            scorer.Name = player.Player.Name + " " + player.Player.Surname;
+                            scorer.NameTeam = item.Team.Name;
+                            scorer.Apps = player.GamedMatches;
+                            scorer.Goals = player.Goals;
+                            scorer.Assists = player.Assists;
+                            scorers.Add(scorer);
+                        }
                     }
                 }                 
             }                        
@@ -339,7 +342,8 @@ namespace SportStatistics.Models.ServiceClasses
                         foreach (var timeLine in timeLineTeam)
                         {
                             string[] arr = timeLine.Split(':');
-                            if (arr[2] == (player.Name + " " + player.Surname))
+                            if (arr[2] == (player.Name + " " + player.Surname) ||
+                                (arr[2] == player.Name && player.Surname == ""))
                             {
                                 if (arr[0] == "G")
                                 {

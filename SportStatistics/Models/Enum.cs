@@ -14,14 +14,14 @@ namespace SportStatistics.Models
             return (T)Enum.Parse(typeof(T), value, true);
         }
     }
-    
+
     public enum Result
     {
         Win,
         Draw,
         Lose
     }
-    
+
     public enum Position
     {
         Forward,
@@ -31,14 +31,14 @@ namespace SportStatistics.Models
     }
 
     public enum NameSport
-    {        
+    {
         Football,
         Hockey,
         Basketball,
         FigureSkating,
         Volleyball
     }
-    
+
     public enum Tournament : byte
     {
         League = 1,
@@ -110,7 +110,7 @@ namespace SportStatistics.Models
                     {
                         return "La Liga";
                     }
-                case "UEFA Champions LeagueFootballUEFA Champions League":
+                case "UEFAFootballLeague":
                     {
                         return "UEFA Champions League";
                     }
@@ -129,5 +129,10 @@ namespace SportStatistics.Models
             }
             return "";
         }
+    }
+
+    public static class myException
+    {
+        public static string Message { get; set; }
     }
 }
