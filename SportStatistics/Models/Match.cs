@@ -65,9 +65,7 @@ namespace SportStatistics.Models
         }
 
         [NotMapped]
-        public Result AwayTeamResult { get; set; }
-        //public int HomeTeamPoint { get; set; }
-        //public int AwayTeamPoint { get; set; }        
+        public Result AwayTeamResult { get; set; }        
         public List<string> ListHomePlayers { get; set; }
         public string HomePlayers
         {

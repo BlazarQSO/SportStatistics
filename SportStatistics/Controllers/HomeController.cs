@@ -29,7 +29,7 @@ namespace SportStatistics.Controllers
             }
             catch (Exception e)
             {
-                ViewBag.Error = e.Message;
+                ViewBag.Error = myException.Message + " " + e.Message;
                 return View("Error");
             }
         }
@@ -82,6 +82,22 @@ namespace SportStatistics.Controllers
         }
 
         [HttpGet]
+        public ActionResult LeagueGroups(int fedSeason)
+        {
+            try
+            {
+                //List<Standings> standingsGroups = new ServiceDatabase().CreateModelStandingsGroups(fedSeason);
+                //return View("Standings", standings.ToList());
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
+            return View();
+        }
+
+        [HttpGet]
         public ActionResult Team(int fedSeason, int TeamId)
         {
             try
@@ -97,10 +113,14 @@ namespace SportStatistics.Controllers
         }
 
         [HttpGet]
-        public ActionResult Scorers(int fedSeason)
+        public ActionResult Scorers(int? fedSeason, FormCollection collection)
         {
             try
-            {
+            {   
+                if (fedSeason == null)
+                {
+                   // fedSeason = Convert.ToInt32(collection[1]);
+                }             
                 List<Scorer> scorers = new ServiceDatabase().Scorers(fedSeason, null);
                 return View(scorers);
             }
@@ -236,7 +256,52 @@ namespace SportStatistics.Controllers
         [HttpGet]
         public ActionResult Result(int fedSeason)
         {
-            return View();
+            try
+            {
+                int countTour = 0;
+                List<Score> result = new ServiceDatabase().Result(ref countTour, fedSeason, null);                
+                string[] array = new string[countTour];
+                for (int i = 1; i <= countTour; i++)
+                {
+                    array[i - 1] = Convert.ToString(i);
+                }               
+
+                ViewData["myList"] = new SelectList(array.Select(x => new { value = x, text = x }),
+                                                    "value", "text", countTour);
+                return View(result);
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
+        }
+
+        [HttpPost]
+        public ActionResult Result(FormCollection collection)
+        {
+            try
+            {
+                string season = collection[0];
+                int tour = Convert.ToInt32(collection[1]);
+                int fedSeason = Convert.ToInt32(collection[2]);
+                int countTour = 0;
+                List<Score> result = new ServiceDatabase().Result(ref countTour, fedSeason, season, tour);
+                
+                string[] array = new string[countTour];
+                for (int i = 1; i <= countTour; i++)
+                {
+                    array[i - 1] = Convert.ToString(i);
+                }
+                ViewData["myList"] = new SelectList(array.Select(x => new { value = x, text = x }),
+                                                    "value", "text", tour);
+                return View(result);
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         [HttpGet]

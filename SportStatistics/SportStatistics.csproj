@@ -658,6 +658,7 @@
     <Compile Include="Models\Team.cs" />
     <Compile Include="Models\TeamSeason.cs" />
     <Compile Include="Models\ViewModels\Progress.cs" />
+    <Compile Include="Models\ViewModels\Score.cs" />
     <Compile Include="Models\ViewModels\Scorer.cs" />
     <Compile Include="Models\ViewModels\ShowMatch.cs" />
     <Compile Include="Models\ViewModels\ShowPlayer.cs" />
