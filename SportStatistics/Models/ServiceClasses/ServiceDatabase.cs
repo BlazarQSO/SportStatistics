@@ -13,7 +13,7 @@ namespace SportStatistics.Models.ServiceClasses
         private Season currentSeason = Season._2018_2019;
 
         public List<Standings> CreateModelStandings(string sport, string federation, string tournament, int? fedSeason, bool group = false)
-        {          
+        {
             List<Standings> list = new List<Standings>();
             List<FederationSeason> search = new List<FederationSeason>();
 

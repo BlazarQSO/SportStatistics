@@ -151,15 +151,26 @@ namespace SportStatistics.Controllers
         }
 
         [HttpGet]
-        public ActionResult Scorers(int? fedSeason, FormCollection collection)
+        public ActionResult Scorers(int? fedSeason)
         {
             try
-            {   
+            {
+                string season = null;
                 if (fedSeason == null)
                 {
-                   // fedSeason = Convert.ToInt32(collection[1]);
+                    if (Request.Cookies["season"] != null)
+                    {
+                        //season = Request.Cookies["season"].Value;
+                        //Response.Cookies["season"].Expires = DateTime.Now.AddDays(-1);
+                        //season = Convert.ToString(Enum.Format(typeof(Season), season.ParseEnum<Season>(), "D"));
+                    }
+                    if (Request.Cookies["Id"] != null)
+                    {
+                        fedSeason = Convert.ToInt32(Request.Cookies["Id"].Value);
+                        Response.Cookies["Id"].Expires = DateTime.Now.AddDays(-1);
+                    }
                 }             
-                List<Scorer> scorers = new ServiceDatabase().Scorers(fedSeason, null);
+                List<Scorer> scorers = new ServiceDatabase().Scorers(fedSeason, season);
                 return View(scorers);
             }
             catch (Exception e)
@@ -170,11 +181,11 @@ namespace SportStatistics.Controllers
         }
 
         [HttpPost]
-        public ActionResult Scorers(FormCollection collection)
+        public ActionResult Scorers(int? fedSeason, FormCollection collection)
         {
             try
             {
-                int fedSeason = Convert.ToInt32(collection[1]);
+                fedSeason = Convert.ToInt32(collection[1]);
                 string season = collection[0];
                 List<Scorer> scorers = new ServiceDatabase().Scorers(fedSeason, season);
                 return View(scorers);

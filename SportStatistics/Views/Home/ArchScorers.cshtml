@@ -1,9 +1,10 @@
 ﻿@model List<SportStatistics.Models.ViewModels.Scorer>
+
 @{
     ViewBag.Title = "Scorers";
     Layout = "~/Views/Shared/_Layout.cshtml";
 
-    var grid = new WebGrid(source: Model, defaultSort: "Goals", rowsPerPage: 10, ajaxUpdateContainerId: "webGrid");
+    var grid = new WebGrid(source: Model, defaultSort: "Season", rowsPerPage: 10, ajaxUpdateContainerId: "webGrid");
     grid.SortDirection = SortDirection.Descending;    
 }
 
@@ -50,7 +51,7 @@
             grid.Column(header: "Season", format:
             @<text>
                 @{
-                    string name = (int)Model[0].Season + "/" + (int)(++Model[0].Season);
+                    string name = (int)item.Season + "/" + ((int)item.Season + 1);
                 }
                 @name
             </text>),
