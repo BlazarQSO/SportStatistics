@@ -12,7 +12,7 @@ namespace SportStatistics.Models.ServiceClasses
         private DatabaseContext db = new DatabaseContext();
         private Season currentSeason = Season._2018_2019;
 
-        public List<Standings> CreateModelStandings(string sport, string federation, string tournament, int? fedSeason)
+        public List<Standings> CreateModelStandings(string sport, string federation, string tournament, int? fedSeason, bool group = false)
         {          
             List<Standings> list = new List<Standings>();
             List<FederationSeason> search = new List<FederationSeason>();
@@ -70,11 +70,15 @@ namespace SportStatistics.Models.ServiceClasses
                     standings.Win = item.Win;
                     standings.Draw = item.Draw;
                     standings.Lose = item.Lose;
-                    standings.Goals = item.Goals;
+                    standings.Goals = item.Goals;                    
                     standings.GoalAgainst = item.GoalAgainst;
                     standings.Point = item.Point;
                     List<Match> matches = item.Matches.ToList();
-                    matches.Reverse();
+
+                    if (!group)
+                    {
+                        matches.Reverse();
+                    }
                     foreach(var item2 in matches)
                     {
                         Form form = new Form();
@@ -150,7 +154,7 @@ namespace SportStatistics.Models.ServiceClasses
 
             return list;
         }
-
+        
         public List<Standings> CreateModelStandingsAway(int fedSeason)
         {
             List<Standings> list = new List<Standings>();
@@ -198,6 +202,212 @@ namespace SportStatistics.Models.ServiceClasses
             }
 
             return list;
+        }
+
+        public int Find(string sport, string fed, string tour)
+        {
+            int fedId = 0;
+            string season = currentSeason.ToString();
+            var search = from c in db.FederationSeasons
+                         where
+                         c.SportFederation.NameSportString == sport &&
+                         c.SportFederation.Country == fed &&
+                         c.TournamentString == tour &&
+                         c.SeasonString == season
+                         select c;
+
+            if (search.Count() > 0)
+            {
+                fedId = search.First().FederationSeasonId;
+            }
+            return fedId;
+        }
+
+        private FederationSeason FindFed(int fedSeason, string season)
+        {
+            List<FederationSeason> search = new List<FederationSeason>();
+            if (season == null)
+            {
+                search = (from c in db.FederationSeasons
+                          where c.FederationSeasonId == fedSeason
+                          select c).ToList();
+            }
+            else
+            {
+                search = (from c in db.FederationSeasons
+                          where c.FederationSeasonId == fedSeason
+                          select c).ToList();
+
+                string seasonS = Enum.Format(typeof(Season), Convert.ToInt32(season), "G");
+                string tourn = search[0].TournamentString;
+                string country = search[0].SportFederation.Country;
+                string nameSport = search[0].SportFederation.NameSportString;
+                search = (from c in db.FederationSeasons
+                          where
+                          c.SeasonString == seasonS &&
+                          c.TournamentString == tourn &&
+                          c.SportFederation.Country == country &&
+                          c.SportFederation.NameSportString == nameSport
+                          select c).ToList();
+            }
+            return search.First();
+        }
+
+        public List<List<Standings>> CreateModelStandingsGroups(int fedSeason, ref List<List<Score>> score, string season, ref List<string> nameGroup)
+        {
+            FederationSeason fed = FindFed(fedSeason, season);
+
+            List<string> toursName = new List<string>();
+            List<string> group = new List<string>();
+            List<Match> matches = fed.Matches.ToList();
+            foreach(var item in matches)
+            {
+                string all = string.Join(",", toursName);   
+                if (all.IndexOf(item.Tour) < 0)
+                {
+                    toursName.Add(item.Tour);
+                    if (item.Tour.Substring(0, 5) == "Group")
+                    {
+                        group.Add(item.Tour);
+                    }
+                }
+            }
+
+            group.Sort();
+            List<Standings> standings = CreateModelStandings(null, null, season, fedSeason, true);
+            List<List<Standings>> listStandings = new List<List<Standings>>();
+            List<List<string>> teamInGropup = new List<List<string>>();
+            for (int i = 0; i < group.Count(); i++)
+            {
+                List<string> temp = new List<string>();
+                foreach (var item in matches)
+                {
+                    if (item.Tour == group[i])
+                    {
+                        string all = string.Join(",", temp);
+                        if (all.IndexOf(item.HomeTeam) < 0)
+                        {
+                            temp.Add(item.HomeTeam);
+                        }
+                    }
+                }
+                teamInGropup.Add(temp);
+            }
+            
+            foreach(var item in teamInGropup)
+            {
+                List<Standings> temp = new List<Standings>();
+                foreach(var item2 in item)
+                {
+                    for (int i = 0; i < standings.Count(); i++)
+                    {
+                        if (item2 == standings[i].NameTeam)
+                        {
+                            standings[i].Form.Reverse();
+                            temp.Add(standings[i]);
+                            break;
+                        }
+                    }
+                }
+                listStandings.Add(temp);
+            }
+            
+
+            int count = toursName.Count() - group.Count();
+
+            for (int i = 0; i < count; i++)
+            {
+                group.Add(TourName(i, count));
+            }
+
+            for (int i = 0; i < count; i++)
+            {
+                List<Score> temp = new List<Score>();
+
+                foreach(var item in matches)
+                {
+                    if (item.Tour == TourName(i, count))
+                    {                        
+                        Score tempS = new Score();                        
+                        tempS.AwayTeam = item.AwayTeam;
+
+                        string name = item.AwayTeam;
+                        string sport = fed.SportFederation.NameSportString;
+                        string country = fed.SportFederation.Country;
+                        var tempId = from c in db.Teams
+                                     where
+                                     c.Name == name &&
+                                     (c.Country == country || country == "UEFA") &&
+                                     c.NameSportString == sport
+                                     select c;
+
+                        tempS.AwayTeamId = tempId.First().TeamId;
+
+                        tempS.HomeTeam = item.HomeTeam;
+
+                        string nameH = item.HomeTeam;
+                        string sportH = fed.SportFederation.NameSportString;
+                        string countryH = fed.SportFederation.Country;
+                        var tempIdH = from c in db.Teams
+                                      where
+                                     c.Name == nameH &&
+                                     (c.Country == countryH || countryH == "UEFA") &&
+                                     c.NameSportString == sportH
+                                      select c;
+
+                        tempS.HomeTeamId = tempIdH.First().TeamId;
+
+                        tempS.FederationSeasonId = fed.FederationSeasonId;
+                        tempS.Date = item.Date;
+                        tempS.MatchId = item.MatchId;
+                        tempS.Season = item.Season;
+                        tempS.Result = item.HomeTeamGoal + " - " + item.AwayTeamGoal;
+
+                        temp.Add(tempS);
+                    }
+                }
+                score.Add(temp);
+            }
+            
+
+            nameGroup = group;
+            return listStandings;
+        }
+
+        private string TourName(int i, int count)
+        {
+            count = 6 - count;
+            i = i + count;
+            string index = Convert.ToString(i);
+            switch (index)
+            {
+                case "0":
+                    {
+                        return "Round of 64";
+                    }
+                case "1":
+                    {
+                        return "Round of 32";
+                    }
+                case "2":
+                    {
+                        return "Round of 16";
+                    }
+                case "3":
+                    {
+                        return "Quarter-finals";
+                    }
+                case "4":
+                    {
+                        return "Semi-finals";
+                    }
+                case "5":
+                    {
+                        return "Final";
+                    }
+            }
+
+            return null;
         }
 
         public ShowTeam CreateModelsShowTeam(int TeamId, int fedSeason)
@@ -792,7 +1002,7 @@ namespace SportStatistics.Models.ServiceClasses
                                      c.NameSportString == sportH
                                      select c;
 
-                        temp.HomeTeamId = tempId.First().TeamId;
+                        temp.HomeTeamId = tempIdH.First().TeamId;
 
                         temp.FederationSeasonId = fed.FederationSeasonId;
                         temp.Date = matches[index - 1].Date;
@@ -803,8 +1013,7 @@ namespace SportStatistics.Models.ServiceClasses
                         score.Add(temp);
                     }
                 }
-            }
-            
+            }            
 
             return score;
         }

@@ -1,0 +1,95 @@
+﻿@model List<List<SportStatistics.Models.ViewModels.Standings>>
+@{
+    ViewBag.Title = "LeagueGroups";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int rank = 0;
+    int j = 0;
+}
+
+<h2>LeagueGroups</h2>
+
+<div>
+    @using (Html.BeginForm("LeagueGroups", "Home", FormMethod.Post))
+    {
+        <div class="form-group">
+            @Html.LabelFor(model => model[0][0].Season, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EnumDropDownListFor(model => model[0][0].Season, htmlAttributes: new { @class = "form-control" })
+                @Html.HiddenFor(model => model[0][0].FederationSeasonId)
+                @Html.HiddenFor(model => model[0][0].Season)
+                <button>Ok</button>
+            </div>
+        </div>
+    }
+</div>
+
+@if (Model != null)
+{
+    for (int i = 0; i < Model.Count(); i++)
+    {
+        WebGrid grid = new WebGrid(source: Model[i], defaultSort: "Point",canPage: false, ajaxUpdateContainerId: "idGrid");
+        grid.SortDirection = SortDirection.Descending;        
+        <label>@ViewBag.Group[i]</label>
+        j++;
+        <div id="idGrid">
+            @grid.GetHtml(
+            tableStyle: "myTable",
+            headerStyle: "myTableHeader",
+            footerStyle: "myTableFooter",
+            columns: grid.Columns(
+            grid.Column(header: "Rank", format: @<text>@{rank++;} @rank </text>),
+            grid.Column("Team", format:
+                   @<text>
+                       @{string name = item.NameTeam; }
+                       @Html.ActionLink(name, "Team", "Home", routeValues:
+                                        new { fedSeason = item.FederationSeasonId, TeamId = item.TeamId },
+                                        htmlAttributes: null)
+                   </text>),
+            grid.Column(header: "Played", format: model => model.GamedMatches),
+            grid.Column(header: "Win", format: model => model.Win),
+            grid.Column(header: "Draw", format: model => model.Draw),
+            grid.Column(header: "Loss", format: model => model.Lose),
+            grid.Column(header: "GF", format: model => model.Goals),
+            grid.Column(header: "GA", format: model => model.GoalAgainst),
+            grid.Column("GD", format: model => model.GoalDifference),
+            grid.Column("Point", format: model => model.Point),
+            grid.Column(header: "Form", format:
+                   @<text>
+                       @foreach (var it in item.Form)
+                       {
+                           if (it.WinDL.ToString() == "Win")
+                           {
+                               @Html.ActionLink("W", "Match", "Home", new { MatchId = @it.MatchId }, htmlAttributes: new { @title = @it.Result, @class = "link-W" })
+                           }
+                           else
+                    if (it.WinDL.ToString() == "Draw")
+                           {
+                               @Html.ActionLink("D", "Match", "Home", new { MatchId = @it.MatchId }, htmlAttributes: new { @title = @it.Result, @class = "link-D" })
+                           }
+                           else
+                           {
+                               @Html.ActionLink("L", "Match", "Home", new { MatchId = @it.MatchId }, htmlAttributes: new { @title = @it.Result, @class = "link-L" })
+                           }
+                       }
+                   </text>
+                    )
+                )
+            )
+        </div>
+    }
+}
+
+@if (ViewBag.Score != null)
+{    
+    foreach(var item2 in ViewBag.Score)
+    {
+        <label>@ViewBag.Group[j]</label>
+        j++;
+        foreach (var item in item2)
+        {
+            <div>                
+                @item.Date @item.HomeTeam @item.Result @item.AwayTeam
+            </div>
+        }
+    }
+}

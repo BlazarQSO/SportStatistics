@@ -82,19 +82,57 @@ namespace SportStatistics.Controllers
         }
 
         [HttpGet]
-        public ActionResult LeagueGroups(int fedSeason)
+        public ActionResult LeagueGroups(string sport, string fed, string tour, int? fedSeason)
         {
             try
             {
-                //List<Standings> standingsGroups = new ServiceDatabase().CreateModelStandingsGroups(fedSeason);
-                //return View("Standings", standings.ToList());
+                int fedId = 0;
+                if (fedSeason == null)
+                {
+                    fedSeason = new ServiceDatabase().Find(sport, fed, tour);
+                }
+                fedId = Convert.ToInt32(fedSeason);
+                List<string> group = new List<string>();
+                List<List<Score>> score = new List<List<Score>>();                
+                List<List<Standings>> standingsGroups = new ServiceDatabase().CreateModelStandingsGroups(fedId, ref score, null, ref group);
+                ViewBag.Score = score;
+                ViewBag.Group = group;
+                return View("LeagueGroups", standingsGroups.ToList());
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }            
+        }
+
+        [HttpPost]
+        public ActionResult LeagueGroups(int? fedSeason, string season, FormCollection collection)
+        {
+            try
+            {
+                int fedId = 0;
+                if (fedSeason != null)
+                {
+                    fedId = Convert.ToInt32(fedSeason);
+                }
+                else
+                {
+                    season = collection[0].Split(',')[0];
+                    fedId = Convert.ToInt32(collection[1]);
+                }
+                List<string> group = new List<string>();
+                List<List<Score>> score = new List<List<Score>>();
+                List<List<Standings>> standingsGroups = new ServiceDatabase().CreateModelStandingsGroups(fedId, ref score, season, ref group);
+                ViewBag.Score = score;
+                ViewBag.Group = group;
+                return View("LeagueGroups", standingsGroups.ToList());
             }
             catch (Exception e)
             {
                 ViewBag.Error = e.Message;
                 return View("Error");
             }
-            return View();
         }
 
         [HttpGet]
