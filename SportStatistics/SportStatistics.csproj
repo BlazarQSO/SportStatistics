@@ -620,8 +620,22 @@
     <Content Include="App_Data\Data\Teams\Teams 159.txt" />
     <Content Include="Content\Style.css" />
     <Content Include="Global.asax" />
-    <Content Include="images\404.jpg" />
-    <Content Include="images\icon.png" />
+    <Content Include="images\icon\404.jpg" />
+    <Content Include="images\icon\Ball-icon.png" />
+    <Content Include="images\icon\ball.gif" />
+    <Content Include="images\icon\Copa.png" />
+    <Content Include="images\icon\Cup.png" />
+    <Content Include="images\icon\Eng-cup.jpg" />
+    <Content Include="images\icon\English super cup.gif" />
+    <Content Include="images\icon\FA-cup.png" />
+    <Content Include="images\icon\icon.png" />
+    <Content Include="images\icon\La-Liga.jpg" />
+    <Content Include="images\icon\La-LigaB.jpg" />
+    <Content Include="images\icon\PL.png" />
+    <Content Include="images\icon\PL2.jpg" />
+    <Content Include="images\icon\supercopa.png" />
+    <Content Include="images\icon\UEFA.png" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

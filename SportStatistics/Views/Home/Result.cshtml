@@ -2,6 +2,13 @@
 @{
     ViewBag.Title = "Result";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btn, #a1, #a2, #a3, #a4, #a5, #a6, #a7, #a8, #a9, #a10').click(function () {
+                $('#loadingDiv').show();
+            });
+        });
+    </script>
 }
 
 
@@ -21,31 +28,32 @@
                         @Html.DropDownList("myList")
                         @Html.HiddenFor(model => model[0].FederationSeasonId)
                         <button>Ok</button>
+                        <div id="loadingDiv"><img src="~/images/icon/ball.gif"></div>
                     </div>
                 </div>
             }
         </div>
         <div>
             <label>Standings:</label>
-            @Html.ActionLink("Overall", "Standings", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
-            @Html.ActionLink("Home", "StandingsHome", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
-            @Html.ActionLink("Away", "StandingsAway", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
+            @Html.ActionLink("Overall", "Standings", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a1" })
+            @Html.ActionLink("Home", "StandingsHome", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a2" })
+            @Html.ActionLink("Away", "StandingsAway", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a3" })
         </div>
         <div>
             <label>Progress:</label>
-            @Html.ActionLink("Overall", "Progress", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
-            @Html.ActionLink("Home", "ProgressHome", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
-            @Html.ActionLink("Away", "ProgressAway", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
+            @Html.ActionLink("Overall", "Progress", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a4" })
+            @Html.ActionLink("Home", "ProgressHome", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a9" })
+            @Html.ActionLink("Away", "ProgressAway", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a10" })
         </div>
         <div>
             <label>This season:</label>
-            @Html.ActionLink("Scorers", "Scorers", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
-            @Html.ActionLink("Result", "Result", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
+            @Html.ActionLink("Scorers", "Scorers", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a5" })
+            @Html.ActionLink("Result", "Result", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a6" })
         </div>
         <div>
             <label>Archive:</label>
-            @Html.ActionLink("Winners", "Winners", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
-            @Html.ActionLink("Scorers", "ArchScorers", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: null)
+            @Html.ActionLink("Winners", "Winners", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a7" })
+            @Html.ActionLink("Scorers", "ArchScorers", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a8" })
         </div>
     </div>
     foreach (var item in Model)

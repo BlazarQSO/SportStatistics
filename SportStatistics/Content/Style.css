@@ -35,7 +35,7 @@
 }
 
 .section {
-    background-color: antiquewhite;
+    background-color: #faebd7;
     width: 100%;
     height: 65%;    
     margin: 0;
@@ -145,7 +145,7 @@ h1, h2, h3 {
   text-shadow: 2px 2px 3px #000000;
 }
 .nav-bar li ul li a {
-    text-align: left;
+  text-align: left;
   margin: 0;
 }
 .nav-bar .active a, .nav-bar li:hover > a {
@@ -250,6 +250,10 @@ h1, h2, h3 {
 }
 * html .nav-bar {
   height: 1%;
+}
+
+.nav-bar > li:nth-child(4){
+    width: 260px;
 }
 
 .caret {
@@ -489,7 +493,7 @@ a{
 .image {
     width: 100%;
     height: 487.5px;    
-    background-image: url(/images/404.jpg);
+    background-image: url(/images/icon/404.jpg);
     background-size: cover;
     background-position: center;    
     text-align: center;
@@ -497,4 +501,65 @@ a{
     font-size: 50px;
 }
 
+.icon {
+    background-image:url(/images/icon/Ball-icon.png);
+    background-size: 35px;
+    background-repeat:no-repeat;
+    background-position: top;
+    margin-top: -9px;
+    display: block;
+    width: 35px;
+    height: 35px;
+    float: left;
+}
 
+.icon-uefa {
+    background-image: url(/images/icon/UEFA.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    display: block;
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+
+.icon-la-liga, .icon-copa, .icon-la-sc, 
+.icon-PL, .icon-cl, .icon-fc, .icon-sc {
+    background-image: url(/images/icon/La-LigaB.jpg);
+    background-size: 35px;
+    height: 35px;
+    width: 35px;
+    display: block;
+    float: right;
+}
+
+.icon-copa {
+    background-image: url(/images/icon/Copa.png);
+}
+.icon-sc {
+    background-image: url('/images/icon/English super cup.gif');
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.icon-fc {
+    background-image: url(/images/icon/FA-cup.png);
+}
+.icon-PL {
+    background-image: url(/images/icon/PL2.jpg)
+}
+
+.icon-cl {
+    background-image: url(/images//icon/Eng-cup.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-la-sc {
+    background-image: url(/images/icon/supercopa.png);
+}
+
+#loadingDiv {
+    display: none;
+}

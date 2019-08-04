@@ -3,7 +3,9 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <link href="~/Content/Style.css" rel="stylesheet" />
+    <link href="~/images/icon.png" rel="shortcut icon" type="image/icon/png" />
     <title>Sport</title>
 </head>
 <body>
@@ -12,25 +14,25 @@
     </header>
     <nav>
         <ul class="nav-bar">
-            <li class="active"><a>Football:</a></li>
+            <li class="active"><a><span class="icon"></span>Football:</a></li>
             <li>
                 <a href="#">Spain</a>
                 <ul>
-                    <li>@Html.ActionLink("La Liga", "Standings", "Home", routeValues: new { sport = "Football", fed = "Spain", tour = "League" }, htmlAttributes: null)</li>
-                    <li>@Html.ActionLink("Copa del Rey", "Stub", "Home", routeValues: new { stub = "Copa del Rey" }, htmlAttributes: null)</li>
-                    <li>@Html.ActionLink("Supercopa", "Stub", "Home", routeValues: new { stub = "Supercopa" }, htmlAttributes: null)</li>                    
+                    <li><span class="icon-la-liga"></span>@Html.ActionLink("La Liga", "Standings", "Home", routeValues: new { sport = "Football", fed = "Spain", tour = "League" }, htmlAttributes: null)</li>
+                    <li><span class="icon-copa"></span>@Html.ActionLink("Copa del Rey", "Stub", "Home", routeValues: new { stub = "Copa del Rey" }, htmlAttributes: null)</li>
+                    <li><span class="icon-la-sc"></span>@Html.ActionLink("Supercopa", "Stub", "Home", routeValues: new { stub = "Supercopa" }, htmlAttributes: null)</li>                    
                 </ul>
             </li>
             <li>
                 <a href="#">English</a>
                 <ul>
-                    <li>@Html.ActionLink("Premier League", "Standings", "Home", routeValues: new { sport = "Football", fed = "England", tour = "League" }, htmlAttributes: null)</li>
-                    <li>@Html.ActionLink("League Cup", "Stub", "Home", routeValues: new { stub = "League Cup" }, htmlAttributes: null)</li>                    
-                    <li>@Html.ActionLink("FA Cup", "Stub", "Home", routeValues: new { stub = "FA Cup" }, htmlAttributes: null)</li>
-                    <li>@Html.ActionLink("Super Cup", "Stub", "Home", routeValues: new { stub = "Super Cup" }, htmlAttributes: null)</li>
+                    <li><span class="icon-PL"></span>@Html.ActionLink("Premier League", "Standings", "Home", routeValues: new { sport = "Football", fed = "England", tour = "League" }, htmlAttributes: null)</li>
+                    <li><span class="icon-cl"></span>@Html.ActionLink("League Cup", "Stub", "Home", routeValues: new { stub = "League Cup" }, htmlAttributes: null)</li>
+                    <li><span class="icon-fc"></span>@Html.ActionLink("FA Cup", "Stub", "Home", routeValues: new { stub = "FA Cup" }, htmlAttributes: null)</li>
+                    <li><span class="icon-sc"></span>@Html.ActionLink("Super Cup", "Stub", "Home", routeValues: new { stub = "Super Cup" }, htmlAttributes: null)</li>
                 </ul>
             </li>
-            <li>@Html.ActionLink("Champions League", "LeagueGroups", "Home", routeValues: new { sport = "Football", fed = "UEFA", tour = "League" }, htmlAttributes: null)</li>            
+            <li><span class="icon-uefa"></span>@Html.ActionLink("Champions League", "LeagueGroups", "Home", routeValues: new { sport = "Football", fed = "UEFA", tour = "League" }, htmlAttributes: null)</li>            
             <li>@Html.ActionLink("Add data", "AddData", "Home")</li>
         </ul>
     </nav>
