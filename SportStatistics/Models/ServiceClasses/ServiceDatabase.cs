@@ -557,63 +557,76 @@ namespace SportStatistics.Models.ServiceClasses
             showPlayer.Game = new List<PlayedGame>();
             showPlayer.AllGame = new List<Total>();
 
-            Player player = (from c in db.Players
-                            where c.PlayerId == PlayerId
-                            select c).ToList().First();
+            var playerSearch = from c in db.Players
+                               where c.PlayerId == PlayerId
+                               select c;
+
+            if (playerSearch.Count() < 1)
+            {
+                return null;
+            }
+            Player player = playerSearch.First();
             showPlayer.Player = player;
             showPlayer.FederationSeasonId = fedSeason;
 
             var search = db.FederationSeasons.Find(fedSeason);
-            string season = search.Season.ToString();
-            var playerSeason = from c in db.PlayerSeasons
+
+            if (search != null)
+            {
+                string season = search.Season.ToString();
+                var playerSeason = from c in db.PlayerSeasons
                                    where c.PlayerId == PlayerId &&
                                    c.SeasonString == season
                                    select c;
 
-            foreach (var item in playerSeason)
-            {
-                foreach (var game in item.Matches)
+                if (playerSeason.Count() > 0)
                 {
-                    PlayedGame playedGame = new PlayedGame();
-                    playedGame.Tournament = item.TeamSeason.FederationSeason.Tournament;
-                    playedGame.Date = game.Date;
-                    playedGame.MatchId = game.MatchId;
-                    playedGame.ResultMatch = game.HomeTeam + " " + game.HomeTeamGoal + "-" +
-                        game.AwayTeamGoal + " " + game.AwayTeam;
-
-                    List<string> timeLineTeam = new List<string>();
-                    if (item.TeamSeason.Team.Name == game.HomeTeam)
+                    foreach (var item in playerSeason)
                     {
-                        timeLineTeam = game.ListTimeLineHome;
-                    }
-                    else
-                    {
-                        timeLineTeam = game.ListTimeLineAway;
-                    }
-
-                    if (timeLineTeam != null)
-                    {
-                        foreach (var timeLine in timeLineTeam)
+                        foreach (var game in item.Matches)
                         {
-                            string[] arr = timeLine.Split(':');
-                            if (arr[2] == (player.Name + " " + player.Surname) ||
-                                (arr[2] == player.Name && player.Surname == ""))
+                            PlayedGame playedGame = new PlayedGame();
+                            playedGame.Tournament = item.TeamSeason.FederationSeason.Tournament;
+                            playedGame.Date = game.Date;
+                            playedGame.MatchId = game.MatchId;
+                            playedGame.ResultMatch = game.HomeTeam + " " + game.HomeTeamGoal + "-" +
+                                game.AwayTeamGoal + " " + game.AwayTeam;
+
+                            List<string> timeLineTeam = new List<string>();
+                            if (item.TeamSeason.Team.Name == game.HomeTeam)
                             {
-                                if (arr[0] == "G")
+                                timeLineTeam = game.ListTimeLineHome;
+                            }
+                            else
+                            {
+                                timeLineTeam = game.ListTimeLineAway;
+                            }
+
+                            if (timeLineTeam != null)
+                            {
+                                foreach (var timeLine in timeLineTeam)
                                 {
-                                    playedGame.GoalsInGame++;
-                                }
-                                if (arr[0] == "A")
-                                {
-                                    playedGame.AssistsInGame++;
+                                    string[] arr = timeLine.Split(':');
+                                    if (arr[2] == (player.Name + " " + player.Surname) ||
+                                        (arr[2] == player.Name && player.Surname == ""))
+                                    {
+                                        if (arr[0] == "G")
+                                        {
+                                            playedGame.GoalsInGame++;
+                                        }
+                                        if (arr[0] == "A")
+                                        {
+                                            playedGame.AssistsInGame++;
+                                        }
+                                    }
                                 }
                             }
+                            showPlayer.Game.Add(playedGame);
                         }
                     }
-                    showPlayer.Game.Add(playedGame);
                 }
             }
-                        
+                       
             foreach(Tournament tour in Enum.GetValues(typeof(Tournament)))
             {
                 Total total = new Total();
@@ -623,15 +636,19 @@ namespace SportStatistics.Models.ServiceClasses
                                   where c.PlayerId == PlayerId && 
                                   c.TeamSeason.FederationSeason.TournamentString == tourS
                                   select c;
-                foreach(var item in allSeasonTour)
+
+                if (allSeasonTour.Count() > 1)
                 {
-                    total.TotalGames += item.GamedMatches;
-                    total.TotalGoals += item.Goals;
-                    total.TotalAssists += item.Assists;
-                }
-                if (total.TotalGames > 0)
-                {
-                    showPlayer.AllGame.Add(total);
+                    foreach (var item in allSeasonTour)
+                    {
+                        total.TotalGames += item.GamedMatches;
+                        total.TotalGoals += item.Goals;
+                        total.TotalAssists += item.Assists;
+                    }
+                    if (total.TotalGames > 0)
+                    {
+                        showPlayer.AllGame.Add(total);
+                    }
                 }
             }
 
@@ -684,11 +701,21 @@ namespace SportStatistics.Models.ServiceClasses
             List<Winner> winners = new List<Winner>();
 
             var fed = db.FederationSeasons.Find(fedSeason);
+            
+            if (fed == null)
+            {
+                return null;
+            }
                         
             var search = from c in db.FederationSeasons
                          where c.SportFederationId == fed.SportFederationId &&
                          c.TournamentString == fed.TournamentString
                          select c;
+
+            if (search == null)
+            {
+                return null;
+            }
 
             foreach(var item in search)
             {
@@ -717,6 +744,11 @@ namespace SportStatistics.Models.ServiceClasses
         {
             List<Progress> progresses = new List<Progress>();
             var fed = db.FederationSeasons.Find(fedSeason);
+
+            if (fed == null)
+            {
+                return null;
+            }
 
             var list = from c in fed.TeamSeasons
                        orderby c.Point descending
@@ -759,6 +791,11 @@ namespace SportStatistics.Models.ServiceClasses
             List<Progress> progresses = new List<Progress>();
             var fed = db.FederationSeasons.Find(fedSeason);
 
+            if (fed == null)
+            {
+                return null;
+            }
+
             var list = from c in fed.TeamSeasons
                        orderby c.HomePoint descending
                        select c;
@@ -794,6 +831,11 @@ namespace SportStatistics.Models.ServiceClasses
         {
             List<Progress> progresses = new List<Progress>();
             var fed = db.FederationSeasons.Find(fedSeason);
+
+            if (fed == null)
+            {
+                return null;
+            }
 
             var list = from c in fed.TeamSeasons
                        orderby c.Point - c.HomePoint descending
@@ -835,6 +877,10 @@ namespace SportStatistics.Models.ServiceClasses
             
             Match search = db.Matches.Find(MatchId);
 
+            if (search == null)
+            {
+                return null;
+            }
             match.NameSportString = search.NameSportString;
             match.Country = search.Country;            
             match.Date = search.Date;
@@ -944,9 +990,18 @@ namespace SportStatistics.Models.ServiceClasses
                           c.SportFederation.NameSportString == nameSport
                           select c).ToList();
 
+                if (fed == null)
+                {
+                    return null;
+                }
+
                 fed = search.First();
             }
 
+            if (fed == null)
+            {
+                return null;
+            }
             CountTour = (fed.TeamSeasons.Count() - 1) * 2;
             int index = 0;
             if (tour == 0)

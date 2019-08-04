@@ -2,165 +2,177 @@
 @{
     ViewBag.Title = "Match";
     Layout = "~/Views/Shared/_Layout.cshtml";
-               
-    var gridH = new WebGrid(source: Model.ListHomePlayers, defaultSort: "Season", rowsPerPage: 25, ajaxUpdateContainerId: "webGrid1");
-    gridH.SortDirection = SortDirection.Descending;      
-    var gridA = new WebGrid(source: Model.ListAwayPlayers, defaultSort: "Season", rowsPerPage: 25, ajaxUpdateContainerId: "webGrid2");   
-    gridA.SortDirection = SortDirection.Descending;
+
+    var gridH = new WebGrid();
+    var gridA = new WebGrid();
     int rank = 0;
+    if (Model != null)
+    {
+        gridH = new WebGrid(source: Model.ListHomePlayers, defaultSort: "Season", rowsPerPage: 25, ajaxUpdateContainerId: "webGrid1");
+        gridH.SortDirection = SortDirection.Descending;
+        gridA = new WebGrid(source: Model.ListAwayPlayers, defaultSort: "Season", rowsPerPage: 25, ajaxUpdateContainerId: "webGrid2");
+        gridA.SortDirection = SortDirection.Descending;
+    }
 }
 
-<h2 class="mH">Match</h2>
-<div>
+@if(Model != null && Model.IdMatch != null)
+{
+    <h2 class="mH">Match</h2>
     <div>
-        <div class="mTitle">
+        <div>
+            <div class="mTitle">
+                <div>
+                    @Html.ActionLink(Model.HomeTeam, "Team", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId, TeamId = Model.IdMatch.TeamHomeId }, null)
+                </div>
+                <div>
+                    <labe>@Model.HomeTeamGoal : @Model.AwayTeamGoal</labe>
+                </div>
+                <div>
+                    @Html.ActionLink(Model.AwayTeam, "Team", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId, TeamId = Model.IdMatch.TeamHomeId }, null)
+                </div>
+            </div>
+        </div>
+        <div class="mInfo">
             <div>
-                @Html.ActionLink(Model.HomeTeam, "Team", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId, TeamId = Model.IdMatch.TeamHomeId }, null)
+                @Html.Label("Sport: ")
+                @Html.Label(@Model.NameSportString)
+                @Html.Label("Country: ")
+                @Html.Label(@Model.Country + ",")
+                @Html.Label(@Model.Tournament + " - ")
+                @Html.ActionLink(@Model.Tournament.ToString(), "Standings", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId }, null)
             </div>
             <div>
-                <labe>@Model.HomeTeamGoal : @Model.AwayTeamGoal</labe>
+                @Html.Label("Round: ")
+                @Html.Label(@Model.Tour + ",")
+                @Html.Label("Date: ")
+                @Html.Label(@Model.Date)
             </div>
             <div>
-                @Html.ActionLink(Model.AwayTeam, "Team", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId, TeamId = Model.IdMatch.TeamHomeId }, null)
+                @Html.Label("City: ")
+                @Html.Label(@Model.City + ",")
+                @Html.Label("Name Stadium: ")
+                @Html.Label(@Model.NameStadium)
+            </div>
+            <br />
+            <div>
+                @Html.Label("Time Line:")
             </div>
         </div>
     </div>
-    <div class="mInfo">
-        <div>
-            @Html.Label("Sport: ")
-            @Html.Label(@Model.NameSportString)
-            @Html.Label("Country: ")
-            @Html.Label(@Model.Country + ",")
-            @Html.Label(@Model.Tournament + " - ")
-            @Html.ActionLink(@Model.Tournament.ToString(), "Standings", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId }, null)
+    
+    <div>
+        <div class="sectionL">
+            @if (Model.ListTimeLineHome != null)
+                {
+                    string assist = "";
+                    foreach (var item in Model.ListTimeLineHome)
+                    {
+                        if (item.Split(':')[0] == "G")
+                        {
+                            if (assist == "")
+                            {
+                            <div>
+                                <label>@item.Split(':')[1] @item.Split(':')[2]</label>
+                            </div>
+                        }
+                        else
+                        {
+                            <div>
+                                <label>@item.Split(':')[1] @item.Split(':')[2] (@assist)</label>
+                            </div>
+                            assist = "";
+                        }
+                    }
+                    else if (item.Split(':')[0] == "A")
+                    {
+                        assist = item.Split(':')[2];
+                    }
+    
+                }
+            }
         </div>
-        <div>
-            @Html.Label("Round: ")
-            @Html.Label(@Model.Tour + ",")
-            @Html.Label("Date: ")
-            @Html.Label(@Model.Date)
-        </div>
-        <div>
-            @Html.Label("City: ")
-            @Html.Label(@Model.City + ",")
-            @Html.Label("Name Stadium: ")
-            @Html.Label(@Model.NameStadium)
-        </div>
-        <br />
-        <div>
-            @Html.Label("Time Line:")
-        </div>
-    </div>
-</div>
-
-<div>
-    <div class="sectionL">
-        @if (Model.ListTimeLineHome != null)
+        <div class="sectionR">
+            @if (Model.ListTimeLineAway != null)
             {
                 string assist = "";
-                foreach (var item in Model.ListTimeLineHome)
+                foreach (var item in Model.ListTimeLineAway)
                 {
+    
                     if (item.Split(':')[0] == "G")
                     {
                         if (assist == "")
                         {
-                        <div>
-                            <label>@item.Split(':')[1] @item.Split(':')[2]</label>
-                        </div>
+                            <div>
+                                <label>@item.Split(':')[1] @item.Split(':')[2]</label>
+                            </div>
+                        }
+                        else
+                        {
+                            <div>
+                                <label>@item.Split(':')[1] @item.Split(':')[2] (@assist)</label>
+                            </div>
+                            assist = "";
+                        }
                     }
-                    else
+                    else if (item.Split(':')[0] == "A")
                     {
-                        <div>
-                            <label>@item.Split(':')[1] @item.Split(':')[2] (@assist)</label>
-                        </div>
-                        assist = "";
+                        assist = item.Split(':')[2];
                     }
                 }
-                else if (item.Split(':')[0] == "A")
-                {
-                    assist = item.Split(':')[2];
-                }
-
             }
-        }
+        </div>
     </div>
-    <div class="sectionR">
-        @if (Model.ListTimeLineAway != null)
-        {
-            string assist = "";
-            foreach (var item in Model.ListTimeLineAway)
+    <br style="clear:left;"/>
+    <div>
+        <div class="half">
+            <label>@Model.HomeTeam</label>
+            @if (Model.ListHomePlayers != null)
             {
-
-                if (item.Split(':')[0] == "G")
-                {
-                    if (assist == "")
-                    {
-                        <div>
-                            <label>@item.Split(':')[1] @item.Split(':')[2]</label>
-                        </div>
-                    }
-                    else
-                    {
-                        <div>
-                            <label>@item.Split(':')[1] @item.Split(':')[2] (@assist)</label>
-                        </div>
-                        assist = "";
-                    }
-                }
-                else if (item.Split(':')[0] == "A")
-                {
-                    assist = item.Split(':')[2];
-                }
-            }
-        }
-    </div>
-</div>
-<br style="clear:left;"/>
-<div>
-    <div class="half">
-        <label>@Model.HomeTeam</label>
-        @if (Model.ListHomePlayers != null)
-        {
-            <div id="webGrid1">
-                @gridH.GetHtml(
-                tableStyle: "myTable",
-                headerStyle: "myTableHeader",
-                footerStyle: "myTableFooter",
-                columns: gridH.Columns(
-                    gridH.Column(header: "№", format: @<text> @{ rank++; } @rank</text>),
-                    gridH.Column(header: "Name", format:
-                        @<text>
-                            @{ string name = item.ToString();}                 
-                                @Html.ActionLink(name, "Player", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId, PlayerId = Model.IdMatch.HomeTeamPlayersId[rank - 1] }, null)                                          
-                        </text>)
+                <div id="webGrid1">
+                    @gridH.GetHtml(
+                    tableStyle: "myTable",
+                    headerStyle: "myTableHeader",
+                    footerStyle: "myTableFooter",
+                    columns: gridH.Columns(
+                        gridH.Column(header: "№", format: @<text> @{ rank++; } @rank</text>),
+                        gridH.Column(header: "Name", format:
+                            @<text>
+                                @{ string name = item.ToString();}                 
+                                    @Html.ActionLink(name, "Player", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId, PlayerId = Model.IdMatch.HomeTeamPlayersId[rank - 1] }, null)                                          
+                            </text>)
+                        )
                     )
-                )
-            </div>
-        }
-    </div>
-    <div class="half">
-        <label>@Model.AwayTeam</label>
-        @if (Model.ListAwayPlayers != null)
-        {
-            <div id="webGrid2">
-                @{rank = 0; }
-                @gridA.GetHtml(
-                tableStyle: "myTable",
-                headerStyle: "myTableHeader",
-                footerStyle: "myTableFooter",
-                columns: gridA.Columns(
-                    gridA.Column(header: "№", format: @<text> @{ rank++; } @rank</text>),
-                    gridA.Column(header: "Name", format:
-                   @<text>
-                       @{ string name = item.ToString(); }
-                        @Html.ActionLink(name, "Player", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId, PlayerId = Model.IdMatch.HomeTeamPlayersId[rank - 1] }, null)                                          
-                   </text>)
-                    )
-                )
-            </div>
+                </div>
             }
+        </div>
+        <div class="half">
+            <label>@Model.AwayTeam</label>
+            @if (Model.ListAwayPlayers != null)
+            {
+                <div id="webGrid2">
+                    @{rank = 0; }
+                    @gridA.GetHtml(
+                    tableStyle: "myTable",
+                    headerStyle: "myTableHeader",
+                    footerStyle: "myTableFooter",
+                    columns: gridA.Columns(
+                        gridA.Column(header: "№", format: @<text> @{ rank++; } @rank</text>),
+                        gridA.Column(header: "Name", format:
+                       @<text>
+                           @{ string name = item.ToString(); }
+                            @Html.ActionLink(name, "Player", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId, PlayerId = Model.IdMatch.HomeTeamPlayersId[rank - 1] }, null)                                          
+                       </text>)
+                        )
+                    )
+                </div>
+                }
+        </div>
     </div>
-</div>
-
-
+}
+else
+{
+    <div>
+        <h2>Request failed</h2>
+    </div>
+}
 

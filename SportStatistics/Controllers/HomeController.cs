@@ -85,16 +85,20 @@ namespace SportStatistics.Controllers
         public ActionResult LeagueGroups(string sport, string fed, string tour, int? fedSeason)
         {
             try
-            {
-                int fedId = 0;
+            {                
                 if (fedSeason == null)
                 {
+                    if (sport == null && fed == null && tour == null)
+                    {
+                        sport = "Football";
+                        fed = "UEFA";
+                        tour = "League";
+                    }
                     fedSeason = new ServiceDatabase().Find(sport, fed, tour);
                 }
-                fedId = Convert.ToInt32(fedSeason);
                 List<string> group = new List<string>();
                 List<List<Score>> score = new List<List<Score>>();                
-                List<List<Standings>> standingsGroups = new ServiceDatabase().CreateModelStandingsGroups(fedId, ref score, null, ref group);
+                List<List<Standings>> standingsGroups = new ServiceDatabase().CreateModelStandingsGroups(Convert.ToInt32(fedSeason), ref score, null, ref group);
                 ViewBag.Score = score;
                 ViewBag.Group = group;
                 return View("LeagueGroups", standingsGroups.ToList());
@@ -136,11 +140,11 @@ namespace SportStatistics.Controllers
         }
 
         [HttpGet]
-        public ActionResult Team(int fedSeason, int TeamId)
+        public ActionResult Team(int? fedSeason, int? TeamId)
         {
             try
             {
-                ShowTeam team = new ServiceDatabase().CreateModelsShowTeam(TeamId, fedSeason);
+                ShowTeam team = new ServiceDatabase().CreateModelsShowTeam(Convert.ToInt32(TeamId), Convert.ToInt32(fedSeason));
                 return View(team);
             }
             catch (Exception e)
@@ -157,13 +161,7 @@ namespace SportStatistics.Controllers
             {
                 string season = null;
                 if (fedSeason == null)
-                {
-                    if (Request.Cookies["season"] != null)
-                    {
-                        //season = Request.Cookies["season"].Value;
-                        //Response.Cookies["season"].Expires = DateTime.Now.AddDays(-1);
-                        //season = Convert.ToString(Enum.Format(typeof(Season), season.ParseEnum<Season>(), "D"));
-                    }
+                {                    
                     if (Request.Cookies["Id"] != null)
                     {
                         fedSeason = Convert.ToInt32(Request.Cookies["Id"].Value);
@@ -198,11 +196,16 @@ namespace SportStatistics.Controllers
         }
 
         [HttpGet]
-        public ActionResult Player(int fedSeason, int PlayerId)
+        public ActionResult Player(int? fedSeason, int? PlayerId)
         {
             try
             {
-                ShowPlayer player = new ServiceDatabase().ShowPlayer(fedSeason, PlayerId);
+                ShowPlayer player = new ShowPlayer();
+                if (fedSeason != null && PlayerId != null)
+                {
+                    player = new ServiceDatabase().ShowPlayer(Convert.ToInt32(fedSeason), Convert.ToInt32(PlayerId));                    
+                }
+                
                 return View(player);
             }
             catch (Exception e)
@@ -213,11 +216,19 @@ namespace SportStatistics.Controllers
         }
 
         [HttpGet]
-        public ActionResult ArchScorers(int fedSeason)
+        public ActionResult ArchScorers(int? fedSeason)
         {
             try
             {
-                List<Scorer> scorers = new ServiceDatabase().ArchScorers(fedSeason);
+                List<Scorer> scorers = new List<Scorer>();
+                if (fedSeason == null)
+                {
+                    scorers = new ServiceDatabase().ArchScorers(10);
+                }
+                else
+                {
+                    scorers = new ServiceDatabase().ArchScorers(Convert.ToInt32(fedSeason));
+                }             
                 return View(scorers);
             }
             catch (Exception e)
@@ -228,11 +239,11 @@ namespace SportStatistics.Controllers
         }
 
         [HttpGet]
-        public ActionResult Winners(int fedSeason)
+        public ActionResult Winners(int? fedSeason)
         {
             try
             {
-                List<Winner> Winners = new ServiceDatabase().Winners(fedSeason);
+                List<Winner> Winners = new ServiceDatabase().Winners(Convert.ToInt32(fedSeason));
                 return View(Winners);
             }
             catch (Exception e)
@@ -243,11 +254,11 @@ namespace SportStatistics.Controllers
         }
 
         [HttpGet]
-        public ActionResult Progress(int fedSeason)
+        public ActionResult Progress(int? fedSeason)
         {
             try
             {
-                List<Progress> progresses = new ServiceDatabase().Progresses(fedSeason);
+                List<Progress> progresses = new ServiceDatabase().Progresses(Convert.ToInt32(fedSeason));
                 return View(progresses);
             }
             catch (Exception e)
@@ -258,11 +269,11 @@ namespace SportStatistics.Controllers
         }
 
         [HttpGet]
-        public ActionResult ProgressHome(int fedSeason)
+        public ActionResult ProgressHome(int? fedSeason)
         {
             try
             {
-                List<Progress> progresses = new ServiceDatabase().ProgressesHome(fedSeason);
+                List<Progress> progresses = new ServiceDatabase().ProgressesHome(Convert.ToInt32(fedSeason));
                 return View("Progress", progresses);
             }
             catch (Exception e)
@@ -273,11 +284,11 @@ namespace SportStatistics.Controllers
         }
 
         [HttpGet]
-        public ActionResult ProgressAway(int fedSeason)
+        public ActionResult ProgressAway(int? fedSeason)
         {
             try
             {
-                List<Progress> progresses = new ServiceDatabase().ProgressesAway(fedSeason);
+                List<Progress> progresses = new ServiceDatabase().ProgressesAway(Convert.ToInt32(fedSeason));
                 return View("Progress", progresses);
             }
             catch (Exception e)
@@ -288,11 +299,15 @@ namespace SportStatistics.Controllers
         }
 
         [HttpGet]
-        public ActionResult Match(int MatchId)
+        public ActionResult Match(int? MatchId)
         {
             try
             {
-                ShowMatch Match = new ServiceDatabase().ShowMatch(MatchId);
+                ShowMatch Match = new ShowMatch();
+                if (MatchId != null)
+                {
+                    Match = new ServiceDatabase().ShowMatch(Convert.ToInt32(MatchId));
+                }                              
                 return View(Match);
             }
             catch (Exception e)
@@ -303,12 +318,12 @@ namespace SportStatistics.Controllers
         }
 
         [HttpGet]
-        public ActionResult Result(int fedSeason)
+        public ActionResult Result(int? fedSeason)
         {
             try
             {
                 int countTour = 0;
-                List<Score> result = new ServiceDatabase().Result(ref countTour, fedSeason, null);                
+                List<Score> result = new ServiceDatabase().Result(ref countTour, Convert.ToInt32(fedSeason), null);                
                 string[] array = new string[countTour];
                 for (int i = 1; i <= countTour; i++)
                 {

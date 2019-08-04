@@ -3,72 +3,84 @@
     ViewBag.Title = "Standings";
     Layout = "~/Views/Shared/_Layout.cshtml";
 
-    var grid = new WebGrid(source: Model.Players, defaultSort: "Goals", rowsPerPage: 25, ajaxUpdateContainerId: "webGrid");
-    grid.SortDirection = SortDirection.Descending;
-    var grid2 = new WebGrid(source: Model.Statistics, defaultSort: "Point", rowsPerPage: 5, ajaxUpdateContainerId: "webGrid2");
+    var grid = new WebGrid();
+    var grid2 = new WebGrid();
+    if (Model != null)
+    {
+        grid = new WebGrid(source: Model.Players, defaultSort: "Goals", rowsPerPage: 25, ajaxUpdateContainerId: "webGrid");
+        grid.SortDirection = SortDirection.Descending;
+        grid2 = new WebGrid(source: Model.Statistics, defaultSort: "Point", rowsPerPage: 5, ajaxUpdateContainerId: "webGrid2");
+    }
     int rank = 0;
     int rank2 = 0;
 }
 
-<section>
-    <h1>@Model.Team.Name</h1>
-    <h2>@Model.Team.Country</h2>
-    <h2>@Model.Team.City</h2>
-    <div>
-        <label>The Date of the foundation: </label><label>@Model.Team.FoundationDate</label>
-    </div>
-    <div>
-        <label>Name the stadium: </label><label>@Model.Team.NameStadium</label>
-    </div>
+@if (Model != null)
+{
+    <section>
+        <h1>@Model.Team.Name</h1>
+        <h2>@Model.Team.Country</h2>
+        <h2>@Model.Team.City</h2>
+        <div>
+            <label>The Date of the foundation: </label><label>@Model.Team.FoundationDate</label>
+        </div>
+        <div>
+            <label>Name the stadium: </label><label>@Model.Team.NameStadium</label>
+        </div>
+            
+        <div id="webGrid">
+            @grid.GetHtml(
+        tableStyle: "myTable",
+        headerStyle: "myTableHeader",
+        footerStyle: "myTableFooter",
+        columns: grid.Columns(
+                grid.Column(header: "№", format: @<text>@{rank2++;} @rank2 </text>),
+                grid.Column("Name", format:
+                @<text>
+                    @{string name = item.Name; }
+                    @Html.ActionLink(name, "Player", "Home", routeValues:
+                                new { fedSeason = Model.Statistics[0].FederationSeasonId, PlayerId = item.PlayerId },
+                                htmlAttributes: null)
+                </text>),
+                grid.Column(header: "Pos", format: model => model.Pos),
+                grid.Column(header: "Age", format: model => model.Age),
+                grid.Column(header: "CM", format: model => model.CM),
+                grid.Column(header: "KG", format: model => model.KG),
+                grid.Column(header: "Apps", format: model => model.Apps),
+                grid.Column("Goals", format: model => model.Goals),
+                grid.Column(header: "Assists", format: model => model.Assists)
+            )
+        )
+        </div>
+        <br />
         
-    <div id="webGrid">
-        @grid.GetHtml(
-    tableStyle: "myTable",
-    headerStyle: "myTableHeader",
-    footerStyle: "myTableFooter",
-    columns: grid.Columns(
-            grid.Column(header: "№", format: @<text>@{rank2++;} @rank2 </text>),
-            grid.Column("Name", format:
-            @<text>
-                @{string name = item.Name; }
-                @Html.ActionLink(name, "Player", "Home", routeValues:
-                            new { fedSeason = Model.Statistics[0].FederationSeasonId, PlayerId = item.PlayerId },
-                            htmlAttributes: null)
-            </text>),
-            grid.Column(header: "Pos", format: model => model.Pos),
-            grid.Column(header: "Age", format: model => model.Age),
-            grid.Column(header: "CM", format: model => model.CM),
-            grid.Column(header: "KG", format: model => model.KG),
-            grid.Column(header: "Apps", format: model => model.Apps),
-            grid.Column("Goals", format: model => model.Goals),
-            grid.Column(header: "Assists", format: model => model.Assists)
+        <div id="webGrid2">
+            @grid2.GetHtml(
+        tableStyle: "myTable",
+        headerStyle: "myTableHeader",
+        footerStyle: "myTableFooter",
+        columns: grid.Columns(
+                grid.Column(header: "№", format: @<text>@{rank++;} @rank </text>),
+                grid.Column("Tournament", format:
+                @<text>
+                    @{string name = item.Tournament.ToString(); }
+                    @Html.ActionLink(name, "Standings", "Home", routeValues:                            
+                                new { fedSeason = item.FederationSeasonId },
+                                htmlAttributes: null)
+                </text>),
+                grid.Column(header: "Apps", format: model => model.Apps),
+                grid.Column(header: "Win", format: model => model.Win),
+                grid.Column(header: "Draw", format: model => model.Draw),
+                grid.Column(header: "Loss", format: model => model.Loss),            
+                grid.Column(header: "Goals", format: model => model.Goals)            
+            )
         )
-    )
+        </div>
+    </section>
+}
+else
+{
+    <div>
+        <h2>Request failed</h2>
     </div>
-    <br />
-    
-    <div id="webGrid2">
-        @grid2.GetHtml(
-    tableStyle: "myTable",
-    headerStyle: "myTableHeader",
-    footerStyle: "myTableFooter",
-    columns: grid.Columns(
-            grid.Column(header: "№", format: @<text>@{rank++;} @rank </text>),
-            grid.Column("Tournament", format:
-            @<text>
-                @{string name = item.Tournament.ToString(); }
-                @Html.ActionLink(name, "Standings", "Home", routeValues:                            
-                            new { fedSeason = item.FederationSeasonId },
-                            htmlAttributes: null)
-            </text>),
-            grid.Column(header: "Apps", format: model => model.Apps),
-            grid.Column(header: "Win", format: model => model.Win),
-            grid.Column(header: "Draw", format: model => model.Draw),
-            grid.Column(header: "Loss", format: model => model.Loss),            
-            grid.Column(header: "Goals", format: model => model.Goals)            
-        )
-    )
-    </div>
-</section>
-
-
+}
