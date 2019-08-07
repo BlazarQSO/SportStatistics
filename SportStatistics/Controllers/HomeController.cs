@@ -413,5 +413,10 @@ namespace SportStatistics.Controllers
                 return View("Error");
             }
         }
+
+        public ActionResult Example()
+        {
+            return View();
+        }
     }
 }

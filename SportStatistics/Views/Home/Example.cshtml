@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewBag.Title = "Example";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Example</h2>
+<div class="example">
+    <div>
+        <label>Tournament: </label>
+        <span>League,Cup,SuperCup</span>
+    </div>
+    <div>
+        <label>Position: </label>
+        <span>Forward,Midfielder,Defender,Goalkeeper</span>
+    </div>
+    <div>
+        <label>Result: </label>
+        <span>Win,Draw,Lose</span>
+    </div>
+    <div>
+        <label>Name Sport: </label>
+        <span>Football,Hockey,Basketball,FigureSkating,Volleyball</span>
+    </div>
+    <div>
+        <label>Notice: Signs such "Á", "á", "é" and etc. don't use in the database. </label>
+    </div>
+    <div>
+        <label>Add Sport Federations</label>
+        <div>
+            Name Sport, Federation/Country, Date of foundation, President
+        </div>
+        <div>
+            Football,Spain,1929,Javier Tebas Medrano
+        </div>
+    </div>
+    <div>
+        <label>Add Teams</label>
+        <div>
+            Name Sport, Team Name, Federation/Country, City, Stadium Name, Date of Foundation
+        </div>
+        <div>
+            Football,Barcelona,Spain,Barcelona,Camp Nou,29/11/1899
+        </div>
+    </div>
+    <div>
+        <label>Add Players</label>
+        <div>
+            Sport Name, Player Name, Position, Age, Weight, Height
+        </div>
+        <div>
+            Football,Lionel,Messi,Forward,32,72,170
+        </div>
+    </div>
+    <div>
+        <label>Add Matches</label>
+        <div>
+            Sport Name, Federatin/Country, Season (2018 => 2018/2019), date, Home Team, Away Team, HT Goals, AT Goals, H/D/A => Home Win, Draw, Away Win, List players HT, List players AT, Time Line HT, Time Line AT
+        </div>
+        <div>
+            Football,Spain,League,2018,28/10/2018,Barcelona,Real Madrid,5,1,H
+        </div>
+        <div>
+            Full: Football,Spain,League,2018,28/10/2018,Barcelona,Real Madrid,5,1,H|Luis Suarez,...,Ousmane Dembele|Thibaut Courtois,...,Isco|A:11:Jordi Alba,G:11:Coutinho,...,G:87:Arturo Vidal|G:50:Marcelo
+        </div>
+    </div>
+    <div>
+        <label>Add Federation Seasons</label>
+        <div>
+            Sport Name, Federation/Country, Tournament, Name Tournament, Season
+        </div>
+        <div>
+            Football,Spain,League,La Liga,2018
+        </div>
+    </div>
+    <div>
+        <label>Add Team Seasons</label>
+        <div>
+            Sport Name, Federation/Country, Season, Team Name, Played, Win, Draw, Lose, Goals, Missed Goals, Points,
+            Played Home, Win Home, Draw Home, Lose Home, Goals Home, Missed Goals Home, Points Home.
+        </div>
+        <div>
+            Football,Spain,League,2009,Barcelona,38,31,6,1,98,24,99,19,18,1,0,57,11,55
+        </div>
+    </div>
+    <div>
+        <label>Add Player Seasons</label>
+        <div>
+            Sport Name, Federation/Country, Season, Team Name, Name, Surname, Played, Goals, Assists
+        </div>
+        <div>
+            Football,Spain,League,2018,Barcelona,Lionel,Messi,34,36,13
+        </div>
+    </div>
+    @Html.ActionLink("Back", "AddData", "Home")
+</div>

@@ -751,6 +751,7 @@
     <Content Include="Views\Home\Stub.cshtml" />
     <Content Include="Views\Home\LeagueGroups.cshtml" />
     <Content Include="Views\Home\Search.cshtml" />
+    <Content Include="Views\Home\Example.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

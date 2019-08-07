@@ -722,10 +722,37 @@ namespace SportStatistics.Models.ServiceClasses
                 TeamSeason team = new TeamSeason();
                 foreach (var season in item.TeamSeasons)
                 {
-                    if (season.Point > team.Point)
+                    if (season.Matches.Count() > 24)
                     {
-                        team = season;
-                    }                    
+                        if (season.Point > team.Point)
+                        {
+                            team = season;
+                        }
+                    }
+                    else
+                    {                       
+                        if (season.SeasonString == "_2015_2016")
+                        {
+                            if(season.NameTeam == "Real Madrid")
+                            {
+                                team = season;
+                            }
+                        }
+
+                        foreach (var t in season.Matches)
+                        {
+                            if (t.Tour == "Final")
+                            {
+                                if ((t.HomeTeam == season.NameTeam &&
+                                    t.HomeTeamResultString == "Win") ||
+                                    t.AwayTeam == season.NameTeam &&
+                                    t.AwayTeamResultString == "Win")
+                                {
+                                    team = season;
+                                }
+                            }
+                        }
+                    }
                 }
                 Winner winner = new Winner();
                 winner.FederationSeasonId = fedSeason;
