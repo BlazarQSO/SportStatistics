@@ -1171,5 +1171,84 @@ namespace SportStatistics.Models.ServiceClasses
             }
             return null;
         }
+
+        public List<List<List<string>>> Search(string edit)
+        {
+            List<List<List<string>>> search = new List<List<List<string>>>();
+            
+            string name = edit;
+            var searchTeams = from c in db.Teams
+                             where c.Name == name
+                             select c;
+
+            if (searchTeams.Count() > 0)
+            {
+                List<List<string>> temp_ = new List<List<string>>();
+                foreach (var item in searchTeams)
+                {
+                    var fed = from c in db.FederationSeasons
+                              where c.SeasonString == currentSeason.ToString() &&
+                              c.SportFederation.NameSportString == item.NameSportString &&
+                              c.SportFederation.Country == item.Country
+                              select c;
+                    int? fedId = null;
+                    if (fed.Count() > 0)
+                    {
+                        fedId = fed.First().FederationSeasonId;
+                    }
+
+                    List<string> temp = new List<string>();
+                    temp.Add("Team");               
+                    temp.Add(item.Name);                    
+                    temp.Add(Convert.ToString(fedId));
+                    temp.Add(Convert.ToString(item.TeamId));
+                    temp_.Add(temp);
+                }
+                search.Add(temp_);
+            }
+                        
+            var searchPlayers = from c in db.Players
+                               where c.Name == name ||
+                               c.Surname == name || (c.Name + " " + c.Surname == name)
+                               select c;
+
+            if (searchPlayers.Count() > 0)
+            {
+                List<List<string>> temp_ = new List<List<string>>();
+                foreach (var item in searchPlayers)
+                {
+                    List<string> temp = new List<string>();
+                    temp.Add("Player");
+                    if (item.Surname != "")
+                    {
+                        temp.Add(item.Name + " " + item.Surname);
+                    }
+                    else
+                    {
+                        temp.Add(item.Name);
+                    }
+                    
+                    string country = item.PlayerSeasons.ToList().Last().TeamSeason.FederationSeason.SportFederation.Country;
+                    var fed = from c in db.FederationSeasons
+                              where c.SeasonString == currentSeason.ToString() &&
+                              c.SportFederation.NameSportString == item.NameSportString &&
+                              c.TournamentString == "League" &&
+                              c.SportFederation.Country == country
+                              select c;
+                    int fedId = 0;
+                    if (fed.Count() > 0)
+                    {
+                        fedId = fed.First().FederationSeasonId;
+                    }
+
+                    temp.Add(Convert.ToString(fedId));
+                    temp.Add(Convert.ToString(item.PlayerId));
+                    temp_.Add(temp);
+                }
+                search.Add(temp_);
+            }
+
+            return search;
+        }
     }
 }

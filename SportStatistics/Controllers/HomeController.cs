@@ -375,6 +375,21 @@ namespace SportStatistics.Controllers
             return View(list);
         }
 
+        [HttpPost]
+        public ActionResult Search(string edit)
+        {
+            try
+            {
+                List<List<List<string>>> search = new ServiceDatabase().Search(edit);
+                return View("Search", search);
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
+        }
+
         [HttpGet]
         public ActionResult AddData()
         {

@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="myHeader">
-        <h1 class="title">Header</h1>
+        <h1 class="myTitleGrave">Sport</h1>
     </header>
     <nav>
         <ul class="nav-bar">
@@ -20,7 +20,7 @@
                 <ul>
                     <li><span class="icon-la-liga"></span>@Html.ActionLink("La Liga", "Standings", "Home", routeValues: new { sport = "Football", fed = "Spain", tour = "League" }, htmlAttributes: null)</li>
                     <li><span class="icon-copa"></span>@Html.ActionLink("Copa del Rey", "Stub", "Home", routeValues: new { stub = "Copa del Rey" }, htmlAttributes: null)</li>
-                    <li><span class="icon-la-sc"></span>@Html.ActionLink("Supercopa", "Stub", "Home", routeValues: new { stub = "Supercopa" }, htmlAttributes: null)</li>                    
+                    <li><span class="icon-la-sc"></span>@Html.ActionLink("Supercopa", "Stub", "Home", routeValues: new { stub = "Supercopa" }, htmlAttributes: null)</li>
                 </ul>
             </li>
             <li>
@@ -32,9 +32,16 @@
                     <li><span class="icon-sc"></span>@Html.ActionLink("Super Cup", "Stub", "Home", routeValues: new { stub = "Super Cup" }, htmlAttributes: null)</li>
                 </ul>
             </li>
-            <li><span class="icon-uefa"></span>@Html.ActionLink("Champions League", "LeagueGroups", "Home", routeValues: new { sport = "Football", fed = "UEFA", tour = "League" }, htmlAttributes: null)</li>            
+            <li><span class="icon-uefa"></span>@Html.ActionLink("Champions League", "LeagueGroups", "Home", routeValues: new { sport = "Football", fed = "UEFA", tour = "League" }, htmlAttributes: null)</li>
             <li>@Html.ActionLink("Add data", "AddData", "Home")</li>
-        </ul>
+            <li style="float:right;">
+                @using (Html.BeginForm("Search", "Home", FormMethod.Post))
+                {
+                    <input type="text" class="search" name="edit"/>                
+                    <button class="search-btn"></button>                
+                }
+            </li>
+        </ul>        
     </nav>
     <section class="section">
         <div class="marg">
@@ -42,7 +49,7 @@
         </div>
     </section>
     <footer class="myFooter">
-        <h1 class="title">Footer</h1>
+        <h1 class="myTitleLove">Football</h1>
     </footer>
 </body>
 </html>

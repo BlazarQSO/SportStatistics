@@ -1,0 +1,33 @@
+﻿@model List<List<List<string>>>
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="myTitleComic">Result of Search</h2>
+
+@if (Model.Count() > 0)
+{
+    foreach (var items in Model)
+    {
+        foreach (var item in items)
+        {
+            <div>
+                @if (item[0] == "Team")
+                {
+                    <label>Team: </label>
+                    @Html.ActionLink(item[1], "Team", "Home", new { fedSeason = Convert.ToInt32(item[2]), TeamId = Convert.ToInt32(item[3]) }, null)
+                }
+                @if (item[0] == "Player")
+                {
+                    <label>Player: </label>
+                    @Html.ActionLink(item[1], "Player", "Home", new { fedSeason = Convert.ToInt32(item[2]), PlayerId = Convert.ToInt32(item[3]) }, null)
+                }
+            </div>
+        }
+    }
+}
+else
+{
+    <label class="myTitleComic">No Result</label>
+}

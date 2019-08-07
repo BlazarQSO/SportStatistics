@@ -633,8 +633,16 @@
     <Content Include="images\icon\La-LigaB.jpg" />
     <Content Include="images\icon\PL.png" />
     <Content Include="images\icon\PL2.jpg" />
+    <Content Include="images\icon\search-icon.png" />
     <Content Include="images\icon\supercopa.png" />
     <Content Include="images\icon\UEFA.png" />
+    <Content Include="images\img\Bestplayer.jpg" />
+    <Content Include="images\img\BestScorer.jpg" />
+    <Content Include="images\img\CLwinner.jpg" />
+    <Content Include="images\img\footer.jpg" />
+    <Content Include="images\img\header.jpg" />
+    <Content Include="images\img\LaLwinner.jpg" />
+    <Content Include="images\img\PLwinner.jpg" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -742,6 +750,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Home\Stub.cshtml" />
     <Content Include="Views\Home\LeagueGroups.cshtml" />
+    <Content Include="Views\Home\Search.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
