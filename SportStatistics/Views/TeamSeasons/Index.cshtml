@@ -13,22 +13,22 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.FederationSeason.NameSportString)
+            @Html.DisplayNameFor(model => model.FederationSeason.TournamentString)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Team.NameSportString)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.NameSportString)
+            @Html.DisplayNameFor(model => model.NameTeam)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.TournamentString)
+            @Html.DisplayNameFor(model => model.SeasonString)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Tournament)
+            @Html.DisplayNameFor(model => model.Played)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Season)
+            @Html.DisplayNameFor(model => model.HomePlayed)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Point)
@@ -72,22 +72,22 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.FederationSeason.NameSportString)
+            @Html.DisplayFor(modelItem => item.FederationSeason.TournamentString)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Team.NameSportString)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.NameSportString)
+            @Html.DisplayFor(modelItem => item.NameTeam)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.TournamentString)
+            @Html.DisplayFor(modelItem => item.SeasonString)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Tournament)
+            @Html.DisplayFor(modelItem => item.Played)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Season)
+            @Html.DisplayFor(modelItem => item.HomePlayed)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Point)

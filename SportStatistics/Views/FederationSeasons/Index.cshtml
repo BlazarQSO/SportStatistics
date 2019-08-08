@@ -16,22 +16,13 @@
             @Html.DisplayNameFor(model => model.SportFederation.NameSportString)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.NameSportString)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Country)
-        </th>
-        <th>
             @Html.DisplayNameFor(model => model.TournamentString)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Tournament)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.NameTournament)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Season)
+            @Html.DisplayNameFor(model => model.SeasonString)
         </th>
         <th></th>
     </tr>
@@ -42,22 +33,13 @@
             @Html.DisplayFor(modelItem => item.SportFederation.NameSportString)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.NameSportString)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Country)
-        </td>
-        <td>
             @Html.DisplayFor(modelItem => item.TournamentString)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Tournament)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.NameTournament)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Season)
+            @Html.DisplayFor(modelItem => item.SeasonString)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.FederationSeasonId }) |

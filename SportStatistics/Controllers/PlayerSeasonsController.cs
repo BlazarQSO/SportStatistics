@@ -40,7 +40,7 @@ namespace SportStatistics.Controllers
         public ActionResult Create()
         {
             ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString");
-            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameSportString");
+            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameTeam");
             return View();
         }
 
@@ -49,7 +49,7 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "PlayerSeasonId,TournamentString,Tournament,Season,GamedMatches,Goals,Assists,PlayerId,TeamSeasonId")] PlayerSeason playerSeason)
+        public ActionResult Create([Bind(Include = "PlayerSeasonId,SeasonString,GamedMatches,Goals,Assists,PlayerId,TeamSeasonId")] PlayerSeason playerSeason)
         {
             if (ModelState.IsValid)
             {
@@ -59,7 +59,7 @@ namespace SportStatistics.Controllers
             }
 
             ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString", playerSeason.PlayerId);
-            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameSportString", playerSeason.TeamSeasonId);
+            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameTeam", playerSeason.TeamSeasonId);
             return View(playerSeason);
         }
 
@@ -76,7 +76,7 @@ namespace SportStatistics.Controllers
                 return HttpNotFound();
             }
             ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString", playerSeason.PlayerId);
-            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameSportString", playerSeason.TeamSeasonId);
+            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameTeam", playerSeason.TeamSeasonId);
             return View(playerSeason);
         }
 
@@ -85,7 +85,7 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "PlayerSeasonId,TournamentString,Tournament,Season,GamedMatches,Goals,Assists,PlayerId,TeamSeasonId")] PlayerSeason playerSeason)
+        public ActionResult Edit([Bind(Include = "PlayerSeasonId,SeasonString,GamedMatches,Goals,Assists,PlayerId,TeamSeasonId")] PlayerSeason playerSeason)
         {
             if (ModelState.IsValid)
             {
@@ -94,7 +94,7 @@ namespace SportStatistics.Controllers
                 return RedirectToAction("Index");
             }
             ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString", playerSeason.PlayerId);
-            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameSportString", playerSeason.TeamSeasonId);
+            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameTeam", playerSeason.TeamSeasonId);
             return View(playerSeason);
         }
 

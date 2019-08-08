@@ -18,6 +18,9 @@
 @if (Model != null && Model.Player != null)
 {
     <section>
+        <div>
+            <img src="@String.Concat("/images/players/", Convert.ToString(Model.Player.PlayerId), ".jpg")" onerror="this.src = '/images/icon/empty.jpg'" class="imageEdit" alt="" />
+        </div>
         <h2>@Model.Player.Name @Model.Player.Surname</h2>
         <h3>Nationality: @Model.Player.Nationality</h3>
         <h3>Brithday: @Model.Player.Birthday</h3>

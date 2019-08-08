@@ -607,16 +607,19 @@ namespace SportStatistics.Models.ServiceClasses
                                 foreach (var timeLine in timeLineTeam)
                                 {
                                     string[] arr = timeLine.Split(':');
-                                    if (arr[2] == (player.Name + " " + player.Surname) ||
-                                        (arr[2] == player.Name && player.Surname == ""))
+                                    if (arr.Count() > 2)
                                     {
-                                        if (arr[0] == "G")
+                                        if (arr[2] == (player.Name + " " + player.Surname) ||
+                                            (arr[2] == player.Name && player.Surname == ""))
                                         {
-                                            playedGame.GoalsInGame++;
-                                        }
-                                        if (arr[0] == "A")
-                                        {
-                                            playedGame.AssistsInGame++;
+                                            if (arr[0] == "G")
+                                            {
+                                                playedGame.GoalsInGame++;
+                                            }
+                                            if (arr[0] == "A")
+                                            {
+                                                playedGame.AssistsInGame++;
+                                            }
                                         }
                                     }
                                 }
@@ -722,7 +725,7 @@ namespace SportStatistics.Models.ServiceClasses
                 TeamSeason team = new TeamSeason();
                 foreach (var season in item.TeamSeasons)
                 {
-                    if (season.Matches.Count() > 24)
+                    if (season.Matches.Count() > 14)
                     {
                         if (season.Point > team.Point)
                         {
@@ -730,15 +733,7 @@ namespace SportStatistics.Models.ServiceClasses
                         }
                     }
                     else
-                    {                       
-                        if (season.SeasonString == "_2015_2016")
-                        {
-                            if(season.NameTeam == "Real Madrid")
-                            {
-                                team = season;
-                            }
-                        }
-
+                    {        
                         foreach (var t in season.Matches)
                         {
                             if (t.Tour == "Final")
@@ -954,8 +949,17 @@ namespace SportStatistics.Models.ServiceClasses
                 match.NameTournament = search.Tournament.ToString();
             }                     
 
-            match.IdMatch.TeamHomeId = search.TeamSeasons.First().TeamId;
-            match.IdMatch.TeamAwayId = search.TeamSeasons.Last().TeamId;
+            if (search.TeamSeasons.First().NameTeam == match.HomeTeam)
+            {
+                match.IdMatch.TeamHomeId = search.TeamSeasons.First().TeamId;
+                match.IdMatch.TeamAwayId = search.TeamSeasons.Last().TeamId;
+            }
+            else
+            {
+                match.IdMatch.TeamHomeId = search.TeamSeasons.Last().TeamId; 
+                match.IdMatch.TeamAwayId = search.TeamSeasons.First().TeamId;
+            }
+            
             match.IdMatch.FederationSeasonId = search.TeamSeasons.First().FederationSeasonId;
 
             if (match.ListHomePlayers != null)

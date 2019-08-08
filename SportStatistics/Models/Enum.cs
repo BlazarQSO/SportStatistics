@@ -112,5 +112,5 @@ namespace SportStatistics.Models
     public static class myException
     {
         public static string Message { get; set; }
-    }
+    }    
 }

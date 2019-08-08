@@ -46,12 +46,27 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "TeamId,NameSportString,Name,Country,City,NameStadium,FoundationDate")] Team team)
-        {
+        public ActionResult Create([Bind(Include = "TeamId,NameSportString,Name,Country,City,NameStadium,FoundationDate")] Team team, HttpPostedFileBase upload)
+        {           
+            if (upload != null)
+            {
+                string fileName = System.IO.Path.GetFileName(upload.FileName);
+                int index = fileName.LastIndexOf(".");
+                fileName = fileName.Substring(index).ToLower();
+                if (fileName != ".jpg" && fileName != ".png" && fileName != ".jpeg" && fileName != ".gif")
+                {
+                    ModelState.AddModelError("TeamId", "Allowed only: jpg, png, jpeg, gif");
+                }
+            }
+           
             if (ModelState.IsValid)
             {
                 db.Teams.Add(team);
                 db.SaveChanges();
+                int last = (from c in db.Teams select c.TeamId).ToList().Last();                
+                
+                upload.SaveAs(Server.MapPath("~/images/teams/" + last + ".jpg"));
+
                 return RedirectToAction("Index");
             }
 

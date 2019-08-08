@@ -18,6 +18,9 @@
 @if (Model != null)
 {
     <section>
+        <div>
+            <img src="@String.Concat("/images/teams/", Convert.ToString(Model.Team.TeamId), ".jpg")" class="imageShow" alt="" />
+        </div>
         <h1>@Model.Team.Name</h1>
         <h2>@Model.Team.Country</h2>
         <h2>@Model.Team.City</h2>

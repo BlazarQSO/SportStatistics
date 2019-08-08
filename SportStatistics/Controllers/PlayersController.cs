@@ -46,12 +46,24 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "PlayerId,NameSportString,Name,Surname,Birthday,Age,Nationality,Weight,Height,PositionString,Position")] Player player)
+        public ActionResult Create([Bind(Include = "PlayerId,NameSportString,Name,Surname,Birthday,Age,Nationality,Weight,Height,PositionString")] Player player, HttpPostedFileBase upload)
         {
+            if (upload != null)
+            {
+                string fileName = System.IO.Path.GetFileName(upload.FileName);
+                int index = fileName.LastIndexOf(".");
+                fileName = fileName.Substring(index).ToLower();
+                if (fileName != ".jpg" && fileName != ".png" && fileName != ".jpeg" && fileName != ".gif")
+                {
+                    ModelState.AddModelError("PlayerId", "allowed only: .jpg, .png, .jpeg, .gif");
+                }
+            }
             if (ModelState.IsValid)
             {
                 db.Players.Add(player);
                 db.SaveChanges();
+                int last = (from c in db.Players select c.PlayerId).ToList().Last();
+                upload.SaveAs(Server.MapPath("~/images/players/" + last + ".jpg"));
                 return RedirectToAction("Index");
             }
 
@@ -78,7 +90,7 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "PlayerId,NameSportString,Name,Surname,Birthday,Age,Nationality,Weight,Height,PositionString,Position")] Player player)
+        public ActionResult Edit([Bind(Include = "PlayerId,NameSportString,Name,Surname,Birthday,Age,Nationality,Weight,Height,PositionString")] Player player)
         {
             if (ModelState.IsValid)
             {

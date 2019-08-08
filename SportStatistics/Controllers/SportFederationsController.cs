@@ -17,8 +17,8 @@ namespace SportStatistics.Controllers
         // GET: SportFederations
         public ActionResult Index()
         {
-            var sportFederation = db.SportFederations.Include(s => s.Sport);
-            return View(sportFederation.ToList());
+            var sportFederations = db.SportFederations.Include(s => s.Sport);
+            return View(sportFederations.ToList());
         }
 
         // GET: SportFederations/Details/5
