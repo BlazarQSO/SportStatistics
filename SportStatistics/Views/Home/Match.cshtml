@@ -36,10 +36,10 @@
             <div>
                 @Html.Label("Sport: ")
                 @Html.Label(@Model.NameSportString)
-                @Html.Label("Country: ")
+                @Html.Label("Federation: ")
                 @Html.Label(@Model.Country + ",")
                 @Html.Label(@Model.Tournament + " - ")
-                @Html.ActionLink(@Model.Tournament.ToString(), "Standings", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId }, null)
+                @Html.ActionLink(@Model.NameTournament, "Standings", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId }, null)
             </div>
             <div>
                 @Html.Label("Round: ")

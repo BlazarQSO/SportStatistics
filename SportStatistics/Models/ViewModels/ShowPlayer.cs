@@ -7,7 +7,7 @@ namespace SportStatistics.Models.ViewModels
 {
     public class Total
     {
-        public Tournament Tournament { get; set; }
+        public string TournamentName { get; set; }
         public int TotalGames { get; set; }
         public int TotalGoals { get; set; }
         public int TotalAssists { get; set; }
@@ -23,7 +23,7 @@ namespace SportStatistics.Models.ViewModels
     public class PlayedGame
     {
         public string Date { get; set; }
-        public Tournament Tournament { get; set; }
+        public string TournamentName { get; set; }
         public int MatchId { get; set; }
         public string ResultMatch { get; set; }
         public int GoalsInGame { get; set; }
@@ -40,6 +40,7 @@ namespace SportStatistics.Models.ViewModels
     public class ShowPlayer
     {        
         public int FederationSeasonId { get; set; }
+        public Season Season { get; set; }
         public Player Player { get; set; }
         public List<PlayedGame> Game { get; set; }
         public List<Total> AllGame { get; set; }

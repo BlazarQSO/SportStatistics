@@ -29,7 +29,21 @@
         <h3>Weight: @Model.Player.Weight</h3>
         <h3>Position: @Model.Player.Position</h3>
     
-                <div id="webGrid">
+        <div>
+            @using (Html.BeginForm("Player", "Home", FormMethod.Post))
+            {
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Season, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EnumDropDownListFor(model => model.Season, htmlAttributes: new { @class = "form-control" })
+                        @Html.HiddenFor(model => model.FederationSeasonId)
+                        @Html.HiddenFor(model => model.Player.PlayerId)
+                        <button id="btn">Ok</button>
+                    </div>
+                </div>
+            }
+        </div>  
+        <div id="webGrid">
                     @grid.GetHtml(
             tableStyle: "myTable",
             headerStyle: "myTableHeader",
@@ -38,17 +52,24 @@
                     grid.Column("Date", format: model => model.Date),
                     grid.Column("Tournament", format:
                     @<text>
-                    @{string name = item.Tournament.ToString(); }
+                    @{string name = item.TournamentName; }
                     @Html.ActionLink(name, "Standings", "Home", routeValues:
                                                   new { fedSeason = Model.FederationSeasonId },
                                                   htmlAttributes: null)
                     </text>),
-                    grid.Column("Name", format:
+                    grid.Column("Match", format:
                     @<text>
                     @{string name = item.ResultMatch; }
-                    @Html.ActionLink(name, "Match", "Home", routeValues:
-                                                  new { MatchId = item.MatchId },
-                                                  htmlAttributes: null)
+                    @if (name.Count() > 3)
+                    {
+                        @Html.ActionLink(name, "Match", "Home", routeValues:
+                                               new { MatchId = item.MatchId },
+                                               htmlAttributes: null)
+                    }else
+                    {
+                        @Html.Label(name);
+                    }
+
                     </text>),
                     grid.Column(header: "Goals", format: model => model.GoalsInGame),
                     grid.Column(header: "Assists", format: model => model.AssistsInGame),
@@ -73,7 +94,7 @@
     columns: grid.Columns(
           grid.Column("Tournament", format:
             @<text>
-            @{string name = item.Tournament.ToString(); }
+            @{string name = item.TournamentName; }
             @Html.ActionLink(name, "Standings", "Home", routeValues:
                                           new { fedSeason = Model.FederationSeasonId },
                                           htmlAttributes: null)

@@ -23,7 +23,8 @@ namespace SportStatistics.Models.ViewModels
         public string Sport { get; set; }
         public string Federation { get; set; }
         public int FederationSeasonId { get; set; }
-        public Tournament Tournament { get; set; }
+        public Season Season { get; set; }
+        public string Tournament { get; set; }
         public int Apps { get; set; }        
         public int Win { get; set; }
         public int Draw { get; set; }

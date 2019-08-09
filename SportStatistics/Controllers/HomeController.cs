@@ -144,7 +144,25 @@ namespace SportStatistics.Controllers
         {
             try
             {
-                ShowTeam team = new ServiceDatabase().CreateModelsShowTeam(Convert.ToInt32(TeamId), Convert.ToInt32(fedSeason));
+                ShowTeam team = new ServiceDatabase().CreateModelsShowTeam(Convert.ToInt32(TeamId), Convert.ToInt32(fedSeason), null);
+                return View(team);
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
+        }
+
+        [HttpPost]
+        public ActionResult Team(FormCollection collection)
+        {
+            try
+            {
+                int TeamId = Convert.ToInt32(collection[2]);
+                int fedSeason = Convert.ToInt32(collection[1]);
+                string season = collection[0];
+                ShowTeam team = new ServiceDatabase().CreateModelsShowTeam(TeamId, fedSeason, season);
                 return View(team);
             }
             catch (Exception e)
@@ -203,9 +221,27 @@ namespace SportStatistics.Controllers
                 ShowPlayer player = new ShowPlayer();
                 if (fedSeason != null && PlayerId != null)
                 {
-                    player = new ServiceDatabase().ShowPlayer(Convert.ToInt32(fedSeason), Convert.ToInt32(PlayerId));
+                    player = new ServiceDatabase().ShowPlayer(Convert.ToInt32(fedSeason), Convert.ToInt32(PlayerId), null);
                 }
 
+                return View(player);
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
+        }
+
+        [HttpPost]
+        public ActionResult Player(FormCollection collection)
+        {
+            try
+            {
+                int PlayerId = Convert.ToInt32(collection[2]);
+                int fedSeason = Convert.ToInt32(collection[1]);
+                string season = collection[0];
+                ShowPlayer player = new ServiceDatabase().ShowPlayer(fedSeason, PlayerId, season);
                 return View(player);
             }
             catch (Exception e)
