@@ -5,10 +5,10 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2 class="myTitleComic">Table of all Team Seasons</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "Create", null, new { @class = "myLink2" })
 </p>
 <table class="table">
     <tr>
@@ -126,8 +126,8 @@
             @Html.DisplayFor(modelItem => item.HomeGoalAgainst)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.TeamSeasonId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.TeamSeasonId }) |
+            @Html.ActionLink("Edit", "Edit", new { id=item.TeamSeasonId }) 
+            @Html.ActionLink("Details", "Details", new { id=item.TeamSeasonId }) 
             @Html.ActionLink("Delete", "Delete", new { id=item.TeamSeasonId })
         </td>
     </tr>

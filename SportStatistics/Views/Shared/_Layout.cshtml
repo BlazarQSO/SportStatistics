@@ -16,7 +16,7 @@
         <ul class="nav-bar">
             <li class="active"><a><span class="icon"></span>Football:</a></li>
             <li>
-                <a href="#">Spain</a>
+                <span class="icon-spain"></span><a><div class="nav-c">Spain</div></a>
                 <ul>
                     <li><span class="icon-la-liga"></span>@Html.ActionLink("La Liga", "Standings", "Home", routeValues: new { sport = "Football", fed = "Spain", tour = "League" }, htmlAttributes: null)</li>
                     <li><span class="icon-copa"></span>@Html.ActionLink("Copa del Rey", "Stub", "Home", routeValues: new { stub = "Copa del Rey" }, htmlAttributes: null)</li>
@@ -24,7 +24,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#">English</a>
+                <span class="icon-engl"></span><a><div class="nav-e">English</div></a>
                 <ul>
                     <li><span class="icon-PL"></span>@Html.ActionLink("Premier League", "Standings", "Home", routeValues: new { sport = "Football", fed = "England", tour = "League" }, htmlAttributes: null)</li>
                     <li><span class="icon-cl"></span>@Html.ActionLink("League Cup", "Stub", "Home", routeValues: new { stub = "League Cup" }, htmlAttributes: null)</li>

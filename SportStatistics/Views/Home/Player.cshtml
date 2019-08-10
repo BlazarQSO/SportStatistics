@@ -18,27 +18,27 @@
 @if (Model != null && Model.Player != null)
 {
     <section>
-        <div>
+        <div class="player-img">
             <img src="@String.Concat("/images/players/", Convert.ToString(Model.Player.PlayerId), ".jpg")" onerror="this.src = '/images/icon/empty.jpg'" class="imageEdit" alt="" />
         </div>
-        <h2>@Model.Player.Name @Model.Player.Surname</h2>
-        <h3>Nationality: @Model.Player.Nationality</h3>
-        <h3>Brithday: @Model.Player.Birthday</h3>
-        <h3>Age: @Model.Player.Age</h3>
-        <h3>Height: @Model.Player.Height</h3>
-        <h3>Weight: @Model.Player.Weight</h3>
-        <h3>Position: @Model.Player.Position</h3>
-    
-        <div>
+        <div class="player-info">
+            <h2 class="myTitleText">@Model.Player.Name @Model.Player.Surname</h2>            
+            <h3>Age: <label>@Model.Player.Age</label></h3>
+            <h3>Height: <label>@Model.Player.Height</label></h3>
+            <h3>Weight: <label>@Model.Player.Weight</label></h3>
+            <h3>Position: <label>@Model.Player.Position</label></h3>
+        </div>
+        
+        <div class="clear">
             @using (Html.BeginForm("Player", "Home", FormMethod.Post))
             {
                 <div class="form-group">
-                    @Html.LabelFor(model => model.Season, htmlAttributes: new { @class = "control-label col-md-2" })
+                    @Html.LabelFor(model => model.Season, htmlAttributes: new { @class = "control-label col-md-2 mTitle" })
                     <div class="col-md-10">
-                        @Html.EnumDropDownListFor(model => model.Season, htmlAttributes: new { @class = "form-control" })
+                        @Html.EnumDropDownListFor(model => model.Season, htmlAttributes: new { @class = "form-control mySelect" })
                         @Html.HiddenFor(model => model.FederationSeasonId)
                         @Html.HiddenFor(model => model.Player.PlayerId)
-                        <button id="btn">Ok</button>
+                        <button class="myButtonOk">Ok</button>
                     </div>
                 </div>
             }
@@ -83,7 +83,7 @@
                 a += item.AssistsInGame;
             }            
         </div>
-        <label>Total: games - @p, goals - @g, assists - @a</label>
+        <label class="total">Total: games - @p, goals - @g, assists - @a</label>
         <br />
     
         <div id="webGrid2">
@@ -115,7 +115,7 @@
                 }
             }
         </div>    
-        <label>Total: games - @p, goals - @g, assists - @a</label>
+        <label class="total">Total: games - @p, goals - @g, assists - @a</label>
     </section>
 }
 else

@@ -18,28 +18,26 @@
 @if (Model != null)
 {
     <section>
-        <div>
+        <div class="team-img">
             <img src="@String.Concat("/images/teams/", Convert.ToString(Model.Team.TeamId), ".jpg")" class="imageShow" alt="" />
         </div>
-        <h1>@Model.Team.Name</h1>
-        <h2>@Model.Team.Country</h2>
-        <h2>@Model.Team.City</h2>
-        <div>
-            <label>The Date of the foundation: </label><label>@Model.Team.FoundationDate</label>
+        <div class="team-info">
+            <h1 class="myTitleText">@Model.Team.Name</h1>
+            <h2>Country: <label>@Model.Team.Country</label></h2>
+            <h2>City: <label>@Model.Team.City</label></h2>            
+            <h2>The Date of the foundation: <label>@Model.Team.FoundationDate</label></h2>
+            <h2>Name the stadium: <label>@Model.Team.NameStadium</label></h2>
         </div>
-        <div>
-            <label>Name the stadium: </label><label>@Model.Team.NameStadium</label>
-        </div>
-        <div>
+        <div class="clear">
             @using (Html.BeginForm("Team", "Home", FormMethod.Post))
             {
                 <div class="form-group">
-                    @Html.LabelFor(model => model.Statistics[0].Season, htmlAttributes: new { @class = "control-label col-md-2" })
+                    @Html.LabelFor(model => model.Statistics[0].Season, htmlAttributes: new { @class = "control-label col-md-2 mTitle" })
                     <div class="col-md-10">
-                        @Html.EnumDropDownListFor(model => model.Statistics[0].Season, htmlAttributes: new { @class = "form-control" })
+                        @Html.EnumDropDownListFor(model => model.Statistics[0].Season, htmlAttributes: new { @class = "form-control mySelect" })
                         @Html.HiddenFor(model => model.Statistics[0].FederationSeasonId)
                         @Html.HiddenFor(model => model.Team.TeamId)
-                        <button id="btn">Ok</button>                        
+                        <button id="btn" class="myButtonOk">Ok</button>                        
                     </div>
                 </div>
             }

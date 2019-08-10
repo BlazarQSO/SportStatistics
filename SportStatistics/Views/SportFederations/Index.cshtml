@@ -5,10 +5,10 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2 class="myTitleComic">Table of all Sport Federations</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "Create", null, new { @class = "myLink2" })
 </p>
 <table class="table">
     <tr>
@@ -47,7 +47,7 @@
         <td>
             @Html.DisplayFor(modelItem => item.NamePresident)
         </td>
-        <td>
+        <td class="team-size">
             @Html.ActionLink("Edit", "Edit", new { id=item.SportFederationId }) |
             @Html.ActionLink("Details", "Details", new { id=item.SportFederationId }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.SportFederationId })

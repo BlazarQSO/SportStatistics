@@ -17,42 +17,77 @@
 @if (Model != null)
 {
     <section>
-        <h1>Winners</h1>
+        <h1 class="myTitleComic">Winners</h1>
         <div>
-            @using (Html.BeginForm("Standings", "Home", FormMethod.Post))
-            {
-                <div class="form-group">
-                    @Html.LabelFor(model => model[0].Season, htmlAttributes: new { @class = "control-label col-md-2" })
-                    <div class="col-md-10">
-                        @Html.EnumDropDownListFor(model => model[0].Season, htmlAttributes: new { @class = "form-control" })
-                        @Html.HiddenFor(model => model[0].FederationSeasonId)
-                        <button id="btn">Ok</button>
-                        <div id="loadingDiv"><img src="~/images/icon/ball.gif"></div>
+            <div class="form">
+                @using (Html.BeginForm("Standings", "Home", FormMethod.Post))
+                {
+                    <div>
+                        <div>
+                            @Html.LabelFor(model => model[0].Season, htmlAttributes: new { @class = "control-label col-md-2 mTitle" })
+                        </div>
+                        <div>
+                            @Html.EnumDropDownListFor(model => model[0].Season, htmlAttributes: new { @class = "form-control mySelect" })
+                            @Html.HiddenFor(model => model[0].FederationSeasonId)
+                            <button id="btn" class="myButtonOk">Ok</button>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="two">
+                <div class="unform">
+                    <div>
+                        <label class="myTitleText">Standings:</label>
+                    </div>
+                    <div>
+                        @Html.ActionLink("Overall", "Standings", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a1", @class = "myLink" })
+                    </div>
+                    <div>
+                        @Html.ActionLink("Home", "StandingsHome", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a2", @class = "myLink" })
+                    </div>
+                    <div>
+                        @Html.ActionLink("Away", "StandingsAway", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a3", @class = "myLink" })
                     </div>
                 </div>
-            }
-        </div>
-        <div>
-            <label>Standings:</label>
-            @Html.ActionLink("Overall", "Standings", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a1" })
-            @Html.ActionLink("Home", "StandingsHome", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a2" })
-            @Html.ActionLink("Away", "StandingsAway", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a3" })
-        </div>
-        <div>
-            <label>Progress:</label>
-            @Html.ActionLink("Overall", "Progress", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a4" })
-            @Html.ActionLink("Home", "ProgressHome", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a9" })
-            @Html.ActionLink("Away", "ProgressAway", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a10" })
-        </div>
-        <div>
-            <label>This season:</label>
-            @Html.ActionLink("Scorers", "Scorers", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a5" })
-            @Html.ActionLink("Result", "Result", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a6" })
-        </div>
-        <div>
-            <label>Archive:</label>
-            @Html.ActionLink("Winners", "Winners", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a7" })
-            @Html.ActionLink("Scorers", "ArchScorers", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a8" })
+                <div class="unform">
+                    <div>
+                        <label class="myTitleText">Progress:</label>
+                    </div>
+                    <div>
+                        @Html.ActionLink("Overall", "Progress", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a4", @class = "myLink" })
+                    </div>
+                    <div>
+                        @Html.ActionLink("Home", "ProgressHome", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a9", @class = "myLink" })
+                    </div>
+                    <div>
+                        @Html.ActionLink("Away", "ProgressAway", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a10", @class = "myLink" })
+                    </div>
+                </div>
+                <div class="unform">
+                    <div>
+                        <label class="myTitleText">This season:</label>
+                    </div>
+                    <div>
+                        @Html.ActionLink("Scorers", "Scorers", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a5", @class = "myLink" })
+                    </div>
+                    <div>
+                        @Html.ActionLink("Result", "Result", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a6", @class = "myLink" })
+                    </div>
+                </div>
+                <br class="clear" />
+                <div class="unform">
+                    <div>
+                        <label class="myTitleText">Archive:</label>
+                    </div>
+                    <div>
+                        @Html.ActionLink("Winners", "Winners", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a7", @class = "myLink" })
+                    </div>
+                    <div>
+                        @Html.ActionLink("Scorers", "ArchScorers", "Home", routeValues: new { fedSeason = Model[0].FederationSeasonId }, htmlAttributes: new { @id = "a8", @class = "myLink" })
+                    </div>
+                </div>
+            </div>
+            <div id="loadingDiv"><img src="~/images/icon/ball.gif"></div>
         </div>
         <div id="webGrid">
             @grid.GetHtml(

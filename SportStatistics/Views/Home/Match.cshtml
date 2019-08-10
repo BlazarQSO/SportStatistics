@@ -22,13 +22,15 @@
         <div>
             <div class="mTitle">
                 <div>
-                    @Html.ActionLink(Model.HomeTeam, "Team", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId, TeamId = Model.IdMatch.TeamHomeId }, null)
+                    @Html.ActionLink(Model.HomeTeam, "Team", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId, TeamId = Model.IdMatch.TeamHomeId }, null)                    
+                    <img src="@String.Concat("/images/teams/", Convert.ToString(Model.IdMatch.TeamHomeId), ".jpg")" class="imageShowH" alt="" />
                 </div>
                 <div>
-                    <labe>@Model.HomeTeamGoal : @Model.AwayTeamGoal</labe>
+                    <label class="lb">@Model.HomeTeamGoal : @Model.AwayTeamGoal</label>
                 </div>
                 <div>
                     @Html.ActionLink(Model.AwayTeam, "Team", "Home", new { fedSeason = Model.IdMatch.FederationSeasonId, TeamId = Model.IdMatch.TeamHomeId }, null)
+                    <img src="@String.Concat("/images/teams/", Convert.ToString(Model.IdMatch.TeamAwayId), ".jpg")" class="imageShow" alt="" />
                 </div>
             </div>
         </div>
@@ -59,7 +61,6 @@
             </div>
         </div>
     </div>
-
     <div>
         <div class="sectionL">
             @if (Model.ListTimeLineHome != null)

@@ -598,6 +598,7 @@ namespace SportStatistics.Models.ServiceClasses
                             scorer.Season = player.Season;
                             scorer.Name = player.Player.Name + " " + player.Player.Surname;
                             scorer.NameTeam = item.Team.Name;
+                            scorer.TeamId = item.TeamId;
                             scorer.Apps = player.GamedMatches;
                             scorer.Goals = player.Goals;
                             scorer.Assists = player.Assists;

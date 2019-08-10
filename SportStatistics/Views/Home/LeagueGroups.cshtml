@@ -6,32 +6,39 @@
     int j = 0;
 }
 
-<h2>LeagueGroups</h2>
+<h2 class="my-title">Champions League</h2>
 @if (Model.Count() > 0)
 {
     <div>
         @using (Html.BeginForm("LeagueGroups", "Home", FormMethod.Post))
         {
             <div class="form-group">
-                @Html.LabelFor(model => model[0][0].Season, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.LabelFor(model => model[0][0].Season, htmlAttributes: new { @class = "control-label col-md-2 mTitle" })
                 <div class="col-md-10">
-                    @Html.EnumDropDownListFor(model => model[0][0].Season, htmlAttributes: new { @class = "form-control" })
-                    @Html.HiddenFor(model => model[0][0].FederationSeasonId)
-                    @Html.HiddenFor(model => model[0][0].Season)
-                    <button>Ok</button>
+                    <div class="left">
+                        @Html.EnumDropDownListFor(model => model[0][0].Season, htmlAttributes: new { @class = "form-control mySelect" })
+                    </div>
+                    <div class="left">
+                        @Html.HiddenFor(model => model[0][0].FederationSeasonId)
+                        @Html.HiddenFor(model => model[0][0].Season)
+                        <button class="myButtonOk">Ok</button>
+                    </div>
+                    <div class="leftT">
+                        @Html.ActionLink("Scorers", "Scorers", "Home", routeValues: new { fedSeason = Model[0][0].FederationSeasonId }, htmlAttributes: new { @class = "myLink" })
+                    </div>
+                    <div class="leftT">
+                        @Html.ActionLink("Winners", "Winners", "Home", routeValues: new { fedSeason = Model[0][0].FederationSeasonId }, htmlAttributes: new { @class = "myLink" })
+                    </div>
                 </div>
             </div>
         }
-        @Html.ActionLink("Scorers", "Scorers", "Home", routeValues: new { fedSeason = Model[0][0].FederationSeasonId }, htmlAttributes: null)
-        @Html.ActionLink("Winners", "Winners", "Home", routeValues: new { fedSeason = Model[0][0].FederationSeasonId }, htmlAttributes: null)
     </div>
-
-
+    <br class="clear" />
     for (int i = 0; i < Model.Count(); i++)
     {
         WebGrid grid = new WebGrid(source: Model[i], defaultSort: "Point",canPage: false, ajaxUpdateContainerId: "idGrid");
         grid.SortDirection = SortDirection.Descending;
-        <label>@ViewBag.Group[i]</label>
+        <label class="myTitleText">@ViewBag.Group[i]</label>
         j++;
         <div id="idGrid">
             @grid.GetHtml(
@@ -41,12 +48,12 @@
          columns: grid.Columns(
          grid.Column(header: "Rank", format: @<text>@{rank++;} @rank </text>),
          grid.Column("Team", format:
-                   @<text>
-                       @{string name = item.NameTeam; }
-                       @Html.ActionLink(name, "Team", "Home", routeValues:
+        @<text>
+            @{string name = item.NameTeam; }
+            @Html.ActionLink(name, "Team", "Home", routeValues:
                                              new { fedSeason = item.FederationSeasonId, TeamId = item.TeamId },
                                              htmlAttributes: null)
-                   </text>),
+        </text>),
          grid.Column(header: "Played", format: model => model.GamedMatches),
          grid.Column(header: "Win", format: model => model.Win),
          grid.Column(header: "Draw", format: model => model.Draw),
@@ -56,49 +63,66 @@
          grid.Column("GD", format: model => model.GoalDifference),
          grid.Column("Point", format: model => model.Point),
          grid.Column(header: "Form", format:
-                   @<text>
-                       @foreach (var it in item.Form)
+        @<text>
+            @foreach (var it in item.Form)
                        {
                            if (it.WinDL.ToString() == "Win")
                            {
-                               @Html.ActionLink("W", "Match", "Home", new { MatchId = @it.MatchId }, htmlAttributes: new { @title = @it.Result, @class = "link-W" })
-                           }
-                           else
+                    @Html.ActionLink("W", "Match", "Home", new { MatchId = @it.MatchId }, htmlAttributes: new { @title = @it.Result, @class = "link-W" })
+                }
+                else
                            if (it.WinDL.ToString() == "Draw")
-                           {
-                               @Html.ActionLink("D", "Match", "Home", new { MatchId = @it.MatchId }, htmlAttributes: new { @title = @it.Result, @class = "link-D" })
-                           }
-                           else
-                           {
-                               @Html.ActionLink("L", "Match", "Home", new { MatchId = @it.MatchId }, htmlAttributes: new { @title = @it.Result, @class = "link-L" })
-                           }
-                       }
-                   </text>
+                {
+                    @Html.ActionLink("D", "Match", "Home", new { MatchId = @it.MatchId }, htmlAttributes: new { @title = @it.Result, @class = "link-D" })
+                }
+                else
+                {
+                    @Html.ActionLink("L", "Match", "Home", new { MatchId = @it.MatchId }, htmlAttributes: new { @title = @it.Result, @class = "link-L" })
+                }
+            }
+        </text>
                  )
              )
          )
         </div>
-    }
+                }
 
-    if (ViewBag.Score != null)
-    {
-        foreach (var item2 in ViewBag.Score)
-        {
-            <label>@ViewBag.Group[j]</label>
-            j++;
-            foreach (var item in item2)
-            {
-                <div>                
-                    @item.Date @item.HomeTeam @item.Result @item.AwayTeam
+                <div>
+                    @if (ViewBag.Score != null)
+                    {
+                        foreach (var item2 in ViewBag.Score)
+                        {
+                            <div class="group">
+                                <label class="myTitleText">@ViewBag.Group[j]</label>
+                                @{j++;}
+                                @foreach (var item in item2)
+                                {
+                                    string text = @item.Result;
+                                    string textH = @item.HomeTeam;
+                                    string textA = @item.AwayTeam;
+                                    <div style="clear:left;">
+                                        <div class="play-off">
+                                            @item.Date
+                                        </div>
+                                        <div class="play-offH">
+                                            @Html.ActionLink(textH, "Team", "Home", new { fedSeason = @item.FederationSeasonId, MatchId = @item.HomeTeam }, null)
+                                        </div>
+                                        <div class="play-off">
+                                            @Html.ActionLink(text, "Match", "Home", new { MatchId = @item.MatchId }, null)
+                                        </div>
+                                        <div class="play-offA">
+                                            @Html.ActionLink(textA, "Team", "Home", new { fedSeason = @item.FederationSeasonId, MatchId = @item.AwayTeam }, null)
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                                        }
+                                    }
                 </div>
-                
-            }
-        }
-    }
-}
-else
-{
-    <div>
-        <h2>Request failed</h2>
-    </div>
-}
+                                    }
+                                    else
+                                    {
+                                        <div>
+                                            <h2>Request failed</h2>
+                                        </div>
+                                    }
