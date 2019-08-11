@@ -13,9 +13,6 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Sport.NameSportString)
-        </th>
-        <th>
             @Html.DisplayNameFor(model => model.NameSportString)
         </th>
         <th>
@@ -32,9 +29,6 @@
 
 @foreach (var item in Model) {
     <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Sport.NameSportString)
-        </td>
         <td>
             @Html.DisplayFor(modelItem => item.NameSportString)
         </td>

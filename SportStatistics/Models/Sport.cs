@@ -5,7 +5,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace SportStatistics.Models
 {
     public class Sport
-    {        
+    {   
+        [Display(Name = "Sport")]     
         public int SportId { get; set; }
 
         [Column("NameSport")]

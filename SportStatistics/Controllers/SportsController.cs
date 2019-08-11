@@ -50,8 +50,15 @@ namespace SportStatistics.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Sports.Add(sport);
-                db.SaveChanges();
+                string cmpr = sport.NameSportString;
+                var search = from c in db.Sports
+                             where c.NameSportString == cmpr
+                             select c;
+                if (search.Count() < 1)
+                {
+                    db.Sports.Add(sport);
+                    db.SaveChanges();
+                }
                 return RedirectToAction("Index");
             }
 

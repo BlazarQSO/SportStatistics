@@ -13,7 +13,7 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.NameSportString)
+            Name Sport
         </th>
         <th></th>
     </tr>
@@ -23,8 +23,7 @@
         <td>
             @Html.DisplayFor(modelItem => item.NameSportString)
         </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.SportId }) |
+        <td>            
             @Html.ActionLink("Details", "Details", new { id=item.SportId }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.SportId })
         </td>

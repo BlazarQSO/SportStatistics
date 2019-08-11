@@ -5,29 +5,28 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Delete</h2>
+<h2 class="myTitleComic">Delete</h2>
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Sport</h4>
+<div class="sport-delete">
+    <h3 class="myValid2">Are you sure you want to delete this?</h3>
+    <label class="mTitle">Sport</label>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.NameSportString)
+    <dl>
+        <dt class="myTitleText">
+            Name Sport:
         </dt>
-
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.NameSportString)
         </dd>
-
     </dl>
-
+    <br class="clear" />
     @using (Html.BeginForm()) {
         @Html.AntiForgeryToken()
 
-        <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Back to List", "Index")
+        <div>
+            <input type="submit" value="Delete" class="myButtonDelete" /> 
+            <b> | </b>
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "myLinkBack" })
         </div>
     }
 </div>

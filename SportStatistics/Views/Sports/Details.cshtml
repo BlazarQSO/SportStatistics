@@ -5,23 +5,23 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Details</h2>
+<h2 class="myTitleComic">Details</h2>
 
-<div>
-    <h4>Sport</h4>
+<div class="sport-delete">
+    <label class="mTitle">Sport</label>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
+    <dl>
+        <dt class="myTitleText">
             @Html.DisplayNameFor(model => model.NameSportString)
         </dt>
-
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.NameSportString)
         </dd>
-
     </dl>
+    <br class="clear" />
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.SportId }, new { @class = "myLinkBack" })
+        <b> | </b>
+        @Html.ActionLink("Back to List", "Index", null, new { @class = "myLinkBack" })
+    </p>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.SportId }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>

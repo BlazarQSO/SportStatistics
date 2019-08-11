@@ -5,63 +5,65 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Details</h2>
+<h2 class="myTitleComic">Details</h2>
 
-<div>
-    <h4>Team</h4>
+<div class="sport-delete">
+    <label class="mTitle">Team</label>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.NameSportString)
+    <dl>
+        <dt class="myTitleText">
+            @Html.DisplayName("Name Sport")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.NameSportString)
         </dd>
 
-        <dt>
+        <dt class="myTitleText">
             @Html.DisplayNameFor(model => model.Name)
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.Name)
         </dd>
 
-        <dt>
+        <dt class="myTitleText">
             @Html.DisplayNameFor(model => model.Country)
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.Country)
         </dd>
 
-        <dt>
+        <dt class="myTitleText">
             @Html.DisplayNameFor(model => model.City)
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.City)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.NameStadium)
+        <dt class="myTitleText">
+            @Html.DisplayName("Name Stadium")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.NameStadium)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.FoundationDate)
+        <dt class="myTitleText">
+            @Html.DisplayName("Foundation Date")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.FoundationDate)
         </dd>
-
     </dl>
+    <br class="clear" />
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.TeamId }, new { @class = "myLinkBack" })
+        <b> | </b>
+        @Html.ActionLink("Back to List", "Index", null, new { @class = "myLinkBack" })
+    </p>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.TeamId }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+

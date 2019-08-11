@@ -48,9 +48,10 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "PlayerId,NameSportString,Name,Surname,Birthday,Age,Nationality,Weight,Height,PositionString")] Player player, HttpPostedFileBase upload)
         {
+            string fileName = "";
             if (upload != null)
             {
-                string fileName = System.IO.Path.GetFileName(upload.FileName);
+                fileName = System.IO.Path.GetFileName(upload.FileName);
                 int index = fileName.LastIndexOf(".");
                 fileName = fileName.Substring(index).ToLower();
                 if (fileName != ".jpg" && fileName != ".png" && fileName != ".jpeg" && fileName != ".gif")
@@ -59,11 +60,14 @@ namespace SportStatistics.Controllers
                 }
             }
             if (ModelState.IsValid)
-            {
+            {                
                 db.Players.Add(player);
                 db.SaveChanges();
                 int last = (from c in db.Players select c.PlayerId).ToList().Last();
-                upload.SaveAs(Server.MapPath("~/images/players/" + last + ".jpg"));
+                if (fileName != null)
+                {
+                    upload.SaveAs(Server.MapPath("~/images/players/" + last + ".jpg"));
+                }
                 return RedirectToAction("Index");
             }
 

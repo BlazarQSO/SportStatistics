@@ -12,6 +12,7 @@ namespace SportStatistics.Models
         public int SportFederationId { get; set; }
 
         [Column("NameSport")]
+        [Display(Name = "Name Sport")]
         public string NameSportString
         {
             get { return NameSport.ToString(); }
@@ -22,15 +23,14 @@ namespace SportStatistics.Models
         public NameSport NameSport { get; set; }
 
         [MaxLength(50)]
-        [Required(ErrorMessage = "Enter the data")]
-        [Display(Name = "Enter the name of the country")]
+        [Required(ErrorMessage = "Enter the data")]        
         public string Country { get; set; }
 
-        [Display(Name = "Enter the date of the foundation")]        
+        [Display(Name = "Foundation Date")]        
         public string FoundationDate { get; set; }
 
         [MaxLength(50)]
-        [Display(Name = "Enter the name of the President")]
+        [Display(Name = "President")]
         public string NamePresident { get; set; }
 
 

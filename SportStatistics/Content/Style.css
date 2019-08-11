@@ -50,7 +50,7 @@
 .section a:hover {
     text-decoration: underline;    
 }
-.section a:visited {
+.section a:visited {    
     color: blue;
     text-decoration: none;
 }
@@ -499,7 +499,7 @@ a{
     font-size: 35px;
     text-align: center;
     color: darkgoldenrod;
-    font-weight: bold;
+    font-weight: bold;    
 }
 .mTitle div {
     float: left;
@@ -791,6 +791,9 @@ a{
 .clear {
     clear: left;
 }
+.mid {
+    text-align: center;
+}
 .left {
     float: left;
 }
@@ -917,6 +920,188 @@ a{
     padding: 0 5px 0 5px;
 }
 
+/*-----------------Sport--------------------*/
+.sport-create {    
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+.sport-create-l a{    
+    margin-left: 20%;
+}
+
+.sport-delete {
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+.sport-delete b{
+    color: blue; 
+    font-size: 30px;
+    font-weight: bold;
+}
+.sport-delete input {
+    margin-top: -7px;
+}
+.sport-delete div{    
+    margin-top: 20px;
+}
+.sport-delete dt {
+    float: left; 
+    margin: 0;
+    width: 50%;    
+    text-align: right;
+}
+.sport-delete dd {    
+    margin: 0;
+    width: 40%;
+    height: 25px;
+    float: left; 
+    text-align: left; 
+    margin-left: 20px;    
+}
+
+/*----------------------Sport Federation---------------------*/
+.sport-div div div:nth-child(1){
+    float: left;
+    width: 49%; 
+    font-size: 28px;
+    height: 10px;    
+    text-align: right;
+}
+.sport-div div div:nth-child(2){
+    float: left;
+    width: 49%;     
+    text-align: left;
+    margin-left: 10px;        
+}
+.sport-div div div:nth-child(2) input{
+    height: 24px;
+    width: 160px;
+    padding: 5px 0px 1px 10px;
+}
+.sport-div div div:nth-child(2) select {
+    width: 170px;
+    margin-bottom: 20px;    
+}
+
+/*----------------------Team------------------*/
+.team-th {
+     width: 140px;
+}
+
+hr {
+    color: green;    
+}
+/*-----------------------Buttons----------------------------*/
+
+/*------------------myButtonDelete----------------------*/
+.myButtonDelete {
+    border: 1px solid #317687;
+    background: #101c06;
+    background: -webkit-gradient(linear, left top, left bottom, from(#cc1414), to(#101c06));
+    background: -webkit-linear-gradient(top, #cc1414, #101c06);
+    background: -moz-linear-gradient(top, #cc1414, #101c06);
+    background: -ms-linear-gradient(top, #cc1414, #101c06);
+    background: -o-linear-gradient(top, #cc1414, #101c06);
+    background-image: -ms-linear-gradient(top, #cc1414 0%, #101c06 100%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    text-shadow: #addc7e 0 1px 0;
+    color: #a6870d;
+    font-family: helvetica, serif;
+    padding: 8.5px 18px;
+    font-size: 14px;
+    text-decoration: none;
+    vertical-align: middle;
+    outline: none;
+    icon: auto;
+}
+    .myButtonDelete:hover {
+        border: 1px solid #264f45;
+        text-shadow: #c9ae42 0 1px 0;
+        background: #c7242f;
+        background: -webkit-gradient(linear, left top, left bottom, from(#150d1a), to(#c7242f));
+        background: -webkit-linear-gradient(top, #150d1a, #c7242f);
+        background: -moz-linear-gradient(top, #150d1a, #c7242f);
+        background: -ms-linear-gradient(top, #150d1a, #c7242f);
+        background: -o-linear-gradient(top, #150d1a, #c7242f);
+        background-image: -ms-linear-gradient(top, #150d1a 0%, #c7242f 100%);
+        color: #cf0c0c;
+        text-decoration: none;
+    }
+    .myButtonDelete:active {
+        text-shadow: #27555c 0 1px 0;
+        border: 1px solid #000000;
+        background: #75151d;
+        background: -webkit-linear-gradient(top, #5c2382, #75151d);
+        background: -moz-linear-gradient(top, #5c2382, #75151d);
+        background: -o-linear-gradient(top, #5c2382, #75151d);
+        color: #000000;
+        text-decoration: none;
+    }
+/*------------------myButtonDelete END----------------------*/
+
+/*------------------myButtonInfo----------------------*/
+.myButtonInfo {
+    border: 1px solid #447314;
+    height: 30px;
+    width: 140px;
+    margin-top: 5px;
+    background: #1f2a38;
+    background: -webkit-gradient(linear, left top, left bottom, from(#62c4ad), to(#1f2a38));
+    background: -webkit-linear-gradient(top, #62c4ad, #1f2a38);
+    background: -moz-linear-gradient(top, #62c4ad, #1f2a38);
+    background: -ms-linear-gradient(top, #62c4ad, #1f2a38);
+    background: -o-linear-gradient(top, #62c4ad, #1f2a38);
+    background-image: -ms-linear-gradient(top, #62c4ad 0%, #1f2a38 100%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    text-shadow: #61bdc2 0 1px 0;
+    color: #000f61;
+    font-family: helvetica, serif;
+    outline: none;
+    font-size: 14px;
+    text-decoration: none;
+    vertical-align: middle;
+    font-weight: bold;
+}
+    .myButtonInfo:hover {
+        border: 1px solid #447314;
+        text-shadow: #31540c 0 1px 0;
+        background: #30451c;
+        background: -webkit-gradient(linear, left top, left bottom, from(#625dc2), to(#30451c));
+        background: -webkit-linear-gradient(top, #625dc2, #30451c);
+        background: -moz-linear-gradient(top, #625dc2, #30451c);
+        background: -ms-linear-gradient(top, #625dc2, #30451c);
+        background: -o-linear-gradient(top, #625dc2, #30451c);
+        background-image: -ms-linear-gradient(top, #625dc2 0%, #30451c 100%);
+        color: #fff;
+    }
+    .myButtonInfo:active {
+        text-shadow: #31540c 0 1px 0;
+        border: 1px solid #447314;
+        background: #4e8c9c;
+        background: -webkit-gradient(linear, left top, left bottom, from(#602970), to(#30451c));
+        background: -webkit-linear-gradient(top, #602970, #4e8c9c);
+        background: -moz-linear-gradient(top, #602970, #4e8c9c);
+        background: -ms-linear-gradient(top, #602970, #4e8c9c);
+        background: -o-linear-gradient(top, #602970, #4e8c9c);
+        background-image: -ms-linear-gradient(top, #602970 0%, #4e8c9c 100%);
+        color: #fff;
+    }
+
+/*------------------myButtonInfo END----------------------*/
+
+
 /*-----------------------myTitleLove-------------------------*/
 .myTitleLove {
     color: #A7DD3C;
@@ -965,7 +1150,7 @@ a{
     text-align: center;           
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 10%;
+    margin-left: 10%;    
 }
 
 
@@ -1005,6 +1190,32 @@ a{
         text-shadow: 2px 2px 3px rgba(0,0,0,1);      
     }
 
+.myLinkBack {
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    color: #A858FF !important;
+    text-shadow: 3px 3px 4px #A45153;
+    font-weight: 400;
+    text-decoration: none;
+    outline: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;        
+}
+    .myLinkBack:hover {
+        color: blue !important;
+        outline: none;
+        text-decoration: none;
+    }
+    .myLinkBack:active {
+        color: crimson;
+        outline: none;
+        text-decoration: none;
+    }
+    .myLinkBack:visited{
+        color: #A858FF;
+    }
 
 /*----------------Link message END------------------*/
 
@@ -1101,3 +1312,57 @@ a{
         text-decoration: none;
         text-shadow: 2px 2px 3px rgba(0,0,0,1);
     }
+
+    .myValid2 {
+    color: red;
+    text-shadow: 2px 2px 3px #f79595;
+    font-size: 24px;
+    padding-left: 5px;
+    font-family: Georgia, serif;
+    letter-spacing: 1.4px;
+    word-spacing: 1.6px;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.myContent2-title {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    word-spacing: 1.6px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    padding: 0px 0px 0px 0px;
+}
+
+.myContent-field {
+    width: 150px;
+    border: 1px solid #6b4b27;
+    background: bisque;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #0d12a8;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+}
+    .myContent-field:focus {
+        background: #e9fab6;
+        color: red;
+    }
+

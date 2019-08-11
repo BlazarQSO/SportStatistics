@@ -13,7 +13,7 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.NameSportString)
+            @Html.DisplayName("Name Sport")
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Name)
@@ -37,7 +37,7 @@
             @Html.DisplayNameFor(model => model.Height)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.PositionString)
+            @Html.DisplayName("Position")
         </th>
         <th></th>
     </tr>
@@ -71,7 +71,7 @@
         <td>
             @Html.DisplayFor(modelItem => item.PositionString)
         </td>
-        <td>
+        <td class="team-size">
             @Html.ActionLink("Edit", "Edit", new { id=item.PlayerId }) |
             @Html.ActionLink("Details", "Details", new { id=item.PlayerId }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.PlayerId })
