@@ -3,34 +3,37 @@
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    string season = "";
 }
 
 <h2 class="myTitleComic">Table of all Federation Seasons</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create", null, new { @class = "myLink2" })
-</p>
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.SportFederation.NameSportString)
+            @Html.DisplayName("Name Sport")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.TournamentString)
+            @Html.DisplayName("Federation")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.NameTournament)
+            @Html.DisplayName("Tournament")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.SeasonString)
+            @Html.DisplayName("Name Tournament")
+        </th>
+        <th>
+            @Html.DisplayName("Season")
         </th>
         <th></th>
     </tr>
-
 @foreach (var item in Model) {
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.SportFederation.NameSportString)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SportFederation.Country)            
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.TournamentString)
@@ -39,14 +42,18 @@
             @Html.DisplayFor(modelItem => item.NameTournament)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.SeasonString)
+            @{
+                string name = (int)item.Season + "";
+                int seas = Convert.ToInt32(name);
+                seas++;
+                name = name + "/" + Convert.ToString(seas);
+            }
+            @name
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.FederationSeasonId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.FederationSeasonId }) |
+            @Html.ActionLink("Edit", "Edit", new { id=item.FederationSeasonId }) |            
             @Html.ActionLink("Delete", "Delete", new { id=item.FederationSeasonId })
         </td>
     </tr>
 }
-
 </table>

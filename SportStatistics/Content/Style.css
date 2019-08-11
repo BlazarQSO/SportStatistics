@@ -981,10 +981,20 @@ a{
     padding: 5px 0px 1px 10px;
 }
 .sport-div div div:nth-child(2) select {
-    width: 170px;
-    margin-bottom: 20px;    
+    width: 170px;    
 }
-
+.sport-div div:nth-child(18) div:nth-child(2) input {
+    width: 400px;    
+}
+.sport-div div:nth-child(19) div:nth-child(2) input {
+    width: 400px;    
+}
+.sport-div div:nth-child(20) div:nth-child(2) input {
+    width: 400px;    
+}
+.sport-div div:nth-child(21) div:nth-child(2) input {
+    width: 400px;    
+}
 /*----------------------Team------------------*/
 .team-th {
      width: 140px;

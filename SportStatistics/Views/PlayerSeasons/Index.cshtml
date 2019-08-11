@@ -7,19 +7,19 @@
 
 <h2 class="myTitleComic">Table of All Player Seasons</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create", null, new { @class = "myLink2" })
-</p>
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Player.NameSportString)
+            @Html.DisplayName("Name Sport")
+        </th>
+        <th>
+            @Html.DisplayName("Name Player")
         </th>
         <th>
             @Html.DisplayNameFor(model => model.TeamSeason.NameTeam)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.SeasonString)
+            @Html.DisplayName("Season")
         </th>
         <th>
             @Html.DisplayNameFor(model => model.GamedMatches)
@@ -39,10 +39,19 @@
             @Html.DisplayFor(modelItem => item.Player.NameSportString)
         </td>
         <td>
+            @item.Player.Name @item.Player.Surname
+        </td>
+        <td>
             @Html.DisplayFor(modelItem => item.TeamSeason.NameTeam)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.SeasonString)
+            @{
+                string name = (int)item.Season + "";
+                int seas = Convert.ToInt32(name);
+                seas++;
+                name = name + "/" + Convert.ToString(seas);
+            }
+            @name
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.GamedMatches)
@@ -54,8 +63,7 @@
             @Html.DisplayFor(modelItem => item.Assists)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.PlayerSeasonId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.PlayerSeasonId }) |
+            @Html.ActionLink("Edit", "Edit", new { id=item.PlayerSeasonId }) |            
             @Html.ActionLink("Delete", "Delete", new { id=item.PlayerSeasonId })
         </td>
     </tr>

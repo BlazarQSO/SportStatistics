@@ -21,7 +21,7 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.NameSportString)
+            @Html.Display("Name Sport")
         </td>
         <td>            
             @Html.ActionLink("Details", "Details", new { id=item.SportId }) |

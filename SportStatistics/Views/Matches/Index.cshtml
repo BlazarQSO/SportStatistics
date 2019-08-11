@@ -13,34 +13,34 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.NameSportString)
+            @Html.DisplayName("NameSport")
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Country)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.SeasonString)
+            @Html.DisplayName("Season")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.TournamentString)
+            @Html.DisplayName("Tournament")
         </th>
         <th>
             @Html.DisplayNameFor(model => model.NameTournament)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Tour)
-        </th>
-        <th>
             @Html.DisplayNameFor(model => model.Date)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.NameStadium)
-        </th>
+        </th>        
         <th>
             @Html.DisplayNameFor(model => model.HomeTeam)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.AwayTeam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tour)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NameStadium)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.HomeTeamGoal)
@@ -49,10 +49,10 @@
             @Html.DisplayNameFor(model => model.AwayTeamGoal)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.HomeTeamResultString)
+            @Html.DisplayName("HomeTeamResult")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.AwayTeamResultString)
+            @Html.DisplayName("AwayTeamResult")
         </th>
         <th>
             @Html.DisplayNameFor(model => model.HomePlayers)
@@ -78,28 +78,34 @@
             @Html.DisplayFor(modelItem => item.Country)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.SeasonString)
+            @{
+                string name = (int)item.Season + "";
+                int seas = Convert.ToInt32(name);
+                seas++;
+                name = name + "/" + Convert.ToString(seas);
+            }
+            @name
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.TournamentString)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.NameTournament)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Tour)
-        </td>
+        </td>        
         <td>
             @Html.DisplayFor(modelItem => item.Date)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.NameStadium)
-        </td>
+        </td>        
         <td>
             @Html.DisplayFor(modelItem => item.HomeTeam)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.AwayTeam)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tour)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NameStadium)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.HomeTeamGoal)

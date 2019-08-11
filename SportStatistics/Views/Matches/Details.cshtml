@@ -5,159 +5,168 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Details</h2>
+<h2 class="myTitleComic">Details</h2>
 
-<div>
-    <h4>Match</h4>
+<div class="sport-delete">
+    <label class="mTitle">Match</label>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.NameSportString)
+    <dl>
+        <dt class="myTitleText">
+            @Html.DisplayName("Name Sport")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.NameSportString)
         </dd>
 
-        <dt>
+        <dt class="myTitleText">
             @Html.DisplayNameFor(model => model.Country)
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.Country)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.SeasonString)
+        <dt class="myTitleText">
+            @Html.DisplayName("Season")
         </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.SeasonString)
+        <dd class="myContent2-title">
+            @{
+                string name = (int)Model.Season + "";
+                int seas = Convert.ToInt32(name);
+                seas++;
+                name = name + "/" + Convert.ToString(seas);
+            }
+            @name
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.TournamentString)
+        <dt class="myTitleText">
+            @Html.DisplayName("Tournament")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.TournamentString)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.NameTournament)
+        <dt class="myTitleText">
+            @Html.DisplayName("Name Tournament")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.NameTournament)
         </dd>
 
-        <dt>
+        <dt class="myTitleText">
             @Html.DisplayNameFor(model => model.Tour)
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.Tour)
         </dd>
 
-        <dt>
+        <dt class="myTitleText">
             @Html.DisplayNameFor(model => model.Date)
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.Date)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.NameStadium)
+        <dt class="myTitleText">
+            @Html.DisplayName("Name Stadium")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.NameStadium)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.HomeTeam)
+        <dt class="myTitleText">
+            @Html.DisplayName("Home Team")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.HomeTeam)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.AwayTeam)
+        <dt class="myTitleText">
+            @Html.DisplayName("Away Team")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.AwayTeam)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.HomeTeamGoal)
+        <dt class="myTitleText">
+            @Html.DisplayName("Home Team Goals")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.HomeTeamGoal)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.AwayTeamGoal)
+        <dt class="myTitleText">
+            @Html.DisplayName("Away Team Goal")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.AwayTeamGoal)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.HomeTeamResultString)
+        <dt class="myTitleText">
+            @Html.DisplayName("Home Team Result")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.HomeTeamResultString)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.AwayTeamResultString)
+        <dt class="myTitleText">
+            @Html.DisplayName("Away Team Result")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.AwayTeamResultString)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.HomePlayers)
+        <dt class="myTitleText">
+            @Html.DisplayName("Home Players")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.HomePlayers)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.AwayPlayers)
+        <dt class="myTitleText">
+            @Html.DisplayName("Away Players")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.AwayPlayers)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.TimeLineHome)
+        <dt class="myTitleText">
+            @Html.DisplayName("Time Line Home")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.TimeLineHome)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.TimeLineAway)
+        <dt class="myTitleText">
+            @Html.DisplayName("Time Line Away")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.TimeLineAway)
         </dd>
 
     </dl>
+    <br class="clear" />
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.MatchId }, new { @class = "myLinkBack" })
+        <b> | </b>
+        @Html.ActionLink("Back to List", "Index", null, new { @class = "myLinkBack" })
+    </p>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.MatchId }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+

@@ -5,165 +5,188 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Delete</h2>
+<h2 class="myTitleComic">Delete</h2>
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>TeamSeason</h4>
+<div class="sport-delete">
+    <h3 class="myValid2">Are you sure you want to delete this?</h3>
+    <label class="mTitle">TeamSeason</label>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.FederationSeason.TournamentString)
+    <dl>
+        <dt class="myTitleText">
+            @Html.DisplayName("Name Sport")
         </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.FederationSeason.TournamentString)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Team.NameSportString)
-        </dt>
-
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.Team.NameSportString)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.NameTeam)
+        <dt class="myTitleText">
+            @Html.DisplayName("Federation")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
+            @Html.DisplayFor(model => model.FederationSeason.SportFederation.Country)
+        </dd>
+
+        <dt class="myTitleText">
+            @Html.DisplayName("Tournament")
+        </dt>
+
+        <dd class="myContent2-title">
+            @Html.DisplayFor(model => model.FederationSeason.TournamentString)
+        </dd>
+        
+        <dt class="myTitleText">
+            @Html.DisplayName("Tournament Name")
+        </dt>
+
+        <dd class="myContent2-title">
+            @Html.DisplayFor(model => model.FederationSeason.NameTournament)
+        </dd>
+
+        <dt class="myTitleText">
+            @Html.DisplayName("Name Team")
+        </dt>
+
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.NameTeam)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.SeasonString)
+        <dt class="myTitleText">
+            @Html.DisplayName("Season")
         </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.SeasonString)
+        <dd class="myContent2-title">
+            @{
+                string name = (int)Model.Season + "";
+                int seas = Convert.ToInt32(name);
+                seas++;
+                name = name + "/" + Convert.ToString(seas);
+            }
+            @name
         </dd>
 
-        <dt>
+        <dt class="myTitleText">
             @Html.DisplayNameFor(model => model.Played)
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.Played)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.HomePlayed)
+        <dt class="myTitleText">
+            @Html.DisplayName("Home Played")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.HomePlayed)
         </dd>
 
-        <dt>
+        <dt class="myTitleText">
             @Html.DisplayNameFor(model => model.Point)
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.Point)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.HomePoint)
+        <dt class="myTitleText">
+            @Html.DisplayName("Home Point")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.HomePoint)
         </dd>
 
-        <dt>
+        <dt class="myTitleText">
             @Html.DisplayNameFor(model => model.Win)
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.Win)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.HomeWin)
+        <dt class="myTitleText">
+            @Html.DisplayName("Home Win")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.HomeWin)
         </dd>
 
-        <dt>
+        <dt class="myTitleText">
             @Html.DisplayNameFor(model => model.Draw)
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.Draw)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.HomeDraw)
+        <dt class="myTitleText">
+            @Html.DisplayName("Home Draw")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.HomeDraw)
         </dd>
 
-        <dt>
+        <dt class="myTitleText">
             @Html.DisplayNameFor(model => model.Lose)
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.Lose)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.HomeLose)
+        <dt class="myTitleText">
+            @Html.DisplayName("Home Lose")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.HomeLose)
         </dd>
 
-        <dt>
+        <dt class="myTitleText">
             @Html.DisplayNameFor(model => model.Goals)
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.Goals)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.HomeGoals)
+        <dt class="myTitleText">
+            @Html.DisplayName("Home Goals")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.HomeGoals)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.GoalAgainst)
+        <dt class="myTitleText">
+            @Html.DisplayName("Goal Against")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.GoalAgainst)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.HomeGoalAgainst)
+        <dt class="myTitleText">
+            @Html.DisplayName("Home Goal Against")
         </dt>
 
-        <dd>
+        <dd class="myContent2-title">
             @Html.DisplayFor(model => model.HomeGoalAgainst)
         </dd>
-
     </dl>
 
-    @using (Html.BeginForm()) {
+    @using (Html.BeginForm())
+    {
         @Html.AntiForgeryToken()
 
-        <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Back to List", "Index")
+        <div>
+            <input type="submit" value="Delete" class="myButtonDelete" />
+            <b> | </b>
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "myLinkBack" })
         </div>
     }
 </div>

@@ -5,66 +5,56 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Edit</h2>
+<h2 class="myTitleComic">Edit</h2>
 
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
     
-    <div class="form-horizontal">
-        <h4>PlayerSeason</h4>
+    <div class="sport-delete sport-div">
+        <label class="mTitle">Player Season</label>
         <hr />
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.ValidationSummary(true, "", new { @class = "myValid2" })
         @Html.HiddenFor(model => model.PlayerSeasonId)
+        @Html.HiddenFor(model => model.TeamSeasonId)
+        @Html.HiddenFor(model => model.PlayerId)
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.GamedMatches, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.GamedMatches, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.GamedMatches, "", new { @class = "text-danger" })
+        <div>
+            <div>
+                @Html.Label("Gamed Matches", htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                @Html.EditorFor(model => model.GamedMatches, new { htmlAttributes = new { @class = "myContent-field" } })
+                @Html.ValidationMessageFor(model => model.GamedMatches, "", new { @class = "myValid2" })
             </div>
         </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.Goals, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Goals, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Goals, "", new { @class = "text-danger" })
+        <div>
+            <div>
+                @Html.LabelFor(model => model.Goals, htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                @Html.EditorFor(model => model.Goals, new { htmlAttributes = new { @class = "myContent-field" } })
+                @Html.ValidationMessageFor(model => model.Goals, "", new { @class = "myValid2" })
             </div>
         </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.Assists, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Assists, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Assists, "", new { @class = "text-danger" })
+        <div>
+            <div>
+                @Html.LabelFor(model => model.Assists, htmlAttributes: new { @class = "myTitleText" })
             </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.PlayerId, "PlayerId", htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.DropDownList("PlayerId", null, htmlAttributes: new { @class = "form-control" })
-                @Html.ValidationMessageFor(model => model.PlayerId, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.TeamSeasonId, "TeamSeasonId", htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.DropDownList("TeamSeasonId", null, htmlAttributes: new { @class = "form-control" })
-                @Html.ValidationMessageFor(model => model.TeamSeasonId, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" />
+            <div>
+                @Html.EditorFor(model => model.Assists, new { htmlAttributes = new { @class = "myContent-field" } })
+                @Html.ValidationMessageFor(model => model.Assists, "", new { @class = "myValid2" })
             </div>
         </div>
     </div>
 }
+<br class="clear" />
+<p class="mid">
+    <input type="submit" value="Save" class="myButtonInfo" />
+</p>
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
+<div class="sport-create-l">
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "myLinkBack" })
 </div>
