@@ -17,22 +17,38 @@ namespace SportStatistics.Controllers
         // GET: Sports
         public ActionResult Index()
         {
-            return View(db.Sports.ToList());
+            try
+            {
+                return View(db.Sports.ToList());
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: Sports/Details/5
         public ActionResult Details(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                Sport sport = db.Sports.Find(id);
+                if (sport == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(sport);
             }
-            Sport sport = db.Sports.Find(id);
-            if (sport == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(sport);
         }
 
         // GET: Sports/Create
@@ -48,36 +64,51 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "SportId,NameSportString")] Sport sport)
         {
-            if (ModelState.IsValid)
+            try
             {
-                string cmpr = sport.NameSportString;
-                var search = from c in db.Sports
-                             where c.NameSportString == cmpr
-                             select c;
-                if (search.Count() < 1)
+                if (ModelState.IsValid)
                 {
-                    db.Sports.Add(sport);
-                    db.SaveChanges();
+                    string cmpr = sport.NameSportString;
+                    var search = from c in db.Sports
+                                 where c.NameSportString == cmpr
+                                 select c;
+                    if (search.Count() < 1)
+                    {
+                        db.Sports.Add(sport);
+                        db.SaveChanges();
+                    }
+                    return RedirectToAction("Index");
                 }
-                return RedirectToAction("Index");
+                return View(sport);
             }
-
-            return View(sport);
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: Sports/Edit/5
         public ActionResult Edit(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                Sport sport = db.Sports.Find(id);
+                if (sport == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(sport);
             }
-            Sport sport = db.Sports.Find(id);
-            if (sport == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(sport);
         }
 
         // POST: Sports/Edit/5
@@ -87,28 +118,44 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "SportId,NameSportString")] Sport sport)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Entry(sport).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    db.Entry(sport).State = EntityState.Modified;
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                return View(sport);
             }
-            return View(sport);
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: Sports/Delete/5
         public ActionResult Delete(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                Sport sport = db.Sports.Find(id);
+                if (sport == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(sport);
             }
-            Sport sport = db.Sports.Find(id);
-            if (sport == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(sport);
         }
 
         // POST: Sports/Delete/5
@@ -116,10 +163,18 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Sport sport = db.Sports.Find(id);
-            db.Sports.Remove(sport);
-            db.SaveChanges();
-            return RedirectToAction("Index");
+            try
+            {
+                Sport sport = db.Sports.Find(id);
+                db.Sports.Remove(sport);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         protected override void Dispose(bool disposing)

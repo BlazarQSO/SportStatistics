@@ -50,7 +50,7 @@
                 @Html.LabelFor(model => model.Age, htmlAttributes: new { @class = "myTitleText" })
             </div>
             <div>
-                @Html.EditorFor(model => model.Age, new { htmlAttributes = new { @class = "myContent-field" } })
+                @Html.EditorFor(model => model.Age, new { htmlAttributes = new { @class = "myContent-field", @type = "number", @min = 0, @Value = 0 } })
                 @Html.ValidationMessageFor(model => model.Age, "", new { @class = "myValid2" })
             </div>
         </div>
@@ -70,7 +70,7 @@
                 @Html.LabelFor(model => model.Weight, htmlAttributes: new { @class = "myTitleText" })
             </div>
             <div>
-                @Html.EditorFor(model => model.Weight, new { htmlAttributes = new { @class = "myContent-field" } })
+                @Html.EditorFor(model => model.Weight, new { htmlAttributes = new { @class = "myContent-field", @type = "number", @min = 0, @Value = 0 } })
                 @Html.ValidationMessageFor(model => model.Weight, "", new { @class = "myValid2" })
             </div>
         </div>
@@ -80,7 +80,7 @@
                 @Html.LabelFor(model => model.Height, htmlAttributes: new { @class = "myTitleText" })
             </div>
             <div>
-                @Html.EditorFor(model => model.Height, new { htmlAttributes = new { @class = "myContent-field" } })
+                @Html.EditorFor(model => model.Height, new { htmlAttributes = new { @class = "myContent-field", @type = "number", @min = 0, @Value = 0 } })
                 @Html.ValidationMessageFor(model => model.Height, "", new { @class = "myValid2" })
             </div>
         </div>

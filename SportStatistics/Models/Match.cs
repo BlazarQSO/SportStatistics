@@ -81,7 +81,7 @@ namespace SportStatistics.Models
             }
             set
             {
-                if (value != "")
+                if (value != "" && value != null)
                 {
                     ListHomePlayers = value.Split(',').ToList();
                 }
@@ -107,7 +107,7 @@ namespace SportStatistics.Models
             }
             set
             {
-                if (value != "")
+                if (value != "" && value != null)
                 {
                     ListAwayPlayers = value.Split(',').ToList();
                 }
@@ -133,7 +133,7 @@ namespace SportStatistics.Models
             }
             set
             {
-                if (value != "")
+                if (value != "" && value != null)
                 {
                     ListTimeLineHome = value.Split(',').ToList();
                 }
@@ -159,7 +159,7 @@ namespace SportStatistics.Models
             }
             set
             {
-                if (value != "")
+                if (value != "" && value != null)
                 {
                     ListTimeLineAway = value.Split(',').ToList();
                 }

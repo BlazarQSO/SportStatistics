@@ -17,30 +17,54 @@ namespace SportStatistics.Controllers
         // GET: SportFederations
         public ActionResult Index()
         {
-            var sportFederations = db.SportFederations.Include(s => s.Sport);
-            return View(sportFederations.ToList());
+            try
+            {
+                var sportFederations = db.SportFederations.Include(s => s.Sport);
+                return View(sportFederations.ToList());
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: SportFederations/Details/5
         public ActionResult Details(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                SportFederation sportFederation = db.SportFederations.Find(id);
+                if (sportFederation == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(sportFederation);
             }
-            SportFederation sportFederation = db.SportFederations.Find(id);
-            if (sportFederation == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(sportFederation);
         }
 
         // GET: SportFederations/Create
         public ActionResult Create()
         {
-            ViewBag.SportId = new SelectList(db.Sports, "SportId", "NameSportString");
-            return View();
+            try
+            {
+                ViewBag.SportId = new SelectList(db.Sports, "SportId", "NameSportString");
+                return View();
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // POST: SportFederations/Create
@@ -50,31 +74,51 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "SportFederationId,NameSportString,Country,FoundationDate,NamePresident,SportId")] SportFederation sportFederation)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.SportFederations.Add(sportFederation);
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
+                if (string.IsNullOrEmpty(sportFederation.Country))
+                {
+                    ModelState.AddModelError("Country", "Enter Country or Federation");
+                }
+                if (ModelState.IsValid)
+                {
+                    db.SportFederations.Add(sportFederation);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
 
-            ViewBag.SportId = new SelectList(db.Sports, "SportId", "NameSportString", sportFederation.SportId);
-            return View(sportFederation);
+                ViewBag.SportId = new SelectList(db.Sports, "SportId", "NameSportString", sportFederation.SportId);
+                return View(sportFederation);
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: SportFederations/Edit/5
         public ActionResult Edit(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                SportFederation sportFederation = db.SportFederations.Find(id);
+                if (sportFederation == null)
+                {
+                    return HttpNotFound();
+                }
+                ViewBag.SportId = new SelectList(db.Sports, "SportId", "NameSportString", sportFederation.SportId);
+                return View(sportFederation);
             }
-            SportFederation sportFederation = db.SportFederations.Find(id);
-            if (sportFederation == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            ViewBag.SportId = new SelectList(db.Sports, "SportId", "NameSportString", sportFederation.SportId);
-            return View(sportFederation);
         }
 
         // POST: SportFederations/Edit/5
@@ -84,29 +128,49 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "SportFederationId,NameSportString,Country,FoundationDate,NamePresident,SportId")] SportFederation sportFederation)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Entry(sportFederation).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                if (string.IsNullOrEmpty(sportFederation.Country))
+                {
+                    ModelState.AddModelError("Country", "Enter Country or Federation");
+                }
+                if (ModelState.IsValid)
+                {
+                    db.Entry(sportFederation).State = EntityState.Modified;
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                ViewBag.SportId = new SelectList(db.Sports, "SportId", "NameSportString", sportFederation.SportId);
+                return View(sportFederation);
             }
-            ViewBag.SportId = new SelectList(db.Sports, "SportId", "NameSportString", sportFederation.SportId);
-            return View(sportFederation);
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: SportFederations/Delete/5
         public ActionResult Delete(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                SportFederation sportFederation = db.SportFederations.Find(id);
+                if (sportFederation == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(sportFederation);
             }
-            SportFederation sportFederation = db.SportFederations.Find(id);
-            if (sportFederation == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(sportFederation);
         }
 
         // POST: SportFederations/Delete/5
@@ -114,10 +178,18 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            SportFederation sportFederation = db.SportFederations.Find(id);
-            db.SportFederations.Remove(sportFederation);
-            db.SaveChanges();
-            return RedirectToAction("Index");
+            try
+            {
+                SportFederation sportFederation = db.SportFederations.Find(id);
+                db.SportFederations.Remove(sportFederation);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         protected override void Dispose(bool disposing)

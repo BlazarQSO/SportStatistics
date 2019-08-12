@@ -17,30 +17,54 @@ namespace SportStatistics.Controllers
         // GET: FederationSeasons
         public ActionResult Index()
         {
-            var federationSeasons = db.FederationSeasons.Include(f => f.SportFederation);
-            return View(federationSeasons.ToList());
+            try
+            {
+                var federationSeasons = db.FederationSeasons.Include(f => f.SportFederation);
+                return View(federationSeasons.ToList());
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: FederationSeasons/Details/5
         public ActionResult Details(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                FederationSeason federationSeason = db.FederationSeasons.Find(id);
+                if (federationSeason == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(federationSeason);
             }
-            FederationSeason federationSeason = db.FederationSeasons.Find(id);
-            if (federationSeason == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(federationSeason);
         }
 
         // GET: FederationSeasons/Create
         public ActionResult Create()
         {
-            ViewBag.SportFederationId = new SelectList(db.SportFederations, "SportFederationId", "NameSportString");
-            return View();
+            try
+            {
+                ViewBag.SportFederationId = new SelectList(db.SportFederations, "SportFederationId", "NameSportString");
+                return View();
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // POST: FederationSeasons/Create
@@ -50,31 +74,47 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "FederationSeasonId,TournamentString,NameTournament,SeasonString,SportFederationId")] FederationSeason federationSeason)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.FederationSeasons.Add(federationSeason);
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
+                if (ModelState.IsValid)
+                {
+                    db.FederationSeasons.Add(federationSeason);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
 
-            ViewBag.SportFederationId = new SelectList(db.SportFederations, "SportFederationId", "NameSportString", federationSeason.SportFederationId);
-            return View(federationSeason);
+                ViewBag.SportFederationId = new SelectList(db.SportFederations, "SportFederationId", "NameSportString", federationSeason.SportFederationId);
+                return View(federationSeason);
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: FederationSeasons/Edit/5
         public ActionResult Edit(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                FederationSeason federationSeason = db.FederationSeasons.Find(id);
+                if (federationSeason == null)
+                {
+                    return HttpNotFound();
+                }
+                ViewBag.SportFederationId = new SelectList(db.SportFederations, "SportFederationId", "NameSportString", federationSeason.SportFederationId);
+                return View(federationSeason);
             }
-            FederationSeason federationSeason = db.FederationSeasons.Find(id);
-            if (federationSeason == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            ViewBag.SportFederationId = new SelectList(db.SportFederations, "SportFederationId", "NameSportString", federationSeason.SportFederationId);
-            return View(federationSeason);
         }
 
         // POST: FederationSeasons/Edit/5
@@ -84,29 +124,45 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "FederationSeasonId,TournamentString,NameTournament,SeasonString,SportFederationId")] FederationSeason federationSeason)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Entry(federationSeason).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    db.Entry(federationSeason).State = EntityState.Modified;
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                ViewBag.SportFederationId = new SelectList(db.SportFederations, "SportFederationId", "NameSportString", federationSeason.SportFederationId);
+                return View(federationSeason);
             }
-            ViewBag.SportFederationId = new SelectList(db.SportFederations, "SportFederationId", "NameSportString", federationSeason.SportFederationId);
-            return View(federationSeason);
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: FederationSeasons/Delete/5
         public ActionResult Delete(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                FederationSeason federationSeason = db.FederationSeasons.Find(id);
+                if (federationSeason == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(federationSeason);
             }
-            FederationSeason federationSeason = db.FederationSeasons.Find(id);
-            if (federationSeason == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(federationSeason);
         }
 
         // POST: FederationSeasons/Delete/5
@@ -114,10 +170,18 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            FederationSeason federationSeason = db.FederationSeasons.Find(id);
-            db.FederationSeasons.Remove(federationSeason);
-            db.SaveChanges();
-            return RedirectToAction("Index");
+            try
+            {
+                FederationSeason federationSeason = db.FederationSeasons.Find(id);
+                db.FederationSeasons.Remove(federationSeason);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         protected override void Dispose(bool disposing)

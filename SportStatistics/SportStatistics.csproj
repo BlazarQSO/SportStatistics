@@ -971,7 +971,6 @@
     <Content Include="Views\SportFederations\Edit.cshtml" />
     <Content Include="Views\SportFederations\Index.cshtml" />
     <Content Include="Views\FederationSeasons\Delete.cshtml" />
-    <Content Include="Views\FederationSeasons\Edit.cshtml" />
     <Content Include="Views\FederationSeasons\Index.cshtml" />
     <Content Include="Views\Matches\Create.cshtml" />
     <Content Include="Views\Matches\Delete.cshtml" />

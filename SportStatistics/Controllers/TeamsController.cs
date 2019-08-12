@@ -17,22 +17,38 @@ namespace SportStatistics.Controllers
         // GET: Teams
         public ActionResult Index()
         {
-            return View(db.Teams.ToList());
+            try
+            {
+                return View(db.Teams.ToList());
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: Teams/Details/5
         public ActionResult Details(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                Team team = db.Teams.Find(id);
+                if (team == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(team);
             }
-            Team team = db.Teams.Find(id);
-            if (team == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(team);
         }
 
         // GET: Teams/Create
@@ -47,45 +63,72 @@ namespace SportStatistics.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "TeamId,NameSportString,Name,Country,City,NameStadium,FoundationDate")] Team team, HttpPostedFileBase upload)
-        {           
-            if (upload != null)
+        {
+            try
             {
-                string fileName = System.IO.Path.GetFileName(upload.FileName);
-                int index = fileName.LastIndexOf(".");
-                fileName = fileName.Substring(index).ToLower();
-                if (fileName != ".jpg" && fileName != ".png" && fileName != ".jpeg" && fileName != ".gif")
+                string fileName = "";
+                if (upload != null)
                 {
-                    ModelState.AddModelError("TeamId", "Allowed only: jpg, png, jpeg, gif");
+                    fileName = System.IO.Path.GetFileName(upload.FileName);
+                    int index = fileName.LastIndexOf(".");
+                    fileName = fileName.Substring(index).ToLower();
+                    if (fileName != ".jpg" && fileName != ".png" && fileName != ".jpeg" && fileName != ".gif")
+                    {
+                        ModelState.AddModelError("TeamId", "Allowed only: jpg, png, jpeg, gif");
+                    }
                 }
+                if (string.IsNullOrEmpty(team.Name))
+                {
+                    ModelState.AddModelError("Name", "Enter the Name");
+                }
+                if (string.IsNullOrEmpty(team.Country))
+                {
+                    ModelState.AddModelError("Country", "Enter the Country");
+                }
+
+                if (ModelState.IsValid)
+                {
+                    db.Teams.Add(team);
+                    db.SaveChanges();
+
+                    if (fileName != "")
+                    {
+                        int last = (from c in db.Teams select c.TeamId).ToList().Last();
+                        upload.SaveAs(Server.MapPath("~/images/teams/" + last + ".jpg"));
+                    }
+                    return RedirectToAction("Index");
+                }
+
+                return View(team);
             }
-           
-            if (ModelState.IsValid)
+            catch (Exception e)
             {
-                db.Teams.Add(team);
-                db.SaveChanges();
-                int last = (from c in db.Teams select c.TeamId).ToList().Last();                
-                
-                upload.SaveAs(Server.MapPath("~/images/teams/" + last + ".jpg"));
-
-                return RedirectToAction("Index");
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-
-            return View(team);
         }
 
         // GET: Teams/Edit/5
         public ActionResult Edit(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                Team team = db.Teams.Find(id);
+                if (team == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(team);
             }
-            Team team = db.Teams.Find(id);
-            if (team == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(team);
         }
 
         // POST: Teams/Edit/5
@@ -93,30 +136,70 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "TeamId,NameSportString,Name,Country,City,NameStadium,FoundationDate")] Team team)
+        public ActionResult Edit([Bind(Include = "TeamId,NameSportString,Name,Country,City,NameStadium,FoundationDate")] Team team, HttpPostedFileBase upload)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Entry(team).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                string fileName = "";
+                if (upload != null)
+                {
+                    fileName = System.IO.Path.GetFileName(upload.FileName);
+                    int index = fileName.LastIndexOf(".");
+                    fileName = fileName.Substring(index).ToLower();
+                    if (fileName != ".jpg" && fileName != ".png" && fileName != ".jpeg" && fileName != ".gif")
+                    {
+                        ModelState.AddModelError("TeamId", "Allowed only: jpg, png, jpeg, gif");
+                    }
+                }
+                if (string.IsNullOrEmpty(team.Name))
+                {
+                    ModelState.AddModelError("Name", "Enter the Name");
+                }
+                if (string.IsNullOrEmpty(team.Country))
+                {
+                    ModelState.AddModelError("Country", "Enter the Country");
+                }
+
+                if (ModelState.IsValid)
+                {
+                    db.Entry(team).State = EntityState.Modified;
+                    db.SaveChanges();
+                    if (fileName != "")
+                    {
+                        upload.SaveAs(Server.MapPath("~/images/teams/" + team.TeamId + ".jpg"));
+                    }
+                    return RedirectToAction("Index");
+                }
+                return View(team);
             }
-            return View(team);
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: Teams/Delete/5
         public ActionResult Delete(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                Team team = db.Teams.Find(id);
+                if (team == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(team);
             }
-            Team team = db.Teams.Find(id);
-            if (team == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(team);
         }
 
         // POST: Teams/Delete/5
@@ -124,10 +207,18 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Team team = db.Teams.Find(id);
-            db.Teams.Remove(team);
-            db.SaveChanges();
-            return RedirectToAction("Index");
+            try
+            {
+                Team team = db.Teams.Find(id);
+                db.Teams.Remove(team);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         protected override void Dispose(bool disposing)

@@ -17,31 +17,55 @@ namespace SportStatistics.Controllers
         // GET: TeamSeasons
         public ActionResult Index()
         {
-            var teamSeasons = db.TeamSeasons.Include(t => t.FederationSeason).Include(t => t.Team);
-            return View(teamSeasons.ToList());
+            try
+            {
+                var teamSeasons = db.TeamSeasons.Include(t => t.FederationSeason).Include(t => t.Team);
+                return View(teamSeasons.ToList());
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: TeamSeasons/Details/5
         public ActionResult Details(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                TeamSeason teamSeason = db.TeamSeasons.Find(id);
+                if (teamSeason == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(teamSeason);
             }
-            TeamSeason teamSeason = db.TeamSeasons.Find(id);
-            if (teamSeason == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(teamSeason);
         }
 
         // GET: TeamSeasons/Create
         public ActionResult Create()
         {
-            ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "TournamentString");
-            ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "NameSportString");
-            return View();
+            try
+            {
+                ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "TournamentString");
+                ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "NameSportString");
+                return View();
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // POST: TeamSeasons/Create
@@ -51,33 +75,49 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "TeamSeasonId,NameTeam,SeasonString,Played,HomePlayed,Point,HomePoint,Win,HomeWin,Draw,HomeDraw,Lose,HomeLose,Goals,HomeGoals,GoalAgainst,HomeGoalAgainst,TeamId,FederationSeasonId")] TeamSeason teamSeason)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.TeamSeasons.Add(teamSeason);
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
+                if (ModelState.IsValid)
+                {
+                    db.TeamSeasons.Add(teamSeason);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
 
-            ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "TournamentString", teamSeason.FederationSeasonId);
-            ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "NameSportString", teamSeason.TeamId);
-            return View(teamSeason);
+                ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "TournamentString", teamSeason.FederationSeasonId);
+                ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "NameSportString", teamSeason.TeamId);
+                return View(teamSeason);
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: TeamSeasons/Edit/5
         public ActionResult Edit(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                TeamSeason teamSeason = db.TeamSeasons.Find(id);
+                if (teamSeason == null)
+                {
+                    return HttpNotFound();
+                }
+                ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "TournamentString", teamSeason.FederationSeasonId);
+                ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "NameSportString", teamSeason.TeamId);
+                return View(teamSeason);
             }
-            TeamSeason teamSeason = db.TeamSeasons.Find(id);
-            if (teamSeason == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "TournamentString", teamSeason.FederationSeasonId);
-            ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "NameSportString", teamSeason.TeamId);
-            return View(teamSeason);
         }
 
         // POST: TeamSeasons/Edit/5
@@ -87,30 +127,62 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "TeamSeasonId,NameTeam,SeasonString,Played,HomePlayed,Point,HomePoint,Win,HomeWin,Draw,HomeDraw,Lose,HomeLose,Goals,HomeGoals,GoalAgainst,HomeGoalAgainst,TeamId,FederationSeasonId")] TeamSeason teamSeason)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Entry(teamSeason).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    TeamSeason find = db.TeamSeasons.Find(teamSeason.TeamSeasonId);
+
+                    find.Draw = teamSeason.Draw;
+                    find.GoalAgainst = teamSeason.GoalAgainst;
+                    find.Goals = teamSeason.Goals;
+                    find.HomeDraw = teamSeason.HomeDraw;
+                    find.HomeGoalAgainst = teamSeason.HomeGoalAgainst;
+                    find.HomeGoals = teamSeason.HomeGoals;
+                    find.HomeLose = teamSeason.HomeLose;
+                    find.HomePlayed = teamSeason.HomePlayed;
+                    find.HomePoint = teamSeason.HomePoint;
+                    find.HomeWin = teamSeason.HomeWin;
+                    find.Lose = teamSeason.Lose;
+                    find.Played = teamSeason.Played;
+                    find.Point = teamSeason.Point;
+                    find.Win = teamSeason.Win;
+                    db.Entry(find).State = EntityState.Modified;
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "TournamentString", teamSeason.FederationSeasonId);
+                ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "NameSportString", teamSeason.TeamId);
+                return View(teamSeason);
             }
-            ViewBag.FederationSeasonId = new SelectList(db.FederationSeasons, "FederationSeasonId", "TournamentString", teamSeason.FederationSeasonId);
-            ViewBag.TeamId = new SelectList(db.Teams, "TeamId", "NameSportString", teamSeason.TeamId);
-            return View(teamSeason);
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: TeamSeasons/Delete/5
         public ActionResult Delete(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                TeamSeason teamSeason = db.TeamSeasons.Find(id);
+                if (teamSeason == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(teamSeason);
             }
-            TeamSeason teamSeason = db.TeamSeasons.Find(id);
-            if (teamSeason == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(teamSeason);
         }
 
         // POST: TeamSeasons/Delete/5
@@ -118,10 +190,18 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            TeamSeason teamSeason = db.TeamSeasons.Find(id);
-            db.TeamSeasons.Remove(teamSeason);
-            db.SaveChanges();
-            return RedirectToAction("Index");
+            try
+            {
+                TeamSeason teamSeason = db.TeamSeasons.Find(id);
+                db.TeamSeasons.Remove(teamSeason);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         protected override void Dispose(bool disposing)

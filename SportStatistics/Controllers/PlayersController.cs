@@ -17,22 +17,38 @@ namespace SportStatistics.Controllers
         // GET: Players
         public ActionResult Index()
         {
-            return View(db.Players.ToList());
+            try
+            {
+                return View(db.Players.ToList());
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: Players/Details/5
         public ActionResult Details(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                Player player = db.Players.Find(id);
+                if (player == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(player);
             }
-            Player player = db.Players.Find(id);
-            if (player == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(player);
         }
 
         // GET: Players/Create
@@ -48,45 +64,66 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "PlayerId,NameSportString,Name,Surname,Birthday,Age,Nationality,Weight,Height,PositionString")] Player player, HttpPostedFileBase upload)
         {
-            string fileName = "";
-            if (upload != null)
+            try
             {
-                fileName = System.IO.Path.GetFileName(upload.FileName);
-                int index = fileName.LastIndexOf(".");
-                fileName = fileName.Substring(index).ToLower();
-                if (fileName != ".jpg" && fileName != ".png" && fileName != ".jpeg" && fileName != ".gif")
+                string fileName = "";
+                if (upload != null)
                 {
-                    ModelState.AddModelError("PlayerId", "allowed only: .jpg, .png, .jpeg, .gif");
+                    fileName = System.IO.Path.GetFileName(upload.FileName);
+                    int index = fileName.LastIndexOf(".");
+                    fileName = fileName.Substring(index).ToLower();
+                    if (fileName != ".jpg" && fileName != ".png" && fileName != ".jpeg" && fileName != ".gif")
+                    {
+                        ModelState.AddModelError("PlayerId", "allowed only: .jpg, .png, .jpeg, .gif");
+                    }
                 }
-            }
-            if (ModelState.IsValid)
-            {                
-                db.Players.Add(player);
-                db.SaveChanges();
-                int last = (from c in db.Players select c.PlayerId).ToList().Last();
-                if (fileName != null)
+                if (string.IsNullOrEmpty(player.Name))
                 {
-                    upload.SaveAs(Server.MapPath("~/images/players/" + last + ".jpg"));
+                    ModelState.AddModelError("Name", "Enter the Name");
                 }
-                return RedirectToAction("Index");
-            }
 
-            return View(player);
+                if (ModelState.IsValid)
+                {
+                    db.Players.Add(player);
+                    db.SaveChanges();
+                    int last = (from c in db.Players select c.PlayerId).ToList().Last();
+                    if (fileName != "")
+                    {
+                        upload.SaveAs(Server.MapPath("~/images/players/" + last + ".jpg"));
+                    }
+                    return RedirectToAction("Index");
+                }
+
+                return View(player);
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: Players/Edit/5
         public ActionResult Edit(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                Player player = db.Players.Find(id);
+                if (player == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(player);
             }
-            Player player = db.Players.Find(id);
-            if (player == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(player);
         }
 
         // POST: Players/Edit/5
@@ -94,30 +131,65 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "PlayerId,NameSportString,Name,Surname,Birthday,Age,Nationality,Weight,Height,PositionString")] Player player)
+        public ActionResult Edit([Bind(Include = "PlayerId,NameSportString,Name,Surname,Birthday,Age,Nationality,Weight,Height,PositionString")] Player player, HttpPostedFileBase upload)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Entry(player).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                string fileName = "";
+                if (upload != null)
+                {
+                    fileName = System.IO.Path.GetFileName(upload.FileName);
+                    int index = fileName.LastIndexOf(".");
+                    fileName = fileName.Substring(index).ToLower();
+                    if (fileName != ".jpg" && fileName != ".png" && fileName != ".jpeg" && fileName != ".gif")
+                    {
+                        ModelState.AddModelError("PlayerId", "allowed only: .jpg, .png, .jpeg, .gif");
+                    }
+                }
+                if (string.IsNullOrEmpty(player.Name))
+                {
+                    ModelState.AddModelError("Name", "Enter the Name");
+                }
+                if (ModelState.IsValid)
+                {
+                    db.Entry(player).State = EntityState.Modified;
+                    db.SaveChanges();
+                    if (fileName != "")
+                    {
+                        upload.SaveAs(Server.MapPath("~/images/players/" + player.PlayerId + ".jpg"));
+                    }
+                    return RedirectToAction("Index");
+                }
+                return View(player);
             }
-            return View(player);
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: Players/Delete/5
         public ActionResult Delete(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                Player player = db.Players.Find(id);
+                if (player == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(player);
             }
-            Player player = db.Players.Find(id);
-            if (player == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(player);
         }
 
         // POST: Players/Delete/5
@@ -125,10 +197,18 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Player player = db.Players.Find(id);
-            db.Players.Remove(player);
-            db.SaveChanges();
-            return RedirectToAction("Index");
+            try
+            {
+                Player player = db.Players.Find(id);
+                db.Players.Remove(player);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         protected override void Dispose(bool disposing)

@@ -7,9 +7,13 @@
 
 <h2 class="myTitleComic">Edit</h2>
 
-@using (Html.BeginForm())
+@using (Html.BeginForm("Edit", "Teams", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken()
+
+    <div class="team-imgE">
+        <img src="@String.Concat("/images/teams/", Convert.ToString(Model.TeamId), ".jpg")" class="imageShow" alt="" />
+    </div>
 
     <div class="sport-delete sport-div">
         <label class="mTitle">Team</label>
@@ -17,6 +21,15 @@
         @Html.ValidationSummary(true, "", new { @class = "myValid2" })
         @Html.HiddenFor(model => model.TeamId)
 
+        <div>
+            <div>
+                @Html.Label("Name Sport", htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                @Html.EnumDropDownListFor(model => model.NameSport, htmlAttributes: new { @class = "mySelect" })                
+            </div>
+        </div>
+        
         <div>
             <div>
                 @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "myTitleText" })
@@ -66,12 +79,23 @@
                 @Html.ValidationMessageFor(model => model.FoundationDate, "", new { @class = "myValid2" })
             </div>
         </div>
+
+        <div>
+            <div>
+                @Html.Label("Upload a photo", htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                <input type="file" name="upload" class="myContent-field" />
+                @Html.ValidationMessageFor(model => model.TeamId, "", new { @class = "myValid2" })
+            </div>
+        </div>
     </div>
+    <br class="clear" />
+    <p class="mid">
+        <input type="submit" value="Save" class="myButtonInfo" />
+    </p>
 }
-<br class="clear" />
-<p class="mid">
-    <input type="submit" value="Save" class="myButtonInfo" />
-</p>
+
 <div class="sport-create-l">
     @Html.ActionLink("Back to List", "Index", null, new { @class = "myLinkBack" })
 </div>

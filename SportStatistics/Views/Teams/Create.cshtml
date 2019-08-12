@@ -15,6 +15,16 @@
         <label class="mTitle">Team</label>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "myValid2" })
+
+        <div>
+            <div>
+                @Html.Label("Name Sport", htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                @Html.EnumDropDownListFor(model => model.NameSport, htmlAttributes: new { @class = "mySelect" })
+            </div>
+        </div>
+
         <div>
             <div>
                 @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "myTitleText" })
@@ -71,15 +81,16 @@
             </div>            
             <div>
                 <input type="file" name="upload" class="myContent-field" />                
-                @Html.ValidationMessageFor(model => model.TeamId, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(model => model.TeamId, "", new { @class = "myValid2" })
             </div>
         </div>
     </div>
+    <br class="clear" />
+    <p class="mid">
+        <input type="submit" value="Create" class="myButtonInfo" />
+    </p>
 }
-<br class="clear" />
-<p class="mid">
-    <input type="submit" value="Create" class="myButtonInfo" />
-</p>
+
 <div class="sport-create-l">
     @Html.ActionLink("Back to List", "Index", null, new { @class = "myLinkBack" })
 </div>

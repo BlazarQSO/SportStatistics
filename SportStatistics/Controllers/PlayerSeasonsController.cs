@@ -17,31 +17,55 @@ namespace SportStatistics.Controllers
         // GET: PlayerSeasons
         public ActionResult Index()
         {
-            var playerSeasons = db.PlayerSeasons.Include(p => p.Player).Include(p => p.TeamSeason);
-            return View(playerSeasons.ToList());
+            try
+            {
+                var playerSeasons = db.PlayerSeasons.Include(p => p.Player).Include(p => p.TeamSeason);
+                return View(playerSeasons.ToList());
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: PlayerSeasons/Details/5
         public ActionResult Details(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                PlayerSeason playerSeason = db.PlayerSeasons.Find(id);
+                if (playerSeason == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(playerSeason);
             }
-            PlayerSeason playerSeason = db.PlayerSeasons.Find(id);
-            if (playerSeason == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(playerSeason);
         }
 
         // GET: PlayerSeasons/Create
         public ActionResult Create()
         {
-            ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString");
-            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameTeam");
-            return View();
+            try
+            {
+                ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString");
+                ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameTeam");
+                return View();
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // POST: PlayerSeasons/Create
@@ -51,33 +75,49 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "PlayerSeasonId,SeasonString,GamedMatches,Goals,Assists,PlayerId,TeamSeasonId")] PlayerSeason playerSeason)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.PlayerSeasons.Add(playerSeason);
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
+                if (ModelState.IsValid)
+                {
+                    db.PlayerSeasons.Add(playerSeason);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
 
-            ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString", playerSeason.PlayerId);
-            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameTeam", playerSeason.TeamSeasonId);
-            return View(playerSeason);
+                ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString", playerSeason.PlayerId);
+                ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameTeam", playerSeason.TeamSeasonId);
+                return View(playerSeason);
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: PlayerSeasons/Edit/5
         public ActionResult Edit(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                PlayerSeason playerSeason = db.PlayerSeasons.Find(id);
+                if (playerSeason == null)
+                {
+                    return HttpNotFound();
+                }
+                ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString", playerSeason.PlayerId);
+                ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameTeam", playerSeason.TeamSeasonId);
+                return View(playerSeason);
             }
-            PlayerSeason playerSeason = db.PlayerSeasons.Find(id);
-            if (playerSeason == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString", playerSeason.PlayerId);
-            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameTeam", playerSeason.TeamSeasonId);
-            return View(playerSeason);
         }
 
         // POST: PlayerSeasons/Edit/5
@@ -87,30 +127,52 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "PlayerSeasonId,SeasonString,GamedMatches,Goals,Assists,PlayerId,TeamSeasonId")] PlayerSeason playerSeason)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Entry(playerSeason).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    PlayerSeason find = db.PlayerSeasons.Find(playerSeason.PlayerSeasonId);
+                    find.Assists = playerSeason.Assists;
+                    find.GamedMatches = playerSeason.GamedMatches;
+                    find.Goals = playerSeason.Goals;
+                    db.Entry(find).State = EntityState.Modified;
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                Player player = new Player();
+                player.Name = (string)TempData["Name"];
+                player.Surname = (string)TempData["Surname"];
+                playerSeason.Player = player;
+                return View(playerSeason);
             }
-            ViewBag.PlayerId = new SelectList(db.Players, "PlayerId", "NameSportString", playerSeason.PlayerId);
-            ViewBag.TeamSeasonId = new SelectList(db.TeamSeasons, "TeamSeasonId", "NameTeam", playerSeason.TeamSeasonId);
-            return View(playerSeason);
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // GET: PlayerSeasons/Delete/5
         public ActionResult Delete(int? id)
         {
-            if (id == null)
+            try
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                PlayerSeason playerSeason = db.PlayerSeasons.Find(id);
+                if (playerSeason == null)
+                {
+                    return HttpNotFound();
+                }
+                return View(playerSeason);
             }
-            PlayerSeason playerSeason = db.PlayerSeasons.Find(id);
-            if (playerSeason == null)
+            catch (Exception e)
             {
-                return HttpNotFound();
+                ViewBag.Error = e.Message;
+                return View("Error");
             }
-            return View(playerSeason);
         }
 
         // POST: PlayerSeasons/Delete/5
@@ -118,10 +180,18 @@ namespace SportStatistics.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            PlayerSeason playerSeason = db.PlayerSeasons.Find(id);
-            db.PlayerSeasons.Remove(playerSeason);
-            db.SaveChanges();
-            return RedirectToAction("Index");
+            try
+            {
+                PlayerSeason playerSeason = db.PlayerSeasons.Find(id);
+                db.PlayerSeasons.Remove(playerSeason);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         protected override void Dispose(bool disposing)
