@@ -40,8 +40,8 @@
             <div>
                 @Html.Label("Season", htmlAttributes: new { @class = "myTitleText" })
             </div>
-            <div>
-                @Html.EnumDropDownListFor(model => model.Season, htmlAttributes: new { @class = "mySelect" })
+            <div>                
+                @Html.DropDownList("myList", null, htmlAttributes: new { @class = "mySelect" })
                 @Html.ValidationMessageFor(model => model.Season, "", new { @class = "myValid2" })
             </div>
         </div>
@@ -100,7 +100,7 @@
             <div>
                 @Html.LabelFor(model => model.HomeTeam, htmlAttributes: new { @class = "myTitleText" })
             </div>
-            <div class="col-md-10">
+            <div>
                 @Html.EditorFor(model => model.HomeTeam, new { htmlAttributes = new { @class = "myContent-field" } })
                 @Html.ValidationMessageFor(model => model.HomeTeam, "", new { @class = "myValid2" })
             </div>

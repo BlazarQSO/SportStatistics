@@ -41,7 +41,7 @@ namespace SportStatistics.Models
 
     public enum Tournament : byte
     {
-        League = 1,
+        League,
         Cup,
         SuperCup,
         ChampionsLeague,

@@ -54,7 +54,25 @@ namespace SportStatistics.Controllers
         // GET: Matches/Create
         public ActionResult Create()
         {
-            return View();
+            try
+            {
+                int[] array = new int[Enum.GetValues(typeof(Season)).Length];
+                int i = 0;
+                foreach (Season item in Enum.GetValues(typeof(Season)))
+                {
+                    array[i] = (int)item;
+                    i++;
+                }
+
+                ViewData["myList"] = new SelectList(array.Select(x => new { value = x, text = x + "/" + (x + 1) }),
+                                                    "value", "text", "2018");
+                return View();
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
         }
 
         // POST: Matches/Create
@@ -62,10 +80,11 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "MatchId,NameSportString,Country,SeasonString,TournamentString,NameTournament,Tour,Date,NameStadium,HomeTeam,AwayTeam,HomeTeamGoal,AwayTeamGoal,HomeTeamResultString,AwayTeamResultString,HomePlayers,AwayPlayers,TimeLineHome,TimeLineAway")] Match match)
+        public ActionResult Create([Bind(Include = "MatchId,NameSportString,Country,SeasonString,TournamentString,NameTournament,Tour,Date,NameStadium,HomeTeam,AwayTeam,HomeTeamGoal,AwayTeamGoal,HomeTeamResultString,AwayTeamResultString,HomePlayers,AwayPlayers,TimeLineHome,TimeLineAway")] Match match, FormCollection collection)
         {
             try
             {
+                string season = collection[4];
                 if (string.IsNullOrEmpty(match.HomeTeam))
                 {
                     ModelState.AddModelError("HomeTeam", "Enter the data");
@@ -116,21 +135,29 @@ namespace SportStatistics.Controllers
                         ModelState.AddModelError("Country", "Federation not found");
                     }
                 }
-                if (match.SeasonString == "0")
+                if (season == "" || season == null)
                 {
                     ModelState.AddModelError("Season", "Choose a season");
-                }
-                if (match.TournamentString == "0")
-                {
-                    ModelState.AddModelError("Tournament", "Choose a Tournament");
                 }
 
                 if (ModelState.IsValid)
                 {
+                    match.Season = season.ParseEnum<Season>();
                     db.Matches.Add(match);
                     db.SaveChanges();
                     return RedirectToAction("Index");
                 }
+
+                int[] array = new int[Enum.GetValues(typeof(Season)).Length];
+                int i = 0;
+                foreach (Season item in Enum.GetValues(typeof(Season)))
+                {
+                    array[i] = (int)item;
+                    i++;
+                }
+
+                ViewData["myList"] = new SelectList(array.Select(x => new { value = x, text = x + "/" + (x + 1) }),
+                                                    "value", "text", season);
 
                 return View(match);
             }
@@ -155,6 +182,18 @@ namespace SportStatistics.Controllers
                 {
                     return HttpNotFound();
                 }
+
+                int[] array = new int[Enum.GetValues(typeof(Season)).Length];
+                int i = 0;
+                foreach (Season item in Enum.GetValues(typeof(Season)))
+                {
+                    array[i] = (int)item;
+                    i++;
+                }
+                string season = (int)match.Season + "";
+                ViewData["myList"] = new SelectList(array.Select(x => new { value = x, text = x + "/" + (x+1) }),
+                                                    "value", "text", season);
+
                 return View(match);
             }
             catch (Exception e)
@@ -169,10 +208,11 @@ namespace SportStatistics.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "MatchId,NameSportString,Country,SeasonString,TournamentString,NameTournament,Tour,Date,NameStadium,HomeTeam,AwayTeam,HomeTeamGoal,AwayTeamGoal,HomeTeamResultString,AwayTeamResultString,HomePlayers,AwayPlayers,TimeLineHome,TimeLineAway")] Match match)
+        public ActionResult Edit([Bind(Include = "MatchId,NameSportString,Country,SeasonString,TournamentString,NameTournament,Tour,Date,NameStadium,HomeTeam,AwayTeam,HomeTeamGoal,AwayTeamGoal,HomeTeamResultString,AwayTeamResultString,HomePlayers,AwayPlayers,TimeLineHome,TimeLineAway")] Match match, FormCollection collection)
         {
             try
             {
+                string season = collection[4];
                 if (string.IsNullOrEmpty(match.HomeTeam))
                 {
                     ModelState.AddModelError("HomeTeam", "Enter the data");
@@ -223,13 +263,9 @@ namespace SportStatistics.Controllers
                         ModelState.AddModelError("Country", "Federation not found");
                     }
                 }
-                if (match.SeasonString == "0")
+                if (season == "" || season == null)
                 {
                     ModelState.AddModelError("Season", "Choose a season");
-                }
-                if (match.TournamentString == "0")
-                {
-                    ModelState.AddModelError("Tournament", "Choose a Tournament");
                 }
 
                 if (ModelState.IsValid)
@@ -248,7 +284,7 @@ namespace SportStatistics.Controllers
                     find.NameSport = match.NameSport;
                     find.NameStadium = match.NameStadium;
                     find.NameTournament = match.NameTournament;
-                    find.Season = match.Season;
+                    find.Season = season.ParseEnum<Season>();
                     find.TimeLineAway = match.TimeLineAway;
                     find.TimeLineHome = match.TimeLineHome;
                     find.Tour = match.Tour;
@@ -258,6 +294,17 @@ namespace SportStatistics.Controllers
                     db.SaveChanges();
                     return RedirectToAction("Index");
                 }
+
+                int[] array = new int[Enum.GetValues(typeof(Season)).Length];
+                int i = 0;
+                foreach (Season item in Enum.GetValues(typeof(Season)))
+                {
+                    array[i] = (int)item;
+                    i++;
+                }
+
+                ViewData["myList"] = new SelectList(array.Select(x => new { value = x, text = x + "/" + (x + 1) }),
+                                                    "value", "text", season);
                 return View(match);
             }
             catch (Exception e)

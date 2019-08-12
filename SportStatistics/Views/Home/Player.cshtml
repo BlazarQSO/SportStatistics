@@ -33,9 +33,9 @@
             @using (Html.BeginForm("Player", "Home", FormMethod.Post))
             {
                 <div class="form-group">
-                    @Html.LabelFor(model => model.Season, htmlAttributes: new { @class = "control-label col-md-2 mTitle" })
-                    <div class="col-md-10">
-                        @Html.EnumDropDownListFor(model => model.Season, htmlAttributes: new { @class = "form-control mySelect" })
+                    @Html.LabelFor(model => model.Season, htmlAttributes: new { @class = "mTitle" })
+                    <div>
+                        @Html.EnumDropDownListFor(model => model.Season, htmlAttributes: new { @class = "mySelect" })
                         @Html.HiddenFor(model => model.FederationSeasonId)
                         @Html.HiddenFor(model => model.Player.PlayerId)
                         <button class="myButtonOk">Ok</button>
