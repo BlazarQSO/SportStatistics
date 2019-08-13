@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using SportStatistics.Models;
+using SportStatistics.Models.ServiceClasses;
 
 namespace SportStatistics.Controllers
 {
@@ -20,6 +21,21 @@ namespace SportStatistics.Controllers
             try
             {
                 return View(db.Teams.ToList());
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
+        }
+
+        [HttpPost]
+        public ActionResult Index(string edit)
+        {
+            try
+            {
+                List<Team> teams = new ServiceSearch().SearchTeams(edit);
+                return View(teams);
             }
             catch (Exception e)
             {

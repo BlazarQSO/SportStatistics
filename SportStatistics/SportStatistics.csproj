@@ -923,6 +923,7 @@
     <Compile Include="Models\PlayerSeason.cs" />
     <Compile Include="Models\ServiceClasses\ServiceClasses.cs" />
     <Compile Include="Models\ServiceClasses\ServiceDatabase.cs" />
+    <Compile Include="Models\ServiceClasses\ServiceSearch.cs" />
     <Compile Include="Models\Sport.cs" />
     <Compile Include="Models\SportFederation.cs" />
     <Compile Include="Models\Team.cs" />

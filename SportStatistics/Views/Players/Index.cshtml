@@ -10,6 +10,14 @@
 <p>
     @Html.ActionLink("Create New", "Create", null, new { @class = "myLink2" })
 </p>
+@using (Html.BeginForm("Index", "Players", FormMethod.Post))
+{
+    <div class="search-l">
+        @Html.Label("Search Players", new { @class = "myTitleText" })
+        @Html.Editor("edit", new { htmlAttributes = new { @class = "search" } })
+        <button class="search-btn"></button>
+    </div>
+}
 <table class="table">
     <tr>
         <th>

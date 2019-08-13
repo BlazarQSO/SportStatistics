@@ -2,11 +2,20 @@
 
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    string season = "";
+    Layout = "~/Views/Shared/_Layout.cshtml";   
 }
 
 <h2 class="myTitleComic">Table of all Federation Seasons</h2>
+
+@using (Html.BeginForm("Index", "FederationSeasons", FormMethod.Post))
+{
+    <div class="search-l">
+        @Html.Label("Search Federation Seasons", new { @class = "myTitleText" })
+        @Html.Editor("edit", new { htmlAttributes = new { @class = "search" } })
+        @Html.DropDownList("myList", null, new { @class = "mySelect" })
+        <button class="search-btn"></button>
+    </div>
+}
 
 <table class="table">
     <tr>

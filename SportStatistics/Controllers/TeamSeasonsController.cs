@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using SportStatistics.Models;
+using SportStatistics.Models.ServiceClasses;
 
 namespace SportStatistics.Controllers
 {
@@ -19,8 +20,45 @@ namespace SportStatistics.Controllers
         {
             try
             {
+                int[] array = new int[Enum.GetValues(typeof(Season)).Length];
+                int i = 0;
+                foreach (Season item in Enum.GetValues(typeof(Season)))
+                {
+                    array[i] = (int)item;
+                    i++;
+                }
+
+                ViewData["myList"] = new SelectList(array.Select(x => new { value = x, text = x + "/" + (x + 1) }),
+                                                    "value", "text", "2018");
                 var teamSeasons = db.TeamSeasons.Include(t => t.FederationSeason).Include(t => t.Team);
                 return View(teamSeasons.ToList());
+            }
+            catch (Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View("Error");
+            }
+        }
+
+        [HttpPost]
+        public ActionResult Index(string edit, FormCollection collection)
+        {
+            try
+            {
+                string season = collection[1];
+                List<TeamSeason> TeamSeasons = new ServiceSearch().SearchTeamSeasons(edit, season);
+
+                int[] array = new int[Enum.GetValues(typeof(Season)).Length];
+                int i = 0;
+                foreach (Season item in Enum.GetValues(typeof(Season)))
+                {
+                    array[i] = (int)item;
+                    i++;
+                }
+
+                ViewData["myList"] = new SelectList(array.Select(x => new { value = x, text = x + "/" + (x + 1) }),
+                                                    "value", "text", season);
+                return View(TeamSeasons);
             }
             catch (Exception e)
             {

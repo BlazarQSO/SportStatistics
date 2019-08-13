@@ -6,7 +6,15 @@
 }
 
 <h2 class="myTitleComic">Table of all Team Seasons</h2>
-
+@using (Html.BeginForm("Index", "TeamSeasons", FormMethod.Post))
+{
+    <div class="search-l">
+        @Html.Label("Search Team Seasons", new { @class = "myTitleText" })
+        @Html.Editor("edit", new { htmlAttributes = new { @class = "search" } })
+        @Html.DropDownList("myList", null, new { @class = "mySelect" })
+        <button class="search-btn"></button>
+    </div>
+}
 <table class="table">
     <tr>        
         <th>

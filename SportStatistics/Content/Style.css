@@ -279,7 +279,24 @@ h1, h2, h3 {
     font-size: 20px;
     width: 160px;    
 }
-
+.search-l {
+    margin-left: 4%;
+}
+.search-l input{
+    margin-left: 10px;
+}
+.search-l button{
+    height: 31px;
+    width: 31px;
+}
+.search-l select {
+    background-color:lightgoldenrodyellow !important;
+    border-radius: 0 !important;
+    height: 30px;    
+    border: 1px solid black;
+    position: relative;
+    top: -2px;
+}
 .search-btn {        
     background-image: url(/images/icon/search-icon.png);
     background-color: #A6A95A;
@@ -641,6 +658,7 @@ a{
 
 .icon-copa {
     background-image: url(/images/icon/Copa.png);
+    background-position: center;
 }
 .icon-sc {
     background-image: url('/images/icon/English super cup.gif');
@@ -1271,6 +1289,8 @@ hr {
         font-size: 20px;
         outline: none;
     }
+
+
 
 .play-off, .play-offH, .play-offA {
     float: left;
