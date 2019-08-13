@@ -80,12 +80,12 @@ h1, h2, h3 {
 }
     .table td, th {
         border: 1px solid #98BF21;
-        padding: 3px 7px 2px;
+        padding: 3px 7px 2px;        
     }
-
-    .table td:nth-child(1) {  
-        
-    } 
+    
+.team-gread td:nth-child(7) {
+    width: 200px;
+}
 
 .team-size {
     width: 180px;
@@ -434,7 +434,7 @@ h1, h2, h3 {
     text-decoration: none;
 }
 .myTable, .myTableP td:nth-child(3) a {
-    margin-left: 3px;        
+    
 }
 
 .progress td a:visited {

@@ -3,6 +3,8 @@
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var grid = new WebGrid(source: Model, rowsPerPage: 50, ajaxUpdateContainerId: "webGrid");
 }
 
 <h2 class="myTitleComic">Table of all Matches</h2>
@@ -18,133 +20,52 @@
         <button class="search-btn"></button>
     </div>
 }
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayName("NameSport")
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Country)
-        </th>
-        <th>
-            @Html.DisplayName("Season")
-        </th>
-        <th>
-            @Html.DisplayName("Tournament")
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.NameTournament)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Date)
-        </th>        
-        <th>
-            @Html.DisplayNameFor(model => model.HomeTeam)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.AwayTeam)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Tour)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.NameStadium)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.HomeTeamGoal)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.AwayTeamGoal)
-        </th>
-        <th>
-            @Html.DisplayName("HomeTeamResult")
-        </th>
-        <th>
-            @Html.DisplayName("AwayTeamResult")
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.HomePlayers)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.AwayPlayers)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.TimeLineHome)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.TimeLineAway)
-        </th>
-        <th></th>
-    </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.NameSportString)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Country)
-        </td>
-        <td>
-            @{
-                string name = (int)item.Season + "";
-                int seas = Convert.ToInt32(name);
-                seas++;
-                name = name + "/" + Convert.ToString(seas);
-            }
-            @name
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.TournamentString)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.NameTournament)
-        </td>        
-        <td>
-            @Html.DisplayFor(modelItem => item.Date)
-        </td>        
-        <td>
-            @Html.DisplayFor(modelItem => item.HomeTeam)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.AwayTeam)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Tour)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.NameStadium)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.HomeTeamGoal)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.AwayTeamGoal)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.HomeTeamResultString)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.AwayTeamResultString)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.HomePlayers)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.AwayPlayers)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.TimeLineHome)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.TimeLineAway)
-        </td>
-        <td>            
-            @Html.ActionLink("Edit", "Edit", new { id = item.MatchId })
-            @Html.ActionLink("Details", "Details", new { id = item.MatchId })
-            @Html.ActionLink("Delete", "Delete", new { id = item.MatchId })            
-        </td>
-    </tr>
-}
-
-</table>
+<div id="webGrid">
+    @grid.GetHtml(
+        tableStyle: "table",
+        footerStyle: "myTableFooter",
+        mode: WebGridPagerModes.All,
+        firstText: "1 <<",
+        previousText: "<",
+        nextText: ">",
+        lastText: ">> " + Convert.ToString(grid.PageCount),
+        numericLinksCount: 6,
+        columns: grid.Columns(
+            grid.Column(header: "NameSport", format: model => model.NameSportString),
+            grid.Column(header: "Federation", format: model => model.Country),
+            grid.Column(header: "Season", format:
+            @<text>
+                @{
+                    string name = (int)item.Season + "";
+                    int seas = Convert.ToInt32(name);
+                    seas++;
+                    name = name + "/" + Convert.ToString(seas);
+                }
+                @name
+            </text>),
+            grid.Column(header: "Tournament", format: model => model.TournamentString),
+            grid.Column(header: "NameTournament", format: model => model.NameTournament),
+            grid.Column(header: "Date", format: model => model.Date), 
+            grid.Column(header: "HomeTeam", format: model => model.HomeTeam), 
+            grid.Column(header: "AwayTeam", format: model => model.AwayTeam),
+            grid.Column(header: "Tour", format: model => model.Tour),
+            grid.Column(header: "NameStadium", format: model => model.NameStadium),
+            grid.Column(header: "HomeTeamGoal", format: model => model.HomeTeamGoal),
+            grid.Column(header: "AwayTeamGoal", format: model => model.AwayTeamGoal),
+            grid.Column(header: "HomeResult", format: model => model.HomeTeamResultString),
+            grid.Column(header: "AwayResult", format: model => model.AwayTeamResultString),
+            grid.Column(header: "Home Players", format: model => model.HomePlayers),
+            grid.Column(header: "Away Players", format: model => model.AwayPlayers),
+            grid.Column(header: "TimeLineHome", format: model => model.TimeLineHome),
+            grid.Column(header: "TimeLineAway", format: model => model.TimeLineAway),
+            grid.Column(header: "Action", format:
+            @<text>
+                @Html.ActionLink("Edit", "Edit", new { id = item.MatchId })
+                @Html.ActionLink("Details", "Details", new { id = item.MatchId })
+                @Html.ActionLink("Delete", "Delete", new { id = item.MatchId })
+            </text>
+            )
+        )
+    )
+</div>

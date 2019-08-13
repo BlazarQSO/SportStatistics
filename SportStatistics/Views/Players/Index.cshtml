@@ -3,6 +3,8 @@
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var grid = new WebGrid(source: Model, rowsPerPage: 50, ajaxUpdateContainerId: "webGrid");        
 }
 
 <h2 class="myTitleComic">Table of all Players</h2>
@@ -18,73 +20,39 @@
         <button class="search-btn"></button>
     </div>
 }
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayName("Name Sport")
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Surname)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Birthday)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Age)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Nationality)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Weight)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Height)
-        </th>
-        <th>
-            @Html.DisplayName("Position")
-        </th>
-        <th></th>
-    </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.NameSportString)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Surname)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Birthday)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Age)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nationality)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Weight)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Height)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.PositionString)
-        </td>
-        <td class="team-size">
-            @Html.ActionLink("Edit", "Edit", new { id=item.PlayerId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.PlayerId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.PlayerId })
-        </td>
-    </tr>
-}
-
-</table>
+    <div id="webGrid">
+        @grid.GetHtml(
+            tableStyle: "table",            
+            footerStyle: "myTableFooter",
+            mode: WebGridPagerModes.All,
+            firstText: "1 <<",
+            previousText: "<",
+            nextText: ">",
+            lastText: ">> " + Convert.ToString(grid.PageCount),
+            numericLinksCount: 6,
+            columns: grid.Columns(
+                    grid.Column(header: "Name Sport", format: model => model.NameSport),
+                    grid.Column("Name", format:
+                    @<text>
+                        @{string name = item.Name + " " + item.Surname; }
+                        @Html.ActionLink(name, "Player", "Home", routeValues:
+                                    new { fedSeason = 10, PlayerId = item.PlayerId },
+                                    htmlAttributes: null)
+                    </text>),
+                    grid.Column(header: "Birthday", format: model => model.Birthday),
+                    grid.Column(header: "Age", format: model => model.Age),
+                    grid.Column(header: "Nationality", format: model => model.Nationality),
+                    grid.Column(header: "Weight", format: model => model.Weight),
+                    grid.Column(header: "Height", format: model => model.Height),
+                    grid.Column(header: "Position", format: model => model.PositionString),
+                    grid.Column(header: "Action", format:
+                    @<text>        
+                        @Html.ActionLink("Edit", "Edit", new { id = item.PlayerId }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.PlayerId }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.PlayerId })
+                    </text>
+                    )
+                )
+            )
+    </div>

@@ -2,7 +2,9 @@
 
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";   
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var grid = new WebGrid(source: Model, rowsPerPage: 50, ajaxUpdateContainerId: "webGrid");
 }
 
 <h2 class="myTitleComic">Table of all Federation Seasons</h2>
@@ -17,51 +19,37 @@
     </div>
 }
 
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayName("Name Sport")
-        </th>
-        <th>
-            @Html.DisplayName("Federation")
-        </th>
-        <th>
-            @Html.DisplayName("Tournament")
-        </th>
-        <th>
-            @Html.DisplayName("Name Tournament")
-        </th>
-        <th>
-            @Html.DisplayName("Season")
-        </th>
-        <th></th>
-    </tr>
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.SportFederation.NameSportString)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.SportFederation.Country)            
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.TournamentString)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.NameTournament)
-        </td>
-        <td>
-            @{
-                string name = (int)item.Season + "";
-                int seas = Convert.ToInt32(name);
-                seas++;
-                name = name + "/" + Convert.ToString(seas);
-            }
-            @name
-        </td>
-        <td>                      
-            @Html.ActionLink("Delete", "Delete", new { id=item.FederationSeasonId })
-        </td>
-    </tr>
-}
-</table>
+<div id="webGrid">
+    @grid.GetHtml(
+            tableStyle: "table",
+            footerStyle: "myTableFooter",
+            mode: WebGridPagerModes.All,
+            firstText: "1 <<",
+            previousText: "<",
+            nextText: ">",
+            lastText: ">> " + Convert.ToString(grid.PageCount),
+            numericLinksCount: 6,
+            columns: grid.Columns(
+                    grid.Column(header: "Name Sport", format: model => model.SportFederation.NameSportString),
+                    grid.Column("Federation", format: model => model.SportFederation.Country),
+                    grid.Column(header: "Tournament", format: model => model.TournamentString),
+                    grid.Column(header: "Name Tournament", format: model => model.NameTournament),
+                    grid.Column(header: "Season", format:
+                    @<text>
+                        @{
+                            string name = (int)item.Season + "";
+                            int seas = Convert.ToInt32(name);
+                            seas++;
+                            name = name + "/" + Convert.ToString(seas);
+                        }
+                        @name
+                    </text>),
+                    grid.Column(header: "Action", format:
+                    @<text>
+                        @Html.ActionLink("Delete", "Delete", new { id = item.FederationSeasonId })
+                    </text>
+                    )
+                )
+            )
+</div>
+
