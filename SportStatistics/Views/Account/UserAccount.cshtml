@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "UserAccount";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="myTitleComic">User Account</h2>
+
+<div class="mid">
+    <div>
+        @Html.ActionLink("Change Username", "ChangeName", "Account", new { @class = "myLinkBack" })
+    </div>
+    <div>
+        @Html.ActionLink("Change Password", "ChangePassword", "Account", new { @class = "myLinkBack" })
+    </div>
+    <div>
+        @if (ViewBag.Message != null)
+        {
+            string mess = ViewBag.Message;
+            @Html.Label(mess, new { @class = "myTitleText" })
+        }
+    </div>
+</div>
+
+

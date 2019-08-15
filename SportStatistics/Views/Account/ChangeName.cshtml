@@ -1,0 +1,52 @@
+﻿@model SportStatistics.Models.ChangeNameModel
+@{
+    ViewBag.Title = "ChangeName";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="myTitleComic">Change Name</h2>
+
+@using (Html.BeginForm("ChangeName", "Account", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="sport-div-marg sport-div">
+        <div>
+            <div>
+                @Html.LabelFor(model => model.NewName, htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                @Html.EditorFor(model => model.NewName, null, new { htmlAttributes = new { @class = "myContent-field" } })
+                @Html.ValidationMessageFor(model => model.NewName, "", new { @class = "myValid2" })
+            </div>
+        </div>
+        <div>
+            <div>
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                @Html.PasswordFor(model => model.Password, new { @class = "myContent-field" })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "myValid2" })
+            </div>
+        </div>
+        <div>
+            <div>
+                @Html.LabelFor(model => model.ConfirmPassword, htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                @Html.PasswordFor(model => model.ConfirmPassword, new { @class = "myContent-field" })
+                @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "myValid2" })
+            </div>
+        </div>
+    </div>
+    <br class="clear" />
+    <p class="mid">
+        <button class="myButtonInfo">Sign Up</button>
+    </p>
+    <div class="mid">
+        @if (ViewBag.Change)
+        {
+            string name = "Ваш новый логин: " + ViewBag.NewName;
+            @Html.Label(name, null, new { @class = "myTitleText" })
+        }
+    </div>
+}

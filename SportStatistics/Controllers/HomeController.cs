@@ -8,9 +8,10 @@ using SportStatistics.Models.ServiceClasses;
 using SportStatistics.Models;
 using System.IO;
 using System.Text;
+using MvcInternetApplication.Filters;
 
 namespace SportStatistics.Controllers
-{
+{   
     public class HomeController : Controller
     {
         // GET: Home
@@ -427,12 +428,15 @@ namespace SportStatistics.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin")]      
         public ActionResult AddData()
         {
             return View();
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
+        [ValidateAntiForgeryToken]
         public ActionResult AddData(List<HttpPostedFileBase> filesSF, List<HttpPostedFileBase> filesP,
             List<HttpPostedFileBase> filesT, List<HttpPostedFileBase> filesFS, List<HttpPostedFileBase> filesTS,
             List<HttpPostedFileBase> filesPS, List<HttpPostedFileBase> filesM)

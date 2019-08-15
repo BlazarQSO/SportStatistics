@@ -1,0 +1,58 @@
+﻿@model SportStatistics.Models.RegistrationModel
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="myTitleComic">Registration</h2>
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="sport-div-marg sport-div">
+        <div>
+            <div>
+                @Html.LabelFor(model => model.Login, htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                @Html.EditorFor(model => model.Login, null, new { htmlAttributes = new { @class = "myContent-field" } })
+                @Html.ValidationMessageFor(model => model.Login, "", new { @class = "myValid2" })
+            </div>
+        </div>
+        <div>
+            <div>
+                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                @Html.EditorFor(model => model.Email, null, new { htmlAttributes = new { @class = "myContent-field" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "myValid2" })
+            </div>
+        </div>
+        <div>
+            <div>
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                @Html.PasswordFor(model => model.Password, new { @class = "myContent-field" })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "myValid2" })
+            </div>
+        </div>
+        <div>
+            <div>
+                @Html.LabelFor(model => model.ConfirmPassword, htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                @Html.PasswordFor(model => model.ConfirmPassword, new { @class = "myContent-field" })
+                @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "myValid2" })
+            </div>
+        </div>
+    </div>
+    <br class="clear" />
+    <div class="mid">
+        @Html.ValidationSummary(true, null, new { @class = "myValid2" })
+    </div>
+    <p class="mid">
+        <button class="myButtonInfo">Sign Up</button>
+    </p>
+}
+

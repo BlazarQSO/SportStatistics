@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "AddData";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -7,6 +6,7 @@
 <h2 class="my-title">Add Data</h2>
 @using (Html.BeginForm("AddData", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
+    @Html.AntiForgeryToken()
     <div>
         <div class="half">
             <div class="add-obj">

@@ -11,6 +11,7 @@ using SportStatistics.Models.ServiceClasses;
 
 namespace SportStatistics.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class PlayerSeasonsController : Controller
     {
         private DatabaseContext db = new DatabaseContext();
@@ -41,6 +42,7 @@ namespace SportStatistics.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Index(string edit, FormCollection collection)
         {
             try

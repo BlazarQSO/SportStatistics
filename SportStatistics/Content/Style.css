@@ -412,11 +412,13 @@ h1, h2, h3 {
 .myTable td:nth-child(11) {
     width: 175px;
 }
-.myTable, .myTableP td:nth-child(2) {
+.myTableP td:nth-child(2), .myTable td:nth-child(2) {
     min-width: 220px;
     color: blue;
+    text-align: left;    
+    padding: 0 0 0 30px;
 }
-.myTable, .myTableP td:nth-child(2) > a:visited {    
+.myTable td:nth-child(2) > a:visited, .myTableP td:nth-child(2) > a:visited {    
     color: blue;
 }
 .myTableP td:nth-child(3) > a:visited {
@@ -433,9 +435,7 @@ h1, h2, h3 {
     color: blue; 
     text-decoration: none;
 }
-.myTable, .myTableP td:nth-child(3) a {
-    
-}
+
 
 .progress td a:visited {
     color: black;  
@@ -809,10 +809,13 @@ a{
 }
 
 .clear {
-    clear: left;
+    clear: left; 
 }
 .mid {
     text-align: center;
+}
+.mid a:visited{
+    color: darkgoldenrod;
 }
 .left {
     float: left;
@@ -1008,7 +1011,25 @@ a{
 .sport-div div div:nth-child(2) select {
     width: 170px;    
 }
+.sport-div-marg input{    
+    margin-top: 15px;
+}
+.sport-div-marg label {
+    margin-top: 15px;
+    position: relative;
+    display: block;
+}
 
+.check {
+    border: 1px solid black;
+    position: relative;
+    left: -70px;
+    top: -2px;    
+    outline: none;
+}
+.check:hover{
+    border: 1px solid red;
+}
 /*----------------------Team------------------*/
 .team-th {
      width: 140px;
@@ -1396,3 +1417,31 @@ hr {
         color: red;
     }
 
+/*---------------------------Account---------------------*/
+
+.user-link {
+    color: green;
+}
+.user-link li {    
+    
+    font-size: 30px;
+    margin-right: 30px;
+    position: relative;
+    text-align: right;
+    top: -170px;
+    list-style: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black;
+}
+.user-link li:nth-child(1){
+    
+}
+.user-link li a:visited {
+    color: goldenrod;        
+}
+.user-link li a{
+    color: goldenrod;    
+}
+.user-link li a:hover{
+    color: green;    
+}

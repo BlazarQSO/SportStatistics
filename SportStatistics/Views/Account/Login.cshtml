@@ -1,0 +1,54 @@
+﻿@model SportStatistics.Models.LoginModel
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="myTitleComic">Login</h2>
+
+@using (Html.BeginForm("Login", "Account", new { returnUrl = ViewBag.ReturnUrl }, FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="sport-div-marg sport-div">
+        <div>
+            <div>
+                @Html.LabelFor(model => model.Login, htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                @Html.EditorFor(model => model.Login, null, new { htmlAttributes = new { @class = "myContent-field" } })
+                @Html.ValidationMessageFor(model => model.Login, "", new { @class = "myValid2" })
+            </div>
+        </div>
+        <div>
+            <div>
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                @Html.PasswordFor(model => model.Password, new { @class = "myContent-field" })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "myValid2" })
+            </div>
+        </div>
+        <div>
+            <div>
+                @Html.LabelFor(model => model.RememberMe, htmlAttributes: new { @class = "myTitleText" })
+            </div>
+            <div>
+                @Html.EditorFor(model => model.RememberMe, new { htmlAttributes = new { @class = "check" } })
+            </div>
+        </div>
+    </div>
+    <br class="clear" />
+    <div class="mid">
+        @Html.ValidationSummary(true, null, new { @class = "myValid2" })
+    </div>
+    <div class="mid">
+        <button class="myButtonInfo">Sign In</button>
+    </div>
+
+    if (!User.Identity.IsAuthenticated)
+    {    
+        <p class="mid">
+           @Html.ActionLink("Forgot Password", "ForgotPassword", "Account", new { @class = "myTitleText" })
+        </p>     
+    }
+}

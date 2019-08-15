@@ -10,6 +10,7 @@ using SportStatistics.Models;
 
 namespace SportStatistics.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class SportsController : Controller
     {
         private DatabaseContext db = new DatabaseContext();

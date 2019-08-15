@@ -11,6 +11,7 @@
 <body>
     <header class="myHeader">
         <h1 class="myTitleGrave">Sport</h1>
+        @Html.Partial("_LoginPartial")
     </header>
     <nav>
         <ul class="nav-bar">
@@ -33,12 +34,15 @@
                 </ul>
             </li>
             <li><span class="icon-uefa"></span>@Html.ActionLink("Champions League", "LeagueGroups", "Home", routeValues: new { sport = "Football", fed = "UEFA", tour = "League" }, htmlAttributes: null)</li>
-            <li>@Html.ActionLink("Add data", "AddData", "Home")</li>
+            @if (User.IsInRole("Admin"))
+            {
+                <li>@Html.ActionLink("Add data", "AddData", "Home")</li>
+            }
             <li style="float:right;">
                 @using (Html.BeginForm("Search", "Home", FormMethod.Post))
                 {
-                    <input type="text" class="search" name="edit"/>                
-                    <button class="search-btn"></button>                
+                    <input type="text" class="search" name="edit" />
+                    <button class="search-btn"></button>
                 }
             </li>
         </ul>        

@@ -85,44 +85,42 @@
              )
          )
         </div>
-                }
-
-                <div>
-                    @if (ViewBag.Score != null)
+            }
+            <div>
+                @if (ViewBag.Score != null)
+                {
+                    foreach (var item2 in ViewBag.Score)
                     {
-                        foreach (var item2 in ViewBag.Score)
-                        {
-                            <div class="group">
-                                <label class="myTitleText">@ViewBag.Group[j]</label>
-                                @{j++;}
-                                @foreach (var item in item2)
-                                {
-                                    string text = @item.Result;
-                                    string textH = @item.HomeTeam;
-                                    string textA = @item.AwayTeam;
-                                    <div style="clear:left;">
-                                        <div class="play-off">
-                                            @item.Date
-                                        </div>
-                                        <div class="play-offH">
-                                            @Html.ActionLink(textH, "Team", "Home", new { fedSeason = @item.FederationSeasonId, MatchId = @item.HomeTeam }, null)
-                                        </div>
-                                        <div class="play-off">
-                                            @Html.ActionLink(text, "Match", "Home", new { MatchId = @item.MatchId }, null)
-                                        </div>
-                                        <div class="play-offA">
-                                            @Html.ActionLink(textA, "Team", "Home", new { fedSeason = @item.FederationSeasonId, MatchId = @item.AwayTeam }, null)
-                                        </div>
+                        <div class="group">
+                            <label class="myTitleText">@ViewBag.Group[j]</label>
+                            @{j++;}
+                            @foreach (var item in item2)
+                            {
+                                string text = @item.Result;
+                                string textH = @item.HomeTeam;
+                                string textA = @item.AwayTeam;
+                                <div style="clear:left;">
+                                    <div class="play-off">
+                                        @item.Date
                                     </div>
-                                }
-                            </div>
-                                        }
-                                    }
-                </div>
-                                    }
-                                    else
-                                    {
-                                        <div>
-                                            <h2>Request failed</h2>
-                                        </div>
-                                    }
+                                    <div class="play-offH">
+                                        @Html.ActionLink(textH, "Team", "Home", new { fedSeason = @item.FederationSeasonId, MatchId = @item.HomeTeam }, null)
+                                    </div>
+                                    <div class="play-off">
+                                        @Html.ActionLink(text, "Match", "Home", new { MatchId = @item.MatchId }, null)
+                                    </div>
+                                    <div class="play-offA">
+                                        @Html.ActionLink(textA, "Team", "Home", new { fedSeason = @item.FederationSeasonId, MatchId = @item.AwayTeam }, null)
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }
+        }   </div>
+}
+else
+{
+    <div  class="myTitleComic">
+        <h2>Request failed</h2>
+    </div>
+}
