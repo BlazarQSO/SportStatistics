@@ -12,7 +12,7 @@
     </script>
 
     var grid = new WebGrid(source: Model, defaultSort: "Season", rowsPerPage: 10, ajaxUpdateContainerId: "webGrid");
-    grid.SortDirection = SortDirection.Descending;
+    
 }
 @if (Model.Count() > 0)
 {
@@ -95,7 +95,7 @@
         headerStyle: "myTableHeader",
         footerStyle: "myTableFooter",
         columns: grid.Columns(
-                grid.Column(header: "Season", format:
+                grid.Column("Season", format:
                 @<text>
                     @{
                         string name = (int)item.Season + "/" + ((int)item.Season + 1);
@@ -109,8 +109,14 @@
                                 new { fedSeason = Model[0].FederationSeasonId, PlayerId = item.PlayerId },
                                 htmlAttributes: null)
                 </text>),
-                grid.Column(header: "Team", format: model => model.NameTeam),
-                grid.Column(header: "Apps", format: model => model.Apps),
+                grid.Column(header: "Team", format:
+                @<text>
+                    @{string name = item.NameTeam; }
+                    @Html.ActionLink(name, "Team", "Home", routeValues:
+                        new { fedSeason = Model[0].FederationSeasonId, TeamId = item.TeamId },
+                        htmlAttributes: null)
+                </text>),                
+                grid.Column("Apps", format: model => model.Apps),
                 grid.Column("Goals", format: model => model.Goals),
                 grid.Column("Assists", format: model => model.Assists)
             )

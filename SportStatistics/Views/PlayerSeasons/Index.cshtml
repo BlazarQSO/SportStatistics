@@ -10,11 +10,20 @@
 <h2 class="myTitleComic">Table of All Player Seasons</h2>
 @using (Html.BeginForm("Index", "PlayerSeasons", FormMethod.Post))
 {
+    @Html.AntiForgeryToken()
     <div class="search-l">
-        @Html.Label("Search Player Seasons", new { @class = "myTitleText" })
-        @Html.Editor("edit", new { htmlAttributes = new { @class = "search" } })
-        @Html.DropDownList("myList", null, new { @class = "mySelect" })
-        <button class="search-btn"></button>
+        <div class="search-size">
+            @Html.Label("Search Player Seasons", new { @class = "myTitleText" })
+        </div>
+        <div>
+            @Html.Editor("edit", new { htmlAttributes = new { @class = "search" } })
+        </div>
+        <div>
+            @Html.DropDownList("myList", null, new { @class = "mySelect" })
+        </div>
+        <div>
+            <button class="search-btn"></button>
+        </div>
     </div>
 }
 

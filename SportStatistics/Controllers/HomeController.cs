@@ -26,7 +26,8 @@ namespace SportStatistics.Controllers
             try
             {
                 List<Standings> standings = new ServiceDatabase().CreateModelStandings(sport, fed, tour, fedSeason);
-                return View(standings.ToList());
+                List<Standings> SortedList = standings.OrderByDescending(o => o.Point).ToList();
+                return View(SortedList.ToList());
             }
             catch (Exception e)
             {
@@ -178,15 +179,15 @@ namespace SportStatistics.Controllers
         {
             try
             {
-                string season = null;
+                string season = null;              
                 if (fedSeason == null)
                 {
                     if (Request.Cookies["Id"] != null)
                     {
                         fedSeason = Convert.ToInt32(Request.Cookies["Id"].Value);
                         Response.Cookies["Id"].Expires = DateTime.Now.AddDays(-1);
-                    }
-                }
+                    }                    
+                }               
                 List<Scorer> scorers = new ServiceDatabase().Scorers(fedSeason, season);
                 return View(scorers);
             }

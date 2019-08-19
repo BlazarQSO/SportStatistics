@@ -14,14 +14,21 @@
 </p>
 @using (Html.BeginForm("Index", "Matches", FormMethod.Post))
 {
+    @Html.AntiForgeryToken()
     <div class="search-l">
-        @Html.Label("Search Matches", new { @class = "myTitleText" })
-        @Html.Editor("edit", new { htmlAttributes = new { @class = "search" } })
-        <button class="search-btn"></button>
+        <div class="search-size-m">
+            @Html.Label("Search Matches", new { @class = "myTitleText" })
+        </div>
+        <div>
+            @Html.Editor("edit", new { htmlAttributes = new { @class = "search" } })
+        </div>
+        <div>
+            <button class="search-btn"></button>
+        </div>
     </div>
 }
 
-<div id="webGrid">
+<div id="webGrid" class="webGrid">
     @grid.GetHtml(
         tableStyle: "table",
         footerStyle: "myTableFooter",

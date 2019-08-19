@@ -7,8 +7,7 @@
     var grid2 = new WebGrid();
     if (Model != null)
     {
-        grid = new WebGrid(source: Model.Players, defaultSort: "Goals", rowsPerPage: 25, ajaxUpdateContainerId: "webGrid");
-        grid.SortDirection = SortDirection.Descending;
+        grid = new WebGrid(source: Model.Players, sortFieldName: "Name", rowsPerPage: 25, ajaxUpdateContainerId: "webGrid");        
         grid2 = new WebGrid(source: Model.Statistics, defaultSort: "Point", rowsPerPage: 5, ajaxUpdateContainerId: "webGrid2");
     }
     int rank = 0;
@@ -57,12 +56,12 @@
                                 htmlAttributes: null)
                 </text>),
                 grid.Column(header: "Pos", format: model => model.Pos),
-                grid.Column(header: "Age", format: model => model.Age),
-                grid.Column(header: "CM", format: model => model.CM),
-                grid.Column(header: "KG", format: model => model.KG),
-                grid.Column(header: "Apps", format: model => model.Apps),
+                grid.Column("Age", format: model => model.Age),
+                grid.Column("CM", format: model => model.CM),
+                grid.Column("KG", format: model => model.KG),
+                grid.Column("Apps", format: model => model.Apps),
                 grid.Column("Goals", format: model => model.Goals),
-                grid.Column(header: "Assists", format: model => model.Assists)
+                grid.Column("Assists", format: model => model.Assists)
             )
         )
         </div>
@@ -75,7 +74,7 @@
         footerStyle: "myTableFooter",
         columns: grid.Columns(
                 grid.Column(header: "№", format: @<text>@{rank++;} @rank </text>),
-                grid.Column("Tournament", format:
+                grid.Column(header: "Tournament", format:
                 @<text>
                     @{string name = item.Tournament; }
                     @Html.ActionLink(name, "Standings", "Home", routeValues:                            

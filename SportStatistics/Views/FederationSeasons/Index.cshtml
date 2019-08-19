@@ -11,15 +11,24 @@
 
 @using (Html.BeginForm("Index", "FederationSeasons", FormMethod.Post))
 {
+    @Html.AntiForgeryToken()
     <div class="search-l">
-        @Html.Label("Search Federation Seasons", new { @class = "myTitleText" })
-        @Html.Editor("edit", new { htmlAttributes = new { @class = "search" } })
-        @Html.DropDownList("myList", null, new { @class = "mySelect" })
-        <button class="search-btn"></button>
+        <div class="search-size">
+            @Html.Label("Search Federation Seasons", new { @class = "myTitleText" })
+        </div>
+        <div>
+            @Html.Editor("edit", new { htmlAttributes = new { @class = "search" } })
+        </div>
+        <div>
+            @Html.DropDownList("myList", null, new { @class = "mySelect" })
+        </div>
+        <div>
+            <button class="search-btn"></button>
+        </div>
     </div>
 }
 
-<div id="webGrid">
+<div id="webGrid" class="webGrid">
     @grid.GetHtml(
             tableStyle: "table",
             footerStyle: "myTableFooter",
@@ -31,7 +40,7 @@
             numericLinksCount: 6,
             columns: grid.Columns(
                     grid.Column(header: "Name Sport", format: model => model.SportFederation.NameSportString),
-                    grid.Column("Federation", format: model => model.SportFederation.Country),
+                    grid.Column(header: "Federation", format: model => model.SportFederation.Country),
                     grid.Column(header: "Tournament", format: model => model.TournamentString),
                     grid.Column(header: "Name Tournament", format: model => model.NameTournament),
                     grid.Column(header: "Season", format:

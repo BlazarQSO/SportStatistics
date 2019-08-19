@@ -171,5 +171,17 @@ namespace SportStatistics.Models.ServiceClasses
 
             return list;
         }
+
+        public string NewPassword(int count = 10)
+        {
+            string allowedChars = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ0123456789!@$?_-*";
+            char[] chars = new char[count];
+            Random rd = new Random();
+            for (int i = 0; i < 10; i++)
+            {
+                chars[i] = allowedChars[rd.Next(0, allowedChars.Length)];
+            }
+            return new string(chars);
+        }
     }    
 }

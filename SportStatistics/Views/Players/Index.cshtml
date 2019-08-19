@@ -14,10 +14,17 @@
 </p>
 @using (Html.BeginForm("Index", "Players", FormMethod.Post))
 {
+    @Html.AntiForgeryToken()
     <div class="search-l">
-        @Html.Label("Search Players", new { @class = "myTitleText" })
-        @Html.Editor("edit", new { htmlAttributes = new { @class = "search" } })
-        <button class="search-btn"></button>
+        <div class="search-size-m">
+            @Html.Label("Search Players", new { @class = "myTitleText" })
+        </div>
+        <div>
+            @Html.Editor("edit", new { htmlAttributes = new { @class = "search" } })
+        </div>
+        <div>
+            <button class="search-btn"></button>
+        </div>
     </div>
 }
 
@@ -33,7 +40,7 @@
             numericLinksCount: 6,
             columns: grid.Columns(
                     grid.Column(header: "Name Sport", format: model => model.NameSport),
-                    grid.Column("Name", format:
+                    grid.Column(header: "Name", format:
                     @<text>
                         @{string name = item.Name + " " + item.Surname; }
                         @Html.ActionLink(name, "Player", "Home", routeValues:

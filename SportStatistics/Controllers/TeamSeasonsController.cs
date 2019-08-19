@@ -47,7 +47,7 @@ namespace SportStatistics.Controllers
         {
             try
             {
-                string season = collection[1];
+                string season = collection[2];
                 List<TeamSeason> TeamSeasons = new ServiceSearch().SearchTeamSeasons(edit, season);
 
                 int[] array = new int[Enum.GetValues(typeof(Season)).Length];

@@ -784,6 +784,7 @@ namespace SportStatistics.Models.ServiceClasses
                 {
                     scorer.FederationSeasonId = playerSeason.TeamSeason.FederationSeasonId;
                     scorer.PlayerId = playerSeason.PlayerId;
+                    scorer.TeamId = playerSeason.TeamSeason.TeamId;
                     scorer.Season = playerSeason.Season;
                     scorer.Name = playerSeason.Player.Name + " " + playerSeason.Player.Surname;
                     scorer.NameTeam = playerSeason.TeamSeason.Team.Name;

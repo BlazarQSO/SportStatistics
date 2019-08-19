@@ -106,7 +106,7 @@
                     @name
                 </text>
                 ),
-                grid.Column("Name", format:
+                grid.Column(header: "Name", format:
                 @<text>
                     @{string name = item.TeamName; }
                     @Html.ActionLink(name, "Team", "Home", routeValues:

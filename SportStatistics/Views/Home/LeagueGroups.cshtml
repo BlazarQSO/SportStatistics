@@ -40,6 +40,7 @@
         grid.SortDirection = SortDirection.Descending;
         <label class="myTitleText">@ViewBag.Group[i]</label>
         j++;
+        rank = 0;
         <div id="idGrid">
             @grid.GetHtml(
          tableStyle: "myTable",
@@ -47,7 +48,7 @@
          footerStyle: "myTableFooter",
          columns: grid.Columns(
          grid.Column(header: "Rank", format: @<text>@{rank++;} @rank </text>),
-         grid.Column("Team", format:
+         grid.Column(header: "Team", format:
         @<text>
             @{string name = item.NameTeam; }
             @Html.ActionLink(name, "Team", "Home", routeValues:
@@ -60,8 +61,8 @@
          grid.Column(header: "Loss", format: model => model.Lose),
          grid.Column(header: "GF", format: model => model.Goals),
          grid.Column(header: "GA", format: model => model.GoalAgainst),
-         grid.Column("GD", format: model => model.GoalDifference),
-         grid.Column("Point", format: model => model.Point),
+         grid.Column(header: "GD", format: model => model.GoalDifference),
+         grid.Column(header: "Point", format: model => model.Point),
          grid.Column(header: "Form", format:
         @<text>
             @foreach (var it in item.Form)

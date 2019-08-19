@@ -1,5 +1,6 @@
 ﻿using MvcInternetApplication.Filters;
 using SportStatistics.Models;
+using SportStatistics.Models.ServiceClasses;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -435,14 +436,8 @@ namespace SportStatistics.Controllers
 
                 if (ModelState.IsValid)
                 {
-                    string allowedChars = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ0123456789!@$?_-*";
-                    char[] chars = new char[10];
-                    Random rd = new Random();
-                    for (int i = 0; i < 10; i++)
-                    {
-                        chars[i] = allowedChars[rd.Next(0, allowedChars.Length)];
-                    }
-                    string newPassword = new string(chars);
+                  
+                    string newPassword = new ServiceSearch().NewPassword();
 
                     string code = WebSecurity.GeneratePasswordResetToken(model.UserName);
                     WebSecurity.ResetPassword(code, newPassword);                                       
@@ -462,7 +457,7 @@ namespace SportStatistics.Controllers
                     smtp.Credentials = credentials;
                     smtp.Send(message);
                     
-                    ViewBag.Message = "Your password has been sent to your email" + " " + newPassword;
+                    ViewBag.Message = "Your password has been sent to your email";
                     return View();
                 }
                                 

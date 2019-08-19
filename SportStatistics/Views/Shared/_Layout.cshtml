@@ -41,8 +41,14 @@
             <li style="float:right;">
                 @using (Html.BeginForm("Search", "Home", FormMethod.Post))
                 {
-                    <input type="text" class="search" name="edit" />
-                    <button class="search-btn"></button>
+                    <div class="search-div">
+                        <div>
+                            <input type="text" class="search" name="edit" />
+                        </div>
+                        <div>
+                            <button class="search-btn"></button>
+                        </div>
+                    </div>
                 }
             </li>
         </ul>        

@@ -98,7 +98,7 @@
         footerStyle: "myTableFooter",
         columns: grid.Columns(
                 grid.Column(header: "Rank", format: @<text>@{rank++;} @rank </text>),
-                grid.Column("Team", format:
+                grid.Column(header: "Team", format:
                 @<text>
                     @{string name = item.NameTeam; }
                     @Html.ActionLink(name, "Team", "Home", routeValues:

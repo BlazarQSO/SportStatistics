@@ -10,10 +10,11 @@
             });
         });
     </script>
-    
+
     var grid = new WebGrid(source: Model, defaultSort: "Goals", rowsPerPage: 50, ajaxUpdateContainerId: "webGrid");
     grid.SortDirection = SortDirection.Descending;
-    int rank = 0;
+    
+    int rank = (grid.PageIndex * grid.RowsPerPage);  
 }
 
 @if (Model.Count() > 0)
@@ -102,14 +103,14 @@
                     footerStyle: "myTableFooter",
                     columns: grid.Columns(
                     grid.Column(header: "Rank", format: @<text>@{rank++;} @rank </text>),
-                    grid.Column("Name", format:
+                    grid.Column(header: "Name", format:
                     @<text>
                         @{string name = item.Name; }
                         @Html.ActionLink(name, "Player", "Home", routeValues:
                                       new { fedSeason = Model[0].FederationSeasonId, PlayerId = item.PlayerId },
                                       htmlAttributes: null)
                     </text>),
-                    grid.Column("Name", format:
+                    grid.Column(header: "Name", format:
                     @<text>
                         @{string name = item.NameTeam; }
                         @Html.ActionLink(name, "Team", "Home", routeValues:
@@ -117,8 +118,8 @@
                                                       htmlAttributes: null)
                     </text>),
                     grid.Column(header: "Apps", format: model => model.Apps),
-                    grid.Column("Goals", format: model => model.Goals),
-                    grid.Column("Assists", format: model => model.Assists)
+                    grid.Column(header: "Goals", format: model => model.Goals),
+                    grid.Column(header: "Assists", format: model => model.Assists)
                     )
                 )
 
@@ -127,7 +128,7 @@
                     Response.Cookies["Id"].Expires = @DateTime.Now.AddMinutes(20);
                 }
             </div>
-        }
+                    }
     </section>
 }
 else
