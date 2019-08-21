@@ -44,7 +44,8 @@ namespace SportStatistics.Controllers
                 int fedSeason = Convert.ToInt32(collection[1]);
                 string season = collection[0];
                 List<Standings> standings = new ServiceDatabase().CreateModelStandings(null, null, season, fedSeason);
-                return View(standings.ToList());
+                List<Standings> SortedList = standings.OrderByDescending(o => o.Point).ToList();
+                return View(SortedList.ToList());
             }
             catch (Exception e)
             {
